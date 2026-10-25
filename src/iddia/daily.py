@@ -31,7 +31,7 @@ UK = ZoneInfo("Europe/London")          # football-data saatleri İngiltere saat
 KEY = ["league", "date", "home", "away"]
 PRED_COLUMNS = KEY + ["season", "kickoff", "p_h", "p_d", "p_a", "pick",
                       "odds_h", "odds_d", "odds_a", "model", "predicted_at",
-                      "p_o25", "p_kg", "odds_o25", "odds_u25"]
+                      "p_o25", "p_kg", "odds_o25", "odds_u25", "data_through"]
 BACKFILL = "geriye-donuk"              # predicted_at değeri: sezon başından kurulum gününe kadarki maçlar
 RESULT_GRACE_DAYS = 4                   # bu kadar gün sonuç gelmezse maç ertelenmiş sayılır
 
@@ -123,7 +123,13 @@ def predict(fixtures: pd.DataFrame, matches: pd.DataFrame, model: Predictor, now
     out["p_o25"] = model.goals["ust25"].predict(X).round(4)
     out["p_kg"] = model.goals["kg"].predict(X).round(4)
     out["predicted_at"] = now.strftime("%Y-%m-%dT%H:%MZ")
+    out["data_through"] = out["league"].map(data_through(matches))
     return out[PRED_COLUMNS]
+
+
+def data_through(matches: pd.DataFrame) -> dict[str, str]:
+    """Her lig için verideki son sonuçlu maçın tarihi: tahmin hangi veriyle yapıldı."""
+    return matches.groupby("league")["date"].max().dt.strftime("%Y-%m-%d").to_dict()
 
 
 def backfill(matches: pd.DataFrame, season: str) -> pd.DataFrame:
@@ -268,6 +274,7 @@ def main() -> None:
         "updated_at": now.strftime("%Y-%m-%dT%H:%MZ"),
         "model": MODEL,
         "leagues": LEAGUES,
+        "data_through": data_through(matches),
         "stats": stats(scored, now),
         "matches": to_records(scored),
     }

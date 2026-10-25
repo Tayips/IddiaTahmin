@@ -63,3 +63,31 @@ def test_fixture_times_converted_from_uk_to_utc(tmp_path):
     assert fx.loc[0, "kickoff"] == "2026-10-24T16:00Z"   # yaz saati: İngiltere UTC+1
     assert fx.loc[1, "kickoff"] == "2026-10-26T18:30Z"   # kış saati: İngiltere UTC+0
     assert fx.loc[0, "season"] == "2627"
+
+
+def test_predictions_are_valid_probabilities_and_record_data_cutoff():
+    from iddia.daily import fit, predict
+    from tests.test_features import with_stats
+    from tests.test_models import synthetic
+
+    matches = with_stats(synthetic(n_seasons=3)).assign(pre_o25=1.9, pre_u25=1.9)
+    fixtures = pd.DataFrame({
+        "league": "X", "date": ["2026-10-26", "2026-10-27"], "kickoff": ["2026-10-26T17:00Z", "2026-10-27T17:00Z"],
+        "home": ["A", "F"], "away": ["F", "A"], "season": "0304",
+        "odds_h": [1.5, np.nan], "odds_d": [4.0, np.nan], "odds_a": [6.0, np.nan],
+        "odds_o25": [1.8, np.nan], "odds_u25": [2.0, np.nan],
+    })
+    out = predict(fixtures, matches, fit(matches), NOW)
+    p = out[["p_h", "p_d", "p_a"]].to_numpy()
+    assert ((p >= 0) & (p <= 1)).all()
+    np.testing.assert_allclose(p.sum(axis=1), 1, atol=1e-3)
+    assert out[["p_o25", "p_kg"]].apply(lambda c: c.between(0, 1)).all().all()
+    assert list(out["model"]) == ["form-piyasa-v2", "form-v2"]
+    assert (out["data_through"] == matches["date"].max().strftime("%Y-%m-%d")).all()
+
+
+def test_merge_keeps_one_row_per_match():
+    old = pd.concat([pred("A", "2026-10-26T17:00Z"), pred("B", "2026-10-20T17:00Z")])
+    new = pd.concat([pred("A", "2026-10-26T17:00Z", 0.6), pred("A", "2026-10-26T17:00Z", 0.6), pred("B", "2026-10-20T17:00Z")])
+    merged = merge_predictions(old, new.drop_duplicates(), NOW)
+    assert not merged.duplicated(["league", "date", "home", "away"]).any()

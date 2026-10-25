@@ -15,5 +15,5 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: pip install -e . pytest
+      - run: pip install -c constraints.txt -e . pytest
       - run: pytest -q
