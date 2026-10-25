@@ -77,6 +77,33 @@ table.perf tr:last-child td{border-bottom:0}
 .leg .r{font-family:var(--mono);font-size:13px;color:var(--muted);text-align:right}
 .coupon .foot{display:flex;justify-content:space-between;gap:8px;border-top:1px solid var(--line);padding-top:8px;font-size:14px}
 .coupon .foot b{font-family:var(--mono)}
+.match{cursor:pointer}
+.match:hover{border-color:var(--accent)}
+.match:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.more{font-size:13px;color:var(--accent);font-weight:600}
+#detail{display:grid;gap:12px;margin-top:20px}
+.back{border:0;background:none;color:var(--accent);font:600 15px var(--body);padding:4px 0;cursor:pointer;justify-self:start}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:grid;gap:10px}
+.panel h3{font-family:var(--display);font-size:15px;margin:0}
+.panel p{margin:0;font-size:14px}
+.cmp{display:grid;grid-template-columns:28px minmax(0,1fr) 56px 56px 60px;gap:8px;align-items:center;font-size:14px;font-variant-numeric:tabular-nums}
+.cmp .h{font-size:12px;color:var(--muted)}
+.cmp .num{text-align:right;font-family:var(--mono)}
+.bar{height:8px;border-radius:4px;background:var(--line);position:relative;overflow:hidden}
+.bar i{position:absolute;inset:0 auto 0 0;background:var(--accent);border-radius:4px}
+.bar b{position:absolute;top:-2px;bottom:-2px;width:2px;background:var(--fg)}
+.up{color:var(--ok)}.down{color:var(--bad)}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:640px){.two{grid-template-columns:1fr}}
+.form{display:flex;gap:4px}
+.form span{font-family:var(--mono);font-size:12px;font-weight:600;width:22px;height:22px;display:grid;place-items:center;border-radius:4px}
+.games{display:grid;gap:4px;font-size:13px;font-variant-numeric:tabular-nums}
+.games div{display:grid;grid-template-columns:52px 18px minmax(0,1fr) 44px;gap:6px}
+.games .v{color:var(--muted)}
+.games .sc{text-align:right;font-family:var(--mono)}
+dl.meta{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 12px;margin:0;font-size:13px}
+dl.meta dt{color:var(--muted)}
+dl.meta dd{margin:0}
 .warn{border:1px solid var(--bad);border-radius:8px;padding:10px 12px;margin:0 0 16px;font-size:14px}
 footer{margin-top:40px;font-size:13px;color:var(--muted)}
 @media (max-width:640px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
@@ -107,6 +134,7 @@ footer{margin-top:40px;font-size:13px;color:var(--muted)}
 </div>
 
 <div id="list"></div>
+<div id="detail" hidden></div>
 
 <footer>Tahminler bilgi amaçlıdır, bahis tavsiyesi değildir. 18 yaş altına bahis yasaktır. Veri: football-data.co.uk, football-data.org.</footer>
 </div>
@@ -213,11 +241,12 @@ function card(m) {
   const backfilled = m.predicted_at === "geriye-donuk";
   const when = backfilled ? TR.format(k) : `${TR.format(k)} · ${TRT.format(k)}`;
   const mid = m.status === "bitti" ? `${m.fthg} - ${m.ftag}` : "vs";
-  return `<article class="match">
+  return `<article class="match" tabindex="0" role="link" data-key="${esc(matchKey(m))}" aria-label="${esc(m.home)} - ${esc(m.away)} analizi">
     <div class="top"><span><span class="lg">${esc(DATA.leagues[m.league])}</span> ${when}</span>${badge(m)}</div>
     <div class="teams"><span class="a">${esc(m.home)}</span><span class="score">${mid}</span><span>${esc(m.away)}</span></div>
     <div class="probs">${["H", "D", "A"].map(o => probCell(m, o)).join("")}</div>
     ${goalChips(m)}
+    <span class="more">Analizi gör →</span>
   </article>`;
 }
 
@@ -330,6 +359,132 @@ function couponView() {
     ${past.length ? `<div class="list" style="margin-top:8px">${past.map(couponCard).join("")}</div>` : ""}`;
 }
 
+const matchKey = m => [m.league, m.date, m.home, m.away].join("|");
+const RES_CLASS = {G: "ok", B: "wait", M: "bad"};
+const PICK_NAME = {H: "ev sahibine", D: "beraberliğe", A: "deplasmana"};
+const PICK_WIN = {H: "ev sahibi kazandı", D: "maç berabere bitti", A: "deplasman kazandı"};
+const num1 = v => v == null ? "–" : v.toFixed(1).replace(".", ",");
+const pts = v => `${v > 0 ? "+" : ""}${(v * 100).toFixed(1).replace(".", ",")}`;
+
+function openMatch(key) { location.hash = "mac=" + encodeURIComponent(key); }
+
+function probPanel(m) {
+  const hasMk = m.mk_h != null;
+  const rows = ["H", "D", "A"].map(o => {
+    const p = m["p_" + o.toLowerCase()], q = hasMk ? m["mk_" + o.toLowerCase()] : null, d = q == null ? null : p - q;
+    return `<span class="num" style="text-align:left">${OUT[o]}</span>
+      <div class="bar" title="Model ${pct(p)}${q == null ? "" : ", piyasa " + pct(q)}"><i style="width:${(p * 100).toFixed(1)}%"></i>${q == null ? "" : `<b style="left:${(q * 100).toFixed(1)}%"></b>`}</div>
+      <span class="num">${pct(p)}</span><span class="num">${q == null ? "–" : pct(q)}</span>
+      <span class="num ${d == null ? "" : d > 0.005 ? "up" : d < -0.005 ? "down" : ""}">${d == null ? "–" : pts(d)}</span>`;
+  }).join("");
+  let text;
+  if (!hasMk) text = "Bu maç için bahis oranı yok, bu yüzden model yalnızca form ve Elo verisiyle tahmin etti.";
+  else {
+    const diffs = ["H", "D", "A"].map(o => [o, m["p_" + o.toLowerCase()] - m["mk_" + o.toLowerCase()]]);
+    const [o, d] = diffs.reduce((a, b) => Math.abs(b[1]) > Math.abs(a[1]) ? b : a);
+    text = Math.abs(d) < 0.02
+      ? "Model piyasayla hemen hemen aynı düşünüyor; fark hiçbir sonuçta 2 puanı geçmiyor."
+      : `En büyük fark: model ${PICK_NAME[o]} piyasadan ${Math.abs(d * 100).toFixed(1).replace(".", ",")} puan ${d > 0 ? "daha fazla" : "daha az"} şans veriyor.`;
+  }
+  return `<section class="panel"><h3>Olasılıklar: model ve piyasa</h3>
+    <div class="cmp"><span></span><span class="h">Çubuk: model · çizgi: piyasa</span><span class="h num">Model</span><span class="h num">Piyasa</span><span class="h num">Fark</span>${rows}</div>
+    <p>${text}</p>
+    <p class="explain">Piyasa olasılığı, ortalama bahis oranlarından bahisçi payı (marj) çıkarılarak hesaplanır. Fark puan cinsindendir.</p></section>`;
+}
+
+function basisPanel(m) {
+  const meta = `<dl class="meta">
+    <dt>Model</dt><dd>${esc(m.model)}${m.model === "form-v2" ? " (oran yoktu, yalnızca form)" : ""}</dd>
+    <dt>Tahmin zamanı</dt><dd>${m.predicted_at === "geriye-donuk" ? "Geriye dönük (takip başlamadan önceki maç)" : `${TR.format(new Date(m.predicted_at))} ${TRT.format(new Date(m.predicted_at))}`}</dd>
+    <dt>Kullanılan veri</dt><dd>${m.data_through ? `${DAY.format(new Date(m.data_through))} tarihine kadar oynanan maçlar` : "–"}</dd>
+    <dt>Sayfa güncellemesi</dt><dd>${TR.format(new Date(DATA.updated_at))} ${TRT.format(new Date(DATA.updated_at))}</dd></dl>`;
+  if (m.f_elo == null) {
+    return `<section class="panel"><h3>Tahmin neye dayanıyor</h3>
+      <p>Bu tahmin ayrıntılı kayıt tutulmaya başlanmadan önce yapıldı; dayandığı form verileri saklanmadı.</p>${meta}</section>`;
+  }
+  const side = m.f_elo >= 0 ? m.home : m.away;
+  const row = (label, h, a, better) => {
+    const hb = better === "high" ? h > a : h < a;
+    return `<tr><td>${label}</td><td style="${hb ? "font-weight:700" : ""}">${num1(h)}</td><td style="${!hb ? "font-weight:700" : ""}">${num1(a)}</td></tr>`;
+  };
+  return `<section class="panel"><h3>Tahmin neye dayanıyor</h3>
+    <p>Güç puanı (Elo) farkı, iç saha avantajı dahil <b>${m.f_elo > 0 ? "+" : ""}${Math.round(m.f_elo)}</b>: ${Math.abs(m.f_elo) < 25 ? "takımlar denk" : `${esc(side)} daha güçlü`}. 100 puan fark, kabaca ev sahibi kazanma ihtimalinde 10–12 puanlık farka denk gelir.</p>
+    <table class="perf"><thead><tr><th scope="col">Son maçların ağırlıklı ortalaması</th><th scope="col">${esc(m.home)}</th><th scope="col">${esc(m.away)}</th></tr></thead><tbody>
+      ${row("Attığı gol", m.f_h_gf, m.f_a_gf, "high")}
+      ${row("Yediği gol", m.f_h_ga, m.f_a_ga, "low")}
+      ${row("İsabetli şut", m.f_h_sot, m.f_a_sot, "high")}
+      ${row("Dinlenme günü", m.f_h_rest, m.f_a_rest, "high")}
+    </tbody></table>
+    <p class="explain">Ortalamalarda yakın maçların ağırlığı daha fazladır (yarı ömür 6 maç). Kalın değer o satırda daha iyi olan takımı gösterir.${m.mk_h != null ? " Model bunlara ek olarak piyasa olasılıklarını da kullanır." : ""}</p>
+    ${meta}</section>`;
+}
+
+function teamBlock(m, team, venue) {
+  const t = (DATA.teams || {})[`${m.league}|${team}`];
+  if (!t) return `<div><h3>${esc(team)}</h3><p class="explain">Bu sezon için veri yok.</p></div>`;
+  const r = venue === "H" ? t.ic : t.dis;
+  const games = t.son.map(g => `<div><span class="v">${DAY.format(new Date(g.date))}</span><span class="v">${g.venue === "H" ? "İ" : "D"}</span><span>${esc(g.opp)}</span><span class="sc">${g.gf}-${g.ga}</span></div>`).join("");
+  return `<div style="display:grid;gap:8px"><h3>${esc(team)}</h3>
+    <div class="form" aria-label="Son maçlar, en yeni solda">${t.son.map(g => `<span class="${RES_CLASS[g.res]}" title="${esc(g.opp)} ${g.gf}-${g.ga}">${g.res}</span>`).join("")}</div>
+    <div class="games">${games}</div>
+    <p class="explain">Bu sezon ${venue === "H" ? "iç sahada" : "deplasmanda"}: ${r.p} maç, ${r.g}G ${r.b}B ${r.m}M, gol ${r.gf}-${r.ga}</p></div>`;
+}
+
+function similarPanel(m) {
+  const B = DATA.benzer;
+  if (!B) return "";
+  const p = Math.max(m.p_h, m.p_d, m.p_a);
+  const bins = B.bins.filter(b => b.pick === m.pick);
+  let i = bins.findIndex(b => p >= b.lo && p < b.hi);
+  if (i < 0) return "";
+  let lo = i, hi = i, n = bins[i].n;
+  while (n < 30 && (lo > 0 || hi < bins.length - 1)) {      // az örnekli kovayı komşularıyla genişlet
+    if (lo > 0) lo -= 1;
+    if (hi < bins.length - 1) hi += 1;
+    n = bins.slice(lo, hi + 1).reduce((s, b) => s + b.n, 0);
+  }
+  const part = bins.slice(lo, hi + 1), hit = part.reduce((s, b) => s + b.hit, 0);
+  const range = `%${Math.round(part[0].lo * 100)}–${Math.round(part.at(-1).hi * 100)}`;
+  return `<section class="panel"><h3>Benzer durumlarda geçmiş başarı</h3>
+    <p>Son 5 sezonda model ${PICK_NAME[m.pick]} <b>${range}</b> şans verdiğinde, <b>${n}</b> maçın <b>${hit}</b>'inde (${pct(hit / n)}) ${PICK_WIN[m.pick]}.</p>
+    <p class="explain">Bu maçta model ${PICK_NAME[m.pick]} ${pct(p)} veriyor. Tablo, aynı modelin her sezonu yalnızca önceki sezonlarla eğitilerek yaptığı ${B.n} tahminden hesaplandı.</p></section>`;
+}
+
+function detailView(key) {
+  const m = DATA.matches.find(x => matchKey(x) === key);
+  const el = document.getElementById("detail");
+  if (!m) { el.innerHTML = `<button type="button" class="back">← Tüm maçlar</button><p class="empty">Bu maç bulunamadı.</p>`; return; }
+  const k = new Date(m.kickoff);
+  const mid = m.status === "bitti" ? `${m.fthg} - ${m.ftag}` : "vs";
+  el.innerHTML = `<button type="button" class="back">← Tüm maçlar</button>
+    <section class="panel">
+      <div class="top"><span><span class="lg">${esc(DATA.leagues[m.league])}</span> ${TR.format(k)} · ${TRT.format(k)}</span>${badge(m)}</div>
+      <div class="teams"><span class="a">${esc(m.home)}</span><span class="score">${mid}</span><span>${esc(m.away)}</span></div>
+      ${goalChips(m)}
+    </section>
+    ${probPanel(m)}
+    ${basisPanel(m)}
+    <section class="panel"><h3>Takımların son maçları</h3><div class="two">${teamBlock(m, m.home, "H")}${teamBlock(m, m.away, "A")}</div>
+      <p class="explain">G galibiyet, B beraberlik, M mağlubiyet; İ iç saha, D deplasman. En yeni maç en üstte.</p></section>
+    ${similarPanel(m)}`;
+}
+
+function route() {
+  const hit = location.hash.match(/^#mac=(.+)$/);
+  const detail = document.getElementById("detail");
+  const main = ["stats", "note", "list"].map(id => document.getElementById(id)).concat([document.querySelector(".controls")]);
+  if (hit) {
+    detailView(decodeURIComponent(hit[1]));
+    detail.hidden = false;
+    main.forEach(e => (e.hidden = true));
+    window.scrollTo(0, 0);
+  } else {
+    detail.hidden = true;
+    main.forEach(e => (e.hidden = false));
+    render();
+  }
+}
+
 function render() {
   statsBlock();
   document.getElementById("days").hidden = state.view !== "up";
@@ -395,7 +550,12 @@ function setup() {
       render();
     });
   }
-  render();
+  const list = document.getElementById("list");
+  list.addEventListener("click", e => { const c = e.target.closest(".match[data-key]"); if (c) openMatch(c.dataset.key); });
+  list.addEventListener("keydown", e => { const c = e.target.closest(".match[data-key]"); if (c && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); openMatch(c.dataset.key); } });
+  document.getElementById("detail").addEventListener("click", e => { if (e.target.closest(".back")) history.length > 1 && location.hash ? history.back() : (location.hash = ""); });
+  window.addEventListener("hashchange", route);
+  route();
 }
 setup();
 </script>
