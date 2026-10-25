@@ -4,9 +4,6 @@ name: Faz 3 ölçüm
 # ölçer ve sonuçları dala geri yazar. Anahtar depo sırrı API_FOOTBALL_KEY'den gelir.
 on:
   workflow_dispatch:
-  push:
-    branches: ["claude/**"]
-    paths: ["src/iddia/apifootball.py", ".github/workflows/faz3.yml"]
 
 permissions:
   contents: write
@@ -28,9 +25,9 @@ jobs:
       - name: Sakat/cezalı listeleri
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-        run: python -m iddia.apifootball --seasons 2021 2022 2023 2024 2025 | tee reports/faz3_apifootball.log
+        run: python -m iddia.apifootball --seasons 2022 2023 2024   # ücretsiz planın açtığı sezonlar
       - name: Karşılaştırma
-        run: python -m iddia.compare | tee reports/faz3_compare.log
+        run: python -m iddia.compare
       - name: Sonuçları kaydet
         run: |
           git config user.name "github-actions[bot]"
