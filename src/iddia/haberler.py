@@ -29,7 +29,7 @@ PAUSE = 1.0                             # istekler arası bekleme (saniye)
 
 LANG = {
     "T1": {"hl": "tr", "gl": "TR", "ceid": "TR:tr",
-           "terms": '(sakat OR sakatlık OR cezalı OR "kadroda yok" OR "ilk 11" OR kadro)'},
+           "terms": '(sakat OR sakatlık OR cezalı OR "kadroda yok" OR "ilk 11" OR kadro) -voleybol -basketbol'},
     "E0": {"hl": "en-GB", "gl": "GB", "ceid": "GB:en",
            "terms": '(injury OR injured OR suspended OR "team news" OR "ruled out" OR doubt)'},
 }
@@ -43,6 +43,10 @@ SEARCH_NAMES = {
     "Newcastle": "Newcastle United", "Wolves": "Wolverhampton", "Sheffield Weds": "Sheffield Wednesday",
 }
 # Eksik oyuncuya işaret eden kelimeler (başlıkta geçerse haber işaretlenir)
+# Kulübün başka branşları ya da rakibin rakibi hakkındaki haberler (aynı kulüp adı geçse de konu dışı)
+OFF_TOPIC = re.compile(
+    r"voleybol|basketbol|basket|vakıfbank|sultanlar|euroleague|kadın futbol|futsal|u19|u21|"
+    r"rakibi|women|wsl|academy|under-21|u21s|basketball", re.IGNORECASE)
 ABSENCE = re.compile(
     r"sakat|cezal|kadroda yok|forma giyemeyecek|oynayamayacak|kadro dışı|ameliyat|"
     r"injur|ruled out|suspend|sidelined|miss(es|ing)? |doubt|blow|setback|out for", re.IGNORECASE)
@@ -62,7 +66,7 @@ def parse(xml: str, now: datetime) -> list[dict]:
             when = parsedate_to_datetime(pub)
         except (TypeError, ValueError):
             continue
-        if now - when > MAX_AGE or not link.startswith("https://"):
+        if now - when > MAX_AGE or not link.startswith("https://") or OFF_TOPIC.search(title):
             continue
         # Google başlığın sonuna " - Kaynak" ekler
         if source and title.endswith(f" - {source}"):

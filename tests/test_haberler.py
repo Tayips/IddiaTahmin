@@ -13,12 +13,16 @@ def rss(*items):
     return f"<rss><channel>{body}</channel></rss>"
 
 
-def test_parse_strips_source_flags_absence_and_drops_old_or_unsafe_links():
+def test_parse_strips_source_flags_absence_and_drops_old_unsafe_or_off_topic():
     xml = rss(
         ("Galatasaray'da Icardi sakatlandı", "Fanatik", "https://news.google.com/a", "Sun, 25 Oct 2026 09:00:00 GMT"),
         ("Galatasaray derbiye hazır", "NTV", "https://news.google.com/b", "Sat, 24 Oct 2026 20:00:00 GMT"),
         ("Eski haber", "NTV", "https://news.google.com/c", "Mon, 19 Oct 2026 20:00:00 GMT"),
         ("Kötü bağlantı", "NTV", "javascript:alert(1)", "Sun, 25 Oct 2026 10:00:00 GMT"),
+        ("Sakatlık sonrası gözyaşları! VakıfBank-Galatasaray voleybol maçı", "Sözcü", "https://news.google.com/d",
+         "Sun, 25 Oct 2026 10:00:00 GMT"),
+        ("Fenerbahçe'nin rakibi Liverpool'a sakatlık şoku", "Takvim", "https://news.google.com/e",
+         "Sun, 25 Oct 2026 10:00:00 GMT"),
     )
     items = haberler.parse(xml, NOW)
     assert [x["title"] for x in items] == ["Galatasaray'da Icardi sakatlandı", "Galatasaray derbiye hazır"]
