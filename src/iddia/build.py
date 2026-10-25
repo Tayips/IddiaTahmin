@@ -16,6 +16,11 @@ ODDS_CANDIDATES = [
     ("B365H", "B365D", "B365A"),
 ]
 
+# Aynı kulübün yıllar içindeki farklı yazımları; değer, güncel adıdır.
+TEAM_ALIASES = {
+    "Erzurum BB": "Erzurumspor",
+}
+
 COLUMNS = ["date", "league", "season", "home", "away", "fthg", "ftag", "ftr",
            "odds_h", "odds_d", "odds_a"]
 
@@ -33,15 +38,35 @@ def pick_odds(df: pd.DataFrame) -> pd.DataFrame:
     return odds
 
 
+def read_csv(path: Path) -> pd.DataFrame:
+    """Yeni dosyalar BOM'lu UTF-8, eskileri latin-1."""
+    try:
+        return pd.read_csv(path, encoding="utf-8-sig", on_bad_lines="skip")
+    except UnicodeDecodeError:
+        return pd.read_csv(path, encoding="latin-1", on_bad_lines="skip")
+
+
+def parse_dates(col: pd.Series) -> pd.Series:
+    """Eski sezonlarda 'gg/aa/yy', yenilerde 'gg/aa/yyyy'."""
+    long = pd.to_datetime(col, format="%d/%m/%Y", errors="coerce")
+    short = pd.to_datetime(col, format="%d/%m/%y", errors="coerce")
+    return long.fillna(short)
+
+
+def team_name(name: str) -> str:
+    name = name.strip()
+    return TEAM_ALIASES.get(name, name)
+
+
 def load_season(path: Path, league: str, season: str) -> pd.DataFrame:
-    df = pd.read_csv(path, encoding="latin-1", on_bad_lines="skip")
+    df = read_csv(path)
     df = df.dropna(subset=["HomeTeam", "AwayTeam", "FTHG", "FTAG"])
     out = pd.DataFrame({
-        "date": pd.to_datetime(df["Date"], dayfirst=True, errors="coerce"),
+        "date": parse_dates(df["Date"]),
         "league": league,
         "season": season,
-        "home": df["HomeTeam"].str.strip(),
-        "away": df["AwayTeam"].str.strip(),
+        "home": df["HomeTeam"].map(team_name),
+        "away": df["AwayTeam"].map(team_name),
         "fthg": df["FTHG"].astype(int),
         "ftag": df["FTAG"].astype(int),
         "ftr": df["FTR"],
