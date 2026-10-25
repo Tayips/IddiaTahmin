@@ -106,8 +106,11 @@ def update(old: dict, preds: pd.DataFrame, now: datetime, fetch=fetch_team) -> d
             sides[side] = cache[k]
         if sides["home"] is None and sides["away"] is None:
             continue                      # ikisi de okunamadıysa eski kaydı koru
-        out[match_key(r)] = {"fetched_at": stamp, "kickoff": r["kickoff"],
-                             "home": sides["home"] or [], "away": sides["away"] or []}
+        key = match_key(r)
+        out[key] = {"fetched_at": stamp, "kickoff": r["kickoff"],
+                    "home": sides["home"] or [], "away": sides["away"] or []}
+        if "ai" in old.get(key, {}):
+            out[key]["ai"] = old[key]["ai"]       # Gemini analizi başlıklar değişince yenilenir
     print(f"Haberler: {len(soon)} maç için güncellendi")
     return out
 
