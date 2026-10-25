@@ -17,7 +17,8 @@ import pandas as pd
 from iddia import download, metrics, site
 from iddia.build import build, read_csv, team_name
 from iddia.evaluate import drop_forfeits
-from iddia.features import FEATURES_NO_MARKET, MARKET_FEATURES, build_features
+from iddia.features import FEATURES_NO_MARKET, GOAL_FEATURES, MARKET_FEATURES, build_features
+from iddia.goals import TARGETS, BinaryModel
 from iddia.models.elo import Elo, OrderedLogit
 from iddia.models.ml import Model
 
@@ -29,7 +30,8 @@ SITE_DIR = Path("docs")
 UK = ZoneInfo("Europe/London")          # football-data saatleri İngiltere saatidir
 KEY = ["league", "date", "home", "away"]
 PRED_COLUMNS = KEY + ["season", "kickoff", "p_h", "p_d", "p_a", "pick",
-                      "odds_h", "odds_d", "odds_a", "model", "predicted_at"]
+                      "odds_h", "odds_d", "odds_a", "model", "predicted_at",
+                      "p_o25", "p_kg", "odds_o25", "odds_u25"]
 BACKFILL = "geriye-donuk"              # predicted_at değeri: sezon başından kurulum gününe kadarki maçlar
 RESULT_GRACE_DAYS = 4                   # bu kadar gün sonuç gelmezse maç ertelenmiş sayılır
 
@@ -52,6 +54,8 @@ def load_fixtures(path: Path = download.FIXTURES_PATH) -> pd.DataFrame:
         "odds_h": pd.to_numeric(df.get("AvgH"), errors="coerce"),
         "odds_d": pd.to_numeric(df.get("AvgD"), errors="coerce"),
         "odds_a": pd.to_numeric(df.get("AvgA"), errors="coerce"),
+        "odds_o25": pd.to_numeric(df.get("Avg>2.5"), errors="coerce"),
+        "odds_u25": pd.to_numeric(df.get("Avg<2.5"), errors="coerce"),
     })
     out["season"] = local.dt.date.map(season_of)
     return out.reset_index(drop=True)
@@ -64,6 +68,7 @@ class Predictor:
     diffs: pd.Series
     with_market: Model
     form_only: Model
+    goals: dict[str, BinaryModel]
 
 
 def fit(matches: pd.DataFrame) -> Predictor:
@@ -77,6 +82,7 @@ def fit(matches: pd.DataFrame) -> Predictor:
         diffs=diffs,
         with_market=Model("lr", FEATURES_NO_MARKET + MARKET_FEATURES).fit(X[has_mk], y[has_mk]),
         form_only=Model("lr", FEATURES_NO_MARKET).fit(X, y),
+        goals={name: BinaryModel(GOAL_FEATURES).fit(X, fn(matches)) for name, fn in TARGETS.items()},
     )
 
 
@@ -91,6 +97,8 @@ def fixture_features(fixtures: pd.DataFrame, matches: pd.DataFrame, model: Predi
         "pre_h": fixtures["odds_h"].to_numpy(),
         "pre_d": fixtures["odds_d"].to_numpy(),
         "pre_a": fixtures["odds_a"].to_numpy(),
+        "pre_o25": fixtures["odds_o25"].to_numpy(),
+        "pre_u25": fixtures["odds_u25"].to_numpy(),
     })
     combined = pd.concat([matches, future], ignore_index=True)
     future_idx = combined.index[len(matches):]
@@ -112,6 +120,8 @@ def predict(fixtures: pd.DataFrame, matches: pd.DataFrame, model: Predictor, now
     out[["p_h", "p_d", "p_a"]] = probs.round(4)
     out["pick"] = np.array(metrics.OUTCOMES)[probs.argmax(axis=1)]
     out["model"] = np.where(has_mk, MODEL, MODEL_NO_MARKET)
+    out["p_o25"] = model.goals["ust25"].predict(X).round(4)
+    out["p_kg"] = model.goals["kg"].predict(X).round(4)
     out["predicted_at"] = now.strftime("%Y-%m-%dT%H:%MZ")
     return out[PRED_COLUMNS]
 
@@ -147,7 +157,7 @@ def backfill(matches: pd.DataFrame, season: str) -> pd.DataFrame:
     df = pd.concat(rows, ignore_index=True)
     df["model"] = "elo-v1"
     df["predicted_at"] = BACKFILL
-    return df[PRED_COLUMNS]
+    return df.reindex(columns=PRED_COLUMNS)
 
 
 def merge_predictions(old: pd.DataFrame, new: pd.DataFrame, now: datetime, first_run: bool = False) -> pd.DataFrame:
@@ -187,6 +197,10 @@ def score(preds: pd.DataFrame, matches: pd.DataFrame, now: datetime) -> pd.DataF
     fav = np.where(has_odds, np.array(metrics.OUTCOMES)[np.nan_to_num(odds, nan=np.inf).argmin(axis=1)], None)
     df["odds_pick"] = fav
     df["odds_correct"] = np.where((df["status"] == "bitti") & has_odds, df["odds_pick"] == df["ftr"], np.nan)
+    goals = df["fthg"] + df["ftag"]
+    done = (df["status"] == "bitti") & df["p_o25"].notna()
+    df["o25_correct"] = np.where(done, (df["p_o25"] >= 0.5) == (goals > 2.5), np.nan)
+    df["kg_correct"] = np.where(done, (df["p_kg"] >= 0.5) == ((df["fthg"] > 0) & (df["ftag"] > 0)), np.nan)
     return df
 
 
@@ -219,7 +233,8 @@ def stats(scored: pd.DataFrame, now: datetime) -> dict:
 
 
 def to_records(df: pd.DataFrame) -> list[dict]:
-    cols = PRED_COLUMNS + ["fthg", "ftag", "ftr", "status", "correct", "odds_pick", "odds_correct"]
+    cols = PRED_COLUMNS + ["fthg", "ftag", "ftr", "status", "correct", "odds_pick", "odds_correct",
+                           "o25_correct", "kg_correct"]
     out = df[cols].astype(object).where(df[cols].notna(), None)
     return out.to_dict(orient="records")
 
@@ -241,6 +256,7 @@ def main() -> None:
     fixtures = load_fixtures()
     first_run = not PREDICTIONS.exists()
     old = backfill(matches, season_of(now.date())) if first_run else pd.read_csv(PREDICTIONS)
+    old = old.reindex(columns=PRED_COLUMNS)   # eski kayıtlarda yeni sütunlar boş kalır
     preds = merge_predictions(old, predict(fixtures, matches, model, now), now, first_run)
     PREDICTIONS.parent.mkdir(parents=True, exist_ok=True)
     preds.to_csv(PREDICTIONS, index=False)

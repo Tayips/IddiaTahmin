@@ -32,6 +32,7 @@ FORM_FEATURES = [f"{side}_{stat}" for side in ("h", "a") for stat in TEAM_STATS 
 FEATURES_NO_MARKET = ["elo_diff", "is_t1", *FORM_FEATURES, "h_rest", "a_rest",
                       "gd_form_diff", "sot_form_diff"]
 MARKET_FEATURES = ["mk_h", "mk_a", "mk_logit"]
+GOAL_FEATURES = FEATURES_NO_MARKET + MARKET_FEATURES + ["mk_o25", "goal_form_sum"]
 # Yalnızca xG geçmişi olan maçlarda anlamlı (Premier Lig 2014/15+, Süper Lig 2026/27+).
 # Takım bazlı xG ortalamalarının hepsini eklemek modeli kötüleştirdi; tek fark özelliği yeterli (reports/faz3.md).
 XG_FEATURES = ["xg_form_diff"]
@@ -74,6 +75,14 @@ def market(df: pd.DataFrame, cols=("pre_h", "pre_d", "pre_a")) -> pd.DataFrame:
     return out
 
 
+def market_ou(df: pd.DataFrame) -> pd.Series:
+    """Üst 2.5 için marjı orantılı temizlenmiş olasılık."""
+    if "pre_o25" not in df:
+        return pd.Series(np.nan, index=df.index, name="mk_o25")
+    inv_o, inv_u = 1 / df["pre_o25"], 1 / df["pre_u25"]
+    return (inv_o / (inv_o + inv_u)).rename("mk_o25")
+
+
 def build_features(df: pd.DataFrame, elo_diff: pd.Series) -> pd.DataFrame:
     feats = team_form(df)
     feats["elo_diff"] = elo_diff / 100.0
@@ -84,4 +93,5 @@ def build_features(df: pd.DataFrame, elo_diff: pd.Series) -> pd.DataFrame:
     for c in INJURY_FEATURES[:4]:
         feats[c] = df[c] if c in df else np.nan
     feats["out_diff"] = feats["out_h"] - feats["out_a"]
-    return feats.join(market(df))
+    feats["goal_form_sum"] = feats["h_gf"] + feats["h_ga"] + feats["a_gf"] + feats["a_ga"]
+    return feats.join(market(df)).join(market_ou(df))

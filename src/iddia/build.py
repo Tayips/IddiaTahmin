@@ -30,12 +30,19 @@ PRE_ODDS_CANDIDATES = [
     ("B365H", "B365D", "B365A"),
 ]
 
+# Maç öncesi Üst/Alt 2.5 gol oranları.
+PRE_OU_CANDIDATES = [
+    ("Avg>2.5", "Avg<2.5"),
+    ("BbAv>2.5", "BbAv<2.5"),
+    ("B365>2.5", "B365<2.5"),
+]
+
 # Maç istatistikleri: şut, isabetli şut, korner (Süper Lig'de 2017/18'den itibaren var).
 # xG football-data'da yalnızca 2026/27'den beri var; geçmiş Premier Lig xG'si Understat'tan gelir.
 STATS = {"HS": "hs", "AS": "as_", "HST": "hst", "AST": "ast", "HC": "hc", "AC": "ac", "HxG": "xg_h", "AxG": "xg_a"}
 
 COLUMNS = ["date", "league", "season", "home", "away", "fthg", "ftag", "ftr",
-           "odds_h", "odds_d", "odds_a", "pre_h", "pre_d", "pre_a", *STATS.values()]
+           "odds_h", "odds_d", "odds_a", "pre_h", "pre_d", "pre_a", "pre_o25", "pre_u25", *STATS.values()]
 
 
 def pick_odds(df: pd.DataFrame, candidates=ODDS_CANDIDATES, names=("odds_h", "odds_d", "odds_a")) -> pd.DataFrame:
@@ -86,6 +93,7 @@ def load_season(path: Path, league: str, season: str) -> pd.DataFrame:
     })
     out = out.join(pick_odds(df))
     out = out.join(pick_odds(df, PRE_ODDS_CANDIDATES, ("pre_h", "pre_d", "pre_a")))
+    out = out.join(pick_odds(df, PRE_OU_CANDIDATES, ("pre_o25", "pre_u25")))
     for src, dst in STATS.items():
         out[dst] = pd.to_numeric(df[src], errors="coerce") if src in df else float("nan")
     return out[COLUMNS]

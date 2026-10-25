@@ -54,6 +54,11 @@ h2{font-family:var(--display);font-size:15px;font-weight:700;color:var(--muted);
 .ok{background:var(--ok-soft);color:var(--ok)}
 .bad{background:var(--bad-soft);color:var(--bad)}
 .wait{background:var(--wait-soft);color:var(--wait)}
+.goals{display:flex;flex-wrap:wrap;gap:6px;font-size:13px}
+.g{border:1px solid var(--line);border-radius:999px;padding:2px 10px;font-variant-numeric:tabular-nums;display:inline-flex;gap:6px;align-items:center}
+.g b{font-family:var(--mono);font-weight:600}
+.g.ok{border-color:var(--ok)}
+.g.bad{border-color:var(--bad)}
 .empty{color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:8px;padding:20px;text-align:center}
 footer{margin-top:40px;font-size:13px;color:var(--muted)}
 @media (max-width:640px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
@@ -108,7 +113,14 @@ function summary(rows) {
     n: done.length, correct,
     accuracy: done.length ? correct / done.length : null,
     odds: withOdds.length ? withOdds.filter(m => m.odds_correct).length / withOdds.length : null,
+    o25: rate(done, "o25_correct"),
+    kg: rate(done, "kg_correct"),
   };
+}
+
+function rate(rows, key) {
+  const r = rows.filter(m => m[key] != null);
+  return {n: r.length, correct: r.filter(m => m[key]).length};
 }
 
 function statsBlock() {
@@ -126,6 +138,8 @@ function statsBlock() {
   document.getElementById("stats").innerHTML = cells.map(([b, t]) => `<div class="stat"><b>${b}</b><span>${t}</span></div>`).join("");
   document.getElementById("note").textContent =
     (state.conf ? `Yalnızca modelin %${state.conf * 100} veya daha fazla emin olduğu maçlar gösteriliyor. ` : "") +
+    (s.o25.n ? `Üst/Alt 2.5: ${s.o25.correct} / ${s.o25.n} doğru (${pct(s.o25.correct / s.o25.n)}). ` : "") +
+    (s.kg.n ? `Karşılıklı gol: ${s.kg.correct} / ${s.kg.n} doğru (${pct(s.kg.correct / s.kg.n)}). ` : "") +
     `Canlı takip: ${live.n} maç, ${pct(live.accuracy)} başarı. ` +
     "Sezon başından takip başlangıcına kadarki maçlar geriye dönük hesaplandı; model her maçta yalnızca o maçtan önceki sonuçları gördü.";
 }
@@ -146,6 +160,16 @@ function badge(m) {
   return `<span class="chip">Tahmin: ${OUT[m.pick]}</span>`;
 }
 
+function goalChips(m) {
+  if (m.p_o25 == null) return "";
+  const chip = (p, yes, no, key) => {
+    const res = m[key] == null ? "" : m[key] ? "ok" : "bad";
+    const mark = res === "ok" ? " ✓" : res === "bad" ? " ✗" : "";
+    return `<span class="g ${res}">${p >= 0.5 ? yes : no} <b>${pct(Math.max(p, 1 - p))}</b>${mark}</span>`;
+  };
+  return `<div class="goals">${chip(m.p_o25, "Üst 2.5", "Alt 2.5", "o25_correct")}${chip(m.p_kg, "KG Var", "KG Yok", "kg_correct")}</div>`;
+}
+
 function card(m) {
   const k = new Date(m.kickoff);
   const backfilled = m.predicted_at === "geriye-donuk";
@@ -155,6 +179,7 @@ function card(m) {
     <div class="top"><span><span class="lg">${esc(DATA.leagues[m.league])}</span> ${when}</span>${badge(m)}</div>
     <div class="teams"><span class="a">${esc(m.home)}</span><span class="score">${mid}</span><span>${esc(m.away)}</span></div>
     <div class="probs">${["H", "D", "A"].map(o => probCell(m, o)).join("")}</div>
+    ${goalChips(m)}
   </article>`;
 }
 
