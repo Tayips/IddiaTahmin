@@ -3,6 +3,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from iddia import apifootball, understat
+
 RAW_DIR = Path("data/raw")
 OUT_PATH = Path("data/processed/matches.csv")
 
@@ -29,7 +31,8 @@ PRE_ODDS_CANDIDATES = [
 ]
 
 # Maç istatistikleri: şut, isabetli şut, korner (Süper Lig'de 2017/18'den itibaren var).
-STATS = {"HS": "hs", "AS": "as_", "HST": "hst", "AST": "ast", "HC": "hc", "AC": "ac"}
+# xG football-data'da yalnızca 2026/27'den beri var; geçmiş Premier Lig xG'si Understat'tan gelir.
+STATS = {"HS": "hs", "AS": "as_", "HST": "hst", "AST": "ast", "HC": "hc", "AC": "ac", "HxG": "xg_h", "AxG": "xg_a"}
 
 COLUMNS = ["date", "league", "season", "home", "away", "fthg", "ftag", "ftr",
            "odds_h", "odds_d", "odds_a", "pre_h", "pre_d", "pre_a", *STATS.values()]
@@ -111,6 +114,8 @@ def check(df: pd.DataFrame) -> list[str]:
 def build(raw_dir: Path = RAW_DIR) -> pd.DataFrame:
     frames = [load_season(p, p.parent.name, p.stem) for p in sorted(raw_dir.glob("*/*.csv"))]
     df = pd.concat(frames, ignore_index=True)
+    df = understat.add_xg(df, understat.load(raw_dir / "understat"))
+    df = apifootball.add_injuries(df, apifootball.load(df, raw_dir / "apifootball"))
     return df.sort_values(["date", "league", "home"]).reset_index(drop=True)
 
 

@@ -19,12 +19,24 @@ TEAM_STATS = {
     "sa": ("as_", "hs"),
     "stf": ("hst", "ast"),
     "sta": ("ast", "hst"),
+    "xgf": ("xg_h", "xg_a"),
+    "xga": ("xg_a", "xg_h"),
+    "npxgf": ("npxg_h", "npxg_a"),
+    "npxga": ("npxg_a", "npxg_h"),
+    "deep": ("deep_h", "deep_a"),
+    "ppda": ("ppda_h", "ppda_a"),
 }
+XG_STATS = ["xgf", "xga", "npxgf", "npxga", "deep", "ppda"]
 
-FORM_FEATURES = [f"{side}_{stat}" for side in ("h", "a") for stat in TEAM_STATS]
+FORM_FEATURES = [f"{side}_{stat}" for side in ("h", "a") for stat in TEAM_STATS if stat not in XG_STATS]
 FEATURES_NO_MARKET = ["elo_diff", "is_t1", *FORM_FEATURES, "h_rest", "a_rest",
                       "gd_form_diff", "sot_form_diff"]
 MARKET_FEATURES = ["mk_h", "mk_a", "mk_logit"]
+# Yalnızca xG geçmişi olan maçlarda anlamlı (Premier Lig 2014/15+, Süper Lig 2026/27+).
+# Takım bazlı xG ortalamalarının hepsini eklemek modeli kötüleştirdi; tek fark özelliği yeterli (reports/faz3.md).
+XG_FEATURES = ["xg_form_diff"]
+# API-Football: maçta eksik ve şüpheli oyuncu sayısı
+INJURY_FEATURES = ["out_h", "out_a", "doubt_h", "doubt_a", "out_diff"]
 
 
 def team_form(df: pd.DataFrame) -> pd.DataFrame:
@@ -34,7 +46,8 @@ def team_form(df: pd.DataFrame) -> pd.DataFrame:
         team = df["home"] if side == "h" else df["away"]
         part = pd.DataFrame({"idx": df.index, "league": df["league"], "team": team, "date": df["date"], "side": side})
         for stat, (hcol, acol) in TEAM_STATS.items():
-            part[stat] = df[hcol] if side == "h" else df[acol]
+            col = hcol if side == "h" else acol
+            part[stat] = df[col] if col in df else np.nan
         rows.append(part)
     long = pd.concat(rows).sort_values(["date", "idx"]).reset_index(drop=True)
     g = long.groupby(["league", "team"], sort=False)
@@ -67,4 +80,8 @@ def build_features(df: pd.DataFrame, elo_diff: pd.Series) -> pd.DataFrame:
     feats["is_t1"] = (df["league"] == "T1").astype(float)
     feats["gd_form_diff"] = (feats["h_gf"] - feats["h_ga"]) - (feats["a_gf"] - feats["a_ga"])
     feats["sot_form_diff"] = (feats["h_stf"] - feats["h_sta"]) - (feats["a_stf"] - feats["a_sta"])
+    feats["xg_form_diff"] = (feats["h_xgf"] - feats["h_xga"]) - (feats["a_xgf"] - feats["a_xga"])
+    for c in INJURY_FEATURES[:4]:
+        feats[c] = df[c] if c in df else np.nan
+    feats["out_diff"] = feats["out_h"] - feats["out_a"]
     return feats.join(market(df))

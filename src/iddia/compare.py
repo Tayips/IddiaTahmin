@@ -11,7 +11,7 @@ import pandas as pd
 from iddia import metrics
 from iddia.build import build
 from iddia.evaluate import drop_forfeits
-from iddia.features import FEATURES_NO_MARKET, MARKET_FEATURES, build_features
+from iddia.features import FEATURES_NO_MARKET, INJURY_FEATURES, MARKET_FEATURES, XG_FEATURES, build_features
 from iddia.models.baseline import closing_odds
 from iddia.models.elo import Elo, OrderedLogit
 from iddia.models.ml import Model
@@ -52,6 +52,48 @@ def run(df: pd.DataFrame, X: pd.DataFrame, test_seasons: list[str]) -> dict[str,
     return preds
 
 
+def ablation(df: pd.DataFrame, X: pd.DataFrame, test_seasons: list[str], rows: pd.Series,
+             base: list[str], extra: list[str]) -> dict[str, np.ndarray]:
+    """Aynı maçlarda (rows) eğitilip test edilen iki modeli kıyaslar: base ve base + extra.
+    Böylece fark yalnızca eklenen özellikten gelir."""
+    preds = {name: np.full((len(df), 3), np.nan) for name in ("temel", "ek")}
+    for season in test_seasons:
+        tr, te = rows & (df["season"] < season), rows & (df["season"] == season)
+        if not tr.any() or not te.any():
+            continue
+        for name, feats in (("temel", base), ("ek", base + extra)):
+            preds[name][te.to_numpy()] = Model("lr", feats).fit(X[tr], df.loc[tr, "ftr"]).predict(X[te])
+    return preds
+
+
+def ablation_table(df, preds, mask) -> pd.DataFrame:
+    mask = mask & np.isfinite(preds["temel"]).all(axis=1) & np.isfinite(preds["ek"]).all(axis=1)
+    out = []
+    for name, p in preds.items():
+        s = metrics.summary(p[mask.to_numpy()], df.loc[mask, "ftr"])
+        out.append({"model": name, **s})
+    return pd.DataFrame(out)
+
+
+def extras(df: pd.DataFrame, X: pd.DataFrame, test_seasons: list[str]) -> pd.DataFrame:
+    """xG (Premier Lig) ve sakat/cezalı oyuncu katkısı, piyasalı ve piyasasız."""
+    has_mk = X["mk_h"].notna()
+    tables = []
+    xg_rows = (df["league"] == "E0") & X["h_xgf"].notna() & X["a_xgf"].notna()
+    inj_rows = df["out_h"].notna()
+    for label, rows, extra in (("xG", xg_rows, XG_FEATURES), ("sakat/cezalı", inj_rows, INJURY_FEATURES)):
+        if not rows.any():
+            continue
+        seasons = [s for s in test_seasons if (rows & (df["season"] < s)).any()]
+        for market_label, base in (("form", FEATURES_NO_MARKET), ("form + piyasa", FEATURES_NO_MARKET + MARKET_FEATURES)):
+            r = rows & has_mk if "mk_h" in base else rows
+            t = ablation_table(df, ablation(df, X, seasons, r, base, extra), r & df["season"].isin(seasons))
+            t.insert(0, "temel_model", market_label)
+            t.insert(0, "ozellik", label)
+            tables.append(t)
+    return pd.concat(tables, ignore_index=True) if tables else pd.DataFrame()
+
+
 def table(df, preds, mask) -> pd.DataFrame:
     rows = []
     for group, gmask in [("Hepsi", mask)] + [(lg, mask & (df["league"] == lg)) for lg in sorted(df["league"].unique())]:
@@ -80,6 +122,11 @@ def main() -> None:
     pd.set_option("display.width", 140)
     print(f"Test sezonları: {', '.join(test_seasons)}  ({int(ok.sum())} maç)")
     print(t.round(4).to_string(index=False))
+    e = extras(df, X, test_seasons)
+    if not e.empty:
+        e.to_csv(REPORT_DIR / "faz3_ek_veri.csv", index=False)
+        print("\nEk veri katkısı (aynı maçlarda, temel vs temel + ek):")
+        print(e.round(4).to_string(index=False))
 
 
 if __name__ == "__main__":

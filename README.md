@@ -46,3 +46,13 @@ python -m iddia.compare   # yaklaşık 20 saniye
 ```
 
 Sonuçlar: [reports/faz2.md](reports/faz2.md). Günlük sistem bu fazdan itibaren `form-piyasa-v2` modelini kullanır.
+
+## Faz 3: xG ve sakat/cezalı oyuncu
+
+```bash
+python -m iddia.understat                                     # Premier Lig xG (Understat)
+API_FOOTBALL_KEY=... python -m iddia.apifootball --seasons 2023   # sakat/cezalı listeleri
+python -m iddia.compare
+```
+
+API-Football anahtarı hiçbir dosyaya yazılmaz; yalnızca `API_FOOTBALL_KEY` ortam değişkeninden okunur. Sonuçlar: [reports/faz3.md](reports/faz3.md).
