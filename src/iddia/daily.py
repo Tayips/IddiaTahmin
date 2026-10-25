@@ -213,7 +213,8 @@ def score(preds: pd.DataFrame, matches: pd.DataFrame, now: datetime, org: pd.Dat
 
 def _summary(done: pd.DataFrame) -> dict:
     if done.empty:
-        return {"n": 0, "correct": 0, "accuracy": None, "rps": None, "odds_accuracy": None}
+        return {"n": 0, "correct": 0, "accuracy": None, "rps": None, "brier": None, "log_loss": None,
+                "odds_accuracy": None}
     p = done[["p_h", "p_d", "p_a"]].to_numpy(dtype=float)
     with_odds = done["odds_correct"].dropna()
     return {
@@ -221,6 +222,8 @@ def _summary(done: pd.DataFrame) -> dict:
         "correct": int(done["correct"].sum()),
         "accuracy": round(float(done["correct"].mean()), 4),
         "rps": round(float(metrics.rps(p, done["ftr"]).mean()), 4),
+        "brier": round(float(metrics.brier(p, done["ftr"]).mean()), 4),
+        "log_loss": round(float(metrics.log_loss(p, done["ftr"]).mean()), 4),
         "odds_accuracy": round(float(with_odds.mean()), 4) if len(with_odds) else None,
     }
 

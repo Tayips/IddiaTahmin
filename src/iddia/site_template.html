@@ -20,6 +20,7 @@
   --accent:#5fc28d; --accent-soft:#1b3125; --ok:#62c98f; --ok-soft:#173023; --bad:#f08a82; --bad-soft:#391d1b; --wait:#e2b54d; --wait-soft:#33290f;
   color-scheme:dark}}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5}
 .wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right));padding-block:28px 64px}
 header h1{font-family:var(--display);font-weight:800;font-size:32px;margin:0;letter-spacing:-.01em}
@@ -60,6 +61,12 @@ h2{font-family:var(--display);font-size:15px;font-weight:700;color:var(--muted);
 .g.ok{border-color:var(--ok)}
 .g.bad{border-color:var(--bad)}
 .empty{color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:8px;padding:20px;text-align:center}
+table.perf{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden;font-size:14px;font-variant-numeric:tabular-nums}
+table.perf th,table.perf td{padding:7px 10px;text-align:right;border-bottom:1px solid var(--line)}
+table.perf th:first-child,table.perf td:first-child{text-align:left}
+table.perf th{font-weight:600;color:var(--muted);font-size:13px}
+table.perf tr:last-child td{border-bottom:0}
+.explain{font-size:13px;color:var(--muted);margin:6px 0 0}
 .warn{border:1px solid var(--bad);border-radius:8px;padding:10px 12px;margin:0 0 16px;font-size:14px}
 footer{margin-top:40px;font-size:13px;color:var(--muted)}
 @media (max-width:640px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
@@ -81,9 +88,11 @@ footer{margin-top:40px;font-size:13px;color:var(--muted)}
   <div class="seg" role="group" aria-label="Görünüm">
     <button type="button" id="v-up" aria-pressed="true">Yaklaşan</button>
     <button type="button" id="v-done" aria-pressed="false">Sonuçlar</button>
+    <button type="button" id="v-perf" aria-pressed="false">Performans</button>
   </div>
   <div class="seg" role="group" aria-label="Lig" id="leagues"></div>
   <div class="seg" role="group" aria-label="Güven" id="conf"></div>
+  <div class="seg" role="group" aria-label="Gün" id="days"></div>
 </div>
 
 <div id="list"></div>
@@ -99,7 +108,21 @@ const TRT = new Intl.DateTimeFormat("tr-TR", {hour: "2-digit", minute: "2-digit"
 const DAY = new Intl.DateTimeFormat("tr-TR", {day: "numeric", month: "short", timeZone: "UTC"});
 const STALE_HOURS = 30;                 // günde iki çalışma var; bundan eskiyse bir şey ters gitmiştir
 const pct = v => v == null ? "–" : `%${(v * 100).toFixed(1).replace(".", ",")}`;
-const state = {view: "up", league: "all", conf: 0};
+const state = {view: "up", league: "all", conf: 0, day: "all"};
+const DAYS = [["all", "Tüm günler"], ["today", "Bugün"], ["tomorrow", "Yarın"], ["weekend", "Hafta sonu"]];
+const ISO = new Intl.DateTimeFormat("en-CA", {timeZone: "Europe/Istanbul"});          // YYYY-MM-DD, Türkiye saatiyle
+const WEEKDAY = new Intl.DateTimeFormat("en-US", {weekday: "short", timeZone: "Europe/Istanbul"});
+
+function dayMatch(m) {
+  if (state.day === "all") return true;
+  const k = new Date(m.kickoff);
+  const today = ISO.format(new Date());
+  const tomorrow = ISO.format(new Date(Date.now() + 864e5));
+  if (state.day === "today") return ISO.format(k) === today;
+  if (state.day === "tomorrow") return ISO.format(k) === tomorrow;
+  // Hafta sonu: bugünden itibaren 7 gün içindeki Cumartesi ve Pazar
+  return ["Sat", "Sun"].includes(WEEKDAY.format(k)) && ISO.format(k) >= today && k - Date.now() < 7 * 864e5;
+}
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"})[c]);
 
 const CONF = [[0, "Tüm tahminler"], [0.6, "%60+ emin"], [0.7, "%70+ emin"]];
@@ -187,15 +210,87 @@ function card(m) {
   </article>`;
 }
 
+// Olasılık kalitesi ölçüleri, maç başına (hepsinde düşük daha iyi)
+function scores(m) {
+  const p = [m.p_h, m.p_d, m.p_a];
+  const o = ["H", "D", "A"].map(x => (x === m.ftr ? 1 : 0));
+  const brier = p.reduce((s, v, i) => s + (v - o[i]) ** 2, 0);
+  const logloss = -Math.log(Math.max(p[o.indexOf(1)], 1e-12));
+  const rps = ((p[0] - o[0]) ** 2 + (p[0] + p[1] - o[0] - o[1]) ** 2) / 2;
+  return {brier, logloss, rps};
+}
+
+const num = (v, d = 3) => v == null ? "–" : v.toFixed(d).replace(".", ",");
+const mean = (xs, f) => xs.length ? xs.reduce((s, x) => s + f(x), 0) / xs.length : null;
+
+function table(head, rows) {
+  return `<table class="perf"><thead><tr>${head.map(h => `<th scope="col">${h}</th>`).join("")}</tr></thead>
+    <tbody>${rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+}
+
+function weekStart(d) {
+  // Haftanın Pazartesi'si, Türkiye saatiyle
+  const local = new Date(ISO.format(d) + "T00:00:00Z");
+  local.setUTCDate(local.getUTCDate() - ((local.getUTCDay() + 6) % 7));
+  return local.toISOString().slice(0, 10);
+}
+
+function perfView() {
+  const el = document.getElementById("list");
+  const done = filtered().filter(m => m.status === "bitti");
+  if (!done.length) { el.innerHTML = `<p class="empty">Henüz biten maç yok.</p>`; return; }
+  const sc = done.map(m => ({m, ...scores(m)}));
+  const live = sc.filter(x => x.m.predicted_at !== "geriye-donuk");
+  const back = sc.filter(x => x.m.predicted_at === "geriye-donuk");
+  const row = (name, xs) => [name, xs.length, pct(mean(xs, x => x.m.correct ? 1 : 0)), num(mean(xs, x => x.brier)), num(mean(xs, x => x.logloss)), num(mean(xs, x => x.rps))];
+  const quality = table(["", "Maç", "İsabet", "Brier", "Log loss", "RPS"],
+    [row("Tümü", sc), ...(live.length ? [row("Canlı", live)] : []), ...(back.length ? [row("Geriye dönük", back)] : [])]);
+
+  // Kalibrasyon: modelin seçtiği sonuca verdiği olasılığa göre gruplar
+  const bins = [[0, 0.4, "%40 altı"], [0.4, 0.5, "%40–50"], [0.5, 0.6, "%50–60"], [0.6, 0.7, "%60–70"], [0.7, 1.01, "%70 ve üstü"]];
+  const calib = table(["Model ne kadar emindi", "Maç", "Ortalama tahmin", "Gerçekleşen"], bins
+    .map(([lo, hi, name]) => [name, sc.filter(x => topProb(x.m) >= lo && topProb(x.m) < hi)])
+    .filter(([, xs]) => xs.length)
+    .map(([name, xs]) => [name, xs.length, pct(mean(xs, x => topProb(x.m))), pct(mean(xs, x => x.m.correct ? 1 : 0))]));
+
+  // Haftalık seyir, en yeni hafta üstte
+  const weeks = {};
+  for (const x of sc) (weeks[weekStart(new Date(x.m.kickoff))] ??= []).push(x);
+  const weekly = table(["Hafta", "Maç", "İsabet", "Favori", "Brier"], Object.entries(weeks)
+    .sort(([a], [b]) => b.localeCompare(a)).slice(0, 12)
+    .map(([w, xs]) => {
+      const fav = xs.filter(x => x.m.odds_correct != null);
+      return [DAY.format(new Date(w)), xs.length, pct(mean(xs, x => x.m.correct ? 1 : 0)), pct(fav.length ? mean(fav, x => x.m.odds_correct ? 1 : 0) : null), num(mean(xs, x => x.brier))];
+    }));
+
+  // Model ile bahis favorisinin ayrıştığı maçlar
+  const split = done.filter(m => m.odds_pick != null && m.odds_pick !== m.pick);
+  const splitText = split.length
+    ? `Model ile bahis favorisi ${split.length} maçta farklı sonucu seçti. Bu maçlarda model ${split.filter(m => m.correct).length}, favori ${split.filter(m => m.odds_correct).length} kez haklı çıktı.` +
+      (split.length < 50 ? " Örnek henüz küçük, bu fark tesadüf olabilir." : "")
+    : "Model şimdiye kadar hep bahis favorisiyle aynı sonucu seçti.";
+
+  el.innerHTML = `
+    <h2>Olasılık kalitesi</h2>${quality}
+    <p class="explain">İsabet yalnızca en olası sonucun tutup tutmadığına bakar. Brier, log loss ve RPS ise verilen olasılıkların ne kadar yerinde olduğunu ölçer; üçünde de düşük daha iyidir. Örneğin %90 emin olup yanılmak, %50 emin olup yanılmaktan çok daha fazla ceza alır.</p>
+    <h2>Kalibrasyon</h2>${calib}
+    <p class="explain">İyi bir modelde iki sütun birbirine yakındır: model %60 emin olduğu maçların yaklaşık %60'ında haklı çıkmalıdır.</p>
+    <h2>Model ve bahis favorisi</h2><p class="explain">${splitText}</p>
+    <h2>Haftalık</h2>${weekly}
+    <p class="explain">Hafta Pazartesi günüyle gösterilir. Favori sütunu, bahis oranlarında en düşük orana sahip sonucun başarısıdır.</p>`;
+}
+
 function render() {
   statsBlock();
+  document.getElementById("days").hidden = state.view !== "up";
+  if (state.view === "perf") return perfView();
   let rows = filtered();
   rows = state.view === "up"
-    ? rows.filter(m => m.status === "yaklasan" || m.status === "sonuc_bekleniyor").sort((a, b) => a.kickoff.localeCompare(b.kickoff))
+    ? rows.filter(m => (m.status === "yaklasan" || m.status === "sonuc_bekleniyor") && dayMatch(m)).sort((a, b) => a.kickoff.localeCompare(b.kickoff))
     : rows.filter(m => m.status === "bitti" || m.status === "ertelendi").sort((a, b) => b.kickoff.localeCompare(a.kickoff));
   const el = document.getElementById("list");
   if (!rows.length) {
-    el.innerHTML = `<p class="empty">${state.view === "up" ? (state.conf ? "Bu güven seviyesinde yaklaşan maç yok." : "Önümüzdeki günlerde maç yok. Fikstür her sabah güncellenir.") : "Henüz biten maç yok."}</p>`;
+    el.innerHTML = `<p class="empty">${state.view === "up" ? (state.conf || state.day !== "all" ? "Bu seçimde yaklaşan maç yok." : "Önümüzdeki günlerde maç yok. Fikstür her sabah güncellenir.") : "Henüz biten maç yok."}</p>`;
     return;
   }
   const groups = {};
@@ -232,11 +327,19 @@ function setup() {
     cf.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
     render();
   });
-  for (const [id, view] of [["v-up", "up"], ["v-done", "done"]]) {
+  const dy = document.getElementById("days");
+  dy.innerHTML = DAYS.map(([k, t]) => `<button type="button" data-day="${k}" aria-pressed="${k === "all"}">${t}</button>`).join("");
+  dy.addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    state.day = b.dataset.day;
+    dy.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
+    render();
+  });
+  const VIEWS = [["v-up", "up"], ["v-done", "done"], ["v-perf", "perf"]];
+  for (const [id, view] of VIEWS) {
     document.getElementById(id).addEventListener("click", () => {
       state.view = view;
-      document.getElementById("v-up").setAttribute("aria-pressed", view === "up");
-      document.getElementById("v-done").setAttribute("aria-pressed", view === "done");
+      for (const [i, v] of VIEWS) document.getElementById(i).setAttribute("aria-pressed", v === view);
       render();
     });
   }
