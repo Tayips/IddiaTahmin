@@ -25,6 +25,7 @@ FORM_FEATURES = [f"{side}_{stat}" for side in ("h", "a") for stat in TEAM_STATS]
 FEATURES_NO_MARKET = ["elo_diff", "is_t1", *FORM_FEATURES, "h_rest", "a_rest",
                       "gd_form_diff", "sot_form_diff"]
 MARKET_FEATURES = ["mk_h", "mk_a", "mk_logit"]
+GOAL_FEATURES = FEATURES_NO_MARKET + MARKET_FEATURES + ["mk_o25", "goal_form_sum"]
 
 
 def team_form(df: pd.DataFrame) -> pd.DataFrame:
@@ -61,10 +62,19 @@ def market(df: pd.DataFrame, cols=("pre_h", "pre_d", "pre_a")) -> pd.DataFrame:
     return out
 
 
+def market_ou(df: pd.DataFrame) -> pd.Series:
+    """Üst 2.5 için marjı orantılı temizlenmiş olasılık."""
+    if "pre_o25" not in df:
+        return pd.Series(np.nan, index=df.index, name="mk_o25")
+    inv_o, inv_u = 1 / df["pre_o25"], 1 / df["pre_u25"]
+    return (inv_o / (inv_o + inv_u)).rename("mk_o25")
+
+
 def build_features(df: pd.DataFrame, elo_diff: pd.Series) -> pd.DataFrame:
     feats = team_form(df)
     feats["elo_diff"] = elo_diff / 100.0
     feats["is_t1"] = (df["league"] == "T1").astype(float)
     feats["gd_form_diff"] = (feats["h_gf"] - feats["h_ga"]) - (feats["a_gf"] - feats["a_ga"])
     feats["sot_form_diff"] = (feats["h_stf"] - feats["h_sta"]) - (feats["a_stf"] - feats["a_sta"])
-    return feats.join(market(df))
+    feats["goal_form_sum"] = feats["h_gf"] + feats["h_ga"] + feats["a_gf"] + feats["a_ga"]
+    return feats.join(market(df)).join(market_ou(df))
