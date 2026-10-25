@@ -14,3 +14,12 @@ pytest
 `src` dizinini `PYTHONPATH`'e ekleyin veya `pip install -e .` kullanın.
 
 Lig kodları football-data.co.uk ile aynıdır: `T1` Süper Lig, `E0` Premier Lig.
+
+## Faz 1: temel modeller
+
+```bash
+pip install -e . scipy
+python -m iddia.evaluate --test-seasons 5   # yaklaşık 2-3 dakika
+```
+
+Sonuçlar ve yorum: [reports/faz1.md](reports/faz1.md).
