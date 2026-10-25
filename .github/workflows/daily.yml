@@ -2,8 +2,10 @@ name: Günlük tahmin
 
 on:
   schedule:
+    # Oranlar maça yaklaştıkça güncellenir; tahmin her maçın başlamasından önceki son çalıştırmada donar
     - cron: "0 5 * * *"     # 08:00 Türkiye saati
-    - cron: "0 14 * * *"    # 17:00 Türkiye saati, akşam maçlarından önce
+    - cron: "0 12 * * *"    # 15:00 Türkiye saati, öğleden sonra maçlarından önce
+    - cron: "30 15 * * *"   # 18:30 Türkiye saati, akşam maçlarından önce
   workflow_dispatch:
 
 permissions:
@@ -28,6 +30,7 @@ jobs:
       - run: python -m iddia.daily
         env:
           FOOTBALL_DATA_ORG_KEY: ${{ secrets.FOOTBALL_DATA_ORG_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
       - name: Tahminleri kaydet
         run: |
           git config user.name "github-actions[bot]"

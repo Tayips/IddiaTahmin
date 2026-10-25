@@ -396,6 +396,7 @@ function basisPanel(m) {
   const meta = `<dl class="meta">
     <dt>Model</dt><dd>${esc(m.model)}${m.model === "form-v2" ? " (oran yoktu, yalnızca form)" : ""}</dd>
     <dt>Tahmin zamanı</dt><dd>${m.predicted_at === "geriye-donuk" ? "Geriye dönük (takip başlamadan önceki maç)" : `${TR.format(new Date(m.predicted_at))} ${TRT.format(new Date(m.predicted_at))}`}</dd>
+    ${m.odds_src ? `<dt>Oranlar</dt><dd>${m.odds_src === "canli" ? "Güncel oranlar (tahmin anında çekildi)" : "Fikstür oranları (football-data.co.uk)"}</dd>` : ""}
     <dt>Kullanılan veri</dt><dd>${m.data_through ? `${DAY.format(new Date(m.data_through))} tarihine kadar oynanan maçlar` : "–"}</dd>
     <dt>Sayfa güncellemesi</dt><dd>${TR.format(new Date(DATA.updated_at))} ${TRT.format(new Date(DATA.updated_at))}</dd></dl>`;
   if (m.f_elo == null) {
