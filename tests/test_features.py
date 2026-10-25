@@ -44,3 +44,16 @@ def test_model_returns_probabilities_in_h_d_a_order():
     assert np.allclose(p.sum(axis=1), 1)
     strong_home = (df["home"] == "A") & (df["away"] == "F")
     assert p[strong_home.to_numpy(), 0].mean() > p[strong_home.to_numpy(), 2].mean()
+
+
+def test_adjusted_form_uses_only_earlier_matches():
+    from iddia.deneyler import adjusted_form
+
+    df = synthetic(n_seasons=1)
+    elo = pd.Series(0.0, index=df.index)
+    base = adjusted_form(df, elo, beta=0.5)
+    changed = df.copy()
+    changed.loc[10, ["fthg", "ftag"]] = [9, 0]
+    after = adjusted_form(changed, elo, beta=0.5)
+    np.testing.assert_equal(base.loc[:10].to_numpy(), after.loc[:10].to_numpy())   # maçın kendisi ve öncesi aynı
+    assert not np.allclose(base.loc[11:].fillna(0), after.loc[11:].fillna(0))       # sonrası değişir
