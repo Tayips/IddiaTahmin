@@ -97,3 +97,20 @@ def test_client_moves_past_quota_errors_and_stays_on_working_option(monkeypatch)
     assert seen == [("a", True), ("a", False), ("b", True), ("b", False)]
     client("ikinci soru")
     assert seen[-1] == ("b", False) and len(seen) == 5
+
+
+def test_client_moves_past_server_errors_and_timeouts(monkeypatch):
+    seen = []
+
+    def post(url, json, **k):
+        seen.append(url.split("/models/")[1].split(":")[0])
+        if len(seen) == 1:
+            return Resp(503)
+        if len(seen) == 2:
+            raise gemini.requests.ReadTimeout("yavaş")
+        return Resp(200, {"candidates": [{"content": {"parts": [{"text": "{}"}]}}]})
+
+    monkeypatch.setattr(gemini.requests, "post", post)
+    client = gemini.Client("k", ["a", "b"])
+    assert client("soru") == "{}" and client.model == "b"
+    assert seen == ["a", "a", "b"]
