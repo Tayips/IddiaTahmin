@@ -101,6 +101,12 @@ table.perf tr:last-child td{border-bottom:0}
 .games div{display:grid;grid-template-columns:52px 18px minmax(0,1fr) 44px;gap:6px}
 .games .v{color:var(--muted)}
 .games .sc{text-align:right;font-family:var(--mono)}
+.news{display:grid;gap:8px;margin:0;padding:0;list-style:none;font-size:14px}
+.news a{color:var(--fg);text-decoration:none}
+.news a:hover{text-decoration:underline}
+.news small{display:block;color:var(--muted);font-size:12px}
+.news .flag{color:var(--bad);font-weight:600}
+.nchip{font-size:12px;color:var(--bad);font-weight:600}
 dl.meta{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 12px;margin:0;font-size:13px}
 dl.meta dt{color:var(--muted)}
 dl.meta dd{margin:0}
@@ -246,6 +252,7 @@ function card(m) {
     <div class="teams"><span class="a">${esc(m.home)}</span><span class="score">${mid}</span><span>${esc(m.away)}</span></div>
     <div class="probs">${["H", "D", "A"].map(o => probCell(m, o)).join("")}</div>
     ${goalChips(m)}
+    ${newsCount(m) ? `<span class="nchip">⚠ ${newsCount(m)} eksik oyuncu haberi</span>` : ""}
     <span class="more">Analizi gör →</span>
   </article>`;
 }
@@ -451,6 +458,30 @@ function similarPanel(m) {
     <p class="explain">Bu maçta model ${PICK_NAME[m.pick]} ${pct(p)} veriyor. Tablo, aynı modelin her sezonu yalnızca önceki sezonlarla eğitilerek yaptığı ${B.n} tahminden hesaplandı.</p></section>`;
 }
 
+function newsOf(m) {
+  return (DATA.haberler || {})[matchKey(m)];
+}
+
+function newsCount(m) {
+  const n = newsOf(m);
+  return n ? [...n.home, ...n.away].filter(x => x.eksik).length : 0;
+}
+
+function newsPanel(m) {
+  const n = newsOf(m);
+  if (!n) return "";
+  const list = (team, items) => {
+    if (!items.length) return `<div><h3>${esc(team)}</h3><p class="explain">Son 3 günde sakatlık ya da kadro haberi bulunamadı.</p></div>`;
+    const li = items.map(x => `<li>${x.eksik ? `<span class="flag">⚠ </span>` : ""}<a href="${esc(x.link)}" target="_blank" rel="noopener noreferrer">${esc(x.title)}</a>
+      <small>${esc(x.source)} · ${TR.format(new Date(x.at))} ${TRT.format(new Date(x.at))}</small></li>`).join("");
+    return `<div><h3>${esc(team)}</h3><ul class="news">${li}</ul></div>`;
+  };
+  const f = new Date(n.fetched_at);
+  return `<section class="panel"><h3>Maç öncesi haberler</h3>
+    <div class="two">${list(m.home, n.home)}${list(m.away, n.away)}</div>
+    <p class="explain">Başlıklar Google Haberler'den otomatik toplanır (son toplama: ${TR.format(f)} ${TRT.format(f)}). ⚠ işareti başlıkta sakatlık, ceza ya da kadro dışı gibi bir ifade geçtiğini gösterir. Haberler şimdilik tahmine dahil edilmiyor; işe yarayıp yaramadıkları ölçülüyor.</p></section>`;
+}
+
 function detailView(key) {
   const m = DATA.matches.find(x => matchKey(x) === key);
   const el = document.getElementById("detail");
@@ -467,6 +498,7 @@ function detailView(key) {
     ${basisPanel(m)}
     <section class="panel"><h3>Takımların son maçları</h3><div class="two">${teamBlock(m, m.home, "H")}${teamBlock(m, m.away, "A")}</div>
       <p class="explain">G galibiyet, B beraberlik, M mağlubiyet; İ iç saha, D deplasman. En yeni maç en üstte.</p></section>
+    ${newsPanel(m)}
     ${similarPanel(m)}`;
 }
 
