@@ -88,6 +88,12 @@ def prepare(raw_dirs: list[Path]) -> tuple[pd.DataFrame, pd.DataFrame]:
     df = pd.concat([build(d) for d in raw_dirs if d.exists() and any(d.glob("*/*.csv"))], ignore_index=True)
     df = drop_forfeits(df.sort_values(["date", "league", "home"]).reset_index(drop=True))
     df = df[df["ftr"].notna()].reset_index(drop=True)
+    # Ek liglerde bozuk oran satırları var (marj negatif ya da çok yüksek); marj ayrıştırması bunlarda çözümsüz
+    for cols in (["pre_h", "pre_d", "pre_a"], ["odds_h", "odds_d", "odds_a"], ["pre_o25", "pre_u25"]):
+        o = df[cols].astype(float)
+        book = (1 / o).sum(axis=1, min_count=len(cols))
+        bad = (o < 1.01).any(axis=1) | (book < 1.0) | (book > 1.3)
+        df.loc[bad, cols] = np.nan
     X = build_features(df, Elo().run(df)).join(standings(df))
     return df, X
 
