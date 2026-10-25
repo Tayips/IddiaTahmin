@@ -14,7 +14,7 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import pandas as pd
 
-from iddia import coupons, download, fdorg, metrics, site
+from iddia import coupons, download, fdorg, metrics, oddsapi, site
 from iddia.build import build, read_csv, team_name
 from iddia.evaluate import drop_forfeits
 from iddia.features import FEATURES_NO_MARKET, GOAL_FEATURES, MARKET_FEATURES, build_features, market
@@ -38,7 +38,7 @@ EXPLAIN = list(EXPLAIN_SOURCE)
 TEAM_RECENT = 6                         # analiz ekranında gösterilen son maç sayısı
 PRED_COLUMNS = KEY + ["season", "kickoff", "p_h", "p_d", "p_a", "pick",
                       "odds_h", "odds_d", "odds_a", "model", "predicted_at",
-                      "p_o25", "p_kg", "odds_o25", "odds_u25", "data_through", *EXPLAIN]
+                      "p_o25", "p_kg", "odds_o25", "odds_u25", "odds_src", "data_through", *EXPLAIN]
 BACKFILL = "geriye-donuk"              # predicted_at değeri: sezon başından kurulum gününe kadarki maçlar
 RESULT_GRACE_DAYS = 4                   # bu kadar gün sonuç gelmezse maç ertelenmiş sayılır
 
@@ -124,6 +124,8 @@ def predict(fixtures: pd.DataFrame, matches: pd.DataFrame, model: Predictor, now
     if has_mk.any():
         probs[has_mk] = model.with_market.predict(X[has_mk])
     out = fixtures.copy()
+    if "odds_src" not in out:
+        out["odds_src"] = np.where(out["odds_h"].notna(), "fikstur", None)
     out[["p_h", "p_d", "p_a"]] = probs.round(4)
     out["pick"] = np.array(metrics.OUTCOMES)[probs.argmax(axis=1)]
     out["model"] = np.where(has_mk, MODEL, MODEL_NO_MARKET)
@@ -305,6 +307,7 @@ def main() -> None:
     model = fit(matches)
     org = fdorg.fetch(download.current_season_start(now.date()))
     fixtures = fdorg.apply_to_fixtures(load_fixtures(), org)
+    fixtures = oddsapi.apply(fixtures, oddsapi.fetch(fixtures, now))
     first_run = not PREDICTIONS.exists()
     old = backfill(matches, season_of(now.date())) if first_run else pd.read_csv(PREDICTIONS)
     old = old.reindex(columns=PRED_COLUMNS)   # eski kayıtlarda yeni sütunlar boş kalır
