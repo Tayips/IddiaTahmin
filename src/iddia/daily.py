@@ -14,7 +14,7 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import pandas as pd
 
-from iddia import coupons, download, fdorg, metrics, oddsapi, site
+from iddia import coupons, download, fdorg, haberler, metrics, oddsapi, site
 from iddia.build import build, read_csv, team_name
 from iddia.evaluate import drop_forfeits
 from iddia.features import FEATURES_NO_MARKET, GOAL_FEATURES, MARKET_FEATURES, build_features, market
@@ -320,6 +320,10 @@ def main() -> None:
     legs = coupons.update(old_coupons, preds, now)
     legs.to_csv(coupons.COUPONS, index=False)
     coupon_records = coupons.to_records(legs, scored)
+    news = haberler.load()
+    if not args.skip_download:
+        news = haberler.update(news, preds, now)
+        haberler.save(news)
     data = {
         "updated_at": now.strftime("%Y-%m-%dT%H:%MZ"),
         "model": MODEL,
@@ -329,6 +333,7 @@ def main() -> None:
         "matches": to_records(scored),
         "teams": team_profiles(matches, season_of(now.date())),
         "benzer": json.loads(SIMILAR.read_text()) if SIMILAR.exists() else None,
+        "haberler": haberler.for_site(news, scored),
         "coupon_types": coupons.TYPES,
         "coupon_stats": coupons.summary(coupon_records),
         "coupons": coupons.recent(coupon_records),
