@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T18:17Z",
+ "updated_at": "2026-10-25T18:43Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
@@ -11,22 +11,22 @@
  },
  "stats": {
   "genel": {
-   "n": 151,
+   "n": 152,
    "correct": 71,
-   "accuracy": 0.4702,
-   "rps": 0.2191,
-   "brier": 0.6186,
-   "log_loss": 1.0311,
-   "odds_accuracy": 0.5166
+   "accuracy": 0.4671,
+   "rps": 0.2185,
+   "brier": 0.6197,
+   "log_loss": 1.0327,
+   "odds_accuracy": 0.5132
   },
   "canli": {
-   "n": 4,
+   "n": 5,
    "correct": 2,
-   "accuracy": 0.5,
-   "rps": 0.2349,
-   "brier": 0.6794,
-   "log_loss": 1.1054,
-   "odds_accuracy": 0.5
+   "accuracy": 0.4,
+   "rps": 0.2145,
+   "brier": 0.7004,
+   "log_loss": 1.1394,
+   "odds_accuracy": 0.4
   },
   "lig": {
    "T1": {
@@ -39,23 +39,23 @@
     "odds_accuracy": 0.5417
    },
    "E0": {
-    "n": 79,
+    "n": 80,
     "correct": 39,
-    "accuracy": 0.4937,
-    "rps": 0.2099,
-    "brier": 0.6178,
-    "log_loss": 1.0288,
-    "odds_accuracy": 0.4937
+    "accuracy": 0.4875,
+    "rps": 0.2089,
+    "brier": 0.6199,
+    "log_loss": 1.0319,
+    "odds_accuracy": 0.4875
    }
   },
   "son_30_gun": {
-   "n": 47,
+   "n": 48,
    "correct": 28,
-   "accuracy": 0.5957,
-   "rps": 0.2004,
-   "brier": 0.5582,
-   "log_loss": 0.9453,
-   "odds_accuracy": 0.6383
+   "accuracy": 0.5833,
+   "rps": 0.199,
+   "brier": 0.5629,
+   "log_loss": 0.9521,
+   "odds_accuracy": 0.625
   },
   "guven": {
    "50%+": {
@@ -7027,15 +7027,15 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 0.0,
+   "ftag": 0.0,
+   "ftr": "D",
+   "status": "bitti",
+   "correct": 0.0,
    "odds_pick": "A",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 0.0,
+   "o25_correct": 1.0,
+   "kg_correct": 0.0,
    "mk_h": 0.3074,
    "mk_d": 0.2902,
    "mk_a": 0.4024
@@ -7055,7 +7055,7 @@
    "odds_d": 5.25,
    "odds_a": 7.22,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-10-25T18:17Z",
+   "predicted_at": "2026-10-25T18:43Z",
    "p_o25": 0.7068,
    "p_kg": 0.6161,
    "odds_o25": 1.36,
@@ -7099,7 +7099,7 @@
    "odds_d": 3.76,
    "odds_a": 1.92,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-10-25T18:17Z",
+   "predicted_at": "2026-10-25T18:43Z",
    "p_o25": 0.6676,
    "p_kg": 0.6481,
    "odds_o25": 1.54,
@@ -7135,17 +7135,17 @@
    "away": "Fenerbahce",
    "season": "2627",
    "kickoff": "2026-10-26T18:30Z",
-   "p_h": 0.4619,
-   "p_d": 0.2878,
-   "p_a": 0.2503,
+   "p_h": 0.4696,
+   "p_d": 0.2857,
+   "p_a": 0.2447,
    "pick": "H",
-   "odds_h": 2.1,
-   "odds_d": 3.73,
-   "odds_a": 2.97,
+   "odds_h": 2.07,
+   "odds_d": 3.78,
+   "odds_a": 3.03,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-10-25T18:17Z",
-   "p_o25": 0.6952,
-   "p_kg": 0.7031,
+   "predicted_at": "2026-10-25T18:43Z",
+   "p_o25": 0.6949,
+   "p_kg": 0.7012,
    "odds_o25": 1.47,
    "odds_u25": 2.52,
    "odds_src": "canli",
@@ -7168,9 +7168,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.4469,
-   "mk_d": 0.2429,
-   "mk_a": 0.3101
+   "mk_h": 0.4549,
+   "mk_d": 0.2405,
+   "mk_a": 0.3047
   }
  ],
  "teams": {
@@ -9995,6 +9995,242 @@
    }
   ]
  },
+ "haberler": {
+  "T1|2026-10-26|Besiktas|Buyuksehyr": {
+   "fetched_at": "2026-10-25T18:43Z",
+   "kickoff": "2026-10-26T16:00Z",
+   "home": [
+    {
+     "title": "Beşiktaş’ta Vlahovic İlk 11’de, Oh Hyeon-gyu Yedekte",
+     "source": "Ajans Beşiktaş",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVVUyUnRaRG5NMVVTdE5rZ1VTR0FoUjN6NUlwdkh2X3llM1IyTmZOUHE1dDlWTVJmd3lIbF9mbmlJNFlrM3VhYXNxVzRDcFZQR20zZ1ZiVklWSGwtX0ZpZlFONWF1RThnWnhvT0lwdjUxaENaNXJDS3dLRFZtNGtpOURnUmFHUEI5Y284ZDZqcm0?oc=5",
+     "at": "2026-10-25T16:04Z",
+     "eksik": false
+    },
+    {
+     "title": "''Italiano takımda herkesin ilk 11 oynayabileceğini kanıtlıyor...''",
+     "source": "Duhuliye",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOHZzR0VBQ3VLQ2NMWFZGdHFOc0JoTkQ0VTdNLUliSDI5ZXpjMzJEbHpWRm5NN2hGa0F5aHB4ZWxZeVhLSU5Rb0FQQUJRelNPbUlOMHJJaXdxZ1RQUGtnZGhZZ2VobXlINDVXdnRMUVFXRmwtRlBuR1RnSk81TTRXM2NhZHowYWV6N1B2ZHMwUXB0OFhoVmVjMlJYc2h0bzTSAaQBQVVfeXFMTU1BN3ZneWJZOG9wYlYyQ0ZVN25QVU4zTnV0NmZmT1JoQWRPZjdSZzJBSTM2VVBueHNBZjFxVG9mc0tRQlhoeUJkaVhORGhaX2FPZVlXYjVmNl9MbkNiYjdFcGwxRjFvMU9zUmN4QmhTRmtYbEo5UFRWVzcwZEdqMHJ6LTAzT0VLQ181dEJOQU9EUVNWOGtHQUUzMDBNNXp1VzJfeXM?oc=5",
+     "at": "2026-10-25T13:36Z",
+     "eksik": false
+    },
+    {
+     "title": "''Bu stoperler ile şampiyonluğa gidemezsin kardeşim!''",
+     "source": "Duhuliye",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWGVQZGpGdTB5T21CVXJaS2ZxSzlWLXBOVHYwOEdReG1MNnJxWHRkYlptdUstRURhUTJXX3Y2TzhET2UzZjFpc1VGVGt4QjVjOHBFeTE0YkJ0NXRrQXJjazhDN3h1WVBZRHNpaUlDSENGVzFnQ2Zaa0tZLTJHN2d6bU90akxUcm1fY3JCTTdNTk3SAZYBQVVfeXFMTXl3b1VEUEEwX2RKU0d5cndvYnJwYzZKR0xENDNBQTZKZDQwUFg0R1NpcXR6ZjhWTWhZbGhfTUFEV1Q4aVhkU2lGS19CNnUyaGdsSmxtSnowOTM1QWFRQ3lWYmc2T3ZXRFM1QmhIRXR6SUtTY243bFMwTlVvdGFzaHZCVzRoX05IM2ZDLVlRTzlRMmttUGh3?oc=5",
+     "at": "2026-10-25T13:04Z",
+     "eksik": false
+    },
+    {
+     "title": "Beşiktaş-Başakşehir maçı ne zaman, hangi kanalda? Muhtemel 11’ler, sakat ve cezalılar",
+     "source": "Ajansspor",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZWJLcHNaUGdmcmV0dGQ5RWFfY0QxTmhWMmdiUU40aTFVY2hjRy1NZGJMOERhcWNCeUwtSkNQYWI0UnhwZ1pxVFVSc2RJUXo3WXJXY0tZZWtLVkM2N0xmaVBMV2VkWXpTb1lBcmtTQllzSFktRmw3LXVtUW5DRWdxZ3pUSE40TGhhaXlTdzNkZGEwOVJQYkp1RkVlT25mZ2hfYzV5am5XeThFOWtGLTF4NVVOdjRXcEE?oc=5",
+     "at": "2026-10-25T09:21Z",
+     "eksik": true
+    },
+    {
+     "title": "Beşiktaş, Başakşehir ile 25. kez karşılaşacak",
+     "source": "Saray Medya",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNc084YzVRM2UxYUdkTjlnWTJYQnNzNV9uODNzMVBCZWRZWXlpa1hPZWZUU1E3bHRkbl9uZnpnZGhRaVBkbTdVdy1MUTBBMjZwTXY0SzFNcXpuVWxiLXBoREFyOUU5Rjg2TXl1YnhuTkRMZFdrSm41MGU2WjlHd3Y5eF8zTTc5djhFUEdlTw?oc=5",
+     "at": "2026-10-25T07:44Z",
+     "eksik": false
+    }
+   ],
+   "away": [
+    {
+     "title": "Dusan Vlahovic, Başakşehir Maçında İlk 11'de Görev Alacak",
+     "source": "www.superlighaberler.com",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY2ZXeDhzQ1plUzFDZVBzcWZkeVZVbHhUWm1uRUJ6WTFaV2dzTVhTZU5qT2VXbzlEdnpTMmx0T2twa1lmdnBIa0ozMHo4QVdLRlBBaVBUYm9qR3pndHhjbGRQSVVnZ0JPTFBEZDVTSmw5bW1yTnpOWTZQYkdfX1o4bW92bmFKRFVONWdRYzZaMkYtck40V2JxSDdoTjE1UTdPV01ESmtZUQ?oc=5",
+     "at": "2026-10-25T18:32Z",
+     "eksik": false
+    },
+    {
+     "title": "Beşiktaş, Başakşehir FK ile Zorlu Bir Maça Çıkıyor",
+     "source": "www.superlighaberler.com",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUlVaR3prdjNtbjlwaGNZMVJVZVdOZ2tCTkhlSk9hR2RhWVdncjVyV2pFN012bWZvc0tJaGdkSFVlOElOYmhXT1RoWTd0T05YSTRsSUpkMkVqYzg3Y09RaDhhR1dCRW1RQWYzekZSdjVQQkhIRjNSR1ptZEFSWkgtODZ0UU5ja1ZIYUExSkJKQ0ctLXFiQ1dFVEtWcGRaWjA?oc=5",
+     "at": "2026-10-25T18:29Z",
+     "eksik": false
+    },
+    {
+     "title": "Beşiktaş’ta Vlahovic İlk 11’de, Oh Hyeon-gyu Yedekte",
+     "source": "Ajans Beşiktaş",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVVUyUnRaRG5NMVVTdE5rZ1VTR0FoUjN6NUlwdkh2X3llM1IyTmZOUHE1dDlWTVJmd3lIbF9mbmlJNFlrM3VhYXNxVzRDcFZQR20zZ1ZiVklWSGwtX0ZpZlFONWF1RThnWnhvT0lwdjUxaENaNXJDS3dLRFZtNGtpOURnUmFHUEI5Y284ZDZqcm0?oc=5",
+     "at": "2026-10-25T16:04Z",
+     "eksik": false
+    },
+    {
+     "title": "Vlahovic mi? Oh mu? Gözler Italiano'da...",
+     "source": "Duhuliye",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sSkhSX2VoZExuMl8takpHblZiZGVPUm92TmtWazBqUWpXV0FfVUF6eGlKdXlDQ1BLWXh2c2lTSDU1TDQzaFJxTFRXekhCYWgtWjdpcW5rQkJrbVU2VmludF8zRlBwOGVzOGU0cHNXVFR1ZFVna2Y5YUsxUzBjZ9IBgwFBVV95cUxOWGVka09VdUJCMEUtU0tXNmNHOUtxYUxoTWRaTEZSbDF6blJpMmxLM0lWekhVWjlMQjBuS3ZiNG5FcmxqTms4bkIyVjJTUzZlRXkyS1QwMUoxZkVaWVhpOFFpSVg1M2ZrOTRhODZiWWlPMjIzRmltd2otSmlYVGRQZDhkbw?oc=5",
+     "at": "2026-10-25T13:48Z",
+     "eksik": false
+    },
+    {
+     "title": "Trabzonspor-Medipol Başakşehir maçından notlar",
+     "source": "Haber 7",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaE1tZmJNTklVdDM0OEQ5VWpSUmcxajgxOVVjQlZHWHFKRmUxYUVtSElqdGJRdnRWSGtGbGQyVnlwVDV4cXY3TnlZN0NEbkQtc2EzNndjNVdVMGVSR1BBMjBVR28zanNFbkFkRDByaktGajNGYzNDcmFHLVMtbXpKcGlOTjA3M01vSFBxNlJEQQ?oc=5",
+     "at": "2026-10-25T13:05Z",
+     "eksik": false
+    }
+   ]
+  },
+  "T1|2026-10-26|Rizespor|Trabzonspor": {
+   "fetched_at": "2026-10-25T18:43Z",
+   "kickoff": "2026-10-26T16:00Z",
+   "home": [
+    {
+     "title": "Trabzonspor'un Rizespor maçı muhtemel 11'i belli oldu! İşte tahmini kadro",
+     "source": "Haber61",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSXZIMk56SjI1d1hpajAtZkVRYzNxdkFVVll3c0k1Zm1ZQzFIU3N2anNUdmhFNlpvNEdrOXkxSmN6ai1KZU9Tb0Z1Wlppa1Z0RDZ3YUNkTk1PWThoTExHNjJ0aVpWTzhSY0xOaV9Cc0RXNEZaNHY3c2lqS1FkMi1BaTd5akJVaG9iemRYYVpQSjhtd0xTV0o1UlJuM1lWSlcxUXByRE1ScVFuaV9PT1NNRkRJNEU2QQ?oc=5",
+     "at": "2026-10-25T18:02Z",
+     "eksik": false
+    },
+    {
+     "title": "İşte Trabzonspor'un muhtemel Rize 11'i",
+     "source": "Kuzey Ekspres",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZnphNmN4OEt3bWJEa0M1Q1hwRzBLVEhVLXVOZ19QOTFWMk4yN0FLR2RWb2VocmJOLXRXQU5aYWpPQ0ZMN2pERXJSd1ZWLVNuTlhmQ3JPTzRlR24xMndNbDdjNGwxUVZlcFlDekY2SUEzUzhpa2lOV21FbXZyMDFRa3VzVXJHWC1FaVhj?oc=5",
+     "at": "2026-10-25T17:28Z",
+     "eksik": false
+    },
+    {
+     "title": "Trabzonspor Rizespor Maçı Hazırlıklarını Tamamladı",
+     "source": "HaberTS",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1NrT3ZPdXNvaEpaWmdnV3lFTml3b01mS1Y1QzRfTXdac0xxclNodjU2clBXLUUtZjJiQzFuajBVSVFTalpsdW9seGRySEtucXFnZE91aEhPM2hXeWw5NUxQb0JfOURET1ZZdWE2LWZjVks0MFFoR3plTllzcWF6bmZB?oc=5",
+     "at": "2026-10-25T15:28Z",
+     "eksik": false
+    },
+    {
+     "title": "Trabzonspor'da Rizespor maçı öncesi sevindiren gelişme! 3 isim antrenmanda",
+     "source": "Haber61",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOERoRmhrWEZYdVRJLUNLakpCaEFKYTdwTE5yMmxyUWJOUm1qaVJ4V0UtSmFMOWN1ejUzUUdLYTFaa3hKSGJUWlJGUkxGZDF3eGhpdUg3YVNJUHFROXNEWW5tVUhIazRUQXJjdkMyT2V2a2FUWUdyLUpkRUR1MnplczQzRTlEYWlkVng3akNrTEdKQk1seHM2ZjY2QnhwdGN6dHFwdjFEdmV3ek1nbmUwT3EzdFlyM2s?oc=5",
+     "at": "2026-10-25T15:17Z",
+     "eksik": false
+    },
+    {
+     "title": "Trabzonspor’da Çaykur Rizespor derbisi hazırlıkları tamamlandı",
+     "source": "Canlı Gaste",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVDB0RlFFYUhSbkdSUVVramZweGhBUS1aZTJYTEFQNEVIV09Bamp2UFFSV2pnemxSeVpzVUpjeTdQVWVFM2VNTkNhQXp3Z3NLNDBpb3haSEwwQkFJTWcwMWR1bi00WlVMZng4bHFWWVFncjZqQUxPVkktd3NWOG5Ka1ZOM2pTbmQwZWxJXzVmTFVtd05Gbjl0QW9mbW0tQQ?oc=5",
+     "at": "2026-10-25T15:15Z",
+     "eksik": false
+    }
+   ],
+   "away": [
+    {
+     "title": "Dusan Vlahovic, Başakşehir Maçında İlk 11'de Görev Alacak",
+     "source": "www.superlighaberler.com",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY2ZXeDhzQ1plUzFDZVBzcWZkeVZVbHhUWm1uRUJ6WTFaV2dzTVhTZU5qT2VXbzlEdnpTMmx0T2twa1lmdnBIa0ozMHo4QVdLRlBBaVBUYm9qR3pndHhjbGRQSVVnZ0JPTFBEZDVTSmw5bW1yTnpOWTZQYkdfX1o4bW92bmFKRFVONWdRYzZaMkYtck40V2JxSDdoTjE1UTdPV01ESmtZUQ?oc=5",
+     "at": "2026-10-25T18:32Z",
+     "eksik": false
+    },
+    {
+     "title": "Trabzonspor'un Rizespor maçı muhtemel 11'i belli oldu! İşte tahmini kadro",
+     "source": "Haber61",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSXZIMk56SjI1d1hpajAtZkVRYzNxdkFVVll3c0k1Zm1ZQzFIU3N2anNUdmhFNlpvNEdrOXkxSmN6ai1KZU9Tb0Z1Wlppa1Z0RDZ3YUNkTk1PWThoTExHNjJ0aVpWTzhSY0xOaV9Cc0RXNEZaNHY3c2lqS1FkMi1BaTd5akJVaG9iemRYYVpQSjhtd0xTV0o1UlJuM1lWSlcxUXByRE1ScVFuaV9PT1NNRkRJNEU2QQ?oc=5",
+     "at": "2026-10-25T18:02Z",
+     "eksik": false
+    },
+    {
+     "title": "Trabzonspor’da transfer için Ada seferi! Hedef 5 yıllık imza",
+     "source": "Takvim",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSHFHa2kyTVowaFlvZWU3eThWUVdYRjVlbk9CYlhmRnhRRjliQnF2bVFQTlk0d1c0UXM4d2hJTll1MUU1UlRTcy1YWDFKNjYtUkdzRkVZZUhUZGtKd0tHZjN5YW1JLWxJd3JwUHNKMkNYVm9zZTYyRzc2SWNUbHJYalVWMnFYcW1ZSkpjSXAzazhQdksxOU9tMGRqZE5aYXUxc256WlJCSkZsd3ZyWmtySHI3ZDI?oc=5",
+     "at": "2026-10-25T17:02Z",
+     "eksik": false
+    },
+    {
+     "title": "Trabzonspor Rizespor Maçı Hazırlıklarını Tamamladı",
+     "source": "HaberTS",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1NrT3ZPdXNvaEpaWmdnV3lFTml3b01mS1Y1QzRfTXdac0xxclNodjU2clBXLUUtZjJiQzFuajBVSVFTalpsdW9seGRySEtucXFnZE91aEhPM2hXeWw5NUxQb0JfOURET1ZZdWE2LWZjVks0MFFoR3plTllzcWF6bmZB?oc=5",
+     "at": "2026-10-25T15:28Z",
+     "eksik": false
+    },
+    {
+     "title": "Trabzonspor'da Rizespor maçı öncesi sevindiren gelişme! 3 isim antrenmanda",
+     "source": "Haber61",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOERoRmhrWEZYdVRJLUNLakpCaEFKYTdwTE5yMmxyUWJOUm1qaVJ4V0UtSmFMOWN1ejUzUUdLYTFaa3hKSGJUWlJGUkxGZDF3eGhpdUg3YVNJUHFROXNEWW5tVUhIazRUQXJjdkMyT2V2a2FUWUdyLUpkRUR1MnplczQzRTlEYWlkVng3akNrTEdKQk1seHM2ZjY2QnhwdGN6dHFwdjFEdmV3ek1nbmUwT3EzdFlyM2s?oc=5",
+     "at": "2026-10-25T15:17Z",
+     "eksik": false
+    }
+   ]
+  },
+  "T1|2026-10-26|Galatasaray|Fenerbahce": {
+   "fetched_at": "2026-10-25T18:43Z",
+   "kickoff": "2026-10-26T18:30Z",
+   "home": [
+    {
+     "title": "Sakatlık sonrası İlkin Aydın gözyaşlarını tutamadı! VakıfBank-Galatasaray maçına damga vuran anlar",
+     "source": "Sözcü Gazetesi",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbzFPMG5QS2lEckp3ZDBsSVhvaUtKMS1ySTYwYVRSaWx2NktsVFptb255eU42M0ZtdVNVWkVvdmxrUlFULVRaREdMRjVaTmRhb09tMjBsaktLUUFMVmdNXzZ1c0QxVWVMTFRHWVBTZnlTTXE5Q0hJRjNWQ2VZS25RZW1ZSzdab0lZTVQ5UGxDRzcxTHUzMTNvTGl2bjhzOEdxWlo0VWNndE56TUFsUWtvRy1MNVBWOHJtaXpQTzc4OHhkNWFqaDIyaTRSZTg4NEk?oc=5",
+     "at": "2026-10-25T17:07Z",
+     "eksik": true
+    },
+    {
+     "title": "Dev derbi öncesi Fenerbahçe'de kadro şekillendi: Aziz Yıldırım detayı",
+     "source": "Kamudanhaber",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY1VBY0VFYjUxdThmVzlFUWtwOWtmOTd4VlB3ZlhsbVBtcmp6SVlZRW43R2lVbVY0dDJVYWlkMmQzbDlvWWNXazdfTnRpME5DZDR0ZERkTGMzTnJmRmgyQXdpRDJyQ1d0VXRneWJkRUNyUWV0aDFPRXRtaVZsU2ZYUUdjQjJwTjdiTnFvSTJiWTg5TUE4Smk1clBUTGE?oc=5",
+     "at": "2026-10-25T14:06Z",
+     "eksik": false
+    },
+    {
+     "title": "Galatasaray - Fenerbahçe derbisi muhtemel 11'ler",
+     "source": "Yeni Şafak",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRjR4SHBqMXd6S3Y1RTJpZE11MUZreTAtSVN6QlRJWmFTUjlaZEdINXM3X2YzUjVHeE80Sk9VQUhtMEpmZjlCS2dlSDUwS2RrSjVxenZDVjcxYkNGSk9qMXZSekxFMVZXTnJFMHZmMzdZSFZ0ZEFGbUtQT2QxZE5wa01uZlo2NER4UWgxeQ?oc=5",
+     "at": "2026-10-25T14:05Z",
+     "eksik": false
+    },
+    {
+     "title": "Derbi öncesi Barış Alper Yılmaz cephesinden sakatlık açıklaması geldi!",
+     "source": "Haber Sarı Kırmızı",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTkxjLUJTNGJvTjUxMElSb1FTa0ZVYUx2LVEwWUpreV9SYldFY1NacWdBQ0tQdTBEeXR1M001X2NSeTRRZU5DTGdGRXlVZnFqZXRPOENmemd2aUJCMmhaTVNQR2dqaU44T3RVRkcwSlpxMlVPUkFyRGtBOHRwOElMaGlkR2ZYSUpkOS1aTlVEQzlaZEk3NVhGX3ZLcE5GR1U?oc=5",
+     "at": "2026-10-25T13:43Z",
+     "eksik": true
+    },
+    {
+     "title": "Galatasaray'da Fenerbahçe derbisi öncesi Mario Lemina ve Gabriel Sara kararı",
+     "source": "A Spor",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM3FIdlJGZHNJMGV3b2E4NDJaNmNYbnFnRFV2MnlRT0NEX0tIZXZhdXNkVHMwd1NWTS1TTEYtVFU4QURjQUhpZE5lS2NBT2QtQzRaTURxNXFlNTVyN09Ea3VaZHhReTBSNldPVTJPeGFZVTVTeUc1Qk1vZFA1QUVvdEloZDNtWW5kb2FKa1VGdW1Oc2xEbGdUaldobGNKUEE3Zl9WS2pELXRYa3BULVhVY9IBtgFBVV95cUxQLVNTTDBHQkd5Y2FpQXc5SXBHWkVQc1liQmVYYUdkMmNEX19nVDhVSU9fOUt1cllPX25lRVpxLUVQQ2Z4ZUlrd3FXVlZJV0JqTmZma1hHMFVya1FxRTJzeGZtV0xCZzk3UHR3WDI1Ym5ldE1LclcyTHVXdFJLNS1CcHhnUWpQR0lNaXBIMmNJZjhoQkgxcS1sTFpIVEdybDlENFN5WkpTdzQzLTFNTHRqU2tScVo0Zw?oc=5",
+     "at": "2026-10-25T13:34Z",
+     "eksik": false
+    }
+   ],
+   "away": [
+    {
+     "title": "Fenerbahçe’nin rakibi Liverpool’a sakatlık şoku! Yıldız futbolcu maça devam edemedi",
+     "source": "Takvim",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPblZXck5PUUdQWVkzMXRsUmJ3TFpVZUxmcjJ5SllZN0VmLVk3UENocnFEOFNnQUNpc0RfcTJ5Q2pJS2NOamh6TG9UNmFrY1ZONm56SXU4NWYyYnlObC1YTXdweFktYktEekh4YjNpTi1JMlhZdVRzUEtacEVQZ2g3WmJXRWM3bm5KQ3d5c05HcVhSSkx6WTdwZFhCVGJNdG1Yc2UzaDQ2QQ?oc=5",
+     "at": "2026-10-25T18:28Z",
+     "eksik": true
+    },
+    {
+     "title": "Fenerbahçe'nin rakibi Liverpool'da bir sakatlık daha!",
+     "source": "Cumhuriyet",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdF9xOW5GcVlDeHJaZEItN2RYR0FuSkNtek9STFJaNVZyVE0xZnF4Z09pWXlzay0yTXBsVWF3MHRkWFdQMU5ZalAzTUs3Q3ZTMlJCY1ZsNFNpRktLZjVLQmluazJvT3l2d2ZnNndBUjhlOWw3VUktRGM0UEl3OWpvZHRpaWJkaWRGc0RKX0RZdUExMWpFQTRHYThVdw?oc=5",
+     "at": "2026-10-25T18:20Z",
+     "eksik": true
+    },
+    {
+     "title": "Fenerbahçe - Liverpool maçı öncesi Florian Wirtz gelişmesi",
+     "source": "Ajansspor",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNTRBS0xlRmVyQWlrWjlVWER4cTF1bEZaX0pWX180Ull3TFJCRVdHRGpLdmRjUmN1ZExENW5Ga3RVd0ZvSFRkb3NDSjJDZ0JIa09wY3hFYVdIYXlGM1hFanl5YmgyckhSNDJsSHYwV1A3cG1aUDJYZURyVnRSMG1xYVVsaWllQzd0eWFyMHo1YjItbXlSamc?oc=5",
+     "at": "2026-10-25T18:10Z",
+     "eksik": false
+    },
+    {
+     "title": "Liverpool'da Fenerbahçe maçı öncesi bir sakatlık daha!",
+     "source": "Sporx.com",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM01JVEFfVWh0cC1pdUplMXFwWGFBUmZFS2gtd0gxRnI5Yzl2TGJMUFVma2ZrbzJpRUpsaXM3SklNTF9aSjA4NHVfLUlwUnVqQUctZkR6MlM3SW5hd1JhbEtTR0FXYnRQUlVnSEdpUEJ5MnJQRHcySnJHZ0lLQmtMY3VmejBaelNQWFlUSlppbnJueG9DWkHSAZgBQVVfeXFMTjRaVmh6YXlGUU1iZjBDU0NGZFFveGE1OU9fdUNGTGF1dVJSSlFNRmVkMWlLOU5KdlFVYWNVaUg5Tzh2NDF2eFo4a2MtRnJZbFVCclFjR1BjZjRZWjVYSFpoR2Y0c2VMT21vZG1DZFJtYUtRdzlKdnJ4WnUwVkh5LWFEQmlaQU1zUWVGMlNkSXBISjlnSnN2dFQ?oc=5",
+     "at": "2026-10-25T17:18Z",
+     "eksik": true
+    },
+    {
+     "title": "Göztepe'ye Fenerbahçe maçı öncesi kötü haber! Sakatlık şoku",
+     "source": "beinsports.com.tr",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdjBoUXdFTTYyd3QtV2Q3WUlhYXFlZFkyNlhlaGtxNERVVkZ1TXdDUlduTXhxOVIxYmpjZ21rdF9ncVBXcmJ4anJOV2FLcVlJVlJrNUdycmgyQzBzZ1M5XzZLSTZ1VHhrbzRRdUxDZHpTX1lLY0pMbDM5S1haSEpSa0E0OENsQllELVdPS0gyMS0xQ1E?oc=5",
+     "at": "2026-10-25T16:27Z",
+     "eksik": true
+    }
+   ]
+  }
+ },
  "coupon_types": {
   "dusuk": "En düşük risk",
   "orta": "Orta riskli",
@@ -10019,9 +10255,9 @@
  },
  "coupons": [
   {
-   "id": "dusuk-202610251817",
+   "id": "dusuk-202610251843",
    "type": "dusuk",
-   "created_at": "2026-10-25T18:17Z",
+   "created_at": "2026-10-25T18:43Z",
    "status": "bekliyor",
    "odds": 1.36,
    "prob": 0.6883,
@@ -10051,12 +10287,12 @@
    ]
   },
   {
-   "id": "orta-202610251817",
+   "id": "orta-202610251843",
    "type": "orta",
-   "created_at": "2026-10-25T18:17Z",
+   "created_at": "2026-10-25T18:43Z",
    "status": "bekliyor",
    "odds": 3.03,
-   "prob": 0.3382,
+   "prob": 0.338,
    "legs": [
     {
      "league": "T1",
@@ -10087,19 +10323,19 @@
      "kickoff": "2026-10-26T18:30Z",
      "selection": "Üst 2.5",
      "market": "OU",
-     "prob": 0.6952,
+     "prob": 0.6949,
      "odds": 1.47,
      "result": "bekliyor"
     }
    ]
   },
   {
-   "id": "riskli-202610251817",
+   "id": "riskli-202610251843",
    "type": "riskli",
-   "created_at": "2026-10-25T18:17Z",
+   "created_at": "2026-10-25T18:43Z",
    "status": "bekliyor",
-   "odds": 4.03,
-   "prob": 0.2398,
+   "odds": 3.97,
+   "prob": 0.2438,
    "legs": [
     {
      "league": "T1",
@@ -10119,8 +10355,8 @@
      "kickoff": "2026-10-26T18:30Z",
      "selection": "1",
      "market": "1X2",
-     "prob": 0.4619,
-     "odds": 2.1,
+     "prob": 0.4696,
+     "odds": 2.07,
      "result": "bekliyor"
     }
    ]
