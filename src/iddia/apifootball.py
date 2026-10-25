@@ -66,11 +66,18 @@ def cached(endpoint: str, params: dict, refresh: bool, raw_dir: Path = RAW_DIR) 
 
 
 def download_all(seasons: list[int], today: date | None = None, raw_dir: Path = RAW_DIR) -> None:
+    """Planın açmadığı sezonlar (ücretsiz planda eski sezonlar) atlanır ve yazdırılır."""
     current = download.current_season_start(today or date.today())
     for league_id in LEAGUES.values():
         for season in seasons:
-            for endpoint in ("fixtures", "injuries"):
-                cached(endpoint, {"league": league_id, "season": season}, season >= current, raw_dir)
+            try:
+                for endpoint in ("fixtures", "injuries"):
+                    rows = cached(endpoint, {"league": league_id, "season": season}, season >= current, raw_dir)
+                    print(f"lig {league_id} sezon {season} {endpoint}: {len(rows)} kayıt")
+            except RuntimeError as e:
+                if isinstance(e, NoKey):
+                    raise
+                print("ATLANDI:", e)
 
 
 def fixtures_frame(rows: list, league: str) -> pd.DataFrame:

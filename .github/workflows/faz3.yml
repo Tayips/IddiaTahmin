@@ -1,0 +1,42 @@
+name: Faz 3 ölçüm
+
+# Sakat/cezalı oyuncu verisini API-Football'dan indirir, Faz 2 modeline katkısını
+# ölçer ve sonuçları dala geri yazar. Anahtar depo sırrı API_FOOTBALL_KEY'den gelir.
+on:
+  workflow_dispatch:
+  push:
+    branches: ["claude/**"]
+    paths: ["src/iddia/apifootball.py", ".github/workflows/faz3.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e .
+      - name: Maç verisi ve xG
+        run: |
+          python -m iddia.download --leagues T1 E0 --from 2014
+          python -m iddia.understat
+      - name: Sakat/cezalı listeleri
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python -m iddia.apifootball --seasons 2021 2022 2023 2024 2025 | tee reports/faz3_apifootball.log
+      - name: Karşılaştırma
+        run: python -m iddia.compare | tee reports/faz3_compare.log
+      - name: Sonuçları kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports
+          if ! git diff --cached --quiet; then
+            git commit -m "Faz 3 ölçüm sonuçları"
+            git push
+          fi
