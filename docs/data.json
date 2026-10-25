@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T17:12Z",
+ "updated_at": "2026-10-25T17:23Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
@@ -5001,7 +5001,7 @@
    "odds_d": 5.07,
    "odds_a": 6.76,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-10-25T17:12Z",
+   "predicted_at": "2026-10-25T17:23Z",
    "p_o25": 0.7028,
    "p_kg": 0.617,
    "odds_o25": 1.37,
@@ -5032,7 +5032,7 @@
    "odds_d": 3.76,
    "odds_a": 1.92,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-10-25T17:12Z",
+   "predicted_at": "2026-10-25T17:23Z",
    "p_o25": 0.6691,
    "p_kg": 0.6457,
    "odds_o25": 1.53,
@@ -5063,7 +5063,7 @@
    "odds_d": 3.73,
    "odds_a": 2.85,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-10-25T17:12Z",
+   "predicted_at": "2026-10-25T17:23Z",
    "p_o25": 0.6967,
    "p_kg": 0.7016,
    "odds_o25": 1.47,
@@ -5104,9 +5104,9 @@
  },
  "coupons": [
   {
-   "id": "dusuk-202610251712",
+   "id": "dusuk-202610251723",
    "type": "dusuk",
-   "created_at": "2026-10-25T17:12Z",
+   "created_at": "2026-10-25T17:23Z",
    "status": "bekliyor",
    "odds": 1.31,
    "prob": 0.6818,
@@ -5136,9 +5136,9 @@
    ]
   },
   {
-   "id": "orta-202610251712",
+   "id": "orta-202610251723",
    "type": "orta",
-   "created_at": "2026-10-25T17:12Z",
+   "created_at": "2026-10-25T17:23Z",
    "status": "bekliyor",
    "odds": 3.04,
    "prob": 0.3356,
@@ -5179,9 +5179,9 @@
    ]
   },
   {
-   "id": "riskli-202610251712",
+   "id": "riskli-202610251723",
    "type": "riskli",
-   "created_at": "2026-10-25T17:12Z",
+   "created_at": "2026-10-25T17:23Z",
    "status": "bekliyor",
    "odds": 4.09,
    "prob": 0.2319,
