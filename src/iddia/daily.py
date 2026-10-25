@@ -14,7 +14,7 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import pandas as pd
 
-from iddia import coupons, download, fdorg, haberler, metrics, oddsapi, site
+from iddia import coupons, download, fdorg, gemini, haberler, metrics, oddsapi, site
 from iddia.build import build, read_csv, team_name
 from iddia.evaluate import drop_forfeits
 from iddia.features import FEATURES_NO_MARKET, GOAL_FEATURES, MARKET_FEATURES, build_features, market
@@ -323,6 +323,7 @@ def main() -> None:
     news = haberler.load()
     if not args.skip_download:
         news = haberler.update(news, preds, now)
+        news = gemini.analyze(news, preds, now)
         haberler.save(news)
     data = {
         "updated_at": now.strftime("%Y-%m-%dT%H:%MZ"),
