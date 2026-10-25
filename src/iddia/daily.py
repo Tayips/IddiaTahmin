@@ -14,7 +14,7 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import pandas as pd
 
-from iddia import download, fdorg, metrics, site
+from iddia import coupons, download, fdorg, metrics, site
 from iddia.build import build, read_csv, team_name
 from iddia.evaluate import drop_forfeits
 from iddia.features import FEATURES_NO_MARKET, GOAL_FEATURES, MARKET_FEATURES, build_features
@@ -273,6 +273,10 @@ def main() -> None:
     preds.to_csv(PREDICTIONS, index=False)
 
     scored = score(preds, matches, now, org)
+    old_coupons = pd.read_csv(coupons.COUPONS) if coupons.COUPONS.exists() else pd.DataFrame(columns=coupons.LEG_COLUMNS)
+    legs = coupons.update(old_coupons, preds, now)
+    legs.to_csv(coupons.COUPONS, index=False)
+    coupon_records = coupons.to_records(legs, scored)
     data = {
         "updated_at": now.strftime("%Y-%m-%dT%H:%MZ"),
         "model": MODEL,
@@ -280,6 +284,9 @@ def main() -> None:
         "data_through": data_through(matches),
         "stats": stats(scored, now),
         "matches": to_records(scored),
+        "coupon_types": coupons.TYPES,
+        "coupon_stats": coupons.summary(coupon_records),
+        "coupons": coupons.recent(coupon_records),
     }
     SITE_DIR.mkdir(exist_ok=True)
     (SITE_DIR / "data.json").write_text(json.dumps(data, ensure_ascii=False, indent=1))

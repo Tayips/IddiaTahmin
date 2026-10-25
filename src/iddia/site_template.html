@@ -67,6 +67,16 @@ table.perf th:first-child,table.perf td:first-child{text-align:left}
 table.perf th{font-weight:600;color:var(--muted);font-size:13px}
 table.perf tr:last-child td{border-bottom:0}
 .explain{font-size:13px;color:var(--muted);margin:6px 0 0}
+.coupon{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:grid;gap:8px}
+.coupon .head{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.coupon .head b{font-family:var(--display);font-size:17px}
+.leg{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:10px;align-items:center;font-size:14px;border-top:1px solid var(--line);padding-top:7px;font-variant-numeric:tabular-nums}
+.leg .m{min-width:0}
+.leg .m small{display:block;color:var(--muted);font-size:12px}
+.leg .s{font-family:var(--mono);font-weight:600}
+.leg .r{font-family:var(--mono);font-size:13px;color:var(--muted);text-align:right}
+.coupon .foot{display:flex;justify-content:space-between;gap:8px;border-top:1px solid var(--line);padding-top:8px;font-size:14px}
+.coupon .foot b{font-family:var(--mono)}
 .warn{border:1px solid var(--bad);border-radius:8px;padding:10px 12px;margin:0 0 16px;font-size:14px}
 footer{margin-top:40px;font-size:13px;color:var(--muted)}
 @media (max-width:640px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
@@ -89,6 +99,7 @@ footer{margin-top:40px;font-size:13px;color:var(--muted)}
     <button type="button" id="v-up" aria-pressed="true">Yaklaşan</button>
     <button type="button" id="v-done" aria-pressed="false">Sonuçlar</button>
     <button type="button" id="v-perf" aria-pressed="false">Performans</button>
+    <button type="button" id="v-coup" aria-pressed="false">Kuponlar</button>
   </div>
   <div class="seg" role="group" aria-label="Lig" id="leagues"></div>
   <div class="seg" role="group" aria-label="Güven" id="conf"></div>
@@ -280,10 +291,51 @@ function perfView() {
     <p class="explain">Hafta Pazartesi günüyle gösterilir. Favori sütunu, bahis oranlarında en düşük orana sahip sonucun başarısıdır.</p>`;
 }
 
+const COUPON_STATUS = {
+  kazandi: `<span class="chip ok">Tuttu</span>`, kaybetti: `<span class="chip bad">Yattı</span>`,
+  bekliyor: `<span class="chip wait">Bekliyor</span>`, iptal: `<span class="chip">İptal</span>`,
+};
+const LEG_MARK = {kazandi: "✓", kaybetti: "✗", iptal: "ertelendi", bekliyor: ""};
+const odds2 = v => v == null ? "–" : v.toFixed(2).replace(".", ",");
+
+function couponCard(c) {
+  const legs = c.legs.map(l => {
+    const k = new Date(l.kickoff);
+    return `<div class="leg"><div class="m">${esc(l.home)} - ${esc(l.away)}<small>${esc(DATA.leagues[l.league] || l.league)} · ${TR.format(k)} ${TRT.format(k)}</small></div>
+      <span class="s">${esc(l.selection)}</span><span class="r">${odds2(l.odds)} · ${pct(l.prob)} ${LEG_MARK[l.result]}</span></div>`;
+  }).join("");
+  return `<article class="coupon">
+    <div class="head"><b>${esc(DATA.coupon_types[c.type])}</b>${COUPON_STATUS[c.status]}</div>
+    ${legs}
+    <div class="foot"><span>Toplam oran <b>${odds2(c.odds)}</b></span><span>Modelin tutma ihtimali <b>${pct(c.prob)}</b></span></div>
+  </article>`;
+}
+
+function couponView() {
+  const el = document.getElementById("list");
+  const all = DATA.coupons || [];
+  if (!all.length) { el.innerHTML = `<p class="empty">Önümüzdeki 3 günde kupon kurulacak kadar maç yok.</p>`; return; }
+  const latest = Object.keys(DATA.coupon_types).map(t => all.find(c => c.type === t)).filter(Boolean);
+  const st = DATA.coupon_stats || {};
+  const record = table(["Kupon", "Sonuçlanan", "Tutan", "1 birimle net"], Object.entries(DATA.coupon_types).map(([t, name]) => {
+    const s = st[t] || {n: 0, won: 0, net: 0};
+    return [esc(name), s.n, s.n ? `${s.won} (${pct(s.won / s.n)})` : "–", s.n ? odds2(s.net) : "–"];
+  }));
+  const past = all.filter(c => !latest.includes(c) && c.status !== "bekliyor");
+  el.innerHTML = `
+    <h2>Güncel kuponlar</h2><div class="list">${latest.map(couponCard).join("")}</div>
+    <p class="explain">Kuponlar önümüzdeki 3 günün maçlarından her çalıştırmada yeniden kurulur, ilk maç başlayınca donar. <b>En düşük risk</b>: modelin en emin olduğu 2–3 seçim, çifte şans dahil. <b>Orta riskli</b>: modelin en az %60 emin olduğu 3 seçim. <b>Riskli</b>: oranı 1,80 ve üstü seçimler arasından, model olasılığı ile oranın çarpımı en yüksek 4 seçim. Tutma ihtimali, maçların birbirinden bağımsız olduğu varsayımıyla hesaplanır. Hiçbir kupon garanti değildir; çifte şans oranları 1-X-2 oranlarından yaklaşık hesaplanmıştır.</p>
+    <h2>Kupon geçmişi</h2>${record}
+    <p class="explain">"1 birimle net": her kupona 1 birim yatırılsaydı toplam kâr ya da zarar.</p>
+    ${past.length ? `<div class="list" style="margin-top:8px">${past.map(couponCard).join("")}</div>` : ""}`;
+}
+
 function render() {
   statsBlock();
   document.getElementById("days").hidden = state.view !== "up";
+  for (const id of ["leagues", "conf"]) document.getElementById(id).hidden = state.view === "coup";
   if (state.view === "perf") return perfView();
+  if (state.view === "coup") return couponView();
   let rows = filtered();
   rows = state.view === "up"
     ? rows.filter(m => (m.status === "yaklasan" || m.status === "sonuc_bekleniyor") && dayMatch(m)).sort((a, b) => a.kickoff.localeCompare(b.kickoff))
@@ -335,7 +387,7 @@ function setup() {
     dy.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
     render();
   });
-  const VIEWS = [["v-up", "up"], ["v-done", "done"], ["v-perf", "perf"]];
+  const VIEWS = [["v-up", "up"], ["v-done", "done"], ["v-perf", "perf"], ["v-coup", "coup"]];
   for (const [id, view] of VIEWS) {
     document.getElementById(id).addEventListener("click", () => {
       state.view = view;
