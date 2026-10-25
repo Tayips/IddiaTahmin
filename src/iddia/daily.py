@@ -14,7 +14,7 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import pandas as pd
 
-from iddia import download, metrics, site
+from iddia import download, fdorg, metrics, site
 from iddia.build import build, read_csv, team_name
 from iddia.evaluate import drop_forfeits
 from iddia.features import FEATURES_NO_MARKET, GOAL_FEATURES, MARKET_FEATURES, build_features
@@ -181,14 +181,15 @@ def merge_predictions(old: pd.DataFrame, new: pd.DataFrame, now: datetime, first
     return merged.sort_values(["kickoff", "league", "home"]).reset_index(drop=True)[PRED_COLUMNS]
 
 
-def score(preds: pd.DataFrame, matches: pd.DataFrame, now: datetime) -> pd.DataFrame:
+def score(preds: pd.DataFrame, matches: pd.DataFrame, now: datetime, org: pd.DataFrame | None = None) -> pd.DataFrame:
     results = matches.assign(date=matches["date"].dt.strftime("%Y-%m-%d"))[KEY + ["fthg", "ftag", "ftr"]]
     df = preds.merge(results, on=KEY, how="left")
+    df, moved = fdorg.fill_results(df, org)
     stamp = now.strftime("%Y-%m-%dT%H:%MZ")
     late = pd.to_datetime(df["kickoff"]) + pd.Timedelta(days=RESULT_GRACE_DAYS) < pd.Timestamp(now)
     df["status"] = np.select(
-        [df["ftr"].notna(), df["kickoff"] > stamp, late],
-        ["bitti", "yaklasan", "ertelendi"],
+        [df["ftr"].notna(), moved, df["kickoff"] > stamp, late],
+        ["bitti", "ertelendi", "yaklasan", "ertelendi"],
         default="sonuc_bekleniyor",
     )
     df["correct"] = np.where(df["status"] == "bitti", df["pick"] == df["ftr"], np.nan)
@@ -253,7 +254,8 @@ def main() -> None:
 
     matches = drop_forfeits(build())
     model = fit(matches)
-    fixtures = load_fixtures()
+    org = fdorg.fetch(download.current_season_start(now.date()))
+    fixtures = fdorg.apply_to_fixtures(load_fixtures(), org)
     first_run = not PREDICTIONS.exists()
     old = backfill(matches, season_of(now.date())) if first_run else pd.read_csv(PREDICTIONS)
     old = old.reindex(columns=PRED_COLUMNS)   # eski kayıtlarda yeni sütunlar boş kalır
@@ -261,7 +263,7 @@ def main() -> None:
     PREDICTIONS.parent.mkdir(parents=True, exist_ok=True)
     preds.to_csv(PREDICTIONS, index=False)
 
-    scored = score(preds, matches, now)
+    scored = score(preds, matches, now, org)
     data = {
         "updated_at": now.strftime("%Y-%m-%dT%H:%MZ"),
         "model": MODEL,

@@ -24,6 +24,8 @@ jobs:
           cache: pip
       - run: pip install -e .
       - run: python -m iddia.daily
+        env:
+          FOOTBALL_DATA_ORG_KEY: ${{ secrets.FOOTBALL_DATA_ORG_KEY }}
       - name: Tahminleri kaydet
         run: |
           git config user.name "github-actions[bot]"
