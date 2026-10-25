@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "iddia"
 version = "0.1.0"
@@ -6,6 +10,9 @@ dependencies = ["pandas>=2.2", "numpy>=1.26", "scipy>=1.11", "requests>=2.31"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+iddia = ["*.html"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]

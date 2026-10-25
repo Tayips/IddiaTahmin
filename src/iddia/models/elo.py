@@ -14,6 +14,7 @@ class Elo:
     carryover: float = 0.8      # yeni sezonda puanlar lig ortalamasına bu oranda çekilir
     new_team: float = -100.0    # ligde ilk kez görülen takımın ortalamaya göre başlangıcı
     ratings: dict = field(default_factory=dict)
+    last_season: dict = field(default_factory=dict)
 
     def run(self, matches: pd.DataFrame) -> pd.Series:
         """Maçları sırayla oynatır; her maç için maç ÖNCESİ puan farkını döndürür."""
@@ -42,7 +43,26 @@ class Elo:
             change = self.k * (np.log(gd + 1) + 1) * (actual - expected)
             table[row.home] = rh + change
             table[row.away] = ra - change
+        self.last_season.update(season_seen)
         return pd.Series(diffs, index=matches.index, name="elo_diff")
+
+    def diff(self, league: str, home: str, away: str, season: str) -> float:
+        """Henüz oynanmamış bir maç için puan farkı; puanları değiştirmez.
+
+        Yeni sezonun ilk maçlarında, run() ile aynı şekilde puanlar ortalamaya çekilir.
+        """
+        table = self.ratings.get(league, {})
+        if not table:
+            return self.home_adv
+        mean = np.mean(list(table.values()))
+        shrink = self.carryover if season != self.last_season.get(league) else 1.0
+
+        def rating(team: str) -> float:
+            if team not in table:
+                return mean + self.new_team
+            return mean + shrink * (table[team] - mean)
+
+        return rating(home) + self.home_adv - rating(away)
 
 
 @dataclass

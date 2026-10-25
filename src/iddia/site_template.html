@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IddiaTahmin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500;600&display=swap">
+<style>
+:root{
+  --bg:#f4f7f4; --surface:#fff; --fg:#16201a; --muted:#5a675e; --line:#dce4de;
+  --accent:#1f6b45; --accent-soft:#e1efe6; --ok:#1f7a45; --ok-soft:#e1f2e7; --bad:#b23a32; --bad-soft:#f9e3e1; --wait:#8a6a12; --wait-soft:#f8f0d8;
+  --display:"Bricolage Grotesque", system-ui, sans-serif;
+  --body:"Source Sans 3", system-ui, sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, Menlo, monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0f1511; --surface:#172019; --fg:#e3ebe5; --muted:#98a69c; --line:#29352d;
+  --accent:#5fc28d; --accent-soft:#1b3125; --ok:#62c98f; --ok-soft:#173023; --bad:#f08a82; --bad-soft:#391d1b; --wait:#e2b54d; --wait-soft:#33290f;
+  color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right));padding-block:28px 64px}
+header h1{font-family:var(--display);font-weight:800;font-size:32px;margin:0;letter-spacing:-.01em}
+header p{margin:4px 0 0;color:var(--muted);font-size:14px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:20px}
+.stat{background:var(--surface);padding:14px 16px}
+.stat b{display:block;font-family:var(--mono);font-size:26px;font-weight:600;font-variant-numeric:tabular-nums}
+.stat span{font-size:13px;color:var(--muted)}
+.note{font-size:13px;color:var(--muted);margin-top:10px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px;align-items:center;justify-content:space-between}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:none;color:var(--muted);font:600 14px var(--body);padding:7px 14px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface)}
+.seg button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+h2{font-family:var(--display);font-size:15px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:24px 0 8px}
+.list{display:grid;gap:8px}
+.match{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:grid;gap:8px}
+.top{display:flex;justify-content:space-between;gap:8px;font-size:13px;color:var(--muted)}
+.lg{font-family:var(--mono);font-size:11px;font-weight:600;padding:1px 7px;border-radius:999px;background:var(--accent-soft);color:var(--accent)}
+.teams{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:center;font-weight:700;font-size:17px}
+.teams .a{text-align:right}
+.score{font-family:var(--mono);font-size:18px;font-weight:600;min-width:56px;text-align:center;color:var(--muted)}
+.probs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.p{border:1px solid var(--line);border-radius:6px;padding:6px 8px;position:relative;overflow:hidden;font-variant-numeric:tabular-nums}
+.p .fill{position:absolute;inset:auto 0 0 0;height:3px;background:var(--line)}
+.p.pick{border-color:var(--accent)}
+.p.pick .fill{background:var(--accent)}
+.p .k{font-size:12px;color:var(--muted)}
+.p .v{font-family:var(--mono);font-weight:600}
+.p .o{font-size:11px;color:var(--muted)}
+.chip{font-family:var(--mono);font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.ok{background:var(--ok-soft);color:var(--ok)}
+.bad{background:var(--bad-soft);color:var(--bad)}
+.wait{background:var(--wait-soft);color:var(--wait)}
+.empty{color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:8px;padding:20px;text-align:center}
+footer{margin-top:40px;font-size:13px;color:var(--muted)}
+@media (max-width:640px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:480px){.teams{font-size:15px}.stat b{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>IddiaTahmin</h1>
+  <p id="updated"></p>
+</header>
+
+<div class="stats" id="stats"></div>
+<p class="note" id="note"></p>
+
+<div class="controls">
+  <div class="seg" role="group" aria-label="Görünüm">
+    <button type="button" id="v-up" aria-pressed="true">Yaklaşan</button>
+    <button type="button" id="v-done" aria-pressed="false">Sonuçlar</button>
+  </div>
+  <div class="seg" role="group" aria-label="Lig" id="leagues"></div>
+</div>
+
+<div id="list"></div>
+
+<footer>Tahminler bilgi amaçlıdır, bahis tavsiyesi değildir. 18 yaş altına bahis yasaktır. Veri: football-data.co.uk.</footer>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const OUT = {H: "1", D: "X", A: "2"};
+const TR = new Intl.DateTimeFormat("tr-TR", {weekday: "short", day: "numeric", month: "long", timeZone: "Europe/Istanbul"});
+const TRT = new Intl.DateTimeFormat("tr-TR", {hour: "2-digit", minute: "2-digit", timeZone: "Europe/Istanbul"});
+const pct = v => v == null ? "–" : `%${(v * 100).toFixed(1).replace(".", ",")}`;
+const state = {view: "up", league: "all"};
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"})[c]);
+
+function statsBlock() {
+  const s = state.league === "all" ? DATA.stats.genel : DATA.stats.lig[state.league];
+  const g70 = DATA.stats.guven["70%+"];
+  const cells = [
+    [pct(s.accuracy), "Tahmin başarısı"],
+    [`${s.correct} / ${s.n}`, "Doğru / biten maç"],
+    [pct(s.odds_accuracy), "Bahis favorisinin başarısı"],
+    [pct(DATA.stats.son_30_gun.accuracy), "Son 30 gün"],
+  ];
+  document.getElementById("stats").innerHTML = cells.map(([b, t]) => `<div class="stat"><b>${b}</b><span>${t}</span></div>`).join("");
+  const live = DATA.stats.canli;
+  document.getElementById("note").textContent =
+    (g70.n ? `Model %70'ten fazla emin olduğunda: ${g70.correct} / ${g70.n} doğru (${pct(g70.accuracy)}). ` : "") +
+    `Canlı takip: ${live.n} maç, ${pct(live.accuracy)} başarı. ` +
+    "Sezon başından takip başlangıcına kadarki maçlar geriye dönük hesaplandı; model her maçta yalnızca o maçtan önceki sonuçları gördü.";
+}
+
+function probCell(m, o) {
+  const p = m["p_" + o.toLowerCase()];
+  const odd = m["odds_" + o.toLowerCase()];
+  return `<div class="p ${m.pick === o ? "pick" : ""}">
+    <div class="k">${OUT[o]}</div><div class="v">${pct(p)}</div>
+    <div class="o">${odd ? "oran " + odd.toFixed(2).replace(".", ",") : "&nbsp;"}</div>
+    <div class="fill" style="width:${(p * 100).toFixed(0)}%"></div></div>`;
+}
+
+function badge(m) {
+  if (m.status === "bitti") return m.correct ? `<span class="chip ok">Doğru</span>` : `<span class="chip bad">Yanlış</span>`;
+  if (m.status === "sonuc_bekleniyor") return `<span class="chip wait">Sonuç bekleniyor</span>`;
+  if (m.status === "ertelendi") return `<span class="chip wait">Ertelendi</span>`;
+  return `<span class="chip">Tahmin: ${OUT[m.pick]}</span>`;
+}
+
+function card(m) {
+  const k = new Date(m.kickoff);
+  const backfilled = m.predicted_at === "geriye-donuk";
+  const when = backfilled ? TR.format(k) : `${TR.format(k)} · ${TRT.format(k)}`;
+  const mid = m.status === "bitti" ? `${m.fthg} - ${m.ftag}` : "vs";
+  return `<article class="match">
+    <div class="top"><span><span class="lg">${esc(DATA.leagues[m.league])}</span> ${when}</span>${badge(m)}</div>
+    <div class="teams"><span class="a">${esc(m.home)}</span><span class="score">${mid}</span><span>${esc(m.away)}</span></div>
+    <div class="probs">${["H", "D", "A"].map(o => probCell(m, o)).join("")}</div>
+  </article>`;
+}
+
+function render() {
+  statsBlock();
+  let rows = DATA.matches.filter(m => state.league === "all" || m.league === state.league);
+  rows = state.view === "up"
+    ? rows.filter(m => m.status === "yaklasan" || m.status === "sonuc_bekleniyor").sort((a, b) => a.kickoff.localeCompare(b.kickoff))
+    : rows.filter(m => m.status === "bitti" || m.status === "ertelendi").sort((a, b) => b.kickoff.localeCompare(a.kickoff));
+  const el = document.getElementById("list");
+  if (!rows.length) {
+    el.innerHTML = `<p class="empty">${state.view === "up" ? "Önümüzdeki günlerde maç yok. Fikstür her sabah güncellenir." : "Henüz biten maç yok."}</p>`;
+    return;
+  }
+  const groups = {};
+  for (const m of rows) (groups[TR.format(new Date(m.kickoff))] ??= []).push(m);
+  el.innerHTML = Object.entries(groups).map(([day, ms]) => `<h2>${day}</h2><div class="list">${ms.map(card).join("")}</div>`).join("");
+}
+
+function setup() {
+  const up = new Date(DATA.updated_at);
+  document.getElementById("updated").textContent = `Son güncelleme: ${TR.format(up)} ${TRT.format(up)} · model ${DATA.model}`;
+  const lg = document.getElementById("leagues");
+  const opts = [["all", "Tümü"], ...Object.entries(DATA.leagues)];
+  lg.innerHTML = opts.map(([k, v]) => `<button type="button" data-lg="${k}" aria-pressed="${k === "all"}">${esc(v)}</button>`).join("");
+  lg.addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    state.league = b.dataset.lg;
+    lg.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
+    render();
+  });
+  for (const [id, view] of [["v-up", "up"], ["v-done", "done"]]) {
+    document.getElementById(id).addEventListener("click", () => {
+      state.view = view;
+      document.getElementById("v-up").setAttribute("aria-pressed", view === "up");
+      document.getElementById("v-done").setAttribute("aria-pressed", view === "done");
+      render();
+    });
+  }
+  render();
+}
+setup();
+</script>
+</body>
+</html>
