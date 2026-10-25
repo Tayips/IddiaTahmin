@@ -58,3 +58,42 @@ def test_news_refresh_keeps_ai_analysis():
     old = gemini.analyze(news(), preds(), NOW, key="k", call=lambda p: ANSWER)
     new = haberler.update(old, preds(), NOW, fetch=lambda *a: [{"title": "x", "source": "y", "eksik": False}])
     assert new[KEY]["ai"] == old[KEY]["ai"]
+
+
+class Resp:
+    def __init__(self, status, data=None):
+        self.status_code, self.data = status, data or {}
+
+    def json(self):
+        return self.data
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise gemini.requests.HTTPError(str(self.status_code))
+
+
+def test_pick_models_newest_flash_then_lite(monkeypatch):
+    names = ["gemini-2.5-flash", "gemini-3.8-flash", "gemini-3.8-flash-lite", "gemini-3.5-flash",
+             "gemini-3.8-pro", "gemini-3.9-flash-preview-09", "gemini-3.0-flash-lite"]
+    models = {"models": [{"name": f"models/{n}", "supportedGenerationMethods": ["generateContent"]} for n in names]}
+    monkeypatch.delenv(gemini.ENV_MODEL, raising=False)
+    monkeypatch.setattr(gemini.requests, "get", lambda *a, **k: Resp(200, models))
+    assert gemini.pick_models("k") == ["gemini-3.8-flash", "gemini-3.5-flash",
+                                       "gemini-3.8-flash-lite", "gemini-3.0-flash-lite"]
+
+
+def test_client_moves_past_quota_errors_and_stays_on_working_option(monkeypatch):
+    seen = []
+
+    def post(url, json, **k):
+        seen.append((url.split("/models/")[1].split(":")[0], "tools" in json))
+        if seen[-1] != ("b", False):
+            return Resp(429)
+        return Resp(200, {"candidates": [{"content": {"parts": [{"text": "{}"}]}}]})
+
+    monkeypatch.setattr(gemini.requests, "post", post)
+    client = gemini.Client("k", ["a", "b"])
+    assert client("soru") == "{}" and client.model == "b (aramasız)"
+    assert seen == [("a", True), ("a", False), ("b", True), ("b", False)]
+    client("ikinci soru")
+    assert seen[-1] == ("b", False) and len(seen) == 5

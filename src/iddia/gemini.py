@@ -26,6 +26,7 @@ API = "https://generativelanguage.googleapis.com/v1beta"
 ENV_KEY = "GEMINI_API_KEY"
 ENV_MODEL = "GEMINI_MODEL"
 FALLBACK_MODEL = "gemini-2.5-flash"
+MAX_MODELS = 2                          # her türden denenecek en yeni model sayısı
 MAX_CALLS = 20
 PAUSE = 7.0                             # ücretsiz katman: dakikada ~10 istek
 REFRESH = timedelta(hours=6)            # başlıklar değişmese de bu kadar eskiyse yeniden sor
@@ -47,19 +48,65 @@ Eksik oyuncu bulamazsan boş liste döndür."""
 LEAGUE_NAMES = {"T1": "Türkiye Süper Lig", "E0": "İngiltere Premier Lig"}
 
 
-def pick_model(key: str) -> str:
-    """En yeni kararlı 'flash' modelini seçer; liste alınamazsa bilinen bir modele düşer."""
+def pick_models(key: str) -> list[str]:
+    """Denenecek modeller: en yeni kararlı 'flash' modelleri, sonra 'flash-lite' modelleri.
+
+    En yeni model ücretsiz katmanda kapalı olabilir (429); o zaman sıradakine geçilir.
+    """
     if os.environ.get(ENV_MODEL):
-        return os.environ[ENV_MODEL]
+        return [os.environ[ENV_MODEL]]
     try:
         r = requests.get(f"{API}/models", headers={"x-goog-api-key": key}, params={"pageSize": 200}, timeout=20)
         r.raise_for_status()
         names = [m["name"].removeprefix("models/") for m in r.json().get("models", [])
                  if "generateContent" in m.get("supportedGenerationMethods", [])]
     except (requests.RequestException, ValueError, KeyError):
-        return FALLBACK_MODEL
-    flash = [(float(m.group(1)), n) for n in names if (m := re.fullmatch(r"gemini-(\d+(?:\.\d+)?)-flash", n))]
-    return max(flash)[1] if flash else FALLBACK_MODEL
+        return [FALLBACK_MODEL]
+
+    def ranked(suffix):
+        found = [(tuple(map(int, m.group(1).split("."))), n) for n in names if (m := re.fullmatch(rf"gemini-(\d+(?:\.\d+)?)-{suffix}", n))]
+        return [n for _, n in sorted(found, reverse=True)]
+
+    return (ranked("flash")[:MAX_MODELS] + ranked("flash-lite")[:MAX_MODELS]) or [FALLBACK_MODEL]
+
+
+class Client:
+    """Model ve arama aracı birleşimlerini sırayla dener; çalışan ilk birleşimde kalır."""
+
+    SKIP = {400, 403, 404, 429}           # bu model/araç birleşimi kullanılamıyor: sıradakine geç
+
+    def __init__(self, key: str, models: list[str]):
+        self.key = key
+        self.options = [(m, tools) for m in models for tools in (True, False)]
+        self.i = 0
+
+    @property
+    def model(self) -> str:
+        if self.i >= len(self.options):
+            return "-"
+        m, tools = self.options[self.i]
+        return m if tools else f"{m} (aramasız)"
+
+    def __call__(self, prompt: str) -> str | None:
+        body = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0.1}}
+        while self.i < len(self.options):
+            model, tools = self.options[self.i]
+            payload = {**body, "tools": [{"google_search": {}}]} if tools else body
+            try:
+                r = requests.post(f"{API}/models/{model}:generateContent", json=payload, timeout=90,
+                                  headers={"x-goog-api-key": self.key})
+                if r.status_code in self.SKIP:
+                    print(f"Gemini {self.model}: {r.status_code}, sıradaki deneniyor")
+                    self.i += 1
+                    continue
+                r.raise_for_status()
+                parts = r.json()["candidates"][0]["content"]["parts"]
+                return "".join(p.get("text", "") for p in parts)
+            except (requests.RequestException, ValueError, KeyError, IndexError) as e:
+                # Anahtar istek başlığında gider, hata metninde yer almaz; yine de yalnızca türünü yaz
+                print(f"Gemini okunamadı: {type(e).__name__}")
+                return None
+        return None
 
 
 def _clean(side) -> dict:
@@ -89,25 +136,6 @@ def parse(text: str) -> dict | None:
     return {"home": _clean(data.get("home")), "away": _clean(data.get("away"))}
 
 
-def ask(key: str, model: str, prompt: str) -> str | None:
-    body = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0.1}}
-    for tools in ([{"google_search": {}}], None):          # arama aracı yoksa aramasız dene
-        payload = {**body, "tools": tools} if tools else body
-        try:
-            r = requests.post(f"{API}/models/{model}:generateContent", json=payload, timeout=90,
-                              headers={"x-goog-api-key": key})
-            if r.status_code == 400 and tools:
-                continue
-            r.raise_for_status()
-            parts = r.json()["candidates"][0]["content"]["parts"]
-            return "".join(p.get("text", "") for p in parts)
-        except (requests.RequestException, ValueError, KeyError, IndexError) as e:
-            # Hata metni anahtarı içermez (anahtar başlıkta gider), yine de yalnızca türünü yaz
-            print(f"Gemini okunamadı: {type(e).__name__} {getattr(getattr(e, 'response', None), 'status_code', '')}")
-            return None
-    return None
-
-
 def headline_hash(entry: dict) -> str:
     titles = [x["title"] for side in ("home", "away") for x in entry.get(side, [])]
     return hashlib.sha1("\n".join(titles).encode()).hexdigest()[:12]
@@ -128,11 +156,11 @@ def analyze(news: dict, preds: pd.DataFrame, now: datetime, key: str | None = No
         print(f"{ENV_KEY} yok, Gemini analizi atlandı")
         return news
     real = call is None
-    model = pick_model(key) if real else "test"
-    call = call or (lambda prompt: ask(key, model, prompt))
+    if real:
+        call = Client(key, pick_models(key))
     stamp, until = now.strftime("%Y-%m-%dT%H:%MZ"), (now + LOOKAHEAD).strftime("%Y-%m-%dT%H:%MZ")
     soon = preds[(preds["kickoff"] > stamp) & (preds["kickoff"] <= until)].sort_values("kickoff")
-    out, calls = dict(news), 0
+    out, calls, done = dict(news), 0, 0
     for r in soon.to_dict("records"):
         k = match_key(r)
         if k not in out or not due(out[k], now) or calls >= MAX_CALLS:
@@ -148,6 +176,8 @@ def analyze(news: dict, preds: pd.DataFrame, now: datetime, key: str | None = No
         result = parse(call(prompt) or "")
         if result is None:
             continue                          # okunamadıysa varsa eski analiz kalır
+        done += 1
+        model = getattr(call, "model", "test")
         out[k] = {**entry, "ai": {**result, "model": model, "at": stamp, "hash": headline_hash(entry)}}
-    print(f"Gemini ({model}): {calls} maç analiz edildi")
+    print(f"Gemini: {done}/{calls} maç analiz edildi")
     return out
