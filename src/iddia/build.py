@@ -21,14 +21,24 @@ TEAM_ALIASES = {
     "Erzurum BB": "Erzurumspor",
 }
 
+# Maç öncesi (kapanıştan önce, genellikle Cuma) oranlar; canlı tahminde elimizde olan bunlar.
+PRE_ODDS_CANDIDATES = [
+    ("AvgH", "AvgD", "AvgA"),
+    ("BbAvH", "BbAvD", "BbAvA"),
+    ("B365H", "B365D", "B365A"),
+]
+
+# Maç istatistikleri: şut, isabetli şut, korner (Süper Lig'de 2017/18'den itibaren var).
+STATS = {"HS": "hs", "AS": "as_", "HST": "hst", "AST": "ast", "HC": "hc", "AC": "ac"}
+
 COLUMNS = ["date", "league", "season", "home", "away", "fthg", "ftag", "ftr",
-           "odds_h", "odds_d", "odds_a"]
+           "odds_h", "odds_d", "odds_a", "pre_h", "pre_d", "pre_a", *STATS.values()]
 
 
-def pick_odds(df: pd.DataFrame) -> pd.DataFrame:
+def pick_odds(df: pd.DataFrame, candidates=ODDS_CANDIDATES, names=("odds_h", "odds_d", "odds_a")) -> pd.DataFrame:
     """Her satır için mevcut ilk oran üçlüsünü seçer."""
-    odds = pd.DataFrame(index=df.index, columns=["odds_h", "odds_d", "odds_a"], dtype=float)
-    for cols in ODDS_CANDIDATES:
+    odds = pd.DataFrame(index=df.index, columns=list(names), dtype=float)
+    for cols in candidates:
         if not set(cols) <= set(df.columns):
             continue
         part = df[list(cols)].apply(pd.to_numeric, errors="coerce")
@@ -72,6 +82,9 @@ def load_season(path: Path, league: str, season: str) -> pd.DataFrame:
         "ftr": df["FTR"],
     })
     out = out.join(pick_odds(df))
+    out = out.join(pick_odds(df, PRE_ODDS_CANDIDATES, ("pre_h", "pre_d", "pre_a")))
+    for src, dst in STATS.items():
+        out[dst] = pd.to_numeric(df[src], errors="coerce") if src in df else float("nan")
     return out[COLUMNS]
 
 
