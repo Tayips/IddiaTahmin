@@ -38,3 +38,11 @@ Sonuçlar ve yorum: [reports/faz1.md](reports/faz1.md).
 GitHub Actions (`.github/workflows/daily.yml`) bunu her gün 05:00 ve 14:00 UTC'de çalıştırır. Sayfayı yayınlamak için bir kez: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main`, klasör `/docs` → Save**. Sayfa `https://tayips.github.io/IddiaTahmin/` adresinde açılır.
 
 Elle çalıştırmak için: **Actions → Günlük tahmin → Run workflow**.
+
+## Faz 2: özellikler
+
+```bash
+python -m iddia.compare   # yaklaşık 20 saniye
+```
+
+Sonuçlar: [reports/faz2.md](reports/faz2.md). Günlük sistem bu fazdan itibaren `form-piyasa-v2` modelini kullanır.

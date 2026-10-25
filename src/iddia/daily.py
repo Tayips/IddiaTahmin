@@ -6,6 +6,7 @@ değişmez. Böylece başarı oranı yalnızca maçtan önce yapılmış tahminl
 """
 import argparse
 import json
+from dataclasses import dataclass
 from datetime import date, datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -16,10 +17,13 @@ import pandas as pd
 from iddia import download, metrics, site
 from iddia.build import build, read_csv, team_name
 from iddia.evaluate import drop_forfeits
+from iddia.features import FEATURES_NO_MARKET, MARKET_FEATURES, build_features
 from iddia.models.elo import Elo, OrderedLogit
+from iddia.models.ml import Model
 
 LEAGUES = {"T1": "Süper Lig", "E0": "Premier Lig"}
-MODEL = "elo-v1"
+MODEL = "form-piyasa-v2"
+MODEL_NO_MARKET = "form-v2"
 PREDICTIONS = Path("data/predictions.csv")
 SITE_DIR = Path("docs")
 UK = ZoneInfo("Europe/London")          # football-data saatleri İngiltere saatidir
@@ -53,25 +57,61 @@ def load_fixtures(path: Path = download.FIXTURES_PATH) -> pd.DataFrame:
     return out.reset_index(drop=True)
 
 
-def fit(matches: pd.DataFrame) -> tuple[Elo, dict[str, OrderedLogit]]:
+@dataclass
+class Predictor:
+    """Piyasa oranı olan maçlarda form + piyasa modeli, olmayanlarda yalnızca form modeli."""
+    elo: Elo
+    diffs: pd.Series
+    with_market: Model
+    form_only: Model
+
+
+def fit(matches: pd.DataFrame) -> Predictor:
     elo = Elo()
     diffs = elo.run(matches)
-    logits = {
-        league: OrderedLogit().fit(diffs[games.index].to_numpy(), games["ftr"])
-        for league, games in matches.groupby("league")
-    }
-    return elo, logits
+    X = build_features(matches, diffs)
+    y = matches["ftr"]
+    has_mk = X["mk_h"].notna()
+    return Predictor(
+        elo=elo,
+        diffs=diffs,
+        with_market=Model("lr", FEATURES_NO_MARKET + MARKET_FEATURES).fit(X[has_mk], y[has_mk]),
+        form_only=Model("lr", FEATURES_NO_MARKET).fit(X, y),
+    )
 
 
-def predict(fixtures: pd.DataFrame, elo: Elo, logits: dict[str, OrderedLogit], now: datetime) -> pd.DataFrame:
+def fixture_features(fixtures: pd.DataFrame, matches: pd.DataFrame, model: Predictor) -> pd.DataFrame:
+    """Gelecek maçları geçmişin sonuna ekleyip özelliklerini hesaplar."""
+    future = pd.DataFrame({
+        "date": pd.to_datetime(fixtures["date"]),
+        "league": fixtures["league"].to_numpy(),
+        "season": fixtures["season"].to_numpy(),
+        "home": fixtures["home"].to_numpy(),
+        "away": fixtures["away"].to_numpy(),
+        "pre_h": fixtures["odds_h"].to_numpy(),
+        "pre_d": fixtures["odds_d"].to_numpy(),
+        "pre_a": fixtures["odds_a"].to_numpy(),
+    })
+    combined = pd.concat([matches, future], ignore_index=True)
+    future_idx = combined.index[len(matches):]
+    future_diffs = pd.Series(
+        [model.elo.diff(r.league, r.home, r.away, r.season) for r in fixtures.itertuples()], index=future_idx)
+    diffs = pd.concat([model.diffs.reset_index(drop=True), future_diffs])
+    return build_features(combined, diffs).loc[future_idx].reset_index(drop=True)
+
+
+def predict(fixtures: pd.DataFrame, matches: pd.DataFrame, model: Predictor, now: datetime) -> pd.DataFrame:
     if fixtures.empty:
         return pd.DataFrame(columns=PRED_COLUMNS)
-    diffs = np.array([elo.diff(r.league, r.home, r.away, r.season) for r in fixtures.itertuples()])
-    probs = np.vstack([logits[lg].predict(np.array([d]))[0] for lg, d in zip(fixtures["league"], diffs)])
+    X = fixture_features(fixtures, matches, model)
+    probs = model.form_only.predict(X)
+    has_mk = X["mk_h"].notna().to_numpy()
+    if has_mk.any():
+        probs[has_mk] = model.with_market.predict(X[has_mk])
     out = fixtures.copy()
     out[["p_h", "p_d", "p_a"]] = probs.round(4)
     out["pick"] = np.array(metrics.OUTCOMES)[probs.argmax(axis=1)]
-    out["model"] = MODEL
+    out["model"] = np.where(has_mk, MODEL, MODEL_NO_MARKET)
     out["predicted_at"] = now.strftime("%Y-%m-%dT%H:%MZ")
     return out[PRED_COLUMNS]
 
@@ -105,7 +145,7 @@ def backfill(matches: pd.DataFrame, season: str) -> pd.DataFrame:
     if not rows:
         return pd.DataFrame(columns=PRED_COLUMNS)
     df = pd.concat(rows, ignore_index=True)
-    df["model"] = MODEL
+    df["model"] = "elo-v1"
     df["predicted_at"] = BACKFILL
     return df[PRED_COLUMNS]
 
@@ -197,11 +237,11 @@ def main() -> None:
         download.download_fixtures()
 
     matches = drop_forfeits(build())
-    elo, logits = fit(matches)
+    model = fit(matches)
     fixtures = load_fixtures()
     first_run = not PREDICTIONS.exists()
     old = backfill(matches, season_of(now.date())) if first_run else pd.read_csv(PREDICTIONS)
-    preds = merge_predictions(old, predict(fixtures, elo, logits, now), now, first_run)
+    preds = merge_predictions(old, predict(fixtures, matches, model, now), now, first_run)
     PREDICTIONS.parent.mkdir(parents=True, exist_ok=True)
     preds.to_csv(PREDICTIONS, index=False)
 

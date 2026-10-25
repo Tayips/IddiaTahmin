@@ -76,6 +76,7 @@ footer{margin-top:40px;font-size:13px;color:var(--muted)}
     <button type="button" id="v-done" aria-pressed="false">Sonuçlar</button>
   </div>
   <div class="seg" role="group" aria-label="Lig" id="leagues"></div>
+  <div class="seg" role="group" aria-label="Güven" id="conf"></div>
 </div>
 
 <div id="list"></div>
@@ -89,22 +90,42 @@ const OUT = {H: "1", D: "X", A: "2"};
 const TR = new Intl.DateTimeFormat("tr-TR", {weekday: "short", day: "numeric", month: "long", timeZone: "Europe/Istanbul"});
 const TRT = new Intl.DateTimeFormat("tr-TR", {hour: "2-digit", minute: "2-digit", timeZone: "Europe/Istanbul"});
 const pct = v => v == null ? "–" : `%${(v * 100).toFixed(1).replace(".", ",")}`;
-const state = {view: "up", league: "all"};
+const state = {view: "up", league: "all", conf: 0};
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"})[c]);
 
+const CONF = [[0, "Tüm tahminler"], [0.6, "%60+ emin"], [0.7, "%70+ emin"]];
+const topProb = m => Math.max(m.p_h, m.p_d, m.p_a);
+
+function filtered() {
+  return DATA.matches.filter(m => (state.league === "all" || m.league === state.league) && topProb(m) >= state.conf);
+}
+
+function summary(rows) {
+  const done = rows.filter(m => m.status === "bitti");
+  const withOdds = done.filter(m => m.odds_correct != null);
+  const correct = done.filter(m => m.correct).length;
+  return {
+    n: done.length, correct,
+    accuracy: done.length ? correct / done.length : null,
+    odds: withOdds.length ? withOdds.filter(m => m.odds_correct).length / withOdds.length : null,
+  };
+}
+
 function statsBlock() {
-  const s = state.league === "all" ? DATA.stats.genel : DATA.stats.lig[state.league];
-  const g70 = DATA.stats.guven["70%+"];
+  const rows = filtered();
+  const s = summary(rows);
+  const since = Date.now() - 30 * 864e5;
+  const recent = summary(rows.filter(m => new Date(m.kickoff) >= since));
+  const live = summary(rows.filter(m => m.predicted_at !== "geriye-donuk"));
   const cells = [
     [pct(s.accuracy), "Tahmin başarısı"],
     [`${s.correct} / ${s.n}`, "Doğru / biten maç"],
-    [pct(s.odds_accuracy), "Bahis favorisinin başarısı"],
-    [pct(DATA.stats.son_30_gun.accuracy), "Son 30 gün"],
+    [pct(s.odds), "Bahis favorisinin başarısı"],
+    [pct(recent.accuracy), "Son 30 gün"],
   ];
   document.getElementById("stats").innerHTML = cells.map(([b, t]) => `<div class="stat"><b>${b}</b><span>${t}</span></div>`).join("");
-  const live = DATA.stats.canli;
   document.getElementById("note").textContent =
-    (g70.n ? `Model %70'ten fazla emin olduğunda: ${g70.correct} / ${g70.n} doğru (${pct(g70.accuracy)}). ` : "") +
+    (state.conf ? `Yalnızca modelin %${state.conf * 100} veya daha fazla emin olduğu maçlar gösteriliyor. ` : "") +
     `Canlı takip: ${live.n} maç, ${pct(live.accuracy)} başarı. ` +
     "Sezon başından takip başlangıcına kadarki maçlar geriye dönük hesaplandı; model her maçta yalnızca o maçtan önceki sonuçları gördü.";
 }
@@ -139,13 +160,13 @@ function card(m) {
 
 function render() {
   statsBlock();
-  let rows = DATA.matches.filter(m => state.league === "all" || m.league === state.league);
+  let rows = filtered();
   rows = state.view === "up"
     ? rows.filter(m => m.status === "yaklasan" || m.status === "sonuc_bekleniyor").sort((a, b) => a.kickoff.localeCompare(b.kickoff))
     : rows.filter(m => m.status === "bitti" || m.status === "ertelendi").sort((a, b) => b.kickoff.localeCompare(a.kickoff));
   const el = document.getElementById("list");
   if (!rows.length) {
-    el.innerHTML = `<p class="empty">${state.view === "up" ? "Önümüzdeki günlerde maç yok. Fikstür her sabah güncellenir." : "Henüz biten maç yok."}</p>`;
+    el.innerHTML = `<p class="empty">${state.view === "up" ? (state.conf ? "Bu güven seviyesinde yaklaşan maç yok." : "Önümüzdeki günlerde maç yok. Fikstür her sabah güncellenir.") : "Henüz biten maç yok."}</p>`;
     return;
   }
   const groups = {};
@@ -163,6 +184,14 @@ function setup() {
     const b = e.target.closest("button"); if (!b) return;
     state.league = b.dataset.lg;
     lg.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
+    render();
+  });
+  const cf = document.getElementById("conf");
+  cf.innerHTML = CONF.map(([v, t]) => `<button type="button" data-conf="${v}" aria-pressed="${v === 0}">${t}</button>`).join("");
+  cf.addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    state.conf = Number(b.dataset.conf);
+    cf.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
     render();
   });
   for (const [id, view] of [["v-up", "up"], ["v-done", "done"]]) {
