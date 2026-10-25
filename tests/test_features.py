@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import pytest
 
 from iddia.features import build_features, team_form
 from iddia.models.elo import Elo
@@ -57,3 +58,12 @@ def test_adjusted_form_uses_only_earlier_matches():
     after = adjusted_form(changed, elo, beta=0.5)
     np.testing.assert_equal(base.loc[:10].to_numpy(), after.loc[:10].to_numpy())   # maçın kendisi ve öncesi aynı
     assert not np.allclose(base.loc[11:].fillna(0), after.loc[11:].fillna(0))       # sonrası değişir
+
+
+def test_market_skips_broken_odds_rows():
+    from iddia.features import market
+    df = pd.DataFrame({"pre_h": [2.0, 3.2, 1.0, 1.5], "pre_d": [3.4, 3.6, 3.0, 2.0],
+                       "pre_a": [3.8, 2.8, 5.0, 2.0]})     # 2. satır marj < 0, 3. satır oran 1.0, 4. satır marj > %30
+    p = market(df)
+    assert p.loc[0, ["mk_h", "mk_d", "mk_a"]].sum() == pytest.approx(1, abs=1e-6)
+    assert p.loc[1:, "mk_h"].isna().all()

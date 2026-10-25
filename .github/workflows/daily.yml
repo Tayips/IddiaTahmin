@@ -25,6 +25,12 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -c constraints.txt -e . pytest
+      # Biten sezonların maç dosyaları her çalıştırmada yeniden indirilmez (12 lig x 13 sezon)
+      - uses: actions/cache@v4
+        with:
+          path: data/raw
+          key: raw-${{ github.run_id }}
+          restore-keys: raw-
       - name: Testler
         run: pytest -q
       - run: python -m iddia.daily

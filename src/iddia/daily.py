@@ -13,6 +13,7 @@ from zoneinfo import ZoneInfo
 
 import numpy as np
 import pandas as pd
+import requests
 
 from iddia import coupons, download, fdorg, gemini, haberler, metrics, oddsapi, site
 from iddia.build import build, read_csv, team_name
@@ -298,20 +299,31 @@ def main() -> None:
     now = datetime.now(timezone.utc)
 
     if not args.skip_download:
-        for league in LEAGUES:
-            for year in range(2014, download.current_season_start() + 1):
-                download.download(league, year)
+        current = download.current_season_start()
+        for league in [*LEAGUES, *download.EXTRA_LEAGUES]:
+            for year in range(2014, current + 1):
+                path = download.RAW_DIR / league / f"{download.season_code(year)}.csv"
+                if year < current and path.exists():
+                    continue                  # biten sezonlar önbellekten
+                try:
+                    download.download(league, year)
+                except requests.HTTPError as e:
+                    if league in LEAGUES:
+                        raise
+                    print(f"{league} {year} indirilemedi, atlandı: {e}")
         download.download_fixtures()
 
-    matches = drop_forfeits(build())
-    model = fit(matches)
+    # Model tüm liglerle eğitilir (reports/deneyler_ek.md); sayfa yalnızca LEAGUES içindir
+    all_matches = drop_forfeits(build())
+    model = fit(all_matches)
+    matches = all_matches[all_matches["league"].isin(LEAGUES)].reset_index(drop=True)
     org = fdorg.fetch(download.current_season_start(now.date()))
     fixtures = fdorg.apply_to_fixtures(load_fixtures(), org)
     fixtures = oddsapi.apply(fixtures, oddsapi.fetch(fixtures, now))
     first_run = not PREDICTIONS.exists()
     old = backfill(matches, season_of(now.date())) if first_run else pd.read_csv(PREDICTIONS)
     old = old.reindex(columns=PRED_COLUMNS)   # eski kayıtlarda yeni sütunlar boş kalır
-    preds = merge_predictions(old, predict(fixtures, matches, model, now), now, first_run)
+    preds = merge_predictions(old, predict(fixtures, all_matches, model, now), now, first_run)
     PREDICTIONS.parent.mkdir(parents=True, exist_ok=True)
     preds.to_csv(PREDICTIONS, index=False)
 
