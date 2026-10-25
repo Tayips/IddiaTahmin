@@ -54,7 +54,9 @@ def market(df: pd.DataFrame, cols=("pre_h", "pre_d", "pre_a")) -> pd.DataFrame:
     """Maç öncesi oranlardan marjı temizlenmiş olasılıklar."""
     o = df[list(cols)].to_numpy(dtype=float)
     p = np.full(o.shape, np.nan)
-    ok = np.isfinite(o).all(axis=1) & (o > 1).all(axis=1)
+    book = (1 / o).sum(axis=1)
+    # Bozuk satırlar (marj negatif ya da çok yüksek) çözümsüz; bazı ek liglerde görülüyor
+    ok = np.isfinite(o).all(axis=1) & (o >= 1.01).all(axis=1) & (book >= 1.0) & (book <= 1.3)
     if ok.any():
         p[ok] = odds_mod.shin(o[ok])
     out = pd.DataFrame({"mk_h": p[:, 0], "mk_d": p[:, 1], "mk_a": p[:, 2]}, index=df.index)

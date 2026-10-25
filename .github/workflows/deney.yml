@@ -1,0 +1,24 @@
+name: Deney
+
+# Ağır model deneyleri: deney-* dallarına push edilince ya da elle çalışır, hiçbir şey kaydetmez.
+on:
+  push:
+    branches: ["deney-*"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -c constraints.txt -e . pytest
+      - run: python -m iddia.download --leagues T1 E0
+      - run: python -m iddia.deney_ek --indir

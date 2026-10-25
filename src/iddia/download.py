@@ -8,6 +8,8 @@ import requests
 BASE_URL = "https://www.football-data.co.uk/mmz4281/{season}/{league}.csv"
 FIXTURES_URL = "https://www.football-data.co.uk/fixtures.csv"
 RAW_DIR = Path("data/raw")
+# Yalnızca eğitimde kullanılan ek ligler: tahmin edilmezler ama modelin örnek sayısını artırırlar
+EXTRA_LEAGUES = ["E1", "D1", "I1", "SP1", "F1", "N1", "P1", "B1", "SC0", "G1"]
 FIXTURES_PATH = RAW_DIR / "fixtures.csv"
 
 
