@@ -84,6 +84,10 @@ def test_predictions_are_valid_probabilities_and_record_data_cutoff():
     assert out[["p_o25", "p_kg"]].apply(lambda c: c.between(0, 1)).all().all()
     assert list(out["model"]) == ["form-piyasa-v2", "form-v2"]
     assert (out["data_through"] == matches["date"].max().strftime("%Y-%m-%d")).all()
+    # Analiz ekranı için tahminin dayandığı veriler de saklanır
+    from iddia.daily import EXPLAIN
+    assert out[EXPLAIN].notna().all().all()
+    assert (out["f_h_rest"] >= 0).all()
 
 
 def test_merge_keeps_one_row_per_match():
@@ -91,3 +95,19 @@ def test_merge_keeps_one_row_per_match():
     new = pd.concat([pred("A", "2026-10-26T17:00Z", 0.6), pred("A", "2026-10-26T17:00Z", 0.6), pred("B", "2026-10-20T17:00Z")])
     merged = merge_predictions(old, new.drop_duplicates(), NOW)
     assert not merged.duplicated(["league", "date", "home", "away"]).any()
+
+
+def test_team_profiles_recent_games_and_home_away_record():
+    from iddia.daily import TEAM_RECENT, team_profiles
+    games = [("2526", "2026-05-01", "A", "B", 1, 1)] + [
+        ("2627", f"2026-09-{d:02d}", h, a, hg, ag)
+        for d, h, a, hg, ag in [(1, "A", "B", 2, 0), (8, "C", "A", 3, 1), (15, "A", "C", 0, 0),
+                                (22, "B", "A", 1, 2), (29, "A", "B", 1, 3), (30, "A", "C", 4, 1)]]
+    m = pd.DataFrame(games, columns=["season", "date", "home", "away", "fthg", "ftag"]).assign(league="T1")
+    m["date"] = pd.to_datetime(m["date"])
+    a = team_profiles(m, "2627")["T1|A"]
+    assert len(a["son"]) == TEAM_RECENT
+    assert a["son"][0] == {"date": "2026-09-30", "opp": "C", "venue": "H", "gf": 4, "ga": 1, "res": "G"}
+    assert a["son"][1]["res"] == "M" and a["son"][2] == {**a["son"][2], "venue": "A", "gf": 2, "ga": 1, "res": "G"}
+    assert a["ic"] == {"p": 4, "g": 2, "b": 1, "m": 1, "gf": 7, "ga": 4}     # geçen sezonun maçı karneye girmez
+    assert a["dis"] == {"p": 2, "g": 1, "b": 0, "m": 1, "gf": 3, "ga": 4}
