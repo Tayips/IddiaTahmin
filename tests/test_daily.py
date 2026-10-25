@@ -11,8 +11,8 @@ NOW = datetime(2026, 10, 25, 12, 0, tzinfo=timezone.utc)
 def pred(home, kickoff, p_h=0.5, predicted_at="2026-10-24T05:00Z"):
     row = dict(league="T1", date=kickoff[:10], home=home, away="X", season="2627", kickoff=kickoff,
                p_h=p_h, p_d=0.3, p_a=0.2, pick="H", odds_h=2.0, odds_d=3.4, odds_a=3.8,
-               model="elo-v1", predicted_at=predicted_at)
-    return pd.DataFrame([row])[PRED_COLUMNS]
+               model="elo-v1", predicted_at=predicted_at, p_o25=0.6, p_kg=0.3)
+    return pd.DataFrame([row]).reindex(columns=PRED_COLUMNS)
 
 
 def test_started_match_prediction_is_frozen_and_future_one_updates():
@@ -44,6 +44,8 @@ def test_score_statuses_and_correctness():
     s = score(preds, matches, NOW).set_index("home")
     assert s.loc["Kazandi", "status"] == "bitti" and s.loc["Kazandi", "correct"] == 1
     assert s.loc["Kazandi", "odds_correct"] == 1
+    assert s.loc["Kazandi", "o25_correct"] == 1     # 2-1: 3 gol, Üst doğru
+    assert s.loc["Kazandi", "kg_correct"] == 0      # KG Yok dedik, iki takım da attı
     assert s.loc["Bekliyor", "status"] == "sonuc_bekleniyor"
     assert s.loc["Ertelendi", "status"] == "ertelendi"
     assert s.loc["Gelecek", "status"] == "yaklasan"
