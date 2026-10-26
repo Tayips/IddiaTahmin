@@ -111,3 +111,12 @@ def test_team_profiles_recent_games_and_home_away_record():
     assert a["son"][1]["res"] == "M" and a["son"][2] == {**a["son"][2], "venue": "A", "gf": 2, "ga": 1, "res": "G"}
     assert a["ic"] == {"p": 4, "g": 2, "b": 1, "m": 1, "gf": 7, "ga": 4}     # geçen sezonun maçı karneye girmez
     assert a["dis"] == {"p": 2, "g": 1, "b": 0, "m": 1, "gf": 3, "ga": 4}
+
+
+def test_score_keeps_closing_odds_for_clv():
+    preds = pred("Kazandi", "2026-10-20T17:00Z")
+    matches = pd.DataFrame({"league": ["T1"], "date": pd.to_datetime(["2026-10-20"]), "home": ["Kazandi"],
+                            "away": ["X"], "fthg": [2], "ftag": [1], "ftr": ["H"],
+                            "odds_h": [1.8], "odds_d": [3.6], "odds_a": [4.5]})
+    s = score(preds, matches, NOW)
+    assert s.loc[0, "close_h"] == 1.8 and s.loc[0, "close_a"] == 4.5

@@ -33,3 +33,24 @@ B, A'yı 5 sezonun 4'ünde geçti (RPS farkı −0.0007 ile +0.0001 arası). Pua
 ## Sonuç
 
 Günlük model artık tüm liglerle eğitiliyor (B). Kazanç küçük ama üç pazarda da aynı yönde ve sezonlara yayılmış. Puan durumu özellikleri eklenmedi: oranlar bu bilgiyi zaten taşıyor. İsabet oranı neredeyse değişmedi; iyileşen, olasılıkların kalitesi.
+
+## Kullanılmayan veriler (Ekim 2026)
+
+`python -m iddia.deney_veri`. football-data.co.uk dosyalarında olup modelde olmayan beş grup,
+son 5 sezonun 3621 Premier Lig ve Süper Lig maçında, E0+T1 eğitimiyle denendi.
+
+| Model (1-X-2) | RPS | Log loss | Aşıldığı sezon (5'te) |
+| --- | --- | --- | --- |
+| Şu anki | 0.1934 | 0.9606 | - |
+| + Asya handikapı | 0.1934 | 0.9604 | 3 |
+| + İç saha / deplasman formu | 0.1935 | 0.9608 | 2 |
+| + Korner formu | 0.1936 | 0.9609 | 3 |
+| + Kırmızı kart formu | 0.1936 | 0.9614 | 1 |
+| + İlk yarı gol formu | 0.1936 | 0.9616 | 1 |
+| + Hepsi | 0.1939 | 0.9626 | 2 |
+
+Gol pazarlarında da farklar gürültü düzeyinde (Üst/Alt log loss en iyi 0.6744 → 0.6741).
+Bu bilgiler büyük ölçüde oranların içinde; hiçbiri eklenmedi.
+
+Avrupa kupası yorgunluğu (`deney_yorgunluk`, ayrı dal) da katkı vermedi: Avrupa haftalarında
+RPS 0.1813 → 0.1834. Ücretsiz kaynak yalnızca 2023'ten bu yana Şampiyonlar Ligi'ni veriyor.

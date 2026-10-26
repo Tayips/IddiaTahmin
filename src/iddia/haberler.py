@@ -20,6 +20,8 @@ from pathlib import Path
 import pandas as pd
 import requests
 
+from iddia.log import warn
+
 NEWS = Path("data/haberler.json")
 URL = "https://news.google.com/rss/search"
 LOOKAHEAD = timedelta(days=2)
@@ -86,7 +88,7 @@ def fetch_team(team: str, league: str, now: datetime) -> list[dict] | None:
         r.raise_for_status()
         return parse(r.text, now)
     except (requests.RequestException, ET.ParseError) as e:
-        print(f"Haberler okunamadı ({team}): {type(e).__name__}")
+        warn("Haberler", f"{team} okunamadı: {type(e).__name__}")
         return None
 
 
