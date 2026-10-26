@@ -103,91 +103,91 @@
  },
  "T1|2026-10-26|Galatasaray|Fenerbahce": {
   "ai": {
-   "at": "2026-10-26T15:40Z",
+   "at": "2026-10-26T17:49Z",
    "away": {
     "eksikler": [],
-    "ozet": "Fenerbahçe'de derbi öncesi kadroda yer almayan veya durumu belirsiz olan oyuncu bildirilmedi."
+    "ozet": "Fenerbahçe'de derbi öncesi forma giyemeyecek veya durumu belirsiz resmi bir oyuncu raporu yer almamaktadır."
    },
-   "hash": "029ee67af99a",
+   "hash": "dc0f9bce5ea6",
    "home": {
     "eksikler": [],
-    "ozet": "Galatasaray'da derbi öncesi resmi olarak açıklanan önemli bir eksik veya sakatlık bulunmuyor."
+    "ozet": "Galatasaray'da maça saatler kala açıklanan güncel raporda bildirilen önemli bir eksik bulunmamaktadır."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
    {
-    "at": "2026-10-26T15:38Z",
+    "at": "2026-10-26T17:47Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcHFSX1gtdk11QXlabXE1WjVMSkpkSlNtS2tkOXVBS2Y5Um9EcC1nZDgyR2hpNUx5bkpaY2hrYXYzaGpFRGNxR2hlTVpFd20yenhJZEU3SDZSUEhzYWtXZUFyQ3JvaVNDU2xNVms1YzR0R1BYbURabmNoS2trSzBKbXZ5U2pRZw?oc=5",
-    "source": "Sporx.com",
-    "title": "Fenerbahçe Galatasaray’a karşı ilk 11"
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbm1SSXBPbnRlay0wR3FZbkZzZlBYdXpiWW1WV0hmZE9WTDVwbFFyTDB6ZXZ1bjJFNXkyeWMxdTUwTC1oQ2hLeDV3UzhGa3RhVGpac3FrSnkxWTMzaENZTkJGN25EUHIyM0tuSTQ4aDlnbThBQjFZOTBZZmtZRGFXOHdvVkpFWDNyU0FyNkRBSzUxWmhQa1hF?oc=5",
+    "source": "Yirmidort.tv",
+    "title": "Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu"
    },
    {
-    "at": "2026-10-26T15:21Z",
+    "at": "2026-10-26T17:44Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNElNbGstTFhEdGwxSHBPZl9MYl8wZUpIQWh1VnVBc3ZPVUxrRE5Mc2VOdnFqQ3hsVXFSbmhxWW00emxJWklmUDE2RnlQY0dUaHpITGZnZndkOWVJVWJFV0lkaXFlUGR6Mzd5Z0VNM1M5WVdlN0FFVUo1b0NEbExfd0JGdmhmbmRCaExLU3NVdklQa2NxMUdLc1l1ekpOUjJLdUVPLW9NOA?oc=5",
-    "source": "Referans Gazetesi",
-    "title": "Galatasaray Fenerbahçe muhtemel 11'ler: Osimhen ve Lukaku oynayacak mı?"
+    "link": "https://news.google.com/rss/articles/CBMi5wNBVV95cUxQZDg0TF9ROHp5b1d1UElhR0VpRFhiak1OZlM2U1B4c0Fya0ZQbE1fdFpodUV4X0NsVG5RZVRlYVhibEVDSlpXWldWXy1VYVF3MUNWTVJacXI5aHhWd0VjeUp1bGl5M1daSGtLbzZBbEJRak9TUVlzSG1pM1NjQXdhaTBTYkd6a0RBTmlEMkFHb2s1WGVOZUtoLTAxcUhkNFFOM0ZVbVZ0T25kR25UYzhHRlNzVkotQWY0TFVxVUFTcUlkTXNQc0dpNGd6allyQjV2YW54b3FWa0lWbjl2ZTk2Tjh5dU1YNEREbGpnZ3dxVzA2M0E2LXh2Q2NSMFowQ1h4b09UNTJjRk1lbnNaZ0E0NGF5cExodGt5Vk1PdlptQ2Y2NGdwWTkyUGdkcEdZd2pVb1JnOGV4SDdQbTI4aXJ4a3FBaHZqM1VubHVfUFc4Tjc3N0poWVpCXzAxUUZNSDdhZkV2a2NTQU9rUVJIMmpodUhCaUc3OUZBWHdjRkJpZWVoM1FRTXRBV2RUWEt5WUY5OEFPaWdtRFB1bkRVS1ZUT01xanVsMWRyZ1RHcFVLSml2YjBzR3d6cHpLYnR1ZTl0WUg1N000QVZEUXFwRWJoWENZYnJKR3Q0VThqQWowX0pUcVQ4aWxV?oc=5",
+    "source": "Fabryka Norblina",
+    "title": "((İZLE)) Galatasaray Fenerbahçe Derbisi Canlı İzle! GS FB Maçı Canlı Anlatım, İlk 11'ler ve Yayın Bilgileri"
    },
    {
-    "at": "2026-10-26T15:20Z",
+    "at": "2026-10-26T17:43Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaUkwNEMzeHV0WFd4cE5ocTVsU2FKV0hPZmZJdjJaZG1VWWhKOGxPQ09BNVF3WWxhb1o1clowQllvb2RkcG9kY0J5LXVsZnR1cTNnMzBxNHdJR2hsRHMwWHVqUi1hTnZWWl9URzdDWDRjQmdsaG9YalNwaG85dFlFV2d0RDRicWtFWVBZc3gybFp6Z9IBlwFBVV95cUxQcW9Gd3Z0cTlUMlptZVVmSWV2a25iaEE5WWpTTHVoZ1JHVmktU3ZMZWZsZ05ZWE5BbWJFQjRSZkFjSm03QUFMeGk5NUpnb0hzQnhKZ1dSeHgxMTd0eG95d0NHSFM5X0JFMGZ6cU9vY3VCTGktTUNneVVFOEZCU3BRYmk2c0hMRWVKOWxuZFhhdmZRRlFaMk1R?oc=5",
-    "source": "Ülke TV",
-    "title": "Galatasaray -Fenerbahçe derbisi saat kaçta? İlk 11'ler belli oldu mu?"
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZjhZMDkxcWhLTEFHai1vQVkxbDZmYTYwNm9fdWZTT1V4S1Q5QkVNdF8yR0hidGFvSmZaMzVCdXp6WE93b2VwbnNiZXFTOGRaTExmNjZiR0tES0tDMkd3R0ZmRlh3WW5XQ2NwNFFDLTR1R2NWdG1oTE4tRUE2TWt5TnA1dTRNUi1fQWN1VHRGSExGRi1PZDVHNGdqbnJCVmtJQ2NoQkpnc09tMnNITTNNeVNOUkUyUnJYNW5VblEtaEQ?oc=5",
+    "source": "Evrensel.net",
+    "title": "Süper Lig’in 9'uncu hafta maçı: Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu"
    },
    {
-    "at": "2026-10-26T15:12Z",
+    "at": "2026-10-26T17:39Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNWUYwYmlNZzNKR2pDV0pEWXRxQTVWMTBreWpZdV9tVW9UdUIzUzY1RHp5RDdFYU5qNmk3c2s4akNKYktIR1ZOY1Y4WkNaWnFjbEVTRUJYRWZuUW10OUdadm9MYjNzaTlXakRYQ0JWeFFfVFFON1pRQWxlMzdEdWhwcXdPNS1tb091R2tBS2IxRVdYSzVHVjNJOXY3V29IbGdvRWlzTUs4bkFZZ2ZRUUxxNHRfVHRRNnM5LTJRZ3MxLXdobndGSFBxc0ZIY2JWaHhsTTM2eGJJcjBVZmdMUW5vUGdiaThaNWU2RkFSU0h3NkdJWkp6OVU0WEI0QXQ3cm9DT0hB?oc=5",
-    "source": "Afyon Ana Haber",
-    "title": "GALATASARAY FENERBAHÇE MAÇI İLK 11'LER: Galatasaray Fenerbahçe maçı muhtemel 11’ler belli oldu mu, GS FB maç kadrosunda kimler eksik?"
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWEdoYVc1N0luMzFGaVBzSm9uZ0hqZ2JvaUlDenJGZFBhSG9TNjBiak9MTk9rYVlqbGFvaDRmMzFRTHlkODJWS05pTEhaMktvaHR6VnZBQ1FjUFpnRVkwMHNFRFlZZC1lR3ByVVRwVnB3ZVdmQVRzQ3JfeThQRERhNllaUjlBSVBhdS1yZ0JUam1qMTBGVFE?oc=5",
+    "source": "Ajans344",
+    "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu"
    },
    {
-    "at": "2026-10-26T15:05Z",
+    "at": "2026-10-26T17:38Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONEFLR1dWcDhES2NxT3NraGtXMHVmaTA2WDlrSVUtSm90TUhfYnRBbEduaENvNmwxVnZublE2QWdHWk4tU3dISTRpc0ZrQTE5ckJOcExtVWxHVUc4X21iS0d2dUlleURhc0tEOEFYUHByUnN0UEFKSGhGTEZuXzlvVGJ1ZXFBYXZaNVpxWFRYMnNzQm9sZk5NRDhMMHFjYkFOeVlidEVWSExVLVh1TlFlMTZ1SFltOVJuZ2FtUFU3T0xNTGw2MFg4YTdCQXE?oc=5",
-    "source": "Sabah",
-    "title": "Dev derbi öncesi geri sayım! Galatasaray - Fenerbahçe maçı saat kaçta başlayacak, hangi kanalda?"
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR0pobW8tZVRXWmFSUjV1T21ReTVkT2tXWUR2TEVCZnFxS0ZJVkhzMmNUclJPQ0FmWVpiY09NYjNOSlROSEZ6VVAwVUZYUXotWVpRaGZ2N3YzLUxlSldPdlgyTmFqR3hBMUJXR3JRZlYtWDRXcG9iejM2dm1Gcmp1ZHQwVzYwdjFZUGczbi16aw?oc=5",
+    "source": "Hunat TV",
+    "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu!"
    }
   ],
-  "fetched_at": "2026-10-26T15:40Z",
+  "fetched_at": "2026-10-26T17:49Z",
   "home": [
    {
-    "at": "2026-10-26T15:38Z",
+    "at": "2026-10-26T17:47Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTmNlSTZ0Vmlab2xxWDFVV3h2VkxLV3pJbmlybnpaR0Z6cVA4dkhyUkxCdnBiVWN0bUdIaXRjak50bGlmMTh0T19oaGJRRjM4QW45UUdqUXo3cUZvZmRpLUtRY2JaNzcxOWUzbzJVOTBSNGNDUmJxd3NqM3NQZkFPU0lnY0ZybVM2NFBsVEJROFZnMWlJMWh4dDhCMEplV2gxNWlTR1puenc?oc=5",
-    "source": "Sporx.com",
-    "title": "Galatasaray-Fenerbahçe maçında Galatasaray'ın istediğim ilk 11'i"
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbm1SSXBPbnRlay0wR3FZbkZzZlBYdXpiWW1WV0hmZE9WTDVwbFFyTDB6ZXZ1bjJFNXkyeWMxdTUwTC1oQ2hLeDV3UzhGa3RhVGpac3FrSnkxWTMzaENZTkJGN25EUHIyM0tuSTQ4aDlnbThBQjFZOTBZZmtZRGFXOHdvVkpFWDNyU0FyNkRBSzUxWmhQa1hF?oc=5",
+    "source": "Yirmidort.tv",
+    "title": "Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu"
    },
    {
-    "at": "2026-10-26T15:22Z",
+    "at": "2026-10-26T17:44Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdm93S05UVHowa2ZIQ0NpZm5pYU9wYjUyeWt1ZWNCTnZDWFdGME9Sek1jYTZYZXNJQlZMRVlCcVg0R2U0TG5NQUl2QjdaS3FHQ1hDNkdPZF9CMkVkQkJfQ2Y0OHBoRzV2REQ1cHVmZ3lGajJUQTJNcW45LVdGUzVJVmx3c3N6ZHdiWFpscDZHRlNVTUN1Y0xhNEZZZVlJYWhHWWxNOF80dFQ5QQ?oc=5",
-    "source": "Afyon Ana Haber",
-    "title": "Kerem Aktürkoğlu Galatasaray derbisinde ilk 11'de oynayacak mı?"
+    "link": "https://news.google.com/rss/articles/CBMi5wNBVV95cUxQZDg0TF9ROHp5b1d1UElhR0VpRFhiak1OZlM2U1B4c0Fya0ZQbE1fdFpodUV4X0NsVG5RZVRlYVhibEVDSlpXWldWXy1VYVF3MUNWTVJacXI5aHhWd0VjeUp1bGl5M1daSGtLbzZBbEJRak9TUVlzSG1pM1NjQXdhaTBTYkd6a0RBTmlEMkFHb2s1WGVOZUtoLTAxcUhkNFFOM0ZVbVZ0T25kR25UYzhHRlNzVkotQWY0TFVxVUFTcUlkTXNQc0dpNGd6allyQjV2YW54b3FWa0lWbjl2ZTk2Tjh5dU1YNEREbGpnZ3dxVzA2M0E2LXh2Q2NSMFowQ1h4b09UNTJjRk1lbnNaZ0E0NGF5cExodGt5Vk1PdlptQ2Y2NGdwWTkyUGdkcEdZd2pVb1JnOGV4SDdQbTI4aXJ4a3FBaHZqM1VubHVfUFc4Tjc3N0poWVpCXzAxUUZNSDdhZkV2a2NTQU9rUVJIMmpodUhCaUc3OUZBWHdjRkJpZWVoM1FRTXRBV2RUWEt5WUY5OEFPaWdtRFB1bkRVS1ZUT01xanVsMWRyZ1RHcFVLSml2YjBzR3d6cHpLYnR1ZTl0WUg1N000QVZEUXFwRWJoWENZYnJKR3Q0VThqQWowX0pUcVQ4aWxV?oc=5",
+    "source": "Fabryka Norblina",
+    "title": "((İZLE)) Galatasaray Fenerbahçe Derbisi Canlı İzle! GS FB Maçı Canlı Anlatım, İlk 11'ler ve Yayın Bilgileri"
    },
    {
-    "at": "2026-10-26T15:21Z",
+    "at": "2026-10-26T17:43Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNElNbGstTFhEdGwxSHBPZl9MYl8wZUpIQWh1VnVBc3ZPVUxrRE5Mc2VOdnFqQ3hsVXFSbmhxWW00emxJWklmUDE2RnlQY0dUaHpITGZnZndkOWVJVWJFV0lkaXFlUGR6Mzd5Z0VNM1M5WVdlN0FFVUo1b0NEbExfd0JGdmhmbmRCaExLU3NVdklQa2NxMUdLc1l1ekpOUjJLdUVPLW9NOA?oc=5",
-    "source": "Referans Gazetesi",
-    "title": "Galatasaray Fenerbahçe muhtemel 11'ler: Osimhen ve Lukaku oynayacak mı?"
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZjhZMDkxcWhLTEFHai1vQVkxbDZmYTYwNm9fdWZTT1V4S1Q5QkVNdF8yR0hidGFvSmZaMzVCdXp6WE93b2VwbnNiZXFTOGRaTExmNjZiR0tES0tDMkd3R0ZmRlh3WW5XQ2NwNFFDLTR1R2NWdG1oTE4tRUE2TWt5TnA1dTRNUi1fQWN1VHRGSExGRi1PZDVHNGdqbnJCVmtJQ2NoQkpnc09tMnNITTNNeVNOUkUyUnJYNW5VblEtaEQ?oc=5",
+    "source": "Evrensel.net",
+    "title": "Süper Lig’in 9'uncu hafta maçı: Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu"
    },
    {
-    "at": "2026-10-26T15:20Z",
+    "at": "2026-10-26T17:39Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaUkwNEMzeHV0WFd4cE5ocTVsU2FKV0hPZmZJdjJaZG1VWWhKOGxPQ09BNVF3WWxhb1o1clowQllvb2RkcG9kY0J5LXVsZnR1cTNnMzBxNHdJR2hsRHMwWHVqUi1hTnZWWl9URzdDWDRjQmdsaG9YalNwaG85dFlFV2d0RDRicWtFWVBZc3gybFp6Z9IBlwFBVV95cUxQcW9Gd3Z0cTlUMlptZVVmSWV2a25iaEE5WWpTTHVoZ1JHVmktU3ZMZWZsZ05ZWE5BbWJFQjRSZkFjSm03QUFMeGk5NUpnb0hzQnhKZ1dSeHgxMTd0eG95d0NHSFM5X0JFMGZ6cU9vY3VCTGktTUNneVVFOEZCU3BRYmk2c0hMRWVKOWxuZFhhdmZRRlFaMk1R?oc=5",
-    "source": "Ülke TV",
-    "title": "Galatasaray -Fenerbahçe derbisi saat kaçta? İlk 11'ler belli oldu mu?"
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWEdoYVc1N0luMzFGaVBzSm9uZ0hqZ2JvaUlDenJGZFBhSG9TNjBiak9MTk9rYVlqbGFvaDRmMzFRTHlkODJWS05pTEhaMktvaHR6VnZBQ1FjUFpnRVkwMHNFRFlZZC1lR3ByVVRwVnB3ZVdmQVRzQ3JfeThQRERhNllaUjlBSVBhdS1yZ0JUam1qMTBGVFE?oc=5",
+    "source": "Ajans344",
+    "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu"
    },
    {
-    "at": "2026-10-26T15:12Z",
+    "at": "2026-10-26T17:38Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNWUYwYmlNZzNKR2pDV0pEWXRxQTVWMTBreWpZdV9tVW9UdUIzUzY1RHp5RDdFYU5qNmk3c2s4akNKYktIR1ZOY1Y4WkNaWnFjbEVTRUJYRWZuUW10OUdadm9MYjNzaTlXakRYQ0JWeFFfVFFON1pRQWxlMzdEdWhwcXdPNS1tb091R2tBS2IxRVdYSzVHVjNJOXY3V29IbGdvRWlzTUs4bkFZZ2ZRUUxxNHRfVHRRNnM5LTJRZ3MxLXdobndGSFBxc0ZIY2JWaHhsTTM2eGJJcjBVZmdMUW5vUGdiaThaNWU2RkFSU0h3NkdJWkp6OVU0WEI0QXQ3cm9DT0hB?oc=5",
-    "source": "Afyon Ana Haber",
-    "title": "GALATASARAY FENERBAHÇE MAÇI İLK 11'LER: Galatasaray Fenerbahçe maçı muhtemel 11’ler belli oldu mu, GS FB maç kadrosunda kimler eksik?"
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR0pobW8tZVRXWmFSUjV1T21ReTVkT2tXWUR2TEVCZnFxS0ZJVkhzMmNUclJPQ0FmWVpiY09NYjNOSlROSEZ6VVAwVUZYUXotWVpRaGZ2N3YzLUxlSldPdlgyTmFqR3hBMUJXR3JRZlYtWDRXcG9iejM2dm1Gcmp1ZHQwVzYwdjFZUGczbi16aw?oc=5",
+    "source": "Hunat TV",
+    "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu!"
    }
   ],
   "kickoff": "2026-10-26T18:30Z"

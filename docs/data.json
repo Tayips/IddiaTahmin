@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26T15:40Z",
+ "updated_at": "2026-10-26T17:49Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
@@ -11,22 +11,22 @@
  },
  "stats": {
   "genel": {
-   "n": 152,
-   "correct": 71,
-   "accuracy": 0.4671,
-   "rps": 0.2185,
-   "brier": 0.6197,
-   "log_loss": 1.0327,
-   "odds_accuracy": 0.5132
+   "n": 147,
+   "correct": 69,
+   "accuracy": 0.4694,
+   "rps": 0.2187,
+   "brier": 0.6169,
+   "log_loss": 1.0291,
+   "odds_accuracy": 0.517
   },
   "canli": {
-   "n": 5,
-   "correct": 2,
-   "accuracy": 0.4,
-   "rps": 0.2145,
-   "brier": 0.7004,
-   "log_loss": 1.1394,
-   "odds_accuracy": 0.4
+   "n": 0,
+   "correct": 0,
+   "accuracy": null,
+   "rps": null,
+   "brier": null,
+   "log_loss": null,
+   "odds_accuracy": null
   },
   "lig": {
    "T1": {
@@ -39,33 +39,33 @@
     "odds_accuracy": 0.5417
    },
    "E0": {
-    "n": 80,
-    "correct": 39,
-    "accuracy": 0.4875,
-    "rps": 0.2089,
-    "brier": 0.6199,
-    "log_loss": 1.0319,
-    "odds_accuracy": 0.4875
+    "n": 75,
+    "correct": 37,
+    "accuracy": 0.4933,
+    "rps": 0.2085,
+    "brier": 0.6145,
+    "log_loss": 1.0247,
+    "odds_accuracy": 0.4933
    }
   },
   "son_30_gun": {
-   "n": 48,
-   "correct": 28,
-   "accuracy": 0.5833,
-   "rps": 0.199,
-   "brier": 0.5629,
-   "log_loss": 0.9521,
-   "odds_accuracy": 0.625
+   "n": 43,
+   "correct": 26,
+   "accuracy": 0.6047,
+   "rps": 0.1972,
+   "brier": 0.5469,
+   "log_loss": 0.9304,
+   "odds_accuracy": 0.6512
   },
   "guven": {
    "50%+": {
-    "n": 61,
+    "n": 60,
     "correct": 35,
-    "accuracy": 0.5738,
-    "rps": 0.1859,
-    "brier": 0.5433,
-    "log_loss": 0.9249,
-    "odds_accuracy": 0.5738
+    "accuracy": 0.5833,
+    "rps": 0.1858,
+    "brier": 0.536,
+    "log_loss": 0.9154,
+    "odds_accuracy": 0.5833
    },
    "60%+": {
     "n": 28,
@@ -7416,13 +7416,13 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 2.0,
-   "ftr": "A",
-   "status": "bitti",
-   "correct": 1.0,
+   "fthg": null,
+   "ftag": null,
+   "ftr": null,
+   "status": "sonuc_bekleniyor",
+   "correct": null,
    "odds_pick": "A",
-   "odds_correct": 1.0,
+   "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
    "mk_h": 0.3272,
@@ -7464,13 +7464,13 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 1.0,
-   "ftr": "D",
-   "status": "bitti",
-   "correct": 0.0,
+   "fthg": null,
+   "ftag": null,
+   "ftr": null,
+   "status": "sonuc_bekleniyor",
+   "correct": null,
    "odds_pick": "A",
-   "odds_correct": 0.0,
+   "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
    "mk_h": 0.1982,
@@ -7512,13 +7512,13 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 0.0,
-   "ftr": "H",
-   "status": "bitti",
-   "correct": 1.0,
+   "fthg": null,
+   "ftag": null,
+   "ftr": null,
+   "status": "sonuc_bekleniyor",
+   "correct": null,
    "odds_pick": "H",
-   "odds_correct": 1.0,
+   "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
    "mk_h": 0.4552,
@@ -7560,13 +7560,13 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 3.0,
-   "ftr": "A",
-   "status": "bitti",
-   "correct": 0.0,
+   "fthg": null,
+   "ftag": null,
+   "ftr": null,
+   "status": "sonuc_bekleniyor",
+   "correct": null,
    "odds_pick": "H",
-   "odds_correct": 0.0,
+   "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
    "mk_h": 0.4525,
@@ -7656,15 +7656,15 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 0.0,
-   "ftr": "D",
-   "status": "bitti",
-   "correct": 0.0,
+   "fthg": null,
+   "ftag": null,
+   "ftr": null,
+   "status": "sonuc_bekleniyor",
+   "correct": null,
    "odds_pick": "A",
-   "odds_correct": 0.0,
-   "o25_correct": 1.0,
-   "kg_correct": 0.0,
+   "odds_correct": null,
+   "o25_correct": null,
+   "kg_correct": null,
    "mk_h": 0.3074,
    "mk_d": 0.2902,
    "mk_a": 0.4024,
@@ -7677,7 +7677,7 @@
    "date": "2026-10-26",
    "home": "Besiktas",
    "away": "Buyuksehyr",
-   "season": "2627",
+   "season": 2627,
    "kickoff": "2026-10-26T16:00Z",
    "p_h": 0.7565,
    "p_d": 0.1567,
@@ -7707,7 +7707,7 @@
    "fthg": null,
    "ftag": null,
    "ftr": null,
-   "status": "yaklasan",
+   "status": "sonuc_bekleniyor",
    "correct": null,
    "odds_pick": "H",
    "odds_correct": null,
@@ -7725,7 +7725,7 @@
    "date": "2026-10-26",
    "home": "Rizespor",
    "away": "Trabzonspor",
-   "season": "2627",
+   "season": 2627,
    "kickoff": "2026-10-26T16:00Z",
    "p_h": 0.2455,
    "p_d": 0.2494,
@@ -7755,7 +7755,7 @@
    "fthg": null,
    "ftag": null,
    "ftr": null,
-   "status": "yaklasan",
+   "status": "sonuc_bekleniyor",
    "correct": null,
    "odds_pick": "A",
    "odds_correct": null,
@@ -7775,19 +7775,19 @@
    "away": "Fenerbahce",
    "season": "2627",
    "kickoff": "2026-10-26T18:30Z",
-   "p_h": 0.5099,
-   "p_d": 0.2667,
-   "p_a": 0.2234,
+   "p_h": 0.5133,
+   "p_d": 0.2669,
+   "p_a": 0.2198,
    "pick": "H",
-   "odds_h": 1.95,
-   "odds_d": 3.83,
-   "odds_a": 3.36,
+   "odds_h": 1.94,
+   "odds_d": 3.81,
+   "odds_a": 3.41,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-10-26T15:40Z",
-   "p_o25": 0.628,
-   "p_kg": 0.6593,
-   "odds_o25": 1.49,
-   "odds_u25": 2.47,
+   "predicted_at": "2026-10-26T17:49Z",
+   "p_o25": 0.6193,
+   "p_kg": 0.6533,
+   "odds_o25": 1.51,
+   "odds_u25": 2.42,
    "odds_src": "canli",
    "data_through": "2026-10-19",
    "features": "f3-12lig",
@@ -7809,9 +7809,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.4863,
-   "mk_d": 0.2389,
-   "mk_a": 0.2748,
+   "mk_h": 0.489,
+   "mk_d": 0.2404,
+   "mk_a": 0.2706,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -10641,288 +10641,288 @@
  },
  "haberler": {
   "T1|2026-10-26|Besiktas|Buyuksehyr": {
-   "fetched_at": "2026-10-26T15:40Z",
-   "kickoff": "2026-10-26T16:00Z",
-   "home": [
-    {
-     "title": "Orkun Kökçü ve Miretti Başakşehir maçında neden yok, neden oynamıyor? Beşiktaş'ta iki yıldızın sakatlık durumu",
-     "source": "Türkgün",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTzhvTDRRZUZhemFoQUtIZk5xcUM0ZFdZVzc3TXAxSEFvM3dIUlRBOTY1dWh3WlJWY0NCeHpuS1FtTmhNck44T1hGckdNQjI2dTZIQndLTVVselQ4YjRKSi10ZExtenFaQmhndy1nWkVnU1hFeDFtWGdOczJCbDkweXB4RHpBR3lMLUFwVFV5UHBud1dqbDhr?oc=5",
-     "at": "2026-10-26T15:21Z",
-     "eksik": true
-    },
-    {
-     "title": "Beşiktaş-Başakşehir maçında ilk 11’ler belli oldu! İşte kadrolar",
-     "source": "ABC Haber",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcWk5SGhyUDFuT0xVR0dLYXVUX0o0VEVHTVY0NUZDRHZTUXhoZnk5dDNsR2N5Qm5YTXpjajY5Nm1LQTNDdElfZ29KYmg0MG1mOE1wejQ0UTk1Z251UTh1RDhmV2RmUmpUYlN4RW93dk01WmptUnd4b1dZNUN4ZGR1SW9IN2pPVFZrSjJZelQxN0Z0TXhrNUY0d19ieldJVmtpX1dB?oc=5",
-     "at": "2026-10-26T15:18Z",
-     "eksik": false
-    },
-    {
-     "title": "Beşiktaş-Başakşehir Maçının İlk 11'leri Belli Oldu! İşte Sahaya Çıkacak Kadrolar",
-     "source": "Gazete Kritik",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMThYWGhKVzljbFNNYTl2VlZQODF5UnBvVXAzWHdkRnFRTWFVbjNXYW41UWFxcW90b3pqbUVwalNZTU1lcE1nSGZYdTVLVGVZNkpGZF82eWRxUS10VWNmbXZTcE5CUEd0cjUwOVpuQ2xhTUN1RFcteGJRR0VibW9WMWtuWHNlV0VUZDhuWDFtVlNsVUQxaHg3UFZjNF9Hck9YRDVEcFRwUFdFQlczelRCNEt2ZVNud0ZzZWU4?oc=5",
-     "at": "2026-10-26T15:18Z",
-     "eksik": false
-    },
-    {
-     "title": "Beşiktaş-Başakşehir maçının ilk 11'leri açıklandı",
-     "source": "12punto",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVVJSVWFJVkRnbXNHVE9YSm4tMl9uM2lIN2lnNnVBUG81UTdQWUZydVZUZDlmUm9Sa2pfbV9yR0M2aDNFRy1rUzhFTzBFR1BhOUswcWtNOEhYSjJfcUMwbVNxVDZ4Vmg2NUs5SVhoajI2em85N3pFRmVlbmlrRVRlMDd4ZWlKTm1yUEc4?oc=5",
-     "at": "2026-10-26T15:17Z",
-     "eksik": false
-    },
-    {
-     "title": "Süper Lig 9'uncu hafta maçı: Beşiktaş - Başakşehir maçının ilk 11'leri belli oldu",
-     "source": "Evrensel.net",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQjF3R0NxbjRodDFQejlvTnJrZXdXaW5hYjk4d2hVMXpvRkNEdkxJSHZkU1g5T2NuSlR0MkZDN3BFVThSamx6ZDFEYmREblBFTE9hTElnNlZVOVdDWXpscW8xTTYwZTRUYTN5T2dGbGk2T1RJSDhFVXRrOUVGNld2WjRJUXNfdmFfYTROdGVEUzRvR09XR01yUEpYNUh1N0NITEdaZ0V0WlhRU29BaHlHOEhDVUN4dw?oc=5",
-     "at": "2026-10-26T15:13Z",
-     "eksik": false
-    }
-   ],
-   "away": [
-    {
-     "title": "Süper Lig 9'uncu hafta maçı: Çaykur Rizespor-Trabzonspor maçının ilk 11'leri belli oldu",
-     "source": "Evrensel.net",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhaakNMUWVLQk9jNGVOWFZYWVpqbTQwREl0ektOb2Z0N0dzcjJLYmpsZXBiTjljczFlQTMyak96aHdUUHB5cWstZGY1Ni1jT2xZZGp6NmxPTFBydFhVc0UzU3JJdnFuRkxhMDdWSGZEXzNLbzQyVjRIVVlGLW81dXJ1aEtPSG03LTMtY2FtYkFlbTNXVGs1Ulpqa1Eyb0tkbkJZal81dTFWcXNBYjcxUzBkWXFPN0RQVUIxWWxDdUE?oc=5",
-     "at": "2026-10-26T15:22Z",
-     "eksik": false
-    },
-    {
-     "title": "Orkun Kökçü ve Miretti Başakşehir maçında neden yok, neden oynamıyor? Beşiktaş'ta iki yıldızın sakatlık durumu",
-     "source": "Türkgün",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTzhvTDRRZUZhemFoQUtIZk5xcUM0ZFdZVzc3TXAxSEFvM3dIUlRBOTY1dWh3WlJWY0NCeHpuS1FtTmhNck44T1hGckdNQjI2dTZIQndLTVVselQ4YjRKSi10ZExtenFaQmhndy1nWkVnU1hFeDFtWGdOczJCbDkweXB4RHpBR3lMLUFwVFV5UHBud1dqbDhr?oc=5",
-     "at": "2026-10-26T15:21Z",
-     "eksik": true
-    },
-    {
-     "title": "İşte Karadeniz Derbisinin İlk 11'leri",
-     "source": "Gerçek Gündem",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQlQ3S0hycFhVOWxLTllGX1hTa2pZUXQxRDU3VktFRWpzemNfRHlRUEdmcFd1TnBnLUlTbE9pT3pZUDJPcmQ4V0d6N2xrWUszQ0ZFdzNkUHYtQnFqNXVlY25VX0NQbi1LX0R2MWxUbnhoSy0wNEpXWF8tZjdaZUpSME5zMNIBiAFBVV95cUxQS1ZWeFdrV0pWM0ZwVE1FaG1oSUhTYzFYTnV3WTczdDJpanQtbEowTGFudTVjeWVQSThjWHVaMTVGUGtFYkFoM3Q2c2w2Z2ZINVlyTVF0VmgtUjNZSHpwLU9RTHFpT1ZZd2l6ZE9rZXZHTnRnazFFS2ZIcVAzMmVhRXRZdU4tcnBl?oc=5",
-     "at": "2026-10-26T15:19Z",
-     "eksik": false
-    },
-    {
-     "title": "Beşiktaş-Başakşehir maçında ilk 11’ler belli oldu! İşte kadrolar",
-     "source": "ABC Haber",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcWk5SGhyUDFuT0xVR0dLYXVUX0o0VEVHTVY0NUZDRHZTUXhoZnk5dDNsR2N5Qm5YTXpjajY5Nm1LQTNDdElfZ29KYmg0MG1mOE1wejQ0UTk1Z251UTh1RDhmV2RmUmpUYlN4RW93dk01WmptUnd4b1dZNUN4ZGR1SW9IN2pPVFZrSjJZelQxN0Z0TXhrNUY0d19ieldJVmtpX1dB?oc=5",
-     "at": "2026-10-26T15:18Z",
-     "eksik": false
-    },
-    {
-     "title": "Beşiktaş-Başakşehir Maçının İlk 11'leri Belli Oldu! İşte Sahaya Çıkacak Kadrolar",
-     "source": "Gazete Kritik",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMThYWGhKVzljbFNNYTl2VlZQODF5UnBvVXAzWHdkRnFRTWFVbjNXYW41UWFxcW90b3pqbUVwalNZTU1lcE1nSGZYdTVLVGVZNkpGZF82eWRxUS10VWNmbXZTcE5CUEd0cjUwOVpuQ2xhTUN1RFcteGJRR0VibW9WMWtuWHNlV0VUZDhuWDFtVlNsVUQxaHg3UFZjNF9Hck9YRDVEcFRwUFdFQlczelRCNEt2ZVNud0ZzZWU4?oc=5",
-     "at": "2026-10-26T15:18Z",
-     "eksik": false
-    }
-   ],
    "ai": {
-    "home": {
-     "eksikler": [
-      {
-       "oyuncu": "Orkun Kökçü",
-       "neden": "sakat",
-       "onem": "kilit"
-      },
-      {
-       "oyuncu": "Miretti",
-       "neden": "sakat",
-       "onem": "kilit"
-      }
-     ],
-     "ozet": "Beşiktaş'ta önemli yıldızlar Orkun Kökçü ve Miretti sakatlıkları nedeniyle Başakşehir maçında forma giyemiyor."
-    },
+    "at": "2026-10-26T15:40Z",
     "away": {
      "eksikler": [],
      "ozet": "Başakşehir'in bu maç öncesinde bildirilen önemli bir eksik oyuncusu bulunmuyor."
     },
-    "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-10-26T15:40Z",
-    "hash": "659fbaded83e"
-   }
+    "hash": "659fbaded83e",
+    "home": {
+     "eksikler": [
+      {
+       "neden": "sakat",
+       "onem": "kilit",
+       "oyuncu": "Orkun Kökçü"
+      },
+      {
+       "neden": "sakat",
+       "onem": "kilit",
+       "oyuncu": "Miretti"
+      }
+     ],
+     "ozet": "Beşiktaş'ta önemli yıldızlar Orkun Kökçü ve Miretti sakatlıkları nedeniyle Başakşehir maçında forma giyemiyor."
+    },
+    "model": "gemini-3.5-flash-lite (aramasız)"
+   },
+   "away": [
+    {
+     "at": "2026-10-26T15:22Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhaakNMUWVLQk9jNGVOWFZYWVpqbTQwREl0ektOb2Z0N0dzcjJLYmpsZXBiTjljczFlQTMyak96aHdUUHB5cWstZGY1Ni1jT2xZZGp6NmxPTFBydFhVc0UzU3JJdnFuRkxhMDdWSGZEXzNLbzQyVjRIVVlGLW81dXJ1aEtPSG03LTMtY2FtYkFlbTNXVGs1Ulpqa1Eyb0tkbkJZal81dTFWcXNBYjcxUzBkWXFPN0RQVUIxWWxDdUE?oc=5",
+     "source": "Evrensel.net",
+     "title": "Süper Lig 9'uncu hafta maçı: Çaykur Rizespor-Trabzonspor maçının ilk 11'leri belli oldu"
+    },
+    {
+     "at": "2026-10-26T15:21Z",
+     "eksik": true,
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTzhvTDRRZUZhemFoQUtIZk5xcUM0ZFdZVzc3TXAxSEFvM3dIUlRBOTY1dWh3WlJWY0NCeHpuS1FtTmhNck44T1hGckdNQjI2dTZIQndLTVVselQ4YjRKSi10ZExtenFaQmhndy1nWkVnU1hFeDFtWGdOczJCbDkweXB4RHpBR3lMLUFwVFV5UHBud1dqbDhr?oc=5",
+     "source": "Türkgün",
+     "title": "Orkun Kökçü ve Miretti Başakşehir maçında neden yok, neden oynamıyor? Beşiktaş'ta iki yıldızın sakatlık durumu"
+    },
+    {
+     "at": "2026-10-26T15:19Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQlQ3S0hycFhVOWxLTllGX1hTa2pZUXQxRDU3VktFRWpzemNfRHlRUEdmcFd1TnBnLUlTbE9pT3pZUDJPcmQ4V0d6N2xrWUszQ0ZFdzNkUHYtQnFqNXVlY25VX0NQbi1LX0R2MWxUbnhoSy0wNEpXWF8tZjdaZUpSME5zMNIBiAFBVV95cUxQS1ZWeFdrV0pWM0ZwVE1FaG1oSUhTYzFYTnV3WTczdDJpanQtbEowTGFudTVjeWVQSThjWHVaMTVGUGtFYkFoM3Q2c2w2Z2ZINVlyTVF0VmgtUjNZSHpwLU9RTHFpT1ZZd2l6ZE9rZXZHTnRnazFFS2ZIcVAzMmVhRXRZdU4tcnBl?oc=5",
+     "source": "Gerçek Gündem",
+     "title": "İşte Karadeniz Derbisinin İlk 11'leri"
+    },
+    {
+     "at": "2026-10-26T15:18Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcWk5SGhyUDFuT0xVR0dLYXVUX0o0VEVHTVY0NUZDRHZTUXhoZnk5dDNsR2N5Qm5YTXpjajY5Nm1LQTNDdElfZ29KYmg0MG1mOE1wejQ0UTk1Z251UTh1RDhmV2RmUmpUYlN4RW93dk01WmptUnd4b1dZNUN4ZGR1SW9IN2pPVFZrSjJZelQxN0Z0TXhrNUY0d19ieldJVmtpX1dB?oc=5",
+     "source": "ABC Haber",
+     "title": "Beşiktaş-Başakşehir maçında ilk 11’ler belli oldu! İşte kadrolar"
+    },
+    {
+     "at": "2026-10-26T15:18Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMThYWGhKVzljbFNNYTl2VlZQODF5UnBvVXAzWHdkRnFRTWFVbjNXYW41UWFxcW90b3pqbUVwalNZTU1lcE1nSGZYdTVLVGVZNkpGZF82eWRxUS10VWNmbXZTcE5CUEd0cjUwOVpuQ2xhTUN1RFcteGJRR0VibW9WMWtuWHNlV0VUZDhuWDFtVlNsVUQxaHg3UFZjNF9Hck9YRDVEcFRwUFdFQlczelRCNEt2ZVNud0ZzZWU4?oc=5",
+     "source": "Gazete Kritik",
+     "title": "Beşiktaş-Başakşehir Maçının İlk 11'leri Belli Oldu! İşte Sahaya Çıkacak Kadrolar"
+    }
+   ],
+   "fetched_at": "2026-10-26T15:40Z",
+   "home": [
+    {
+     "at": "2026-10-26T15:21Z",
+     "eksik": true,
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTzhvTDRRZUZhemFoQUtIZk5xcUM0ZFdZVzc3TXAxSEFvM3dIUlRBOTY1dWh3WlJWY0NCeHpuS1FtTmhNck44T1hGckdNQjI2dTZIQndLTVVselQ4YjRKSi10ZExtenFaQmhndy1nWkVnU1hFeDFtWGdOczJCbDkweXB4RHpBR3lMLUFwVFV5UHBud1dqbDhr?oc=5",
+     "source": "Türkgün",
+     "title": "Orkun Kökçü ve Miretti Başakşehir maçında neden yok, neden oynamıyor? Beşiktaş'ta iki yıldızın sakatlık durumu"
+    },
+    {
+     "at": "2026-10-26T15:18Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcWk5SGhyUDFuT0xVR0dLYXVUX0o0VEVHTVY0NUZDRHZTUXhoZnk5dDNsR2N5Qm5YTXpjajY5Nm1LQTNDdElfZ29KYmg0MG1mOE1wejQ0UTk1Z251UTh1RDhmV2RmUmpUYlN4RW93dk01WmptUnd4b1dZNUN4ZGR1SW9IN2pPVFZrSjJZelQxN0Z0TXhrNUY0d19ieldJVmtpX1dB?oc=5",
+     "source": "ABC Haber",
+     "title": "Beşiktaş-Başakşehir maçında ilk 11’ler belli oldu! İşte kadrolar"
+    },
+    {
+     "at": "2026-10-26T15:18Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMThYWGhKVzljbFNNYTl2VlZQODF5UnBvVXAzWHdkRnFRTWFVbjNXYW41UWFxcW90b3pqbUVwalNZTU1lcE1nSGZYdTVLVGVZNkpGZF82eWRxUS10VWNmbXZTcE5CUEd0cjUwOVpuQ2xhTUN1RFcteGJRR0VibW9WMWtuWHNlV0VUZDhuWDFtVlNsVUQxaHg3UFZjNF9Hck9YRDVEcFRwUFdFQlczelRCNEt2ZVNud0ZzZWU4?oc=5",
+     "source": "Gazete Kritik",
+     "title": "Beşiktaş-Başakşehir Maçının İlk 11'leri Belli Oldu! İşte Sahaya Çıkacak Kadrolar"
+    },
+    {
+     "at": "2026-10-26T15:17Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVVJSVWFJVkRnbXNHVE9YSm4tMl9uM2lIN2lnNnVBUG81UTdQWUZydVZUZDlmUm9Sa2pfbV9yR0M2aDNFRy1rUzhFTzBFR1BhOUswcWtNOEhYSjJfcUMwbVNxVDZ4Vmg2NUs5SVhoajI2em85N3pFRmVlbmlrRVRlMDd4ZWlKTm1yUEc4?oc=5",
+     "source": "12punto",
+     "title": "Beşiktaş-Başakşehir maçının ilk 11'leri açıklandı"
+    },
+    {
+     "at": "2026-10-26T15:13Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQjF3R0NxbjRodDFQejlvTnJrZXdXaW5hYjk4d2hVMXpvRkNEdkxJSHZkU1g5T2NuSlR0MkZDN3BFVThSamx6ZDFEYmREblBFTE9hTElnNlZVOVdDWXpscW8xTTYwZTRUYTN5T2dGbGk2T1RJSDhFVXRrOUVGNld2WjRJUXNfdmFfYTROdGVEUzRvR09XR01yUEpYNUh1N0NITEdaZ0V0WlhRU29BaHlHOEhDVUN4dw?oc=5",
+     "source": "Evrensel.net",
+     "title": "Süper Lig 9'uncu hafta maçı: Beşiktaş - Başakşehir maçının ilk 11'leri belli oldu"
+    }
+   ],
+   "kickoff": "2026-10-26T16:00Z"
   },
   "T1|2026-10-26|Galatasaray|Fenerbahce": {
-   "fetched_at": "2026-10-26T15:40Z",
+   "fetched_at": "2026-10-26T17:49Z",
    "kickoff": "2026-10-26T18:30Z",
    "home": [
     {
-     "title": "Galatasaray-Fenerbahçe maçında Galatasaray'ın istediğim ilk 11'i",
-     "source": "Sporx.com",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTmNlSTZ0Vmlab2xxWDFVV3h2VkxLV3pJbmlybnpaR0Z6cVA4dkhyUkxCdnBiVWN0bUdIaXRjak50bGlmMTh0T19oaGJRRjM4QW45UUdqUXo3cUZvZmRpLUtRY2JaNzcxOWUzbzJVOTBSNGNDUmJxd3NqM3NQZkFPU0lnY0ZybVM2NFBsVEJROFZnMWlJMWh4dDhCMEplV2gxNWlTR1puenc?oc=5",
-     "at": "2026-10-26T15:38Z",
+     "title": "Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu",
+     "source": "Yirmidort.tv",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbm1SSXBPbnRlay0wR3FZbkZzZlBYdXpiWW1WV0hmZE9WTDVwbFFyTDB6ZXZ1bjJFNXkyeWMxdTUwTC1oQ2hLeDV3UzhGa3RhVGpac3FrSnkxWTMzaENZTkJGN25EUHIyM0tuSTQ4aDlnbThBQjFZOTBZZmtZRGFXOHdvVkpFWDNyU0FyNkRBSzUxWmhQa1hF?oc=5",
+     "at": "2026-10-26T17:47Z",
      "eksik": false
     },
     {
-     "title": "Kerem Aktürkoğlu Galatasaray derbisinde ilk 11'de oynayacak mı?",
-     "source": "Afyon Ana Haber",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdm93S05UVHowa2ZIQ0NpZm5pYU9wYjUyeWt1ZWNCTnZDWFdGME9Sek1jYTZYZXNJQlZMRVlCcVg0R2U0TG5NQUl2QjdaS3FHQ1hDNkdPZF9CMkVkQkJfQ2Y0OHBoRzV2REQ1cHVmZ3lGajJUQTJNcW45LVdGUzVJVmx3c3N6ZHdiWFpscDZHRlNVTUN1Y0xhNEZZZVlJYWhHWWxNOF80dFQ5QQ?oc=5",
-     "at": "2026-10-26T15:22Z",
+     "title": "((İZLE)) Galatasaray Fenerbahçe Derbisi Canlı İzle! GS FB Maçı Canlı Anlatım, İlk 11'ler ve Yayın Bilgileri",
+     "source": "Fabryka Norblina",
+     "link": "https://news.google.com/rss/articles/CBMi5wNBVV95cUxQZDg0TF9ROHp5b1d1UElhR0VpRFhiak1OZlM2U1B4c0Fya0ZQbE1fdFpodUV4X0NsVG5RZVRlYVhibEVDSlpXWldWXy1VYVF3MUNWTVJacXI5aHhWd0VjeUp1bGl5M1daSGtLbzZBbEJRak9TUVlzSG1pM1NjQXdhaTBTYkd6a0RBTmlEMkFHb2s1WGVOZUtoLTAxcUhkNFFOM0ZVbVZ0T25kR25UYzhHRlNzVkotQWY0TFVxVUFTcUlkTXNQc0dpNGd6allyQjV2YW54b3FWa0lWbjl2ZTk2Tjh5dU1YNEREbGpnZ3dxVzA2M0E2LXh2Q2NSMFowQ1h4b09UNTJjRk1lbnNaZ0E0NGF5cExodGt5Vk1PdlptQ2Y2NGdwWTkyUGdkcEdZd2pVb1JnOGV4SDdQbTI4aXJ4a3FBaHZqM1VubHVfUFc4Tjc3N0poWVpCXzAxUUZNSDdhZkV2a2NTQU9rUVJIMmpodUhCaUc3OUZBWHdjRkJpZWVoM1FRTXRBV2RUWEt5WUY5OEFPaWdtRFB1bkRVS1ZUT01xanVsMWRyZ1RHcFVLSml2YjBzR3d6cHpLYnR1ZTl0WUg1N000QVZEUXFwRWJoWENZYnJKR3Q0VThqQWowX0pUcVQ4aWxV?oc=5",
+     "at": "2026-10-26T17:44Z",
      "eksik": false
     },
     {
-     "title": "Galatasaray Fenerbahçe muhtemel 11'ler: Osimhen ve Lukaku oynayacak mı?",
-     "source": "Referans Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNElNbGstTFhEdGwxSHBPZl9MYl8wZUpIQWh1VnVBc3ZPVUxrRE5Mc2VOdnFqQ3hsVXFSbmhxWW00emxJWklmUDE2RnlQY0dUaHpITGZnZndkOWVJVWJFV0lkaXFlUGR6Mzd5Z0VNM1M5WVdlN0FFVUo1b0NEbExfd0JGdmhmbmRCaExLU3NVdklQa2NxMUdLc1l1ekpOUjJLdUVPLW9NOA?oc=5",
-     "at": "2026-10-26T15:21Z",
+     "title": "Süper Lig’in 9'uncu hafta maçı: Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu",
+     "source": "Evrensel.net",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZjhZMDkxcWhLTEFHai1vQVkxbDZmYTYwNm9fdWZTT1V4S1Q5QkVNdF8yR0hidGFvSmZaMzVCdXp6WE93b2VwbnNiZXFTOGRaTExmNjZiR0tES0tDMkd3R0ZmRlh3WW5XQ2NwNFFDLTR1R2NWdG1oTE4tRUE2TWt5TnA1dTRNUi1fQWN1VHRGSExGRi1PZDVHNGdqbnJCVmtJQ2NoQkpnc09tMnNITTNNeVNOUkUyUnJYNW5VblEtaEQ?oc=5",
+     "at": "2026-10-26T17:43Z",
      "eksik": false
     },
     {
-     "title": "Galatasaray -Fenerbahçe derbisi saat kaçta? İlk 11'ler belli oldu mu?",
-     "source": "Ülke TV",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaUkwNEMzeHV0WFd4cE5ocTVsU2FKV0hPZmZJdjJaZG1VWWhKOGxPQ09BNVF3WWxhb1o1clowQllvb2RkcG9kY0J5LXVsZnR1cTNnMzBxNHdJR2hsRHMwWHVqUi1hTnZWWl9URzdDWDRjQmdsaG9YalNwaG85dFlFV2d0RDRicWtFWVBZc3gybFp6Z9IBlwFBVV95cUxQcW9Gd3Z0cTlUMlptZVVmSWV2a25iaEE5WWpTTHVoZ1JHVmktU3ZMZWZsZ05ZWE5BbWJFQjRSZkFjSm03QUFMeGk5NUpnb0hzQnhKZ1dSeHgxMTd0eG95d0NHSFM5X0JFMGZ6cU9vY3VCTGktTUNneVVFOEZCU3BRYmk2c0hMRWVKOWxuZFhhdmZRRlFaMk1R?oc=5",
-     "at": "2026-10-26T15:20Z",
+     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu",
+     "source": "Ajans344",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWEdoYVc1N0luMzFGaVBzSm9uZ0hqZ2JvaUlDenJGZFBhSG9TNjBiak9MTk9rYVlqbGFvaDRmMzFRTHlkODJWS05pTEhaMktvaHR6VnZBQ1FjUFpnRVkwMHNFRFlZZC1lR3ByVVRwVnB3ZVdmQVRzQ3JfeThQRERhNllaUjlBSVBhdS1yZ0JUam1qMTBGVFE?oc=5",
+     "at": "2026-10-26T17:39Z",
      "eksik": false
     },
     {
-     "title": "GALATASARAY FENERBAHÇE MAÇI İLK 11'LER: Galatasaray Fenerbahçe maçı muhtemel 11’ler belli oldu mu, GS FB maç kadrosunda kimler eksik?",
-     "source": "Afyon Ana Haber",
-     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNWUYwYmlNZzNKR2pDV0pEWXRxQTVWMTBreWpZdV9tVW9UdUIzUzY1RHp5RDdFYU5qNmk3c2s4akNKYktIR1ZOY1Y4WkNaWnFjbEVTRUJYRWZuUW10OUdadm9MYjNzaTlXakRYQ0JWeFFfVFFON1pRQWxlMzdEdWhwcXdPNS1tb091R2tBS2IxRVdYSzVHVjNJOXY3V29IbGdvRWlzTUs4bkFZZ2ZRUUxxNHRfVHRRNnM5LTJRZ3MxLXdobndGSFBxc0ZIY2JWaHhsTTM2eGJJcjBVZmdMUW5vUGdiaThaNWU2RkFSU0h3NkdJWkp6OVU0WEI0QXQ3cm9DT0hB?oc=5",
-     "at": "2026-10-26T15:12Z",
+     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu!",
+     "source": "Hunat TV",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR0pobW8tZVRXWmFSUjV1T21ReTVkT2tXWUR2TEVCZnFxS0ZJVkhzMmNUclJPQ0FmWVpiY09NYjNOSlROSEZ6VVAwVUZYUXotWVpRaGZ2N3YzLUxlSldPdlgyTmFqR3hBMUJXR3JRZlYtWDRXcG9iejM2dm1Gcmp1ZHQwVzYwdjFZUGczbi16aw?oc=5",
+     "at": "2026-10-26T17:38Z",
      "eksik": false
     }
    ],
    "away": [
     {
-     "title": "Fenerbahçe Galatasaray’a karşı ilk 11",
-     "source": "Sporx.com",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcHFSX1gtdk11QXlabXE1WjVMSkpkSlNtS2tkOXVBS2Y5Um9EcC1nZDgyR2hpNUx5bkpaY2hrYXYzaGpFRGNxR2hlTVpFd20yenhJZEU3SDZSUEhzYWtXZUFyQ3JvaVNDU2xNVms1YzR0R1BYbURabmNoS2trSzBKbXZ5U2pRZw?oc=5",
-     "at": "2026-10-26T15:38Z",
+     "title": "Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu",
+     "source": "Yirmidort.tv",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbm1SSXBPbnRlay0wR3FZbkZzZlBYdXpiWW1WV0hmZE9WTDVwbFFyTDB6ZXZ1bjJFNXkyeWMxdTUwTC1oQ2hLeDV3UzhGa3RhVGpac3FrSnkxWTMzaENZTkJGN25EUHIyM0tuSTQ4aDlnbThBQjFZOTBZZmtZRGFXOHdvVkpFWDNyU0FyNkRBSzUxWmhQa1hF?oc=5",
+     "at": "2026-10-26T17:47Z",
      "eksik": false
     },
     {
-     "title": "Galatasaray Fenerbahçe muhtemel 11'ler: Osimhen ve Lukaku oynayacak mı?",
-     "source": "Referans Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNElNbGstTFhEdGwxSHBPZl9MYl8wZUpIQWh1VnVBc3ZPVUxrRE5Mc2VOdnFqQ3hsVXFSbmhxWW00emxJWklmUDE2RnlQY0dUaHpITGZnZndkOWVJVWJFV0lkaXFlUGR6Mzd5Z0VNM1M5WVdlN0FFVUo1b0NEbExfd0JGdmhmbmRCaExLU3NVdklQa2NxMUdLc1l1ekpOUjJLdUVPLW9NOA?oc=5",
-     "at": "2026-10-26T15:21Z",
+     "title": "((İZLE)) Galatasaray Fenerbahçe Derbisi Canlı İzle! GS FB Maçı Canlı Anlatım, İlk 11'ler ve Yayın Bilgileri",
+     "source": "Fabryka Norblina",
+     "link": "https://news.google.com/rss/articles/CBMi5wNBVV95cUxQZDg0TF9ROHp5b1d1UElhR0VpRFhiak1OZlM2U1B4c0Fya0ZQbE1fdFpodUV4X0NsVG5RZVRlYVhibEVDSlpXWldWXy1VYVF3MUNWTVJacXI5aHhWd0VjeUp1bGl5M1daSGtLbzZBbEJRak9TUVlzSG1pM1NjQXdhaTBTYkd6a0RBTmlEMkFHb2s1WGVOZUtoLTAxcUhkNFFOM0ZVbVZ0T25kR25UYzhHRlNzVkotQWY0TFVxVUFTcUlkTXNQc0dpNGd6allyQjV2YW54b3FWa0lWbjl2ZTk2Tjh5dU1YNEREbGpnZ3dxVzA2M0E2LXh2Q2NSMFowQ1h4b09UNTJjRk1lbnNaZ0E0NGF5cExodGt5Vk1PdlptQ2Y2NGdwWTkyUGdkcEdZd2pVb1JnOGV4SDdQbTI4aXJ4a3FBaHZqM1VubHVfUFc4Tjc3N0poWVpCXzAxUUZNSDdhZkV2a2NTQU9rUVJIMmpodUhCaUc3OUZBWHdjRkJpZWVoM1FRTXRBV2RUWEt5WUY5OEFPaWdtRFB1bkRVS1ZUT01xanVsMWRyZ1RHcFVLSml2YjBzR3d6cHpLYnR1ZTl0WUg1N000QVZEUXFwRWJoWENZYnJKR3Q0VThqQWowX0pUcVQ4aWxV?oc=5",
+     "at": "2026-10-26T17:44Z",
      "eksik": false
     },
     {
-     "title": "Galatasaray -Fenerbahçe derbisi saat kaçta? İlk 11'ler belli oldu mu?",
-     "source": "Ülke TV",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaUkwNEMzeHV0WFd4cE5ocTVsU2FKV0hPZmZJdjJaZG1VWWhKOGxPQ09BNVF3WWxhb1o1clowQllvb2RkcG9kY0J5LXVsZnR1cTNnMzBxNHdJR2hsRHMwWHVqUi1hTnZWWl9URzdDWDRjQmdsaG9YalNwaG85dFlFV2d0RDRicWtFWVBZc3gybFp6Z9IBlwFBVV95cUxQcW9Gd3Z0cTlUMlptZVVmSWV2a25iaEE5WWpTTHVoZ1JHVmktU3ZMZWZsZ05ZWE5BbWJFQjRSZkFjSm03QUFMeGk5NUpnb0hzQnhKZ1dSeHgxMTd0eG95d0NHSFM5X0JFMGZ6cU9vY3VCTGktTUNneVVFOEZCU3BRYmk2c0hMRWVKOWxuZFhhdmZRRlFaMk1R?oc=5",
-     "at": "2026-10-26T15:20Z",
+     "title": "Süper Lig’in 9'uncu hafta maçı: Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu",
+     "source": "Evrensel.net",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZjhZMDkxcWhLTEFHai1vQVkxbDZmYTYwNm9fdWZTT1V4S1Q5QkVNdF8yR0hidGFvSmZaMzVCdXp6WE93b2VwbnNiZXFTOGRaTExmNjZiR0tES0tDMkd3R0ZmRlh3WW5XQ2NwNFFDLTR1R2NWdG1oTE4tRUE2TWt5TnA1dTRNUi1fQWN1VHRGSExGRi1PZDVHNGdqbnJCVmtJQ2NoQkpnc09tMnNITTNNeVNOUkUyUnJYNW5VblEtaEQ?oc=5",
+     "at": "2026-10-26T17:43Z",
      "eksik": false
     },
     {
-     "title": "GALATASARAY FENERBAHÇE MAÇI İLK 11'LER: Galatasaray Fenerbahçe maçı muhtemel 11’ler belli oldu mu, GS FB maç kadrosunda kimler eksik?",
-     "source": "Afyon Ana Haber",
-     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNWUYwYmlNZzNKR2pDV0pEWXRxQTVWMTBreWpZdV9tVW9UdUIzUzY1RHp5RDdFYU5qNmk3c2s4akNKYktIR1ZOY1Y4WkNaWnFjbEVTRUJYRWZuUW10OUdadm9MYjNzaTlXakRYQ0JWeFFfVFFON1pRQWxlMzdEdWhwcXdPNS1tb091R2tBS2IxRVdYSzVHVjNJOXY3V29IbGdvRWlzTUs4bkFZZ2ZRUUxxNHRfVHRRNnM5LTJRZ3MxLXdobndGSFBxc0ZIY2JWaHhsTTM2eGJJcjBVZmdMUW5vUGdiaThaNWU2RkFSU0h3NkdJWkp6OVU0WEI0QXQ3cm9DT0hB?oc=5",
-     "at": "2026-10-26T15:12Z",
+     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu",
+     "source": "Ajans344",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWEdoYVc1N0luMzFGaVBzSm9uZ0hqZ2JvaUlDenJGZFBhSG9TNjBiak9MTk9rYVlqbGFvaDRmMzFRTHlkODJWS05pTEhaMktvaHR6VnZBQ1FjUFpnRVkwMHNFRFlZZC1lR3ByVVRwVnB3ZVdmQVRzQ3JfeThQRERhNllaUjlBSVBhdS1yZ0JUam1qMTBGVFE?oc=5",
+     "at": "2026-10-26T17:39Z",
      "eksik": false
     },
     {
-     "title": "Dev derbi öncesi geri sayım! Galatasaray - Fenerbahçe maçı saat kaçta başlayacak, hangi kanalda?",
-     "source": "Sabah",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONEFLR1dWcDhES2NxT3NraGtXMHVmaTA2WDlrSVUtSm90TUhfYnRBbEduaENvNmwxVnZublE2QWdHWk4tU3dISTRpc0ZrQTE5ckJOcExtVWxHVUc4X21iS0d2dUlleURhc0tEOEFYUHByUnN0UEFKSGhGTEZuXzlvVGJ1ZXFBYXZaNVpxWFRYMnNzQm9sZk5NRDhMMHFjYkFOeVlidEVWSExVLVh1TlFlMTZ1SFltOVJuZ2FtUFU3T0xNTGw2MFg4YTdCQXE?oc=5",
-     "at": "2026-10-26T15:05Z",
+     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu!",
+     "source": "Hunat TV",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR0pobW8tZVRXWmFSUjV1T21ReTVkT2tXWUR2TEVCZnFxS0ZJVkhzMmNUclJPQ0FmWVpiY09NYjNOSlROSEZ6VVAwVUZYUXotWVpRaGZ2N3YzLUxlSldPdlgyTmFqR3hBMUJXR3JRZlYtWDRXcG9iejM2dm1Gcmp1ZHQwVzYwdjFZUGczbi16aw?oc=5",
+     "at": "2026-10-26T17:38Z",
      "eksik": false
     }
    ],
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Galatasaray'da derbi öncesi resmi olarak açıklanan önemli bir eksik veya sakatlık bulunmuyor."
+     "ozet": "Galatasaray'da maça saatler kala açıklanan güncel raporda bildirilen önemli bir eksik bulunmamaktadır."
     },
     "away": {
      "eksikler": [],
-     "ozet": "Fenerbahçe'de derbi öncesi kadroda yer almayan veya durumu belirsiz olan oyuncu bildirilmedi."
+     "ozet": "Fenerbahçe'de derbi öncesi forma giyemeyecek veya durumu belirsiz resmi bir oyuncu raporu yer almamaktadır."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-10-26T15:40Z",
-    "hash": "029ee67af99a"
+    "at": "2026-10-26T17:49Z",
+    "hash": "dc0f9bce5ea6"
    }
   },
   "T1|2026-10-26|Rizespor|Trabzonspor": {
-   "fetched_at": "2026-10-26T15:40Z",
-   "kickoff": "2026-10-26T16:00Z",
-   "home": [
-    {
-     "title": "Trabzonspor'da Thomas Reis'ten Rizespor uyarısı! \"Bu durum onları tehlikeli yapıyor\"",
-     "source": "Haber61",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUE1HbFhNVllHY1UycWhZV1VIWGdHZUlfMVJoOUtGSGQ2TEZQWGdsSzB2SzV1NUQxclRUMk5memcwVzRBMDI1bER4RVlzbkR0dl9QV083VXpxeWZxZENHa21Nbm1uOHA3ODJTeHRiTHI1M2RhUFJMSDJxdVQ4dUxWZG95d1FnMTlDSFR0N1pMQWZhUWZfUVlhZmR1a3dJUW9yOU12ZE1ZLUpJMklrVTg5RWdXNFdzaWxYRmhTaUJVbWI5Zw?oc=5",
-     "at": "2026-10-26T15:33Z",
-     "eksik": false
-    },
-    {
-     "title": "Thomas Reis ilk 11 tercihinin nedenini açıkladı! “Ağır bir süreçten geçiyoruz…”",
-     "source": "61SAAT",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaW1peTVaSHhUTkhKbnc5NU5kM2hmMDhOdmhvZUsyQnkwOTRhcW5TUzVwbmwyRGVPdVhWd1FPSnFRWVE0VUprdVhWbEpwTk9kbms3TXpybENGNVRVMjJ2ZEljZ2duelgxaWdjaFQtSDR1dHdGMFJpSmhoZ05LaGdqbmxCY2gzeWxwWmYzSmxCZUZtMlUyWjVMdmxfbVhyZmM?oc=5",
-     "at": "2026-10-26T15:29Z",
-     "eksik": false
-    },
-    {
-     "title": "Çaykur Rizespor-Trabzonspor derbisinde İlk 11'ler Belli Oldu",
-     "source": "Rizedeyiz",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTVVqb2hTUEV1ZTgxakdvMEN2LWMyZE5CUkJsbUR2U3FUTEZ4ZGZ4cHVNYWhVeVc1MHZMRU5FZ0tFMGMwUnNBM0NPSktyX1JvaEd6dlVBeDlBcjdkTlc3X1d2OTNBa2ctRFBuTV83T3J3ZGw0X3VpSF96Y3Y0WEVLaE1pSFlCT1BYbHpGaDFB?oc=5",
-     "at": "2026-10-26T15:26Z",
-     "eksik": false
-    },
-    {
-     "title": "Kadro bazında taktik savaşlar kızıştı! Karadeniz derbisinde iki teknik adamdan ezber bozan ilk 11 hamlesi!",
-     "source": "Yeni Akit Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPU2JMc09aaERMYkotTy1OYU9MNnNWS0ZMekJQUzg4LVc0TXpvWTdvcTlfTnVIdzVrV0pDNUJpWjZvZWN1OUZJOTVYU2RURWE5emxSSnU2REs2SlNxdzZxN1hZVDJkajhLSnBUN2djamNhZHpMYzByN1lIV3BCcUtkX0ZzSFpjVnpYUlFjdnB4Vl9iaTE5cDdyMHJZNloxQldMVnJkSGFmckk5cUhLSzhsVTdXbUV2Ui1iZDNheXFtWkl2NFpfWk96S1JSYTdHeEpIQ0E4ekZrSTZ0OExBNlpNSDVLQzZTd9IB4gFBVV95cUxNbG4wcktVT1BGQlNvNWU4Szh0MGh0ejdlSnZEc0s0aHBMX2Nad3JxOW5oYWpWZWVSRUFaZmlBbTVMcTdJaloyVG9ndGxDV05DQXhpdDdGb2NBQ3U0RjNJWjhWeDItNWVjTy1Vb3hUUjQ4SUdCSG5hcnpVcXFTSElFbUpwM044aXB6ejE0MTRJLS02aU1HTDVpbTMzaGt4S0Fya1hwdGx2TlNyTldVdm4wQlNZOGt0YTdJampFbGp3VW41OWpMUnVycDBMSzBHVkVVMjdOS0RBOXRFRW5Ic0lZa3BB?oc=5",
-     "at": "2026-10-26T15:25Z",
-     "eksik": false
-    },
-    {
-     "title": "Süper Lig 9'uncu hafta maçı: Çaykur Rizespor-Trabzonspor maçının ilk 11'leri belli oldu",
-     "source": "Evrensel.net",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhaakNMUWVLQk9jNGVOWFZYWVpqbTQwREl0ektOb2Z0N0dzcjJLYmpsZXBiTjljczFlQTMyak96aHdUUHB5cWstZGY1Ni1jT2xZZGp6NmxPTFBydFhVc0UzU3JJdnFuRkxhMDdWSGZEXzNLbzQyVjRIVVlGLW81dXJ1aEtPSG03LTMtY2FtYkFlbTNXVGs1Ulpqa1Eyb0tkbkJZal81dTFWcXNBYjcxUzBkWXFPN0RQVUIxWWxDdUE?oc=5",
-     "at": "2026-10-26T15:22Z",
-     "eksik": false
-    }
-   ],
-   "away": [
-    {
-     "title": "Trabzonspor'da Thomas Reis'ten Rizespor uyarısı! \"Bu durum onları tehlikeli yapıyor\"",
-     "source": "Haber61",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUE1HbFhNVllHY1UycWhZV1VIWGdHZUlfMVJoOUtGSGQ2TEZQWGdsSzB2SzV1NUQxclRUMk5memcwVzRBMDI1bER4RVlzbkR0dl9QV083VXpxeWZxZENHa21Nbm1uOHA3ODJTeHRiTHI1M2RhUFJMSDJxdVQ4dUxWZG95d1FnMTlDSFR0N1pMQWZhUWZfUVlhZmR1a3dJUW9yOU12ZE1ZLUpJMklrVTg5RWdXNFdzaWxYRmhTaUJVbWI5Zw?oc=5",
-     "at": "2026-10-26T15:33Z",
-     "eksik": false
-    },
-    {
-     "title": "Thomas Reis ilk 11 tercihinin nedenini açıkladı! “Ağır bir süreçten geçiyoruz…”",
-     "source": "61SAAT",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaW1peTVaSHhUTkhKbnc5NU5kM2hmMDhOdmhvZUsyQnkwOTRhcW5TUzVwbmwyRGVPdVhWd1FPSnFRWVE0VUprdVhWbEpwTk9kbms3TXpybENGNVRVMjJ2ZEljZ2duelgxaWdjaFQtSDR1dHdGMFJpSmhoZ05LaGdqbmxCY2gzeWxwWmYzSmxCZUZtMlUyWjVMdmxfbVhyZmM?oc=5",
-     "at": "2026-10-26T15:29Z",
-     "eksik": false
-    },
-    {
-     "title": "Çaykur Rizespor-Trabzonspor derbisinde İlk 11'ler Belli Oldu",
-     "source": "Rizedeyiz",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTVVqb2hTUEV1ZTgxakdvMEN2LWMyZE5CUkJsbUR2U3FUTEZ4ZGZ4cHVNYWhVeVc1MHZMRU5FZ0tFMGMwUnNBM0NPSktyX1JvaEd6dlVBeDlBcjdkTlc3X1d2OTNBa2ctRFBuTV83T3J3ZGw0X3VpSF96Y3Y0WEVLaE1pSFlCT1BYbHpGaDFB?oc=5",
-     "at": "2026-10-26T15:26Z",
-     "eksik": false
-    },
-    {
-     "title": "Kadro bazında taktik savaşlar kızıştı! Karadeniz derbisinde iki teknik adamdan ezber bozan ilk 11 hamlesi!",
-     "source": "Yeni Akit Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPU2JMc09aaERMYkotTy1OYU9MNnNWS0ZMekJQUzg4LVc0TXpvWTdvcTlfTnVIdzVrV0pDNUJpWjZvZWN1OUZJOTVYU2RURWE5emxSSnU2REs2SlNxdzZxN1hZVDJkajhLSnBUN2djamNhZHpMYzByN1lIV3BCcUtkX0ZzSFpjVnpYUlFjdnB4Vl9iaTE5cDdyMHJZNloxQldMVnJkSGFmckk5cUhLSzhsVTdXbUV2Ui1iZDNheXFtWkl2NFpfWk96S1JSYTdHeEpIQ0E4ekZrSTZ0OExBNlpNSDVLQzZTd9IB4gFBVV95cUxNbG4wcktVT1BGQlNvNWU4Szh0MGh0ejdlSnZEc0s0aHBMX2Nad3JxOW5oYWpWZWVSRUFaZmlBbTVMcTdJaloyVG9ndGxDV05DQXhpdDdGb2NBQ3U0RjNJWjhWeDItNWVjTy1Vb3hUUjQ4SUdCSG5hcnpVcXFTSElFbUpwM044aXB6ejE0MTRJLS02aU1HTDVpbTMzaGt4S0Fya1hwdGx2TlNyTldVdm4wQlNZOGt0YTdJampFbGp3VW41OWpMUnVycDBMSzBHVkVVMjdOS0RBOXRFRW5Ic0lZa3BB?oc=5",
-     "at": "2026-10-26T15:25Z",
-     "eksik": false
-    },
-    {
-     "title": "Süper Lig 9'uncu hafta maçı: Çaykur Rizespor-Trabzonspor maçının ilk 11'leri belli oldu",
-     "source": "Evrensel.net",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhaakNMUWVLQk9jNGVOWFZYWVpqbTQwREl0ektOb2Z0N0dzcjJLYmpsZXBiTjljczFlQTMyak96aHdUUHB5cWstZGY1Ni1jT2xZZGp6NmxPTFBydFhVc0UzU3JJdnFuRkxhMDdWSGZEXzNLbzQyVjRIVVlGLW81dXJ1aEtPSG03LTMtY2FtYkFlbTNXVGs1Ulpqa1Eyb0tkbkJZal81dTFWcXNBYjcxUzBkWXFPN0RQVUIxWWxDdUE?oc=5",
-     "at": "2026-10-26T15:22Z",
-     "eksik": false
-    }
-   ],
    "ai": {
-    "home": {
-     "eksikler": [],
-     "ozet": "Rizespor'da maça saatler kala açıklanan güncel raporlara göre eksik veya sakat oyuncu bulunmamaktadır."
-    },
+    "at": "2026-10-26T15:40Z",
     "away": {
      "eksikler": [],
      "ozet": "Trabzonspor cephesinde bu karşılaşma öncesinde bildirilen önemli bir eksik veya sakatlık bulunmuyor."
     },
-    "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-10-26T15:40Z",
-    "hash": "8147f51a4dac"
-   }
+    "hash": "8147f51a4dac",
+    "home": {
+     "eksikler": [],
+     "ozet": "Rizespor'da maça saatler kala açıklanan güncel raporlara göre eksik veya sakat oyuncu bulunmamaktadır."
+    },
+    "model": "gemini-3.5-flash-lite (aramasız)"
+   },
+   "away": [
+    {
+     "at": "2026-10-26T15:33Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUE1HbFhNVllHY1UycWhZV1VIWGdHZUlfMVJoOUtGSGQ2TEZQWGdsSzB2SzV1NUQxclRUMk5memcwVzRBMDI1bER4RVlzbkR0dl9QV083VXpxeWZxZENHa21Nbm1uOHA3ODJTeHRiTHI1M2RhUFJMSDJxdVQ4dUxWZG95d1FnMTlDSFR0N1pMQWZhUWZfUVlhZmR1a3dJUW9yOU12ZE1ZLUpJMklrVTg5RWdXNFdzaWxYRmhTaUJVbWI5Zw?oc=5",
+     "source": "Haber61",
+     "title": "Trabzonspor'da Thomas Reis'ten Rizespor uyarısı! \"Bu durum onları tehlikeli yapıyor\""
+    },
+    {
+     "at": "2026-10-26T15:29Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaW1peTVaSHhUTkhKbnc5NU5kM2hmMDhOdmhvZUsyQnkwOTRhcW5TUzVwbmwyRGVPdVhWd1FPSnFRWVE0VUprdVhWbEpwTk9kbms3TXpybENGNVRVMjJ2ZEljZ2duelgxaWdjaFQtSDR1dHdGMFJpSmhoZ05LaGdqbmxCY2gzeWxwWmYzSmxCZUZtMlUyWjVMdmxfbVhyZmM?oc=5",
+     "source": "61SAAT",
+     "title": "Thomas Reis ilk 11 tercihinin nedenini açıkladı! “Ağır bir süreçten geçiyoruz…”"
+    },
+    {
+     "at": "2026-10-26T15:26Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTVVqb2hTUEV1ZTgxakdvMEN2LWMyZE5CUkJsbUR2U3FUTEZ4ZGZ4cHVNYWhVeVc1MHZMRU5FZ0tFMGMwUnNBM0NPSktyX1JvaEd6dlVBeDlBcjdkTlc3X1d2OTNBa2ctRFBuTV83T3J3ZGw0X3VpSF96Y3Y0WEVLaE1pSFlCT1BYbHpGaDFB?oc=5",
+     "source": "Rizedeyiz",
+     "title": "Çaykur Rizespor-Trabzonspor derbisinde İlk 11'ler Belli Oldu"
+    },
+    {
+     "at": "2026-10-26T15:25Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPU2JMc09aaERMYkotTy1OYU9MNnNWS0ZMekJQUzg4LVc0TXpvWTdvcTlfTnVIdzVrV0pDNUJpWjZvZWN1OUZJOTVYU2RURWE5emxSSnU2REs2SlNxdzZxN1hZVDJkajhLSnBUN2djamNhZHpMYzByN1lIV3BCcUtkX0ZzSFpjVnpYUlFjdnB4Vl9iaTE5cDdyMHJZNloxQldMVnJkSGFmckk5cUhLSzhsVTdXbUV2Ui1iZDNheXFtWkl2NFpfWk96S1JSYTdHeEpIQ0E4ekZrSTZ0OExBNlpNSDVLQzZTd9IB4gFBVV95cUxNbG4wcktVT1BGQlNvNWU4Szh0MGh0ejdlSnZEc0s0aHBMX2Nad3JxOW5oYWpWZWVSRUFaZmlBbTVMcTdJaloyVG9ndGxDV05DQXhpdDdGb2NBQ3U0RjNJWjhWeDItNWVjTy1Vb3hUUjQ4SUdCSG5hcnpVcXFTSElFbUpwM044aXB6ejE0MTRJLS02aU1HTDVpbTMzaGt4S0Fya1hwdGx2TlNyTldVdm4wQlNZOGt0YTdJampFbGp3VW41OWpMUnVycDBMSzBHVkVVMjdOS0RBOXRFRW5Ic0lZa3BB?oc=5",
+     "source": "Yeni Akit Gazetesi",
+     "title": "Kadro bazında taktik savaşlar kızıştı! Karadeniz derbisinde iki teknik adamdan ezber bozan ilk 11 hamlesi!"
+    },
+    {
+     "at": "2026-10-26T15:22Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhaakNMUWVLQk9jNGVOWFZYWVpqbTQwREl0ektOb2Z0N0dzcjJLYmpsZXBiTjljczFlQTMyak96aHdUUHB5cWstZGY1Ni1jT2xZZGp6NmxPTFBydFhVc0UzU3JJdnFuRkxhMDdWSGZEXzNLbzQyVjRIVVlGLW81dXJ1aEtPSG03LTMtY2FtYkFlbTNXVGs1Ulpqa1Eyb0tkbkJZal81dTFWcXNBYjcxUzBkWXFPN0RQVUIxWWxDdUE?oc=5",
+     "source": "Evrensel.net",
+     "title": "Süper Lig 9'uncu hafta maçı: Çaykur Rizespor-Trabzonspor maçının ilk 11'leri belli oldu"
+    }
+   ],
+   "fetched_at": "2026-10-26T15:40Z",
+   "home": [
+    {
+     "at": "2026-10-26T15:33Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUE1HbFhNVllHY1UycWhZV1VIWGdHZUlfMVJoOUtGSGQ2TEZQWGdsSzB2SzV1NUQxclRUMk5memcwVzRBMDI1bER4RVlzbkR0dl9QV083VXpxeWZxZENHa21Nbm1uOHA3ODJTeHRiTHI1M2RhUFJMSDJxdVQ4dUxWZG95d1FnMTlDSFR0N1pMQWZhUWZfUVlhZmR1a3dJUW9yOU12ZE1ZLUpJMklrVTg5RWdXNFdzaWxYRmhTaUJVbWI5Zw?oc=5",
+     "source": "Haber61",
+     "title": "Trabzonspor'da Thomas Reis'ten Rizespor uyarısı! \"Bu durum onları tehlikeli yapıyor\""
+    },
+    {
+     "at": "2026-10-26T15:29Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaW1peTVaSHhUTkhKbnc5NU5kM2hmMDhOdmhvZUsyQnkwOTRhcW5TUzVwbmwyRGVPdVhWd1FPSnFRWVE0VUprdVhWbEpwTk9kbms3TXpybENGNVRVMjJ2ZEljZ2duelgxaWdjaFQtSDR1dHdGMFJpSmhoZ05LaGdqbmxCY2gzeWxwWmYzSmxCZUZtMlUyWjVMdmxfbVhyZmM?oc=5",
+     "source": "61SAAT",
+     "title": "Thomas Reis ilk 11 tercihinin nedenini açıkladı! “Ağır bir süreçten geçiyoruz…”"
+    },
+    {
+     "at": "2026-10-26T15:26Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTVVqb2hTUEV1ZTgxakdvMEN2LWMyZE5CUkJsbUR2U3FUTEZ4ZGZ4cHVNYWhVeVc1MHZMRU5FZ0tFMGMwUnNBM0NPSktyX1JvaEd6dlVBeDlBcjdkTlc3X1d2OTNBa2ctRFBuTV83T3J3ZGw0X3VpSF96Y3Y0WEVLaE1pSFlCT1BYbHpGaDFB?oc=5",
+     "source": "Rizedeyiz",
+     "title": "Çaykur Rizespor-Trabzonspor derbisinde İlk 11'ler Belli Oldu"
+    },
+    {
+     "at": "2026-10-26T15:25Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPU2JMc09aaERMYkotTy1OYU9MNnNWS0ZMekJQUzg4LVc0TXpvWTdvcTlfTnVIdzVrV0pDNUJpWjZvZWN1OUZJOTVYU2RURWE5emxSSnU2REs2SlNxdzZxN1hZVDJkajhLSnBUN2djamNhZHpMYzByN1lIV3BCcUtkX0ZzSFpjVnpYUlFjdnB4Vl9iaTE5cDdyMHJZNloxQldMVnJkSGFmckk5cUhLSzhsVTdXbUV2Ui1iZDNheXFtWkl2NFpfWk96S1JSYTdHeEpIQ0E4ekZrSTZ0OExBNlpNSDVLQzZTd9IB4gFBVV95cUxNbG4wcktVT1BGQlNvNWU4Szh0MGh0ejdlSnZEc0s0aHBMX2Nad3JxOW5oYWpWZWVSRUFaZmlBbTVMcTdJaloyVG9ndGxDV05DQXhpdDdGb2NBQ3U0RjNJWjhWeDItNWVjTy1Vb3hUUjQ4SUdCSG5hcnpVcXFTSElFbUpwM044aXB6ejE0MTRJLS02aU1HTDVpbTMzaGt4S0Fya1hwdGx2TlNyTldVdm4wQlNZOGt0YTdJampFbGp3VW41OWpMUnVycDBMSzBHVkVVMjdOS0RBOXRFRW5Ic0lZa3BB?oc=5",
+     "source": "Yeni Akit Gazetesi",
+     "title": "Kadro bazında taktik savaşlar kızıştı! Karadeniz derbisinde iki teknik adamdan ezber bozan ilk 11 hamlesi!"
+    },
+    {
+     "at": "2026-10-26T15:22Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhaakNMUWVLQk9jNGVOWFZYWVpqbTQwREl0ektOb2Z0N0dzcjJLYmpsZXBiTjljczFlQTMyak96aHdUUHB5cWstZGY1Ni1jT2xZZGp6NmxPTFBydFhVc0UzU3JJdnFuRkxhMDdWSGZEXzNLbzQyVjRIVVlGLW81dXJ1aEtPSG03LTMtY2FtYkFlbTNXVGs1Ulpqa1Eyb0tkbkJZal81dTFWcXNBYjcxUzBkWXFPN0RQVUIxWWxDdUE?oc=5",
+     "source": "Evrensel.net",
+     "title": "Süper Lig 9'uncu hafta maçı: Çaykur Rizespor-Trabzonspor maçının ilk 11'leri belli oldu"
+    }
+   ],
+   "kickoff": "2026-10-26T16:00Z"
   }
  },
  "coupon_types": {
