@@ -14,6 +14,7 @@ import pandas as pd
 import requests
 
 from iddia.build import team_name
+from iddia.log import warn
 
 URL = "https://api.football-data.org/v4/competitions/PL/matches"
 ENV_KEY = "FOOTBALL_DATA_ORG_KEY"
@@ -76,14 +77,14 @@ def parse(payload: dict) -> pd.DataFrame:
 def fetch(season_start: int, key: str | None = None) -> pd.DataFrame | None:
     key = key or os.environ.get(ENV_KEY)
     if not key:
-        print(f"{ENV_KEY} yok, football-data.org atlandı")
+        warn("football-data.org", f"{ENV_KEY} yok, atlandı")
         return None
     try:
         r = requests.get(URL, params={"season": season_start}, headers={"X-Auth-Token": key}, timeout=30)
         r.raise_for_status()
         df = parse(r.json())
     except (requests.RequestException, ValueError, KeyError) as e:
-        print(f"football-data.org okunamadı, atlandı: {e}")
+        warn("football-data.org", f"okunamadı, atlandı: {type(e).__name__}")
         return None
     print(f"football-data.org: {len(df)} Premier Lig maçı")
     return df

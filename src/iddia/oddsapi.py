@@ -22,6 +22,8 @@ import numpy as np
 import pandas as pd
 import requests
 
+from iddia.log import warn
+
 URL = "https://api.the-odds-api.com/v4/sports/{sport}/odds"
 ENV_KEY = "ODDS_API_KEY"
 SPORTS = {"E0": "soccer_epl", "T1": "soccer_turkey_super_league"}
@@ -81,7 +83,7 @@ def parse(league: str, events: list[dict]) -> pd.DataFrame:
 def fetch(fixtures: pd.DataFrame, now: datetime, key: str | None = None) -> pd.DataFrame | None:
     key = key or os.environ.get(ENV_KEY)
     if not key:
-        print(f"{ENV_KEY} yok, canlı oranlar atlandı")
+        warn("The Odds API", f"{ENV_KEY} yok, canlı oranlar atlandı")
         return None
     stamp, until = now.strftime("%Y-%m-%dT%H:%MZ"), (now + WINDOW).strftime("%Y-%m-%dT%H:%MZ")
     soon = fixtures[(fixtures["kickoff"] > stamp) & (fixtures["kickoff"] <= until)]
@@ -94,7 +96,7 @@ def fetch(fixtures: pd.DataFrame, now: datetime, key: str | None = None) -> pd.D
             frames.append(parse(league, r.json()))
         except (requests.RequestException, ValueError, KeyError) as e:
             # Hata mesajı istek adresini (anahtarla birlikte) içerebilir; yalnızca türünü yaz
-            print(f"The Odds API okunamadı ({league}), atlandı: {type(e).__name__}")
+            warn("The Odds API", f"{league} okunamadı, fikstür oranları kullanıldı: {type(e).__name__}")
             continue
         print(f"The Odds API {league}: {len(frames[-1])} maç, kalan kredi {r.headers.get('x-requests-remaining', '?')}")
     return pd.concat(frames, ignore_index=True) if frames else None

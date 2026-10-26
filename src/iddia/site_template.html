@@ -66,6 +66,9 @@ table.perf th,table.perf td{padding:7px 10px;text-align:right;border-bottom:1px 
 table.perf th:first-child,table.perf td:first-child{text-align:left}
 table.perf th{font-weight:600;color:var(--muted);font-size:13px}
 table.perf tr:last-child td{border-bottom:0}
+.ci{color:var(--muted);font-size:12px;white-space:nowrap}
+ul.warns{margin:0;padding-left:20px;font-size:14px;color:var(--muted)}
+ul.warns b{color:var(--fg)}
 .explain{font-size:13px;color:var(--muted);margin:6px 0 0}
 .coupon{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:grid;gap:8px}
 .coupon .head{display:flex;justify-content:space-between;align-items:center;gap:8px}
@@ -270,6 +273,28 @@ function scores(m) {
 const num = (v, d = 3) => v == null ? "–" : v.toFixed(d).replace(".", ",");
 const mean = (xs, f) => xs.length ? xs.reduce((s, x) => s + f(x), 0) / xs.length : null;
 
+// İsabet ve %95 güven aralığı (Wilson): küçük örneklemde oranın ne kadar oynayabileceğini gösterir
+function hitRate(xs, hit) {
+  const n = xs.length;
+  if (!n) return "–";
+  const p = mean(xs, x => hit(x) ? 1 : 0), z = 1.96;
+  const mid = (p + z * z / (2 * n)) / (1 + z * z / n);
+  const half = z * Math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / (1 + z * z / n);
+  const r = v => Math.round(v * 100);
+  return `${pct(p)} <span class="ci">(${r(Math.max(0, mid - half))}–${r(Math.min(1, mid + half))})</span>`;
+}
+
+const IDX = {H: 0, D: 1, A: 2};
+// Tahmin anındaki oranın kapanış oranına göre değeri (CLV) ve sabit tutarla getiri (ROI), modelin seçimi için
+function marketValue(m) {
+  const odds = [m.odds_h, m.odds_d, m.odds_a][IDX[m.pick]];
+  const close = [m.close_h, m.close_d, m.close_a][IDX[m.pick]];
+  return {
+    clv: odds && close ? odds / close - 1 : null,
+    ret: odds ? (m.correct ? odds - 1 : -1) : null,
+  };
+}
+
 function table(head, rows) {
   return `<table class="perf"><thead><tr>${head.map(h => `<th scope="col">${h}</th>`).join("")}</tr></thead>
     <tbody>${rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
@@ -289,7 +314,7 @@ function perfView() {
   const sc = done.map(m => ({m, ...scores(m)}));
   const live = sc.filter(x => x.m.predicted_at !== "geriye-donuk");
   const back = sc.filter(x => x.m.predicted_at === "geriye-donuk");
-  const row = (name, xs) => [name, xs.length, pct(mean(xs, x => x.m.correct ? 1 : 0)), num(mean(xs, x => x.brier)), num(mean(xs, x => x.logloss)), num(mean(xs, x => x.rps))];
+  const row = (name, xs) => [name, xs.length, hitRate(xs, x => x.m.correct), num(mean(xs, x => x.brier)), num(mean(xs, x => x.logloss)), num(mean(xs, x => x.rps))];
   const quality = table(["", "Maç", "İsabet", "Brier", "Log loss", "RPS"],
     [row("Tümü", sc), ...(live.length ? [row("Canlı", live)] : []), ...(back.length ? [row("Geriye dönük", back)] : [])]);
 
@@ -317,14 +342,31 @@ function perfView() {
       (split.length < 50 ? " Örnek henüz küçük, bu fark tesadüf olabilir." : "")
     : "Model şimdiye kadar hep bahis favorisiyle aynı sonucu seçti.";
 
+  // Piyasaya göre: yalnızca canlı tahminler (geriye dönüklerde tahmin oranı zaten kapanış oranı)
+  const mv = live.map(x => ({m: x.m, ...marketValue(x.m)}));
+  const withClv = mv.filter(x => x.clv != null), withRet = mv.filter(x => x.ret != null);
+  const signed = v => v == null ? "–" : `${v >= 0 ? "+" : "−"}%${Math.abs(v * 100).toFixed(1).replace(".", ",")}`;
+  const marketTable = table(["", "Maç", "Ortalama CLV", "Kapanışı yenen", "ROI (sabit tutar)"], [
+    ["Modelin seçimi", withRet.length, signed(mean(withClv, x => x.clv)),
+     withClv.length ? hitRate(withClv, x => x.clv > 0) : "–", signed(mean(withRet, x => x.ret))]]);
+
+  const warns = DATA.uyarilar || [];
+  const runText = warns.length
+    ? `<ul class="warns">${warns.map(w => `<li><b>${esc(w.kaynak)}</b>: ${esc(w.mesaj)}</li>`).join("")}</ul>`
+    : `<p class="explain">Son çalıştırmada bütün veri kaynakları sorunsuz okundu.</p>`;
+
   el.innerHTML = `
     <h2>Olasılık kalitesi</h2>${quality}
+    <p class="explain">Parantez içindeki aralık, isabet oranının %95 güven aralığıdır: maç sayısı azken gerçek oran bu aralıkta herhangi bir yerde olabilir.</p>
     <p class="explain">İsabet yalnızca en olası sonucun tutup tutmadığına bakar. Brier, log loss ve RPS ise verilen olasılıkların ne kadar yerinde olduğunu ölçer; üçünde de düşük daha iyidir. Örneğin %90 emin olup yanılmak, %50 emin olup yanılmaktan çok daha fazla ceza alır.</p>
     <h2>Kalibrasyon</h2>${calib}
     <p class="explain">İyi bir modelde iki sütun birbirine yakındır: model %60 emin olduğu maçların yaklaşık %60'ında haklı çıkmalıdır.</p>
     <h2>Model ve bahis favorisi</h2><p class="explain">${splitText}</p>
     <h2>Haftalık</h2>${weekly}
-    <p class="explain">Hafta Pazartesi günüyle gösterilir. Favori sütunu, bahis oranlarında en düşük orana sahip sonucun başarısıdır.</p>`;
+    <p class="explain">Hafta Pazartesi günüyle gösterilir. Favori sütunu, bahis oranlarında en düşük orana sahip sonucun başarısıdır.</p>
+    <h2>Piyasaya göre</h2>${marketTable}
+    <p class="explain">CLV, tahmin anındaki oranın maç başlarken kapanan orana göre ne kadar iyi olduğunu ölçer. Sürekli artı CLV, modelin piyasanın önünde olduğunun en güvenilir işaretidir. ROI, her seçime aynı tutar yatırılsaydı net getiriyi gösterir; kısa vadede şans etkisi çok büyüktür. Kapanış oranları maç bittikten birkaç gün sonra gelir.</p>
+    <h2>Son çalıştırma</h2><p class="explain">${DATA.updated_at} UTC</p>${runText}`;
 }
 
 const COUPON_STATUS = {

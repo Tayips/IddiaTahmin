@@ -21,6 +21,7 @@ import pandas as pd
 import requests
 
 from iddia.haberler import LOOKAHEAD, match_key
+from iddia.log import warn
 
 API = "https://generativelanguage.googleapis.com/v1beta"
 ENV_KEY = "GEMINI_API_KEY"
@@ -153,7 +154,7 @@ def analyze(news: dict, preds: pd.DataFrame, now: datetime, key: str | None = No
     """Yaklaşan maçların haber kayıtlarına Gemini analizini ekler; başlamış maçlara dokunmaz."""
     key = key or os.environ.get(ENV_KEY)
     if not key:
-        print(f"{ENV_KEY} yok, Gemini analizi atlandı")
+        warn("Gemini", f"{ENV_KEY} yok, analiz atlandı")
         return news
     real = call is None
     if real:
@@ -180,4 +181,6 @@ def analyze(news: dict, preds: pd.DataFrame, now: datetime, key: str | None = No
         model = getattr(call, "model", "test")
         out[k] = {**entry, "ai": {**result, "model": model, "at": stamp, "hash": headline_hash(entry)}}
     print(f"Gemini: {done}/{calls} maç analiz edildi")
+    if done < calls:
+        warn("Gemini", f"{calls - done}/{calls} maç analiz edilemedi")
     return out

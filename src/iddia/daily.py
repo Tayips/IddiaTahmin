@@ -15,7 +15,7 @@ import numpy as np
 import pandas as pd
 import requests
 
-from iddia import coupons, download, fdorg, gemini, haberler, metrics, oddsapi, site
+from iddia import coupons, download, fdorg, gemini, haberler, log, metrics, oddsapi, site
 from iddia.build import build, read_csv, team_name
 from iddia.evaluate import drop_forfeits
 from iddia.features import FEATURES_NO_MARKET, GOAL_FEATURES, MARKET_FEATURES, build_features, market
@@ -26,6 +26,8 @@ from iddia.models.ml import Model
 LEAGUES = {"T1": "Süper Lig", "E0": "Premier Lig"}
 MODEL = "form-piyasa-v2"
 MODEL_NO_MARKET = "form-v2"
+# Özellik seti ve eğitim verisi değişince artırılır; her tahminle saklanır
+FEATURES_VERSION = "f3-12lig"
 PREDICTIONS = Path("data/predictions.csv")
 SITE_DIR = Path("docs")
 SIMILAR = Path("reports/benzer_durumlar.json")   # python -m iddia.benzer ile üretilir
@@ -39,7 +41,7 @@ EXPLAIN = list(EXPLAIN_SOURCE)
 TEAM_RECENT = 6                         # analiz ekranında gösterilen son maç sayısı
 PRED_COLUMNS = KEY + ["season", "kickoff", "p_h", "p_d", "p_a", "pick",
                       "odds_h", "odds_d", "odds_a", "model", "predicted_at",
-                      "p_o25", "p_kg", "odds_o25", "odds_u25", "odds_src", "data_through", *EXPLAIN]
+                      "p_o25", "p_kg", "odds_o25", "odds_u25", "odds_src", "data_through", "features", *EXPLAIN]
 BACKFILL = "geriye-donuk"              # predicted_at değeri: sezon başından kurulum gününe kadarki maçlar
 RESULT_GRACE_DAYS = 4                   # bu kadar gün sonuç gelmezse maç ertelenmiş sayılır
 
@@ -134,6 +136,7 @@ def predict(fixtures: pd.DataFrame, matches: pd.DataFrame, model: Predictor, now
     out["p_kg"] = model.goals["kg"].predict(X).round(4)
     out["predicted_at"] = now.strftime("%Y-%m-%dT%H:%MZ")
     out["data_through"] = out["league"].map(data_through(matches))
+    out["features"] = FEATURES_VERSION
     for name, col in EXPLAIN_SOURCE.items():
         out[name] = X[col].to_numpy().round(2)
     out["f_elo"] = (out["f_elo"] * 100).round(0)    # özellik tablosunda Elo farkı /100 ölçeğinde
@@ -229,7 +232,10 @@ def merge_predictions(old: pd.DataFrame, new: pd.DataFrame, now: datetime, first
 
 
 def score(preds: pd.DataFrame, matches: pd.DataFrame, now: datetime, org: pd.DataFrame | None = None) -> pd.DataFrame:
-    results = matches.assign(date=matches["date"].dt.strftime("%Y-%m-%d"))[KEY + ["fthg", "ftag", "ftr"]]
+    # Kapanış oranları (odds_h/d/a) karşılaştırma içindir: tahmin anındaki oranla kıyaslanır (CLV)
+    results = matches.assign(date=matches["date"].dt.strftime("%Y-%m-%d"),
+                             **{f"close_{x}": matches.get(f"odds_{x}", np.nan) for x in "hda"})
+    results = results[KEY + ["fthg", "ftag", "ftr", "close_h", "close_d", "close_a"]]
     df = preds.merge(results, on=KEY, how="left")
     df, moved = fdorg.fill_results(df, org)
     stamp = now.strftime("%Y-%m-%dT%H:%MZ")
@@ -287,7 +293,8 @@ def to_records(df: pd.DataFrame) -> list[dict]:
     mk = market(df.rename(columns={"odds_h": "pre_h", "odds_d": "pre_d", "odds_a": "pre_a"}))
     df = df.assign(mk_h=mk["mk_h"].round(4), mk_d=mk["mk_d"].round(4), mk_a=mk["mk_a"].round(4))
     cols = PRED_COLUMNS + ["fthg", "ftag", "ftr", "status", "correct", "odds_pick", "odds_correct",
-                           "o25_correct", "kg_correct", "mk_h", "mk_d", "mk_a"]
+                           "o25_correct", "kg_correct", "mk_h", "mk_d", "mk_a",
+                           "close_h", "close_d", "close_a"]
     out = df[cols].astype(object).where(df[cols].notna(), None)
     return out.to_dict(orient="records")
 
@@ -310,7 +317,7 @@ def main() -> None:
                 except requests.HTTPError as e:
                     if league in LEAGUES:
                         raise
-                    print(f"{league} {year} indirilemedi, atlandı: {e}")
+                    log.warn("football-data.co.uk", f"{league} {year} indirilemedi, atlandı")
         download.download_fixtures()
 
     # Model tüm liglerle eğitilir (reports/deneyler_ek.md); sayfa yalnızca LEAGUES içindir
@@ -350,6 +357,7 @@ def main() -> None:
         "coupon_types": coupons.TYPES,
         "coupon_stats": coupons.summary(coupon_records),
         "coupons": coupons.recent(coupon_records),
+        "uyarilar": log.WARNINGS,
     }
     SITE_DIR.mkdir(exist_ok=True)
     (SITE_DIR / "data.json").write_text(json.dumps(data, ensure_ascii=False, indent=1))
