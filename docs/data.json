@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26T15:11Z",
+ "updated_at": "2026-10-26T15:40Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
@@ -110,6 +110,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -130,7 +131,10 @@
    "kg_correct": null,
    "mk_h": 0.7119,
    "mk_d": 0.1796,
-   "mk_a": 0.1085
+   "mk_a": 0.1085,
+   "close_h": 1.34,
+   "close_d": 4.91,
+   "close_a": 7.65
   },
   {
    "league": "T1",
@@ -154,6 +158,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -174,7 +179,10 @@
    "kg_correct": null,
    "mk_h": 0.3851,
    "mk_d": 0.2937,
-   "mk_a": 0.3212
+   "mk_a": 0.3212,
+   "close_h": 2.41,
+   "close_d": 3.11,
+   "close_a": 2.86
   },
   {
    "league": "T1",
@@ -198,6 +206,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -218,7 +227,10 @@
    "kg_correct": null,
    "mk_h": 0.1707,
    "mk_d": 0.2345,
-   "mk_a": 0.5949
+   "mk_a": 0.5949,
+   "close_h": 5.11,
+   "close_d": 3.83,
+   "close_a": 1.59
   },
   {
    "league": "T1",
@@ -242,6 +254,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -262,7 +275,10 @@
    "kg_correct": null,
    "mk_h": 0.243,
    "mk_d": 0.267,
-   "mk_a": 0.49
+   "mk_a": 0.49,
+   "close_h": 3.72,
+   "close_d": 3.41,
+   "close_a": 1.92
   },
   {
    "league": "T1",
@@ -286,6 +302,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -306,7 +323,10 @@
    "kg_correct": null,
    "mk_h": 0.3984,
    "mk_d": 0.2887,
-   "mk_a": 0.3129
+   "mk_a": 0.3129,
+   "close_h": 2.34,
+   "close_d": 3.17,
+   "close_a": 2.94
   },
   {
    "league": "T1",
@@ -330,6 +350,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -350,7 +371,10 @@
    "kg_correct": null,
    "mk_h": 0.4406,
    "mk_d": 0.2783,
-   "mk_a": 0.2811
+   "mk_a": 0.2811,
+   "close_h": 2.13,
+   "close_d": 3.29,
+   "close_a": 3.26
   },
   {
    "league": "T1",
@@ -374,6 +398,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -394,7 +419,10 @@
    "kg_correct": null,
    "mk_h": 0.73,
    "mk_d": 0.1693,
-   "mk_a": 0.1007
+   "mk_a": 0.1007,
+   "close_h": 1.31,
+   "close_d": 5.2,
+   "close_a": 8.21
   },
   {
    "league": "T1",
@@ -418,6 +446,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -438,7 +467,10 @@
    "kg_correct": null,
    "mk_h": 0.5814,
    "mk_d": 0.2492,
-   "mk_a": 0.1694
+   "mk_a": 0.1694,
+   "close_h": 1.63,
+   "close_d": 3.64,
+   "close_a": 5.18
   },
   {
    "league": "T1",
@@ -462,6 +494,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -482,7 +515,10 @@
    "kg_correct": null,
    "mk_h": 0.4355,
    "mk_d": 0.2785,
-   "mk_a": 0.286
+   "mk_a": 0.286,
+   "close_h": 2.15,
+   "close_d": 3.28,
+   "close_a": 3.2
   },
   {
    "league": "E0",
@@ -506,6 +542,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -526,7 +563,10 @@
    "kg_correct": null,
    "mk_h": 0.8092,
    "mk_d": 0.1333,
-   "mk_a": 0.0576
+   "mk_a": 0.0576,
+   "close_h": 1.2,
+   "close_d": 6.72,
+   "close_a": 14.0
   },
   {
    "league": "T1",
@@ -550,6 +590,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -570,7 +611,10 @@
    "kg_correct": null,
    "mk_h": 0.1515,
    "mk_d": 0.2198,
-   "mk_a": 0.6288
+   "mk_a": 0.6288,
+   "close_h": 5.71,
+   "close_d": 4.08,
+   "close_a": 1.51
   },
   {
    "league": "E0",
@@ -594,6 +638,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -614,7 +659,10 @@
    "kg_correct": null,
    "mk_h": 0.4778,
    "mk_d": 0.2486,
-   "mk_a": 0.2736
+   "mk_a": 0.2736,
+   "close_h": 1.99,
+   "close_d": 3.71,
+   "close_a": 3.39
   },
   {
    "league": "E0",
@@ -638,6 +686,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -658,7 +707,10 @@
    "kg_correct": null,
    "mk_h": 0.4111,
    "mk_d": 0.2795,
-   "mk_a": 0.3094
+   "mk_a": 0.3094,
+   "close_h": 2.32,
+   "close_d": 3.36,
+   "close_a": 3.05
   },
   {
    "league": "E0",
@@ -682,6 +734,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -702,7 +755,10 @@
    "kg_correct": null,
    "mk_h": 0.1015,
    "mk_d": 0.1779,
-   "mk_a": 0.7207
+   "mk_a": 0.7207,
+   "close_h": 8.49,
+   "close_d": 5.11,
+   "close_a": 1.34
   },
   {
    "league": "E0",
@@ -726,6 +782,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -746,7 +803,10 @@
    "kg_correct": null,
    "mk_h": 0.3331,
    "mk_d": 0.291,
-   "mk_a": 0.3759
+   "mk_a": 0.3759,
+   "close_h": 2.83,
+   "close_d": 3.22,
+   "close_a": 2.52
   },
   {
    "league": "E0",
@@ -770,6 +830,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -790,7 +851,10 @@
    "kg_correct": null,
    "mk_h": 0.3871,
    "mk_d": 0.2928,
-   "mk_a": 0.3201
+   "mk_a": 0.3201,
+   "close_h": 2.45,
+   "close_d": 3.2,
+   "close_a": 2.94
   },
   {
    "league": "T1",
@@ -814,6 +878,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -834,7 +899,10 @@
    "kg_correct": null,
    "mk_h": 0.4784,
    "mk_d": 0.2759,
-   "mk_a": 0.2456
+   "mk_a": 0.2456,
+   "close_h": 1.97,
+   "close_d": 3.32,
+   "close_a": 3.7
   },
   {
    "league": "T1",
@@ -858,6 +926,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -878,7 +947,10 @@
    "kg_correct": null,
    "mk_h": 0.7782,
    "mk_d": 0.1525,
-   "mk_a": 0.0693
+   "mk_a": 0.0693,
+   "close_h": 1.23,
+   "close_d": 5.69,
+   "close_a": 11.12
   },
   {
    "league": "T1",
@@ -902,6 +974,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -922,7 +995,10 @@
    "kg_correct": null,
    "mk_h": 0.501,
    "mk_d": 0.2573,
-   "mk_a": 0.2417
+   "mk_a": 0.2417,
+   "close_h": 1.88,
+   "close_d": 3.53,
+   "close_a": 3.74
   },
   {
    "league": "E0",
@@ -946,6 +1022,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -966,7 +1043,10 @@
    "kg_correct": null,
    "mk_h": 0.461,
    "mk_d": 0.274,
-   "mk_a": 0.265
+   "mk_a": 0.265,
+   "close_h": 2.07,
+   "close_d": 3.41,
+   "close_a": 3.52
   },
   {
    "league": "E0",
@@ -990,6 +1070,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1010,7 +1091,10 @@
    "kg_correct": null,
    "mk_h": 0.6691,
    "mk_d": 0.191,
-   "mk_a": 0.1399
+   "mk_a": 0.1399,
+   "close_h": 1.44,
+   "close_d": 4.78,
+   "close_a": 6.36
   },
   {
    "league": "E0",
@@ -1034,6 +1118,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1054,7 +1139,10 @@
    "kg_correct": null,
    "mk_h": 0.2557,
    "mk_d": 0.2444,
-   "mk_a": 0.4999
+   "mk_a": 0.4999,
+   "close_h": 3.66,
+   "close_d": 3.82,
+   "close_a": 1.92
   },
   {
    "league": "T1",
@@ -1078,6 +1166,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1098,7 +1187,10 @@
    "kg_correct": null,
    "mk_h": 0.1882,
    "mk_d": 0.2631,
-   "mk_a": 0.5488
+   "mk_a": 0.5488,
+   "close_h": 4.69,
+   "close_d": 3.45,
+   "close_a": 1.72
   },
   {
    "league": "T1",
@@ -1122,6 +1214,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1142,7 +1235,10 @@
    "kg_correct": null,
    "mk_h": 0.3209,
    "mk_d": 0.281,
-   "mk_a": 0.3982
+   "mk_a": 0.3982,
+   "close_h": 2.87,
+   "close_d": 3.25,
+   "close_a": 2.34
   },
   {
    "league": "T1",
@@ -1166,6 +1262,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1186,7 +1283,10 @@
    "kg_correct": null,
    "mk_h": 0.4837,
    "mk_d": 0.2748,
-   "mk_a": 0.2415
+   "mk_a": 0.2415,
+   "close_h": 1.94,
+   "close_d": 3.31,
+   "close_a": 3.73
   },
   {
    "league": "T1",
@@ -1210,6 +1310,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1230,7 +1331,10 @@
    "kg_correct": null,
    "mk_h": 0.5065,
    "mk_d": 0.2431,
-   "mk_a": 0.2504
+   "mk_a": 0.2504,
+   "close_h": 1.86,
+   "close_d": 3.72,
+   "close_a": 3.62
   },
   {
    "league": "E0",
@@ -1254,6 +1358,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1274,7 +1379,10 @@
    "kg_correct": null,
    "mk_h": 0.2609,
    "mk_d": 0.2664,
-   "mk_a": 0.4727
+   "mk_a": 0.4727,
+   "close_h": 3.57,
+   "close_d": 3.5,
+   "close_a": 2.02
   },
   {
    "league": "T1",
@@ -1298,6 +1406,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1318,7 +1427,10 @@
    "kg_correct": null,
    "mk_h": 0.3874,
    "mk_d": 0.3058,
-   "mk_a": 0.3069
+   "mk_a": 0.3069,
+   "close_h": 2.4,
+   "close_d": 3.0,
+   "close_a": 2.99
   },
   {
    "league": "E0",
@@ -1342,6 +1454,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1362,7 +1475,10 @@
    "kg_correct": null,
    "mk_h": 0.1836,
    "mk_d": 0.2234,
-   "mk_a": 0.593
+   "mk_a": 0.593,
+   "close_h": 4.96,
+   "close_d": 4.13,
+   "close_a": 1.62
   },
   {
    "league": "T1",
@@ -1386,6 +1502,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1406,7 +1523,10 @@
    "kg_correct": null,
    "mk_h": 0.4238,
    "mk_d": 0.3102,
-   "mk_a": 0.266
+   "mk_a": 0.266,
+   "close_h": 2.21,
+   "close_d": 2.97,
+   "close_a": 3.43
   },
   {
    "league": "E0",
@@ -1430,6 +1550,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1450,7 +1571,10 @@
    "kg_correct": null,
    "mk_h": 0.4385,
    "mk_d": 0.2711,
-   "mk_a": 0.2904
+   "mk_a": 0.2904,
+   "close_h": 2.18,
+   "close_d": 3.46,
+   "close_a": 3.24
   },
   {
    "league": "E0",
@@ -1474,6 +1598,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1494,7 +1619,10 @@
    "kg_correct": null,
    "mk_h": 0.56,
    "mk_d": 0.2446,
-   "mk_a": 0.1954
+   "mk_a": 0.1954,
+   "close_h": 1.72,
+   "close_d": 3.82,
+   "close_a": 4.72
   },
   {
    "league": "E0",
@@ -1518,6 +1646,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1538,7 +1667,10 @@
    "kg_correct": null,
    "mk_h": 0.6593,
    "mk_d": 0.1942,
-   "mk_a": 0.1465
+   "mk_a": 0.1465,
+   "close_h": 1.46,
+   "close_d": 4.7,
+   "close_a": 6.09
   },
   {
    "league": "E0",
@@ -1562,6 +1694,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1582,7 +1715,10 @@
    "kg_correct": null,
    "mk_h": 0.4419,
    "mk_d": 0.2523,
-   "mk_a": 0.3058
+   "mk_a": 0.3058,
+   "close_h": 2.15,
+   "close_d": 3.67,
+   "close_a": 3.06
   },
   {
    "league": "T1",
@@ -1606,6 +1742,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1626,7 +1763,10 @@
    "kg_correct": null,
    "mk_h": 0.7761,
    "mk_d": 0.1426,
-   "mk_a": 0.0813
+   "mk_a": 0.0813,
+   "close_h": 1.23,
+   "close_d": 5.99,
+   "close_a": 9.65
   },
   {
    "league": "T1",
@@ -1650,6 +1790,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1670,7 +1811,10 @@
    "kg_correct": null,
    "mk_h": 0.2989,
    "mk_d": 0.273,
-   "mk_a": 0.4281
+   "mk_a": 0.4281,
+   "close_h": 3.06,
+   "close_d": 3.33,
+   "close_a": 2.18
   },
   {
    "league": "T1",
@@ -1694,6 +1838,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1714,7 +1859,10 @@
    "kg_correct": null,
    "mk_h": 0.4845,
    "mk_d": 0.2935,
-   "mk_a": 0.222
+   "mk_a": 0.222,
+   "close_h": 1.94,
+   "close_d": 3.12,
+   "close_a": 4.04
   },
   {
    "league": "E0",
@@ -1738,6 +1886,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1758,7 +1907,10 @@
    "kg_correct": null,
    "mk_h": 0.5219,
    "mk_d": 0.241,
-   "mk_a": 0.2371
+   "mk_a": 0.2371,
+   "close_h": 1.83,
+   "close_d": 3.83,
+   "close_a": 3.89
   },
   {
    "league": "E0",
@@ -1782,6 +1934,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1802,7 +1955,10 @@
    "kg_correct": null,
    "mk_h": 0.344,
    "mk_d": 0.2743,
-   "mk_a": 0.3817
+   "mk_a": 0.3817,
+   "close_h": 2.74,
+   "close_d": 3.4,
+   "close_a": 2.48
   },
   {
    "league": "E0",
@@ -1826,6 +1982,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1846,7 +2003,10 @@
    "kg_correct": null,
    "mk_h": 0.7197,
    "mk_d": 0.1673,
-   "mk_a": 0.113
+   "mk_a": 0.113,
+   "close_h": 1.34,
+   "close_d": 5.39,
+   "close_a": 7.68
   },
   {
    "league": "E0",
@@ -1870,6 +2030,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1890,7 +2051,10 @@
    "kg_correct": null,
    "mk_h": 0.4293,
    "mk_d": 0.2849,
-   "mk_a": 0.2858
+   "mk_a": 0.2858,
+   "close_h": 2.22,
+   "close_d": 3.29,
+   "close_a": 3.28
   },
   {
    "league": "T1",
@@ -1914,6 +2078,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1934,7 +2099,10 @@
    "kg_correct": null,
    "mk_h": 0.5904,
    "mk_d": 0.2374,
-   "mk_a": 0.1721
+   "mk_a": 0.1721,
+   "close_h": 1.6,
+   "close_d": 3.78,
+   "close_a": 5.06
   },
   {
    "league": "T1",
@@ -1958,6 +2126,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -1978,7 +2147,10 @@
    "kg_correct": null,
    "mk_h": 0.2541,
    "mk_d": 0.2998,
-   "mk_a": 0.4462
+   "mk_a": 0.4462,
+   "close_h": 3.57,
+   "close_d": 3.06,
+   "close_a": 2.1
   },
   {
    "league": "T1",
@@ -2002,6 +2174,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2022,7 +2195,10 @@
    "kg_correct": null,
    "mk_h": 0.166,
    "mk_d": 0.2221,
-   "mk_a": 0.6119
+   "mk_a": 0.6119,
+   "close_h": 5.26,
+   "close_d": 4.04,
+   "close_a": 1.55
   },
   {
    "league": "E0",
@@ -2046,6 +2222,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2066,7 +2243,10 @@
    "kg_correct": null,
    "mk_h": 0.1359,
    "mk_d": 0.2085,
-   "mk_a": 0.6555
+   "mk_a": 0.6555,
+   "close_h": 6.54,
+   "close_d": 4.41,
+   "close_a": 1.47
   },
   {
    "league": "T1",
@@ -2090,6 +2270,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2110,7 +2291,10 @@
    "kg_correct": null,
    "mk_h": 0.2921,
    "mk_d": 0.2522,
-   "mk_a": 0.4557
+   "mk_a": 0.4557,
+   "close_h": 3.14,
+   "close_d": 3.6,
+   "close_a": 2.06
   },
   {
    "league": "T1",
@@ -2134,6 +2318,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2154,7 +2339,10 @@
    "kg_correct": null,
    "mk_h": 0.684,
    "mk_d": 0.1893,
-   "mk_a": 0.1266
+   "mk_a": 0.1266,
+   "close_h": 1.4,
+   "close_d": 4.74,
+   "close_a": 6.81
   },
   {
    "league": "E0",
@@ -2178,6 +2366,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2198,7 +2387,10 @@
    "kg_correct": null,
    "mk_h": 0.1899,
    "mk_d": 0.2142,
-   "mk_a": 0.596
+   "mk_a": 0.596,
+   "close_h": 4.86,
+   "close_d": 4.34,
+   "close_a": 1.62
   },
   {
    "league": "T1",
@@ -2222,6 +2414,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2242,7 +2435,10 @@
    "kg_correct": null,
    "mk_h": 0.1915,
    "mk_d": 0.2101,
-   "mk_a": 0.5984
+   "mk_a": 0.5984,
+   "close_h": 4.6,
+   "close_d": 4.23,
+   "close_a": 1.58
   },
   {
    "league": "E0",
@@ -2266,6 +2462,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2286,7 +2483,10 @@
    "kg_correct": null,
    "mk_h": 0.5722,
    "mk_d": 0.2408,
-   "mk_a": 0.1871
+   "mk_a": 0.1871,
+   "close_h": 1.68,
+   "close_d": 3.86,
+   "close_a": 4.89
   },
   {
    "league": "E0",
@@ -2310,6 +2510,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2330,7 +2531,10 @@
    "kg_correct": null,
    "mk_h": 0.4934,
    "mk_d": 0.2569,
-   "mk_a": 0.2496
+   "mk_a": 0.2496,
+   "close_h": 1.94,
+   "close_d": 3.63,
+   "close_a": 3.73
   },
   {
    "league": "E0",
@@ -2354,6 +2558,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2374,7 +2579,10 @@
    "kg_correct": null,
    "mk_h": 0.4426,
    "mk_d": 0.277,
-   "mk_a": 0.2804
+   "mk_a": 0.2804,
+   "close_h": 2.16,
+   "close_d": 3.39,
+   "close_a": 3.35
   },
   {
    "league": "E0",
@@ -2398,6 +2606,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2418,7 +2627,10 @@
    "kg_correct": null,
    "mk_h": 0.2357,
    "mk_d": 0.2588,
-   "mk_a": 0.5055
+   "mk_a": 0.5055,
+   "close_h": 3.92,
+   "close_d": 3.59,
+   "close_a": 1.89
   },
   {
    "league": "E0",
@@ -2442,6 +2654,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2462,7 +2675,10 @@
    "kg_correct": null,
    "mk_h": 0.8147,
    "mk_d": 0.123,
-   "mk_a": 0.0623
+   "mk_a": 0.0623,
+   "close_h": 1.19,
+   "close_d": 7.18,
+   "close_a": 12.96
   },
   {
    "league": "E0",
@@ -2486,6 +2702,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2506,7 +2723,10 @@
    "kg_correct": null,
    "mk_h": 0.451,
    "mk_d": 0.2568,
-   "mk_a": 0.2921
+   "mk_a": 0.2921,
+   "close_h": 2.12,
+   "close_d": 3.64,
+   "close_a": 3.22
   },
   {
    "league": "E0",
@@ -2530,6 +2750,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2550,7 +2771,10 @@
    "kg_correct": null,
    "mk_h": 0.3591,
    "mk_d": 0.2774,
-   "mk_a": 0.3634
+   "mk_a": 0.3634,
+   "close_h": 2.64,
+   "close_d": 3.38,
+   "close_a": 2.61
   },
   {
    "league": "T1",
@@ -2574,6 +2798,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2594,7 +2819,10 @@
    "kg_correct": null,
    "mk_h": 0.3968,
    "mk_d": 0.3011,
-   "mk_a": 0.3021
+   "mk_a": 0.3021,
+   "close_h": 2.35,
+   "close_d": 3.05,
+   "close_a": 3.04
   },
   {
    "league": "T1",
@@ -2618,6 +2846,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2638,7 +2867,10 @@
    "kg_correct": null,
    "mk_h": 0.435,
    "mk_d": 0.2718,
-   "mk_a": 0.2933
+   "mk_a": 0.2933,
+   "close_h": 2.15,
+   "close_d": 3.35,
+   "close_a": 3.12
   },
   {
    "league": "E0",
@@ -2662,6 +2894,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2682,7 +2915,10 @@
    "kg_correct": null,
    "mk_h": 0.5652,
    "mk_d": 0.2414,
-   "mk_a": 0.1934
+   "mk_a": 0.1934,
+   "close_h": 1.7,
+   "close_d": 3.85,
+   "close_a": 4.74
   },
   {
    "league": "E0",
@@ -2706,6 +2942,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2726,7 +2963,10 @@
    "kg_correct": null,
    "mk_h": 0.2553,
    "mk_d": 0.2433,
-   "mk_a": 0.5013
+   "mk_a": 0.5013,
+   "close_h": 3.65,
+   "close_d": 3.82,
+   "close_a": 1.91
   },
   {
    "league": "T1",
@@ -2750,6 +2990,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2770,7 +3011,10 @@
    "kg_correct": null,
    "mk_h": 0.5871,
    "mk_d": 0.2434,
-   "mk_a": 0.1695
+   "mk_a": 0.1695,
+   "close_h": 1.61,
+   "close_d": 3.7,
+   "close_a": 5.14
   },
   {
    "league": "T1",
@@ -2794,6 +3038,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2814,7 +3059,10 @@
    "kg_correct": null,
    "mk_h": 0.3637,
    "mk_d": 0.2941,
-   "mk_a": 0.3422
+   "mk_a": 0.3422,
+   "close_h": 2.54,
+   "close_d": 3.1,
+   "close_a": 2.69
   },
   {
    "league": "T1",
@@ -2838,6 +3086,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2858,7 +3107,10 @@
    "kg_correct": null,
    "mk_h": 0.3926,
    "mk_d": 0.3058,
-   "mk_a": 0.3015
+   "mk_a": 0.3015,
+   "close_h": 2.37,
+   "close_d": 3.0,
+   "close_a": 3.04
   },
   {
    "league": "T1",
@@ -2882,6 +3134,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2902,7 +3155,10 @@
    "kg_correct": null,
    "mk_h": 0.6746,
    "mk_d": 0.1952,
-   "mk_a": 0.1302
+   "mk_a": 0.1302,
+   "close_h": 1.41,
+   "close_d": 4.54,
+   "close_a": 6.51
   },
   {
    "league": "T1",
@@ -2926,6 +3182,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2946,7 +3203,10 @@
    "kg_correct": null,
    "mk_h": 0.5138,
    "mk_d": 0.265,
-   "mk_a": 0.2212
+   "mk_a": 0.2212,
+   "close_h": 1.83,
+   "close_d": 3.42,
+   "close_a": 4.04
   },
   {
    "league": "T1",
@@ -2970,6 +3230,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -2990,7 +3251,10 @@
    "kg_correct": null,
    "mk_h": 0.5146,
    "mk_d": 0.2717,
-   "mk_a": 0.2137
+   "mk_a": 0.2137,
+   "close_h": 1.83,
+   "close_d": 3.35,
+   "close_a": 4.18
   },
   {
    "league": "T1",
@@ -3014,6 +3278,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3034,7 +3299,10 @@
    "kg_correct": null,
    "mk_h": 0.8088,
    "mk_d": 0.1345,
-   "mk_a": 0.0568
+   "mk_a": 0.0568,
+   "close_h": 1.18,
+   "close_d": 6.26,
+   "close_a": 12.69
   },
   {
    "league": "E0",
@@ -3058,6 +3326,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3078,7 +3347,10 @@
    "kg_correct": null,
    "mk_h": 0.4306,
    "mk_d": 0.2739,
-   "mk_a": 0.2955
+   "mk_a": 0.2955,
+   "close_h": 2.22,
+   "close_d": 3.43,
+   "close_a": 3.19
   },
   {
    "league": "E0",
@@ -3102,6 +3374,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3122,7 +3395,10 @@
    "kg_correct": null,
    "mk_h": 0.4158,
    "mk_d": 0.26,
-   "mk_a": 0.3241
+   "mk_a": 0.3241,
+   "close_h": 2.29,
+   "close_d": 3.59,
+   "close_a": 2.91
   },
   {
    "league": "E0",
@@ -3146,6 +3422,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3166,7 +3443,10 @@
    "kg_correct": null,
    "mk_h": 0.7996,
    "mk_d": 0.1326,
-   "mk_a": 0.0678
+   "mk_a": 0.0678,
+   "close_h": 1.21,
+   "close_d": 6.67,
+   "close_a": 11.96
   },
   {
    "league": "E0",
@@ -3190,6 +3470,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3210,7 +3491,10 @@
    "kg_correct": null,
    "mk_h": 0.455,
    "mk_d": 0.2579,
-   "mk_a": 0.2871
+   "mk_a": 0.2871,
+   "close_h": 2.1,
+   "close_d": 3.62,
+   "close_a": 3.27
   },
   {
    "league": "E0",
@@ -3234,6 +3518,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3254,7 +3539,10 @@
    "kg_correct": null,
    "mk_h": 0.6424,
    "mk_d": 0.2005,
-   "mk_a": 0.1571
+   "mk_a": 0.1571,
+   "close_h": 1.5,
+   "close_d": 4.58,
+   "close_a": 5.74
   },
   {
    "league": "E0",
@@ -3278,6 +3566,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3298,7 +3587,10 @@
    "kg_correct": null,
    "mk_h": 0.1537,
    "mk_d": 0.2513,
-   "mk_a": 0.595
+   "mk_a": 0.595,
+   "close_h": 5.89,
+   "close_d": 3.72,
+   "close_a": 1.62
   },
   {
    "league": "E0",
@@ -3322,6 +3614,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3342,7 +3635,10 @@
    "kg_correct": null,
    "mk_h": 0.4832,
    "mk_d": 0.2569,
-   "mk_a": 0.2599
+   "mk_a": 0.2599,
+   "close_h": 1.98,
+   "close_d": 3.63,
+   "close_a": 3.59
   },
   {
    "league": "T1",
@@ -3366,6 +3662,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3386,7 +3683,10 @@
    "kg_correct": null,
    "mk_h": 0.4325,
    "mk_d": 0.2804,
-   "mk_a": 0.2871
+   "mk_a": 0.2871,
+   "close_h": 2.16,
+   "close_d": 3.25,
+   "close_a": 3.18
   },
   {
    "league": "T1",
@@ -3410,6 +3710,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3430,7 +3731,10 @@
    "kg_correct": null,
    "mk_h": 0.2181,
    "mk_d": 0.2624,
-   "mk_a": 0.5196
+   "mk_a": 0.5196,
+   "close_h": 4.09,
+   "close_d": 3.45,
+   "close_a": 1.81
   },
   {
    "league": "T1",
@@ -3454,6 +3758,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3474,7 +3779,10 @@
    "kg_correct": null,
    "mk_h": 0.2535,
    "mk_d": 0.2535,
-   "mk_a": 0.4929
+   "mk_a": 0.4929,
+   "close_h": 3.58,
+   "close_d": 3.58,
+   "close_a": 1.91
   },
   {
    "league": "T1",
@@ -3498,6 +3806,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3518,7 +3827,10 @@
    "kg_correct": null,
    "mk_h": 0.4047,
    "mk_d": 0.2739,
-   "mk_a": 0.3213
+   "mk_a": 0.3213,
+   "close_h": 2.3,
+   "close_d": 3.32,
+   "close_a": 2.86
   },
   {
    "league": "E0",
@@ -3542,6 +3854,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3562,7 +3875,10 @@
    "kg_correct": null,
    "mk_h": 0.2515,
    "mk_d": 0.2466,
-   "mk_a": 0.5019
+   "mk_a": 0.5019,
+   "close_h": 3.71,
+   "close_d": 3.78,
+   "close_a": 1.91
   },
   {
    "league": "E0",
@@ -3586,6 +3902,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3606,7 +3923,10 @@
    "kg_correct": null,
    "mk_h": 0.3193,
    "mk_d": 0.2474,
-   "mk_a": 0.4332
+   "mk_a": 0.4332,
+   "close_h": 2.95,
+   "close_d": 3.76,
+   "close_a": 2.2
   },
   {
    "league": "T1",
@@ -3630,6 +3950,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3650,7 +3971,10 @@
    "kg_correct": null,
    "mk_h": 0.3867,
    "mk_d": 0.2634,
-   "mk_a": 0.3499
+   "mk_a": 0.3499,
+   "close_h": 2.41,
+   "close_d": 3.46,
+   "close_a": 2.65
   },
   {
    "league": "T1",
@@ -3674,6 +3998,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3694,7 +4019,10 @@
    "kg_correct": null,
    "mk_h": 0.7649,
    "mk_d": 0.1581,
-   "mk_a": 0.077
+   "mk_a": 0.077,
+   "close_h": 1.25,
+   "close_d": 5.5,
+   "close_a": 10.19
   },
   {
    "league": "T1",
@@ -3718,6 +4046,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3738,7 +4067,10 @@
    "kg_correct": null,
    "mk_h": 0.4172,
    "mk_d": 0.2869,
-   "mk_a": 0.2958
+   "mk_a": 0.2958,
+   "close_h": 2.24,
+   "close_d": 3.19,
+   "close_a": 3.1
   },
   {
    "league": "E0",
@@ -3762,6 +4094,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3782,7 +4115,10 @@
    "kg_correct": null,
    "mk_h": 0.4138,
    "mk_d": 0.2702,
-   "mk_a": 0.316
+   "mk_a": 0.316,
+   "close_h": 2.3,
+   "close_d": 3.46,
+   "close_a": 2.98
   },
   {
    "league": "T1",
@@ -3806,6 +4142,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3826,7 +4163,10 @@
    "kg_correct": null,
    "mk_h": 0.1415,
    "mk_d": 0.2037,
-   "mk_a": 0.6548
+   "mk_a": 0.6548,
+   "close_h": 6.04,
+   "close_d": 4.36,
+   "close_a": 1.45
   },
   {
    "league": "E0",
@@ -3850,6 +4190,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3870,7 +4211,10 @@
    "kg_correct": null,
    "mk_h": 0.3752,
    "mk_d": 0.2572,
-   "mk_a": 0.3676
+   "mk_a": 0.3676,
+   "close_h": 2.53,
+   "close_d": 3.63,
+   "close_a": 2.58
   },
   {
    "league": "T1",
@@ -3894,6 +4238,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3914,7 +4259,10 @@
    "kg_correct": null,
    "mk_h": 0.385,
    "mk_d": 0.2915,
-   "mk_a": 0.3235
+   "mk_a": 0.3235,
+   "close_h": 2.41,
+   "close_d": 3.13,
+   "close_a": 2.84
   },
   {
    "league": "E0",
@@ -3938,6 +4286,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -3958,7 +4307,10 @@
    "kg_correct": null,
    "mk_h": 0.1858,
    "mk_d": 0.2421,
-   "mk_a": 0.5721
+   "mk_a": 0.5721,
+   "close_h": 4.92,
+   "close_d": 3.84,
+   "close_a": 1.68
   },
   {
    "league": "E0",
@@ -3982,6 +4334,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4002,7 +4355,10 @@
    "kg_correct": null,
    "mk_h": 0.5514,
    "mk_d": 0.241,
-   "mk_a": 0.2076
+   "mk_a": 0.2076,
+   "close_h": 1.74,
+   "close_d": 3.85,
+   "close_a": 4.43
   },
   {
    "league": "E0",
@@ -4026,6 +4382,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4046,7 +4403,10 @@
    "kg_correct": null,
    "mk_h": 0.6049,
    "mk_d": 0.2148,
-   "mk_a": 0.1803
+   "mk_a": 0.1803,
+   "close_h": 1.59,
+   "close_d": 4.29,
+   "close_a": 5.05
   },
   {
    "league": "E0",
@@ -4070,6 +4430,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4090,7 +4451,10 @@
    "kg_correct": null,
    "mk_h": 0.5897,
    "mk_d": 0.2359,
-   "mk_a": 0.1744
+   "mk_a": 0.1744,
+   "close_h": 1.63,
+   "close_d": 3.93,
+   "close_a": 5.21
   },
   {
    "league": "E0",
@@ -4114,6 +4478,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4134,7 +4499,10 @@
    "kg_correct": null,
    "mk_h": 0.5077,
    "mk_d": 0.2475,
-   "mk_a": 0.2448
+   "mk_a": 0.2448,
+   "close_h": 1.89,
+   "close_d": 3.77,
+   "close_a": 3.81
   },
   {
    "league": "T1",
@@ -4158,6 +4526,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4178,7 +4547,10 @@
    "kg_correct": null,
    "mk_h": 0.5524,
    "mk_d": 0.2338,
-   "mk_a": 0.2138
+   "mk_a": 0.2138,
+   "close_h": 1.71,
+   "close_d": 3.85,
+   "close_a": 4.18
   },
   {
    "league": "T1",
@@ -4202,6 +4574,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4222,7 +4595,10 @@
    "kg_correct": null,
    "mk_h": 0.484,
    "mk_d": 0.2715,
-   "mk_a": 0.2446
+   "mk_a": 0.2446,
+   "close_h": 1.94,
+   "close_d": 3.35,
+   "close_a": 3.69
   },
   {
    "league": "T1",
@@ -4246,6 +4622,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4266,7 +4643,10 @@
    "kg_correct": null,
    "mk_h": 0.3803,
    "mk_d": 0.3087,
-   "mk_a": 0.311
+   "mk_a": 0.311,
+   "close_h": 2.44,
+   "close_d": 2.97,
+   "close_a": 2.95
   },
   {
    "league": "T1",
@@ -4290,6 +4670,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4310,7 +4691,10 @@
    "kg_correct": null,
    "mk_h": 0.315,
    "mk_d": 0.2468,
-   "mk_a": 0.4382
+   "mk_a": 0.4382,
+   "close_h": 2.91,
+   "close_d": 3.65,
+   "close_a": 2.13
   },
   {
    "league": "E0",
@@ -4334,6 +4718,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4354,7 +4739,10 @@
    "kg_correct": null,
    "mk_h": 0.302,
    "mk_d": 0.2544,
-   "mk_a": 0.4435
+   "mk_a": 0.4435,
+   "close_h": 3.11,
+   "close_d": 3.66,
+   "close_a": 2.15
   },
   {
    "league": "E0",
@@ -4378,6 +4766,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4398,7 +4787,10 @@
    "kg_correct": null,
    "mk_h": 0.2678,
    "mk_d": 0.249,
-   "mk_a": 0.4832
+   "mk_a": 0.4832,
+   "close_h": 3.49,
+   "close_d": 3.74,
+   "close_a": 1.98
   },
   {
    "league": "E0",
@@ -4422,6 +4814,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4442,7 +4835,10 @@
    "kg_correct": null,
    "mk_h": 0.5794,
    "mk_d": 0.2351,
-   "mk_a": 0.1855
+   "mk_a": 0.1855,
+   "close_h": 1.66,
+   "close_d": 3.95,
+   "close_a": 4.93
   },
   {
    "league": "E0",
@@ -4466,6 +4862,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4486,7 +4883,10 @@
    "kg_correct": null,
    "mk_h": 0.722,
    "mk_d": 0.1759,
-   "mk_a": 0.1022
+   "mk_a": 0.1022,
+   "close_h": 1.34,
+   "close_d": 5.19,
+   "close_a": 8.5
   },
   {
    "league": "T1",
@@ -4510,6 +4910,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4530,7 +4931,10 @@
    "kg_correct": null,
    "mk_h": 0.2439,
    "mk_d": 0.2446,
-   "mk_a": 0.5115
+   "mk_a": 0.5115,
+   "close_h": 3.7,
+   "close_d": 3.69,
+   "close_a": 1.84
   },
   {
    "league": "T1",
@@ -4554,6 +4958,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4574,7 +4979,10 @@
    "kg_correct": null,
    "mk_h": 0.388,
    "mk_d": 0.2968,
-   "mk_a": 0.3152
+   "mk_a": 0.3152,
+   "close_h": 2.4,
+   "close_d": 3.09,
+   "close_a": 2.92
   },
   {
    "league": "T1",
@@ -4598,6 +5006,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4618,7 +5027,10 @@
    "kg_correct": null,
    "mk_h": 0.8362,
    "mk_d": 0.1158,
-   "mk_a": 0.0479
+   "mk_a": 0.0479,
+   "close_h": 1.15,
+   "close_d": 7.3,
+   "close_a": 15.06
   },
   {
    "league": "T1",
@@ -4642,6 +5054,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4662,7 +5075,10 @@
    "kg_correct": null,
    "mk_h": 0.3922,
    "mk_d": 0.2688,
-   "mk_a": 0.339
+   "mk_a": 0.339,
+   "close_h": 2.37,
+   "close_d": 3.38,
+   "close_a": 2.72
   },
   {
    "league": "T1",
@@ -4686,6 +5102,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4706,7 +5123,10 @@
    "kg_correct": null,
    "mk_h": 0.7451,
    "mk_d": 0.158,
-   "mk_a": 0.0969
+   "mk_a": 0.0969,
+   "close_h": 1.28,
+   "close_d": 5.48,
+   "close_a": 8.37
   },
   {
    "league": "E0",
@@ -4730,6 +5150,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4750,7 +5171,10 @@
    "kg_correct": null,
    "mk_h": 0.6686,
    "mk_d": 0.2063,
-   "mk_a": 0.1251
+   "mk_a": 0.1251,
+   "close_h": 1.44,
+   "close_d": 4.44,
+   "close_a": 7.02
   },
   {
    "league": "E0",
@@ -4774,6 +5198,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4794,7 +5219,10 @@
    "kg_correct": null,
    "mk_h": 0.3759,
    "mk_d": 0.2617,
-   "mk_a": 0.3624
+   "mk_a": 0.3624,
+   "close_h": 2.52,
+   "close_d": 3.56,
+   "close_a": 2.61
   },
   {
    "league": "E0",
@@ -4818,6 +5246,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4838,7 +5267,10 @@
    "kg_correct": null,
    "mk_h": 0.5314,
    "mk_d": 0.2349,
-   "mk_a": 0.2337
+   "mk_a": 0.2337,
+   "close_h": 1.8,
+   "close_d": 3.93,
+   "close_a": 3.95
   },
   {
    "league": "E0",
@@ -4862,6 +5294,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4882,7 +5315,10 @@
    "kg_correct": null,
    "mk_h": 0.3185,
    "mk_d": 0.2729,
-   "mk_a": 0.4086
+   "mk_a": 0.4086,
+   "close_h": 2.96,
+   "close_d": 3.43,
+   "close_a": 2.33
   },
   {
    "league": "E0",
@@ -4906,6 +5342,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4926,7 +5363,10 @@
    "kg_correct": null,
    "mk_h": 0.5714,
    "mk_d": 0.2212,
-   "mk_a": 0.2074
+   "mk_a": 0.2074,
+   "close_h": 1.68,
+   "close_d": 4.17,
+   "close_a": 4.43
   },
   {
    "league": "E0",
@@ -4950,6 +5390,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -4970,7 +5411,10 @@
    "kg_correct": null,
    "mk_h": 0.316,
    "mk_d": 0.2782,
-   "mk_a": 0.4058
+   "mk_a": 0.4058,
+   "close_h": 2.96,
+   "close_d": 3.34,
+   "close_a": 2.33
   },
   {
    "league": "T1",
@@ -4994,6 +5438,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5014,7 +5459,10 @@
    "kg_correct": null,
    "mk_h": 0.4822,
    "mk_d": 0.2967,
-   "mk_a": 0.2211
+   "mk_a": 0.2211,
+   "close_h": 1.95,
+   "close_d": 3.09,
+   "close_a": 4.06
   },
   {
    "league": "T1",
@@ -5038,6 +5486,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5058,7 +5507,10 @@
    "kg_correct": null,
    "mk_h": 0.2536,
    "mk_d": 0.2699,
-   "mk_a": 0.4765
+   "mk_a": 0.4765,
+   "close_h": 3.57,
+   "close_d": 3.37,
+   "close_a": 1.97
   },
   {
    "league": "T1",
@@ -5082,6 +5534,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5102,7 +5555,10 @@
    "kg_correct": null,
    "mk_h": 0.1951,
    "mk_d": 0.2197,
-   "mk_a": 0.5852
+   "mk_a": 0.5852,
+   "close_h": 4.56,
+   "close_d": 4.09,
+   "close_a": 1.62
   },
   {
    "league": "T1",
@@ -5126,6 +5582,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5146,7 +5603,10 @@
    "kg_correct": null,
    "mk_h": 0.2687,
    "mk_d": 0.2466,
-   "mk_a": 0.4847
+   "mk_a": 0.4847,
+   "close_h": 3.39,
+   "close_d": 3.67,
+   "close_a": 1.94
   },
   {
    "league": "E0",
@@ -5170,6 +5630,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5190,7 +5651,10 @@
    "kg_correct": null,
    "mk_h": 0.3392,
    "mk_d": 0.2785,
-   "mk_a": 0.3823
+   "mk_a": 0.3823,
+   "close_h": 2.77,
+   "close_d": 3.34,
+   "close_a": 2.47
   },
   {
    "league": "E0",
@@ -5214,6 +5678,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5234,7 +5699,10 @@
    "kg_correct": null,
    "mk_h": 0.2305,
    "mk_d": 0.2787,
-   "mk_a": 0.4908
+   "mk_a": 0.4908,
+   "close_h": 4.02,
+   "close_d": 3.36,
+   "close_a": 1.95
   },
   {
    "league": "E0",
@@ -5258,6 +5726,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5278,7 +5747,10 @@
    "kg_correct": null,
    "mk_h": 0.2796,
    "mk_d": 0.2533,
-   "mk_a": 0.4671
+   "mk_a": 0.4671,
+   "close_h": 3.36,
+   "close_d": 3.69,
+   "close_a": 2.05
   },
   {
    "league": "T1",
@@ -5302,6 +5774,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5322,7 +5795,10 @@
    "kg_correct": null,
    "mk_h": 0.8328,
    "mk_d": 0.1174,
-   "mk_a": 0.0498
+   "mk_a": 0.0498,
+   "close_h": 1.15,
+   "close_d": 7.1,
+   "close_a": 14.22
   },
   {
    "league": "T1",
@@ -5346,6 +5822,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5366,7 +5843,10 @@
    "kg_correct": null,
    "mk_h": 0.3578,
    "mk_d": 0.2677,
-   "mk_a": 0.3745
+   "mk_a": 0.3745,
+   "close_h": 2.59,
+   "close_d": 3.4,
+   "close_a": 2.48
   },
   {
    "league": "T1",
@@ -5390,6 +5870,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5410,7 +5891,10 @@
    "kg_correct": null,
    "mk_h": 0.425,
    "mk_d": 0.2644,
-   "mk_a": 0.3106
+   "mk_a": 0.3106,
+   "close_h": 2.2,
+   "close_d": 3.44,
+   "close_a": 2.96
   },
   {
    "league": "E0",
@@ -5434,6 +5918,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5454,7 +5939,10 @@
    "kg_correct": null,
    "mk_h": 0.2639,
    "mk_d": 0.2504,
-   "mk_a": 0.4858
+   "mk_a": 0.4858,
+   "close_h": 3.54,
+   "close_d": 3.72,
+   "close_a": 1.97
   },
   {
    "league": "T1",
@@ -5478,6 +5966,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5498,7 +5987,10 @@
    "kg_correct": null,
    "mk_h": 0.2236,
    "mk_d": 0.2529,
-   "mk_a": 0.5235
+   "mk_a": 0.5235,
+   "close_h": 4.01,
+   "close_d": 3.58,
+   "close_a": 1.8
   },
   {
    "league": "T1",
@@ -5522,6 +6014,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5542,7 +6035,10 @@
    "kg_correct": null,
    "mk_h": 0.4889,
    "mk_d": 0.245,
-   "mk_a": 0.2661
+   "mk_a": 0.2661,
+   "close_h": 1.92,
+   "close_d": 3.68,
+   "close_a": 3.41
   },
   {
    "league": "E0",
@@ -5566,6 +6062,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5586,7 +6083,10 @@
    "kg_correct": null,
    "mk_h": 0.3524,
    "mk_d": 0.2588,
-   "mk_a": 0.3888
+   "mk_a": 0.3888,
+   "close_h": 2.67,
+   "close_d": 3.58,
+   "close_a": 2.43
   },
   {
    "league": "E0",
@@ -5610,6 +6110,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5630,7 +6131,10 @@
    "kg_correct": null,
    "mk_h": 0.3303,
    "mk_d": 0.2618,
-   "mk_a": 0.4079
+   "mk_a": 0.4079,
+   "close_h": 2.84,
+   "close_d": 3.54,
+   "close_a": 2.32
   },
   {
    "league": "E0",
@@ -5654,6 +6158,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5674,7 +6179,10 @@
    "kg_correct": null,
    "mk_h": 0.5907,
    "mk_d": 0.2294,
-   "mk_a": 0.1799
+   "mk_a": 0.1799,
+   "close_h": 1.62,
+   "close_d": 4.0,
+   "close_a": 5.01
   },
   {
    "league": "E0",
@@ -5698,6 +6206,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5718,7 +6227,10 @@
    "kg_correct": null,
    "mk_h": 0.7862,
    "mk_d": 0.1315,
-   "mk_a": 0.0823
+   "mk_a": 0.0823,
+   "close_h": 1.23,
+   "close_d": 6.72,
+   "close_a": 10.15
   },
   {
    "league": "E0",
@@ -5742,6 +6254,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5762,7 +6275,10 @@
    "kg_correct": null,
    "mk_h": 0.4447,
    "mk_d": 0.2479,
-   "mk_a": 0.3074
+   "mk_a": 0.3074,
+   "close_h": 2.14,
+   "close_d": 3.74,
+   "close_a": 3.05
   },
   {
    "league": "T1",
@@ -5786,6 +6302,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5806,7 +6323,10 @@
    "kg_correct": null,
    "mk_h": 0.508,
    "mk_d": 0.2727,
-   "mk_a": 0.2193
+   "mk_a": 0.2193,
+   "close_h": 1.85,
+   "close_d": 3.33,
+   "close_a": 4.07
   },
   {
    "league": "T1",
@@ -5830,6 +6350,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5850,7 +6371,10 @@
    "kg_correct": null,
    "mk_h": 0.6557,
    "mk_d": 0.2197,
-   "mk_a": 0.1245
+   "mk_a": 0.1245,
+   "close_h": 1.45,
+   "close_d": 4.08,
+   "close_a": 6.78
   },
   {
    "league": "T1",
@@ -5874,6 +6398,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5894,7 +6419,10 @@
    "kg_correct": null,
    "mk_h": 0.7619,
    "mk_d": 0.153,
-   "mk_a": 0.0852
+   "mk_a": 0.0852,
+   "close_h": 1.25,
+   "close_d": 5.6,
+   "close_a": 9.22
   },
   {
    "league": "T1",
@@ -5918,6 +6446,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5938,7 +6467,10 @@
    "kg_correct": null,
    "mk_h": 0.1027,
    "mk_d": 0.1698,
-   "mk_a": 0.7275
+   "mk_a": 0.7275,
+   "close_h": 7.97,
+   "close_d": 5.14,
+   "close_a": 1.31
   },
   {
    "league": "E0",
@@ -5962,6 +6494,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -5982,7 +6515,10 @@
    "kg_correct": null,
    "mk_h": 0.4654,
    "mk_d": 0.2918,
-   "mk_a": 0.2428
+   "mk_a": 0.2428,
+   "close_h": 2.05,
+   "close_d": 3.21,
+   "close_a": 3.82
   },
   {
    "league": "E0",
@@ -6006,6 +6542,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6026,7 +6563,10 @@
    "kg_correct": null,
    "mk_h": 0.6782,
    "mk_d": 0.1884,
-   "mk_a": 0.1334
+   "mk_a": 0.1334,
+   "close_h": 1.42,
+   "close_d": 4.83,
+   "close_a": 6.62
   },
   {
    "league": "E0",
@@ -6050,6 +6590,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6070,7 +6611,10 @@
    "kg_correct": null,
    "mk_h": 0.3801,
    "mk_d": 0.2786,
-   "mk_a": 0.3414
+   "mk_a": 0.3414,
+   "close_h": 2.49,
+   "close_d": 3.35,
+   "close_a": 2.76
   },
   {
    "league": "E0",
@@ -6094,6 +6638,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6114,7 +6659,10 @@
    "kg_correct": null,
    "mk_h": 0.1345,
    "mk_d": 0.2206,
-   "mk_a": 0.6448
+   "mk_a": 0.6448,
+   "close_h": 6.55,
+   "close_d": 4.16,
+   "close_a": 1.49
   },
   {
    "league": "T1",
@@ -6138,6 +6686,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6158,7 +6707,10 @@
    "kg_correct": null,
    "mk_h": 0.5435,
    "mk_d": 0.2289,
-   "mk_a": 0.2276
+   "mk_a": 0.2276,
+   "close_h": 1.74,
+   "close_d": 3.94,
+   "close_a": 3.96
   },
   {
    "league": "T1",
@@ -6182,6 +6734,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6202,7 +6755,10 @@
    "kg_correct": null,
    "mk_h": 0.3688,
    "mk_d": 0.291,
-   "mk_a": 0.3402
+   "mk_a": 0.3402,
+   "close_h": 2.52,
+   "close_d": 3.15,
+   "close_a": 2.72
   },
   {
    "league": "T1",
@@ -6226,6 +6782,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6246,7 +6803,10 @@
    "kg_correct": null,
    "mk_h": 0.3115,
    "mk_d": 0.2904,
-   "mk_a": 0.3981
+   "mk_a": 0.3981,
+   "close_h": 2.95,
+   "close_d": 3.15,
+   "close_a": 2.34
   },
   {
    "league": "E0",
@@ -6270,6 +6830,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6290,7 +6851,10 @@
    "kg_correct": null,
    "mk_h": 0.6286,
    "mk_d": 0.2051,
-   "mk_a": 0.1662
+   "mk_a": 0.1662,
+   "close_h": 1.53,
+   "close_d": 4.47,
+   "close_a": 5.43
   },
   {
    "league": "T1",
@@ -6314,6 +6878,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6334,7 +6899,10 @@
    "kg_correct": null,
    "mk_h": 0.3661,
    "mk_d": 0.2417,
-   "mk_a": 0.3922
+   "mk_a": 0.3922,
+   "close_h": 2.53,
+   "close_d": 3.73,
+   "close_a": 2.37
   },
   {
    "league": "T1",
@@ -6358,6 +6926,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6378,7 +6947,10 @@
    "kg_correct": null,
    "mk_h": 0.4847,
    "mk_d": 0.2857,
-   "mk_a": 0.2296
+   "mk_a": 0.2296,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "E0",
@@ -6402,6 +6974,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6422,7 +6995,10 @@
    "kg_correct": null,
    "mk_h": 0.312,
    "mk_d": 0.2711,
-   "mk_a": 0.4168
+   "mk_a": 0.4168,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "T1",
@@ -6446,6 +7022,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6466,7 +7043,10 @@
    "kg_correct": null,
    "mk_h": 0.1601,
    "mk_d": 0.2376,
-   "mk_a": 0.6023
+   "mk_a": 0.6023,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "E0",
@@ -6490,6 +7070,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6510,7 +7091,10 @@
    "kg_correct": null,
    "mk_h": 0.1925,
    "mk_d": 0.2154,
-   "mk_a": 0.5921
+   "mk_a": 0.5921,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "T1",
@@ -6534,6 +7118,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6554,7 +7139,10 @@
    "kg_correct": null,
    "mk_h": 0.4261,
    "mk_d": 0.2908,
-   "mk_a": 0.2831
+   "mk_a": 0.2831,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "E0",
@@ -6578,6 +7166,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6598,7 +7187,10 @@
    "kg_correct": null,
    "mk_h": 0.6728,
    "mk_d": 0.2074,
-   "mk_a": 0.1198
+   "mk_a": 0.1198,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "E0",
@@ -6622,6 +7214,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6642,7 +7235,10 @@
    "kg_correct": null,
    "mk_h": 0.3072,
    "mk_d": 0.268,
-   "mk_a": 0.4248
+   "mk_a": 0.4248,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "T1",
@@ -6666,6 +7262,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6686,7 +7283,10 @@
    "kg_correct": null,
    "mk_h": 0.2721,
    "mk_d": 0.2619,
-   "mk_a": 0.4661
+   "mk_a": 0.4661,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "E0",
@@ -6710,6 +7310,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6730,7 +7331,10 @@
    "kg_correct": null,
    "mk_h": 0.5666,
    "mk_d": 0.223,
-   "mk_a": 0.2104
+   "mk_a": 0.2104,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "T1",
@@ -6754,6 +7358,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6774,7 +7379,10 @@
    "kg_correct": null,
    "mk_h": 0.5126,
    "mk_d": 0.2648,
-   "mk_a": 0.2226
+   "mk_a": 0.2226,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "E0",
@@ -6798,6 +7406,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6818,7 +7427,10 @@
    "kg_correct": null,
    "mk_h": 0.3272,
    "mk_d": 0.2581,
-   "mk_a": 0.4147
+   "mk_a": 0.4147,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "E0",
@@ -6842,6 +7454,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6862,7 +7475,10 @@
    "kg_correct": null,
    "mk_h": 0.1982,
    "mk_d": 0.2352,
-   "mk_a": 0.5666
+   "mk_a": 0.5666,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "E0",
@@ -6886,6 +7502,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6906,7 +7523,10 @@
    "kg_correct": null,
    "mk_h": 0.4552,
    "mk_d": 0.2461,
-   "mk_a": 0.2987
+   "mk_a": 0.2987,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "E0",
@@ -6930,6 +7550,7 @@
    "odds_u25": null,
    "odds_src": null,
    "data_through": null,
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6950,7 +7571,10 @@
    "kg_correct": null,
    "mk_h": 0.4525,
    "mk_d": 0.255,
-   "mk_a": 0.2924
+   "mk_a": 0.2924,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "T1",
@@ -6974,6 +7598,7 @@
    "odds_u25": 2.18,
    "odds_src": null,
    "data_through": "2026-10-19",
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -6994,7 +7619,10 @@
    "kg_correct": null,
    "mk_h": 0.4398,
    "mk_d": 0.2547,
-   "mk_a": 0.3055
+   "mk_a": 0.3055,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "E0",
@@ -7018,6 +7646,7 @@
    "odds_u25": 1.7,
    "odds_src": null,
    "data_through": "2026-10-19",
+   "features": null,
    "f_elo": null,
    "f_h_gf": null,
    "f_h_ga": null,
@@ -7038,7 +7667,10 @@
    "kg_correct": 0.0,
    "mk_h": 0.3074,
    "mk_d": 0.2902,
-   "mk_a": 0.4024
+   "mk_a": 0.4024,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "T1",
@@ -7047,21 +7679,22 @@
    "away": "Buyuksehyr",
    "season": "2627",
    "kickoff": "2026-10-26T16:00Z",
-   "p_h": 0.7505,
-   "p_d": 0.1597,
-   "p_a": 0.0898,
+   "p_h": 0.7565,
+   "p_d": 0.1567,
+   "p_a": 0.0868,
    "pick": "H",
-   "odds_h": 1.36,
-   "odds_d": 5.21,
-   "odds_a": 6.99,
+   "odds_h": 1.35,
+   "odds_d": 5.26,
+   "odds_a": 7.18,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-10-26T15:11Z",
-   "p_o25": 0.683,
-   "p_kg": 0.5821,
-   "odds_o25": 1.4,
-   "odds_u25": 2.76,
+   "predicted_at": "2026-10-26T15:40Z",
+   "p_o25": 0.6874,
+   "p_kg": 0.5829,
+   "odds_o25": 1.39,
+   "odds_u25": 2.79,
    "odds_src": "canli",
    "data_through": "2026-10-19",
+   "features": "f3-12lig",
    "f_elo": 89.0,
    "f_h_gf": 1.8,
    "f_h_ga": 1.28,
@@ -7080,9 +7713,12 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.7054,
-   "mk_d": 0.1712,
-   "mk_a": 0.1234
+   "mk_h": 0.7109,
+   "mk_d": 0.1694,
+   "mk_a": 0.1197,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "T1",
@@ -7091,21 +7727,22 @@
    "away": "Trabzonspor",
    "season": "2627",
    "kickoff": "2026-10-26T16:00Z",
-   "p_h": 0.2461,
-   "p_d": 0.2498,
-   "p_a": 0.5041,
+   "p_h": 0.2455,
+   "p_d": 0.2494,
+   "p_a": 0.5052,
    "pick": "A",
-   "odds_h": 3.82,
-   "odds_d": 3.95,
+   "odds_h": 3.84,
+   "odds_d": 3.97,
    "odds_a": 1.8,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-10-26T15:11Z",
-   "p_o25": 0.6385,
-   "p_kg": 0.6248,
-   "odds_o25": 1.54,
-   "odds_u25": 2.44,
+   "predicted_at": "2026-10-26T15:40Z",
+   "p_o25": 0.6439,
+   "p_kg": 0.6295,
+   "odds_o25": 1.52,
+   "odds_u25": 2.46,
    "odds_src": "canli",
    "data_through": "2026-10-19",
+   "features": "f3-12lig",
    "f_elo": -133.0,
    "f_h_gf": 1.22,
    "f_h_ga": 1.62,
@@ -7124,9 +7761,12 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.2399,
-   "mk_d": 0.2314,
-   "mk_a": 0.5287
+   "mk_h": 0.2394,
+   "mk_d": 0.231,
+   "mk_a": 0.5296,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   },
   {
    "league": "T1",
@@ -7135,21 +7775,22 @@
    "away": "Fenerbahce",
    "season": "2627",
    "kickoff": "2026-10-26T18:30Z",
-   "p_h": 0.5101,
-   "p_d": 0.2664,
-   "p_a": 0.2235,
+   "p_h": 0.5099,
+   "p_d": 0.2667,
+   "p_a": 0.2234,
    "pick": "H",
    "odds_h": 1.95,
-   "odds_d": 3.84,
+   "odds_d": 3.83,
    "odds_a": 3.36,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-10-26T15:11Z",
-   "p_o25": 0.6501,
-   "p_kg": 0.6795,
-   "odds_o25": 1.44,
-   "odds_u25": 2.61,
+   "predicted_at": "2026-10-26T15:40Z",
+   "p_o25": 0.628,
+   "p_kg": 0.6593,
+   "odds_o25": 1.49,
+   "odds_u25": 2.47,
    "odds_src": "canli",
    "data_through": "2026-10-19",
+   "features": "f3-12lig",
    "f_elo": 68.0,
    "f_h_gf": 2.01,
    "f_h_ga": 1.28,
@@ -7168,9 +7809,12 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.4865,
-   "mk_d": 0.2385,
-   "mk_a": 0.275
+   "mk_h": 0.4863,
+   "mk_d": 0.2389,
+   "mk_a": 0.2748,
+   "close_h": null,
+   "close_d": null,
+   "close_a": null
   }
  ],
  "teams": {
@@ -9997,276 +10641,287 @@
  },
  "haberler": {
   "T1|2026-10-26|Besiktas|Buyuksehyr": {
-   "fetched_at": "2026-10-26T15:11Z",
+   "fetched_at": "2026-10-26T15:40Z",
    "kickoff": "2026-10-26T16:00Z",
    "home": [
     {
-     "title": "Beşiktaş Başakşehir maçı ilk 11'i ve son gelişmeler",
-     "source": "İşçi Haber",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZG9fUnpfMVBTRmp1OUdWSUx3UzRWaUJEY2NyVld2OHFDc3lpaGs3WlJHT0lIdmlLMHVVVGFCcUxPRzlLUElMWndRYW5YSEI1Q1QxcTZhcTlwWjQ3MEhycFk3ajgzNDd6NENmeG9OUHZ2a0ljQlhEci1tQ2xxWUhkOTdDREFybzY0dmFzR3prV0c?oc=5",
-     "at": "2026-10-26T15:07Z",
+     "title": "Orkun Kökçü ve Miretti Başakşehir maçında neden yok, neden oynamıyor? Beşiktaş'ta iki yıldızın sakatlık durumu",
+     "source": "Türkgün",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTzhvTDRRZUZhemFoQUtIZk5xcUM0ZFdZVzc3TXAxSEFvM3dIUlRBOTY1dWh3WlJWY0NCeHpuS1FtTmhNck44T1hGckdNQjI2dTZIQndLTVVselQ4YjRKSi10ZExtenFaQmhndy1nWkVnU1hFeDFtWGdOczJCbDkweXB4RHpBR3lMLUFwVFV5UHBud1dqbDhr?oc=5",
+     "at": "2026-10-26T15:21Z",
+     "eksik": true
+    },
+    {
+     "title": "Beşiktaş-Başakşehir maçında ilk 11’ler belli oldu! İşte kadrolar",
+     "source": "ABC Haber",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcWk5SGhyUDFuT0xVR0dLYXVUX0o0VEVHTVY0NUZDRHZTUXhoZnk5dDNsR2N5Qm5YTXpjajY5Nm1LQTNDdElfZ29KYmg0MG1mOE1wejQ0UTk1Z251UTh1RDhmV2RmUmpUYlN4RW93dk01WmptUnd4b1dZNUN4ZGR1SW9IN2pPVFZrSjJZelQxN0Z0TXhrNUY0d19ieldJVmtpX1dB?oc=5",
+     "at": "2026-10-26T15:18Z",
      "eksik": false
     },
     {
-     "title": "Beşiktaş-Başakşehir maçının 11'leri belli oldu",
-     "source": "Dünya Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSHVxY3RLZTVvQzNjTEFkVFJmREFBQV8wbUV3X2JCYUhtMk0yMlJsVHNoVExPX0lzQS1fcEx2SFFUOGh5SDNaZk4tS09BVEtoQjZFeGZYTThLTnlEM2NleVl4OHROU1BXZ3gtMkJrY2hfb3lCUHdGOGFtaEd2RktzSlpFN2FTS1ZlSUo2UVg3MA?oc=5",
-     "at": "2026-10-26T15:06Z",
+     "title": "Beşiktaş-Başakşehir Maçının İlk 11'leri Belli Oldu! İşte Sahaya Çıkacak Kadrolar",
+     "source": "Gazete Kritik",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMThYWGhKVzljbFNNYTl2VlZQODF5UnBvVXAzWHdkRnFRTWFVbjNXYW41UWFxcW90b3pqbUVwalNZTU1lcE1nSGZYdTVLVGVZNkpGZF82eWRxUS10VWNmbXZTcE5CUEd0cjUwOVpuQ2xhTUN1RFcteGJRR0VibW9WMWtuWHNlV0VUZDhuWDFtVlNsVUQxaHg3UFZjNF9Hck9YRDVEcFRwUFdFQlczelRCNEt2ZVNud0ZzZWU4?oc=5",
+     "at": "2026-10-26T15:18Z",
      "eksik": false
     },
     {
-     "title": "Rizespor-Trabzonspor ve Beşiktaş-Başakşehir İlk 11’leri Açıklandı",
-     "source": "Bölge Gündemi",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWi0taUZ2ZEZoTnp0TGgzSTdxVElpeXhaMzROdUdYQ1BZSTc0LVV3VXVZZ1VnSUhpdXdDX3R2dTV2OEl1Sk1mQ0pyYUZLRDhKdUNBSno4T0RsQy1xb1AtQ0NZQ085eTBXd1hDRGZZOXI1b2h5RFBRS1NJRHZaOFJ2YXhza3VmUHpYZmhEaFQxZU5ZQnlzTkZ6eUhDVzR2RUtpUldFOUpJYTFSMU9FdVRtRA?oc=5",
-     "at": "2026-10-26T15:06Z",
+     "title": "Beşiktaş-Başakşehir maçının ilk 11'leri açıklandı",
+     "source": "12punto",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVVJSVWFJVkRnbXNHVE9YSm4tMl9uM2lIN2lnNnVBUG81UTdQWUZydVZUZDlmUm9Sa2pfbV9yR0M2aDNFRy1rUzhFTzBFR1BhOUswcWtNOEhYSjJfcUMwbVNxVDZ4Vmg2NUs5SVhoajI2em85N3pFRmVlbmlrRVRlMDd4ZWlKTm1yUEc4?oc=5",
+     "at": "2026-10-26T15:17Z",
      "eksik": false
     },
     {
-     "title": "Beşiktaş-Başakşehir maçında ilk 11'ler açıklandı!",
-     "source": "Manşet Haber",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcjFrR0hCWTRDZXUtbkphQlYxV3hCQXZqd1BKMFYyaXdIRjZyQ1R4ZDFEa1R0MGdRdGx2SWNGcHdtaVk2NXptMzZvaHVnQk5kWU9zTkdVbzJRU0FsUWNSdHhkN2ZkaVVtZWc5MlFnVE5lZHV0aG02TlV0TmtTbjVTS3A2bw?oc=5",
-     "at": "2026-10-26T15:03Z",
-     "eksik": false
-    },
-    {
-     "title": "Beşiktaş'ın Başakşehir maçındaki ilk 11'i belli oldu. Beşiktaş'ın ilk 11'i: Nübel, Murillo, Agbadou, Emirhan, Rıdvan, Ndidi, Salih, Olaitan, Cerny, Trossard, Vlahovic. Beşiktaş'ın yedekleri: Doğan, Kartal, Djalo, Taylan, Ouattara, İlhan, Poku, Semih, Yasin, Oh. #Beşi",
-     "source": "Instagram",
-     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TR1RHT2ZGRjhCdVMwNlo1VXNVcDlieUMwZzFnVEIxQzJld2IxcDVYVUthY2FrektiOEF6Q1BtR2ZBNGRBZXJ0M0NSb2lNNHdERWc?oc=5",
-     "at": "2026-10-26T15:01Z",
+     "title": "Süper Lig 9'uncu hafta maçı: Beşiktaş - Başakşehir maçının ilk 11'leri belli oldu",
+     "source": "Evrensel.net",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQjF3R0NxbjRodDFQejlvTnJrZXdXaW5hYjk4d2hVMXpvRkNEdkxJSHZkU1g5T2NuSlR0MkZDN3BFVThSamx6ZDFEYmREblBFTE9hTElnNlZVOVdDWXpscW8xTTYwZTRUYTN5T2dGbGk2T1RJSDhFVXRrOUVGNld2WjRJUXNfdmFfYTROdGVEUzRvR09XR01yUEpYNUh1N0NITEdaZ0V0WlhRU29BaHlHOEhDVUN4dw?oc=5",
+     "at": "2026-10-26T15:13Z",
      "eksik": false
     }
    ],
    "away": [
     {
-     "title": "Beşiktaş Başakşehir maçı ilk 11'i ve son gelişmeler",
-     "source": "İşçi Haber",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZG9fUnpfMVBTRmp1OUdWSUx3UzRWaUJEY2NyVld2OHFDc3lpaGs3WlJHT0lIdmlLMHVVVGFCcUxPRzlLUElMWndRYW5YSEI1Q1QxcTZhcTlwWjQ3MEhycFk3ajgzNDd6NENmeG9OUHZ2a0ljQlhEci1tQ2xxWUhkOTdDREFybzY0dmFzR3prV0c?oc=5",
-     "at": "2026-10-26T15:07Z",
+     "title": "Süper Lig 9'uncu hafta maçı: Çaykur Rizespor-Trabzonspor maçının ilk 11'leri belli oldu",
+     "source": "Evrensel.net",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhaakNMUWVLQk9jNGVOWFZYWVpqbTQwREl0ektOb2Z0N0dzcjJLYmpsZXBiTjljczFlQTMyak96aHdUUHB5cWstZGY1Ni1jT2xZZGp6NmxPTFBydFhVc0UzU3JJdnFuRkxhMDdWSGZEXzNLbzQyVjRIVVlGLW81dXJ1aEtPSG03LTMtY2FtYkFlbTNXVGs1Ulpqa1Eyb0tkbkJZal81dTFWcXNBYjcxUzBkWXFPN0RQVUIxWWxDdUE?oc=5",
+     "at": "2026-10-26T15:22Z",
      "eksik": false
     },
     {
-     "title": "Beşiktaş-Başakşehir maçının 11'leri belli oldu",
-     "source": "Dünya Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSHVxY3RLZTVvQzNjTEFkVFJmREFBQV8wbUV3X2JCYUhtMk0yMlJsVHNoVExPX0lzQS1fcEx2SFFUOGh5SDNaZk4tS09BVEtoQjZFeGZYTThLTnlEM2NleVl4OHROU1BXZ3gtMkJrY2hfb3lCUHdGOGFtaEd2RktzSlpFN2FTS1ZlSUo2UVg3MA?oc=5",
-     "at": "2026-10-26T15:06Z",
+     "title": "Orkun Kökçü ve Miretti Başakşehir maçında neden yok, neden oynamıyor? Beşiktaş'ta iki yıldızın sakatlık durumu",
+     "source": "Türkgün",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTzhvTDRRZUZhemFoQUtIZk5xcUM0ZFdZVzc3TXAxSEFvM3dIUlRBOTY1dWh3WlJWY0NCeHpuS1FtTmhNck44T1hGckdNQjI2dTZIQndLTVVselQ4YjRKSi10ZExtenFaQmhndy1nWkVnU1hFeDFtWGdOczJCbDkweXB4RHpBR3lMLUFwVFV5UHBud1dqbDhr?oc=5",
+     "at": "2026-10-26T15:21Z",
+     "eksik": true
+    },
+    {
+     "title": "İşte Karadeniz Derbisinin İlk 11'leri",
+     "source": "Gerçek Gündem",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQlQ3S0hycFhVOWxLTllGX1hTa2pZUXQxRDU3VktFRWpzemNfRHlRUEdmcFd1TnBnLUlTbE9pT3pZUDJPcmQ4V0d6N2xrWUszQ0ZFdzNkUHYtQnFqNXVlY25VX0NQbi1LX0R2MWxUbnhoSy0wNEpXWF8tZjdaZUpSME5zMNIBiAFBVV95cUxQS1ZWeFdrV0pWM0ZwVE1FaG1oSUhTYzFYTnV3WTczdDJpanQtbEowTGFudTVjeWVQSThjWHVaMTVGUGtFYkFoM3Q2c2w2Z2ZINVlyTVF0VmgtUjNZSHpwLU9RTHFpT1ZZd2l6ZE9rZXZHTnRnazFFS2ZIcVAzMmVhRXRZdU4tcnBl?oc=5",
+     "at": "2026-10-26T15:19Z",
      "eksik": false
     },
     {
-     "title": "Rizespor-Trabzonspor ve Beşiktaş-Başakşehir İlk 11’leri Açıklandı",
-     "source": "Bölge Gündemi",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWi0taUZ2ZEZoTnp0TGgzSTdxVElpeXhaMzROdUdYQ1BZSTc0LVV3VXVZZ1VnSUhpdXdDX3R2dTV2OEl1Sk1mQ0pyYUZLRDhKdUNBSno4T0RsQy1xb1AtQ0NZQ085eTBXd1hDRGZZOXI1b2h5RFBRS1NJRHZaOFJ2YXhza3VmUHpYZmhEaFQxZU5ZQnlzTkZ6eUhDVzR2RUtpUldFOUpJYTFSMU9FdVRtRA?oc=5",
-     "at": "2026-10-26T15:06Z",
+     "title": "Beşiktaş-Başakşehir maçında ilk 11’ler belli oldu! İşte kadrolar",
+     "source": "ABC Haber",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcWk5SGhyUDFuT0xVR0dLYXVUX0o0VEVHTVY0NUZDRHZTUXhoZnk5dDNsR2N5Qm5YTXpjajY5Nm1LQTNDdElfZ29KYmg0MG1mOE1wejQ0UTk1Z251UTh1RDhmV2RmUmpUYlN4RW93dk01WmptUnd4b1dZNUN4ZGR1SW9IN2pPVFZrSjJZelQxN0Z0TXhrNUY0d19ieldJVmtpX1dB?oc=5",
+     "at": "2026-10-26T15:18Z",
      "eksik": false
     },
     {
-     "title": "Beşiktaş-Başakşehir maçında ilk 11'ler açıklandı!",
-     "source": "Manşet Haber",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcjFrR0hCWTRDZXUtbkphQlYxV3hCQXZqd1BKMFYyaXdIRjZyQ1R4ZDFEa1R0MGdRdGx2SWNGcHdtaVk2NXptMzZvaHVnQk5kWU9zTkdVbzJRU0FsUWNSdHhkN2ZkaVVtZWc5MlFnVE5lZHV0aG02TlV0TmtTbjVTS3A2bw?oc=5",
-     "at": "2026-10-26T15:03Z",
-     "eksik": false
-    },
-    {
-     "title": "Beşiktaş'ın Başakşehir maçındaki ilk 11'i belli oldu. Beşiktaş'ın ilk 11'i: Nübel, Murillo, Agbadou, Emirhan, Rıdvan, Ndidi, Salih, Olaitan, Cerny, Trossard, Vlahovic. Beşiktaş'ın yedekleri: Doğan, Kartal, Djalo, Taylan, Ouattara, İlhan, Poku, Semih, Yasin, Oh. #Beşi",
-     "source": "Instagram",
-     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TR1RHT2ZGRjhCdVMwNlo1VXNVcDlieUMwZzFnVEIxQzJld2IxcDVYVUthY2FrektiOEF6Q1BtR2ZBNGRBZXJ0M0NSb2lNNHdERWc?oc=5",
-     "at": "2026-10-26T15:01Z",
+     "title": "Beşiktaş-Başakşehir Maçının İlk 11'leri Belli Oldu! İşte Sahaya Çıkacak Kadrolar",
+     "source": "Gazete Kritik",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMThYWGhKVzljbFNNYTl2VlZQODF5UnBvVXAzWHdkRnFRTWFVbjNXYW41UWFxcW90b3pqbUVwalNZTU1lcE1nSGZYdTVLVGVZNkpGZF82eWRxUS10VWNmbXZTcE5CUEd0cjUwOVpuQ2xhTUN1RFcteGJRR0VibW9WMWtuWHNlV0VUZDhuWDFtVlNsVUQxaHg3UFZjNF9Hck9YRDVEcFRwUFdFQlczelRCNEt2ZVNud0ZzZWU4?oc=5",
+     "at": "2026-10-26T15:18Z",
      "eksik": false
     }
    ],
    "ai": {
     "home": {
-     "eksikler": [],
-     "ozet": "Beşiktaş'ın Başakşehir maçı öncesinde güncel sakat veya cezalı oyuncu bilgisi bulunmamaktadır."
+     "eksikler": [
+      {
+       "oyuncu": "Orkun Kökçü",
+       "neden": "sakat",
+       "onem": "kilit"
+      },
+      {
+       "oyuncu": "Miretti",
+       "neden": "sakat",
+       "onem": "kilit"
+      }
+     ],
+     "ozet": "Beşiktaş'ta önemli yıldızlar Orkun Kökçü ve Miretti sakatlıkları nedeniyle Başakşehir maçında forma giyemiyor."
     },
     "away": {
      "eksikler": [],
-     "ozet": "Rams Başakşehir'in bu maç öncesinde bildirilen önemli bir eksik oyuncusu bulunmuyor."
+     "ozet": "Başakşehir'in bu maç öncesinde bildirilen önemli bir eksik oyuncusu bulunmuyor."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-10-26T15:11Z",
-    "hash": "17604a088961"
+    "at": "2026-10-26T15:40Z",
+    "hash": "659fbaded83e"
    }
   },
   "T1|2026-10-26|Galatasaray|Fenerbahce": {
-   "fetched_at": "2026-10-26T15:11Z",
+   "fetched_at": "2026-10-26T15:40Z",
    "kickoff": "2026-10-26T18:30Z",
    "home": [
     {
-     "title": "Galatasaray-Fenerbahçe İlk 11'leri Belli Oldu mu?",
-     "source": "Sabır Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZ0o2MS0xSmxQOGVoYk96eGRIYWx6VjhiejFRLWcxYS0zN0RVZnJ0QVppSWZNRHlxUlFBYktLQjZpQm1iSlJjLXpqZ2hKX0N0clRMb29aNEpGQXlNUS10amxMaWdPc2N2Q3hLcW1hY2c5NTNvQUFfdEhncnlGcTdVU2NUSQ?oc=5",
-     "at": "2026-10-26T15:01Z",
+     "title": "Galatasaray-Fenerbahçe maçında Galatasaray'ın istediğim ilk 11'i",
+     "source": "Sporx.com",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTmNlSTZ0Vmlab2xxWDFVV3h2VkxLV3pJbmlybnpaR0Z6cVA4dkhyUkxCdnBiVWN0bUdIaXRjak50bGlmMTh0T19oaGJRRjM4QW45UUdqUXo3cUZvZmRpLUtRY2JaNzcxOWUzbzJVOTBSNGNDUmJxd3NqM3NQZkFPU0lnY0ZybVM2NFBsVEJROFZnMWlJMWh4dDhCMEplV2gxNWlTR1puenc?oc=5",
+     "at": "2026-10-26T15:38Z",
      "eksik": false
     },
     {
-     "title": "Galatasaray-Fenerbahçe maçı ne zaman, saat kaçta, hangi kanalda? İşte muhtemel 11'ler!",
-     "source": "İnternet Haber",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMzhuSVFQY2lWOWpTZjRVMUtNeUhFRGVDc1l0TDV2WmNGX2M0SENwbUw2V1BENVktcXZPYVc4b21CX19jdXQzLTFkbjh0eklMcFpxRm9sbUhXMEVTUFU3T2xTUlRiMnYyai1aNWRTdmZMWU85S0VxUXdGNXFiX0RKU20zU0RhRVhTdDcwaW5iekRSd290YzRnM3pwV2VWckc2TzRWVktmWU1tZzNYV20zZmNySm1Xa2FjZ1YyMFF3THp3Sk9mN3JVUnBmaWttRG1vOXJF?oc=5",
-     "at": "2026-10-26T14:38Z",
+     "title": "Kerem Aktürkoğlu Galatasaray derbisinde ilk 11'de oynayacak mı?",
+     "source": "Afyon Ana Haber",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdm93S05UVHowa2ZIQ0NpZm5pYU9wYjUyeWt1ZWNCTnZDWFdGME9Sek1jYTZYZXNJQlZMRVlCcVg0R2U0TG5NQUl2QjdaS3FHQ1hDNkdPZF9CMkVkQkJfQ2Y0OHBoRzV2REQ1cHVmZ3lGajJUQTJNcW45LVdGUzVJVmx3c3N6ZHdiWFpscDZHRlNVTUN1Y0xhNEZZZVlJYWhHWWxNOF80dFQ5QQ?oc=5",
+     "at": "2026-10-26T15:22Z",
      "eksik": false
     },
     {
-     "title": "Galatasaray-Fenerbahçe maçında Kerem Aktürkoğlu ilk 11'de mi?",
-     "source": "Alanya Postası",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQV96cTI2d1FzSDNNUml1Qm8tVUZuZUV2STZkY3VOSTktbUhTb1Y2eDROcUFoaGJNeDM5QTBENVZtZUY5bkxRREx0VlQ1MlVQQkVJbkcyWVZLVGoyNWt1Qm1KTkE3LVY4UUxLNWJ5YVhRdUNjU3lTOElYRVYwZ1Y2UXh2NnR0T0pjWUI3VnpaU1BOMEd6X2Jz?oc=5",
-     "at": "2026-10-26T14:25Z",
+     "title": "Galatasaray Fenerbahçe muhtemel 11'ler: Osimhen ve Lukaku oynayacak mı?",
+     "source": "Referans Gazetesi",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNElNbGstTFhEdGwxSHBPZl9MYl8wZUpIQWh1VnVBc3ZPVUxrRE5Mc2VOdnFqQ3hsVXFSbmhxWW00emxJWklmUDE2RnlQY0dUaHpITGZnZndkOWVJVWJFV0lkaXFlUGR6Mzd5Z0VNM1M5WVdlN0FFVUo1b0NEbExfd0JGdmhmbmRCaExLU3NVdklQa2NxMUdLc1l1ekpOUjJLdUVPLW9NOA?oc=5",
+     "at": "2026-10-26T15:21Z",
      "eksik": false
     },
     {
-     "title": "642,7 milyon Euro'luk derbi!",
-     "source": "Konya Hakimiyet Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ackptQjlSQUhTMGFPek5TcDY5WE5qdEY3Nkhub0E2M0FMYzhUMkQyUy1VZndIUnUtTy1McGV0OGtBR2xkUUIxSkR1SUVuYl9RRV9vOVRpSUN4dm8xbXo3N3Nlbm9KcUdyUXl6ejdR?oc=5",
-     "at": "2026-10-26T14:10Z",
+     "title": "Galatasaray -Fenerbahçe derbisi saat kaçta? İlk 11'ler belli oldu mu?",
+     "source": "Ülke TV",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaUkwNEMzeHV0WFd4cE5ocTVsU2FKV0hPZmZJdjJaZG1VWWhKOGxPQ09BNVF3WWxhb1o1clowQllvb2RkcG9kY0J5LXVsZnR1cTNnMzBxNHdJR2hsRHMwWHVqUi1hTnZWWl9URzdDWDRjQmdsaG9YalNwaG85dFlFV2d0RDRicWtFWVBZc3gybFp6Z9IBlwFBVV95cUxQcW9Gd3Z0cTlUMlptZVVmSWV2a25iaEE5WWpTTHVoZ1JHVmktU3ZMZWZsZ05ZWE5BbWJFQjRSZkFjSm03QUFMeGk5NUpnb0hzQnhKZ1dSeHgxMTd0eG95d0NHSFM5X0JFMGZ6cU9vY3VCTGktTUNneVVFOEZCU3BRYmk2c0hMRWVKOWxuZFhhdmZRRlFaMk1R?oc=5",
+     "at": "2026-10-26T15:20Z",
      "eksik": false
     },
     {
-     "title": "Galatasaray ile Fenerbahçe'nin toplam kadro değeri 642,7 milyon euro: En pahalı oyuncu..",
-     "source": "Korkusuz Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSTVuemxSVDBMYzc4ZTgxZUhOYndKaE1faWxQaXRRaVhQakpwVE1VcjJSUFhRUWRsa091Q0dlODJpT2VFcEhQQktKdXhXRGlfSnJRc09oaVlVWUJoTFdPZ2hKQmhWMUdBNFNnc201Z3JvX0ZmQS1fWXFHeWI1eDNzRDdHNE9CTkFpcHNZR09uT3JJT3NqZk5hc0V5a1Q2cWg5TWxTLTR2Yk9zZTgzZU1WYXMxRlFnQmhwZUE?oc=5",
-     "at": "2026-10-26T13:38Z",
+     "title": "GALATASARAY FENERBAHÇE MAÇI İLK 11'LER: Galatasaray Fenerbahçe maçı muhtemel 11’ler belli oldu mu, GS FB maç kadrosunda kimler eksik?",
+     "source": "Afyon Ana Haber",
+     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNWUYwYmlNZzNKR2pDV0pEWXRxQTVWMTBreWpZdV9tVW9UdUIzUzY1RHp5RDdFYU5qNmk3c2s4akNKYktIR1ZOY1Y4WkNaWnFjbEVTRUJYRWZuUW10OUdadm9MYjNzaTlXakRYQ0JWeFFfVFFON1pRQWxlMzdEdWhwcXdPNS1tb091R2tBS2IxRVdYSzVHVjNJOXY3V29IbGdvRWlzTUs4bkFZZ2ZRUUxxNHRfVHRRNnM5LTJRZ3MxLXdobndGSFBxc0ZIY2JWaHhsTTM2eGJJcjBVZmdMUW5vUGdiaThaNWU2RkFSU0h3NkdJWkp6OVU0WEI0QXQ3cm9DT0hB?oc=5",
+     "at": "2026-10-26T15:12Z",
      "eksik": false
     }
    ],
    "away": [
     {
-     "title": "Galatasaray-Fenerbahçe İlk 11'leri Belli Oldu mu?",
-     "source": "Sabır Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZ0o2MS0xSmxQOGVoYk96eGRIYWx6VjhiejFRLWcxYS0zN0RVZnJ0QVppSWZNRHlxUlFBYktLQjZpQm1iSlJjLXpqZ2hKX0N0clRMb29aNEpGQXlNUS10amxMaWdPc2N2Q3hLcW1hY2c5NTNvQUFfdEhncnlGcTdVU2NUSQ?oc=5",
-     "at": "2026-10-26T15:01Z",
+     "title": "Fenerbahçe Galatasaray’a karşı ilk 11",
+     "source": "Sporx.com",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcHFSX1gtdk11QXlabXE1WjVMSkpkSlNtS2tkOXVBS2Y5Um9EcC1nZDgyR2hpNUx5bkpaY2hrYXYzaGpFRGNxR2hlTVpFd20yenhJZEU3SDZSUEhzYWtXZUFyQ3JvaVNDU2xNVms1YzR0R1BYbURabmNoS2trSzBKbXZ5U2pRZw?oc=5",
+     "at": "2026-10-26T15:38Z",
      "eksik": false
     },
     {
-     "title": "Galatasaray-Fenerbahçe maçında Kerem Aktürkoğlu ilk 11'de mi?",
-     "source": "Alanya Postası",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQV96cTI2d1FzSDNNUml1Qm8tVUZuZUV2STZkY3VOSTktbUhTb1Y2eDROcUFoaGJNeDM5QTBENVZtZUY5bkxRREx0VlQ1MlVQQkVJbkcyWVZLVGoyNWt1Qm1KTkE3LVY4UUxLNWJ5YVhRdUNjU3lTOElYRVYwZ1Y2UXh2NnR0T0pjWUI3VnpaU1BOMEd6X2Jz?oc=5",
-     "at": "2026-10-26T14:25Z",
+     "title": "Galatasaray Fenerbahçe muhtemel 11'ler: Osimhen ve Lukaku oynayacak mı?",
+     "source": "Referans Gazetesi",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNElNbGstTFhEdGwxSHBPZl9MYl8wZUpIQWh1VnVBc3ZPVUxrRE5Mc2VOdnFqQ3hsVXFSbmhxWW00emxJWklmUDE2RnlQY0dUaHpITGZnZndkOWVJVWJFV0lkaXFlUGR6Mzd5Z0VNM1M5WVdlN0FFVUo1b0NEbExfd0JGdmhmbmRCaExLU3NVdklQa2NxMUdLc1l1ekpOUjJLdUVPLW9NOA?oc=5",
+     "at": "2026-10-26T15:21Z",
      "eksik": false
     },
     {
-     "title": "Galatasaray ile Fenerbahçe'nin toplam kadro değeri 642,7 milyon euro: En pahalı oyuncu..",
-     "source": "Korkusuz Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSTVuemxSVDBMYzc4ZTgxZUhOYndKaE1faWxQaXRRaVhQakpwVE1VcjJSUFhRUWRsa091Q0dlODJpT2VFcEhQQktKdXhXRGlfSnJRc09oaVlVWUJoTFdPZ2hKQmhWMUdBNFNnc201Z3JvX0ZmQS1fWXFHeWI1eDNzRDdHNE9CTkFpcHNZR09uT3JJT3NqZk5hc0V5a1Q2cWg5TWxTLTR2Yk9zZTgzZU1WYXMxRlFnQmhwZUE?oc=5",
-     "at": "2026-10-26T13:38Z",
+     "title": "Galatasaray -Fenerbahçe derbisi saat kaçta? İlk 11'ler belli oldu mu?",
+     "source": "Ülke TV",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaUkwNEMzeHV0WFd4cE5ocTVsU2FKV0hPZmZJdjJaZG1VWWhKOGxPQ09BNVF3WWxhb1o1clowQllvb2RkcG9kY0J5LXVsZnR1cTNnMzBxNHdJR2hsRHMwWHVqUi1hTnZWWl9URzdDWDRjQmdsaG9YalNwaG85dFlFV2d0RDRicWtFWVBZc3gybFp6Z9IBlwFBVV95cUxQcW9Gd3Z0cTlUMlptZVVmSWV2a25iaEE5WWpTTHVoZ1JHVmktU3ZMZWZsZ05ZWE5BbWJFQjRSZkFjSm03QUFMeGk5NUpnb0hzQnhKZ1dSeHgxMTd0eG95d0NHSFM5X0JFMGZ6cU9vY3VCTGktTUNneVVFOEZCU3BRYmk2c0hMRWVKOWxuZFhhdmZRRlFaMk1R?oc=5",
+     "at": "2026-10-26T15:20Z",
      "eksik": false
     },
     {
-     "title": "RAMS Park’ta büyük kapışma! İlk 11'ler belli oldu",
-     "source": "Bursa Hayat Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQUN0MkhHZ2plLWZWNE5CTVZsUkNZa3JmeGRqcTBvSkkxcldHTEptT1Y5NVNVNlhQS0t3MkJGNmI1bFkweFZkYkhkRW9QV2VHbjlhN2RDdnUtcWZBbkoxa2xKaEUwaTkzV0o2eFZNcHM5Ni1ONXpSbm9xeWdBY0lmdkNnZWlvdVBxM3pYUlNDUmtjNnlC?oc=5",
-     "at": "2026-10-26T13:13Z",
+     "title": "GALATASARAY FENERBAHÇE MAÇI İLK 11'LER: Galatasaray Fenerbahçe maçı muhtemel 11’ler belli oldu mu, GS FB maç kadrosunda kimler eksik?",
+     "source": "Afyon Ana Haber",
+     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNWUYwYmlNZzNKR2pDV0pEWXRxQTVWMTBreWpZdV9tVW9UdUIzUzY1RHp5RDdFYU5qNmk3c2s4akNKYktIR1ZOY1Y4WkNaWnFjbEVTRUJYRWZuUW10OUdadm9MYjNzaTlXakRYQ0JWeFFfVFFON1pRQWxlMzdEdWhwcXdPNS1tb091R2tBS2IxRVdYSzVHVjNJOXY3V29IbGdvRWlzTUs4bkFZZ2ZRUUxxNHRfVHRRNnM5LTJRZ3MxLXdobndGSFBxc0ZIY2JWaHhsTTM2eGJJcjBVZmdMUW5vUGdiaThaNWU2RkFSU0h3NkdJWkp6OVU0WEI0QXQ3cm9DT0hB?oc=5",
+     "at": "2026-10-26T15:12Z",
      "eksik": false
     },
     {
-     "title": "GALATASARAY - FENERBAHÇE DERBİ MAÇ KADROSU | GS-FB maç kadrosunda kimler var, hangi futbolcular ilk 11'de oynayacak? Derbi maçında eksikler!",
-     "source": "CNN Türk",
-     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPRzhUQWt5eG5US3R5eWduODUxWm9lTVJtZWV6c2V3b2Z0OHFhdm1SZ2ZvSExkNmNkcTVIS3JBYUFuUUtXby1nSlkzZl9oRGdGUWFvend1MFYteE9NUjdyRnU0QXJuMWpNQUtUYmt0SGZpUEZfRmllN05ENVpHNDlsQmxuZmFDQUM1a2JfdFg3azNDUERpYUNoQnVZN0NNTDczbHlObmw1WTYxRHNjUHE1QnFBN09oZmdsWTlMck8taXg1Wk15UGFESk8zSGw4Z3ZFM0M4NG5sWlFxS2dzTW5kaTBXWmIyRnVtSllnQW1HZFZ2WW1JTTZ2YkJzNDUxaGlwM3BoYXZDNA?oc=5",
-     "at": "2026-10-26T13:00Z",
+     "title": "Dev derbi öncesi geri sayım! Galatasaray - Fenerbahçe maçı saat kaçta başlayacak, hangi kanalda?",
+     "source": "Sabah",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONEFLR1dWcDhES2NxT3NraGtXMHVmaTA2WDlrSVUtSm90TUhfYnRBbEduaENvNmwxVnZublE2QWdHWk4tU3dISTRpc0ZrQTE5ckJOcExtVWxHVUc4X21iS0d2dUlleURhc0tEOEFYUHByUnN0UEFKSGhGTEZuXzlvVGJ1ZXFBYXZaNVpxWFRYMnNzQm9sZk5NRDhMMHFjYkFOeVlidEVWSExVLVh1TlFlMTZ1SFltOVJuZ2FtUFU3T0xNTGw2MFg4YTdCQXE?oc=5",
+     "at": "2026-10-26T15:05Z",
      "eksik": false
     }
    ],
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Galatasaray'da maça saatler kala bildirilen önemli bir sakat veya cezalı oyuncu bulunmuyor, tam kadro sahaya çıkması bekleniyor."
+     "ozet": "Galatasaray'da derbi öncesi resmi olarak açıklanan önemli bir eksik veya sakatlık bulunmuyor."
     },
     "away": {
      "eksikler": [],
-     "ozet": "Fenerbahçe'de derbi öncesi eksik veya sakat oyuncu rapor edilmedi, takım maça tam kadro hazırlanıyor."
+     "ozet": "Fenerbahçe'de derbi öncesi kadroda yer almayan veya durumu belirsiz olan oyuncu bildirilmedi."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-10-26T15:11Z",
-    "hash": "be165a22645b"
+    "at": "2026-10-26T15:40Z",
+    "hash": "029ee67af99a"
    }
   },
   "T1|2026-10-26|Rizespor|Trabzonspor": {
-   "fetched_at": "2026-10-26T15:11Z",
+   "fetched_at": "2026-10-26T15:40Z",
    "kickoff": "2026-10-26T16:00Z",
    "home": [
     {
-     "title": "CANLI ANLATIM: Çaykur Rizespor - Trabzonspor | Trendyol Süper Lig 9. hafta mücadelesi",
-     "source": "Cumhuriyet",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLXcxNW5kVGNuNGxVMTFyeDAyNzVJYzJud0ZQNjZIMFNTcFBoNkpzVUpZdDZSN0VfWjRNbzNsYkEweVJFdEUtWWstSXdaTWVMeTBZMHVaT0pWQVlTSTM0d1VCX1pZRDh0N2xRM2N3cS15QmZ2MkdWdHp1Nm1BdHl2QWZ2MlFjWTRaYmVFaldvZU0tZnpHV3ZXaWRtUE9JMmdSWmcwREZvMV9rQWhPcHJ0elIzTVQ4U0t2amdubll2Yw?oc=5",
-     "at": "2026-10-26T15:06Z",
-     "eksik": false
-    },
-    {
-     "title": "Rizespor-Trabzonspor ve Beşiktaş-Başakşehir İlk 11’leri Açıklandı",
-     "source": "Bölge Gündemi",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWi0taUZ2ZEZoTnp0TGgzSTdxVElpeXhaMzROdUdYQ1BZSTc0LVV3VXVZZ1VnSUhpdXdDX3R2dTV2OEl1Sk1mQ0pyYUZLRDhKdUNBSno4T0RsQy1xb1AtQ0NZQ085eTBXd1hDRGZZOXI1b2h5RFBRS1NJRHZaOFJ2YXhza3VmUHpYZmhEaFQxZU5ZQnlzTkZ6eUhDVzR2RUtpUldFOUpJYTFSMU9FdVRtRA?oc=5",
-     "at": "2026-10-26T15:06Z",
-     "eksik": false
-    },
-    {
-     "title": "Trabzonspor 49. Randevuda Sahne Alıyor! Rizespor'a Karşı İşte O 11",
-     "source": "Taka Gazete",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYTBTWG9FeUFyRy1SY3pCdG1BSTFyNHNhd1VKeEgtMGxqQ2NUZ2NQMjVvX0hncGU2N0IxWFFoMDU3aFVobUFHOVVEN29YNGlVcXZGWEdsc3F3a1R0aW80M3Z1QWJoUUZ5R3ZVS21kZjdVQ0FmMUhSTmRxNjFWOU84RmV6cHBwaHlRMW1CZFlSemVYYU01bHNjUg?oc=5",
-     "at": "2026-10-26T15:02Z",
-     "eksik": false
-    },
-    {
-     "title": "Rizespor - Trabzonspor maçının ilk 11'leri",
-     "source": "Ensonhaber",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONVg5T1hxeWpQTnNFU1llNFlUcFhxTDU1bUsxbmNHc2NreEhUdE42REZWeDlLSmVNbmdLd2RBYUcxZFVfOU51Rkhnd0U5RHc0LVF5SU5xcUpicXJZR054U3FRZDFyVlVES2g3SmN1dnBMN0lDT3JUNnRLa1Z3LW9pUkJyeDByY1Y2?oc=5",
-     "at": "2026-10-26T15:00Z",
-     "eksik": false
-    },
-    {
-     "title": "Trabzonspor'un Çaykur Rizespor karşısındaki ilk 11'i belli oldu!",
+     "title": "Trabzonspor'da Thomas Reis'ten Rizespor uyarısı! \"Bu durum onları tehlikeli yapıyor\"",
      "source": "Haber61",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ2FJRWN4VWlJelF3MWlxTXRkTjZBY2NwX1hUYkc2bjNZd1FuaWlPRDRFdWJJbEhEOXZ0X3dOU0g5UG41YVBfVVRqZTBjOGFkdzllVnlGeW5FNERaTDRXX0ZRVVpFWWFDdmdjZUdaY3pLeUprMVdDTzRHM0lXaHZaV2tsUWh3NFUzcEdpbV8yMVpmbGgzQ2VaWHRSeVUwLUR0SU1PSUNRQzJ0UQ?oc=5",
-     "at": "2026-10-26T14:54Z",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUE1HbFhNVllHY1UycWhZV1VIWGdHZUlfMVJoOUtGSGQ2TEZQWGdsSzB2SzV1NUQxclRUMk5memcwVzRBMDI1bER4RVlzbkR0dl9QV083VXpxeWZxZENHa21Nbm1uOHA3ODJTeHRiTHI1M2RhUFJMSDJxdVQ4dUxWZG95d1FnMTlDSFR0N1pMQWZhUWZfUVlhZmR1a3dJUW9yOU12ZE1ZLUpJMklrVTg5RWdXNFdzaWxYRmhTaUJVbWI5Zw?oc=5",
+     "at": "2026-10-26T15:33Z",
+     "eksik": false
+    },
+    {
+     "title": "Thomas Reis ilk 11 tercihinin nedenini açıkladı! “Ağır bir süreçten geçiyoruz…”",
+     "source": "61SAAT",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaW1peTVaSHhUTkhKbnc5NU5kM2hmMDhOdmhvZUsyQnkwOTRhcW5TUzVwbmwyRGVPdVhWd1FPSnFRWVE0VUprdVhWbEpwTk9kbms3TXpybENGNVRVMjJ2ZEljZ2duelgxaWdjaFQtSDR1dHdGMFJpSmhoZ05LaGdqbmxCY2gzeWxwWmYzSmxCZUZtMlUyWjVMdmxfbVhyZmM?oc=5",
+     "at": "2026-10-26T15:29Z",
+     "eksik": false
+    },
+    {
+     "title": "Çaykur Rizespor-Trabzonspor derbisinde İlk 11'ler Belli Oldu",
+     "source": "Rizedeyiz",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTVVqb2hTUEV1ZTgxakdvMEN2LWMyZE5CUkJsbUR2U3FUTEZ4ZGZ4cHVNYWhVeVc1MHZMRU5FZ0tFMGMwUnNBM0NPSktyX1JvaEd6dlVBeDlBcjdkTlc3X1d2OTNBa2ctRFBuTV83T3J3ZGw0X3VpSF96Y3Y0WEVLaE1pSFlCT1BYbHpGaDFB?oc=5",
+     "at": "2026-10-26T15:26Z",
+     "eksik": false
+    },
+    {
+     "title": "Kadro bazında taktik savaşlar kızıştı! Karadeniz derbisinde iki teknik adamdan ezber bozan ilk 11 hamlesi!",
+     "source": "Yeni Akit Gazetesi",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPU2JMc09aaERMYkotTy1OYU9MNnNWS0ZMekJQUzg4LVc0TXpvWTdvcTlfTnVIdzVrV0pDNUJpWjZvZWN1OUZJOTVYU2RURWE5emxSSnU2REs2SlNxdzZxN1hZVDJkajhLSnBUN2djamNhZHpMYzByN1lIV3BCcUtkX0ZzSFpjVnpYUlFjdnB4Vl9iaTE5cDdyMHJZNloxQldMVnJkSGFmckk5cUhLSzhsVTdXbUV2Ui1iZDNheXFtWkl2NFpfWk96S1JSYTdHeEpIQ0E4ekZrSTZ0OExBNlpNSDVLQzZTd9IB4gFBVV95cUxNbG4wcktVT1BGQlNvNWU4Szh0MGh0ejdlSnZEc0s0aHBMX2Nad3JxOW5oYWpWZWVSRUFaZmlBbTVMcTdJaloyVG9ndGxDV05DQXhpdDdGb2NBQ3U0RjNJWjhWeDItNWVjTy1Vb3hUUjQ4SUdCSG5hcnpVcXFTSElFbUpwM044aXB6ejE0MTRJLS02aU1HTDVpbTMzaGt4S0Fya1hwdGx2TlNyTldVdm4wQlNZOGt0YTdJampFbGp3VW41OWpMUnVycDBMSzBHVkVVMjdOS0RBOXRFRW5Ic0lZa3BB?oc=5",
+     "at": "2026-10-26T15:25Z",
+     "eksik": false
+    },
+    {
+     "title": "Süper Lig 9'uncu hafta maçı: Çaykur Rizespor-Trabzonspor maçının ilk 11'leri belli oldu",
+     "source": "Evrensel.net",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhaakNMUWVLQk9jNGVOWFZYWVpqbTQwREl0ektOb2Z0N0dzcjJLYmpsZXBiTjljczFlQTMyak96aHdUUHB5cWstZGY1Ni1jT2xZZGp6NmxPTFBydFhVc0UzU3JJdnFuRkxhMDdWSGZEXzNLbzQyVjRIVVlGLW81dXJ1aEtPSG03LTMtY2FtYkFlbTNXVGs1Ulpqa1Eyb0tkbkJZal81dTFWcXNBYjcxUzBkWXFPN0RQVUIxWWxDdUE?oc=5",
+     "at": "2026-10-26T15:22Z",
      "eksik": false
     }
    ],
    "away": [
     {
-     "title": "Rizespor-Trabzonspor ve Beşiktaş-Başakşehir İlk 11’leri Açıklandı",
-     "source": "Bölge Gündemi",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWi0taUZ2ZEZoTnp0TGgzSTdxVElpeXhaMzROdUdYQ1BZSTc0LVV3VXVZZ1VnSUhpdXdDX3R2dTV2OEl1Sk1mQ0pyYUZLRDhKdUNBSno4T0RsQy1xb1AtQ0NZQ085eTBXd1hDRGZZOXI1b2h5RFBRS1NJRHZaOFJ2YXhza3VmUHpYZmhEaFQxZU5ZQnlzTkZ6eUhDVzR2RUtpUldFOUpJYTFSMU9FdVRtRA?oc=5",
-     "at": "2026-10-26T15:06Z",
-     "eksik": false
-    },
-    {
-     "title": "Çaykur Rizespor Trabzonspor maçı şifresiz canlı yayın izle",
-     "source": "Sporx.com",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ29ZenI5N0MyTVVCdnpWMUhpa0RZQndydzNFNnBJeVB4eU1PRlFkdmd0LTh3X1F5SEdfQTZybHZaWVJkUWdPaW1LU2wxb3pRdy1lWDZobDJ4blBKS2M3aXVHXy1NeFpnY0pYUlI4NmN2YmwxWERBMDQ3SjUtZzdnWUwwaHU5OU9CNHEtbkNoSGVRaVVhc2RvVUxrNGY?oc=5",
-     "at": "2026-10-26T15:03Z",
-     "eksik": false
-    },
-    {
-     "title": "Rizespor - Trabzonspor maçının ilk 11'leri",
-     "source": "Ensonhaber",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONVg5T1hxeWpQTnNFU1llNFlUcFhxTDU1bUsxbmNHc2NreEhUdE42REZWeDlLSmVNbmdLd2RBYUcxZFVfOU51Rkhnd0U5RHc0LVF5SU5xcUpicXJZR054U3FRZDFyVlVES2g3SmN1dnBMN0lDT3JUNnRLa1Z3LW9pUkJyeDByY1Y2?oc=5",
-     "at": "2026-10-26T15:00Z",
-     "eksik": false
-    },
-    {
-     "title": "Trabzonspor'un Çaykur Rizespor karşısındaki ilk 11'i belli oldu!",
+     "title": "Trabzonspor'da Thomas Reis'ten Rizespor uyarısı! \"Bu durum onları tehlikeli yapıyor\"",
      "source": "Haber61",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ2FJRWN4VWlJelF3MWlxTXRkTjZBY2NwX1hUYkc2bjNZd1FuaWlPRDRFdWJJbEhEOXZ0X3dOU0g5UG41YVBfVVRqZTBjOGFkdzllVnlGeW5FNERaTDRXX0ZRVVpFWWFDdmdjZUdaY3pLeUprMVdDTzRHM0lXaHZaV2tsUWh3NFUzcEdpbV8yMVpmbGgzQ2VaWHRSeVUwLUR0SU1PSUNRQzJ0UQ?oc=5",
-     "at": "2026-10-26T14:54Z",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUE1HbFhNVllHY1UycWhZV1VIWGdHZUlfMVJoOUtGSGQ2TEZQWGdsSzB2SzV1NUQxclRUMk5memcwVzRBMDI1bER4RVlzbkR0dl9QV083VXpxeWZxZENHa21Nbm1uOHA3ODJTeHRiTHI1M2RhUFJMSDJxdVQ4dUxWZG95d1FnMTlDSFR0N1pMQWZhUWZfUVlhZmR1a3dJUW9yOU12ZE1ZLUpJMklrVTg5RWdXNFdzaWxYRmhTaUJVbWI5Zw?oc=5",
+     "at": "2026-10-26T15:33Z",
      "eksik": false
     },
     {
-     "title": "Rizespor-Trabzonspor: İlk 11'ler",
-     "source": "T24",
-     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SZHQ2el9NODc1MVM4SFYyYm5yMGJDdll0NEF2VTFLQ1BhVVNueTBtNUxNNHNKSkM4SlhuWGQ0UVdTNTNBektNWTJITmZtVmNrUkFqek1WRVdHUE5scENpWVlFc0FFcnJOYlBaY0pCOA?oc=5",
-     "at": "2026-10-26T14:52Z",
+     "title": "Thomas Reis ilk 11 tercihinin nedenini açıkladı! “Ağır bir süreçten geçiyoruz…”",
+     "source": "61SAAT",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaW1peTVaSHhUTkhKbnc5NU5kM2hmMDhOdmhvZUsyQnkwOTRhcW5TUzVwbmwyRGVPdVhWd1FPSnFRWVE0VUprdVhWbEpwTk9kbms3TXpybENGNVRVMjJ2ZEljZ2duelgxaWdjaFQtSDR1dHdGMFJpSmhoZ05LaGdqbmxCY2gzeWxwWmYzSmxCZUZtMlUyWjVMdmxfbVhyZmM?oc=5",
+     "at": "2026-10-26T15:29Z",
+     "eksik": false
+    },
+    {
+     "title": "Çaykur Rizespor-Trabzonspor derbisinde İlk 11'ler Belli Oldu",
+     "source": "Rizedeyiz",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTVVqb2hTUEV1ZTgxakdvMEN2LWMyZE5CUkJsbUR2U3FUTEZ4ZGZ4cHVNYWhVeVc1MHZMRU5FZ0tFMGMwUnNBM0NPSktyX1JvaEd6dlVBeDlBcjdkTlc3X1d2OTNBa2ctRFBuTV83T3J3ZGw0X3VpSF96Y3Y0WEVLaE1pSFlCT1BYbHpGaDFB?oc=5",
+     "at": "2026-10-26T15:26Z",
+     "eksik": false
+    },
+    {
+     "title": "Kadro bazında taktik savaşlar kızıştı! Karadeniz derbisinde iki teknik adamdan ezber bozan ilk 11 hamlesi!",
+     "source": "Yeni Akit Gazetesi",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPU2JMc09aaERMYkotTy1OYU9MNnNWS0ZMekJQUzg4LVc0TXpvWTdvcTlfTnVIdzVrV0pDNUJpWjZvZWN1OUZJOTVYU2RURWE5emxSSnU2REs2SlNxdzZxN1hZVDJkajhLSnBUN2djamNhZHpMYzByN1lIV3BCcUtkX0ZzSFpjVnpYUlFjdnB4Vl9iaTE5cDdyMHJZNloxQldMVnJkSGFmckk5cUhLSzhsVTdXbUV2Ui1iZDNheXFtWkl2NFpfWk96S1JSYTdHeEpIQ0E4ekZrSTZ0OExBNlpNSDVLQzZTd9IB4gFBVV95cUxNbG4wcktVT1BGQlNvNWU4Szh0MGh0ejdlSnZEc0s0aHBMX2Nad3JxOW5oYWpWZWVSRUFaZmlBbTVMcTdJaloyVG9ndGxDV05DQXhpdDdGb2NBQ3U0RjNJWjhWeDItNWVjTy1Vb3hUUjQ4SUdCSG5hcnpVcXFTSElFbUpwM044aXB6ejE0MTRJLS02aU1HTDVpbTMzaGt4S0Fya1hwdGx2TlNyTldVdm4wQlNZOGt0YTdJampFbGp3VW41OWpMUnVycDBMSzBHVkVVMjdOS0RBOXRFRW5Ic0lZa3BB?oc=5",
+     "at": "2026-10-26T15:25Z",
+     "eksik": false
+    },
+    {
+     "title": "Süper Lig 9'uncu hafta maçı: Çaykur Rizespor-Trabzonspor maçının ilk 11'leri belli oldu",
+     "source": "Evrensel.net",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhaakNMUWVLQk9jNGVOWFZYWVpqbTQwREl0ektOb2Z0N0dzcjJLYmpsZXBiTjljczFlQTMyak96aHdUUHB5cWstZGY1Ni1jT2xZZGp6NmxPTFBydFhVc0UzU3JJdnFuRkxhMDdWSGZEXzNLbzQyVjRIVVlGLW81dXJ1aEtPSG03LTMtY2FtYkFlbTNXVGs1Ulpqa1Eyb0tkbkJZal81dTFWcXNBYjcxUzBkWXFPN0RQVUIxWWxDdUE?oc=5",
+     "at": "2026-10-26T15:22Z",
      "eksik": false
     }
    ],
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Rizespor'da maça çıkamayacak önemli bir eksik bulunmuyor."
+     "ozet": "Rizespor'da maça saatler kala açıklanan güncel raporlara göre eksik veya sakat oyuncu bulunmamaktadır."
     },
     "away": {
      "eksikler": [],
-     "ozet": "Trabzonspor tam kadro sahada yer alıyor."
+     "ozet": "Trabzonspor cephesinde bu karşılaşma öncesinde bildirilen önemli bir eksik veya sakatlık bulunmuyor."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-10-26T15:11Z",
-    "hash": "d9b347086fbd"
+    "at": "2026-10-26T15:40Z",
+    "hash": "8147f51a4dac"
    }
   }
  },
@@ -10294,12 +10949,12 @@
  },
  "coupons": [
   {
-   "id": "dusuk-202610261511",
+   "id": "dusuk-202610261540",
    "type": "dusuk",
-   "created_at": "2026-10-26T15:11Z",
+   "created_at": "2026-10-26T15:40Z",
    "status": "bekliyor",
-   "odds": 1.39,
-   "prob": 0.7068,
+   "odds": 1.38,
+   "prob": 0.7092,
    "legs": [
     {
      "league": "T1",
@@ -10308,8 +10963,8 @@
      "kickoff": "2026-10-26T16:00Z",
      "selection": "1X",
      "market": "CS",
-     "prob": 0.9102,
-     "odds": 1.08,
+     "prob": 0.9132,
+     "odds": 1.07,
      "result": "bekliyor"
     },
     {
@@ -10319,19 +10974,19 @@
      "kickoff": "2026-10-26T18:30Z",
      "selection": "1X",
      "market": "CS",
-     "prob": 0.7765,
+     "prob": 0.7766,
      "odds": 1.29,
      "result": "bekliyor"
     }
    ]
   },
   {
-   "id": "orta-202610261511",
+   "id": "orta-202610261540",
    "type": "orta",
-   "created_at": "2026-10-26T15:11Z",
+   "created_at": "2026-10-26T15:40Z",
    "status": "bekliyor",
-   "odds": 3.02,
-   "prob": 0.3115,
+   "odds": 3.06,
+   "prob": 0.3059,
    "legs": [
     {
      "league": "T1",
@@ -10340,8 +10995,8 @@
      "kickoff": "2026-10-26T16:00Z",
      "selection": "1",
      "market": "1X2",
-     "prob": 0.7505,
-     "odds": 1.36,
+     "prob": 0.7565,
+     "odds": 1.35,
      "result": "bekliyor"
     },
     {
@@ -10351,8 +11006,8 @@
      "kickoff": "2026-10-26T16:00Z",
      "selection": "Üst 2.5",
      "market": "OU",
-     "prob": 0.6385,
-     "odds": 1.54,
+     "prob": 0.6439,
+     "odds": 1.52,
      "result": "bekliyor"
     },
     {
@@ -10362,19 +11017,19 @@
      "kickoff": "2026-10-26T18:30Z",
      "selection": "Üst 2.5",
      "market": "OU",
-     "prob": 0.6501,
-     "odds": 1.44,
+     "prob": 0.628,
+     "odds": 1.49,
      "result": "bekliyor"
     }
    ]
   },
   {
-   "id": "riskli-202610261511",
+   "id": "riskli-202610261540",
    "type": "riskli",
-   "created_at": "2026-10-26T15:11Z",
+   "created_at": "2026-10-26T15:40Z",
    "status": "bekliyor",
    "odds": 3.51,
-   "prob": 0.2571,
+   "prob": 0.2576,
    "legs": [
     {
      "league": "T1",
@@ -10383,7 +11038,7 @@
      "kickoff": "2026-10-26T16:00Z",
      "selection": "2",
      "market": "1X2",
-     "prob": 0.5041,
+     "prob": 0.5052,
      "odds": 1.8,
      "result": "bekliyor"
     },
@@ -10394,11 +11049,12 @@
      "kickoff": "2026-10-26T18:30Z",
      "selection": "1",
      "market": "1X2",
-     "prob": 0.5101,
+     "prob": 0.5099,
      "odds": 1.95,
      "result": "bekliyor"
     }
    ]
   }
- ]
+ ],
+ "uyarilar": []
 }
