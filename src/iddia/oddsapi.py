@@ -8,7 +8,9 @@ oranlarını çeker ve fikstürdeki oranların yerine koyar.
 Anahtar ODDS_API_KEY ortam değişkeninden okunur; yoksa ya da istek başarısız
 olursa sistem fikstür oranlarıyla çalışmaya devam eder. Ücretsiz plan ayda 500
 kredi verir; bir lig için bir istek (1X2 + Üst/Alt, tek bölge) 2 kredidir.
-Bu yüzden yalnızca önümüzdeki iki günde maçı olan ligler istenir.
+Bu yüzden yalnızca önümüzdeki WINDOW saatte maçı olan ligler istenir: tahmin
+maçtan önceki son çalıştırmada donduğu için oran asıl o çalıştırmalarda işe yarar
+(son 5 sezonda erken oranların RPS'i 0.1939, kapanış oranlarınınki 0.1923).
 """
 import os
 import re
@@ -24,7 +26,7 @@ URL = "https://api.the-odds-api.com/v4/sports/{sport}/odds"
 ENV_KEY = "ODDS_API_KEY"
 SPORTS = {"E0": "soccer_epl", "T1": "soccer_turkey_super_league"}
 ODDS = ["odds_h", "odds_d", "odds_a", "odds_o25", "odds_u25"]
-LOOKAHEAD = timedelta(days=2)
+WINDOW = timedelta(hours=8)
 MAX_KICKOFF_GAP = timedelta(hours=3)
 
 # Normalize edilmiş ad → fikstürdeki ad (benzerliğin yetmediği adlar)
@@ -81,7 +83,7 @@ def fetch(fixtures: pd.DataFrame, now: datetime, key: str | None = None) -> pd.D
     if not key:
         print(f"{ENV_KEY} yok, canlı oranlar atlandı")
         return None
-    stamp, until = now.strftime("%Y-%m-%dT%H:%MZ"), (now + LOOKAHEAD).strftime("%Y-%m-%dT%H:%MZ")
+    stamp, until = now.strftime("%Y-%m-%dT%H:%MZ"), (now + WINDOW).strftime("%Y-%m-%dT%H:%MZ")
     soon = fixtures[(fixtures["kickoff"] > stamp) & (fixtures["kickoff"] <= until)]
     frames = []
     for league in sorted(set(soon["league"]) & SPORTS.keys()):

@@ -3,9 +3,12 @@ name: Günlük tahmin
 on:
   schedule:
     # Oranlar maça yaklaştıkça güncellenir; tahmin her maçın başlamasından önceki son çalıştırmada donar
+    # Her maç için başlamadan 1-2 saat önce bir çalıştırma olsun diye (oranlar o zaman kapanışa yakın)
     - cron: "0 5 * * *"     # 08:00 Türkiye saati
+    - cron: "0 10 * * *"    # 13:00 Türkiye saati, öğle maçlarından önce (ör. 14:30 Süper Lig, 12:30 İngiltere)
     - cron: "0 12 * * *"    # 15:00 Türkiye saati, öğleden sonra maçlarından önce
     - cron: "30 15 * * *"   # 18:30 Türkiye saati, akşam maçlarından önce
+    - cron: "0 18 * * *"    # 21:00 Türkiye saati, İngiltere hafta içi akşam maçlarından önce (19:30-20:15 UTC)
   workflow_dispatch:
 
 permissions:

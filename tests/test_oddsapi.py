@@ -66,3 +66,22 @@ def test_fetch_without_key_or_with_error_is_skipped(monkeypatch):
         raise oddsapi.requests.ConnectionError("https://api...?apiKey=gizli")
     monkeypatch.setattr(oddsapi.requests, "get", boom)
     assert oddsapi.fetch(fixtures(), NOW, key="x") is None
+
+
+def test_fetch_only_leagues_with_a_match_soon(monkeypatch):
+    asked = []
+
+    class Resp:
+        headers = {}
+        def raise_for_status(self): pass
+        def json(self): return []
+
+    def get(url, **k):
+        asked.append(url)
+        return Resp()
+    monkeypatch.setattr(oddsapi.requests, "get", get)
+    f = fixtures()
+    f.loc[f["league"] == "E0", "kickoff"] = "2026-10-26T14:00Z"   # 26 saat sonra: E0 istenmez
+    f.loc[f["league"] == "T1", "kickoff"] = "2026-10-25T17:00Z"   # 5 saat sonra
+    oddsapi.fetch(f, NOW, key="x")
+    assert asked == [oddsapi.URL.format(sport="soccer_turkey_super_league")]
