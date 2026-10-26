@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26T17:52Z",
+ "updated_at": "2026-10-26T20:40Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
@@ -7773,7 +7773,7 @@
    "date": "2026-10-26",
    "home": "Galatasaray",
    "away": "Fenerbahce",
-   "season": "2627",
+   "season": 2627,
    "kickoff": "2026-10-26T18:30Z",
    "p_h": 0.5135,
    "p_d": 0.2666,
@@ -7803,7 +7803,7 @@
    "fthg": null,
    "ftag": null,
    "ftr": null,
-   "status": "yaklasan",
+   "status": "sonuc_bekleniyor",
    "correct": null,
    "odds_pick": "H",
    "odds_correct": null,
@@ -10743,95 +10743,95 @@
    "kickoff": "2026-10-26T16:00Z"
   },
   "T1|2026-10-26|Galatasaray|Fenerbahce": {
-   "fetched_at": "2026-10-26T17:52Z",
-   "kickoff": "2026-10-26T18:30Z",
-   "home": [
-    {
-     "title": "Fenerbahçe-Galatasaray derbisinde ilk 11’ler belli oldu",
-     "source": "AjansHaber",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWtCcklNel95VHE2OW84OWxqZHVOeVdfZ0dpVnZzdk42ZlFaUFZjbFlubnFta1VjcnpNU0owV29XX0JVM2pIeTRDa0JhVjEySWNsSTJXMXdEUU1lUHY0YzJQS1U1ZkFlTzdmanYzV0tDdjNpQllBa0ExdVBTaTFlLXN5QW5Zdi1GUTlDcUtJbHM?oc=5",
-     "at": "2026-10-26T17:51Z",
-     "eksik": false
-    },
-    {
-     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu",
-     "source": "Timeturk",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMC1mVWpfVmZ0M3BrSFdHWU5OM1ZMRFZ2M19LU2xEM1pLUDlHOGlBNjRnSk9Sdzl0b2laT2dDOVVYSVNQaEp2cnZ2R0J4Wi00MFVLZjc4SXRXeUdSV1l0LTFDalRIb1FjeWZLVjhzM2p3UmVVckN4WFdXNzlqR1hUVGtWcnNPdw?oc=5",
-     "at": "2026-10-26T17:49Z",
-     "eksik": false
-    },
-    {
-     "title": "Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu",
-     "source": "Yirmidort.tv",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbm1SSXBPbnRlay0wR3FZbkZzZlBYdXpiWW1WV0hmZE9WTDVwbFFyTDB6ZXZ1bjJFNXkyeWMxdTUwTC1oQ2hLeDV3UzhGa3RhVGpac3FrSnkxWTMzaENZTkJGN25EUHIyM0tuSTQ4aDlnbThBQjFZOTBZZmtZRGFXOHdvVkpFWDNyU0FyNkRBSzUxWmhQa1hF?oc=5",
-     "at": "2026-10-26T17:47Z",
-     "eksik": false
-    },
-    {
-     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu",
-     "source": "İzmir’de Son Dakika",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNHVtb1p3NjN1VDY0VnZ4VEpoZHdLd0ZmNWJFZ3BmWUo3NlJkV3dmUTd3NGVDTjBDRHc1VGs1VDkzYWhZeVpITlpvREV2T0Y5WlZGNGVZLTZBTHl1UXhQbnpWZTNXSmNYNzNPeXEyNWx6d3o3aXlULXBVMzRlaGpjWjd1ZTN5SF9WS3R6UGZmMWN0eWs1?oc=5",
-     "at": "2026-10-26T17:46Z",
-     "eksik": false
-    },
-    {
-     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu!",
-     "source": "Nirvana Haber",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeW9XVHh4NC02bmk2UkZ5WkRiSnRVaGtWZGxEbTJBMGdLLVl5cXlCdjNxa2hqRUNVTkNGLW9uMWRkcjZsMGczeWtrMXY2YTRFWUpiSTAyY3Z1a3V4bk9OSHYybjgwMzlXOUozTnlaZ0pYWTZJV1dKUUl6NWlXeFpfM3QtbjVxVXFMZHdqYmg5aw?oc=5",
-     "at": "2026-10-26T17:45Z",
-     "eksik": false
-    }
-   ],
-   "away": [
-    {
-     "title": "Fenerbahçe-Galatasaray derbisinde ilk 11’ler belli oldu",
-     "source": "AjansHaber",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWtCcklNel95VHE2OW84OWxqZHVOeVdfZ0dpVnZzdk42ZlFaUFZjbFlubnFta1VjcnpNU0owV29XX0JVM2pIeTRDa0JhVjEySWNsSTJXMXdEUU1lUHY0YzJQS1U1ZkFlTzdmanYzV0tDdjNpQllBa0ExdVBTaTFlLXN5QW5Zdi1GUTlDcUtJbHM?oc=5",
-     "at": "2026-10-26T17:51Z",
-     "eksik": false
-    },
-    {
-     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu",
-     "source": "Timeturk",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMC1mVWpfVmZ0M3BrSFdHWU5OM1ZMRFZ2M19LU2xEM1pLUDlHOGlBNjRnSk9Sdzl0b2laT2dDOVVYSVNQaEp2cnZ2R0J4Wi00MFVLZjc4SXRXeUdSV1l0LTFDalRIb1FjeWZLVjhzM2p3UmVVckN4WFdXNzlqR1hUVGtWcnNPdw?oc=5",
-     "at": "2026-10-26T17:49Z",
-     "eksik": false
-    },
-    {
-     "title": "Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu",
-     "source": "Yirmidort.tv",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbm1SSXBPbnRlay0wR3FZbkZzZlBYdXpiWW1WV0hmZE9WTDVwbFFyTDB6ZXZ1bjJFNXkyeWMxdTUwTC1oQ2hLeDV3UzhGa3RhVGpac3FrSnkxWTMzaENZTkJGN25EUHIyM0tuSTQ4aDlnbThBQjFZOTBZZmtZRGFXOHdvVkpFWDNyU0FyNkRBSzUxWmhQa1hF?oc=5",
-     "at": "2026-10-26T17:47Z",
-     "eksik": false
-    },
-    {
-     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu",
-     "source": "İzmir’de Son Dakika",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNHVtb1p3NjN1VDY0VnZ4VEpoZHdLd0ZmNWJFZ3BmWUo3NlJkV3dmUTd3NGVDTjBDRHc1VGs1VDkzYWhZeVpITlpvREV2T0Y5WlZGNGVZLTZBTHl1UXhQbnpWZTNXSmNYNzNPeXEyNWx6d3o3aXlULXBVMzRlaGpjWjd1ZTN5SF9WS3R6UGZmMWN0eWs1?oc=5",
-     "at": "2026-10-26T17:46Z",
-     "eksik": false
-    },
-    {
-     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu!",
-     "source": "Nirvana Haber",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeW9XVHh4NC02bmk2UkZ5WkRiSnRVaGtWZGxEbTJBMGdLLVl5cXlCdjNxa2hqRUNVTkNGLW9uMWRkcjZsMGczeWtrMXY2YTRFWUpiSTAyY3Z1a3V4bk9OSHYybjgwMzlXOUozTnlaZ0pYWTZJV1dKUUl6NWlXeFpfM3QtbjVxVXFMZHdqYmg5aw?oc=5",
-     "at": "2026-10-26T17:45Z",
-     "eksik": false
-    }
-   ],
    "ai": {
-    "home": {
-     "eksikler": [],
-     "ozet": "Bugünkü Galatasaray - Fenerbahçe derbisi öncesinde Galatasaray takımında forma giyemeyecek veya durumu belirsiz önemli bir eksik bulunmamaktadır."
-    },
+    "at": "2026-10-26T17:52Z",
     "away": {
      "eksikler": [],
      "ozet": "Fenerbahçe cephesinde de bu karşılaşma öncesinde bildirilen önemli bir sakat veya cezalı oyuncu yer almamaktadır."
     },
-    "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-10-26T17:52Z",
-    "hash": "ed6b0f137cfa"
-   }
+    "hash": "ed6b0f137cfa",
+    "home": {
+     "eksikler": [],
+     "ozet": "Bugünkü Galatasaray - Fenerbahçe derbisi öncesinde Galatasaray takımında forma giyemeyecek veya durumu belirsiz önemli bir eksik bulunmamaktadır."
+    },
+    "model": "gemini-3.5-flash-lite (aramasız)"
+   },
+   "away": [
+    {
+     "at": "2026-10-26T17:51Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWtCcklNel95VHE2OW84OWxqZHVOeVdfZ0dpVnZzdk42ZlFaUFZjbFlubnFta1VjcnpNU0owV29XX0JVM2pIeTRDa0JhVjEySWNsSTJXMXdEUU1lUHY0YzJQS1U1ZkFlTzdmanYzV0tDdjNpQllBa0ExdVBTaTFlLXN5QW5Zdi1GUTlDcUtJbHM?oc=5",
+     "source": "AjansHaber",
+     "title": "Fenerbahçe-Galatasaray derbisinde ilk 11’ler belli oldu"
+    },
+    {
+     "at": "2026-10-26T17:49Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMC1mVWpfVmZ0M3BrSFdHWU5OM1ZMRFZ2M19LU2xEM1pLUDlHOGlBNjRnSk9Sdzl0b2laT2dDOVVYSVNQaEp2cnZ2R0J4Wi00MFVLZjc4SXRXeUdSV1l0LTFDalRIb1FjeWZLVjhzM2p3UmVVckN4WFdXNzlqR1hUVGtWcnNPdw?oc=5",
+     "source": "Timeturk",
+     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu"
+    },
+    {
+     "at": "2026-10-26T17:47Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbm1SSXBPbnRlay0wR3FZbkZzZlBYdXpiWW1WV0hmZE9WTDVwbFFyTDB6ZXZ1bjJFNXkyeWMxdTUwTC1oQ2hLeDV3UzhGa3RhVGpac3FrSnkxWTMzaENZTkJGN25EUHIyM0tuSTQ4aDlnbThBQjFZOTBZZmtZRGFXOHdvVkpFWDNyU0FyNkRBSzUxWmhQa1hF?oc=5",
+     "source": "Yirmidort.tv",
+     "title": "Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu"
+    },
+    {
+     "at": "2026-10-26T17:46Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNHVtb1p3NjN1VDY0VnZ4VEpoZHdLd0ZmNWJFZ3BmWUo3NlJkV3dmUTd3NGVDTjBDRHc1VGs1VDkzYWhZeVpITlpvREV2T0Y5WlZGNGVZLTZBTHl1UXhQbnpWZTNXSmNYNzNPeXEyNWx6d3o3aXlULXBVMzRlaGpjWjd1ZTN5SF9WS3R6UGZmMWN0eWs1?oc=5",
+     "source": "İzmir’de Son Dakika",
+     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu"
+    },
+    {
+     "at": "2026-10-26T17:45Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeW9XVHh4NC02bmk2UkZ5WkRiSnRVaGtWZGxEbTJBMGdLLVl5cXlCdjNxa2hqRUNVTkNGLW9uMWRkcjZsMGczeWtrMXY2YTRFWUpiSTAyY3Z1a3V4bk9OSHYybjgwMzlXOUozTnlaZ0pYWTZJV1dKUUl6NWlXeFpfM3QtbjVxVXFMZHdqYmg5aw?oc=5",
+     "source": "Nirvana Haber",
+     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu!"
+    }
+   ],
+   "fetched_at": "2026-10-26T17:52Z",
+   "home": [
+    {
+     "at": "2026-10-26T17:51Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWtCcklNel95VHE2OW84OWxqZHVOeVdfZ0dpVnZzdk42ZlFaUFZjbFlubnFta1VjcnpNU0owV29XX0JVM2pIeTRDa0JhVjEySWNsSTJXMXdEUU1lUHY0YzJQS1U1ZkFlTzdmanYzV0tDdjNpQllBa0ExdVBTaTFlLXN5QW5Zdi1GUTlDcUtJbHM?oc=5",
+     "source": "AjansHaber",
+     "title": "Fenerbahçe-Galatasaray derbisinde ilk 11’ler belli oldu"
+    },
+    {
+     "at": "2026-10-26T17:49Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMC1mVWpfVmZ0M3BrSFdHWU5OM1ZMRFZ2M19LU2xEM1pLUDlHOGlBNjRnSk9Sdzl0b2laT2dDOVVYSVNQaEp2cnZ2R0J4Wi00MFVLZjc4SXRXeUdSV1l0LTFDalRIb1FjeWZLVjhzM2p3UmVVckN4WFdXNzlqR1hUVGtWcnNPdw?oc=5",
+     "source": "Timeturk",
+     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu"
+    },
+    {
+     "at": "2026-10-26T17:47Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbm1SSXBPbnRlay0wR3FZbkZzZlBYdXpiWW1WV0hmZE9WTDVwbFFyTDB6ZXZ1bjJFNXkyeWMxdTUwTC1oQ2hLeDV3UzhGa3RhVGpac3FrSnkxWTMzaENZTkJGN25EUHIyM0tuSTQ4aDlnbThBQjFZOTBZZmtZRGFXOHdvVkpFWDNyU0FyNkRBSzUxWmhQa1hF?oc=5",
+     "source": "Yirmidort.tv",
+     "title": "Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu"
+    },
+    {
+     "at": "2026-10-26T17:46Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNHVtb1p3NjN1VDY0VnZ4VEpoZHdLd0ZmNWJFZ3BmWUo3NlJkV3dmUTd3NGVDTjBDRHc1VGs1VDkzYWhZeVpITlpvREV2T0Y5WlZGNGVZLTZBTHl1UXhQbnpWZTNXSmNYNzNPeXEyNWx6d3o3aXlULXBVMzRlaGpjWjd1ZTN5SF9WS3R6UGZmMWN0eWs1?oc=5",
+     "source": "İzmir’de Son Dakika",
+     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu"
+    },
+    {
+     "at": "2026-10-26T17:45Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeW9XVHh4NC02bmk2UkZ5WkRiSnRVaGtWZGxEbTJBMGdLLVl5cXlCdjNxa2hqRUNVTkNGLW9uMWRkcjZsMGczeWtrMXY2YTRFWUpiSTAyY3Z1a3V4bk9OSHYybjgwMzlXOUozTnlaZ0pYWTZJV1dKUUl6NWlXeFpfM3QtbjVxVXFMZHdqYmg5aw?oc=5",
+     "source": "Nirvana Haber",
+     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu!"
+    }
+   ],
+   "kickoff": "2026-10-26T18:30Z"
   },
   "T1|2026-10-26|Rizespor|Trabzonspor": {
    "ai": {
