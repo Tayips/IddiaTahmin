@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26T17:49Z",
+ "updated_at": "2026-10-26T17:52Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
@@ -11,22 +11,22 @@
  },
  "stats": {
   "genel": {
-   "n": 147,
-   "correct": 69,
-   "accuracy": 0.4694,
-   "rps": 0.2187,
-   "brier": 0.6169,
-   "log_loss": 1.0291,
-   "odds_accuracy": 0.517
+   "n": 152,
+   "correct": 71,
+   "accuracy": 0.4671,
+   "rps": 0.2185,
+   "brier": 0.6197,
+   "log_loss": 1.0327,
+   "odds_accuracy": 0.5132
   },
   "canli": {
-   "n": 0,
-   "correct": 0,
-   "accuracy": null,
-   "rps": null,
-   "brier": null,
-   "log_loss": null,
-   "odds_accuracy": null
+   "n": 5,
+   "correct": 2,
+   "accuracy": 0.4,
+   "rps": 0.2145,
+   "brier": 0.7004,
+   "log_loss": 1.1394,
+   "odds_accuracy": 0.4
   },
   "lig": {
    "T1": {
@@ -39,33 +39,33 @@
     "odds_accuracy": 0.5417
    },
    "E0": {
-    "n": 75,
-    "correct": 37,
-    "accuracy": 0.4933,
-    "rps": 0.2085,
-    "brier": 0.6145,
-    "log_loss": 1.0247,
-    "odds_accuracy": 0.4933
+    "n": 80,
+    "correct": 39,
+    "accuracy": 0.4875,
+    "rps": 0.2089,
+    "brier": 0.6199,
+    "log_loss": 1.0319,
+    "odds_accuracy": 0.4875
    }
   },
   "son_30_gun": {
-   "n": 43,
-   "correct": 26,
-   "accuracy": 0.6047,
-   "rps": 0.1972,
-   "brier": 0.5469,
-   "log_loss": 0.9304,
-   "odds_accuracy": 0.6512
+   "n": 48,
+   "correct": 28,
+   "accuracy": 0.5833,
+   "rps": 0.199,
+   "brier": 0.5629,
+   "log_loss": 0.9521,
+   "odds_accuracy": 0.625
   },
   "guven": {
    "50%+": {
-    "n": 60,
+    "n": 61,
     "correct": 35,
-    "accuracy": 0.5833,
-    "rps": 0.1858,
-    "brier": 0.536,
-    "log_loss": 0.9154,
-    "odds_accuracy": 0.5833
+    "accuracy": 0.5738,
+    "rps": 0.1859,
+    "brier": 0.5433,
+    "log_loss": 0.9249,
+    "odds_accuracy": 0.5738
    },
    "60%+": {
     "n": 28,
@@ -7416,13 +7416,13 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 0.0,
+   "ftag": 2.0,
+   "ftr": "A",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "A",
-   "odds_correct": null,
+   "odds_correct": 1.0,
    "o25_correct": null,
    "kg_correct": null,
    "mk_h": 0.3272,
@@ -7464,13 +7464,13 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 1.0,
+   "ftag": 1.0,
+   "ftr": "D",
+   "status": "bitti",
+   "correct": 0.0,
    "odds_pick": "A",
-   "odds_correct": null,
+   "odds_correct": 0.0,
    "o25_correct": null,
    "kg_correct": null,
    "mk_h": 0.1982,
@@ -7512,13 +7512,13 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 2.0,
+   "ftag": 0.0,
+   "ftr": "H",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "H",
-   "odds_correct": null,
+   "odds_correct": 1.0,
    "o25_correct": null,
    "kg_correct": null,
    "mk_h": 0.4552,
@@ -7560,13 +7560,13 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 0.0,
+   "ftag": 3.0,
+   "ftr": "A",
+   "status": "bitti",
+   "correct": 0.0,
    "odds_pick": "H",
-   "odds_correct": null,
+   "odds_correct": 0.0,
    "o25_correct": null,
    "kg_correct": null,
    "mk_h": 0.4525,
@@ -7656,15 +7656,15 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 0.0,
+   "ftag": 0.0,
+   "ftr": "D",
+   "status": "bitti",
+   "correct": 0.0,
    "odds_pick": "A",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 0.0,
+   "o25_correct": 1.0,
+   "kg_correct": 0.0,
    "mk_h": 0.3074,
    "mk_d": 0.2902,
    "mk_a": 0.4024,
@@ -7775,19 +7775,19 @@
    "away": "Fenerbahce",
    "season": "2627",
    "kickoff": "2026-10-26T18:30Z",
-   "p_h": 0.5133,
-   "p_d": 0.2669,
+   "p_h": 0.5135,
+   "p_d": 0.2666,
    "p_a": 0.2198,
    "pick": "H",
    "odds_h": 1.94,
-   "odds_d": 3.81,
+   "odds_d": 3.82,
    "odds_a": 3.41,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-10-26T17:49Z",
-   "p_o25": 0.6193,
-   "p_kg": 0.6533,
-   "odds_o25": 1.51,
-   "odds_u25": 2.42,
+   "predicted_at": "2026-10-26T17:52Z",
+   "p_o25": 0.6279,
+   "p_kg": 0.6608,
+   "odds_o25": 1.49,
+   "odds_u25": 2.47,
    "odds_src": "canli",
    "data_through": "2026-10-19",
    "features": "f3-12lig",
@@ -7809,9 +7809,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.489,
-   "mk_d": 0.2404,
-   "mk_a": 0.2706,
+   "mk_h": 0.4892,
+   "mk_d": 0.2399,
+   "mk_a": 0.2708,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -10743,9 +10743,23 @@
    "kickoff": "2026-10-26T16:00Z"
   },
   "T1|2026-10-26|Galatasaray|Fenerbahce": {
-   "fetched_at": "2026-10-26T17:49Z",
+   "fetched_at": "2026-10-26T17:52Z",
    "kickoff": "2026-10-26T18:30Z",
    "home": [
+    {
+     "title": "Fenerbahçe-Galatasaray derbisinde ilk 11’ler belli oldu",
+     "source": "AjansHaber",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWtCcklNel95VHE2OW84OWxqZHVOeVdfZ0dpVnZzdk42ZlFaUFZjbFlubnFta1VjcnpNU0owV29XX0JVM2pIeTRDa0JhVjEySWNsSTJXMXdEUU1lUHY0YzJQS1U1ZkFlTzdmanYzV0tDdjNpQllBa0ExdVBTaTFlLXN5QW5Zdi1GUTlDcUtJbHM?oc=5",
+     "at": "2026-10-26T17:51Z",
+     "eksik": false
+    },
+    {
+     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu",
+     "source": "Timeturk",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMC1mVWpfVmZ0M3BrSFdHWU5OM1ZMRFZ2M19LU2xEM1pLUDlHOGlBNjRnSk9Sdzl0b2laT2dDOVVYSVNQaEp2cnZ2R0J4Wi00MFVLZjc4SXRXeUdSV1l0LTFDalRIb1FjeWZLVjhzM2p3UmVVckN4WFdXNzlqR1hUVGtWcnNPdw?oc=5",
+     "at": "2026-10-26T17:49Z",
+     "eksik": false
+    },
     {
      "title": "Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu",
      "source": "Yirmidort.tv",
@@ -10754,36 +10768,36 @@
      "eksik": false
     },
     {
-     "title": "((İZLE)) Galatasaray Fenerbahçe Derbisi Canlı İzle! GS FB Maçı Canlı Anlatım, İlk 11'ler ve Yayın Bilgileri",
-     "source": "Fabryka Norblina",
-     "link": "https://news.google.com/rss/articles/CBMi5wNBVV95cUxQZDg0TF9ROHp5b1d1UElhR0VpRFhiak1OZlM2U1B4c0Fya0ZQbE1fdFpodUV4X0NsVG5RZVRlYVhibEVDSlpXWldWXy1VYVF3MUNWTVJacXI5aHhWd0VjeUp1bGl5M1daSGtLbzZBbEJRak9TUVlzSG1pM1NjQXdhaTBTYkd6a0RBTmlEMkFHb2s1WGVOZUtoLTAxcUhkNFFOM0ZVbVZ0T25kR25UYzhHRlNzVkotQWY0TFVxVUFTcUlkTXNQc0dpNGd6allyQjV2YW54b3FWa0lWbjl2ZTk2Tjh5dU1YNEREbGpnZ3dxVzA2M0E2LXh2Q2NSMFowQ1h4b09UNTJjRk1lbnNaZ0E0NGF5cExodGt5Vk1PdlptQ2Y2NGdwWTkyUGdkcEdZd2pVb1JnOGV4SDdQbTI4aXJ4a3FBaHZqM1VubHVfUFc4Tjc3N0poWVpCXzAxUUZNSDdhZkV2a2NTQU9rUVJIMmpodUhCaUc3OUZBWHdjRkJpZWVoM1FRTXRBV2RUWEt5WUY5OEFPaWdtRFB1bkRVS1ZUT01xanVsMWRyZ1RHcFVLSml2YjBzR3d6cHpLYnR1ZTl0WUg1N000QVZEUXFwRWJoWENZYnJKR3Q0VThqQWowX0pUcVQ4aWxV?oc=5",
-     "at": "2026-10-26T17:44Z",
-     "eksik": false
-    },
-    {
-     "title": "Süper Lig’in 9'uncu hafta maçı: Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu",
-     "source": "Evrensel.net",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZjhZMDkxcWhLTEFHai1vQVkxbDZmYTYwNm9fdWZTT1V4S1Q5QkVNdF8yR0hidGFvSmZaMzVCdXp6WE93b2VwbnNiZXFTOGRaTExmNjZiR0tES0tDMkd3R0ZmRlh3WW5XQ2NwNFFDLTR1R2NWdG1oTE4tRUE2TWt5TnA1dTRNUi1fQWN1VHRGSExGRi1PZDVHNGdqbnJCVmtJQ2NoQkpnc09tMnNITTNNeVNOUkUyUnJYNW5VblEtaEQ?oc=5",
-     "at": "2026-10-26T17:43Z",
-     "eksik": false
-    },
-    {
      "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu",
-     "source": "Ajans344",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWEdoYVc1N0luMzFGaVBzSm9uZ0hqZ2JvaUlDenJGZFBhSG9TNjBiak9MTk9rYVlqbGFvaDRmMzFRTHlkODJWS05pTEhaMktvaHR6VnZBQ1FjUFpnRVkwMHNFRFlZZC1lR3ByVVRwVnB3ZVdmQVRzQ3JfeThQRERhNllaUjlBSVBhdS1yZ0JUam1qMTBGVFE?oc=5",
-     "at": "2026-10-26T17:39Z",
+     "source": "İzmir’de Son Dakika",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNHVtb1p3NjN1VDY0VnZ4VEpoZHdLd0ZmNWJFZ3BmWUo3NlJkV3dmUTd3NGVDTjBDRHc1VGs1VDkzYWhZeVpITlpvREV2T0Y5WlZGNGVZLTZBTHl1UXhQbnpWZTNXSmNYNzNPeXEyNWx6d3o3aXlULXBVMzRlaGpjWjd1ZTN5SF9WS3R6UGZmMWN0eWs1?oc=5",
+     "at": "2026-10-26T17:46Z",
      "eksik": false
     },
     {
      "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu!",
-     "source": "Hunat TV",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR0pobW8tZVRXWmFSUjV1T21ReTVkT2tXWUR2TEVCZnFxS0ZJVkhzMmNUclJPQ0FmWVpiY09NYjNOSlROSEZ6VVAwVUZYUXotWVpRaGZ2N3YzLUxlSldPdlgyTmFqR3hBMUJXR3JRZlYtWDRXcG9iejM2dm1Gcmp1ZHQwVzYwdjFZUGczbi16aw?oc=5",
-     "at": "2026-10-26T17:38Z",
+     "source": "Nirvana Haber",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeW9XVHh4NC02bmk2UkZ5WkRiSnRVaGtWZGxEbTJBMGdLLVl5cXlCdjNxa2hqRUNVTkNGLW9uMWRkcjZsMGczeWtrMXY2YTRFWUpiSTAyY3Z1a3V4bk9OSHYybjgwMzlXOUozTnlaZ0pYWTZJV1dKUUl6NWlXeFpfM3QtbjVxVXFMZHdqYmg5aw?oc=5",
+     "at": "2026-10-26T17:45Z",
      "eksik": false
     }
    ],
    "away": [
     {
+     "title": "Fenerbahçe-Galatasaray derbisinde ilk 11’ler belli oldu",
+     "source": "AjansHaber",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWtCcklNel95VHE2OW84OWxqZHVOeVdfZ0dpVnZzdk42ZlFaUFZjbFlubnFta1VjcnpNU0owV29XX0JVM2pIeTRDa0JhVjEySWNsSTJXMXdEUU1lUHY0YzJQS1U1ZkFlTzdmanYzV0tDdjNpQllBa0ExdVBTaTFlLXN5QW5Zdi1GUTlDcUtJbHM?oc=5",
+     "at": "2026-10-26T17:51Z",
+     "eksik": false
+    },
+    {
+     "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu",
+     "source": "Timeturk",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMC1mVWpfVmZ0M3BrSFdHWU5OM1ZMRFZ2M19LU2xEM1pLUDlHOGlBNjRnSk9Sdzl0b2laT2dDOVVYSVNQaEp2cnZ2R0J4Wi00MFVLZjc4SXRXeUdSV1l0LTFDalRIb1FjeWZLVjhzM2p3UmVVckN4WFdXNzlqR1hUVGtWcnNPdw?oc=5",
+     "at": "2026-10-26T17:49Z",
+     "eksik": false
+    },
+    {
      "title": "Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu",
      "source": "Yirmidort.tv",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbm1SSXBPbnRlay0wR3FZbkZzZlBYdXpiWW1WV0hmZE9WTDVwbFFyTDB6ZXZ1bjJFNXkyeWMxdTUwTC1oQ2hLeDV3UzhGa3RhVGpac3FrSnkxWTMzaENZTkJGN25EUHIyM0tuSTQ4aDlnbThBQjFZOTBZZmtZRGFXOHdvVkpFWDNyU0FyNkRBSzUxWmhQa1hF?oc=5",
@@ -10791,46 +10805,32 @@
      "eksik": false
     },
     {
-     "title": "((İZLE)) Galatasaray Fenerbahçe Derbisi Canlı İzle! GS FB Maçı Canlı Anlatım, İlk 11'ler ve Yayın Bilgileri",
-     "source": "Fabryka Norblina",
-     "link": "https://news.google.com/rss/articles/CBMi5wNBVV95cUxQZDg0TF9ROHp5b1d1UElhR0VpRFhiak1OZlM2U1B4c0Fya0ZQbE1fdFpodUV4X0NsVG5RZVRlYVhibEVDSlpXWldWXy1VYVF3MUNWTVJacXI5aHhWd0VjeUp1bGl5M1daSGtLbzZBbEJRak9TUVlzSG1pM1NjQXdhaTBTYkd6a0RBTmlEMkFHb2s1WGVOZUtoLTAxcUhkNFFOM0ZVbVZ0T25kR25UYzhHRlNzVkotQWY0TFVxVUFTcUlkTXNQc0dpNGd6allyQjV2YW54b3FWa0lWbjl2ZTk2Tjh5dU1YNEREbGpnZ3dxVzA2M0E2LXh2Q2NSMFowQ1h4b09UNTJjRk1lbnNaZ0E0NGF5cExodGt5Vk1PdlptQ2Y2NGdwWTkyUGdkcEdZd2pVb1JnOGV4SDdQbTI4aXJ4a3FBaHZqM1VubHVfUFc4Tjc3N0poWVpCXzAxUUZNSDdhZkV2a2NTQU9rUVJIMmpodUhCaUc3OUZBWHdjRkJpZWVoM1FRTXRBV2RUWEt5WUY5OEFPaWdtRFB1bkRVS1ZUT01xanVsMWRyZ1RHcFVLSml2YjBzR3d6cHpLYnR1ZTl0WUg1N000QVZEUXFwRWJoWENZYnJKR3Q0VThqQWowX0pUcVQ4aWxV?oc=5",
-     "at": "2026-10-26T17:44Z",
-     "eksik": false
-    },
-    {
-     "title": "Süper Lig’in 9'uncu hafta maçı: Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu",
-     "source": "Evrensel.net",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZjhZMDkxcWhLTEFHai1vQVkxbDZmYTYwNm9fdWZTT1V4S1Q5QkVNdF8yR0hidGFvSmZaMzVCdXp6WE93b2VwbnNiZXFTOGRaTExmNjZiR0tES0tDMkd3R0ZmRlh3WW5XQ2NwNFFDLTR1R2NWdG1oTE4tRUE2TWt5TnA1dTRNUi1fQWN1VHRGSExGRi1PZDVHNGdqbnJCVmtJQ2NoQkpnc09tMnNITTNNeVNOUkUyUnJYNW5VblEtaEQ?oc=5",
-     "at": "2026-10-26T17:43Z",
-     "eksik": false
-    },
-    {
      "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu",
-     "source": "Ajans344",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWEdoYVc1N0luMzFGaVBzSm9uZ0hqZ2JvaUlDenJGZFBhSG9TNjBiak9MTk9rYVlqbGFvaDRmMzFRTHlkODJWS05pTEhaMktvaHR6VnZBQ1FjUFpnRVkwMHNFRFlZZC1lR3ByVVRwVnB3ZVdmQVRzQ3JfeThQRERhNllaUjlBSVBhdS1yZ0JUam1qMTBGVFE?oc=5",
-     "at": "2026-10-26T17:39Z",
+     "source": "İzmir’de Son Dakika",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNHVtb1p3NjN1VDY0VnZ4VEpoZHdLd0ZmNWJFZ3BmWUo3NlJkV3dmUTd3NGVDTjBDRHc1VGs1VDkzYWhZeVpITlpvREV2T0Y5WlZGNGVZLTZBTHl1UXhQbnpWZTNXSmNYNzNPeXEyNWx6d3o3aXlULXBVMzRlaGpjWjd1ZTN5SF9WS3R6UGZmMWN0eWs1?oc=5",
+     "at": "2026-10-26T17:46Z",
      "eksik": false
     },
     {
      "title": "Galatasaray-Fenerbahçe derbisinde ilk 11'ler belli oldu!",
-     "source": "Hunat TV",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR0pobW8tZVRXWmFSUjV1T21ReTVkT2tXWUR2TEVCZnFxS0ZJVkhzMmNUclJPQ0FmWVpiY09NYjNOSlROSEZ6VVAwVUZYUXotWVpRaGZ2N3YzLUxlSldPdlgyTmFqR3hBMUJXR3JRZlYtWDRXcG9iejM2dm1Gcmp1ZHQwVzYwdjFZUGczbi16aw?oc=5",
-     "at": "2026-10-26T17:38Z",
+     "source": "Nirvana Haber",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeW9XVHh4NC02bmk2UkZ5WkRiSnRVaGtWZGxEbTJBMGdLLVl5cXlCdjNxa2hqRUNVTkNGLW9uMWRkcjZsMGczeWtrMXY2YTRFWUpiSTAyY3Z1a3V4bk9OSHYybjgwMzlXOUozTnlaZ0pYWTZJV1dKUUl6NWlXeFpfM3QtbjVxVXFMZHdqYmg5aw?oc=5",
+     "at": "2026-10-26T17:45Z",
      "eksik": false
     }
    ],
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Galatasaray'da maça saatler kala açıklanan güncel raporda bildirilen önemli bir eksik bulunmamaktadır."
+     "ozet": "Bugünkü Galatasaray - Fenerbahçe derbisi öncesinde Galatasaray takımında forma giyemeyecek veya durumu belirsiz önemli bir eksik bulunmamaktadır."
     },
     "away": {
      "eksikler": [],
-     "ozet": "Fenerbahçe'de derbi öncesi forma giyemeyecek veya durumu belirsiz resmi bir oyuncu raporu yer almamaktadır."
+     "ozet": "Fenerbahçe cephesinde de bu karşılaşma öncesinde bildirilen önemli bir sakat veya cezalı oyuncu yer almamaktadır."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-10-26T17:49Z",
-    "hash": "dc0f9bce5ea6"
+    "at": "2026-10-26T17:52Z",
+    "hash": "ed6b0f137cfa"
    }
   },
   "T1|2026-10-26|Rizespor|Trabzonspor": {
