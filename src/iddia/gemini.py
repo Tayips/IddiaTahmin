@@ -26,6 +26,7 @@ API = "https://generativelanguage.googleapis.com/v1beta"
 ENV_KEY = "GEMINI_API_KEY"
 ENV_MODEL = "GEMINI_MODEL"
 FALLBACK_MODEL = "gemini-2.5-flash"
+TIMEOUT = 60                            # saniye
 MAX_MODELS = 2                          # her türden denenecek en yeni model sayısı
 MAX_CALLS = 20
 PAUSE = 7.0                             # ücretsiz katman: dakikada ~10 istek
@@ -71,9 +72,11 @@ def pick_models(key: str) -> list[str]:
 
 
 class Client:
-    """Model ve arama aracı birleşimlerini sırayla dener; çalışan ilk birleşimde kalır."""
+    """Model ve arama aracı birleşimlerini sırayla dener; çalışan ilk birleşimde kalır.
 
-    SKIP = {400, 403, 404, 429}           # bu model/araç birleşimi kullanılamıyor: sıradakine geç
+    Kota (429), erişim, sunucu hatası ya da zaman aşımı alınan birleşim bu
+    çalıştırmada bir daha denenmez; aynı soru sıradaki birleşimle sorulur.
+    """
 
     def __init__(self, key: str, models: list[str]):
         self.key = key
@@ -93,19 +96,16 @@ class Client:
             model, tools = self.options[self.i]
             payload = {**body, "tools": [{"google_search": {}}]} if tools else body
             try:
-                r = requests.post(f"{API}/models/{model}:generateContent", json=payload, timeout=90,
+                r = requests.post(f"{API}/models/{model}:generateContent", json=payload, timeout=TIMEOUT,
                                   headers={"x-goog-api-key": self.key})
-                if r.status_code in self.SKIP:
-                    print(f"Gemini {self.model}: {r.status_code}, sıradaki deneniyor")
-                    self.i += 1
-                    continue
                 r.raise_for_status()
                 parts = r.json()["candidates"][0]["content"]["parts"]
                 return "".join(p.get("text", "") for p in parts)
             except (requests.RequestException, ValueError, KeyError, IndexError) as e:
-                # Anahtar istek başlığında gider, hata metninde yer almaz; yine de yalnızca türünü yaz
-                print(f"Gemini okunamadı: {type(e).__name__}")
-                return None
+                # Anahtar istek başlığında gider, hata metninde yer almaz; yalnızca tür ve durum kodu yazılır
+                status = getattr(getattr(e, "response", None), "status_code", "")
+                print(f"Gemini {self.model}: {type(e).__name__} {status}, sıradaki deneniyor")
+                self.i += 1
         return None
 
 
