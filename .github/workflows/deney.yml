@@ -21,4 +21,6 @@ jobs:
           cache: pip
       - run: pip install -c constraints.txt -e . pytest
       - run: python -m iddia.download --leagues T1 E0
-      - run: python -m iddia.deney_ek --indir
+      - run: python -m iddia.deney_yorgunluk --indir
+        env:
+          FOOTBALL_DATA_ORG_KEY: ${{ secrets.FOOTBALL_DATA_ORG_KEY }}
