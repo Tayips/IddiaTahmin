@@ -110,6 +110,10 @@ ul.warns b{color:var(--fg)}
 .news small{display:block;color:var(--muted);font-size:12px}
 .news .flag{color:var(--bad);font-weight:600}
 .nchip{font-size:12px;color:var(--bad);font-weight:600}
+.dchip{font-size:12px;color:var(--accent);font-weight:600;margin-right:10px}
+.promise{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.promise li{font-size:13px;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:3px 10px}
+.promise a{color:inherit}
 dl.meta{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 12px;margin:0;font-size:13px}
 dl.meta dt{color:var(--muted)}
 dl.meta dd{margin:0}
@@ -124,6 +128,11 @@ footer{margin-top:40px;font-size:13px;color:var(--muted)}
 <header>
   <h1>IddiaTahmin</h1>
   <p id="updated"></p>
+  <ul class="promise">
+    <li>Her tahmin maç başlamadan <a href="https://github.com/Tayips/IddiaTahmin/commits/main/data/predictions.csv" target="_blank" rel="noopener">kayda geçer</a>, sonradan değişmez</li>
+    <li>Tutmayanlar dahil bütün sonuçlar açık</li>
+    <li>Süper Lig'de yapay zekayla eksik oyuncu analizi</li>
+  </ul>
 </header>
 <p class="warn" id="stale" role="alert" hidden></p>
 
@@ -255,6 +264,7 @@ function card(m) {
     <div class="teams"><span class="a">${esc(m.home)}</span><span class="score">${mid}</span><span>${esc(m.away)}</span></div>
     <div class="probs">${["H", "D", "A"].map(o => probCell(m, o)).join("")}</div>
     ${goalChips(m)}
+    ${divergence(m) ? `<span class="dchip">◆ Piyasadan ayrışıyor: ${OUT[divergence(m).o]} için +${(divergence(m).d * 100).toFixed(0)} puan</span>` : ""}
     ${newsCount(m) ? `<span class="nchip">⚠ ${newsCount(m)} ${newsOf(m).ai ? "önemli eksik" : "eksik oyuncu haberi"}</span>` : ""}
     <span class="more">Analizi gör →</span>
   </article>`;
@@ -286,12 +296,12 @@ function hitRate(xs, hit) {
 
 const IDX = {H: 0, D: 1, A: 2};
 // Tahmin anındaki oranın kapanış oranına göre değeri (CLV) ve sabit tutarla getiri (ROI), modelin seçimi için
-function marketValue(m) {
-  const odds = [m.odds_h, m.odds_d, m.odds_a][IDX[m.pick]];
-  const close = [m.close_h, m.close_d, m.close_a][IDX[m.pick]];
+function marketValue(m, o = m.pick) {
+  const odds = [m.odds_h, m.odds_d, m.odds_a][IDX[o]];
+  const close = [m.close_h, m.close_d, m.close_a][IDX[o]];
   return {
     clv: odds && close ? odds / close - 1 : null,
-    ret: odds ? (m.correct ? odds - 1 : -1) : null,
+    ret: odds && m.ftr ? (m.ftr === o ? odds - 1 : -1) : null,
   };
 }
 
@@ -343,12 +353,16 @@ function perfView() {
     : "Model şimdiye kadar hep bahis favorisiyle aynı sonucu seçti.";
 
   // Piyasaya göre: yalnızca canlı tahminler (geriye dönüklerde tahmin oranı zaten kapanış oranı)
-  const mv = live.map(x => ({m: x.m, ...marketValue(x.m)}));
-  const withClv = mv.filter(x => x.clv != null), withRet = mv.filter(x => x.ret != null);
   const signed = v => v == null ? "–" : `${v >= 0 ? "+" : "−"}%${Math.abs(v * 100).toFixed(1).replace(".", ",")}`;
+  const marketRow = (name, mv) => {
+    const withClv = mv.filter(x => x.clv != null), withRet = mv.filter(x => x.ret != null);
+    return [name, withRet.length, signed(mean(withClv, x => x.clv)),
+            withClv.length ? hitRate(withClv, x => x.clv > 0) : "–", signed(mean(withRet, x => x.ret))];
+  };
+  const diverged = live.map(x => [x.m, divergence(x.m)]).filter(([, dv]) => dv);
   const marketTable = table(["", "Maç", "Ortalama CLV", "Kapanışı yenen", "ROI (sabit tutar)"], [
-    ["Modelin seçimi", withRet.length, signed(mean(withClv, x => x.clv)),
-     withClv.length ? hitRate(withClv, x => x.clv > 0) : "–", signed(mean(withRet, x => x.ret))]]);
+    marketRow("Modelin seçimi", live.map(x => marketValue(x.m))),
+    marketRow("Piyasadan ayrışan sonuç", diverged.map(([m, dv]) => marketValue(m, dv.o)))]);
 
   const warns = DATA.uyarilar || [];
   const runText = warns.length
@@ -365,6 +379,7 @@ function perfView() {
     <h2>Haftalık</h2>${weekly}
     <p class="explain">Hafta Pazartesi günüyle gösterilir. Favori sütunu, bahis oranlarında en düşük orana sahip sonucun başarısıdır.</p>
     <h2>Piyasaya göre</h2>${marketTable}
+    <p class="explain">"Piyasadan ayrışan sonuç": modelin bir sonuca piyasadan en az ${DIVERGE * 100} puan fazla şans verdiği maçlarda o sonuç. Modelin piyasanın görmediği bir şey yakalayıp yakalamadığını bu satır gösterir; anlamlı bir sonuç için en az birkaç yüz maç gerekir.</p>
     <p class="explain">CLV, tahmin anındaki oranın maç başlarken kapanan orana göre ne kadar iyi olduğunu ölçer. Sürekli artı CLV, modelin piyasanın önünde olduğunun en güvenilir işaretidir. ROI, her seçime aynı tutar yatırılsaydı net getiriyi gösterir; kısa vadede şans etkisi çok büyüktür. Kapanış oranları maç bittikten birkaç gün sonra gelir.</p>
     <h2>Son çalıştırma</h2><p class="explain">${DATA.updated_at} UTC</p>${runText}`;
 }
@@ -409,6 +424,14 @@ function couponView() {
 }
 
 const matchKey = m => [m.league, m.date, m.home, m.away].join("|");
+const DIVERGE = 0.04;                   // model bir sonuca piyasadan en az bu kadar fazla şans veriyorsa
+// Modelin piyasadan en çok ayrıştığı sonuç; ayrışma küçükse null. Geriye dönük tahminler sayılmaz.
+function divergence(m) {
+  if (m.mk_h == null || m.predicted_at === "geriye-donuk") return null;
+  const [o, d] = ["H", "D", "A"].map(o => [o, m["p_" + o.toLowerCase()] - m["mk_" + o.toLowerCase()]])
+    .reduce((a, b) => b[1] > a[1] ? b : a);
+  return d >= DIVERGE ? {o, d} : null;
+}
 const RES_CLASS = {G: "ok", B: "wait", M: "bad"};
 const PICK_NAME = {H: "ev sahibine", D: "beraberliğe", A: "deplasmana"};
 const PICK_WIN = {H: "ev sahibi kazandı", D: "maç berabere bitti", A: "deplasman kazandı"};
@@ -441,10 +464,16 @@ function probPanel(m) {
     <p class="explain">Piyasa olasılığı, ortalama bahis oranlarından bahisçi payı (marj) çıkarılarak hesaplanır. Fark puan cinsindendir.</p></section>`;
 }
 
+// Tahminin maçtan ne kadar önce yapıldığı (son güncelleme; maç başlayınca donar)
+function leadTime(m) {
+  const h = (new Date(m.kickoff) - new Date(m.predicted_at)) / 36e5;
+  return h >= 48 ? `${Math.round(h / 24)} gün` : h >= 1 ? `${Math.round(h)} saat` : `${Math.max(1, Math.round(h * 60))} dakika`;
+}
+
 function basisPanel(m) {
   const meta = `<dl class="meta">
     <dt>Model</dt><dd>${esc(m.model)}${m.model === "form-v2" ? " (oran yoktu, yalnızca form)" : ""}</dd>
-    <dt>Tahmin zamanı</dt><dd>${m.predicted_at === "geriye-donuk" ? "Geriye dönük (takip başlamadan önceki maç)" : `${TR.format(new Date(m.predicted_at))} ${TRT.format(new Date(m.predicted_at))}`}</dd>
+    <dt>Tahmin zamanı</dt><dd>${m.predicted_at === "geriye-donuk" ? "Geriye dönük (takip başlamadan önceki maç)" : `${TR.format(new Date(m.predicted_at))} ${TRT.format(new Date(m.predicted_at))} · maçtan ${leadTime(m)} önce · <a href="https://github.com/Tayips/IddiaTahmin/commits/main/data/predictions.csv" target="_blank" rel="noopener">kayıt geçmişi</a>`}</dd>
     ${m.odds_src ? `<dt>Oranlar</dt><dd>${m.odds_src === "canli" ? "Güncel oranlar (tahmin anında çekildi)" : "Fikstür oranları (football-data.co.uk)"}</dd>` : ""}
     <dt>Kullanılan veri</dt><dd>${m.data_through ? `${DAY.format(new Date(m.data_through))} tarihine kadar oynanan maçlar` : "–"}</dd>
     <dt>Sayfa güncellemesi</dt><dd>${TR.format(new Date(DATA.updated_at))} ${TRT.format(new Date(DATA.updated_at))}</dd></dl>`;
@@ -552,10 +581,10 @@ function detailView(key) {
       ${goalChips(m)}
     </section>
     ${probPanel(m)}
+    ${newsPanel(m)}
     ${basisPanel(m)}
     <section class="panel"><h3>Takımların son maçları</h3><div class="two">${teamBlock(m, m.home, "H")}${teamBlock(m, m.away, "A")}</div>
       <p class="explain">G galibiyet, B beraberlik, M mağlubiyet; İ iç saha, D deplasman. En yeni maç en üstte.</p></section>
-    ${newsPanel(m)}
     ${similarPanel(m)}`;
 }
 
