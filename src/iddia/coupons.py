@@ -22,6 +22,8 @@ TYPES = {
     "orta": "Orta riskli",
     "riskli": "Riskli",
 }
+BACKFILL_SUFFIX = "-gd"              # geriye dönük kurulan kuponların kimlik eki
+RUN_TIMES = ["05:00", "12:00", "15:30"]   # geriye dönük kurulumda günlük çalıştırma saatleri (UTC)
 LABELS = {"H": "1", "D": "X", "A": "2", "1X": "1X", "X2": "X2", "12": "12", "O": "Üst 2.5", "U": "Alt 2.5"}
 
 
@@ -97,6 +99,28 @@ def update(old: pd.DataFrame, preds: pd.DataFrame, now: datetime) -> pd.DataFram
     return out.reindex(columns=LEG_COLUMNS).sort_values(["created_at", "type", "kickoff"]).reset_index(drop=True)
 
 
+def backfill(preds: pd.DataFrame, until: str) -> pd.DataFrame:
+    """Kupon özelliği başlamadan önceki günler için kuponları, günlük çalıştırmalar o günlerde
+    yapılmış gibi aynı kurallarla kurar. Yalnızca `until` anından önce donmuş kuponlar döner.
+
+    Bu dönemin tahminleri geriye dönüktür (Elo modeli, kapanış oranları); bu yüzden kuponlar
+    ayrı işaretlenir ve canlı kupon istatistiğine katılmaz.
+    """
+    legs = pd.DataFrame(columns=LEG_COLUMNS)
+    start = pd.Timestamp(preds["kickoff"].min()).normalize() - pd.Timedelta(days=WINDOW_DAYS)
+    end = pd.Timestamp(until)
+    for day in pd.date_range(start, end, freq="D"):
+        for t in RUN_TIMES:
+            now = pd.Timestamp(f"{day:%Y-%m-%d}T{t}Z").to_pydatetime()
+            if now >= end:
+                break
+            legs = update(legs, preds, now)
+    first_kick = legs.groupby("coupon_id")["kickoff"].transform("min")
+    legs = legs[first_kick <= until].copy()
+    legs["coupon_id"] = legs["coupon_id"] + BACKFILL_SUFFIX
+    return legs.reset_index(drop=True)
+
+
 def leg_result(legs: pd.DataFrame, scored: pd.DataFrame) -> pd.Series:
     m = legs.merge(scored[KEY + ["ftr", "fthg", "ftag", "status"]], on=KEY, how="left")
     sel, ftr = m["selection"], m["ftr"]
@@ -129,6 +153,7 @@ def to_records(legs: pd.DataFrame, scored: pd.DataFrame) -> list[dict]:
             status = "bekliyor"
         out.append({
             "id": cid, "type": g["type"].iloc[0], "created_at": g["created_at"].iloc[0], "status": status,
+            "backfill": cid.endswith(BACKFILL_SUFFIX),
             "odds": round(float(live["odds"].prod()), 2) if len(live) else None,
             "prob": round(float(live["prob"].prod()), 4) if len(live) else None,
             "legs": [{"league": r.league, "home": r.home, "away": r.away, "kickoff": r.kickoff,
@@ -140,16 +165,30 @@ def to_records(legs: pd.DataFrame, scored: pd.DataFrame) -> list[dict]:
     return out
 
 
-def summary(records: list[dict]) -> dict:
-    """Tür başına sonuçlanan kupon sayısı, tutan kupon ve 1 birim yatırılsa net kazanç."""
+def summary(records: list[dict], backfill: bool = False) -> dict:
+    """Tür başına sonuçlanan kupon sayısı, tutan kupon ve 1 birim yatırılsa net kazanç.
+
+    Canlı ve geriye dönük kuponlar ayrı sayılır.
+    """
     out = {}
     for kind in TYPES:
-        done = [c for c in records if c["type"] == kind and c["status"] in ("kazandi", "kaybetti")]
+        done = [c for c in records if c["type"] == kind and c["status"] in ("kazandi", "kaybetti")
+                and c.get("backfill", False) == backfill]
         won = [c for c in done if c["status"] == "kazandi"]
         out[kind] = {"n": len(done), "won": len(won),
                      "net": round(sum(c["odds"] - 1 for c in won) - (len(done) - len(won)), 2)}
     return out
 
 
-def recent(records: list[dict], per_type: int = 20) -> list[dict]:
+def recent(records: list[dict], per_type: int = 60) -> list[dict]:
     return [c for kind in TYPES for c in [r for r in records if r["type"] == kind][:per_type]]
+
+
+def with_backfill(old: pd.DataFrame, preds: pd.DataFrame) -> pd.DataFrame:
+    """Geriye dönük kuponlar henüz yoksa, ilk canlı kupondan önceki dönem için bir kez kurar."""
+    if old.empty or old["coupon_id"].str.endswith(BACKFILL_SUFFIX).any():
+        return old
+    past = backfill(preds, old["created_at"].min())
+    print(f"Kuponlar: {past['coupon_id'].nunique()} geriye dönük kupon eklendi")
+    out = pd.concat([past, old], ignore_index=True).reindex(columns=LEG_COLUMNS)
+    return out.sort_values(["created_at", "type", "kickoff"]).reset_index(drop=True)

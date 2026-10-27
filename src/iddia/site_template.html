@@ -394,11 +394,12 @@ const odds2 = v => v == null ? "–" : v.toFixed(2).replace(".", ",");
 function couponCard(c) {
   const legs = c.legs.map(l => {
     const k = new Date(l.kickoff);
-    return `<div class="leg"><div class="m">${esc(l.home)} - ${esc(l.away)}<small>${esc(DATA.leagues[l.league] || l.league)} · ${TR.format(k)} ${TRT.format(k)}</small></div>
+    // Geriye dönük kuponlarda maç saati bilinmiyor, yalnızca gün
+    return `<div class="leg"><div class="m">${esc(l.home)} - ${esc(l.away)}<small>${esc(DATA.leagues[l.league] || l.league)} · ${TR.format(k)}${c.backfill ? "" : " " + TRT.format(k)}</small></div>
       <span class="s">${esc(l.selection)}</span><span class="r">${odds2(l.odds)} · ${pct(l.prob)} ${LEG_MARK[l.result]}</span></div>`;
   }).join("");
   return `<article class="coupon">
-    <div class="head"><b>${esc(DATA.coupon_types[c.type])}</b>${COUPON_STATUS[c.status]}</div>
+    <div class="head"><b>${esc(DATA.coupon_types[c.type])}${c.backfill ? ` <span class="chip">Geriye dönük</span>` : ""}</b>${COUPON_STATUS[c.status]}</div>
     ${legs}
     <div class="foot"><span>Toplam oran <b>${odds2(c.odds)}</b></span><span>Modelin tutma ihtimali <b>${pct(c.prob)}</b></span></div>
   </article>`;
@@ -408,12 +409,14 @@ function couponView() {
   const el = document.getElementById("list");
   const all = DATA.coupons || [];
   if (!all.length) { el.innerHTML = `<p class="empty">Önümüzdeki 3 günde kupon kurulacak kadar maç yok.</p>`; return; }
-  const latest = Object.keys(DATA.coupon_types).map(t => all.find(c => c.type === t)).filter(Boolean);
-  const st = DATA.coupon_stats || {};
-  const record = table(["Kupon", "Sonuçlanan", "Tutan", "1 birimle net"], Object.entries(DATA.coupon_types).map(([t, name]) => {
-    const s = st[t] || {n: 0, won: 0, net: 0};
+  const latest = Object.keys(DATA.coupon_types).map(t => all.find(c => c.type === t && !c.backfill)).filter(Boolean);
+  const recordOf = st => table(["Kupon", "Sonuçlanan", "Tutan", "1 birimle net"], Object.entries(DATA.coupon_types).map(([t, name]) => {
+    const s = (st || {})[t] || {n: 0, won: 0, net: 0};
     return [esc(name), s.n, s.n ? `${s.won} (${pct(s.won / s.n)})` : "–", s.n ? odds2(s.net) : "–"];
   }));
+  const record = recordOf(DATA.coupon_stats) + `<h2>Geriye dönük kuponlar</h2>` +
+    recordOf(DATA.coupon_stats_backfill) +
+    `<p class="explain">Geriye dönük kuponlar, kupon özelliği başlamadan önceki haftalar için aynı kurallarla sonradan kuruldu. O dönemin tahminleri daha basit Elo modelinden ve kapanış oranlarından geldiği için canlı kuponlardan ayrı sayılır.</p>`;
   const past = all.filter(c => !latest.includes(c) && c.status !== "bekliyor");
   el.innerHTML = `
     <h2>Güncel kuponlar</h2><div class="list">${latest.map(couponCard).join("")}</div>
