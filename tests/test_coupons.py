@@ -68,3 +68,15 @@ def test_results_and_summary():
     s = coupons.summary(list(rec.values()))
     assert s["orta"] == {"n": 1, "won": 1, "net": 1.7}
     assert s["dusuk"] == {"n": 1, "won": 0, "net": -1}
+
+
+def test_backfill_builds_frozen_coupons_once_before_live_ones():
+    live = coupons.update(pd.DataFrame(columns=coupons.LEG_COLUMNS), PREDS, NOW)
+    out = coupons.with_backfill(live, PREDS)
+    past = out[out["coupon_id"].str.endswith(coupons.BACKFILL_SUFFIX)]
+    assert len(past) and (past["created_at"] < live["created_at"].min()).all()
+    # her geriye dönük kupon, canlı kuponlar başlamadan donmuş olmalı
+    assert (past.groupby("coupon_id")["kickoff"].min() <= live["created_at"].min()).all()
+    assert len(coupons.with_backfill(out, PREDS)) == len(out)        # ikinci kez eklenmez
+    recs = coupons.to_records(out, PREDS.assign(ftr=None, fthg=None, ftag=None, status="yaklasan"))
+    assert any(r["backfill"] for r in recs) and not all(r["backfill"] for r in recs)

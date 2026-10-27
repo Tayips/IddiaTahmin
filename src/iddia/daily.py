@@ -336,7 +336,7 @@ def main() -> None:
 
     scored = score(preds, matches, now, org)
     old_coupons = pd.read_csv(coupons.COUPONS) if coupons.COUPONS.exists() else pd.DataFrame(columns=coupons.LEG_COLUMNS)
-    legs = coupons.update(old_coupons, preds, now)
+    legs = coupons.update(coupons.with_backfill(old_coupons, preds), preds, now)
     legs.to_csv(coupons.COUPONS, index=False)
     coupon_records = coupons.to_records(legs, scored)
     news = haberler.load()
@@ -356,6 +356,7 @@ def main() -> None:
         "haberler": haberler.for_site(news, scored),
         "coupon_types": coupons.TYPES,
         "coupon_stats": coupons.summary(coupon_records),
+        "coupon_stats_backfill": coupons.summary(coupon_records, backfill=True),
         "coupons": coupons.recent(coupon_records),
         "uyarilar": log.WARNINGS,
     }
