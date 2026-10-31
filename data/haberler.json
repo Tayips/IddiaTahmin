@@ -1,26 +1,33 @@
 {
  "E0|2026-10-31|Aston Villa|Fulham": {
   "ai": {
-   "at": "2026-10-31T10:48Z",
+   "at": "2026-10-31T15:35Z",
    "away": {
     "eksikler": [],
-    "ozet": "Fulham cephesinde önemli bir eksik bulunmuyor."
+    "ozet": "Fulham cephesinde bu maç öncesi önemli bir eksik bulunmuyor."
    },
-   "hash": "92905450e494",
+   "hash": "51891df58e94",
    "home": {
     "eksikler": [
      {
       "neden": "sakat",
-      "onem": "kilit",
+      "onem": "ilk11",
       "oyuncu": "Amadou Onana"
      }
     ],
-    "ozet": "Aston Villa'da Amadou Onana sakatlığı sebebiyle forma giyemeyecek."
+    "ozet": "Aston Villa'da Amadou Onana bu maçta forma giyemeyecek. Takım eksiklerine rağmen Fulham karşısında sahadan galibiyetle ayrılmayı hedefliyor."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
    {
+    "at": "2026-10-31T10:53Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5DNjdtY01yeS1xV2p3SG5ZTmhCTDJSQmMtUUNTVXZyd0lIQ21IVUt2c05SODdfenlLUnRPMWtFU3B0QTBIUE8yakd0S2hjRXdYRUIxR2ZLY3ZxRHFVbGJDNzZsVVFCMzg?oc=5",
+    "source": "Dave.Sport",
+    "title": "Aston Villa vs Fulham team news: Jackson boost, Robinson to start"
+   },
+   {
     "at": "2026-10-31T09:47Z",
     "eksik": false,
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBnZ1AwME4tYWVLTDZlOWdDVmxGVnVnejJnMVZRRHl1cWlhd0ZBcVNTSFNhVkpxSWJEZ1RCSnhWZTkzVHZYZWZzVkQzUDM3UGFnZG9na0NOaFQwVUZiaU81MEoweEtEWVBTYlBOOHphbzZfMHN4c1E?oc=5",
@@ -28,7 +35,7 @@
     "title": "Aston Villa vs Fulham TV Channel: Sky Sports, 8pm Kick-off, Onana Out"
    },
    {
-    "at": "2026-10-31T09:02Z",
+    "at": "2026-10-31T09:34Z",
     "eksik": false,
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeVVOQ3g3TEsteGNqSnF4VlRXTGdMbFNNT0ZRSTRRSzhJd1VXZlUzb2QzbG9RLUtQMVpjQk81Vl9WVGtMMVhIVHZ6MDBXYnNvcXJGRkpaRkpLdlhmWVZwTTRlV1lzRVRGOHZpY203NHNIYkhMZ2R1M3d3WlFpM3NIeW80QnN2OEVCcE1yTGRZTWJTRkd3WFdUVEtBdFZ1Q2ljTDN3X1g0UVkyYjFKRHZaa2dWS3VtUER6M1hqaXduenRnZw?oc=5",
     "source": "Betfred Insights",
@@ -47,51 +54,44 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUy1YeGNZZmJnNDk5Qi1QTUt2NmJlSGs5XzBjZ3RLQUFEWGpNZnY0cWk0NVlKTHlzYm9CZlZjbThCMm5RYmpvNEV0LVhfLWZUZmdydkF4YTJoY1pGcEkxUExzZFV3ZlNJMG9XbXdMcjJXcUF1RHBvWnFIbXdROWRIWXFXSUIwTjFrN2o1bXo1NVI4UmU2S192V1I2TW5fVnctRkdVQUtRMA?oc=5",
     "source": "www.fantasyfootballscout.co.uk",
     "title": "Aston Villa v Fulham predicted line-ups + FPL team news"
-   },
-   {
-    "at": "2026-10-31T06:07Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWFFmQW40WVIzWkVpcG1lamd6Y0U3YjJPblE1T3NwdUh2Mk94aXhuckZZZ0F4enEtY2FmcWo3ekpmaDRkUmJEbWdMcFc0eEtPTklhYzloUkRsbXlRalVVOU9SUDZfcnUtQjRaSHZpa25oZHlHYjFIcVF4VHgwVVZRTjFVdzFGcmJDd21RZm04Y1h4UHpkcHlDUnhLU2MzRUp2a2c?oc=5",
-    "source": "premierleaguenewsnow.com",
-    "title": "Aston Villa vs Fulham prediction, team news and lineups"
    }
   ],
-  "fetched_at": "2026-10-31T10:48Z",
+  "fetched_at": "2026-10-31T15:35Z",
   "home": [
    {
-    "at": "2026-10-31T09:47Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBnZ1AwME4tYWVLTDZlOWdDVmxGVnVnejJnMVZRRHl1cWlhd0ZBcVNTSFNhVkpxSWJEZ1RCSnhWZTkzVHZYZWZzVkQzUDM3UGFnZG9na0NOaFQwVUZiaU81MEoweEtEWVBTYlBOOHphbzZfMHN4c1E?oc=5",
-    "source": "The False 9",
-    "title": "Aston Villa vs Fulham TV Channel: Sky Sports, 8pm Kick-off, Onana Out"
+    "at": "2026-10-31T13:06Z",
+    "eksik": true,
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObm9BbnRqcUlFTDZWOV9LRXRhVzU4X3ZyWkxIVzBNQ2w1ZkZySWRGVm0xaDhLaERGQWVzMGxIUEI0REpweVF5a1lQREt2UDk4V25kY0RYelk0SmZvNFFoT29DSWp0am5abVYxVmlJcDZhSmhfcW9SN0tNTUtUcERzcW5PU3k4TGNSQ1FXSzBuYm9FLUZsS290aGpKQ3dTMC14NktmQkgwN3QtSllDREptcV93dHR4LTk0cDBn0gHAAUFVX3lxTE5DN3FwdWd5WVZnd2V5ZG4wU2d6OGx2cDVoRzM4MFd4a0pUc3BzcFNTcDlXR0RhQVlaUnQ1d3ppM0pfd0JBcVF2OUhzWElvTWZ1OXBIYjR2YjBvNEZJRmd0bzBfVXkzSlh4OEtqamJ0NWpNSjFKS18zTG1fT0dQSTRNUkxfVUpqVEo5bnZNS3BiS2R5Q3ppbDFNT0lMSXJQdDhSZVJzM3ZadHVsNUlkdUQ2ZFhoVjlWYnJFRWVST2JnUw?oc=5",
+    "source": "SportsView",
+    "title": "Aston Villa predicted XI vs Fulham: Emery to recall key stars after Bournemouth setback"
    },
    {
-    "at": "2026-10-31T09:37Z",
+    "at": "2026-10-31T13:02Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVHAyR3JFNzAtSmZZZXlXdzI0S0ZXRHlrVGNnZnNJTlZMMEFPVjlzTFE0QTBXaU5jRFRPSndyVjBRTnpYUTJkSDE1aFQtZFd2STg2cUVVbTE3YXJJQ1NMNW1saGxzcEI5NmRxTmpRenVoYU11YzFiNDVibzQ4eWhweC1mUHM4TlNqWjlhb09Kaw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcEE2b3A5MHVtUjlmb1dSbDduaFpqWWFkcVdxR2tzTjM1U3p6WjZBSnlFUTA1UkxHc3g0UU9VWmNpOFZma2xETXBKUVBOcjhLekdfU0h4Z2N4N0J6ZlhfVnRCNXFWejllU0I2WVJfclo2Nm4tZm9IeTEtX2JTQUcwdnlralRfdTRjSU5PZ2ltU1A4cFByRE5mUnVpNll1d9IBowFBVV95cUxPMU4yS3dkZEUxMk5aNjFLcU1Rb3EyRVlVVC0tTU0xeXJpOU1iaTBMQWJjeHZTRURkV0EtX0VnTWl1NUNELW5NQ1ZyUDNrU0xLN1pGdW9nc05NMVY2MUE1Ym5KZkNELUNWb2tBaTBBeDVmd0ROelVjM1BQSUpJN3lpbTVDZVBWbVZQb3B0dUpac2lzX2FPanFKS2w2SEFPckZ2TnhJ?oc=5",
+    "source": "Liverpool.com",
+    "title": "Jamie Carragher apologizes to Aston Villa over 'clumsy and wrong' insults"
+   },
+   {
+    "at": "2026-10-31T12:28Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQlNfbmhwMXJXNDl2WHp3OEhKM2xfQm00UVJxY1VZcExQN0FKWngtd0N5YzNCUlRYTFJEWlhlNGdRMDZ3SXFrRTlhTXoyaDJNOWgtamplYzlIRUREMjM4UG80VVdOVzh1YlZhb2U4NlA1YVRsdC1NNktPaW5yQkV6d1h4OWszejRB?oc=5",
     "source": "Read Aston Villa",
-    "title": "Premier League KMI panel rules Botman should have seen red"
+    "title": "Aston Villa News | Boubacar Kamara Returns to His Best Form"
    },
    {
-    "at": "2026-10-31T09:02Z",
+    "at": "2026-10-31T11:36Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeVVOQ3g3TEsteGNqSnF4VlRXTGdMbFNNT0ZRSTRRSzhJd1VXZlUzb2QzbG9RLUtQMVpjQk81Vl9WVGtMMVhIVHZ6MDBXYnNvcXJGRkpaRkpLdlhmWVZwTTRlV1lzRVRGOHZpY203NHNIYkhMZ2R1M3d3WlFpM3NIeW80QnN2OEVCcE1yTGRZTWJTRkd3WFdUVEtBdFZ1Q2ljTDN3X1g0UVkyYjFKRHZaa2dWS3VtUER6M1hqaXduenRnZw?oc=5",
-    "source": "Betfred Insights",
-    "title": "Aston Villa vs Fulham Prediction, Betting Tips, Team News - 31 October 2026"
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOGliamphelZKa1NOeUczWk90eFRjendWUGRsWVV2YXlESmNpeUVVVWZhRGplREtxaFJWWVZPc1JBaEFfM1QtTVFNMWZxQzZiS3ZfQjBIWW52VTZ0ZFRkeGlJckRocFkxLUxxeFRKTlJYdXYtWGdoS29vZGtQYWhRcmRnMFI4TzkxTWFiamhwbXVkY0pQRExVVlJGMEUtQWViZ25nMlFRSzU?oc=5",
+    "source": "news.bet365.com",
+    "title": "Aston Villa v Fulham Prediction: Manzambi to fire 23/20 Villa to victory"
    },
    {
-    "at": "2026-10-31T08:54Z",
+    "at": "2026-10-31T11:15Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQY3lzLTUtc2cwZlNkREJNSE1GRGtXUGlaQ3Y4SHpfZmxZYlIydHczVkdKR3VLRUdFWW9ZQ3pocHhTTFNYMy1ZNTdndEpnV0ZxRHBRYUFIR3VYdVFES2Q0SG1OZkdxeDlJYWY0TjFQdWtlczBtNFZNTEk4djJqY3lxcG5OalZwbGo4MU9ZTTdsenMybUhsT0R6eGc0aFVCYjVzdFlIVXNEZnpIeXJT?oc=5",
-    "source": "Aston Villa Review",
-    "title": "Aston Villa team news, predicted line-up, TV details and match preview for Premier League match v Fulham"
-   },
-   {
-    "at": "2026-10-31T08:29Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUy1YeGNZZmJnNDk5Qi1QTUt2NmJlSGs5XzBjZ3RLQUFEWGpNZnY0cWk0NVlKTHlzYm9CZlZjbThCMm5RYmpvNEV0LVhfLWZUZmdydkF4YTJoY1pGcEkxUExzZFV3ZlNJMG9XbXdMcjJXcUF1RHBvWnFIbXdROWRIWXFXSUIwTjFrN2o1bXo1NVI4UmU2S192V1I2TW5fVnctRkdVQUtRMA?oc=5",
-    "source": "www.fantasyfootballscout.co.uk",
-    "title": "Aston Villa v Fulham predicted line-ups + FPL team news"
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ1BfaS1hNGFpaE9nX3FWaXZ6OXkwakpKcjBUak5CbjQzblRCSEkxTjNSYU5oSzlMdE9vSkJNeHZCX3JPbnhZTi1OdjJDSlFDdHZsWUdiVm1TVkJpbE8tMlVwdlFJaENibWM3bmVKNjNGYUl2bmJxU3hBNFZ2dUt6TWhUaDNVbmltOGxULXFrM3FYMUpCU1dkcWw2dGxkZlc3ZkFET05kQ0Jrako5Q2c?oc=5",
+    "source": "Sportsgambler",
+    "title": "Aston Villa vs Fulham Prediction, Betting Tips, Lineups & Odds | 31 Oct 2026"
    }
   ],
   "kickoff": "2026-10-31T20:00Z"
@@ -650,182 +650,188 @@
  },
  "E0|2026-10-31|Tottenham|Crystal Palace": {
   "ai": {
-   "at": "2026-10-31T10:48Z",
+   "at": "2026-10-31T15:35Z",
    "away": {
     "eksikler": [],
-    "ozet": "Crystal Palace takımında maçı kaçıracak veya durumu belirsiz önemli bir oyuncu bildirilmemiştir."
+    "ozet": "Crystal Palace cephesinde de güncel maç kadrosunu etkileyecek önemli bir eksik rapor edilmedi."
    },
-   "hash": "5872c57aba5b",
+   "hash": "f74217b65cad",
    "home": {
     "eksikler": [],
-    "ozet": "Tottenham takımında bu maç öncesinde önemli bir eksik bulunmamaktadır ve James Maddison'ın da oynayabilecek durumda olduğu belirtilmiştir."
+    "ozet": "Tottenham takımında maça çıkamayacak önemli bir eksik bulunmuyor."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
    {
-    "at": "2026-10-31T09:00Z",
+    "at": "2026-10-31T14:30Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNZGliU09XZ3psVldWV2x5SjBlODlIMVBNeHNKc1IxaVE0YkNwTHNRaGptZTREVEp3WVBxNE5wbkQxVkZsWFo5a3RkNzQ0ZkItLUJJaS1PT2FZWGZTNU1sejlsU0lpOUVxVlBMREFhLW1UU3l3QjN6dDN6X3JkMXd3cE5uUWl3RXdndHNVeXdyU2hGZGVDQ2xueE5rd0RRZ1JLWXc5YWdDYUxmamx3bDFNWnlnWjlxUV9Qb0taZTZWcXM2LU4ybVYydmwtTXRnbWlzUnFENWU2SWNoa0NSUlJtM0VEazdWOWNWWTQ2LUtzRjd2Mk9zWkE?oc=5",
-    "source": "London Evening Standard",
-    "title": "Tottenham XI vs Crystal Palace: Predicted lineup and confirmed team news"
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUFlCYmFscExrQUo3U1RuLVlWOUhCZ1RxNDZWaXBfRnNwSnFxUDhTckcweFBGeXJLZUJBMWd2Mlkxa1YtY3RfYno0eURhMWlYb3d0NzV2Sk9mWWxBRW1VdTlSOE80ZHpuV2ZkME9HdHhoZnQ3NlE3Wk5pNlFYZDlUNWh4R29pTTJjRnh2bw?oc=5",
+    "source": "Yahoo Sports",
+    "title": "Tottenham Hotspur vs. Crystal Palace: game time, live blog, and how to watch online"
    },
    {
-    "at": "2026-10-31T09:00Z",
+    "at": "2026-10-31T14:22Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWTZwbWNCczhocTlJMWlOMXhQbm5pbHRfbEkyUVE2UUl0OU9heVFnT1pzaTNGdEkyTkk4OVJURFZuaTdrWkxvX09VNTlTelUtQTF4dGRfd0FCNC1wdktxMl9QMkNZblFnNlRlcHU5OVk1NVJFNmoxTkJWVDFWRWN0cUdyMlQ0dmI0bzZGYTIwOUFvWXJOQnUzNlg1dVNuTXNXb1J1SWE4Uy0tM3pJMWV1bnowZ3Y0cFF4bzJMbThhYm0?oc=5",
-    "source": "Spurs Web",
-    "title": "Tottenham vs Crystal Palace Premier League preview, team news, prediction"
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWTlPcmp1RjRCNzlXSHh6ZnNkWkJXX1VCS0FvNUtqVHQ5MmNNTWZzckFleEJRZU8yUmhJdS10M01kNGZ2Z1V6N3dyZk9pVDNQemt4RmRwMGlfTzFqYnVwY0QtQ3NUNXRybWlCdWxFcFU3cE5KQ3ZpbjVGTzRuYmtCVGk4UThwV3RFeGFDXy15VDluZHJZQ2JRZUQxUkNDcnNlRVplVXpPMnFJMlk?oc=5",
+    "source": "Football London",
+    "title": "Spurs vs Crystal Palace LIVE - All the action from the Tottenham Hotspur Stadium"
    },
    {
-    "at": "2026-10-31T08:40Z",
+    "at": "2026-10-31T13:50Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdFRoRGxBSkxhaUl0ZEdoTmRTYTBwWkRReGlud015M0NHMTcwdmlKS053cXZIaFNPaTVBR05ZeTZSYjhRaDNNdUtMZHlzOXhoZHlDSUFmcXVveWUybmRQYmZUTnBmN0Fld09EVjg0ejQ2ZU00X3l1cUt4T3AzN09tUzJka2JhZ2tteGg4cXl0cXowZWQySUhlb0Jmck9mSUtTZlRQS19pR1hVQkk4M2gxc0Q1YkZpQjBpNU4ycUZGdw?oc=5",
+    "source": "EPL Index",
+    "title": "Tottenham Hotspur vs Crystal Palace: Match Preview, Latest Team News and Score Prediction"
+   },
+   {
+    "at": "2026-10-31T13:15Z",
     "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLXdfWWtOXzRjSkVjR3REZy1ReDI3ZFNKczJfVkNFaFZQVUVSLWhfV0g0bU5zanpiMFdMZHkyYmFPM2RXYm4tWlM2cGJDWmIxZ3ppY3YxdWczRV85MG1TYUYxYnpOekZmMWFud2N4Y2s1RnZDdTc1XzNTaFNoUlMxcEtvVk9DU3VIQ2ZPcmtzWHRUQndDbnFSckZOV011ZGlnVjhYNDEzN2hjWWVlSmxSSXI3a21hc0p1NGxDN0JVNG9xYW1vODc4?oc=5",
-    "source": "thenational.co.za",
-    "title": "Tottenham's James Maddison cleared to play after injury scare against Crystal Palace"
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZTlaMXk5UmV0Mk1rMU40T2hJanJaaWJQY2RwRGVrbW9QbUgxZG84R1psZWVSUjQxSXBlb3p5dTJtMTQzU0JLR1lNWmJCT2UzYkp5THBNN01LSTJ0dzlDMGNhdEVHQ2JkcGRlWVphbzh3LUlrQ18zbUNreDVUN1BwNDNYSjRGSmo3dTV4R2REVQ?oc=5",
+    "source": "Football FanCast",
+    "title": "Crystal Palace without star until beyond November international break after injury update"
    },
    {
-    "at": "2026-10-31T08:29Z",
+    "at": "2026-10-31T12:50Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTTNoRkRTNnFqNEx3OGdKWkZweVJFZ1FlR3lRbmladXlEcTZ2bVl0WWJ5b3ZVODBqdlpEMHR3YlNyRzFzaWpwVVl4TVRCazR4SkRoOTB4YzJVOVFnX3hfbnV3eF9ack00Mlh2WVpvZEJzeDRBcVRwVWV6alp0RDhyMHZHSTFBYXkwendPMjRlV3NqN2JaakZ3MDhoZzEwT2w5UXE5dEo2OGxMRURoMHRMNDhR?oc=5",
-    "source": "www.fantasyfootballscout.co.uk",
-    "title": "Tottenham v Crystal Palace predicted line-ups + FPL team news"
-   },
-   {
-    "at": "2026-10-31T07:48Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNN3dxb2x3S0lzVXc4WjJTX3pId2hWYjVBT0VXb3JubUpKdE9rcl9SNkNRa2F2c0V4SnNENkZYcVlBX3VHZkRtTlpMZXdXUzE1NWx0MHllbE9aVWQzdDRzajBkWjlRZ09ZSXVRSFlQZFlSWGJtWGZZLVhnd1ZEY05TXzZZQnRDLTR3QUVnWHZFV2t0UzBqNE1iYzV4b0dZWWJnekp6ZVdLaDBpbzNNX0ZsS05PQURRU3lQck5fUHF1MGl0Qmdq?oc=5",
-    "source": "Betfred Insights",
-    "title": "Spurs vs Crystal Palace Prediction, Betting Tips, Team News - 31 October 2026"
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQk1xenBLZkpwQkRnbThyZkdMZklTWkVrZ0JodnNGT2w1LXdNLXhJdWFyZU9pTU5jMVhNZGRBMm55T3hyVGlzVHR2NGZRbG1CNkw0ZXdsSzUzV0RtdUJMaDc1YXVjalZhajZ3SUFSRVRWT2t1bEI2WUZiZkhBV3VaTGxtZVhIWUxWYWxUbVR5T0QwS0hKdFlTWGVYLTA1dHdBR2R1eUw5b2MwNlFvUEEyOEVzODVMcnVoQmVfeGpGU3c?oc=5",
+    "source": "EPL Index",
+    "title": "Tottenham Hotspur Starting XI vs Crystal Palace: Confirmed Team News and Predicted Lineup"
    }
   ],
-  "fetched_at": "2026-10-31T10:48Z",
+  "fetched_at": "2026-10-31T15:35Z",
   "home": [
    {
-    "at": "2026-10-31T09:00Z",
+    "at": "2026-10-31T14:22Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNZGliU09XZ3psVldWV2x5SjBlODlIMVBNeHNKc1IxaVE0YkNwTHNRaGptZTREVEp3WVBxNE5wbkQxVkZsWFo5a3RkNzQ0ZkItLUJJaS1PT2FZWGZTNU1sejlsU0lpOUVxVlBMREFhLW1UU3l3QjN6dDN6X3JkMXd3cE5uUWl3RXdndHNVeXdyU2hGZGVDQ2xueE5rd0RRZ1JLWXc5YWdDYUxmamx3bDFNWnlnWjlxUV9Qb0taZTZWcXM2LU4ybVYydmwtTXRnbWlzUnFENWU2SWNoa0NSUlJtM0VEazdWOWNWWTQ2LUtzRjd2Mk9zWkE?oc=5",
-    "source": "London Evening Standard",
-    "title": "Tottenham XI vs Crystal Palace: Predicted lineup and confirmed team news"
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWTlPcmp1RjRCNzlXSHh6ZnNkWkJXX1VCS0FvNUtqVHQ5MmNNTWZzckFleEJRZU8yUmhJdS10M01kNGZ2Z1V6N3dyZk9pVDNQemt4RmRwMGlfTzFqYnVwY0QtQ3NUNXRybWlCdWxFcFU3cE5KQ3ZpbjVGTzRuYmtCVGk4UThwV3RFeGFDXy15VDluZHJZQ2JRZUQxUkNDcnNlRVplVXpPMnFJMlk?oc=5",
+    "source": "Football London",
+    "title": "Spurs vs Crystal Palace LIVE - All the action from the Tottenham Hotspur Stadium"
    },
    {
-    "at": "2026-10-31T09:00Z",
+    "at": "2026-10-31T13:59Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWTZwbWNCczhocTlJMWlOMXhQbm5pbHRfbEkyUVE2UUl0OU9heVFnT1pzaTNGdEkyTkk4OVJURFZuaTdrWkxvX09VNTlTelUtQTF4dGRfd0FCNC1wdktxMl9QMkNZblFnNlRlcHU5OVk1NVJFNmoxTkJWVDFWRWN0cUdyMlQ0dmI0bzZGYTIwOUFvWXJOQnUzNlg1dVNuTXNXb1J1SWE4Uy0tM3pJMWV1bnowZ3Y0cFF4bzJMbThhYm0?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUzJCOFVlZU5fYURueXJBLTdSY3BQVzA0Tkd0TU0zWlRjbFNJZHRucHRTbUZXUlNLamlGTTBuTktqRmcwakpOWjRNUW1SUXh6OXRzRFhvNGxPX0xpU3VSYlN1ZXRoRnJSR0t6MWJaRkdPREprU215VnRkaEIzRXhTMG5haGRocDVoVzRvLVBBbkQ1elo5X042VTQ3YVpmQnJWeklFOVJNN1p2NkVFd0dTakpWNXpEdU5WYlpPSnM3Skk?oc=5",
     "source": "Spurs Web",
-    "title": "Tottenham vs Crystal Palace Premier League preview, team news, prediction"
+    "title": "‘They are different’ – Dejan Kulusevski reveals why he loves ‘special’ Roberto De Zerbi"
    },
    {
-    "at": "2026-10-31T08:40Z",
-    "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLXdfWWtOXzRjSkVjR3REZy1ReDI3ZFNKczJfVkNFaFZQVUVSLWhfV0g0bU5zanpiMFdMZHkyYmFPM2RXYm4tWlM2cGJDWmIxZ3ppY3YxdWczRV85MG1TYUYxYnpOekZmMWFud2N4Y2s1RnZDdTc1XzNTaFNoUlMxcEtvVk9DU3VIQ2ZPcmtzWHRUQndDbnFSckZOV011ZGlnVjhYNDEzN2hjWWVlSmxSSXI3a21hc0p1NGxDN0JVNG9xYW1vODc4?oc=5",
-    "source": "thenational.co.za",
-    "title": "Tottenham's James Maddison cleared to play after injury scare against Crystal Palace"
-   },
-   {
-    "at": "2026-10-31T08:35Z",
+    "at": "2026-10-31T13:50Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQN1dYMUxfTkJ2WVhSWV9QYWhrMFhwNjhORVRsM1E3MWFpMk5ESDFYb3NlZkRYUTVYOXMzOEZyZ3h3QXpqN3dNNkgzVnp2OTJyb29waG1oNGNmcy1Nck1Jbk5XMzNSWE9zMHFsYWFaMWNIcWVzWkw3ckVyLTJCWUJjSU1aZWthckVaa0p6cy1hQWVKS0pSeEhaR29YSzVEWWRmS3dOLWl4bmtmQjQxOTdkUXBRNNIBswFBVV95cUxQN1dYMUxfTkJ2WVhSWV9QYWhrMFhwNjhORVRsM1E3MWFpMk5ESDFYb3NlZkRYUTVYOXMzOEZyZ3h3QXpqN3dNNkgzVnp2OTJyb29waG1oNGNmcy1Nck1Jbk5XMzNSWE9zMHFsYWFaMWNIcWVzWkw3ckVyLTJCWUJjSU1aZWthckVaa0p6cy1hQWVKS0pSeEhaR29YSzVEWWRmS3dOLWl4bmtmQjQxOTdkUXBRNA?oc=5",
-    "source": "SportsView",
-    "title": "Tottenham predicted XI vs Crystal Palace: De Zerbi targets third straight win"
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdFRoRGxBSkxhaUl0ZEdoTmRTYTBwWkRReGlud015M0NHMTcwdmlKS053cXZIaFNPaTVBR05ZeTZSYjhRaDNNdUtMZHlzOXhoZHlDSUFmcXVveWUybmRQYmZUTnBmN0Fld09EVjg0ejQ2ZU00X3l1cUt4T3AzN09tUzJka2JhZ2tteGg4cXl0cXowZWQySUhlb0Jmck9mSUtTZlRQS19pR1hVQkk4M2gxc0Q1YkZpQjBpNU4ycUZGdw?oc=5",
+    "source": "EPL Index",
+    "title": "Tottenham Hotspur vs Crystal Palace: Match Preview, Latest Team News and Score Prediction"
    },
    {
-    "at": "2026-10-31T08:32Z",
+    "at": "2026-10-31T13:12Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOejRlanhzbWZzaHZOem0zQWROTHdwb1ZId2F1YlhUdHUwU2poeEtBU0hsYW5vY3JFWFlDQllTS1l5bEJfRnh3MnFsVklET21KWEZUMUtTTEVJQkdMYnBsWlI3Q2RNVXpaUUpfUFFCYUlMT0VVdWRHY3VaaFhMWEtZNHBjWG45RjkzU245ZnV1S2hSUU3SAZMBQVVfeXFMTno0ZWp4c21mc2h2TnptM0FkTkx3cG9WSHdhdWJYVHR1MFNqaHhLQVNIbGFub2NyRVhZQ0JZU0tZeWxCX0Z4dzJxbFZJRE9tSlhGVDFLU0xFSUJHTGJwbFpSN0NkTVV6WlFKX1BRQmFJTE9FVXVkR2N1WmhYTFhLWTRwY1huOUY5M1NuOWZ1dUtoUlFN?oc=5",
-    "source": "Chosunbiz",
-    "title": "De Zerbi says Maddison fit to play as Tottenham aims to sustain revival"
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT1RySTNiX2ZPZ1Z6eTBjMU1zUU93NlNya00yUWU4TGdCRzBZUF80U2RnWHpGQldqeklWbWlOa25kRXdfLUdRODdNZGRmakV3VnQzLVhIQlI3VW92aFB2VE9VdFh0SG5tel82RVNxaW1PZmxoOFVpX2pjUHFoMzdta0hVWF95RFJCb3NkNXVTSU1HcENCUi1hRW9vRmV3SmVSQUwxd0JqTUZMRVgwZFE?oc=5",
+    "source": "Spurs Web",
+    "title": "Roberto De Zerbi reveals when Savio is expected to return for Tottenham"
+   },
+   {
+    "at": "2026-10-31T12:50Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQk1xenBLZkpwQkRnbThyZkdMZklTWkVrZ0JodnNGT2w1LXdNLXhJdWFyZU9pTU5jMVhNZGRBMm55T3hyVGlzVHR2NGZRbG1CNkw0ZXdsSzUzV0RtdUJMaDc1YXVjalZhajZ3SUFSRVRWT2t1bEI2WUZiZkhBV3VaTGxtZVhIWUxWYWxUbVR5T0QwS0hKdFlTWGVYLTA1dHdBR2R1eUw5b2MwNlFvUEEyOEVzODVMcnVoQmVfeGpGU3c?oc=5",
+    "source": "EPL Index",
+    "title": "Tottenham Hotspur Starting XI vs Crystal Palace: Confirmed Team News and Predicted Lineup"
    }
   ],
   "kickoff": "2026-10-31T17:30Z"
  },
  "E0|2026-11-01|Liverpool|Arsenal": {
   "ai": {
-   "at": "2026-10-31T10:48Z",
+   "at": "2026-10-31T15:35Z",
    "away": {
-    "eksikler": [],
-    "ozet": "Arsenal'in Liverpool maçı öncesinde güncel sakat veya cezalı oyuncu bilgisi bulunmamaktadır."
+    "eksikler": [
+     {
+      "neden": "sakat",
+      "onem": "kilit",
+      "oyuncu": "Bukayo Saka"
+     }
+    ],
+    "ozet": "Arsenal'da Bukayo Saka'nın sakatlığı nedeniyle forma giymesi beklenmiyor, Rice ve Calafiori'nin durumları ise takip ediliyor."
    },
-   "hash": "bddc764c83fe",
+   "hash": "f72d0c5bd2d8",
    "home": {
     "eksikler": [],
-    "ozet": "Liverpool'un Arsenal maçı öncesinde güncel sakat veya cezalı oyuncu bilgisi bulunmamaktadır."
+    "ozet": "Liverpool'da maça 1 gün kaldığı ve güncel sakatlık/ceza raporları henüz netleşmediği için kesinleşmiş bir eksik bulunmamaktadır."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
    {
-    "at": "2026-10-31T10:20Z",
-    "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQd2s3TEd4ZVNsN0pVU3FYR1hNUWppbTRqVnJZSEVtdWo5OThGX2RZWHo3VDM1cFdyR2ZwQUFTQ01jU0tvOExxdUpOMGZCZ1pMMnVxSHpoSzdtOHQwYUExeE5QR25GUkRhRmJkeElsLVM4ZXRxY0lxR0M2S3RnQ3VvdWdYSlYwSy1zWHljMA?oc=5",
-    "source": "Yahoo Sports",
-    "title": "Arsenal facing major injury concern ahead of Liverpool clash"
-   },
-   {
-    "at": "2026-10-31T10:00Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd3NueEtRb3dNWXNrMkFfLXBTQ040MU5CTW9sWFVjYTJkSjA5YlFoYlRjZ0ZzT3RpVjBQb00yRk1KcVZWUVF3cHJHd2dPX0dRbjQweHFxcmtvVnhBWTJGQlBQYlJiWmhmVDh6YVA2ZGw4VWZRMWdlczRXemhSbU9UNjJGN3hEekFJRWY4TG5PWWZVNknSAZgBQVVfeXFMTlFMWXlNcWpOSHRsVG1GWnFfaHRaMWZiNEx5c3c1YWxDWEZUcWFTT2NsNGo2Z3ZweWdrdjd0LXVrU3BjbThQV3Q3Sm9jenk4TEhTb3NFcHZLalpfZkYxNWtBSUQ1S3VxX01ES250elVza2tDYWlEbXZLSFA3N3RQdkZ5QnJFeDVGTlFoUkpQeEU0bXhUOFlkUTU?oc=5",
-    "source": "The Mirror",
-    "title": "Mikel Arteta would swap Arsenal attack for Liverpool's due to Alexander Isak transfer truth"
-   },
-   {
-    "at": "2026-10-31T09:57Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYy1zc0V4ZVFCM29UN2hhZGY5VVV6MlE0OVVpdC1YRFNDUWdoMDVXc2F1cDM2ZVd5d1hDcy1vQmpuNkxhQXBld2ltcHRwM0JNYVk1LTVEbUNrcjNaNGFGdFRhRnBjSnIzVmZmcnl1cEoxcG1Oc3RVdy1GaEdLV1dHUGtfeDZmYTQ4WDdlZ1J0dGlzVFZFVDJJeXotQ2JxaDlwZXRCMEZxT2w1RXRxd0llY0JFZExFUQ?oc=5",
-    "source": "Liverpool FC",
-    "title": "Ronald Araujo interview | Liverpool v Arsenal, 'room for improvement' and header tackle"
-   },
-   {
-    "at": "2026-10-31T09:42Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRXZsbGdzQlQ0VTJTNTNwcmR6cXpYc2d2WkNMRUlXSjJvcUE3YXE1NjFlRlJ1Mm5PYmpuSVVaMEZtcGxJakZJeG95amhQZm13UEZQYXk1cWZ2Z1hnNkdOeE1TN24yS0M4bWwxS1gyZlp6Y1pQTEdtRXdaeXRzNV81RDFfYTZOZkU?oc=5",
-    "source": "Football365",
-    "title": "Liverpool v Arsenal: Prediction, team news, lineups and odds"
-   },
-   {
-    "at": "2026-10-31T09:33Z",
+    "at": "2026-10-31T15:33Z",
     "eksik": false,
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVkJScW12Y3hFTDhpaHJRaEdPMFNhVFZWX3kzXzhJS3AxM1dKVWtNaDFGUEFJcjdlUXpvUWozOG0wUlNrd1d2aGEwR2lFWk81R3BkaFQxT05JLXRFclplN0daUDhRX0ZqNHlDMTR6RkRPbmgyeVNnNHl6R0VtaWVKel9ZNHhfTW5Dc012TTI1Q0RUd3Y2ejFqcWNGdU1pUzJWT21BOThYbGJGSlFsSUJpTndHS0NjUVpKdTBGU3JnQlZQYzJncHdBTl81cUk1SWdnSjVfOVJMcXl0VnQ0aEJjTlg3OWprblBQ?oc=5",
     "source": "London Evening Standard",
     "title": "Liverpool XI vs Arsenal: Confirmed team news and predicted lineup"
+   },
+   {
+    "at": "2026-10-31T15:06Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVlVN1BpR0dSQ2NOUXB0YVJZR1lMZ0UyNTVaVW9Va0V6SVFEY3Vla1lhN0VDQkdVTF9zSlZKa0lOMnRCcU16MTNpVkdFbmVxcW5hNGhHcDRSaGxmZTU0MzlIYkUwdzU4YzdqUXZXbi0ta2tRd3Jhc0hON3pvWWpaMk9SY2ZkSEhHMDJseXlFZEFZaXdrTkZiZmN1cEFZN2l4N3ViZFhVNG5BV0pUVjhJZkRtT2liMGVEN29YYjVINVFXNldjNjU2V1ZPVDdzY0pHdk1IRGlndk9QdVViSVk4Zw?oc=5",
+    "source": "LiveScore",
+    "title": "Liverpool v Arsenal Preview: Can the Gunners Finally End Their Anfield Curse?"
+   },
+   {
+    "at": "2026-10-31T14:43Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNczkzTHZYLTZORTVGRTR6RXM0S0s5LWstekk4Q1VEUUhkS0ExN2dCWG5mRFFMdTdpQzYzWjdmd0p1VkF4Z1ZySHRoaUNuSERtcFhZVHctVV9NX3VCR3lic3lnblhka28wRFE0M2ZuZEprd0hEc09RckNYMXViQmdBUW1VeENyTG1udlBDVHlVUUpvWE5NLWQ3aFRjOG5TVHAzUDdWU3lmcDFLd2VvVlJ3ZW9SRFVlSDM2UzhjWjNwWFA5Zlcx?oc=5",
+    "source": "LiveScore",
+    "title": "Liverpool vs Arsenal: Preview, Prediction & Lineups"
+   },
+   {
+    "at": "2026-10-31T14:25Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZFFXVFMyUWVpeEJMdjc5QzBjdEJEWDM3N3liNUZobk1BR2JLTmRETjkzVm5MSnBpaUl2TC15SVBFNEEzN1l3Q1Mxd1laeF9PTXRWMGVfOWRkR2VqS0ZoU0dTYk5tNklLQ25kNGdlRE5QM0FOa3FWTk5BUlVfeHp6YnBqdXNHdUxJNDNtNA?oc=5",
+    "source": "Pain in the Arsenal",
+    "title": "Liverpool vs Arsenal: Preview, Prediction & Lineups"
+   },
+   {
+    "at": "2026-10-31T13:40Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE04OG9ERUhPcFh4aWNCb0pYNnhUVC1MdEVyazZlNDZsbmxVTG85bDdFaFJWeEIzRG9nOG5kMEpUTzl4WTRUUzV6UE1pQzlsMml0SFl3Z0lMNWgxdGEwbHEyekJaUkgtbGFnMEUwT2VkSFN2OW8?oc=5",
+    "source": "The False 9",
+    "title": "Arsenal Team News vs Liverpool: Rice, Calafiori on Course, Saka Out"
    }
   ],
-  "fetched_at": "2026-10-31T10:48Z",
+  "fetched_at": "2026-10-31T15:35Z",
   "home": [
    {
-    "at": "2026-10-31T10:20Z",
-    "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQd2s3TEd4ZVNsN0pVU3FYR1hNUWppbTRqVnJZSEVtdWo5OThGX2RZWHo3VDM1cFdyR2ZwQUFTQ01jU0tvOExxdUpOMGZCZ1pMMnVxSHpoSzdtOHQwYUExeE5QR25GUkRhRmJkeElsLVM4ZXRxY0lxR0M2S3RnQ3VvdWdYSlYwSy1zWHljMA?oc=5",
-    "source": "Yahoo Sports",
-    "title": "Arsenal facing major injury concern ahead of Liverpool clash"
-   },
-   {
-    "at": "2026-10-31T10:00Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd3NueEtRb3dNWXNrMkFfLXBTQ040MU5CTW9sWFVjYTJkSjA5YlFoYlRjZ0ZzT3RpVjBQb00yRk1KcVZWUVF3cHJHd2dPX0dRbjQweHFxcmtvVnhBWTJGQlBQYlJiWmhmVDh6YVA2ZGw4VWZRMWdlczRXemhSbU9UNjJGN3hEekFJRWY4TG5PWWZVNknSAZgBQVVfeXFMTlFMWXlNcWpOSHRsVG1GWnFfaHRaMWZiNEx5c3c1YWxDWEZUcWFTT2NsNGo2Z3ZweWdrdjd0LXVrU3BjbThQV3Q3Sm9jenk4TEhTb3NFcHZLalpfZkYxNWtBSUQ1S3VxX01ES250elVza2tDYWlEbXZLSFA3N3RQdkZ5QnJFeDVGTlFoUkpQeEU0bXhUOFlkUTU?oc=5",
-    "source": "The Mirror",
-    "title": "Mikel Arteta would swap Arsenal attack for Liverpool's due to Alexander Isak transfer truth"
-   },
-   {
-    "at": "2026-10-31T10:00Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNHpUYkR0Vl9fTy1tQ2M1bjBXTEpDWFBtQ2ZWRXZWRk1FblFzQ2EyQlpseWF5OU04Z3UtbXkyTnpJaVFIRzkwSG0ySmhaY0JYQ25MUnpMRHcxaFBkZnN6YmIwR1JsZnBRcHcxWVBrVVFfVzZRb3lKZUFmaG8wRk9FS2ZxMnhCS25aZDQxUmk1VlBPX3I1cWVF?oc=5",
-    "source": "Yahoo Sports",
-    "title": "Dominik Szoboszlai: Confirmed Liverpool news could upset Florian Wirtz"
-   },
-   {
-    "at": "2026-10-31T09:42Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRXZsbGdzQlQ0VTJTNTNwcmR6cXpYc2d2WkNMRUlXSjJvcUE3YXE1NjFlRlJ1Mm5PYmpuSVVaMEZtcGxJakZJeG95amhQZm13UEZQYXk1cWZ2Z1hnNkdOeE1TN24yS0M4bWwxS1gyZlp6Y1pQTEdtRXdaeXRzNV81RDFfYTZOZkU?oc=5",
-    "source": "Football365",
-    "title": "Liverpool v Arsenal: Prediction, team news, lineups and odds"
-   },
-   {
-    "at": "2026-10-31T09:33Z",
+    "at": "2026-10-31T15:33Z",
     "eksik": false,
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVkJScW12Y3hFTDhpaHJRaEdPMFNhVFZWX3kzXzhJS3AxM1dKVWtNaDFGUEFJcjdlUXpvUWozOG0wUlNrd1d2aGEwR2lFWk81R3BkaFQxT05JLXRFclplN0daUDhRX0ZqNHlDMTR6RkRPbmgyeVNnNHl6R0VtaWVKel9ZNHhfTW5Dc012TTI1Q0RUd3Y2ejFqcWNGdU1pUzJWT21BOThYbGJGSlFsSUJpTndHS0NjUVpKdTBGU3JnQlZQYzJncHdBTl81cUk1SWdnSjVfOVJMcXl0VnQ0aEJjTlg3OWprblBQ?oc=5",
     "source": "London Evening Standard",
     "title": "Liverpool XI vs Arsenal: Confirmed team news and predicted lineup"
+   },
+   {
+    "at": "2026-10-31T15:06Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVlVN1BpR0dSQ2NOUXB0YVJZR1lMZ0UyNTVaVW9Va0V6SVFEY3Vla1lhN0VDQkdVTF9zSlZKa0lOMnRCcU16MTNpVkdFbmVxcW5hNGhHcDRSaGxmZTU0MzlIYkUwdzU4YzdqUXZXbi0ta2tRd3Jhc0hON3pvWWpaMk9SY2ZkSEhHMDJseXlFZEFZaXdrTkZiZmN1cEFZN2l4N3ViZFhVNG5BV0pUVjhJZkRtT2liMGVEN29YYjVINVFXNldjNjU2V1ZPVDdzY0pHdk1IRGlndk9QdVViSVk4Zw?oc=5",
+    "source": "LiveScore",
+    "title": "Liverpool v Arsenal Preview: Can the Gunners Finally End Their Anfield Curse?"
+   },
+   {
+    "at": "2026-10-31T14:52Z",
+    "eksik": true,
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTk4wZ00zaldYYzduWTliRFlOTHNmblhtWmh1cUswUGxJWFJDOFYyUDZIRl9TZUhYeFJ1WHQ4dC1KN3YtWFdUM2F1LVJHTng1XzNaVnpZcl9EeGRMOUJNbnNSMWcyNEJteVFyZHYwU2poa2FMb1FjSzllTHM3U1hQbUJpZEtmbEt2enUzMVEtVzRhRlg0NWJOQ1ZXWEljS3dNX0JNYnRfVkZSazIzdkhTTmNCVDlNbjB0ckxxYURrR3VyR3RE?oc=5",
+    "source": "Sports Mole",
+    "title": "Is Lisandro Martinez suspended for Liverpool vs. Man United after Chelsea red card?"
+   },
+   {
+    "at": "2026-10-31T14:43Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNczkzTHZYLTZORTVGRTR6RXM0S0s5LWstekk4Q1VEUUhkS0ExN2dCWG5mRFFMdTdpQzYzWjdmd0p1VkF4Z1ZySHRoaUNuSERtcFhZVHctVV9NX3VCR3lic3lnblhka28wRFE0M2ZuZEprd0hEc09RckNYMXViQmdBUW1VeENyTG1udlBDVHlVUUpvWE5NLWQ3aFRjOG5TVHAzUDdWU3lmcDFLd2VvVlJ3ZW9SRFVlSDM2UzhjWjNwWFA5Zlcx?oc=5",
+    "source": "LiveScore",
+    "title": "Liverpool vs Arsenal: Preview, Prediction & Lineups"
+   },
+   {
+    "at": "2026-10-31T14:25Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZFFXVFMyUWVpeEJMdjc5QzBjdEJEWDM3N3liNUZobk1BR2JLTmRETjkzVm5MSnBpaUl2TC15SVBFNEEzN1l3Q1Mxd1laeF9PTXRWMGVfOWRkR2VqS0ZoU0dTYk5tNklLQ25kNGdlRE5QM0FOa3FWTk5BUlVfeHp6YnBqdXNHdUxJNDNtNA?oc=5",
+    "source": "Pain in the Arsenal",
+    "title": "Liverpool vs Arsenal: Preview, Prediction & Lineups"
    }
   ],
   "kickoff": "2026-11-01T16:30Z"
@@ -1298,91 +1304,97 @@
  },
  "T1|2026-10-31|Fenerbahce|Goztep": {
   "ai": {
-   "at": "2026-10-31T10:48Z",
+   "at": "2026-10-31T15:35Z",
    "away": {
     "eksikler": [],
-    "ozet": "Göztepe cephesinde de karşılaşma öncesi bildirilen eksik veya sakat oyuncu yer almamaktadır."
+    "ozet": "Göztepe takımında bu maç öncesinde bildirilen önemli bir eksik bulunmamaktadır."
    },
-   "hash": "d634b58a8376",
+   "hash": "569b262b2c17",
    "home": {
-    "eksikler": [],
-    "ozet": "Fenerbahçe'de bu maç öncesinde resmi olarak açıklanan önemli bir sakat veya cezalı oyuncu bulunmamaktadır."
+    "eksikler": [
+     {
+      "neden": "belirsiz",
+      "onem": "kilit",
+      "oyuncu": "Mason Greenwood"
+     }
+    ],
+    "ozet": "Fenerbahçe'de Mason Greenwood'un Göztepe maçı kadrosunda yer almadığı ve durumunun belirsizliğini koruduğu bildirildi."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
    {
-    "at": "2026-10-31T10:01Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMjNFS0xDb19zbm9KNl80MWlybkpqalBIam5Mc0FOT2pKVVZ5STNfck9VTG1GbnFWbm9wSVdXMjlXZnVZLU05cnhrNi12ZUd5TzRSTS1rODYxWTlvXzlVQmVYYmhTenRtOEpIUC1aTDBNV3FOYXlxM18yUjBZUjBvVHctUEhRWi1aV2dUcjljRk1jY0hjYTlXQzh1V2VXLTBjS3FhM3J0eUYwLVJMLTdid3g0Z3V2Zw?oc=5",
-    "source": "Gazete Kritik",
-    "title": "Fenerbahçe-Göztepe Maçı Bugün! Saat Kaçta, Hangi Kanalda? İşte Muhtemel 11'ler"
-   },
-   {
-    "at": "2026-10-31T10:00Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWWFiVm03OFpJcnNZN255Vm53aEJ2SXUwSVNQYVJ5dFh6MW5ONnR4MEZRVUtpZ3ZIdkdJQWhRX0VhMHNJTEVfVUtEUEVaT280RHpEbEVuZDhyQmdNejNpSVpRNFdqeFJ4S2MwWWVGd3N4UHVBN0JGRlJVQWV0QVlVRVhhZGRWVG5ac05zTXZNNXFhcFp1d1E?oc=5",
-    "source": "Canlı Gaste",
-    "title": "Fenerbahçe - Göztepe Maçı Öncesi Kadrolar ve Maç Bilgileri"
-   },
-   {
-    "at": "2026-10-31T09:46Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVGRwSkx1X19mdG10a1kwSjdNWm1ZWm43Nks3ZzZwdXNFUWZiVTlUTE9IZ2g5V2dBSlZqYXBOTUpKOFFQWmxUWWlBb21tTzdtZFFzVHFtTy1OeVNaU1o0b2ZneVFTQ0RHWDNWcUJQM2Q4Q00yWjlzVUFTSEdfMEFGS2VMWXItUVpseUdGNGwyS0Vmbi1NdjFHdzJXOFhVRURTUExCamZ4Ymx2M0ROa0d4ZnlPQnAwcElpLUxia25nS29sWExIVktfcGEtd1ZlTDlKUVpCSjRoX3hGZE0xak80ZnJTTWVmaVY4aFE?oc=5",
-    "source": "Milliyet",
-    "title": "FENERBAHÇE GÖZTEPE MUHTEMEL İLK 11'LER NETLEŞTİ! Fenerbahçe - Göztepe maçı bu akşam hangi kanalda, saat kaçta CANLI yayınlanacak?"
-   },
-   {
-    "at": "2026-10-31T09:38Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbGhFTmNVb0NEVEVweDZieHhxRGI4elN5QmQ3MTkxTWp4bEM3cWFVckx5OTlUVElNbTFPdEdZQ2UtTG5HMTcxU3haUktXaXJWalJkQjdiLXVycGVLR1pVYmluaEU5d1lxTjhUZE5EWHR4U2ZjbTdJUG8wTzFSRTVEdlg5WVk?oc=5",
-    "source": "Sporx.com",
-    "title": "FB Göztepe maç kadro fb bence ideal"
-   },
-   {
-    "at": "2026-10-31T08:41Z",
+    "at": "2026-10-31T15:31Z",
     "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPa0lnNjExazhBN24ydGZFekdaZ00xU0p5cEtnTXRwYU0xUG5XVXNYcWFFVHJSVGswX1RZVEkyU2cyMG9KNWp5d19DblpWMGRlRm5wanRzRFFCWXIweVZoSE50NHRxbG1xa3R1Wjgtb3dyaThaM21BMTJMcFkxZ19sOXZiM180ZzRVOHJpVHpLUVVWZnNpWXZvZFV2bnY4YmlGNWlZelNpMEM0N1RiOWZUY1NFOE9ERHNTb3BQMzBMSDJITXNWa3BYY2FQQ1lPeFhBcmoxemF4NUNyZUxiNFdZSlVDZENaaGV6SkhZ?oc=5",
-    "source": "Hasret Gazetesi",
-    "title": "Fenerbahçe - Göztepe Maçı Ne Zaman, Saat Kaçta, Hangi Kanalda, Nereden İzlenir, İlk 11'ler, Kim Yönetecek, Sakatlıklar, Eksiklikler"
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNDFvMldJWFZIVmJpX2UyY3BBU09mZXBmWnY3SE1ZSElIREV6Zld1TFJHbFRQUFc0UDIyeWVLTHhqdW9kbFdZbHpaekhrRlNsTkRuOGVOWTNybnJ0b180YlRFZVVuVGhxWjVhc0VJVllubHBKRDFlZFpIVGlyNmttMWlQYmRkNUdUNTViQ0lyZ1paVTg?oc=5",
+    "source": "TRHaber",
+    "title": "Göztepe maçında Greenwood neden yok, sakat mı?"
+   },
+   {
+    "at": "2026-10-31T15:29Z",
+    "eksik": true,
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTTNZTmxCQmRvYS1hQ3ZvNks1OUVlU1RUVUZMaXZDV09yYnpYLXcwVTV2dUJXU3NwMi0ycFlqOU1lbXYzTElqQ2lMQ3RoREVMRGVNT2JRN3ZwSVZKei1KaVd1c2piSVZMVHpLS1ZLOXlkN2E3dUlEdGxpS0NQMGx6T1FNRkVfTG95V0hrRjN3akNnUG9CUDB1MnRhcFdEVmJ3U0QtVTg2T1FRSVduamJES1NzbGYwMHQ0OXFnWXgtbVY3Vl9hLWh2c2hOTkl1SUxyaUFIbjN3?oc=5",
+    "source": "Son haberler",
+    "title": "Greenwood neden kadroda yok? Fenerbahçe-Göztepe maçında Mason Greenwood neden oynamıyor? İşte nedeni!"
+   },
+   {
+    "at": "2026-10-31T15:17Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1SzhPV2ktdmhQN3JjdTc0Qm1RMXBGSjVYcklCLUU3VUlELU1YY1ZQSkRYaHQzSlpyTmZkdVExbmF5Y0JHeTlZVkp3eUtMRzlMbjJkeFpFekptN1p5dXhPbVBGdldBMXAxMTdJVlBDYkl2Yk12Nm5jTkhMbWpPdXM?oc=5",
+    "source": "Genç Gazete",
+    "title": "Fenerbahçe-Göztepe maçının ilk 11'leri açıklandı!"
+   },
+   {
+    "at": "2026-10-31T15:12Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPN2kzVHFYUE92V2lMM0FqZldOTElkVlNqUXFUbjYtOEo1UEpBelNwSTBYUU8zYU16MGJSeE1RZDY5alVyMFN2ZC1CZGs0ZWg1VHBEUThoQnFFUnJzeENjRVpqWmJuNTNENE9YSFg4SjdPSFJOVmJfeHZxQ2NVSEpMeTNLRFRVaHdjVFJVMjIyS2xGUWwyRkJjRXlPV0dhVTVsMFdJVlFhR251Y3laOEtZMUNPMENUMUtPQTNEQ0d3WDZLZw?oc=5",
+    "source": "Türkgün",
+    "title": "Süper Lig'de Fenerbahçe-Göztepe maçında ilk 11'ler belli oldu: Dirk Kuyt'tan Lukaku kararı"
+   },
+   {
+    "at": "2026-10-31T15:11Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWC1XS3lGZ3N4dXhRdk1JNWV2dmZ5OXNtclhBdDVBTWFyZ2dJOFhJUWhObEJGX21hU3VTSFRpNWRIZ095Q011WFNJWXpNblF4RVFtWEM2Z1pNdUotby1BR3cxYlZrQUNGOWVBRWlkekY1THE4eGozbGFwTERvWTM2Q0t5ODhmZHIxU0I4eWxGY3RRNFE?oc=5",
+    "source": "Notbir",
+    "title": "Fenerbahçe'de kriz: Mason Greenwood Göztepe maçı kadrosunda yok"
    }
   ],
-  "fetched_at": "2026-10-31T10:48Z",
+  "fetched_at": "2026-10-31T15:35Z",
   "home": [
    {
-    "at": "2026-10-31T10:14Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVmszZ2xKa0tqdHlEeENBUDJSN2IyX25iTTdySGpGNWhzTFUxUnJWUWI0Tm9tYmNTQ216RVo5SHZYX000T0N5U1NkWmtQWHFIRGhaLWdwSEJSQUNtRDZfTWEyY3Ntak82TlVzWFpKcG90YjRqd0NIVWRBRmFUaThRWl9KQzhQbDdCcE5Cd1hPcEE4S0Y2N1U1TXV6M1p6YU5EcDlfQW1aeU9JN0pmZWlzbEMyMlJEYnM?oc=5",
-    "source": "www.superlighaberler.com",
-    "title": "Fenerbahçe'de transfer dönemi öncesi kadro değişiklikleri gündemde"
-   },
-   {
-    "at": "2026-10-31T09:46Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVGRwSkx1X19mdG10a1kwSjdNWm1ZWm43Nks3ZzZwdXNFUWZiVTlUTE9IZ2g5V2dBSlZqYXBOTUpKOFFQWmxUWWlBb21tTzdtZFFzVHFtTy1OeVNaU1o0b2ZneVFTQ0RHWDNWcUJQM2Q4Q00yWjlzVUFTSEdfMEFGS2VMWXItUVpseUdGNGwyS0Vmbi1NdjFHdzJXOFhVRURTUExCamZ4Ymx2M0ROa0d4ZnlPQnAwcElpLUxia25nS29sWExIVktfcGEtd1ZlTDlKUVpCSjRoX3hGZE0xak80ZnJTTWVmaVY4aFE?oc=5",
-    "source": "Milliyet",
-    "title": "FENERBAHÇE GÖZTEPE MUHTEMEL İLK 11'LER NETLEŞTİ! Fenerbahçe - Göztepe maçı bu akşam hangi kanalda, saat kaçta CANLI yayınlanacak?"
-   },
-   {
-    "at": "2026-10-31T08:41Z",
+    "at": "2026-10-31T15:29Z",
     "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPa0lnNjExazhBN24ydGZFekdaZ00xU0p5cEtnTXRwYU0xUG5XVXNYcWFFVHJSVGswX1RZVEkyU2cyMG9KNWp5d19DblpWMGRlRm5wanRzRFFCWXIweVZoSE50NHRxbG1xa3R1Wjgtb3dyaThaM21BMTJMcFkxZ19sOXZiM180ZzRVOHJpVHpLUVVWZnNpWXZvZFV2bnY4YmlGNWlZelNpMEM0N1RiOWZUY1NFOE9ERHNTb3BQMzBMSDJITXNWa3BYY2FQQ1lPeFhBcmoxemF4NUNyZUxiNFdZSlVDZENaaGV6SkhZ?oc=5",
-    "source": "Hasret Gazetesi",
-    "title": "Fenerbahçe - Göztepe Maçı Ne Zaman, Saat Kaçta, Hangi Kanalda, Nereden İzlenir, İlk 11'ler, Kim Yönetecek, Sakatlıklar, Eksiklikler"
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTTNZTmxCQmRvYS1hQ3ZvNks1OUVlU1RUVUZMaXZDV09yYnpYLXcwVTV2dUJXU3NwMi0ycFlqOU1lbXYzTElqQ2lMQ3RoREVMRGVNT2JRN3ZwSVZKei1KaVd1c2piSVZMVHpLS1ZLOXlkN2E3dUlEdGxpS0NQMGx6T1FNRkVfTG95V0hrRjN3akNnUG9CUDB1MnRhcFdEVmJ3U0QtVTg2T1FRSVduamJES1NzbGYwMHQ0OXFnWXgtbVY3Vl9hLWh2c2hOTkl1SUxyaUFIbjN3?oc=5",
+    "source": "Son haberler",
+    "title": "Greenwood neden kadroda yok? Fenerbahçe-Göztepe maçında Mason Greenwood neden oynamıyor? İşte nedeni!"
    },
    {
-    "at": "2026-10-31T06:59Z",
-    "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLTJwdUQtdTd6SlI2d1lEREEyZ1J6NE9ER2xoSkJQb0taOUJMSU00SWljV1RtTEhOX0NUbkJxWEFzLVNxczFRVHNNMUZPdFlUYlZ5WlZiQXJSckdSUC11eE9xVl8yNVRsZ0ttdlo0Rm5ZQ2VqQkprYmV0bDRKQkhnT0Y5Mmc4cG45U0dWamxBTEhyZ1FheThxZWZacEdheWQyVW5jSTE4Q2pzZDdqdkhJRkRNX2VLczVzY3o5ZHotOFJLZ9IBxwFBVV95cUxQSjRpTVZkTFdEdnE4ZTNQMjJpV0E1NnNmM0pYNklHaHlteGZ1MGRXSVVmUG5ob2lUTG1jZmptUmNxWG9WdDM1T1BFcDNabVRMWG9NbTM0VUxWSHRzVHJIWFZSX19DeXVJQ2ZUVTJjREE5TUJBTHQ2eDNzSkpaMkRuYjd4bC1pSHkwNXNHSmV4cVdwaXU2YThVdFB4V3o1bGlIZG1oMTRxNmY2SzdZeTRDWXdTUXJWN0twWGhJODVjQkhrcGF5dEFv?oc=5",
-    "source": "tv100 Haber",
-    "title": "Fenerbahçe'de İsmail Kartal 0 dakika ile resmen kadro dışı bırakmıştı! Kuyt duruma el koydu"
-   },
-   {
-    "at": "2026-10-31T04:10Z",
+    "at": "2026-10-31T15:17Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSklxcFRTUFdIWHNHeDFqZFROeWtXN05XZ2Q3VTVrd0NvQk9meXRoR29Icmp3aTdnbGVWRkI5Rm54U2FvNVI4NFRmV1JVZzJlVXZEcTNzLWpXbldlVGFISXB4WTFJMXI5cDdRVFh5cHVUQTFHNVBJaVZILXh3ZF96RUFjRmNIREFtUW9nN3gycTFqb2h3eVczQno2b1FsYjNMOHVxdkhxUVF4eVBkVlNsR3A0d1ltTUdTNnprX01mYmN5VjlYdXfSAcgBQVVfeXFMT010ZzVqUWZvQU02S2JlUFQtazJoakliN1RockE1R2tVT2dmQzFDOGw5VGN6am5IZEh0aWNxZUdvRk5oWVJLdVQ1Q2dZOWJTdFFxSWtUY2c4azFMRjlaVnFaMm54MFJVUTNHSDhmMml6MVl6UTRqM05hVVFwUHRNanFwbG5Ub0wzWVNJcjFwTDctaHpjcFVSWXk2SHJEOHRraVhMNzd4cWQ1MEJoYk9VOTQwUVNFOUVVdG5vSmVpNWVkNURDWkY5c3A?oc=5",
-    "source": "Sabah",
-    "title": "Dirk Kuyt’tan ilk 11 kararı! Fenerbahçe – Göztepe maçı ne zaman, saat kaçta, hangi kanalda?"
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1SzhPV2ktdmhQN3JjdTc0Qm1RMXBGSjVYcklCLUU3VUlELU1YY1ZQSkRYaHQzSlpyTmZkdVExbmF5Y0JHeTlZVkp3eUtMRzlMbjJkeFpFekptN1p5dXhPbVBGdldBMXAxMTdJVlBDYkl2Yk12Nm5jTkhMbWpPdXM?oc=5",
+    "source": "Genç Gazete",
+    "title": "Fenerbahçe-Göztepe maçının ilk 11'leri açıklandı!"
+   },
+   {
+    "at": "2026-10-31T15:12Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPN2kzVHFYUE92V2lMM0FqZldOTElkVlNqUXFUbjYtOEo1UEpBelNwSTBYUU8zYU16MGJSeE1RZDY5alVyMFN2ZC1CZGs0ZWg1VHBEUThoQnFFUnJzeENjRVpqWmJuNTNENE9YSFg4SjdPSFJOVmJfeHZxQ2NVSEpMeTNLRFRVaHdjVFJVMjIyS2xGUWwyRkJjRXlPV0dhVTVsMFdJVlFhR251Y3laOEtZMUNPMENUMUtPQTNEQ0d3WDZLZw?oc=5",
+    "source": "Türkgün",
+    "title": "Süper Lig'de Fenerbahçe-Göztepe maçında ilk 11'ler belli oldu: Dirk Kuyt'tan Lukaku kararı"
+   },
+   {
+    "at": "2026-10-31T15:11Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWC1XS3lGZ3N4dXhRdk1JNWV2dmZ5OXNtclhBdDVBTWFyZ2dJOFhJUWhObEJGX21hU3VTSFRpNWRIZ095Q011WFNJWXpNblF4RVFtWEM2Z1pNdUotby1BR3cxYlZrQUNGOWVBRWlkekY1THE4eGozbGFwTERvWTM2Q0t5ODhmZHIxU0I4eWxGY3RRNFE?oc=5",
+    "source": "Notbir",
+    "title": "Fenerbahçe'de kriz: Mason Greenwood Göztepe maçı kadrosunda yok"
+   },
+   {
+    "at": "2026-10-31T15:10Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNM1NIa0FNZm5oeWs1aFg1ZTB2S09VN3NhaHpKS1kzdXhOcGY0S2NTQ0pwbUdGVVBkaVRHc3d5cFJuNEFHbDRRbmh3MWtRcmNjLTNCQXkyQUNiTkVMdk1UVFBrNVdxT0JYdXhXYVZWMnJrTWhFdER3SnU1NE1oak5naFh4b2R6U0NMWmF2dmRocTN5V1J5?oc=5",
+    "source": "Haber Sunum",
+    "title": "Fenerbahçe - Göztepe karşılaşmasında ilk 11'ler belli oldu"
    }
   ],
   "kickoff": "2026-10-31T16:00Z"
@@ -1480,56 +1492,56 @@
  },
  "T1|2026-11-01|Amedspor|Eyupspor": {
   "ai": {
-   "at": "2026-10-31T10:48Z",
+   "at": "2026-10-31T15:35Z",
    "away": {
     "eksikler": [],
-    "ozet": "Eyüpspor'un Amedspor maçı öncesinde sakat veya cezalı oyuncularına dair güncel ve güvenilir bir bilgi bulunmamaktadır."
+    "ozet": "Eyüpspor'un bu karşılaşma öncesi eksik veya sakat oyuncularıyla ilgili doğrulanmış resmi bir açıklama yer almamaktadır."
    },
-   "hash": "93430a1a82bc",
+   "hash": "c3d915579e2c",
    "home": {
     "eksikler": [],
-    "ozet": "Amedspor'un Eyüpspor maçı öncesinde sakat veya cezalı oyuncularına dair güncel ve güvenilir bir bilgi bulunmamaktadır."
+    "ozet": "Amedspor ve Eyüpspor arasında 1 Kasım 2026 tarihinde oynanacak Süper Lig maçı öncesinde güncel sakat veya cezalı oyunculara dair güvenilir bir son dakika raporu bulunmamaktadır."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
    {
-    "at": "2026-10-31T09:35Z",
+    "at": "2026-10-31T13:03Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMURfdTlSdDhRUElLWk9ZZG9fTXE3V194UDJWRlE5cTdwSHRHWW1RMk5YZTFrNDUzaHJkYUtjcGxKcXdwcFdNY3ZvSmJhWEtLMWFJR2E2RHZKbjdfeGE4S1gzZ1pLV0FCbHg2UXJKZWQzMmc4dF9vUmZ2MTlVRzhfUlo5Rm9EZw?oc=5",
-    "source": "Gazetedetay",
-    "title": "Amedspor-Eyüpspor Maçının Muhtemel İlk 11'leri Açıklandı!"
+    "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNQk1zamFKRTJhV2JNamVvWDBmbElLeDk3bFhjNHk0UVF5aG1VaVhCa3JnVDZSX2FqYUFKZnRDOElFQkRyVUpaLUsyQkFSWkNtUHd3ejQ2N0FTTVVIajRCWWZ6bW5iNkJfNC1SSzl6aGdJMDFwMUpaOGdIaWpublpnbl80akNmT2I5aXpHTkNjVEFzdzlocUNEMHRKeEotMjNpREFRYW9kT2JySU1mVnVhaFBONWZMSW8wSVk1ZTFyMDFXUnp6V1FUNnl1dkFOYTJjYW5Cd2hadWJCMmRLTDFKOURudHBlT2s1dGdoYjZXVkRvSWZiUkNPcTZ2RU5jbXdobnJjSQ?oc=5",
+    "source": "CNN Türk",
+    "title": "AMEDSPOR-EYÜPSPOR MAÇI CANLI İZLE | Amedspor- Eyüpspor maçı ne zaman, saat kaçta, hangi kanalda? Amedspor- Eyüpspor maçı nerede oynanacak?"
    },
    {
-    "at": "2026-10-31T08:32Z",
+    "at": "2026-10-31T12:59Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ1BVcEc3SjR6OGh0ay1BS1pNNUFsb3FSUktqYWJWV2Q5SzBaN1ByNHBGSEdCZUt3RU5odXpyc3pUc1VNeEdIdWRuTHprQ2tyemp6enF3NG9aMk82Mzl3ekN5QVBVUnNGMUNxNWZlRVB3SmVBZ0NuV0pWTXZKaDlTeUFzaFpwWHBxT1BCMnNVaUdQaHFkOWRzLTBn0gGaAUFVX3lxTFBnUFVwRzdKNHo4aHRrLUFLWk01QWxvcVJSS2phYlZXZDlLMFo3UHI0cEZIR0JlS3dFTmh1enJzelRzVU14R0h1ZG5MemtDa3J6anp6cXc0b1oyTzYzOXd6Q3lBUFVSc0YxQ3E1ZmVFUHdKZUFnQ25XSlZNdkpoOVN5QXNoWnBYcHFPUEIyc1VpR1BocWQ5ZHMtMGc?oc=5",
-    "source": "Tigris Haber",
-    "title": "Amedspor - Eyüpspor maçında rehavete yer yok!"
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6anZ3aVA2N3hjUTNhMGtlMDgtSkZwaTdQNXVXS3FSOGJNWmNEa2x4SG11T193NnJ5NV9fUFRxbWlFby13M3pBYnhtb0h2NzhzaDFlUE5BNkg4OVpMNHZweEVPSFdBekZuZTlrUQ?oc=5",
+    "source": "https://www.ensondakika.com.tr/",
+    "title": "Futbol: Trendyol 1. Lig"
    },
    {
-    "at": "2026-10-31T06:37Z",
+    "at": "2026-10-31T12:59Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcWtqWXBpRmVINENYXzVDOVBkWmxWZjZLMmJpWUhhZndheWRiUTl1TGliQUlqQ0FOR0NwQ0pQc3hIelBuemVsNXY0V2x4Y2xtakliVEFUUDBHX0laQ0h6MUFrbFdmN0lzV1VkVDNpeURtaGV1MG9kUE03dFlWeHp5QWpfMzBqWVJqUkFUaHB4Z1NkOHYzQ0pLRWZMY184QnRPRUVHRVlyVU5PSF81OVFUWEtGQWtGVDlrRE04aW5qTXlxTERlYXVUWXpQVC0xcXMzVk1F?oc=5",
-    "source": "Evrensel",
-    "title": "Kendi sahasında 28 maçtır yenilmeyen Amedspor, yarın Eyüpspor karşısında da seriyi sürdürme peşinde"
-   },
-   {
-    "at": "2026-10-30T12:35Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUVdiWGFXdUlzU080aUh3bDI2NUdUZk1BZGpOVVJSdkcyNW1DRC1xZ1hPbEczTEQxdmVWVmEzMm9IZTh6ekRmS05iMTZwT3FYWXJUU0ZMQ3hZeGFBNWloTU9ISFlCQU55cDJMM3RBVWp6ODgwYS1pd1M5aHZYSWF5VE1JVW1FaVRKTFhISjVR?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV0x2YU44dVYxNHZubU16NTRmaGN4V1NpdVRSblVuc290WGxMSXhYak5jSEdQWEdyNDNBNnVHSTV2Q09yRWUyVU9ZaEFhdUFpV3ZSSVR5QkRVV0dhS24wYzJuaDFEUi0tdWs1YnlabENGWVlFV0Nab25SczA3cFJuV2tUdnNyUFBpc19kQ0JyemREQQ?oc=5",
     "source": "Canlı Gaste",
-    "title": "Amed Sportif, Eyüpspor maçı hazırlıklarını sürdürdü"
+    "title": "1. Lig’de Vanspor, Sarıyer’i Akhisar’da 1-0 mağlup etti"
    },
    {
-    "at": "2026-10-30T12:07Z",
+    "at": "2026-10-31T12:49Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Cbzd1WHRkYVdFQzAzblBSMzcxb2lxb05ibGY4cnNaZ194MGs3bkFjNDBQXzBVNzExR3BpY0V2NkhsRlRZVE5GQUNuczJlUWZMb1k5RHFRckd2MFBZMzJSSWhCeDQyc2J6ZVh4VWln0gF7QVVfeXFMT2Q2d1kwUFdDTjl6Z1ZZNklhZWFkMzNFbXRVLWsxQmFIUGJXd3BVa2xxVjJmTnZWUUpBQTB5QnJfZm1WN2x6M0lvbzhRcWxydmQ1TDVlaVNES2VrbVM1eTY5V0hMd2QzdE1JY3BWeEJqZEJ2dTRzZHM4UDFB?oc=5",
-    "source": "Futboo.com",
-    "title": "Amedspor - Eyüpspor Hangi Kanalda? Maç Saati ve Yayın Bilgisi"
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMktKbXB4SjBSTFBvNWd1dkdnNks1U3cwb2plZXI1bl91b0p5TldXd2QtbEhIdy1IeFJUelpTNDNDXzdlRVhuZFNpdFlBN2ZTdUdqd0huUjc2UW53Zkw5eXh2LUtKZ25aMjlPcTJoQ2J6RXM5RFVyeTJ2aHhoeVF4TzlJckQ4ZGlQSURLSVpMdkhubXIzeVphdEYtbENSNEtvODBuNWJJUFBoVXYyTkN5Mmk2bDRESmlmWHVpUk9yN3lsR1E?oc=5",
+    "source": "Canlı Gaste",
+    "title": "Azerbaycan, Feridun Sinirlioğlu’nun BM Genel Sekreterliği adaylığını memnuniyetle karşıladı"
+   },
+   {
+    "at": "2026-10-31T12:49Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX25uN1hyMmZ3a0t1NnJxTzZBcTI3VFhHdEllRzVyRnBBS2NWS3JMV1pCNDhBVTdpWkE1d05FbFhyTFg4MV9Na25PeGg1NkxpSlZ4T0VISE9NdUFFTlY1djRMUUdGUG43Q2dHbEczSzF3YWdPNjlnTDdiSUVVTHJnSnl2akNPUUR1MDJqVw?oc=5",
+    "source": "Canlı Gaste",
+    "title": "Ukrayna Devlet Başkanı Zelenskiy İstanbul’a geldi"
    }
   ],
-  "fetched_at": "2026-10-31T10:48Z",
+  "fetched_at": "2026-10-31T15:35Z",
   "home": [
    {
     "at": "2026-10-31T09:35Z",
@@ -1544,20 +1556,6 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ1BVcEc3SjR6OGh0ay1BS1pNNUFsb3FSUktqYWJWV2Q5SzBaN1ByNHBGSEdCZUt3RU5odXpyc3pUc1VNeEdIdWRuTHprQ2tyemp6enF3NG9aMk82Mzl3ekN5QVBVUnNGMUNxNWZlRVB3SmVBZ0NuV0pWTXZKaDlTeUFzaFpwWHBxT1BCMnNVaUdQaHFkOWRzLTBn0gGaAUFVX3lxTFBnUFVwRzdKNHo4aHRrLUFLWk01QWxvcVJSS2phYlZXZDlLMFo3UHI0cEZIR0JlS3dFTmh1enJzelRzVU14R0h1ZG5MemtDa3J6anp6cXc0b1oyTzYzOXd6Q3lBUFVSc0YxQ3E1ZmVFUHdKZUFnQ25XSlZNdkpoOVN5QXNoWnBYcHFPUEIyc1VpR1BocWQ5ZHMtMGc?oc=5",
     "source": "Tigris Haber",
     "title": "Amedspor - Eyüpspor maçında rehavete yer yok!"
-   },
-   {
-    "at": "2026-10-31T06:37Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcWtqWXBpRmVINENYXzVDOVBkWmxWZjZLMmJpWUhhZndheWRiUTl1TGliQUlqQ0FOR0NwQ0pQc3hIelBuemVsNXY0V2x4Y2xtakliVEFUUDBHX0laQ0h6MUFrbFdmN0lzV1VkVDNpeURtaGV1MG9kUE03dFlWeHp5QWpfMzBqWVJqUkFUaHB4Z1NkOHYzQ0pLRWZMY184QnRPRUVHRVlyVU5PSF81OVFUWEtGQWtGVDlrRE04aW5qTXlxTERlYXVUWXpQVC0xcXMzVk1F?oc=5",
-    "source": "Evrensel",
-    "title": "Kendi sahasında 28 maçtır yenilmeyen Amedspor, yarın Eyüpspor karşısında da seriyi sürdürme peşinde"
-   },
-   {
-    "at": "2026-10-30T15:53Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORG8wOUpFSThHaUpMR0pQWVFfTzRjM0pYQUNveGhYVEktZXA3UjdLeGw0OF9vTThoY3NTbVVnV1dmX2o2Zkt0bGxwMkpfRW8xU0s2eWRQOWJwVmFTUE1raXM0OExOcXZsTUVTNDBlMDF3aW5VS2xnS2lYRVpTQTIxRDJnN3BLU3FOMndrRFpxN1Z3OGlISW5PNHhfZUI1TjA1SWFZZ1hhdw?oc=5",
-    "source": "Amed TV",
-    "title": "Galatasaray'da Amedspor maçı öncesi alarm verildi: 3 yıldız sınırda!"
    },
    {
     "at": "2026-10-30T15:50Z",
@@ -1565,69 +1563,90 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQN3drLWFoUUlmendWT2U4ZkROZnc2aEtGOVdxNjZwUHppUTFQQTVpcHNRUG15MFhHZjZUaFV5aUFKOGhtNUxITkxscG8wOVJWVkNtbElyaW1sTVRUZXY5Tl9BSVRVT2w5QlB2alpfUXc3dWdrTDVaWG5kVG1wOFptTnotMDZadWo5YTRLWXpVdEVzaDIwZ3pkb1BBVnE0ajE4eVJxc3pRMlNfTEcxNkZzVzlrZVZHT2ZGY1E?oc=5",
     "source": "Diyarbakir.Net",
     "title": "Amedspor maçı öncesi Galatasaray'da endişeli bekleyiş: Üç yıldız risk altında"
+   },
+   {
+    "at": "2026-10-30T15:19Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU0dOOUo5anJMd21RZF9ZM20xelJ4aW52NF9LM09OWGtQOVg1ZEhLM216Q09hVmliNzNpR0REbGx6ZTMtMldRVWJNRFplSHZrdTNuMmFJQ2tROUpWOHJGaUZSOTJ5MnV6eTVsbURyWDVQSGY3ZFlxRHVBMWVodFZ0UHJLMDdzX05CVnkxbQ?oc=5",
+    "source": "Mücadele Gazetesi",
+    "title": "Galatasaray'da Amedspor maçı öncesi kırmızı alarm!"
+   },
+   {
+    "at": "2026-10-30T14:57Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY0VOSE5SdG1ySG5aNnR1WmxMVTcwME5SWlB1WXBrWkZaVWhnTDZwSk9VSW54cGh1dGdJQkdJM1N5d0QzWlp6dU4xOFRkTFphZE8xbHJCaTl4YVc3azNPWjV1d3Bib24tNXdSbG0tbDVoaVh5WUQwS1BYTGdyRE50VC1mT09CZUU?oc=5",
+    "source": "kayserihaber.com",
+    "title": "Galatasaray'da Amedspor maçı öncesi büyük tehlike! Okan Buruk 3 yıldızını uyardı"
    }
   ],
   "kickoff": "2026-11-01T10:30Z"
  },
  "T1|2026-11-01|Buyuksehyr|Samsunspor": {
   "ai": {
-   "at": "2026-10-31T10:48Z",
+   "at": "2026-10-31T15:35Z",
    "away": {
     "eksikler": [],
-    "ozet": "Samsunspor'da bu karşılaşma öncesi bildirilen önemli bir eksik bulunmuyor."
+    "ozet": "Samsunspor'un Başakşehir maçı kamp kadrosunda eksik veya sakat oyuncularla ilgili son günlerde basına yansıyan net bir resmi eksik bilgisi yer almıyor."
    },
-   "hash": "616dd8738b22",
+   "hash": "866c53abcef7",
    "home": {
     "eksikler": [],
-    "ozet": "Başakşehir'in bu maç öncesinde resmi sakat veya cezalı oyuncu bilgisi güncel kaynaklarda yer almamaktadır."
+    "ozet": "Başakşehir'in bu maç öncesinde eksik veya sakat oyuncularına dair güncel ve net bir resmi açıklama bulunmuyor."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
    {
-    "at": "2026-10-31T10:00Z",
+    "at": "2026-10-31T13:16Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdEZuTl95U2FIZVo4WnROcjZTclRTLUZiZXNUUUVuUzNESlk0cXMzSkw1cUplcUFmak9FSUxRd1djbmJ4WFBweF8tajRMOWdKZHJjclhkQ2hmSnkxcjd2cW1xMDJKYVVSeWdCZkRPT3VVRENwOGI0Y0Y4MkRGNm1yb21xZjdhZlQ5VjVMc2JwRUFpeEFyRTlEQTJKbmg1Yzl6d0FN?oc=5",
-    "source": "Haber Dairesi",
-    "title": "Konyaspor’da Deniz Türüç gelişmesi! Samsunspor maçına çıkamayacak"
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQVN4WWUzLS15Yng5SGg3bVdRUVlEZEJlSFhKUmoyNXdjQkxfUFZYYWVjb2M3XzJpSWZaWFJaeXV0bjlzN0RzQUFmUnJfNWJ5dDhjYzMtSFptMy11V05OMjhmRHJzc2hBRzJ4Rk1Jajh0WWE4TnM1WTFZNmJXN3FPVG94Uzh6NDZCM0VFWlJxbWx5OE5KVmhOazZqa2h3dw?oc=5",
+    "source": "Canlı Gaste",
+    "title": "Samsunspor, Başakşehir deplasmanı için hazırlıklarını tamamladı"
    },
    {
-    "at": "2026-10-31T07:23Z",
+    "at": "2026-10-31T12:41Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcUdxZnh0bHBpWE5uUGZlRnlxeVRsb2ZWTUZzUnRxd2lVV0lNdHVfREx1c1ZMV1U2eEZOUmVFakREU0RERVJucUc5d25EV1hoREJzQkhiOUxoZXFHMG1zaDVYeWs4aEVXLWxiY0RnWFlTZ0FiUEpPa29XRDVOSUN4R25MdXdKVWFUdDdB0gGOAUFVX3lxTE5oNXFfVFhDX3hpUzlIcmk3LTZMWTY1RmFHd3E2d2tkdlFxT1daT3p6MUtPTXg0ekxjYnNwR1F3WHJIZFRROFR2Z2dGZnQwVjNsNV82Z2ZER0FoaWF2NFJmQm9ObzUxSE4wOTB0MDd2VjduVXJkSFFCNGNLeU94TVBHNDZ1MkpTTF9yc0lUM2c?oc=5",
-    "source": "Sabah",
-    "title": "Samsunspor, Başakşehir'e konuk olacak!"
-   },
-   {
-    "at": "2026-10-31T07:20Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DWUZyOWJRNmtVRDNEd25Mcm1XMjdzcXJwUnZxdTRhQkRRcTlOR2FNMTBMR0t0WnFrLW12TDBQOU55UGRXZFFnb2J4anpwak5pS2FXOWZsQXZVR1I2WExVbW03UWpFMmU1R1FCWEczTnRZWnNuRnNhQVhB?oc=5",
-    "source": "Manşet Haber",
-    "title": "Samsunspor zorlu Başakşehir deplasmanında"
-   },
-   {
-    "at": "2026-10-31T07:14Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeW04YnVtcXJjbGExQzV6N2RORkxxSUozcTlDMm5kaFdFbENyS25jb1NMUGNwNFhyTWNvS2o2bEJOZUVoYUlPdXROdWN6aHZxNklHbnBjcm1MYlBrSGh1eDRkMUZPa01nMktKd0dlQzdqbzV3T3RmSEdyZWV0aEJXeGd4QTM3Zw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xMzd4WW1abDJ2Q1JJTFZnd3d1ZVJnbElfT2s5WmlSWmxaZ3ZGd2xPUmQzbDZSc1poWmhLY1NQUmk5UjNDRG5DYlJfc1JZS2QwMWg5WnR5a1g1ZDgtOHkzQm85MjdveEgwcGdHXzhIZkVIenZ5YUQ1V3JB?oc=5",
     "source": "Gazete Arena",
-    "title": "Erakovic, Başakşehir karşısında ilk 11’e göz kırpıyor!"
+    "title": "Samsunspor galibiyet için İstanbul yolcusu"
    },
    {
-    "at": "2026-10-31T07:02Z",
+    "at": "2026-10-31T12:18Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTHJHOVV5YVFFRHFKc05pV0g3N1dDcWxSX3kxS1JUUjlWSkZZeE5NcGVmZjNsODJsS3dLTHI0SVRBck5RUHhEN3NCWm5GWWlzQ01HUHNSRWVZNkpaQ2ZKMmZNODhHY0hZbl9yNXNTclBKbDhsemI4Rk5yVGp2MEJHbFlXWXZwUHctWXV4d1hpYUJqN0lKQ1ZLUlFsMTcweFE?oc=5",
-    "source": "Gazete Gerçek",
-    "title": "Samsunspor, Başakşehir ile karşılaşacak İşte muhtemel ilk 11"
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWnZYRGZFeE1SejRJYmdjSzRPdGVJSFRwTFZOTUFZaGRHNzBnMmxhQzRkdWdlY1hwVC01S3pXUHNmeV9tTjZTd0Y4ck9wLVhNeUJCX3NuckNyQkQzcWFxTk1Xajlrd2ZxOVZSUnZjT0VIZnJOSFFyRDVHMjEtMkRLWW5HR2NFMkJISU1Mb0FXeE50OXRrTWc?oc=5",
+    "source": "Kanal 362",
+    "title": "Samsunspor'un Başakşehir maçı kamp kadrosu açıklandı!"
+   },
+   {
+    "at": "2026-10-31T10:20Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRUE0V0JBR2NmdklsWXh6ZnRWdzRjalFkeHg4b1dWTjdJR0FWT0tvT1lPbjdhVEZEemZFWWo3NHhsYWtJMnY0SzdPLTdDQk5za001Q2JxUTVGa3c3a21iUTNaLWxlMWY3ZlZyQ041QUdxWVlfYzJjRFZPa055aGxSb3JDdHhjZGpOWWxRai1wbnMzTTQweGNJWlBINkZmSzNQTFNoTkttd0tkcXFyV0liWkpNdENvT0JpT0I1UDd30gG-AUFVX3lxTE9FQTRXQkFHY2Z2SWxZeHpmdFZ3NGNqUWR4eDhvV1ZON0lHQVZPS29PWU9uN2FURkR6ZkVZajc0eGxha0kydjRLN08tN0NCTnNrTTVDYnFRNUZrdzdrbWJRM1otbGUxZjdmVnJDTjVBR3FZWV9jMmNEVk9rTnlobFJvckN0eGNkak5ZbFFqLXBuczNNNDB4Y0laUEg2RmZLM1BMU2hOS213S2RxcXJXSWJaSk10Q29PQmlPQjVQN3c?oc=5",
+    "source": "kayseri gürhaber",
+    "title": "Samsunspor Başakşehir Karşısında Kötü Gidişatı Durdurmak İçin Sahaya Çıkıyor"
+   },
+   {
+    "at": "2026-10-31T10:01Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTTVQZFprTjBvVDJpN0JGemNLRTZ6bERveUNlZzhyU2NyN2tnZElXTTZockozYmttdVRMeU16YmpocHBIcXVwSjh0Z1ZKZzZwaWdMcVN3MkVseGxTY0I3RUduWEVoZ2JvSmNCLXc0ekJwMDlhZGp2ZXhFajlSUTE1TktPNjJOSnNnQml4V2FLQUFJYWRVak1VXzhtMTRkMjdpSXV2T2dRWQ?oc=5",
+    "source": "Samsun Kent Haber",
+    "title": "Bjelica Başakşehir hedefini açıkladı! 3 puan ile Samsun'a dönmek"
    }
   ],
-  "fetched_at": "2026-10-31T10:48Z",
+  "fetched_at": "2026-10-31T15:35Z",
   "home": [
    {
-    "at": "2026-10-31T10:27Z",
+    "at": "2026-10-31T12:23Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVklYRVNJaGx6enA3cndHaE9mRVlMNnRvYUxtdDRmWjMzbDNiSmswOFZ2dU9wN0hIczRWSEVIRVl4VTM1SENQXzVQbVYwcGd1MGJOdFRHMzdkWEpxVk9VZDRhUXVBSm1yUnk0bWgtX056U21TMm1wSXVhR2Zwd1VpOXh5T1V4a1Yt?oc=5",
-    "source": "Düzce TV",
-    "title": "Kasımpaşa ile Beşiktaş, 47. randevuda"
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSGpQRmMxSG8xMzA4b0p0Mmt2RVVjeERnOVVoeEc3WHBoamtNUHhYbktwc0pBdk41NzVtVUc3ZnNzTkJ1ZHpGTDY0cVJjVEJCOHFrcmVpbm9UNXFEaWFnOXpEMFNXSlJNdllQWHRic2EtVGsxZEVheDJFMW0xUDdDdGpyLTh3cmc?oc=5",
+    "source": "Gazete Arena",
+    "title": "Samsunspor’un Başakşehir maçı kamp kadrosu belli oldu"
+   },
+   {
+    "at": "2026-10-31T10:20Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRUE0V0JBR2NmdklsWXh6ZnRWdzRjalFkeHg4b1dWTjdJR0FWT0tvT1lPbjdhVEZEemZFWWo3NHhsYWtJMnY0SzdPLTdDQk5za001Q2JxUTVGa3c3a21iUTNaLWxlMWY3ZlZyQ041QUdxWVlfYzJjRFZPa055aGxSb3JDdHhjZGpOWWxRai1wbnMzTTQweGNJWlBINkZmSzNQTFNoTkttd0tkcXFyV0liWkpNdENvT0JpT0I1UDd30gG-AUFVX3lxTE9FQTRXQkFHY2Z2SWxZeHpmdFZ3NGNqUWR4eDhvV1ZON0lHQVZPS29PWU9uN2FURkR6ZkVZajc0eGxha0kydjRLN08tN0NCTnNrTTVDYnFRNUZrdzdrbWJRM1otbGUxZjdmVnJDTjVBR3FZWV9jMmNEVk9rTnlobFJvckN0eGNkak5ZbFFqLXBuczNNNDB4Y0laUEg2RmZLM1BMU2hOS213S2RxcXJXSWJaSk10Q29PQmlPQjVQN3c?oc=5",
+    "source": "kayseri gürhaber",
+    "title": "Samsunspor Başakşehir Karşısında Kötü Gidişatı Durdurmak İçin Sahaya Çıkıyor"
    },
    {
     "at": "2026-10-31T10:01Z",
@@ -1637,50 +1656,56 @@
     "title": "Bjelica Başakşehir hedefini açıkladı! 3 puan ile Samsun'a dönmek"
    },
    {
+    "at": "2026-10-31T09:56Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMENmYjBwUkp5QlVPcmZiZUJfWGVwdEdVMVIxcnRTV1dPenZPY3hlbTBsTWphbDB5N3N5b045SnhJbWlxcElyeW44NklJeThEUTZLTDdIalNWS0J6TTgtYU1BNWl3eVNRR0xNem4tc0w0OUlqaC1FdHhoUGh5RC02QmVrZ3RwLWUwMks0UHJqXzJqT2pzcWFNeEFPV0ExVk5GcGNURmQ0bXU0am91YnFzeWlIWnFfRmxZVDdrVGlaQdIBvwFBVV95cUxNMENmYjBwUkp5QlVPcmZiZUJfWGVwdEdVMVIxcnRTV1dPenZPY3hlbTBsTWphbDB5N3N5b045SnhJbWlxcElyeW44NklJeThEUTZLTDdIalNWS0J6TTgtYU1BNWl3eVNRR0xNem4tc0w0OUlqaC1FdHhoUGh5RC02QmVrZ3RwLWUwMks0UHJqXzJqT2pzcWFNeEFPV0ExVk5GcGNURmQ0bXU0am91YnFzeWlIWnFfRmxZVDdrVGlaQQ?oc=5",
+    "source": "Aksiyon.com.TR",
+    "title": "Samsunspor toparlanma arayışında: Başakşehir deplasmanında kötü seriyi bitirme hedefi"
+   },
+   {
     "at": "2026-10-31T07:51Z",
     "eksik": false,
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQV9UTFpZclFsNHRVdGxISlVTSS1HVkJKRTNiQmVLdnQ0TVdGeEFvTVktalRUVGRIZXhNZGlJdk5HZ1F6dFpKWU51MW9xWGhIS2ItR3h3U0M1bG9ZQ2VtVGFqdk9JQi1EZGczakRUVV9yVXVaSldwR001ek1mWTAwNGJqM3lLZw?oc=5",
     "source": "Gazete Arena",
     "title": "Samsunspor'da Başakşehir karşısında parola galibiyet!"
-   },
-   {
-    "at": "2026-10-31T07:23Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcUdxZnh0bHBpWE5uUGZlRnlxeVRsb2ZWTUZzUnRxd2lVV0lNdHVfREx1c1ZMV1U2eEZOUmVFakREU0RERVJucUc5d25EV1hoREJzQkhiOUxoZXFHMG1zaDVYeWs4aEVXLWxiY0RnWFlTZ0FiUEpPa29XRDVOSUN4R25MdXdKVWFUdDdB0gGOAUFVX3lxTE5oNXFfVFhDX3hpUzlIcmk3LTZMWTY1RmFHd3E2d2tkdlFxT1daT3p6MUtPTXg0ekxjYnNwR1F3WHJIZFRROFR2Z2dGZnQwVjNsNV82Z2ZER0FoaWF2NFJmQm9ObzUxSE4wOTB0MDd2VjduVXJkSFFCNGNLeU94TVBHNDZ1MkpTTF9yc0lUM2c?oc=5",
-    "source": "Sabah",
-    "title": "Samsunspor, Başakşehir'e konuk olacak!"
-   },
-   {
-    "at": "2026-10-31T07:20Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DWUZyOWJRNmtVRDNEd25Mcm1XMjdzcXJwUnZxdTRhQkRRcTlOR2FNMTBMR0t0WnFrLW12TDBQOU55UGRXZFFnb2J4anpwak5pS2FXOWZsQXZVR1I2WExVbW03UWpFMmU1R1FCWEczTnRZWnNuRnNhQVhB?oc=5",
-    "source": "Manşet Haber",
-    "title": "Samsunspor zorlu Başakşehir deplasmanında"
    }
   ],
   "kickoff": "2026-11-01T13:00Z"
  },
  "T1|2026-11-01|Kasimpasa|Besiktas": {
   "ai": {
-   "at": "2026-10-31T10:48Z",
+   "at": "2026-10-31T15:35Z",
    "away": {
-    "eksikler": [],
-    "ozet": "Beşiktaş'ta maç öncesi kadro durumu ve olası eksikler hakkında güncel resmi bir açıklama yer almıyor."
+    "eksikler": [
+     {
+      "neden": "sakat",
+      "onem": "kilit",
+      "oyuncu": "Orkun Kökçü"
+     }
+    ],
+    "ozet": "Beşiktaş'ta Orkun Kökçü'nün sakatlığı bulunmakta olup, Kasımpaşa maçındaki durumu belirsizliğini korumaktadır."
    },
-   "hash": "7d2ff978939a",
+   "hash": "81fb053c0238",
    "home": {
     "eksikler": [],
-    "ozet": "Kasımpaşa'da bu maç öncesinde öne çıkan önemli bir eksik veya sakatlık raporu bulunmuyor."
+    "ozet": "Kasımpaşa'da Kasımpaşa-Beşiktaş maçı öncesinde raporda yer alan önemli bir eksik veya sakat oyuncu bulunmamaktadır."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
    {
-    "at": "2026-10-31T09:59Z",
+    "at": "2026-10-31T11:30Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTU91RS1QdlhhUDdZSHVubndJbElxM3kxUTZIWGgwX2xOcTNVTTFabC1haGoxbEZFQURCNkNGeWZMMzBIN05aVjF0ZzFpZ0dkRndsaVBzclVXWVdDeFlLcHBjbFNPNWNmR05OODVQbkZEOTJTeEEwTkV4WkFhWnJzNk5zNWk4alFfTVM5bTFnX1o4bkxfNFhnUFBNeXBRSjdrU0ZrV1IwM3hHb2kyQktSamFOejJIWEFrdktsb3BJZUt6eGPSAcMBQVVfeXFMUE1PdUUtUHZYYVA3WUh1bm53SWxJcTN5MVE2SFhoMF9sTnEzVU0xWmwtYWhqMWxGRUFEQjZDRnlmTDMwSDdOWlYxdGcxaWdHZEZ3bGlQc3JVV1lXQ3hZS3BwY2xTTzVjZkdOTjg1UG5GRDkyU3hBME5FeFpBYVpyczZOczVpOGpRX01TOW0xZ19aOG5MXzRYZ1BQTXlwUUo3a1NGa1dSMDN4R29pMkJLUmphTnoySFhBa3ZLbG9wSWVLenhj?oc=5",
-    "source": "Ege Gündem",
-    "title": "Italiano'dan Kasımpaşa maçında sürpriz.. Italiano'nun kadro seçiminde işi zorlaştı"
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMFJJOE5fZzFOekNhTklELWctS282cDJVWmd0Z18zeFd5MWg4RzlzQmlNV0NSUVdMU0RtemRlQTNXNnQ0MEViYm5yOFp1NlJPdmxzX2x2ejRrNXBNLWh5V2ktbnAwc1h0TFFhenhBenFpNFo3TWVCcFEzZHluc24wVER0QkV6NzV1NkVLbnp3?oc=5",
+    "source": "Hamle Gazetesi",
+    "title": "Kasımpaşa-Beşiktaş maçında 47. randevu! İşte son durum"
+   },
+   {
+    "at": "2026-10-31T11:05Z",
+    "eksik": true,
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONnVLdmlpMnVNUXhBRmxBRURFMlRJMVNVd3lfLUMzd0dFYzE3eWhhVUkyXzQ0YmNWMXNvdGk4MDBDaTNleGZGd3hkOTAzUlZaaC1TSEFpOUJWYV9YSDZXM3FVWlc0Zy1tY3U1eFRJRVc2c0xXTFRHVWYtb1pKaTFqb2J3ZjR2SlpSSGs2Qm1rTnp6NUxzY2FjVUd5LWdXY2VqLUxUWEp5TzhWbk9YcWVUVGZydW9ENE9BYnJsNw?oc=5",
+    "source": "Kanal 46",
+    "title": "Orkun Kökçü Kasımpaşa Maçında Var mı, Neden Yok? Beşiktaş'ta Sakatlık Şoku ve Sahalara Dönüş Tarihi"
    },
    {
     "at": "2026-10-31T09:54Z",
@@ -1690,13 +1715,6 @@
     "title": "Orkun Kökçü Kasımpaşa maçında oynayacak mı, kadroda var mı? Beşiktaş'ta sakatlık durumu ve dönüş tarihi"
    },
    {
-    "at": "2026-10-31T08:44Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTXZWS2otb2VPdDZUeTVBQ1ZnRHBNMGxseDlFWlMyMVpubUxNT3lwOXZqYW5wY2dRWUZwSFNyVWFGb05fQmFXZlpOaWdQNjcxcWVyVnhjRFR3TXF2RVZWd1Z0cW5kVEI3SVZBTnc5M2dqSTJwaVBJZFNzYmhkRVNtUGVCbVdqdzJDdm5vZlRGaXo?oc=5",
-    "source": "İşçi Haber",
-    "title": "Beşiktaş'ta Kasımpaşa Maçı Öncesi İki Kritik Eksik"
-   },
-   {
     "at": "2026-10-31T08:35Z",
     "eksik": false,
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcW1aeWR2OFMtd3JDQ0FCZjl0VFBMajdFRlBEeUFQa0J2QXFKRkRLc3JUeV9yRGtOUmRIQVN6WWRrX0RQX2hscnNuMThwY1JDQjNWSnptaGplNmlFT0REeDBRSndZbFRrM1ZFdG5MaHFKODN1TENRT3RwdEs0TTFmSEpvYzBGMXpVaHJBczEycEZad253T2RSQnVLUQ?oc=5",
@@ -1704,151 +1722,140 @@
     "title": "Beşiktaş'ta ilk 11 için büyük reekabet! Gözler Kasımpaşa maçında"
    },
    {
-    "at": "2026-10-31T08:07Z",
+    "at": "2026-10-31T08:03Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ma1VaZjcwSE1uWFlVZGwtV21BRWVuQlQyLTh5RXRJeVdYTjRLdVB4cWltWXloTmlxdzk3eVB0M2JQdW9NMmJ5c2U4MjJSZjdjOW9XSno5VdIBV0FVX3lxTE1ma1VaZjcwSE1uWFlVZGwtV21BRWVuQlQyLTh5RXRJeVdYTjRLdVB4cWltWXloTmlxdzk3eVB0M2JQdW9NMmJ5c2U4MjJSZjdjOW9XSno5VQ?oc=5",
-    "source": "Mersin Haber",
-    "title": "Kasımpaşa İstanbul'da Beşiktaş ile 47. Randevusuna Çıkıyor"
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYlh3NEVWd1ZUTWFJY1JGRlM5UlNzel9kVl9BOXg5b3hWdmxIeG1NcGw0cXVWY2JRUnRKUWJzZUYyWk01Qk5KSnhtX1FGdEF6WkVNUWFhRDR0TS1STENXNS1iNUNCU2x5aDE4ODE1YjZlQXVkVm0wQ1pKTjJBd3FQV0NYQXM4MXd0SFpkLXo5U2NuT19VWEdj?oc=5",
+    "source": "Canlı Gaste",
+    "title": "Kasımpaşa-Beşiktaş yarın Süper Lig’de 47. kez karşılaşacak"
    }
   ],
-  "fetched_at": "2026-10-31T10:48Z",
+  "fetched_at": "2026-10-31T15:35Z",
   "home": [
    {
-    "at": "2026-10-31T10:27Z",
+    "at": "2026-10-31T14:58Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVklYRVNJaGx6enA3cndHaE9mRVlMNnRvYUxtdDRmWjMzbDNiSmswOFZ2dU9wN0hIczRWSEVIRVl4VTM1SENQXzVQbVYwcGd1MGJOdFRHMzdkWEpxVk9VZDRhUXVBSm1yUnk0bWgtX056U21TMm1wSXVhR2Zwd1VpOXh5T1V4a1Yt?oc=5",
-    "source": "Düzce TV",
-    "title": "Kasımpaşa ile Beşiktaş, 47. randevuda"
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNUhQQ1NOajI1S2xhZjV4S09hbVdrbUdmOHNBV3hueE9xdm5rTkdBcmdEQ1J6aE1FVG9xOHowbWxCbjZvQjJEN2N1Q2MwVEZ6bFo1TVp5N1JsaXhGNnROMHpLZ255VXk3OU5MV3BGQUwxbTVKa2dfbk9rS1VQNklmN1djaEpqMkpMRHZOOUs1RFpKLXVUSm9nMy1sVVZzUFNDMkdJ0gGXAUFVX3lxTE8xd3FRZVk3TUpxUFdGbUxRbWdfelh6b2tVSUVjVFBIN0NkZnZXRmQ2YWxzVkdTUWJUaUhpazRUOXMySGFIT2lsZ2hFck9MSk43VlFxbk15OUxadHE3T0xPU09qNkNQLXFGWUw3QkVzQlZkOTk1WENkQnN0UGRfaXJBRklMc001amkyTnVUdklpeDZRMmc1RGc?oc=5",
+    "source": "Haber 7",
+    "title": "Fenerbahçe-Göztepe! İlk 11'ler belli oldu"
    },
    {
-    "at": "2026-10-31T09:54Z",
-    "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcm9XNmNnamxqQW5WRDNITmluYmpxN0pmQU9WOFFycUZDTU8xNFkwbW81emNKanc4X2ViUzA4U0ludmxxbmc5MHo1NmljVEZ4YWE3bGNVZ0dBZXZxZEM0UmtqcU8yTk5KYlE1V0lYY3ZIMmMwTkE2RzhGS3l0dWtsNXN2NkZSLWw0Rmc5eHBOT0kwc3hpY1RhdEtUTE9LSFl0emdHbFZ6VFh3NXYzRlVrVmdaOFlzYkl0dldHdmMxcXd5NjZhV2owY3c3bw?oc=5",
-    "source": "Milli Gazete",
-    "title": "Orkun Kökçü Kasımpaşa maçında oynayacak mı, kadroda var mı? Beşiktaş'ta sakatlık durumu ve dönüş tarihi"
+    "at": "2026-10-31T13:02Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT0trS1owcFRpMXZMS05ac2xNLWZ6T3hjTmpaNmgyZVM0VWJ5WHRSWDRLbUMwQnJfWE03ek4tc2duUXFnTnhaWDNVU2JjNEFfZDlVT0Y3TEJpbjc1QzZGTWZRdTJQeHd4bWNaMzNwcFZ6d1JzbWNDVTVSTXQyblVjemFRZlNXRmFMQnl1dkJ1aHlfbkZvOWJWLTlEMmtvcERzV2tRZFlMUzR1ZXV3QU9xcmQxVWxYR21mSXRqYTlvVdIBxAFBVV95cUxQRnFBeVJ1R3VJaGRwaXpVNmxaeHhxRi1Xblh6TGJpVEc5ODZpR0NVdHFLOS0zaG1kUTlFU2NsYWQtTkxQUXpLSTVzcTdlWThWdzk1MV8tRER0YXFYLWwwZUdZbURYVkVrQlZ0SVNPMGl5akEtTkxIbV9pNzEwa25pMFhkb2FfcUw1cWJPWHVFMEFkaDNfQk9RN1lTUUFPRU5aM05tWndaN3Rpc2d5cFZQN0FZQzVvWTJGblZlYTR2VzBPbkRn?oc=5",
+    "source": "Kartepe Şehir Gazetesi",
+    "title": "Kocaeli Stadyumu’nda kritik randevu! Kocaelispor ve Rizespor’un ilk 11’leri belli oldu"
    },
    {
-    "at": "2026-10-31T08:44Z",
+    "at": "2026-10-31T12:27Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTXZWS2otb2VPdDZUeTVBQ1ZnRHBNMGxseDlFWlMyMVpubUxNT3lwOXZqYW5wY2dRWUZwSFNyVWFGb05fQmFXZlpOaWdQNjcxcWVyVnhjRFR3TXF2RVZWd1Z0cW5kVEI3SVZBTnc5M2dqSTJwaVBJZFNzYmhkRVNtUGVCbVdqdzJDdm5vZlRGaXo?oc=5",
-    "source": "İşçi Haber",
-    "title": "Beşiktaş'ta Kasımpaşa Maçı Öncesi İki Kritik Eksik"
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeHNQUWdrVVU1S2sycjFJSVJiRzJ5QzBPUEpXZlFETVpGMDFORldWWk9kQjlZN1YwazlTeUZrdHBRZTV1UVliUWNxVTM1RGVjaTlfNlh4OXV4NE9MdENjbUtKNGNYX19za192LW9qclZxcDFNdnhrcUNUZElIOHBfZkpRUFgtaXprMFFZOW1nZw?oc=5",
+    "source": "Canlı Gaste",
+    "title": "Beşiktaş, Kasımpaşa maçının hazırlıklarını tamamladı"
    },
    {
-    "at": "2026-10-31T08:35Z",
+    "at": "2026-10-31T12:27Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcW1aeWR2OFMtd3JDQ0FCZjl0VFBMajdFRlBEeUFQa0J2QXFKRkRLc3JUeV9yRGtOUmRIQVN6WWRrX0RQX2hscnNuMThwY1JDQjNWSnptaGplNmlFT0REeDBRSndZbFRrM1ZFdG5MaHFKODN1TENRT3RwdEs0TTFmSEpvYzBGMXpVaHJBczEycEZad253T2RSQnVLUQ?oc=5",
-    "source": "Alanya Postası",
-    "title": "Beşiktaş'ta ilk 11 için büyük reekabet! Gözler Kasımpaşa maçında"
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZHQ5UzM1dTZ1c2FKUy04TFdvSU43bUdIMld3cTRjd2E2WE1mT0FpaFZvODZVc3ZXTktfclJSblRYX19Xa0JudVBBV0lPdWZIQjk3REZjaFVpN2NtbVppS3J6RGcxSC1zblNfaHdpZVZvaWFyZUxHTTExM01qUkdPT05tVlk1VTIwaWE4QUtxV0U5akx3bHZMZHhR?oc=5",
+    "source": "Canlı Gaste",
+    "title": "Beşiktaş, Kasımpaşa deplasmanı için hazırlıklarını tamamladı"
    },
    {
-    "at": "2026-10-31T08:07Z",
+    "at": "2026-10-31T12:08Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ma1VaZjcwSE1uWFlVZGwtV21BRWVuQlQyLTh5RXRJeVdYTjRLdVB4cWltWXloTmlxdzk3eVB0M2JQdW9NMmJ5c2U4MjJSZjdjOW9XSno5VdIBV0FVX3lxTE1ma1VaZjcwSE1uWFlVZGwtV21BRWVuQlQyLTh5RXRJeVdYTjRLdVB4cWltWXloTmlxdzk3eVB0M2JQdW9NMmJ5c2U4MjJSZjdjOW9XSno5VQ?oc=5",
-    "source": "Mersin Haber",
-    "title": "Kasımpaşa İstanbul'da Beşiktaş ile 47. Randevusuna Çıkıyor"
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSHNBdDgyM2hoX0R2WmRtSjJqblljNDJQaFV5c2VPZXRHQ0Z4VXNZcEt4Mi1UNllPMXNNRFJnN1FXSmM1R2d6eE9NZE5RV2FjUEFKOVI4TFBYZ1d6SElyU0hhRjlnZFpfTURoMGcwd3RDeXJzd3o0elJuMDNWUzYxdTdFMEtvQQ?oc=5",
+    "source": "Serbestiyet",
+    "title": "Galatasaray, Konya’da rahat kazandı"
    }
   ],
   "kickoff": "2026-11-01T16:00Z"
  },
  "T1|2026-11-01|Trabzonspor|Gaziantep": {
   "ai": {
-   "at": "2026-10-31T10:48Z",
+   "at": "2026-10-31T15:35Z",
    "away": {
     "eksikler": [],
-    "ozet": "Gaziantep cephesinde bu maç öncesi öne çıkan önemli bir eksik bulunmuyor."
+    "ozet": "Gaziantep FK cephesinde de karşılaşma öncesi kesinleşmiş ve doğrulanmış bir eksik oyuncu bilgisi bulunmamaktadır."
    },
-   "hash": "215db56c74de",
+   "hash": "66f665b48094",
    "home": {
-    "eksikler": [
-     {
-      "neden": "sakat",
-      "onem": "ilk11",
-      "oyuncu": "Franculino Dju"
-     },
-     {
-      "neden": "sakat",
-      "onem": "ilk11",
-      "oyuncu": "Aral Şimşir"
-     }
-    ],
-    "ozet": "Trabzonspor'da sakatlıkları bulunan Franculino Dju ve Aral Şimşir, Gaziantep FK maçında forma giyemeyecek."
+    "eksikler": [],
+    "ozet": "Trabzonspor'da maça saatler kala resmi ve net bir eksik oyuncu listesi güncel kaynaklara yansımamıştır."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
    {
-    "at": "2026-10-31T03:30Z",
+    "at": "2026-10-31T15:05Z",
     "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdzhVMGZrSWlnQkRxMmhzSWIwMk9XbTgxS05CNkV6aGNMbDF6VjU1d1ozVEl0aFhHTjVWRlRHS0hUNENqeEVhajZ3VF9BT21xZTBRZ0d1b3pMOENtR1BEUHNLVENRU2xWc0RwWkFuWkNDc2pmZEhIbkVLX0hFN3JkUm5n?oc=5",
-    "source": "T24",
-    "title": "Süper Lig'de sakat ve cezalı futbolcu listesi"
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR3RiMEJSa2RrX29DZEswbjFLZVpDWUpCdWVVZUN4LURnUGZkOEVjWEQxa25wd0VjRkxHTkU3OHRqT090LVBsMXZBY1FsTU9HeldRNlExSDNjYkk0M0k0NGhjRERHSkUxbG1LVzVhQjFvNWU4c29EZllUNUlhR3huSElYRFRyeEgzLVdUNWROS0Y3WXlpSUFPM2t3eHNnUTVu?oc=5",
+    "source": "Referans Gazetesi",
+    "title": "Gaziantep FK, yarın Trabzonspor'a konuk olacak! 7 isim kadroda yok…"
    },
    {
-    "at": "2026-10-30T18:04Z",
+    "at": "2026-10-31T14:59Z",
     "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUzBOYlNxT3UwMjdOd0hXcFdScFdGMGN0anI3RUxtQVFzTW83b0pnaHNBOFhRU0tKcnprX3dNS2hLSHJxOEVpWjZBZ0liNWs3M0FnZEdYT3FpYl8zSFJJeFRHY1REQTdMNENGeUdHdnZZZnFCRGJ1NUFxTzQ1a0I2VFdCbkJWTzJQcG8ycmpNMzVVXzUxQVZ0YV9CNzNIYnFteFZz0gGoAUFVX3lxTE5QUDBselBKXzJyR2F0T28tVlVhTENwRlpYNjJqclJuYks1dTBPTmJjMzdxV2oyYk9rd0NDYmVrMG55NkRLdkNkb0Rud01qb3BZdDZoeFQ2TzRiQ3VkdDN1SGtVNEVEQ1RiX2NKZUMtVGdrbXNJdjM0ajFpVmhvTEU3dWNnQlRscU11Sk04QWpEV1JFWDN5OVd0RWhGOG03UlEwS0pIcHVUVA?oc=5",
-    "source": "tv100 Haber",
-    "title": "Trabzonspor’da sakatlık depremi! İki yıldız Gaziantep FK maçında yok!"
-   },
-   {
-    "at": "2026-10-30T17:20Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYjYwYnl2TGlVcDFvRFZlaG9wZ3R4M1E0Qk92NTdJTy1JRzVob29aSE1YWGdSRjFOVi1XYjd6N1Y1RUZ6SUdVM3ZsTFZoMHk3eVZLWkJ5a2Y1Wkxsd01uRjVMd1hPenE3RTd1OVMzYnNuM3RsZFRwU3ZoQm1hN3JfaTV3?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSnktV0VtQUdGbjBmTGEyaHZCUFpNOHdwYWRsX1d4RC1kNjg5SVozSVhGVXNWdXB3WHItamVidjdmSDdURl95aE9TT05zdUJmTHN1UV80UllDQXBVQzJxYVRHOXh3Mk13LXhwd0VoMGRfVndPTTBCRlhMbFRpSlFvYU41bXlndG1JVHk0dzUzTnMtR1JMQXFYcW5ZOW4tOXc?oc=5",
     "source": "Alanya Postası",
-    "title": "Trabzonspor’a Gaziantep FK öncesi kötü haber"
+    "title": "Gaziantep FK’ya büyük şok! Trabzonspor maçı öncesi 8 futbolcu sakat"
    },
    {
-    "at": "2026-10-30T16:28Z",
+    "at": "2026-10-31T14:49Z",
     "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQVhrX1NFNUQ4bmp3NjNRX3BTNUtCdVg3akQ1ZXBhZnY2ZVpiZktFLW9hTVBXUTZlanF5NG1qX0RSN2pCVUNWMWZyeURfdXhUSzdsQUhTVldpMERKUmQ5TEI0cVFoeU0wVHRsa0JZeXZDVmtCQlRpVTZCQTRmbU5xdWJZbjZIdElUZkYxaWpXUnVEWUlLNGdJ?oc=5",
-    "source": "Haber TR",
-    "title": "Trabzonspor'da Franculino Dju ve Aral Şimşir'in sakatlık durumu açıklandı"
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNU0QyNGR6YXlOUUttQk9iTkt2MzhpUkRWLWVYWlEwcG9YWEZrWUZmSEF0SW5wSG5NaXZuZThWYmlodHY0eWhpcm5oNnUxMjlIdU9xSEVZdFRqdkdySnlHcU5aYm11X2hsdFJTRENLR2VtdkNRUTd4eE9xd3VWTzNINE81WjVmcEVvTlJqMXVhN2RjdXpKUlR2OWthUXk3QndyYnVpd3pOdUlxckFTRm5lVTl6RURhbElXZWtBS05KYVFtN0xBSDg1UUROYkMwUHl1S0NYYm9zekdfY2dR?oc=5",
+    "source": "Kangal Gündem",
+    "title": "Trabzonspor, Gaziantep FK maçı hazırlıklarını tamamladı. Son antrenmana sakatlıkları süren 5 futbolcu katılmadı."
    },
    {
-    "at": "2026-10-30T16:25Z",
-    "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGk2Y1d2TjRNQUtMc2xNSXRGbUg3RXI4QUdqbGdFSnVrWFQwWmd2WEdMNThIWGZ1QzV6dGpMTmo3NjdkbHRWeGNQVVZ4MHdhYUJVNlc2Snh0d2JxdjlBS1o2QmxXY192LW9pdlZLSjJUWjdFQl9HRmdzUGl2Ulh4OVVYRXE0OUo3aFJyNFA1RElqWlAyQW5ibF9QcWJ6X2hwNEcycm9xUktDa0RSTDFqeERKWQ?oc=5",
-    "source": "Takvim",
-    "title": "Trabzonspor sakatlık şokuyla sarsıldı! İki yıldızdan kötü haber"
+    "at": "2026-10-31T14:30Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNVBFeFROQ2FDU2RleVUxV0c5c3RKOEM4T3BISjA1MHVvNnpia1NZa3dSbFBUQnY3Z0lIZ3NqVDRrRW54QkRfeC04TVplRGJvNnd1ZHJjd1pXeHFVQjI5LUJXQVExd3Z6U3RLN0ZBQ1BOQWM1VHIzbmprc2g2eWljNjVBOUNZOW9mMDJfVjV5cDFOR3hYWUE?oc=5",
+    "source": "Canlı Gaste",
+    "title": "Trabzonspor’da Gaziantep FK maçı hazırlıkları tamamlandı"
+   },
+   {
+    "at": "2026-10-31T14:20Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdE5Id0ZlMGktbFU2LWxRM2ZMT3dPMHFyVWtxZUtIZURhMGNpWXYwd1VJRXpEdDluYmlPMy1OSTd3SjlxdElvUTVGdmZPc2piTVZQNWJJekpQYUNkM2hBbmlvamJaQmN4bVVnYm1HVndacVFHMmUyM2tUSlpJaVNKZGt1UUZUWG5lZ3dzTVNpWUk4YkVvYjZDbmplRDlLckpWaE9zRmJuUXVzZjBaR0gwWURlSXRlMmlXRUxzYXdIaGNrNHBNSnc?oc=5",
+    "source": "https://www.ensondakika.com.tr/",
+    "title": "CANLI ANLATIM | Bayer 04 Leverkusen - VfB Stuttgart maçı: Kadro, diziliş, istatistik... (Bundesliga)"
    }
   ],
-  "fetched_at": "2026-10-31T10:48Z",
+  "fetched_at": "2026-10-31T15:35Z",
   "home": [
    {
-    "at": "2026-10-31T08:56Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWGQwcDJvSEtuV0IwalRlQUd4Q19XV2JKcmtTMTI5Q2xMVnMzNTQ2MGdnWHR6TmNYR0ppd0ZRaW9YYTJLYnRTaGJSSVN2VFVwQmN1SjNOTkZGODEwQ2xjTFNBcUNCZE0xU1JCdVo2ZXRwemhmZ0RwZzQxUWZwdWs1bVpmbWQ4b1VxUjdWZ290dUdPQlRXdkl0aC1hbl9JV3JXTGU3VTFTcm5yUk01OXJxeGdjN0N1eWJuOUVsVjJrOXVaSVlt0gHKAUFVX3lxTE9BU2Z2eTJDVFIxcHJVYTdrcm53OTItTF9GWWx6MlpzellXSy1ibEdPdFpEdFJvS1pmcHRmbzVTeGQwVVRWMjI5X3NYSllFRllXNnk2cG0ybGo1ZmdZbzd1cWY0YzRpOGN0MGFzVVN1NUhaRmlVT3lJc3NaTWlBRDY5VENwUWhfV2ZSek43a0dVRG1fX2dHVWJFRFpPUHR2blliTld3T2pDUnNqMXZXOTk1anJPczRVWjlxV2lTZFdlMUxZLTNqRlpodUE?oc=5",
-    "source": "Ege Gündem",
-    "title": "Thomas Reis'tan Paul Onuachu'ya özel görüşme.. Trabzonspor'da yıldız golcüye büyük görev"
-   },
-   {
-    "at": "2026-10-31T08:37Z",
+    "at": "2026-10-31T15:05Z",
     "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGRDRUlJNEVhUGh2Y2hvM1hDYTlGZENBZXRhbUdPZFBsSy11NEdYOHU2ZnZPWHI0SWlvYWtsVldWT1hTSExGb1hSbnpJNF91bGlDRHVqUVVHWUUyWnpHYS1LMVFLbVBmcTg4RE1fQktVb0VaNE9OOUVqVDJXQnJTZFo5cTJtWTdUdl9wY21yOVU1Tzg?oc=5",
-    "source": "İşçi Haber",
-    "title": "Trabzonspor'da İki Şok Sakatlık: Resmi Açıklama Geldi"
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR3RiMEJSa2RrX29DZEswbjFLZVpDWUpCdWVVZUN4LURnUGZkOEVjWEQxa25wd0VjRkxHTkU3OHRqT090LVBsMXZBY1FsTU9HeldRNlExSDNjYkk0M0k0NGhjRERHSkUxbG1LVzVhQjFvNWU4c29EZllUNUlhR3huSElYRFRyeEgzLVdUNWROS0Y3WXlpSUFPM2t3eHNnUTVu?oc=5",
+    "source": "Referans Gazetesi",
+    "title": "Gaziantep FK, yarın Trabzonspor'a konuk olacak! 7 isim kadroda yok…"
    },
    {
-    "at": "2026-10-31T08:30Z",
+    "at": "2026-10-31T14:59Z",
     "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSVgyUS1YVVE1bjZib2hBUTRSVFR5eG5kUFhRMFJuNW5sLWJJX0xxQjZRNzdqbUh1X2pENFFhRnRVX2tpUDBoQnFYWDNtRXd4emk0d1l3YW1zNE8yeC1TWDd5ZmVEVTlqMmNrQlJLZ3dvcG02eTRQVnRlR2NSMGl2NUF6OXJEOXdNOUlaZE0wSGdfU01xdEJkVGl5aDVBaHBCU1V0M2d1Qkh3TGlYZHkteUdqbk1QVi1vcWhZVHF0OUVqcDFMWEdVU2FHblBvREtnMmNr0gHYAUFVX3lxTE55SFFfOC0zZk41T3lwamhJUnJrUnZzZ2JoOHlFS3FhRmdUM2xGYkZXMUhnQnZ0RFUxU25CSnpXYUtrNmhRSzAyQ3B6ZFlOa3c4TVk4RmozdFF4VFJQTkgyOUZvN0ZZOC03XzRLNncwV1BPYWJxZDdsV3BfaldnUEd0cmx3cmJ3c3BKNGJYSkUxdGg1eFdfMEF4Zng1dmxDZU1CZXNjY3UwTzFiVU93cm1yVjdYTVpQNkcydHBmNHY4c0k1UXdJeU85NGQ4ZENjOGVsRGcycHFQaQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSnktV0VtQUdGbjBmTGEyaHZCUFpNOHdwYWRsX1d4RC1kNjg5SVozSVhGVXNWdXB3WHItamVidjdmSDdURl95aE9TT05zdUJmTHN1UV80UllDQXBVQzJxYVRHOXh3Mk13LXhwd0VoMGRfVndPTTBCRlhMbFRpSlFvYU41bXlndG1JVHk0dzUzTnMtR1JMQXFYcW5ZOW4tOXc?oc=5",
+    "source": "Alanya Postası",
+    "title": "Gaziantep FK’ya büyük şok! Trabzonspor maçı öncesi 8 futbolcu sakat"
+   },
+   {
+    "at": "2026-10-31T14:49Z",
+    "eksik": true,
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNU0QyNGR6YXlOUUttQk9iTkt2MzhpUkRWLWVYWlEwcG9YWEZrWUZmSEF0SW5wSG5NaXZuZThWYmlodHY0eWhpcm5oNnUxMjlIdU9xSEVZdFRqdkdySnlHcU5aYm11X2hsdFJTRENLR2VtdkNRUTd4eE9xd3VWTzNINE81WjVmcEVvTlJqMXVhN2RjdXpKUlR2OWthUXk3QndyYnVpd3pOdUlxckFTRm5lVTl6RURhbElXZWtBS05KYVFtN0xBSDg1UUROYkMwUHl1S0NYYm9zekdfY2dR?oc=5",
+    "source": "Kangal Gündem",
+    "title": "Trabzonspor, Gaziantep FK maçı hazırlıklarını tamamladı. Son antrenmana sakatlıkları süren 5 futbolcu katılmadı."
+   },
+   {
+    "at": "2026-10-31T12:52Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM2NPVWhSUkt2YzdTRklkSEJlOWxKNDRNNVp1TnhmQy1SWHJHNlBxamVYc0ZTbUNFMGJqRGExSTR6NkpIZDRWMVdTT1BGYmJFaGxpQlNEaXlhN2huQUFCRHRmM1p4dktWVzZRUWJYNGtyUmJuRmFJU25KTWtRVE1YR2pTcFY?oc=5",
+    "source": "61SAAT",
+    "title": "Trabzonspor'da Gaziantep FK maçı öncesi hesaplar değişti!"
+   },
+   {
+    "at": "2026-10-31T12:30Z",
+    "eksik": true,
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX1ZUUmpIcGkxN1g0czB1aVhSVjh0OGo4WGNFejBDQ0x0NlVoNFNfVHp2eXRxVWFsV2xJZDFhbkNuclkwUlgzQ1RuT2RDdXVnLURfWThqWU9jRlNKUlVZSmdmQWlRLUx3eTFkY2trWnMwbUJ6ZnVtQzk0MEtWMnYwd3c2c256NGI0NWZPeUIzYmJjaGxqZHZGVDdxcFhIbU5Uendqc0hwWnZSWFUxZHRWcjF6NUZ0WHVpbWxoSG51RdIBxAFBVV95cUxOVkFLa181Z2M1YkRGUEtOa2pmY0poa3Z5bE95WGVfRHM1Zm9NamUwXzJQT1BrMTJob2M4VUNZVGhRMlc1ajlUZ3M4VFlVMVFyeVViQ0g2ZzdGcFBwTEFVX09qZVc3Z2dYSVdET29zM1g2SndUUGdESXlGSl9NbkF1dlhQeWdOZnBnck1uLTQzTkhrbnF0Nk91Mmg0SjNwYk1yc0l1MEZCZlp5LWl0blNzeEEzVXJROGlhckhZZWQ3MzF3TGpk?oc=5",
     "source": "Ege Gündem",
-    "title": "Trabzonspor'dan sakatlık açıklaması.. Franculino Dju ve Aral Şimşir'in sağlık durumları belli oldu"
-   },
-   {
-    "at": "2026-10-31T08:09Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWkFzSllvV2NxanlrR002UzZDQVdrNlduN25kSlMtTmZydWNiLWhNeVp3dnhJT2NWTXpTS1FzV09EMzVDb21Idkc2R2hOSDhFck5SZXM1dWlGX1ZscC1HYk4zRjV3cUtyS3NIS3dWX3NrZzRCTDBGcU1yQkV0MEZWQ2xBSkdkVUdueWgxUTNPdkE?oc=5",
-    "source": "Nokta Gazetesi",
-    "title": "Trabzonspor'a iki futbolcusundan kötü haber"
-   },
-   {
-    "at": "2026-10-31T07:34Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNc2tuWnA0andfNDYtU2FBVTdxVXV2TTZ0NXlQTnJ4MkU3c2pnM21NSHZJTVBVT0NFRVNUc2dNZ01TemVVY0c4OFA1dFNmajBSV2ZZNThLdmdsVkc0a3NBdEdCY1lKam9kRnJyRkI1M0ZQVmpPS2xYcXBRR2thckRYbG9FbXJrY05ZUG9FdFBSSzVVOXd5dnlJU1N4dGNqcTg2cWJ6VGZwTm1IYmszMWc?oc=5",
-    "source": "Taka Gazete",
-    "title": "Trabzonspor'da Tolisso Transferi İçin Kritik Şart: Şampiyonluk Yarışı Belirleyici!"
+    "title": "Trabzonspor - Gaziantep FK maçı öncesinde tam 8 futbolcu için sakatlık açıklaması"
    }
   ],
   "kickoff": "2026-11-01T13:00Z"
