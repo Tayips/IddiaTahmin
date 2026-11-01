@@ -832,21 +832,21 @@
  },
  "E0|2026-11-02|Newcastle|Everton": {
   "ai": {
-   "at": "2026-11-01T17:23Z",
+   "at": "2026-11-01T19:51Z",
    "away": {
     "eksikler": [],
-    "ozet": "Everton cephesinde de bu karşılaşma öncesi resmi olarak bildirilen önemli bir eksik bulunmuyor."
+    "ozet": "Everton cephesinde maç öncesi güncel sakat veya cezalı oyuncu raporu yer almıyor."
    },
-   "hash": "1a28b11e4b8b",
+   "hash": "5430bf1a44a0",
    "home": {
     "eksikler": [],
-    "ozet": "Newcastle United takımında maça saatler kala güncel sakat veya cezalı oyuncu raporu bulunmamaktadır."
+    "ozet": "Newcastle United cephesinde maç öncesi güncel eksik veya sakat oyuncu bilgisi bulunmuyor."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
    {
-    "at": "2026-11-01T15:53Z",
+    "at": "2026-11-01T16:54Z",
     "eksik": false,
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY0VUaUNaRElXcFhxZzJLMzBqRzFtSGdaam42WHkzMVdkci1ETmlFX3NvaUxPUzByTFhIMkxoZHpDeWlFT0FidXFxZDhTdUdGRGRWZmg1WGFnMUY1MlRiWFZ4Smg5V2pmRi01cy00RllMREtubmpvLTBpMklCeFQ2amtlZlF6eHM?oc=5",
     "source": "Football365",
@@ -881,14 +881,21 @@
     "title": "BETTING GUIDE: Newcastle vs Everton, match preview, team news and prediction"
    }
   ],
-  "fetched_at": "2026-11-01T17:23Z",
+  "fetched_at": "2026-11-01T19:51Z",
   "home": [
    {
-    "at": "2026-11-01T15:53Z",
+    "at": "2026-11-01T16:54Z",
     "eksik": false,
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY0VUaUNaRElXcFhxZzJLMzBqRzFtSGdaam42WHkzMVdkci1ETmlFX3NvaUxPUzByTFhIMkxoZHpDeWlFT0FidXFxZDhTdUdGRGRWZmg1WGFnMUY1MlRiWFZ4Smg5V2pmRi01cy00RllMREtubmpvLTBpMklCeFQ2amtlZlF6eHM?oc=5",
     "source": "Football365",
     "title": "Newcastle v Everton: Prediction, team news, lineups and odds"
+   },
+   {
+    "at": "2026-11-01T12:00Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOURrV3A5X0VJRXNsb19KbF83RkRTZ3cyMUtGTFFKMnFaSWpFa19KX3lET2F2R2VPX1BvWWVuTkxzUVBFQnUtTlk5QTlETGRlWXMtZ3lfT0N2NHBrTzJjU1ZOTkRfcnp3d3lLRjNFdDY0ZHZQSm9fdllzeDcxTG9vbHJjNll6V3BhSTFIbzd3Y2drVTBVV0haRWlFZS1tZXRRM2k2am41YV9ZQm43NTJua2FDT0dULUk?oc=5",
+    "source": "Shields Gazette",
+    "title": "Matthias Jaissle reveals the real Newcastle United reason behind Sean Steur & Aladji Bamba omission"
    },
    {
     "at": "2026-11-01T11:58Z",
@@ -910,13 +917,6 @@
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zbjk3X2NfS2NKXzZWNVFhWUVmZGVUZTRkMVRqc2tfaU1KYnF5TV85UHBNclFLbThGbE96SFNjSmZQUEkyVmJhVlN0c09nNk9zWDdnSGVydDNKeVhGZ2NLX3AwWHRYM0dHUFN5NGhYbm5VM3RE?oc=5",
     "source": "The False 9",
     "title": "Newcastle vs Everton Prediction: Score Pick, Osula and Branthwaite Doubts"
-   },
-   {
-    "at": "2026-11-01T11:00Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPS3Z1cGJhOENfcjE0Q2tXRVBacTdsYWtGMThUNlM3OG1kZFlQUEpfZFJfbjNBaV9BbTI1NDZjQzVoRFB0VkR0aE1PUzdJbWNpcnFDMGtJa2xNRFRmNUQ1TDl1SHBhak5CZXVNaUQ5RE9fQVM4aHhTVHZPd2NlRDBZVXh6dklCNnltMkFFQTl3NWVleVhzQXdwZzY0XzJ4dEVYeWw2c0VBeVpIVmlRX2t3dUlZTDZIY3RsbTJLR0J4UE9Ddw?oc=5",
-    "source": "Shields Gazette",
-    "title": "FA rules hand Everton major boost ahead of Newcastle United clash"
    }
   ],
   "kickoff": "2026-11-02T20:00Z"
@@ -1941,70 +1941,77 @@
  },
  "T1|2026-11-02|Genclerbirligi|Alanyaspor": {
   "ai": {
-   "at": "2026-11-01T17:23Z",
+   "at": "2026-11-01T19:51Z",
    "away": {
     "eksikler": [],
-    "ozet": "Alanyaspor'da maç öncesi eksik veya sakat oyuncu bildirilmedi."
+    "ozet": "Alanyaspor'un bu maç öncesindeki eksik oyuncularına dair güvenilir kaynaklarda güncel bir bilgi yer almamaktadır."
    },
-   "hash": "4fe13e9d7c46",
+   "hash": "07cf1ba6147c",
    "home": {
     "eksikler": [],
-    "ozet": "Gençlerbirliği'nde bu maç öncesinde bildirilen önemli bir sakat veya cezalı oyuncu bulunmuyor."
+    "ozet": "Gençlerbirliği'nin Alanyaspor maçı öncesi eksik veya sakat oyuncularına dair son günlerde güncel ve teyit edilmiş resmi bir liste bulunmamaktadır."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
    {
+    "at": "2026-11-01T19:06Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYnEwZXEwUnRtRV85UlpMTlNraXRqV1prZlQyWWdRSWJOeVJxX2xFTFlYaUVoaGNiOExpWHp1UGIweFRMeTJZSWZMSThpdUZBUnU2TnVuWC1jTjBja2tLeGZLSHRIdGcwLWpIWVpIRS1nUDIydjNFNjdLTWUwMGVCbA?oc=5",
+    "source": "Yeni Alanya",
+    "title": "Alanyaspor maçı öncesi Gençlerbirliği'nde 5 eksik"
+   },
+   {
+    "at": "2026-11-01T18:16Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaTlSYktwUFBwTTlZSXh2bkVjSXFoeEJZYVFNTWdoRGdsZm1EejQ1ZmNRLTBLYVR2TWlaNENvTmQ0Zlg5WWFkZnpMeEFDQWE2czhWS1A0b0VpWTB3U21oaGxDSnZHT0tGaEVUclpseHB5bl9ncXJnOVhfVE5iZ053Wm1qUzNQZw?oc=5",
+    "source": "Manşet Haber",
+    "title": "Gençlerbirliği Alanyaspor maçına 5 eksikle çıkacak"
+   },
+   {
+    "at": "2026-11-01T16:36Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ295VWpOMmpPemRQZGRpdURjMmdNWmRkOGlBZlpacGZBeWtjNTZvUGoteVZlOXdteHZXM3NEZ3B1WXc2TzF6VGEtOGVSNVRIdU1GUUw3RkQ2S1lyem93X3VwWnp2M0lBc1RFa0gtQkdzT3V0X25mNFFsVzFpTWRpejlYTkpMZjRFVnJkeG55bnZkUXNPUEFaVw?oc=5",
+    "source": "Canlı Gaste",
+    "title": "Gençlerbirliği, Alanyaspor maçının hazırlıklarını tamamladı"
+   },
+   {
     "at": "2026-11-01T14:59Z",
     "eksik": false,
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYVl1cHEwbm5Ebk5RVTE0MXVKVFZRODhvWFY0NnRJM2hIUTZSRzFQVmM0V2ZwQjczWWo0OXNiZHhCU0hINWtzRUl0czRkWVk2VGh1cUU3WGdXdWd6RzNwQTVKblZFTFdZbEJlOU1hOVBsdzZwRWdzY1pzRk45UmEzdXZfWHdjbk5vZVRsX2lMUGVpR2Nad3pXR0FzZHVGUnfSAaIBQVVfeXFMT3c3M0ZKTXl0cFVNS0otS0NVbmtqWWJGTFV5aklHWFR6bk9FdEVBNTZZQkVuNmNCUjRZd0pqZ201V1FYNHdCZ3ZjT2pCelBYTW53ejBVdnc1bl9sOHptd2RNUG1kTVhDZzFZbU55dXNxNURvVkJKcXl4SDBhQzdlTW5nZ0xJSER6Z0w1cE9WdTloYmNoM25mdXFUTzJvVVNtMGt3?oc=5",
     "source": "Sabah",
-    "title": "CANLI | Kasımpaşa - Beşiktaş | Maçta ilk yarı oynanıyor"
+    "title": "CANLI | Kasımpaşa - Beşiktaş | Maçta ilk yarı sona erdi"
    },
    {
-    "at": "2026-11-01T14:38Z",
+    "at": "2026-11-01T14:54Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR0t3NWNIVC1RMVFPd3VqbTBnQkw4TFY2UFRQZV81U1BVMTBmbThXOFVERm5LQXNfLV83a1NFWnY4SlptbmZ6YzJXSVpXb1hWd2N6MTdadWJZTU5yVDZqX2ZSUDlpbDZVaXpuSmNzc180SGdhQ01iTUc2SW1uTlFpN1pwdXFnMUNhSFlsYk14N0xnQkRfN1M5b0FPZ3BCT2cwYkk4eGRSZjlVc2c?oc=5",
-    "source": "İşçi Haber",
-    "title": "Gençlerbirliği - Alanyaspor Maçı Ne Zaman ve Hangi Kanalda Yayınlanacak ?"
-   },
-   {
-    "at": "2026-11-01T09:34Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeG9falZDeE9wekhBR1JEMG0td1BQLU5YNXg5MmlKNHkyN3g5VVlqSnRBU3BPcmdvVl8tSTZfeFJNUm9wRG5NLWF4elk0Yk5neUlDUU5rU1R1TWI1Sk44NEkwZk1zV0oxNW85T1huNXBQazhDNHlSUzVMLUU2Z1BxU0hMeFJoZw?oc=5",
-    "source": "Canlı Gaste",
-    "title": "Alanyaspor, Gençlerbirliği deplasmanına hazır"
-   },
-   {
-    "at": "2026-11-01T09:34Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRmFKUWFaUDJhVURCSWVzamdaQW1oSlYwaWRhOGo3cy1XUV9NR2NLUHpxUjdKY2VMVVlHd2RYeE9WR29pUzMxdkYxU2tKMm9wQmoxVkw2RVFQM0RBMUhOOUdIa3BmZEVUVnpUWVJHOHQ3aWdGV1BJdktKNHFlWEtlLXNPeEhyMEx1VXN6SFVGTVFLc3JOWmhpVHV3?oc=5",
-    "source": "https://www.ensondakika.com.tr/",
-    "title": "Alanyaspor, Gençlerbirliği maçı hazırlıklarını tamamladı"
-   },
-   {
-    "at": "2026-11-01T09:34Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wQWQ4aHFMa2tSNkxYN0ZEczRObFJLVFUwZHY2V2l4U0NYeWFyc1pTZWp5SGIwNUtlaVM4eWFUYi11VVFVOXRhVm84VHROaXk2S0NoYzc5bjI4QWdONHNSWnpIWU5qVXkwZXVKN2ktWEl3bXRVNnk4RGJFclYwQQ?oc=5",
-    "source": "Canlı Gaste",
-    "title": "Alanyaspor, Gençlerbirliği maçına hazır"
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMDZRS1d0N1pnV2tYcl9uMkNGU1A3eU5hX1BSRGs3ZWp5aHZISWZRSlItTE4yc1h5WXFZZ0F0cG5PWktYSGpLUnAzRW1Kc3BUTWhQaTJEMkY4Vk5mLTF6S2FNM2xaWVVEZDFpNWQ3blhORUVSeVlwc29VdTZETjhrYjAzNEVabm96djY0?oc=5",
+    "source": "Haber 7",
+    "title": "Aytemiz Alanyaspor-Beşiktaş maçından notlar"
    }
   ],
-  "fetched_at": "2026-11-01T17:23Z",
+  "fetched_at": "2026-11-01T19:51Z",
   "home": [
+   {
+    "at": "2026-11-01T19:06Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYnEwZXEwUnRtRV85UlpMTlNraXRqV1prZlQyWWdRSWJOeVJxX2xFTFlYaUVoaGNiOExpWHp1UGIweFRMeTJZSWZMSThpdUZBUnU2TnVuWC1jTjBja2tLeGZLSHRIdGcwLWpIWVpIRS1nUDIydjNFNjdLTWUwMGVCbA?oc=5",
+    "source": "Yeni Alanya",
+    "title": "Alanyaspor maçı öncesi Gençlerbirliği'nde 5 eksik"
+   },
+   {
+    "at": "2026-11-01T18:16Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaTlSYktwUFBwTTlZSXh2bkVjSXFoeEJZYVFNTWdoRGdsZm1EejQ1ZmNRLTBLYVR2TWlaNENvTmQ0Zlg5WWFkZnpMeEFDQWE2czhWS1A0b0VpWTB3U21oaGxDSnZHT0tGaEVUclpseHB5bl9ncXJnOVhfVE5iZ053Wm1qUzNQZw?oc=5",
+    "source": "Manşet Haber",
+    "title": "Gençlerbirliği Alanyaspor maçına 5 eksikle çıkacak"
+   },
    {
     "at": "2026-11-01T15:52Z",
     "eksik": false,
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVEI0bWNEMzh4dzJTbEtueXh4d09LbGZBMXhTaU1Kd0pIemhjeURPbXVweklkMEFZcWw5cWs4M0hmS0tUeWkxZlljd1YwYVRiLVRKLXFJRVRPNU1GUEpQM3Q4M1NGUUNNb2hIREFJdl9VN0cwQkQtN1IwMXN2czBDcEZaVDZRRF9RTlN2cEpaYTF1R25Ud3J2aTNid3RVU20tODN4SVp3?oc=5",
     "source": "Ankara Net Haber",
     "title": "Kasımpaşa-Beşiktaş maçı başladı mı? Beşiktaş-Kasımpaşa maçı hangi kanalda?"
-   },
-   {
-    "at": "2026-11-01T15:50Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSFBRTjlLa2YzN1VSbDhRdVhJVFNUYmNKOXpTeE9ueEpWUkoxMkVYT0ZGcnAyYzFBTWR4bmI2UnJiYnMtTHhsOTd0UXFleUtzMnk2WFg0TEpiTXNTNVFkVllVSTRIV1k1QWtmT2o2dk50MU0tY1RiUnJGdHJHWGFvZ2R3QVNfaFE5TzNLWXBwLUhrTEZvZEE?oc=5",
-    "source": "www.superlighaberler.com",
-    "title": "Kasımpaşa-Beşiktaş Maçı Heyecanla Başlıyor"
    },
    {
     "at": "2026-11-01T15:30Z",
@@ -2014,18 +2021,11 @@
     "title": "Kasımpaşa - Beşiktaş maçında ilk 11’ler belli oldu!"
    },
    {
-    "at": "2026-11-01T15:18Z",
+    "at": "2026-11-01T14:59Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTy1WWnEzR0NxX29oMDhCbGdtVjZhUkxCZnlHNWxEV0poLUxVMWF4czlLVVJQQUtEVk5tMG1uWUJRNFhvU3Q3d1V2U09rNzBsdndQWTJCMnZWR28tanZ6bldiSjJJRjhXazF0YlhXUGZlR1czOHlhRkdtNUYyUHVMVg?oc=5",
-    "source": "İnternet Haber",
-    "title": "Kasımpaşa - Beşiktaş / Canlı anlatım"
-   },
-   {
-    "at": "2026-11-01T15:07Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaklzNXNISVpXay1hTXVNWEZtM0VRSmFnSGxiNVBaUE1NSzIyQ3g4SmdQOU0ybXpobDNWMXI1bElDb2JBRE5vOGZKQ0VIQjVSdDFOZzM1clRMUVdqYWxkbVhEN3A4aVd3cU9fSV8xXzVja2t1a3NPTTlFRWNrYmc5b2tCMXNZMzZu0gGOAUFVX3lxTE8ySzZyc0ZSMm5IN1dnTjdXSXN1cnVqcllRcFBaMUpNVVFLUzB4Ny1idTZRSWtWYjREbThUck9acXZvVWF6YWNHb0VpbHZEdW9jUzd2Tzg0bmxLbG9CenV2OVZIZ1RQSUI5Q3V6Z1B2SnM0X1hscmlhbEtjdmtBZ2tFTk92ZVd5ajE2VWEta0E?oc=5",
-    "source": "Haber Global",
-    "title": "CANLI YAYIN | Kasımpaşa - Beşiktaş"
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYVl1cHEwbm5Ebk5RVTE0MXVKVFZRODhvWFY0NnRJM2hIUTZSRzFQVmM0V2ZwQjczWWo0OXNiZHhCU0hINWtzRUl0czRkWVk2VGh1cUU3WGdXdWd6RzNwQTVKblZFTFdZbEJlOU1hOVBsdzZwRWdzY1pzRk45UmEzdXZfWHdjbk5vZVRsX2lMUGVpR2Nad3pXR0FzZHVGUnfSAaIBQVVfeXFMT3c3M0ZKTXl0cFVNS0otS0NVbmtqWWJGTFV5aklHWFR6bk9FdEVBNTZZQkVuNmNCUjRZd0pqZ201V1FYNHdCZ3ZjT2pCelBYTW53ejBVdnc1bl9sOHptd2RNUG1kTVhDZzFZbU55dXNxNURvVkJKcXl4SDBhQzdlTW5nZ0xJSER6Z0w1cE9WdTloYmNoM25mdXFUTzJvVVNtMGt3?oc=5",
+    "source": "Sabah",
+    "title": "CANLI | Kasımpaşa - Beşiktaş | Maçta ilk yarı sona erdi"
    }
   ],
   "kickoff": "2026-11-02T17:00Z"

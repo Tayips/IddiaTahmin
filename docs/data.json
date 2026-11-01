@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T17:23Z",
+ "updated_at": "2026-11-01T19:51Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
@@ -11,22 +11,22 @@
  },
  "stats": {
   "genel": {
-   "n": 169,
-   "correct": 81,
-   "accuracy": 0.4793,
-   "rps": 0.2183,
-   "brier": 0.6132,
-   "log_loss": 1.024,
-   "odds_accuracy": 0.5266
+   "n": 170,
+   "correct": 82,
+   "accuracy": 0.4824,
+   "rps": 0.2185,
+   "brier": 0.6131,
+   "log_loss": 1.0238,
+   "odds_accuracy": 0.5294
   },
   "canli": {
-   "n": 18,
-   "correct": 11,
-   "accuracy": 0.6111,
-   "rps": 0.1967,
-   "brier": 0.5676,
-   "log_loss": 0.9602,
-   "odds_accuracy": 0.6111
+   "n": 19,
+   "correct": 12,
+   "accuracy": 0.6316,
+   "rps": 0.1998,
+   "brier": 0.569,
+   "log_loss": 0.9618,
+   "odds_accuracy": 0.6316
   },
   "lig": {
    "T1": {
@@ -39,23 +39,23 @@
     "odds_accuracy": 0.5679
    },
    "E0": {
-    "n": 88,
-    "correct": 43,
-    "accuracy": 0.4886,
-    "rps": 0.21,
-    "brier": 0.6203,
-    "log_loss": 1.0332,
-    "odds_accuracy": 0.4886
+    "n": 89,
+    "correct": 44,
+    "accuracy": 0.4944,
+    "rps": 0.2106,
+    "brier": 0.62,
+    "log_loss": 1.0327,
+    "odds_accuracy": 0.4944
    }
   },
   "son_30_gun": {
-   "n": 65,
-   "correct": 38,
-   "accuracy": 0.5846,
-   "rps": 0.2035,
-   "brier": 0.561,
-   "log_loss": 0.9505,
-   "odds_accuracy": 0.6308
+   "n": 66,
+   "correct": 39,
+   "accuracy": 0.5909,
+   "rps": 0.2043,
+   "brier": 0.5615,
+   "log_loss": 0.9511,
+   "odds_accuracy": 0.6364
   },
   "guven": {
    "50%+": {
@@ -8616,15 +8616,15 @@
    "f_a_sot": 4.45,
    "f_h_rest": 7.0,
    "f_a_rest": 8.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 0.0,
+   "ftag": 1.0,
+   "ftr": "A",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "A",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 0.0,
+   "kg_correct": 0.0,
    "mk_h": 0.3407,
    "mk_d": 0.281,
    "mk_a": 0.3783,
@@ -8647,7 +8647,7 @@
    "odds_d": 3.22,
    "odds_a": 2.54,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-01T17:23Z",
+   "predicted_at": "2026-11-01T19:51Z",
    "p_o25": 0.4689,
    "p_kg": 0.5407,
    "odds_o25": 2.01,
@@ -8695,7 +8695,7 @@
    "odds_d": 3.53,
    "odds_a": 2.89,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-01T17:23Z",
+   "predicted_at": "2026-11-01T19:51Z",
    "p_o25": 0.5763,
    "p_kg": 0.6056,
    "odds_o25": 1.67,
@@ -12384,14 +12384,21 @@
    "kickoff": "2026-11-01T16:30Z"
   },
   "E0|2026-11-02|Newcastle|Everton": {
-   "fetched_at": "2026-11-01T17:23Z",
+   "fetched_at": "2026-11-01T19:51Z",
    "kickoff": "2026-11-02T20:00Z",
    "home": [
     {
      "title": "Newcastle v Everton: Prediction, team news, lineups and odds",
      "source": "Football365",
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY0VUaUNaRElXcFhxZzJLMzBqRzFtSGdaam42WHkzMVdkci1ETmlFX3NvaUxPUzByTFhIMkxoZHpDeWlFT0FidXFxZDhTdUdGRGRWZmg1WGFnMUY1MlRiWFZ4Smg5V2pmRi01cy00RllMREtubmpvLTBpMklCeFQ2amtlZlF6eHM?oc=5",
-     "at": "2026-11-01T15:53Z",
+     "at": "2026-11-01T16:54Z",
+     "eksik": false
+    },
+    {
+     "title": "Matthias Jaissle reveals the real Newcastle United reason behind Sean Steur & Aladji Bamba omission",
+     "source": "Shields Gazette",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOURrV3A5X0VJRXNsb19KbF83RkRTZ3cyMUtGTFFKMnFaSWpFa19KX3lET2F2R2VPX1BvWWVuTkxzUVBFQnUtTlk5QTlETGRlWXMtZ3lfT0N2NHBrTzJjU1ZOTkRfcnp3d3lLRjNFdDY0ZHZQSm9fdllzeDcxTG9vbHJjNll6V3BhSTFIbzd3Y2drVTBVV0haRWlFZS1tZXRRM2k2am41YV9ZQm43NTJua2FDT0dULUk?oc=5",
+     "at": "2026-11-01T12:00Z",
      "eksik": false
     },
     {
@@ -12414,13 +12421,6 @@
      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zbjk3X2NfS2NKXzZWNVFhWUVmZGVUZTRkMVRqc2tfaU1KYnF5TV85UHBNclFLbThGbE96SFNjSmZQUEkyVmJhVlN0c09nNk9zWDdnSGVydDNKeVhGZ2NLX3AwWHRYM0dHUFN5NGhYbm5VM3RE?oc=5",
      "at": "2026-11-01T11:49Z",
      "eksik": true
-    },
-    {
-     "title": "FA rules hand Everton major boost ahead of Newcastle United clash",
-     "source": "Shields Gazette",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPS3Z1cGJhOENfcjE0Q2tXRVBacTdsYWtGMThUNlM3OG1kZFlQUEpfZFJfbjNBaV9BbTI1NDZjQzVoRFB0VkR0aE1PUzdJbWNpcnFDMGtJa2xNRFRmNUQ1TDl1SHBhak5CZXVNaUQ5RE9fQVM4aHhTVHZPd2NlRDBZVXh6dklCNnltMkFFQTl3NWVleVhzQXdwZzY0XzJ4dEVYeWw2c0VBeVpIVmlRX2t3dUlZTDZIY3RsbTJLR0J4UE9Ddw?oc=5",
-     "at": "2026-11-01T11:00Z",
-     "eksik": false
     }
    ],
    "away": [
@@ -12428,7 +12428,7 @@
      "title": "Newcastle v Everton: Prediction, team news, lineups and odds",
      "source": "Football365",
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY0VUaUNaRElXcFhxZzJLMzBqRzFtSGdaam42WHkzMVdkci1ETmlFX3NvaUxPUzByTFhIMkxoZHpDeWlFT0FidXFxZDhTdUdGRGRWZmg1WGFnMUY1MlRiWFZ4Smg5V2pmRi01cy00RllMREtubmpvLTBpMklCeFQ2amtlZlF6eHM?oc=5",
-     "at": "2026-11-01T15:53Z",
+     "at": "2026-11-01T16:54Z",
      "eksik": false
     },
     {
@@ -12463,15 +12463,15 @@
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Newcastle United takımında maça saatler kala güncel sakat veya cezalı oyuncu raporu bulunmamaktadır."
+     "ozet": "Newcastle United cephesinde maç öncesi güncel eksik veya sakat oyuncu bilgisi bulunmuyor."
     },
     "away": {
      "eksikler": [],
-     "ozet": "Everton cephesinde de bu karşılaşma öncesi resmi olarak bildirilen önemli bir eksik bulunmuyor."
+     "ozet": "Everton cephesinde maç öncesi güncel sakat veya cezalı oyuncu raporu yer almıyor."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-01T17:23Z",
-    "hash": "1a28b11e4b8b"
+    "at": "2026-11-01T19:51Z",
+    "hash": "5430bf1a44a0"
    }
   },
   "T1|2026-10-26|Besiktas|Buyuksehyr": {
@@ -13493,21 +13493,28 @@
    "kickoff": "2026-11-01T13:00Z"
   },
   "T1|2026-11-02|Genclerbirligi|Alanyaspor": {
-   "fetched_at": "2026-11-01T17:23Z",
+   "fetched_at": "2026-11-01T19:51Z",
    "kickoff": "2026-11-02T17:00Z",
    "home": [
+    {
+     "title": "Alanyaspor maçı öncesi Gençlerbirliği'nde 5 eksik",
+     "source": "Yeni Alanya",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYnEwZXEwUnRtRV85UlpMTlNraXRqV1prZlQyWWdRSWJOeVJxX2xFTFlYaUVoaGNiOExpWHp1UGIweFRMeTJZSWZMSThpdUZBUnU2TnVuWC1jTjBja2tLeGZLSHRIdGcwLWpIWVpIRS1nUDIydjNFNjdLTWUwMGVCbA?oc=5",
+     "at": "2026-11-01T19:06Z",
+     "eksik": false
+    },
+    {
+     "title": "Gençlerbirliği Alanyaspor maçına 5 eksikle çıkacak",
+     "source": "Manşet Haber",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaTlSYktwUFBwTTlZSXh2bkVjSXFoeEJZYVFNTWdoRGdsZm1EejQ1ZmNRLTBLYVR2TWlaNENvTmQ0Zlg5WWFkZnpMeEFDQWE2czhWS1A0b0VpWTB3U21oaGxDSnZHT0tGaEVUclpseHB5bl9ncXJnOVhfVE5iZ053Wm1qUzNQZw?oc=5",
+     "at": "2026-11-01T18:16Z",
+     "eksik": false
+    },
     {
      "title": "Kasımpaşa-Beşiktaş maçı başladı mı? Beşiktaş-Kasımpaşa maçı hangi kanalda?",
      "source": "Ankara Net Haber",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVEI0bWNEMzh4dzJTbEtueXh4d09LbGZBMXhTaU1Kd0pIemhjeURPbXVweklkMEFZcWw5cWs4M0hmS0tUeWkxZlljd1YwYVRiLVRKLXFJRVRPNU1GUEpQM3Q4M1NGUUNNb2hIREFJdl9VN0cwQkQtN1IwMXN2czBDcEZaVDZRRF9RTlN2cEpaYTF1R25Ud3J2aTNid3RVU20tODN4SVp3?oc=5",
      "at": "2026-11-01T15:52Z",
-     "eksik": false
-    },
-    {
-     "title": "Kasımpaşa-Beşiktaş Maçı Heyecanla Başlıyor",
-     "source": "www.superlighaberler.com",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSFBRTjlLa2YzN1VSbDhRdVhJVFNUYmNKOXpTeE9ueEpWUkoxMkVYT0ZGcnAyYzFBTWR4bmI2UnJiYnMtTHhsOTd0UXFleUtzMnk2WFg0TEpiTXNTNVFkVllVSTRIV1k1QWtmT2o2dk50MU0tY1RiUnJGdHJHWGFvZ2R3QVNfaFE5TzNLWXBwLUhrTEZvZEE?oc=5",
-     "at": "2026-11-01T15:50Z",
      "eksik": false
     },
     {
@@ -13518,69 +13525,62 @@
      "eksik": false
     },
     {
-     "title": "Kasımpaşa - Beşiktaş / Canlı anlatım",
-     "source": "İnternet Haber",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTy1WWnEzR0NxX29oMDhCbGdtVjZhUkxCZnlHNWxEV0poLUxVMWF4czlLVVJQQUtEVk5tMG1uWUJRNFhvU3Q3d1V2U09rNzBsdndQWTJCMnZWR28tanZ6bldiSjJJRjhXazF0YlhXUGZlR1czOHlhRkdtNUYyUHVMVg?oc=5",
-     "at": "2026-11-01T15:18Z",
-     "eksik": false
-    },
-    {
-     "title": "CANLI YAYIN | Kasımpaşa - Beşiktaş",
-     "source": "Haber Global",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaklzNXNISVpXay1hTXVNWEZtM0VRSmFnSGxiNVBaUE1NSzIyQ3g4SmdQOU0ybXpobDNWMXI1bElDb2JBRE5vOGZKQ0VIQjVSdDFOZzM1clRMUVdqYWxkbVhEN3A4aVd3cU9fSV8xXzVja2t1a3NPTTlFRWNrYmc5b2tCMXNZMzZu0gGOAUFVX3lxTE8ySzZyc0ZSMm5IN1dnTjdXSXN1cnVqcllRcFBaMUpNVVFLUzB4Ny1idTZRSWtWYjREbThUck9acXZvVWF6YWNHb0VpbHZEdW9jUzd2Tzg0bmxLbG9CenV2OVZIZ1RQSUI5Q3V6Z1B2SnM0X1hscmlhbEtjdmtBZ2tFTk92ZVd5ajE2VWEta0E?oc=5",
-     "at": "2026-11-01T15:07Z",
+     "title": "CANLI | Kasımpaşa - Beşiktaş | Maçta ilk yarı sona erdi",
+     "source": "Sabah",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYVl1cHEwbm5Ebk5RVTE0MXVKVFZRODhvWFY0NnRJM2hIUTZSRzFQVmM0V2ZwQjczWWo0OXNiZHhCU0hINWtzRUl0czRkWVk2VGh1cUU3WGdXdWd6RzNwQTVKblZFTFdZbEJlOU1hOVBsdzZwRWdzY1pzRk45UmEzdXZfWHdjbk5vZVRsX2lMUGVpR2Nad3pXR0FzZHVGUnfSAaIBQVVfeXFMT3c3M0ZKTXl0cFVNS0otS0NVbmtqWWJGTFV5aklHWFR6bk9FdEVBNTZZQkVuNmNCUjRZd0pqZ201V1FYNHdCZ3ZjT2pCelBYTW53ejBVdnc1bl9sOHptd2RNUG1kTVhDZzFZbU55dXNxNURvVkJKcXl4SDBhQzdlTW5nZ0xJSER6Z0w1cE9WdTloYmNoM25mdXFUTzJvVVNtMGt3?oc=5",
+     "at": "2026-11-01T14:59Z",
      "eksik": false
     }
    ],
    "away": [
     {
-     "title": "CANLI | Kasımpaşa - Beşiktaş | Maçta ilk yarı oynanıyor",
+     "title": "Alanyaspor maçı öncesi Gençlerbirliği'nde 5 eksik",
+     "source": "Yeni Alanya",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYnEwZXEwUnRtRV85UlpMTlNraXRqV1prZlQyWWdRSWJOeVJxX2xFTFlYaUVoaGNiOExpWHp1UGIweFRMeTJZSWZMSThpdUZBUnU2TnVuWC1jTjBja2tLeGZLSHRIdGcwLWpIWVpIRS1nUDIydjNFNjdLTWUwMGVCbA?oc=5",
+     "at": "2026-11-01T19:06Z",
+     "eksik": false
+    },
+    {
+     "title": "Gençlerbirliği Alanyaspor maçına 5 eksikle çıkacak",
+     "source": "Manşet Haber",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaTlSYktwUFBwTTlZSXh2bkVjSXFoeEJZYVFNTWdoRGdsZm1EejQ1ZmNRLTBLYVR2TWlaNENvTmQ0Zlg5WWFkZnpMeEFDQWE2czhWS1A0b0VpWTB3U21oaGxDSnZHT0tGaEVUclpseHB5bl9ncXJnOVhfVE5iZ053Wm1qUzNQZw?oc=5",
+     "at": "2026-11-01T18:16Z",
+     "eksik": false
+    },
+    {
+     "title": "Gençlerbirliği, Alanyaspor maçının hazırlıklarını tamamladı",
+     "source": "Canlı Gaste",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ295VWpOMmpPemRQZGRpdURjMmdNWmRkOGlBZlpacGZBeWtjNTZvUGoteVZlOXdteHZXM3NEZ3B1WXc2TzF6VGEtOGVSNVRIdU1GUUw3RkQ2S1lyem93X3VwWnp2M0lBc1RFa0gtQkdzT3V0X25mNFFsVzFpTWRpejlYTkpMZjRFVnJkeG55bnZkUXNPUEFaVw?oc=5",
+     "at": "2026-11-01T16:36Z",
+     "eksik": false
+    },
+    {
+     "title": "CANLI | Kasımpaşa - Beşiktaş | Maçta ilk yarı sona erdi",
      "source": "Sabah",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYVl1cHEwbm5Ebk5RVTE0MXVKVFZRODhvWFY0NnRJM2hIUTZSRzFQVmM0V2ZwQjczWWo0OXNiZHhCU0hINWtzRUl0czRkWVk2VGh1cUU3WGdXdWd6RzNwQTVKblZFTFdZbEJlOU1hOVBsdzZwRWdzY1pzRk45UmEzdXZfWHdjbk5vZVRsX2lMUGVpR2Nad3pXR0FzZHVGUnfSAaIBQVVfeXFMT3c3M0ZKTXl0cFVNS0otS0NVbmtqWWJGTFV5aklHWFR6bk9FdEVBNTZZQkVuNmNCUjRZd0pqZ201V1FYNHdCZ3ZjT2pCelBYTW53ejBVdnc1bl9sOHptd2RNUG1kTVhDZzFZbU55dXNxNURvVkJKcXl4SDBhQzdlTW5nZ0xJSER6Z0w1cE9WdTloYmNoM25mdXFUTzJvVVNtMGt3?oc=5",
      "at": "2026-11-01T14:59Z",
      "eksik": false
     },
     {
-     "title": "Gençlerbirliği - Alanyaspor Maçı Ne Zaman ve Hangi Kanalda Yayınlanacak ?",
-     "source": "İşçi Haber",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR0t3NWNIVC1RMVFPd3VqbTBnQkw4TFY2UFRQZV81U1BVMTBmbThXOFVERm5LQXNfLV83a1NFWnY4SlptbmZ6YzJXSVpXb1hWd2N6MTdadWJZTU5yVDZqX2ZSUDlpbDZVaXpuSmNzc180SGdhQ01iTUc2SW1uTlFpN1pwdXFnMUNhSFlsYk14N0xnQkRfN1M5b0FPZ3BCT2cwYkk4eGRSZjlVc2c?oc=5",
-     "at": "2026-11-01T14:38Z",
-     "eksik": false
-    },
-    {
-     "title": "Alanyaspor, Gençlerbirliği deplasmanına hazır",
-     "source": "Canlı Gaste",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeG9falZDeE9wekhBR1JEMG0td1BQLU5YNXg5MmlKNHkyN3g5VVlqSnRBU3BPcmdvVl8tSTZfeFJNUm9wRG5NLWF4elk0Yk5neUlDUU5rU1R1TWI1Sk44NEkwZk1zV0oxNW85T1huNXBQazhDNHlSUzVMLUU2Z1BxU0hMeFJoZw?oc=5",
-     "at": "2026-11-01T09:34Z",
-     "eksik": false
-    },
-    {
-     "title": "Alanyaspor, Gençlerbirliği maçı hazırlıklarını tamamladı",
-     "source": "https://www.ensondakika.com.tr/",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRmFKUWFaUDJhVURCSWVzamdaQW1oSlYwaWRhOGo3cy1XUV9NR2NLUHpxUjdKY2VMVVlHd2RYeE9WR29pUzMxdkYxU2tKMm9wQmoxVkw2RVFQM0RBMUhOOUdIa3BmZEVUVnpUWVJHOHQ3aWdGV1BJdktKNHFlWEtlLXNPeEhyMEx1VXN6SFVGTVFLc3JOWmhpVHV3?oc=5",
-     "at": "2026-11-01T09:34Z",
-     "eksik": false
-    },
-    {
-     "title": "Alanyaspor, Gençlerbirliği maçına hazır",
-     "source": "Canlı Gaste",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wQWQ4aHFMa2tSNkxYN0ZEczRObFJLVFUwZHY2V2l4U0NYeWFyc1pTZWp5SGIwNUtlaVM4eWFUYi11VVFVOXRhVm84VHROaXk2S0NoYzc5bjI4QWdONHNSWnpIWU5qVXkwZXVKN2ktWEl3bXRVNnk4RGJFclYwQQ?oc=5",
-     "at": "2026-11-01T09:34Z",
+     "title": "Aytemiz Alanyaspor-Beşiktaş maçından notlar",
+     "source": "Haber 7",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMDZRS1d0N1pnV2tYcl9uMkNGU1A3eU5hX1BSRGs3ZWp5aHZISWZRSlItTE4yc1h5WXFZZ0F0cG5PWktYSGpLUnAzRW1Kc3BUTWhQaTJEMkY4Vk5mLTF6S2FNM2xaWVVEZDFpNWQ3blhORUVSeVlwc29VdTZETjhrYjAzNEVabm96djY0?oc=5",
+     "at": "2026-11-01T14:54Z",
      "eksik": false
     }
    ],
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Gençlerbirliği'nde bu maç öncesinde bildirilen önemli bir sakat veya cezalı oyuncu bulunmuyor."
+     "ozet": "Gençlerbirliği'nin Alanyaspor maçı öncesi eksik veya sakat oyuncularına dair son günlerde güncel ve teyit edilmiş resmi bir liste bulunmamaktadır."
     },
     "away": {
      "eksikler": [],
-     "ozet": "Alanyaspor'da maç öncesi eksik veya sakat oyuncu bildirilmedi."
+     "ozet": "Alanyaspor'un bu maç öncesindeki eksik oyuncularına dair güvenilir kaynaklarda güncel bir bilgi yer almamaktadır."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-01T17:23Z",
-    "hash": "4fe13e9d7c46"
+    "at": "2026-11-01T19:51Z",
+    "hash": "07cf1ba6147c"
    }
   }
  },
@@ -13601,9 +13601,9 @@
    "net": 2.06
   },
   "riskli": {
-   "n": 3,
+   "n": 4,
    "won": 1,
-   "net": 0.51
+   "net": -0.49
   }
  },
  "coupon_stats_backfill": {
@@ -13625,9 +13625,9 @@
  },
  "coupons": [
   {
-   "id": "dusuk-202611011723",
+   "id": "dusuk-202611011951",
    "type": "dusuk",
-   "created_at": "2026-11-01T17:23Z",
+   "created_at": "2026-11-01T19:51Z",
    "status": "bekliyor",
    "backfill": false,
    "odds": 1.64,
@@ -15759,9 +15759,9 @@
    ]
   },
   {
-   "id": "riskli-202611011723",
+   "id": "riskli-202611011951",
    "type": "riskli",
-   "created_at": "2026-11-01T17:23Z",
+   "created_at": "2026-11-01T19:51Z",
    "status": "bekliyor",
    "backfill": false,
    "odds": 5.95,
@@ -15795,7 +15795,7 @@
    "id": "riskli-202611011145",
    "type": "riskli",
    "created_at": "2026-11-01T11:45Z",
-   "status": "bekliyor",
+   "status": "kaybetti",
    "backfill": false,
    "odds": 11.34,
    "prob": 0.0695,
@@ -15809,7 +15809,7 @@
      "market": "OU",
      "prob": 0.522,
      "odds": 1.85,
-     "result": "bekliyor"
+     "result": "kaybetti"
     },
     {
      "league": "T1",
@@ -15864,7 +15864,7 @@
      "market": "OU",
      "prob": 0.5195,
      "odds": 1.86,
-     "result": "bekliyor"
+     "result": "kaybetti"
     },
     {
      "league": "T1",
@@ -15941,7 +15941,7 @@
      "market": "OU",
      "prob": 0.5225,
      "odds": 1.85,
-     "result": "bekliyor"
+     "result": "kaybetti"
     }
    ]
   },
