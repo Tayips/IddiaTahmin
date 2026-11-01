@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T16:33Z",
+ "updated_at": "2026-11-01T17:23Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
@@ -8647,7 +8647,7 @@
    "odds_d": 3.22,
    "odds_a": 2.54,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-01T16:33Z",
+   "predicted_at": "2026-11-01T17:23Z",
    "p_o25": 0.4689,
    "p_kg": 0.5407,
    "odds_o25": 2.01,
@@ -8695,7 +8695,7 @@
    "odds_d": 3.53,
    "odds_a": 2.89,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-01T16:33Z",
+   "predicted_at": "2026-11-01T17:23Z",
    "p_o25": 0.5763,
    "p_kg": 0.6056,
    "odds_o25": 1.67,
@@ -12384,7 +12384,7 @@
    "kickoff": "2026-11-01T16:30Z"
   },
   "E0|2026-11-02|Newcastle|Everton": {
-   "fetched_at": "2026-11-01T16:33Z",
+   "fetched_at": "2026-11-01T17:23Z",
    "kickoff": "2026-11-02T20:00Z",
    "home": [
     {
@@ -12392,13 +12392,6 @@
      "source": "Football365",
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY0VUaUNaRElXcFhxZzJLMzBqRzFtSGdaam42WHkzMVdkci1ETmlFX3NvaUxPUzByTFhIMkxoZHpDeWlFT0FidXFxZDhTdUdGRGRWZmg1WGFnMUY1MlRiWFZ4Smg5V2pmRi01cy00RllMREtubmpvLTBpMklCeFQ2amtlZlF6eHM?oc=5",
      "at": "2026-11-01T15:53Z",
-     "eksik": false
-    },
-    {
-     "title": "Newcastle could be without five players for Everton as David Moyes faces Jack Grealish decision",
-     "source": "Liverpool Echo",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNblRna0pid3ZXVjJmaHd0NjNQamVNVnZwQTNpcGJyd244MmNXSEZJTVJHQVZCSmNpMzFYNm1DT21Ma0lVczdRMU9oZGxjRFFKM1NfNFFqM0kxeTllX0I5ZkhkbmxMcFptcmU1eGdJU003UEltdTNVNU0ycEFJdGJEMlJVZmVzc2YtQWtYZklMaVQ4TlZaVWQzdlJ3WUd3MmVUUjNWc0k2b1ZyZ9IBrwFBVV95cUxOTDllWjZIOFBoY1BVMC1KWl83cU9kc2R2MXhISVRXb0kxU1dWc191X0h6dDNfMTFqZy1wbjJxY1FOckV4NEhpbzBLRlBwQ1JRRk5vQ0JDZ3dhZy12ZjI2NWpRdTVlZENSUVNtWm43ak1sWDAyV1dhNFJ0S0hEVXF3cWkzVTZTeG1HTWFNaEl1NEhsTFZ5dTZGbkZhR280TmVGeG90X1lidGxEU01mRmpJ?oc=5",
-     "at": "2026-11-01T14:58Z",
      "eksik": false
     },
     {
@@ -12421,6 +12414,13 @@
      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zbjk3X2NfS2NKXzZWNVFhWUVmZGVUZTRkMVRqc2tfaU1KYnF5TV85UHBNclFLbThGbE96SFNjSmZQUEkyVmJhVlN0c09nNk9zWDdnSGVydDNKeVhGZ2NLX3AwWHRYM0dHUFN5NGhYbm5VM3RE?oc=5",
      "at": "2026-11-01T11:49Z",
      "eksik": true
+    },
+    {
+     "title": "FA rules hand Everton major boost ahead of Newcastle United clash",
+     "source": "Shields Gazette",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPS3Z1cGJhOENfcjE0Q2tXRVBacTdsYWtGMThUNlM3OG1kZFlQUEpfZFJfbjNBaV9BbTI1NDZjQzVoRFB0VkR0aE1PUzdJbWNpcnFDMGtJa2xNRFRmNUQ1TDl1SHBhak5CZXVNaUQ5RE9fQVM4aHhTVHZPd2NlRDBZVXh6dklCNnltMkFFQTl3NWVleVhzQXdwZzY0XzJ4dEVYeWw2c0VBeVpIVmlRX2t3dUlZTDZIY3RsbTJLR0J4UE9Ddw?oc=5",
+     "at": "2026-11-01T11:00Z",
+     "eksik": false
     }
    ],
    "away": [
@@ -12463,15 +12463,15 @@
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Maç tarihine henüz zaman olduğu için güncel sakatlık veya ceza raporları doğrulanmış kesin eksik listesi bulunmamaktadır."
+     "ozet": "Newcastle United takımında maça saatler kala güncel sakat veya cezalı oyuncu raporu bulunmamaktadır."
     },
     "away": {
      "eksikler": [],
-     "ozet": "Maç tarihine henüz zaman olduğu için güncel sakatlık veya ceza raporları doğrulanmış kesin eksik listesi bulunmamaktadır."
+     "ozet": "Everton cephesinde de bu karşılaşma öncesi resmi olarak bildirilen önemli bir eksik bulunmuyor."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-01T16:33Z",
-    "hash": "b75430d4f926"
+    "at": "2026-11-01T17:23Z",
+    "hash": "1a28b11e4b8b"
    }
   },
   "T1|2026-10-26|Besiktas|Buyuksehyr": {
@@ -13493,7 +13493,7 @@
    "kickoff": "2026-11-01T13:00Z"
   },
   "T1|2026-11-02|Genclerbirligi|Alanyaspor": {
-   "fetched_at": "2026-11-01T16:33Z",
+   "fetched_at": "2026-11-01T17:23Z",
    "kickoff": "2026-11-02T17:00Z",
    "home": [
     {
@@ -13548,39 +13548,39 @@
      "eksik": false
     },
     {
-     "title": "Alanyaspor'da Giresunspor maçı hazırlıkları",
-     "source": "Haber 7",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdDZKenZBZVB3WGpIZ2tBR2gwLUlUaXJFNmRrc0UwLXJ6dk9ONFFpdnV3OEVIMVpNdkgyZXlaZGJSazh0eEJ4cnhUWDFYdGF4aDJaQXFYUFNCQVhpT1pCWWRldEFydDljRlFDQmpQT2t3WndRd0dyUzV0VkFTXy14MV8wM1kwSWtDVGc?oc=5",
-     "at": "2026-11-01T12:38Z",
+     "title": "Alanyaspor, Gençlerbirliği deplasmanına hazır",
+     "source": "Canlı Gaste",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeG9falZDeE9wekhBR1JEMG0td1BQLU5YNXg5MmlKNHkyN3g5VVlqSnRBU3BPcmdvVl8tSTZfeFJNUm9wRG5NLWF4elk0Yk5neUlDUU5rU1R1TWI1Sk44NEkwZk1zV0oxNW85T1huNXBQazhDNHlSUzVMLUU2Z1BxU0hMeFJoZw?oc=5",
+     "at": "2026-11-01T09:34Z",
      "eksik": false
     },
     {
-     "title": "Galatasaray Kulübü İkinci Başkanı Metin Öztürk istifa etti",
-     "source": "Canlı Gaste",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeFNGQk9XanFPalVCYkl2NUR1LW5TekNtTGdTdmdENUkyQUhOR3FzZ2stV1RYaTRSZUlWTXJzcUg3X2h1T2pMQnhqUVhIWXRjbGdUby03dHBiZGktczlZWUcxRklQX2ozb0l4a0lQdVUzME1LdEx2ejNKOFJnbXotWkdBNUZjM1M5Q0xsUEktT2QyUl9aMWZfag?oc=5",
-     "at": "2026-11-01T10:06Z",
+     "title": "Alanyaspor, Gençlerbirliği maçı hazırlıklarını tamamladı",
+     "source": "https://www.ensondakika.com.tr/",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRmFKUWFaUDJhVURCSWVzamdaQW1oSlYwaWRhOGo3cy1XUV9NR2NLUHpxUjdKY2VMVVlHd2RYeE9WR29pUzMxdkYxU2tKMm9wQmoxVkw2RVFQM0RBMUhOOUdIa3BmZEVUVnpUWVJHOHQ3aWdGV1BJdktKNHFlWEtlLXNPeEhyMEx1VXN6SFVGTVFLc3JOWmhpVHV3?oc=5",
+     "at": "2026-11-01T09:34Z",
      "eksik": false
     },
     {
-     "title": "Galatasaray-Stuttgart maçının hakemi İngiliz Chris Kavanagh oldu",
+     "title": "Alanyaspor, Gençlerbirliği maçına hazır",
      "source": "Canlı Gaste",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY3BzcEdOeTFOdEtVbEZqU3FTdlVEckQ3YWxza0JfNDVjeFBHNFhMUjRYQUVhTXpTWDl1X2NnRGVHQUE3SjlRT1k5bndSTW93MUt2QWtXOUdQQzJoaTM4MEJIV0ZHcWZCT2lyeEd2LU85NHYwdFRzNF9aLTZPdFVaQUhNd2VKWUtneEt2ZlFieTBBSFlYNzVYbHg0TG9EWEFB?oc=5",
-     "at": "2026-11-01T09:47Z",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wQWQ4aHFMa2tSNkxYN0ZEczRObFJLVFUwZHY2V2l4U0NYeWFyc1pTZWp5SGIwNUtlaVM4eWFUYi11VVFVOXRhVm84VHROaXk2S0NoYzc5bjI4QWdONHNSWnpIWU5qVXkwZXVKN2ktWEl3bXRVNnk4RGJFclYwQQ?oc=5",
+     "at": "2026-11-01T09:34Z",
      "eksik": false
     }
    ],
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Gençlerbirliği ile Alanyaspor arasında 2026 yılının Kasım ayında oynanacak bu maç için güncel sakat ve cezalı oyuncu bilgisi bulunmamaktadır."
+     "ozet": "Gençlerbirliği'nde bu maç öncesinde bildirilen önemli bir sakat veya cezalı oyuncu bulunmuyor."
     },
     "away": {
      "eksikler": [],
-     "ozet": "Alanyaspor'un bu karşılaşma öncesinde bildirilen eksik veya sakat oyuncusu bulunmamaktadır."
+     "ozet": "Alanyaspor'da maç öncesi eksik veya sakat oyuncu bildirilmedi."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-01T16:33Z",
-    "hash": "f545831e17f9"
+    "at": "2026-11-01T17:23Z",
+    "hash": "4fe13e9d7c46"
    }
   }
  },
@@ -13625,9 +13625,9 @@
  },
  "coupons": [
   {
-   "id": "dusuk-202611011633",
+   "id": "dusuk-202611011723",
    "type": "dusuk",
-   "created_at": "2026-11-01T16:33Z",
+   "created_at": "2026-11-01T17:23Z",
    "status": "bekliyor",
    "backfill": false,
    "odds": 1.64,
@@ -15759,9 +15759,9 @@
    ]
   },
   {
-   "id": "riskli-202611011633",
+   "id": "riskli-202611011723",
    "type": "riskli",
-   "created_at": "2026-11-01T16:33Z",
+   "created_at": "2026-11-01T17:23Z",
    "status": "bekliyor",
    "backfill": false,
    "odds": 5.95,

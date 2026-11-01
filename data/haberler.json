@@ -832,15 +832,15 @@
  },
  "E0|2026-11-02|Newcastle|Everton": {
   "ai": {
-   "at": "2026-11-01T16:33Z",
+   "at": "2026-11-01T17:23Z",
    "away": {
     "eksikler": [],
-    "ozet": "Maç tarihine henüz zaman olduğu için güncel sakatlık veya ceza raporları doğrulanmış kesin eksik listesi bulunmamaktadır."
+    "ozet": "Everton cephesinde de bu karşılaşma öncesi resmi olarak bildirilen önemli bir eksik bulunmuyor."
    },
-   "hash": "b75430d4f926",
+   "hash": "1a28b11e4b8b",
    "home": {
     "eksikler": [],
-    "ozet": "Maç tarihine henüz zaman olduğu için güncel sakatlık veya ceza raporları doğrulanmış kesin eksik listesi bulunmamaktadır."
+    "ozet": "Newcastle United takımında maça saatler kala güncel sakat veya cezalı oyuncu raporu bulunmamaktadır."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
@@ -881,7 +881,7 @@
     "title": "BETTING GUIDE: Newcastle vs Everton, match preview, team news and prediction"
    }
   ],
-  "fetched_at": "2026-11-01T16:33Z",
+  "fetched_at": "2026-11-01T17:23Z",
   "home": [
    {
     "at": "2026-11-01T15:53Z",
@@ -889,13 +889,6 @@
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY0VUaUNaRElXcFhxZzJLMzBqRzFtSGdaam42WHkzMVdkci1ETmlFX3NvaUxPUzByTFhIMkxoZHpDeWlFT0FidXFxZDhTdUdGRGRWZmg1WGFnMUY1MlRiWFZ4Smg5V2pmRi01cy00RllMREtubmpvLTBpMklCeFQ2amtlZlF6eHM?oc=5",
     "source": "Football365",
     "title": "Newcastle v Everton: Prediction, team news, lineups and odds"
-   },
-   {
-    "at": "2026-11-01T14:58Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNblRna0pid3ZXVjJmaHd0NjNQamVNVnZwQTNpcGJyd244MmNXSEZJTVJHQVZCSmNpMzFYNm1DT21Ma0lVczdRMU9oZGxjRFFKM1NfNFFqM0kxeTllX0I5ZkhkbmxMcFptcmU1eGdJU003UEltdTNVNU0ycEFJdGJEMlJVZmVzc2YtQWtYZklMaVQ4TlZaVWQzdlJ3WUd3MmVUUjNWc0k2b1ZyZ9IBrwFBVV95cUxOTDllWjZIOFBoY1BVMC1KWl83cU9kc2R2MXhISVRXb0kxU1dWc191X0h6dDNfMTFqZy1wbjJxY1FOckV4NEhpbzBLRlBwQ1JRRk5vQ0JDZ3dhZy12ZjI2NWpRdTVlZENSUVNtWm43ak1sWDAyV1dhNFJ0S0hEVXF3cWkzVTZTeG1HTWFNaEl1NEhsTFZ5dTZGbkZhR280TmVGeG90X1lidGxEU01mRmpJ?oc=5",
-    "source": "Liverpool Echo",
-    "title": "Newcastle could be without five players for Everton as David Moyes faces Jack Grealish decision"
    },
    {
     "at": "2026-11-01T11:58Z",
@@ -917,6 +910,13 @@
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zbjk3X2NfS2NKXzZWNVFhWUVmZGVUZTRkMVRqc2tfaU1KYnF5TV85UHBNclFLbThGbE96SFNjSmZQUEkyVmJhVlN0c09nNk9zWDdnSGVydDNKeVhGZ2NLX3AwWHRYM0dHUFN5NGhYbm5VM3RE?oc=5",
     "source": "The False 9",
     "title": "Newcastle vs Everton Prediction: Score Pick, Osula and Branthwaite Doubts"
+   },
+   {
+    "at": "2026-11-01T11:00Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPS3Z1cGJhOENfcjE0Q2tXRVBacTdsYWtGMThUNlM3OG1kZFlQUEpfZFJfbjNBaV9BbTI1NDZjQzVoRFB0VkR0aE1PUzdJbWNpcnFDMGtJa2xNRFRmNUQ1TDl1SHBhak5CZXVNaUQ5RE9fQVM4aHhTVHZPd2NlRDBZVXh6dklCNnltMkFFQTl3NWVleVhzQXdwZzY0XzJ4dEVYeWw2c0VBeVpIVmlRX2t3dUlZTDZIY3RsbTJLR0J4UE9Ddw?oc=5",
+    "source": "Shields Gazette",
+    "title": "FA rules hand Everton major boost ahead of Newcastle United clash"
    }
   ],
   "kickoff": "2026-11-02T20:00Z"
@@ -1941,15 +1941,15 @@
  },
  "T1|2026-11-02|Genclerbirligi|Alanyaspor": {
   "ai": {
-   "at": "2026-11-01T16:33Z",
+   "at": "2026-11-01T17:23Z",
    "away": {
     "eksikler": [],
-    "ozet": "Alanyaspor'un bu karşılaşma öncesinde bildirilen eksik veya sakat oyuncusu bulunmamaktadır."
+    "ozet": "Alanyaspor'da maç öncesi eksik veya sakat oyuncu bildirilmedi."
    },
-   "hash": "f545831e17f9",
+   "hash": "4fe13e9d7c46",
    "home": {
     "eksikler": [],
-    "ozet": "Gençlerbirliği ile Alanyaspor arasında 2026 yılının Kasım ayında oynanacak bu maç için güncel sakat ve cezalı oyuncu bilgisi bulunmamaktadır."
+    "ozet": "Gençlerbirliği'nde bu maç öncesinde bildirilen önemli bir sakat veya cezalı oyuncu bulunmuyor."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
@@ -1969,28 +1969,28 @@
     "title": "Gençlerbirliği - Alanyaspor Maçı Ne Zaman ve Hangi Kanalda Yayınlanacak ?"
    },
    {
-    "at": "2026-11-01T12:38Z",
+    "at": "2026-11-01T09:34Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdDZKenZBZVB3WGpIZ2tBR2gwLUlUaXJFNmRrc0UwLXJ6dk9ONFFpdnV3OEVIMVpNdkgyZXlaZGJSazh0eEJ4cnhUWDFYdGF4aDJaQXFYUFNCQVhpT1pCWWRldEFydDljRlFDQmpQT2t3WndRd0dyUzV0VkFTXy14MV8wM1kwSWtDVGc?oc=5",
-    "source": "Haber 7",
-    "title": "Alanyaspor'da Giresunspor maçı hazırlıkları"
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeG9falZDeE9wekhBR1JEMG0td1BQLU5YNXg5MmlKNHkyN3g5VVlqSnRBU3BPcmdvVl8tSTZfeFJNUm9wRG5NLWF4elk0Yk5neUlDUU5rU1R1TWI1Sk44NEkwZk1zV0oxNW85T1huNXBQazhDNHlSUzVMLUU2Z1BxU0hMeFJoZw?oc=5",
+    "source": "Canlı Gaste",
+    "title": "Alanyaspor, Gençlerbirliği deplasmanına hazır"
    },
    {
-    "at": "2026-11-01T10:06Z",
+    "at": "2026-11-01T09:34Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeFNGQk9XanFPalVCYkl2NUR1LW5TekNtTGdTdmdENUkyQUhOR3FzZ2stV1RYaTRSZUlWTXJzcUg3X2h1T2pMQnhqUVhIWXRjbGdUby03dHBiZGktczlZWUcxRklQX2ozb0l4a0lQdVUzME1LdEx2ejNKOFJnbXotWkdBNUZjM1M5Q0xsUEktT2QyUl9aMWZfag?oc=5",
-    "source": "Canlı Gaste",
-    "title": "Galatasaray Kulübü İkinci Başkanı Metin Öztürk istifa etti"
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRmFKUWFaUDJhVURCSWVzamdaQW1oSlYwaWRhOGo3cy1XUV9NR2NLUHpxUjdKY2VMVVlHd2RYeE9WR29pUzMxdkYxU2tKMm9wQmoxVkw2RVFQM0RBMUhOOUdIa3BmZEVUVnpUWVJHOHQ3aWdGV1BJdktKNHFlWEtlLXNPeEhyMEx1VXN6SFVGTVFLc3JOWmhpVHV3?oc=5",
+    "source": "https://www.ensondakika.com.tr/",
+    "title": "Alanyaspor, Gençlerbirliği maçı hazırlıklarını tamamladı"
    },
    {
-    "at": "2026-11-01T09:47Z",
+    "at": "2026-11-01T09:34Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY3BzcEdOeTFOdEtVbEZqU3FTdlVEckQ3YWxza0JfNDVjeFBHNFhMUjRYQUVhTXpTWDl1X2NnRGVHQUE3SjlRT1k5bndSTW93MUt2QWtXOUdQQzJoaTM4MEJIV0ZHcWZCT2lyeEd2LU85NHYwdFRzNF9aLTZPdFVaQUhNd2VKWUtneEt2ZlFieTBBSFlYNzVYbHg0TG9EWEFB?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wQWQ4aHFMa2tSNkxYN0ZEczRObFJLVFUwZHY2V2l4U0NYeWFyc1pTZWp5SGIwNUtlaVM4eWFUYi11VVFVOXRhVm84VHROaXk2S0NoYzc5bjI4QWdONHNSWnpIWU5qVXkwZXVKN2ktWEl3bXRVNnk4RGJFclYwQQ?oc=5",
     "source": "Canlı Gaste",
-    "title": "Galatasaray-Stuttgart maçının hakemi İngiliz Chris Kavanagh oldu"
+    "title": "Alanyaspor, Gençlerbirliği maçına hazır"
    }
   ],
-  "fetched_at": "2026-11-01T16:33Z",
+  "fetched_at": "2026-11-01T17:23Z",
   "home": [
    {
     "at": "2026-11-01T15:52Z",
