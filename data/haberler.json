@@ -832,91 +832,91 @@
  },
  "E0|2026-11-02|Newcastle|Everton": {
   "ai": {
-   "at": "2026-11-01T11:45Z",
+   "at": "2026-11-01T16:33Z",
    "away": {
     "eksikler": [],
-    "ozet": "Everton cephesinde maç öncesi güncel ve resmi bir sakat veya cezalı oyuncu raporu bulunmamaktadır."
+    "ozet": "Maç tarihine henüz zaman olduğu için güncel sakatlık veya ceza raporları doğrulanmış kesin eksik listesi bulunmamaktadır."
    },
-   "hash": "053182ad9ade",
+   "hash": "b75430d4f926",
    "home": {
     "eksikler": [],
-    "ozet": "Newcastle United cephesinde maç öncesi güncel ve resmi bir sakat veya cezalı oyuncu raporu bulunmamaktadır."
+    "ozet": "Maç tarihine henüz zaman olduğu için güncel sakatlık veya ceza raporları doğrulanmış kesin eksik listesi bulunmamaktadır."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
    {
-    "at": "2026-11-01T11:00Z",
+    "at": "2026-11-01T15:53Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPS3Z1cGJhOENfcjE0Q2tXRVBacTdsYWtGMThUNlM3OG1kZFlQUEpfZFJfbjNBaV9BbTI1NDZjQzVoRFB0VkR0aE1PUzdJbWNpcnFDMGtJa2xNRFRmNUQ1TDl1SHBhak5CZXVNaUQ5RE9fQVM4aHhTVHZPd2NlRDBZVXh6dklCNnltMkFFQTl3NWVleVhzQXdwZzY0XzJ4dEVYeWw2c0VBeVpIVmlRX2t3dUlZTDZIY3RsbTJLR0J4UE9Ddw?oc=5",
-    "source": "Shields Gazette",
-    "title": "FA rules hand Everton major boost ahead of Newcastle United clash"
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY0VUaUNaRElXcFhxZzJLMzBqRzFtSGdaam42WHkzMVdkci1ETmlFX3NvaUxPUzByTFhIMkxoZHpDeWlFT0FidXFxZDhTdUdGRGRWZmg1WGFnMUY1MlRiWFZ4Smg5V2pmRi01cy00RllMREtubmpvLTBpMklCeFQ2amtlZlF6eHM?oc=5",
+    "source": "Football365",
+    "title": "Newcastle v Everton: Prediction, team news, lineups and odds"
    },
    {
-    "at": "2026-11-01T10:50Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTWV1X3Y2NC1lbVBNOEVYR0hrVDFfN0cwWWloZWNSM2xYY2NmZG1mZHh1UDItNWlERnNYVjZFRmZvZUJLTWlOS1J3LXZJeFp2NnFGTHJGR2UtLTNzU1dNOURiUEh6TktYdDRhX3NCMUJYMzgya3FoX0FpZDF5RHV2Wi1DdWNwNGZUc1pDaFdGU29iSGwzMVJxam56aHY?oc=5",
-    "source": "TNT Sports",
-    "title": "Newcastle vs. Everton: Prediction, Tips and Odds | Premier League"
-   },
-   {
-    "at": "2026-11-01T08:17Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBreVJmWGJhdzZ4bmhmZWdFZkhtdTFSdFhHcmRTNGR1TW8yTW5oMXlCYUZEdDBnRERHUC1VRnlqcHlBWG5mTVFRdnVjNEUwTTdBNkNCUjJJaWNObDFnZ3VrNGRVMlhZUWYwOWY1d0pZVTdvaDhLMzQ4cmxhQQ?oc=5",
-    "source": "Read Everton",
-    "title": "Moyes faces familiar Jack Grealish challenge after Everton discipline issue"
-   },
-   {
-    "at": "2026-11-01T07:42Z",
+    "at": "2026-11-01T15:00Z",
     "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNamZJZkJWclgxUjY0VXNqWWdzLWc3QnR2ZlhpVzlIeXBObWV4Sk5OUlpXclhnTzJTUGw3X1hIRm02bDRHVVkyMW5vMWpPVjlFRmZXOEtzYTZiM3ZSUERoYUNXbHBxOHdaWDhnbHUxZHhKOUZ0eGJNU0RSSkxpbmVXcUZaVEdpSGtX?oc=5",
-    "source": "The False 9",
-    "title": "Branthwaite Injury Update: Concussion Doubt for Newcastle, Moyes Confident"
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcWltb3FLcVdna0NtMnJIS0JoRW5iSGxmMkt0S1loMHljNVlLQ2hPUk9PQ2hwTlhRd1hvX3dRZS1femhKa3EwREtPN3JUSFd4dElXUHdrZ0hUNTQyTDZWM2dlUVQ5MTZrY3RaRkVLTTdJR0dHMkpHcE0wdDlzaGl1Vks1LXEzQUdHaEV6QUtn?oc=5",
+    "source": "Yahoo Sports",
+    "title": "How injury latest will impact Everton pursuit of Ivan Toney as transfer approach made"
    },
    {
-    "at": "2026-11-01T07:19Z",
+    "at": "2026-11-01T13:25Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcDk3eDl2OU1PRVBKc01STHoyaWIxZ3FkQk5KLXVOd3RQNTZYSHY0T0lkcS10NGRSNlY5QjA4ZkU4eWNUYVNnRkJuLWhUOGRYNXBpLWM3OGFNZDRDU0Y2Z3YweGlxTzJXMUVBeWpIYVhZcmFvY3hmUUJFeDJaVkdCUzZyOGRpOTNlYVBwSHlHTHpGODdaYjlsSWZSYUY5QQ?oc=5",
+    "source": "ToffeeWeb",
+    "title": "Newcastle Utd vs Everton: match preview and team news"
+   },
+   {
+    "at": "2026-11-01T11:59Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdDkycTh5N01UM05rVk5xbUJ6ZUp2eno1d2pLOV9nZFdzb0I4TWdpU094bVJPZ092ZFRKSVpOVDl3UjV4b2Vwc1huTGZoRUZuMkpsSTcxa0Zlc0M1bGhFbnh2ZE1HU0NRNE5qTk01aXZaV2FQOGZYaF9rZWNZbEhSNU5EUERsNGx5VE5NX2NMSXhMQ2pTaGpkZEszWGJYUkdMTE1nbGExQjNvbU92RW9tQjFMWWFfaVBUU3E0dXJCZkdFZE1WMkhZckp5cWNWUQ?oc=5",
+    "source": "Mozzart Sport Kenya",
+    "title": "News Comments BETTING GUIDE: Newcastle vs Everton, match preview, team news and prediction"
+   },
+   {
+    "at": "2026-11-01T11:58Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZlM1UURhSldYS0dXdEhZcXluclZRMnptZklSRnI1dzFTU0ptM2pqWGIyQXBWanoxX1NSTXQtLUF6ZFlvd29IYUdPdHhDQVc3eTFTRjNmalBUczNRZFJfbVR2Ymwwd1p5SHZEUVBwSEpueVI0T3FXZmJXWWdLeDVnaV9oUXRpbmNaNllXUmtJQzdfblotRHR6ZUdvNDBXVi1ZTkhmYnpPVWJUcFE0N2h5NmJTZHBkb2JRZWZJU1J3YnhHdw?oc=5",
+    "source": "Mozzart Sport Kenya",
+    "title": "BETTING GUIDE: Newcastle vs Everton, match preview, team news and prediction"
+   }
+  ],
+  "fetched_at": "2026-11-01T16:33Z",
+  "home": [
+   {
+    "at": "2026-11-01T15:53Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY0VUaUNaRElXcFhxZzJLMzBqRzFtSGdaam42WHkzMVdkci1ETmlFX3NvaUxPUzByTFhIMkxoZHpDeWlFT0FidXFxZDhTdUdGRGRWZmg1WGFnMUY1MlRiWFZ4Smg5V2pmRi01cy00RllMREtubmpvLTBpMklCeFQ2amtlZlF6eHM?oc=5",
+    "source": "Football365",
+    "title": "Newcastle v Everton: Prediction, team news, lineups and odds"
+   },
+   {
+    "at": "2026-11-01T14:58Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNblRna0pid3ZXVjJmaHd0NjNQamVNVnZwQTNpcGJyd244MmNXSEZJTVJHQVZCSmNpMzFYNm1DT21Ma0lVczdRMU9oZGxjRFFKM1NfNFFqM0kxeTllX0I5ZkhkbmxMcFptcmU1eGdJU003UEltdTNVNU0ycEFJdGJEMlJVZmVzc2YtQWtYZklMaVQ4TlZaVWQzdlJ3WUd3MmVUUjNWc0k2b1ZyZ9IBrwFBVV95cUxOTDllWjZIOFBoY1BVMC1KWl83cU9kc2R2MXhISVRXb0kxU1dWc191X0h6dDNfMTFqZy1wbjJxY1FOckV4NEhpbzBLRlBwQ1JRRk5vQ0JDZ3dhZy12ZjI2NWpRdTVlZENSUVNtWm43ak1sWDAyV1dhNFJ0S0hEVXF3cWkzVTZTeG1HTWFNaEl1NEhsTFZ5dTZGbkZhR280TmVGeG90X1lidGxEU01mRmpJ?oc=5",
+    "source": "Liverpool Echo",
+    "title": "Newcastle could be without five players for Everton as David Moyes faces Jack Grealish decision"
+   },
+   {
+    "at": "2026-11-01T11:58Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZlM1UURhSldYS0dXdEhZcXluclZRMnptZklSRnI1dzFTU0ptM2pqWGIyQXBWanoxX1NSTXQtLUF6ZFlvd29IYUdPdHhDQVc3eTFTRjNmalBUczNRZFJfbVR2Ymwwd1p5SHZEUVBwSEpueVI0T3FXZmJXWWdLeDVnaV9oUXRpbmNaNllXUmtJQzdfblotRHR6ZUdvNDBXVi1ZTkhmYnpPVWJUcFE0N2h5NmJTZHBkb2JRZWZJU1J3YnhHdw?oc=5",
+    "source": "Mozzart Sport Kenya",
+    "title": "BETTING GUIDE: Newcastle vs Everton, match preview, team news and prediction"
+   },
+   {
+    "at": "2026-11-01T11:50Z",
     "eksik": false,
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMkN2SnNfSHBlTWpSNlRjTTdjcVRDNl94MnllOWY2MGZ3VVYzQUk0Y1FYRVEySDVvNkZVczZqQXZ3MmVHN0l1cnI2OTZvQ3hjZkNOVk5HdmFWUlI1V3Y3amZkamoyNlI2bUQwcGNuODhVcEg0eUFqa0NYTmkyMk5zcy0zTjRPcG53eFJXV1dPTkRMR19fWjRnQk9mUnBIMDJaei0xckdRcmdWVkxwMEJsWlVyWHNDMU53UmZLTmo0bEdBblQ4Z3o4UUdPVUM1aE3SAdQBQVVfeXFMUEgyQ3ZnN2kyOTNLVWxuUEFMOHhCVUY0am5MS0tWcUQxcGItaVNsaFhWbmQ5bWlhVUhaUjZQQnBTUHp4WTVVZUQybEpQV2Jnd3hBazlHZnA0bk4wdk00RkdWdHp1ZEQ1SEpwNFJyLVF2YVRXQTdfTjFqV3Zza2pLOEk2d1BkZWJmX3ZZYVp6azdfRzdNbkFMak01MWxvcHJuTnVHb1VPeFprcmZnVVFzYkNXNzhRajg4bEZ2NFFKTWtqSWd4dUZMcDJubEVMY0VXNWFEcTM?oc=5",
     "source": "TheHardTackle.com",
     "title": "Newcastle United vs Everton Preview: Prediction, Probable Lineups, Tactics, Team News & Stats"
-   }
-  ],
-  "fetched_at": "2026-11-01T11:45Z",
-  "home": [
-   {
-    "at": "2026-11-01T11:00Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPS3Z1cGJhOENfcjE0Q2tXRVBacTdsYWtGMThUNlM3OG1kZFlQUEpfZFJfbjNBaV9BbTI1NDZjQzVoRFB0VkR0aE1PUzdJbWNpcnFDMGtJa2xNRFRmNUQ1TDl1SHBhak5CZXVNaUQ5RE9fQVM4aHhTVHZPd2NlRDBZVXh6dklCNnltMkFFQTl3NWVleVhzQXdwZzY0XzJ4dEVYeWw2c0VBeVpIVmlRX2t3dUlZTDZIY3RsbTJLR0J4UE9Ddw?oc=5",
-    "source": "Shields Gazette",
-    "title": "FA rules hand Everton major boost ahead of Newcastle United clash"
    },
    {
-    "at": "2026-11-01T10:50Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTWV1X3Y2NC1lbVBNOEVYR0hrVDFfN0cwWWloZWNSM2xYY2NmZG1mZHh1UDItNWlERnNYVjZFRmZvZUJLTWlOS1J3LXZJeFp2NnFGTHJGR2UtLTNzU1dNOURiUEh6TktYdDRhX3NCMUJYMzgya3FoX0FpZDF5RHV2Wi1DdWNwNGZUc1pDaFdGU29iSGwzMVJxam56aHY?oc=5",
-    "source": "TNT Sports",
-    "title": "Newcastle vs. Everton: Prediction, Tips and Odds | Premier League"
-   },
-   {
-    "at": "2026-11-01T09:00Z",
+    "at": "2026-11-01T11:49Z",
     "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUURYVWlmUDdXaDktTG9mcElpQXB3OEhENmd6TzhTVURDcnlQRGk5OW5iMjJHTFMta0FWTmVjNEp3eVZYRENKMmp5OGpSNVlaMUV0ZVEzaXlnR2pnRXNFZWZsZ0J4MEk5RDlsbDdRSEV3VGtBZ2h4Y1BFdDNfbEU1U3p6eWtVZ3pmS3lUeFhnZGFkeEN4dWhZOENwWXVLblo3cjEzMFFQQXJCQ1VDR0REdkRPWi1IdXpBZXBWRHBMYzV1ZURQMi1HNVRGLU5Ka2lrNUhVMENqaE5LOWlNNENvaUtBeFVFUGxq?oc=5",
-    "source": "Shields Gazette",
-    "title": "Will Osula, Matias Fernandez-Pardo & Lewis Miley: Newcastle United injury return dates"
-   },
-   {
-    "at": "2026-11-01T08:30Z",
-    "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS2tZY2NVVmNob05jRmZib2xVMkdhSmdwenpKTzlrcVJ6OGhtcTJHUlppZnB5bVR3Qi1zYnRwV21qenl4UExXcC1jTGNYMmtOQl9iRU5qVlJidWhsZi1NTmhCRWlUX2I0dEY0aEpqSGlBQUZaVlh2Szc5YUdadGpWLXJMeklQRXY4ZzZKa29SZElrNWJTZzhiU2dRZkhmWmFDWGltWUNZVFgwc1NGZ0tnZWFaVjNKZw?oc=5",
-    "source": "NewcastleWorld",
-    "title": "Newcastle United star set to miss another three weeks after training ground injury"
-   },
-   {
-    "at": "2026-11-01T08:00Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMzlRZDRJblJ4Nk0xSVFabWhrQUEtc2dWT1laaXBybVFHVVJNSWYtTEFKSkRabkJZNk1DMlN2VUZ4MXZKRjk5ODBkekxzT0dOalRuZnZBNy1MQ0FxZFpIcGI5QXJqcGVsMWhvS3NJYU0xbDgzanF3Z3libFI2N0E5UWtVSmpvdFdQZE5kSzFrLW13eFppeTh6Z2hnRzlibHJKMFNGWkUwLXlpWllMRHJtd1paS0tkQ2lYazQ4?oc=5",
-    "source": "Shields Gazette",
-    "title": "Striker reveals 'big motivation' to play for NUFC after Jaissle watches him in action"
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zbjk3X2NfS2NKXzZWNVFhWUVmZGVUZTRkMVRqc2tfaU1KYnF5TV85UHBNclFLbThGbE96SFNjSmZQUEkyVmJhVlN0c09nNk9zWDdnSGVydDNKeVhGZ2NLX3AwWHRYM0dHUFN5NGhYbm5VM3RE?oc=5",
+    "source": "The False 9",
+    "title": "Newcastle vs Everton Prediction: Score Pick, Osula and Branthwaite Doubts"
    }
   ],
   "kickoff": "2026-11-02T20:00Z"
@@ -1941,91 +1941,91 @@
  },
  "T1|2026-11-02|Genclerbirligi|Alanyaspor": {
   "ai": {
-   "at": "2026-11-01T11:45Z",
+   "at": "2026-11-01T16:33Z",
    "away": {
     "eksikler": [],
-    "ozet": "Alanyaspor'da maç öncesi eksik veya sakat oyuncu bildirilmemiştir."
+    "ozet": "Alanyaspor'un bu karşılaşma öncesinde bildirilen eksik veya sakat oyuncusu bulunmamaktadır."
    },
-   "hash": "aee761d019a2",
+   "hash": "f545831e17f9",
    "home": {
     "eksikler": [],
-    "ozet": "Gençlerbirliği'nde bu maç öncesi resmi olarak açıklanan önemli bir sakat veya cezalı oyuncu bulunmamaktadır."
+    "ozet": "Gençlerbirliği ile Alanyaspor arasında 2026 yılının Kasım ayında oynanacak bu maç için güncel sakat ve cezalı oyuncu bilgisi bulunmamaktadır."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
+   {
+    "at": "2026-11-01T14:59Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYVl1cHEwbm5Ebk5RVTE0MXVKVFZRODhvWFY0NnRJM2hIUTZSRzFQVmM0V2ZwQjczWWo0OXNiZHhCU0hINWtzRUl0czRkWVk2VGh1cUU3WGdXdWd6RzNwQTVKblZFTFdZbEJlOU1hOVBsdzZwRWdzY1pzRk45UmEzdXZfWHdjbk5vZVRsX2lMUGVpR2Nad3pXR0FzZHVGUnfSAaIBQVVfeXFMT3c3M0ZKTXl0cFVNS0otS0NVbmtqWWJGTFV5aklHWFR6bk9FdEVBNTZZQkVuNmNCUjRZd0pqZ201V1FYNHdCZ3ZjT2pCelBYTW53ejBVdnc1bl9sOHptd2RNUG1kTVhDZzFZbU55dXNxNURvVkJKcXl4SDBhQzdlTW5nZ0xJSER6Z0w1cE9WdTloYmNoM25mdXFUTzJvVVNtMGt3?oc=5",
+    "source": "Sabah",
+    "title": "CANLI | Kasımpaşa - Beşiktaş | Maçta ilk yarı oynanıyor"
+   },
+   {
+    "at": "2026-11-01T14:38Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR0t3NWNIVC1RMVFPd3VqbTBnQkw4TFY2UFRQZV81U1BVMTBmbThXOFVERm5LQXNfLV83a1NFWnY4SlptbmZ6YzJXSVpXb1hWd2N6MTdadWJZTU5yVDZqX2ZSUDlpbDZVaXpuSmNzc180SGdhQ01iTUc2SW1uTlFpN1pwdXFnMUNhSFlsYk14N0xnQkRfN1M5b0FPZ3BCT2cwYkk4eGRSZjlVc2c?oc=5",
+    "source": "İşçi Haber",
+    "title": "Gençlerbirliği - Alanyaspor Maçı Ne Zaman ve Hangi Kanalda Yayınlanacak ?"
+   },
+   {
+    "at": "2026-11-01T12:38Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdDZKenZBZVB3WGpIZ2tBR2gwLUlUaXJFNmRrc0UwLXJ6dk9ONFFpdnV3OEVIMVpNdkgyZXlaZGJSazh0eEJ4cnhUWDFYdGF4aDJaQXFYUFNCQVhpT1pCWWRldEFydDljRlFDQmpQT2t3WndRd0dyUzV0VkFTXy14MV8wM1kwSWtDVGc?oc=5",
+    "source": "Haber 7",
+    "title": "Alanyaspor'da Giresunspor maçı hazırlıkları"
+   },
+   {
+    "at": "2026-11-01T10:06Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeFNGQk9XanFPalVCYkl2NUR1LW5TekNtTGdTdmdENUkyQUhOR3FzZ2stV1RYaTRSZUlWTXJzcUg3X2h1T2pMQnhqUVhIWXRjbGdUby03dHBiZGktczlZWUcxRklQX2ozb0l4a0lQdVUzME1LdEx2ejNKOFJnbXotWkdBNUZjM1M5Q0xsUEktT2QyUl9aMWZfag?oc=5",
+    "source": "Canlı Gaste",
+    "title": "Galatasaray Kulübü İkinci Başkanı Metin Öztürk istifa etti"
+   },
    {
     "at": "2026-11-01T09:47Z",
     "eksik": false,
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY3BzcEdOeTFOdEtVbEZqU3FTdlVEckQ3YWxza0JfNDVjeFBHNFhMUjRYQUVhTXpTWDl1X2NnRGVHQUE3SjlRT1k5bndSTW93MUt2QWtXOUdQQzJoaTM4MEJIV0ZHcWZCT2lyeEd2LU85NHYwdFRzNF9aLTZPdFVaQUhNd2VKWUtneEt2ZlFieTBBSFlYNzVYbHg0TG9EWEFB?oc=5",
     "source": "Canlı Gaste",
     "title": "Galatasaray-Stuttgart maçının hakemi İngiliz Chris Kavanagh oldu"
-   },
-   {
-    "at": "2026-11-01T09:34Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeG9falZDeE9wekhBR1JEMG0td1BQLU5YNXg5MmlKNHkyN3g5VVlqSnRBU3BPcmdvVl8tSTZfeFJNUm9wRG5NLWF4elk0Yk5neUlDUU5rU1R1TWI1Sk44NEkwZk1zV0oxNW85T1huNXBQazhDNHlSUzVMLUU2Z1BxU0hMeFJoZw?oc=5",
-    "source": "Canlı Gaste",
-    "title": "Alanyaspor, Gençlerbirliği deplasmanına hazır"
-   },
-   {
-    "at": "2026-11-01T09:34Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRmFKUWFaUDJhVURCSWVzamdaQW1oSlYwaWRhOGo3cy1XUV9NR2NLUHpxUjdKY2VMVVlHd2RYeE9WR29pUzMxdkYxU2tKMm9wQmoxVkw2RVFQM0RBMUhOOUdIa3BmZEVUVnpUWVJHOHQ3aWdGV1BJdktKNHFlWEtlLXNPeEhyMEx1VXN6SFVGTVFLc3JOWmhpVHV3?oc=5",
-    "source": "https://www.ensondakika.com.tr/",
-    "title": "Alanyaspor, Gençlerbirliği maçı hazırlıklarını tamamladı"
-   },
-   {
-    "at": "2026-11-01T09:34Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wQWQ4aHFMa2tSNkxYN0ZEczRObFJLVFUwZHY2V2l4U0NYeWFyc1pTZWp5SGIwNUtlaVM4eWFUYi11VVFVOXRhVm84VHROaXk2S0NoYzc5bjI4QWdONHNSWnpIWU5qVXkwZXVKN2ktWEl3bXRVNnk4RGJFclYwQQ?oc=5",
-    "source": "Canlı Gaste",
-    "title": "Alanyaspor, Gençlerbirliği maçına hazır"
-   },
-   {
-    "at": "2026-11-01T06:41Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM3NHVnB1a1VYeDh5bWlWWEViVlF1cEJoWDN5a2ZfT0dkdmVIVHdlUXhCc1h4WTJmeXV6TlBGbGN1ZUhENE4yY2RVclVEUTNNUUdTREhROUZfZHBkVFlHOFdnT2xaOVphYkVWSTVIZUd1MUc2bjVBMjdKWVMyMjJMM2FBLTN2VnVFR1A2YThZeXQwVENMZmlTUVdpT25DUmtrTDNnRHVMOEdMR0RfaXc?oc=5",
-    "source": "Haber61",
-    "title": "Trabzonspor'da Gaziantep FK maçı öncesi kart alarmı! 3 isim sınırda"
    }
   ],
-  "fetched_at": "2026-11-01T11:45Z",
+  "fetched_at": "2026-11-01T16:33Z",
   "home": [
    {
-    "at": "2026-11-01T11:33Z",
+    "at": "2026-11-01T15:52Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9INTAwNjRSd01OOEhrUElxcV8wVm1Wa1FiSm5ROFVpVFNpSzBHTHctalhwSzlVaHZFeXdLSlJyT0VGenRBemxnMEowVTdSNVdGWlE?oc=5",
-    "source": "Instagram",
-    "title": "Gençlerbirliği maçı öncesi sarı kart ceza sınırında bulunan futbolcularımız: 🟨 Leandro Trossard 🟨 Emirhan Topçu 🟨 Orkun Kökçü #BeşiktaşınMaçıVar #Beşiktaş #duhuliye #haber1903"
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVEI0bWNEMzh4dzJTbEtueXh4d09LbGZBMXhTaU1Kd0pIemhjeURPbXVweklkMEFZcWw5cWs4M0hmS0tUeWkxZlljd1YwYVRiLVRKLXFJRVRPNU1GUEpQM3Q4M1NGUUNNb2hIREFJdl9VN0cwQkQtN1IwMXN2czBDcEZaVDZRRF9RTlN2cEpaYTF1R25Ud3J2aTNid3RVU20tODN4SVp3?oc=5",
+    "source": "Ankara Net Haber",
+    "title": "Kasımpaşa-Beşiktaş maçı başladı mı? Beşiktaş-Kasımpaşa maçı hangi kanalda?"
    },
    {
-    "at": "2026-11-01T09:34Z",
+    "at": "2026-11-01T15:50Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeG9falZDeE9wekhBR1JEMG0td1BQLU5YNXg5MmlKNHkyN3g5VVlqSnRBU3BPcmdvVl8tSTZfeFJNUm9wRG5NLWF4elk0Yk5neUlDUU5rU1R1TWI1Sk44NEkwZk1zV0oxNW85T1huNXBQazhDNHlSUzVMLUU2Z1BxU0hMeFJoZw?oc=5",
-    "source": "Canlı Gaste",
-    "title": "Alanyaspor, Gençlerbirliği deplasmanına hazır"
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSFBRTjlLa2YzN1VSbDhRdVhJVFNUYmNKOXpTeE9ueEpWUkoxMkVYT0ZGcnAyYzFBTWR4bmI2UnJiYnMtTHhsOTd0UXFleUtzMnk2WFg0TEpiTXNTNVFkVllVSTRIV1k1QWtmT2o2dk50MU0tY1RiUnJGdHJHWGFvZ2R3QVNfaFE5TzNLWXBwLUhrTEZvZEE?oc=5",
+    "source": "www.superlighaberler.com",
+    "title": "Kasımpaşa-Beşiktaş Maçı Heyecanla Başlıyor"
    },
    {
-    "at": "2026-11-01T09:34Z",
+    "at": "2026-11-01T15:30Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRmFKUWFaUDJhVURCSWVzamdaQW1oSlYwaWRhOGo3cy1XUV9NR2NLUHpxUjdKY2VMVVlHd2RYeE9WR29pUzMxdkYxU2tKMm9wQmoxVkw2RVFQM0RBMUhOOUdIa3BmZEVUVnpUWVJHOHQ3aWdGV1BJdktKNHFlWEtlLXNPeEhyMEx1VXN6SFVGTVFLc3JOWmhpVHV3?oc=5",
-    "source": "https://www.ensondakika.com.tr/",
-    "title": "Alanyaspor, Gençlerbirliği maçı hazırlıklarını tamamladı"
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY2hpSlgwNExCeHQ1dGZBcm9BRHg3MUE2T0ZDTll2ZWF2aHRhcHZidE1jYW42Q2tIaGpiVUVYSzZCMVNXOFE2NHplYUZETVoxX0hDdGRLNlIzanpoVFVZYXY4ZmJERFIyUjlkSmVKYkVoUVhFYzM4bFhTU2xncDQydkNZMzM?oc=5",
+    "source": "Şok Gazetesi",
+    "title": "Kasımpaşa - Beşiktaş maçında ilk 11’ler belli oldu!"
    },
    {
-    "at": "2026-11-01T09:34Z",
+    "at": "2026-11-01T15:18Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wQWQ4aHFMa2tSNkxYN0ZEczRObFJLVFUwZHY2V2l4U0NYeWFyc1pTZWp5SGIwNUtlaVM4eWFUYi11VVFVOXRhVm84VHROaXk2S0NoYzc5bjI4QWdONHNSWnpIWU5qVXkwZXVKN2ktWEl3bXRVNnk4RGJFclYwQQ?oc=5",
-    "source": "Canlı Gaste",
-    "title": "Alanyaspor, Gençlerbirliği maçına hazır"
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTy1WWnEzR0NxX29oMDhCbGdtVjZhUkxCZnlHNWxEV0poLUxVMWF4czlLVVJQQUtEVk5tMG1uWUJRNFhvU3Q3d1V2U09rNzBsdndQWTJCMnZWR28tanZ6bldiSjJJRjhXazF0YlhXUGZlR1czOHlhRkdtNUYyUHVMVg?oc=5",
+    "source": "İnternet Haber",
+    "title": "Kasımpaşa - Beşiktaş / Canlı anlatım"
    },
    {
-    "at": "2026-11-01T07:11Z",
+    "at": "2026-11-01T15:07Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeEVwNGlEbWdvMjdoMDVXRWhjYmk0Zk15YTR4YTBmcVNtNkFkMGI1ZUU2cUdMZmV3eV9DdExFN3ZBUVkzSUZ0MXBxakpobDlsNnVuckVYOVV4QTJLRU1jVEduaVh4QjQ5Tm5zVENGTnFDNGFZRGZFTVZwSUktNWw0RVhERXFGb2RhYnR0dHUxSk51UQ?oc=5",
-    "source": "birgun.net",
-    "title": "Beşiktaş, Kasımpaşa deplasmanında: Muhtemel ilk 11'ler"
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaklzNXNISVpXay1hTXVNWEZtM0VRSmFnSGxiNVBaUE1NSzIyQ3g4SmdQOU0ybXpobDNWMXI1bElDb2JBRE5vOGZKQ0VIQjVSdDFOZzM1clRMUVdqYWxkbVhEN3A4aVd3cU9fSV8xXzVja2t1a3NPTTlFRWNrYmc5b2tCMXNZMzZu0gGOAUFVX3lxTE8ySzZyc0ZSMm5IN1dnTjdXSXN1cnVqcllRcFBaMUpNVVFLUzB4Ny1idTZRSWtWYjREbThUck9acXZvVWF6YWNHb0VpbHZEdW9jUzd2Tzg0bmxLbG9CenV2OVZIZ1RQSUI5Q3V6Z1B2SnM0X1hscmlhbEtjdmtBZ2tFTk92ZVd5ajE2VWEta0E?oc=5",
+    "source": "Haber Global",
+    "title": "CANLI YAYIN | Kasımpaşa - Beşiktaş"
    }
   ],
   "kickoff": "2026-11-02T17:00Z"
