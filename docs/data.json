@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T13:17Z",
+ "updated_at": "2026-11-02T19:57Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
@@ -8637,7 +8637,7 @@
    "date": "2026-11-02",
    "home": "Genclerbirligi",
    "away": "Alanyaspor",
-   "season": "2627",
+   "season": 2627,
    "kickoff": "2026-11-02T17:00Z",
    "p_h": 0.3556,
    "p_d": 0.2933,
@@ -8667,7 +8667,7 @@
    "fthg": null,
    "ftag": null,
    "ftr": null,
-   "status": "yaklasan",
+   "status": "sonuc_bekleniyor",
    "correct": null,
    "odds_pick": "A",
    "odds_correct": null,
@@ -8687,19 +8687,19 @@
    "away": "Everton",
    "season": "2627",
    "kickoff": "2026-11-02T20:00Z",
-   "p_h": 0.4209,
-   "p_d": 0.2893,
-   "p_a": 0.2898,
+   "p_h": 0.4221,
+   "p_d": 0.2934,
+   "p_a": 0.2845,
    "pick": "H",
    "odds_h": 2.15,
-   "odds_d": 3.56,
-   "odds_a": 3.28,
+   "odds_d": 3.47,
+   "odds_a": 3.35,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-02T13:17Z",
-   "p_o25": 0.5744,
-   "p_kg": 0.6115,
-   "odds_o25": 1.69,
-   "odds_u25": 2.14,
+   "predicted_at": "2026-11-02T19:57Z",
+   "p_o25": 0.558,
+   "p_kg": 0.6067,
+   "odds_o25": 1.74,
+   "odds_u25": 2.08,
    "odds_src": "canli",
    "data_through": "2026-11-01",
    "features": "f3-12lig",
@@ -8721,9 +8721,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.4467,
-   "mk_d": 0.2648,
-   "mk_a": 0.2885,
+   "mk_h": 0.4464,
+   "mk_d": 0.2717,
+   "mk_a": 0.2819,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -12384,94 +12384,94 @@
    "kickoff": "2026-11-01T16:30Z"
   },
   "E0|2026-11-02|Newcastle|Everton": {
-   "fetched_at": "2026-11-02T13:17Z",
+   "fetched_at": "2026-11-02T19:57Z",
    "kickoff": "2026-11-02T20:00Z",
    "home": [
     {
-     "title": "South Shields FC confirm departure of former Newcastle United youngster",
-     "source": "Shields Gazette",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNM0tGbnAzcS1jWks5ckRIWVU1TzI2NGZqcnQtWnRzdTNrSHpfbmRaVXZQX0FXajZVTC1zY2FWb0NUSmJTd3JGaVQxZXhWQ1RpUnpKeGJISTFaQjJ0YzBNYnQ4VUVoMnRJak4tdEVpaTlXWVdHTWRfSVpZSEV0SjF2bHBUbzRMUlp2QlFlcDh1MWRsYThoTld2c0RqWll6NkNwSlRzcW1RNHdhRnBPVExhSGc3ODYzVGMtTEpTWDdRMDJ3dmNCeGxscWhXY1kydXY0MXc?oc=5",
-     "at": "2026-11-02T13:03Z",
+     "title": "Confirmed Newcastle United team v Everton as Elanga, Osula, Hall all start",
+     "source": "Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYVl4a2FHQTZqTUU5cDdsQTJJaTAzOG5DNm9IeEZxNl9jbHV5ZHMtOHNVVE00dzFkOHV2eFhmRmVGWkhyS24xbUxpNThRZ2k3RTB5VlBiWkc2blVHYzRnb3hkVFNoX0tfSWRCUmdhYjhNZWF4RnhOdERMOTFiU3E5ZFliRVBDb3R5Wnc?oc=5",
+     "at": "2026-11-02T19:38Z",
      "eksik": false
     },
     {
-     "title": "I got a bad ankle injury after joining Newcastle United - now I'm playing my best football again",
-     "source": "Shields Gazette",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPb0w3ZmhiaExaelpzRFdDZ0JvWGIwRXpWcHJTS3NYS1FkSUFLWTROLTZGUHZZd280c29VTmRhZXVYaC16VHNaVG5FM0xjZGgwc251c3NhcXpsMjJ1ZnJsdmw0RE5Uc0dJdncyNjAxU1lkdGg1bkc2STVIdEQ0QzJjWkVBdEdzQ0lUVFduRS12Tmp1UW8xUTVlX2pIWkVpSmYxQ2EzUmlseDI4M3dyMDZ3ZDJfcVJMWkp1dTN2bw?oc=5",
-     "at": "2026-11-02T12:30Z",
-     "eksik": true
-    },
-    {
-     "title": "Will Jack Grealish play for Everton vs Newcastle after disciplinary breach?",
-     "source": "USA Today",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRzRqaDJ5VURBNmM3RGd2ZDI2VjZ6bWZabXRaNGtubUx3MWJpNVhBbENWOUF4dHVtVjEwX2x3NlM5Q04zeG9rWXU3dHlweVc3M2RkVlNrdTdSYy1KUlpVTTVQQ3NpN1N6bXJxRy1UNFdBNFpGVC1oSmw5X0pfWi1OMldLYVlSc0F2V1QxU04yZFdJUGRHaF8zR3d2YmlIdnRkX3dHSEltZlVjLUtFVlZha0dPc1Q?oc=5",
-     "at": "2026-11-02T12:04Z",
+     "title": "Newcastle vs Everton LIVE! Premier League match updates, news, score, stream and highlights",
+     "source": "Sky Sports",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQajVXd0JCOHV6ZjZDZHZVUDJYMklaeHZjQm82ZWF5X2hSaDM3dU5RUGtXOVJxR2wyTW1NakNscW5QVWo2UFA2cFE4WUppdmp6eC1MWFBfRUVUSVJJRlNmQ0lVQW00ejhaNE0wTnRKZUpkdU16TzJmb3JtYTRoSWlNQ0dyWl9NWGUzMS1hSExEeXZZdU03RFFoTzhJLWJpMjJ4NUgydFNIR1cxOGtYN3l4NmRfNUNhYmJXQWc3VmpyemNyYVBJazctTnVyaU9leHR2TllSM3g2eG4?oc=5",
+     "at": "2026-11-02T19:14Z",
      "eksik": false
     },
     {
-     "title": "'Offered the job' - Alan Shearer reveals manager role that will shock Newcastle fans",
-     "source": "Shields Gazette",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZXpwWUwyQzRxYUtXUFdDTHp5Sk95NVNzMlk5NnFQT0I3U21WRGJVdEhDSWJ4emc0aFNLMmpBN3FIcVRpZmE1Z3NFR2JRRDRhSnlDZHdhRzMyd3hCRzJ1OTJfd2IxazJmLWotVVJJQS1kTnk5YnpCcGFyS2tjWHZNVkVWTVg0LVBnMURfNmZkYVlDeFR5d1JCRlk0dEU4Z0I3d3Rtb0V4aWU?oc=5",
-     "at": "2026-11-02T08:00Z",
+     "title": "Newcastle United vs Everton LIVE streaming, TV channel, kick-off time & where to watch Premier League 2026-27",
+     "source": "Khel Now",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb1NCYzZFZDhEMXdrOFg0Uk9faXZGX1ZYSFBLSk5oVEVBaUZjd3JNMGlQSkN2TFNrZUc2UURtQ2lORlJJcG9kNlV6RmVjdGFPUFVhZ2xTQU15UzU1SHJoeWd2X0ZJc0NtYXlaU0NRVndxNVlvNDA2aW1NaGlJNnNST1FmT2lUS2tYek1uOXNtYXI1VVNfLXdHdA?oc=5",
+     "at": "2026-11-02T19:00Z",
      "eksik": false
     },
     {
-     "title": "James Garner makes honest Everton injury admission as fresh Thierno Barry verdict delivered",
-     "source": "Liverpool Echo",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS0VjNXBtaUdrX1dqT1FxcWRmQ2VjQllXczRkUUZwSkdoZlRLa084MlhVWU9oN2V2dk5FYTNWYmpRNDFCeHU5eWdTS0RhNHgyVXhvWko2cjRCRFlJenU3bm15dm1zOE04d0ZranFVeUE1X1U0VTZ4T2JxM0R1UEVWUkZQUXo1azh5R0VneGF6SE1nTVpBRW5aa0MzYktDVVE2VHBENFNDdFhfajjSAbABQVVfeXFMTW05ck95MzUzZl9KTjU4OFZEM0N4alpzZDItVzVMYUlmdy13cGtTVk5FS253MHQzVENhN25FdWFibElqS2QwcWdzT2hqdEdaV1lWR1E3ZDJxeWcxOVlRU1dDQmkyVDdIZmU0QzdrVExWbTFsS3RRQVhHSmVtUjZySTFHcjR0ajNfUWV2ZmJWbTBVanNlSFU0SWdlenBGQUlaTGNRS0R2dG8tNDNON3ZweWg?oc=5",
-     "at": "2026-11-02T06:00Z",
+     "title": "Newcastle United v Everton confirmed lineups and team news",
+     "source": "news.bet365.com",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQWxyaS04Y3A4S0xFWl9PY2RDTnRweGNiMnhjMVpKNTdIclBjU3FvVVkteDBvLXJTWkVqNUc4S1NtbVFYS043RmZ5dVlLdTdJT0dGRDU5cVJINE8wTTVnZjJDMnBoSHhHYXR0MS1DeGhoT1M4NlJpNVRSWkRhaXBrVFJvVkduR2d2dVBaT3dNS0RFRkY4NDVfMExrY0d6VkUwc3o1NEVwTzFBRGc3dWhza3VOdU1fVlE?oc=5",
+     "at": "2026-11-02T18:51Z",
+     "eksik": false
+    },
+    {
+     "title": "The official reaso Matias Fernandez-Pardo ruled out for Newcastle United vs Everton",
+     "source": "NewcastleWorld",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYUlySldKVXN3MFJuNjVoV3A5Tkk1anUyQnJnVkI2cG1ic0lCS19yb2xGUnJCTnYxazRQQ0F2bUhSZFU3MlJxY0NVcFFlSVU0Y1p5Rlc0M3Fra2xXUXZrMWRITEc4VDhQUkN5b1A4Q0JwLUh1T1EzN05wYllJeElMZ3ltcmhPbXY5WER1bm12VjdMM3BvWnYxVFdlTVFqMGhK?oc=5",
+     "at": "2026-11-02T18:48Z",
      "eksik": true
     }
    ],
    "away": [
     {
-     "title": "Will Jack Grealish play for Everton vs Newcastle after disciplinary breach?",
-     "source": "USA Today",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRzRqaDJ5VURBNmM3RGd2ZDI2VjZ6bWZabXRaNGtubUx3MWJpNVhBbENWOUF4dHVtVjEwX2x3NlM5Q04zeG9rWXU3dHlweVc3M2RkVlNrdTdSYy1KUlpVTTVQQ3NpN1N6bXJxRy1UNFdBNFpGVC1oSmw5X0pfWi1OMldLYVlSc0F2V1QxU04yZFdJUGRHaF8zR3d2YmlIdnRkX3dHSEltZlVjLUtFVlZha0dPc1Q?oc=5",
-     "at": "2026-11-02T12:04Z",
+     "title": "Newcastle v Everton team news: Osula fit, Elanga starts",
+     "source": "Fantasy Football Scout",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOU9BZUMyLVNQOWJhVVFVWk43QS1XV2FXTGJJOGJjZy0zeUdGVDN2bWtPeXpVNjNpNDM5UTN1TjRCbGlHbFZLdjY1NnppWWE5aEN5S2lmM0xTc0k0Y3FVMHdQQnZjMGFldWZEZWl1UjBIdFNibDF2SDZzbDFVbDFmeXBlR05zMk5Ddy1VM2pXeEpUNEFjMVd4N2JiU1BKcWVMTXpGZ2Z3?oc=5",
+     "at": "2026-11-02T19:47Z",
      "eksik": false
     },
     {
-     "title": "Frank Lampard issues Coventry City injury update as Frank Onyeka joins casualty list",
-     "source": "Coventry Telegraph",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNX0pMR0xOM3RFZHA0a1JHUGdfQmtOVXVYQjVRRE1nM09HY1R0dGx4dEx0ak5QR1dxNHMzbFMtMDRvT1kzbTlqWXFDNEN4am83dUh6RlZSQXFtV3RmdzgwaEg0aEFxLUVITFM3cEZlWnVDQVp4UXpabVBTX0w3V21WelBiejBjRllITDNPOUFrcGdpRk9reDF1YlExSkI3aDJnZmRCRHp4Q01vUQ?oc=5",
-     "at": "2026-11-02T11:54Z",
-     "eksik": true
-    },
-    {
-     "title": "Newcastle vs Everton Prediction, Pick, Premier League Odds",
+     "title": "Confirmed Newcastle United team v Everton as Elanga, Osula, Hall all start",
      "source": "Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd0kxMXo2a0lSa05hQTVQaF9JTXlMaF92R1V1QjJFeWduZlR2RnFtdVJOU3hMMjlFc1o5ZXBmaFhCNGpEbVZCUy16cXI2Y3dGeXczRkpSdUZNV2YxbG9NajRBWmJxSFEtTVFDeXh5Ullyd0kwN1dvT0tUSW12WVN1MUlQYmlKblFKLTI3akhn?oc=5",
-     "at": "2026-11-02T10:03Z",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYVl4a2FHQTZqTUU5cDdsQTJJaTAzOG5DNm9IeEZxNl9jbHV5ZHMtOHNVVE00dzFkOHV2eFhmRmVGWkhyS24xbUxpNThRZ2k3RTB5VlBiWkc2blVHYzRnb3hkVFNoX0tfSWRCUmdhYjhNZWF4RnhOdERMOTFiU3E5ZFliRVBDb3R5Wnc?oc=5",
+     "at": "2026-11-02T19:38Z",
      "eksik": false
     },
     {
-     "title": "Lauren James faces hamstring assessment with Everton and Manchester City games ahead",
-     "source": "LiveScore",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNLTQwNXpHNUwxWTRVWS1LazFTYkRlR3JrMHlnRXluMG5tcUVrbVBYLTRVYUY0UHZhNlZmanJzS1ZxcmRfUXhaTHdNaHMzTTFaUjhxUWVrLXlkOEZDZjJsQmJwLTB0Z2kydm41bDRJN1BUMmF1NXRKb3Vic1puaVRZeXJ3TW9YQ295NVF0QUN2QV90WWNCdjMzS3pRSU9SZXZNQlJET3F2aG9pVjRoRWpQS0UtMkJ1Y0lLRlozTmIzTDFPZURVVHpsYmhHTi1HcWNjd1Y4bWJVeWxQQ3lkZzNJ?oc=5",
-     "at": "2026-11-02T08:00Z",
+     "title": "Newcastle vs Everton LIVE! Premier League match updates, news, score, stream and highlights",
+     "source": "Sky Sports",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQajVXd0JCOHV6ZjZDZHZVUDJYMklaeHZjQm82ZWF5X2hSaDM3dU5RUGtXOVJxR2wyTW1NakNscW5QVWo2UFA2cFE4WUppdmp6eC1MWFBfRUVUSVJJRlNmQ0lVQW00ejhaNE0wTnRKZUpkdU16TzJmb3JtYTRoSWlNQ0dyWl9NWGUzMS1hSExEeXZZdU03RFFoTzhJLWJpMjJ4NUgydFNIR1cxOGtYN3l4NmRfNUNhYmJXQWc3VmpyemNyYVBJazctTnVyaU9leHR2TllSM3g2eG4?oc=5",
+     "at": "2026-11-02T19:14Z",
      "eksik": false
     },
     {
-     "title": "Newcastle vs Everton Prediction, Betting Tips, Team News - 2 November 2026",
-     "source": "Betfred Insights",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbkRVQ0NTTVVhMlJIRUJIZGt5ZXA5dGRaeVZmc3VmQm9XaWxYMVpFLVpNSF8yMWNGQWNXOWNyeVR1WTBPNmR2ZlhGMXZKV2lVc25taHdLVTFGR2JvMktTR2dSMWlpMnhVR1k2S2ZSYm5PNzRFblEwVXZCa0ZxR3ZXaUV5SDFucEZfejJwSk8xOTZoX1lOT0ZtMzNBc1p2bkdtRUdydFZfNXg5UHBOTjhOclNOZmFheHBZdHRGYzZB?oc=5",
-     "at": "2026-11-02T07:04Z",
+     "title": "Newcastle United vs Everton LIVE streaming, TV channel, kick-off time & where to watch Premier League 2026-27",
+     "source": "Khel Now",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb1NCYzZFZDhEMXdrOFg0Uk9faXZGX1ZYSFBLSk5oVEVBaUZjd3JNMGlQSkN2TFNrZUc2UURtQ2lORlJJcG9kNlV6RmVjdGFPUFVhZ2xTQU15UzU1SHJoeWd2X0ZJc0NtYXlaU0NRVndxNVlvNDA2aW1NaGlJNnNST1FmT2lUS2tYek1uOXNtYXI1VVNfLXdHdA?oc=5",
+     "at": "2026-11-02T19:00Z",
+     "eksik": false
+    },
+    {
+     "title": "Newcastle United v Everton confirmed lineups and team news",
+     "source": "news.bet365.com",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQWxyaS04Y3A4S0xFWl9PY2RDTnRweGNiMnhjMVpKNTdIclBjU3FvVVkteDBvLXJTWkVqNUc4S1NtbVFYS043RmZ5dVlLdTdJT0dGRDU5cVJINE8wTTVnZjJDMnBoSHhHYXR0MS1DeGhoT1M4NlJpNVRSWkRhaXBrVFJvVkduR2d2dVBaT3dNS0RFRkY4NDVfMExrY0d6VkUwc3o1NEVwTzFBRGc3dWhza3VOdU1fVlE?oc=5",
+     "at": "2026-11-02T18:51Z",
      "eksik": false
     }
    ],
    "ai": {
-    "home": {
-     "eksikler": [],
-     "ozet": "Newcastle United cephesinde maça saatler kala öne çıkan önemli bir eksik veya sakatlık raporu bulunmamaktadır."
-    },
+    "at": "2026-11-02T13:17Z",
     "away": {
      "eksikler": [],
      "ozet": "Everton takımında maç öncesi bildirilen güncel bir sakat veya cezalı oyuncu yer almıyor."
     },
-    "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-02T13:17Z",
-    "hash": "a323f867c3b6"
+    "hash": "a323f867c3b6",
+    "home": {
+     "eksikler": [],
+     "ozet": "Newcastle United cephesinde maça saatler kala öne çıkan önemli bir eksik veya sakatlık raporu bulunmamaktadır."
+    },
+    "model": "gemini-3.5-flash-lite (aramasız)"
    }
   },
   "T1|2026-10-26|Besiktas|Buyuksehyr": {
@@ -13493,95 +13493,95 @@
    "kickoff": "2026-11-01T13:00Z"
   },
   "T1|2026-11-02|Genclerbirligi|Alanyaspor": {
-   "fetched_at": "2026-11-02T13:17Z",
-   "kickoff": "2026-11-02T17:00Z",
-   "home": [
-    {
-     "title": "Gençlerbirliği-Alanyaspor canlı yayın bilgileri! beIN SPORTS 1'de mi, şifresiz mi, saat kaçta?",
-     "source": "Milli Gazete",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQlY0Wmw5X1hybFk4NVJCR1VlbU4yT2FPOEo1ZkxFZk1zd1AxcHRtWHdUQ2xFNGhacjlxbUsydHBjNllTM3NCMXcydjllYlhabDJNOFVrQTlxNlloQ0ZVb3JBVHVjLVRMYXlfbDB2aldIbVZmZkRkMTJnZkVKYnk3QkkyX3dDWGV4VGYyRkc2by1oOWk1MzV3aUM1U2hMSVhaTVlZUjJJZU9EcGdMQjZQN01oZmdjU1Fqa2hXOQ?oc=5",
-     "at": "2026-11-02T13:08Z",
-     "eksik": false
-    },
-    {
-     "title": "Gençlerbirliği Alanyaspor maçı ne zaman, saat kaçta ve hangi kanalda?",
-     "source": "Alanya Postası",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbmV1XzdYLXVwblQ5cy1FZUtvY25wRXJ1Z0hDZ25Cai1WRllpMXhWbzJ1YlZTazB0MFRyUTF1bGJPblJUNldfa3ZmTXVSRDVrdWtVUGYwdmZ0TnVCSmEzd0tvZnUxc2lzdXFCbjhEcWNWS25nRGdOV0JON2I0d2RTNWlybDdXdlhiVkVxTE1rWkJvaC1OeEF6Y3V0d1Exa0pYU3c?oc=5",
-     "at": "2026-11-02T11:32Z",
-     "eksik": false
-    },
-    {
-     "title": "Gençlerbirliği-Alanyaspor Maçı Hangi Kanalda?",
-     "source": "Sabır Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96TldCNU1zZm10QmZ1OEp3WGk2dkNYRVF4RlZnbWVlTlVVOHY4alVqa2hjME5jN3NncjRkQ2VneTBBTE5wZFhiaURxTzBiWEs3UHVIbUlJelJyLUp6RXk2SEVOWm1laUpPYTFCMVB0WDNWYU1jYnZrS09WWDZ2TTQ?oc=5",
-     "at": "2026-11-02T11:11Z",
-     "eksik": false
-    },
-    {
-     "title": "Gençlerbirliği - Alanyaspor maçı saat kaçta, hangi kanalda? Muhtemel 11'ler",
-     "source": "birgun.net",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMnlsYWVreS0tbU9OUmVrTW1pR2lLR29mR0k1RWhWcllOa2p0RnV5ZjROVGFWQkNPa3BwZUdEanJHUWN3ODR0Qk9jRXY3QmNKT3d6bTlfTHNKLU9NNmRPU281MkFBaWxWR20td2FTcUhFVk5rN09wNXVaX1Q1MDg2OXBoR1JGVng4cHV2U0E3eDB3dUVhTjE3eU5FTHVhVnJWamRkYVJvdFl4aTQ?oc=5",
-     "at": "2026-11-02T11:04Z",
-     "eksik": false
-    },
-    {
-     "title": "Gençlerbirliği - Alanyaspor Maçı Öncesi Kadrolar ve Maç Bilgileri",
-     "source": "Canlı Gaste",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb01xb3JzM0N2UGRqT19COGhCc0tsOFpCd0Y5M01XVk8yR2tULXA1bHhqV2lBb1pNYjA0aDBzdlM3dnlOanNlNGRTX1FHam5qd3RfdTdudWsxX3J2X3FrNF9UNjRkRjNGRVI4dkIzZlBDNUw2N1ZocjhVSmsxaXY3bk44bVBQRS1DSFdZemRwNUZ2TGJHbTRSY1loNEVtUjg?oc=5",
-     "at": "2026-11-02T11:00Z",
-     "eksik": false
-    }
-   ],
-   "away": [
-    {
-     "title": "Gençlerbirliği-Alanyaspor canlı yayın bilgileri! beIN SPORTS 1'de mi, şifresiz mi, saat kaçta?",
-     "source": "Milli Gazete",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQlY0Wmw5X1hybFk4NVJCR1VlbU4yT2FPOEo1ZkxFZk1zd1AxcHRtWHdUQ2xFNGhacjlxbUsydHBjNllTM3NCMXcydjllYlhabDJNOFVrQTlxNlloQ0ZVb3JBVHVjLVRMYXlfbDB2aldIbVZmZkRkMTJnZkVKYnk3QkkyX3dDWGV4VGYyRkc2by1oOWk1MzV3aUM1U2hMSVhaTVlZUjJJZU9EcGdMQjZQN01oZmdjU1Fqa2hXOQ?oc=5",
-     "at": "2026-11-02T13:08Z",
-     "eksik": false
-    },
-    {
-     "title": "Gençlerbirliği Alanyaspor maçı ne zaman, saat kaçta ve hangi kanalda?",
-     "source": "Alanya Postası",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbmV1XzdYLXVwblQ5cy1FZUtvY25wRXJ1Z0hDZ25Cai1WRllpMXhWbzJ1YlZTazB0MFRyUTF1bGJPblJUNldfa3ZmTXVSRDVrdWtVUGYwdmZ0TnVCSmEzd0tvZnUxc2lzdXFCbjhEcWNWS25nRGdOV0JON2I0d2RTNWlybDdXdlhiVkVxTE1rWkJvaC1OeEF6Y3V0d1Exa0pYU3c?oc=5",
-     "at": "2026-11-02T11:32Z",
-     "eksik": false
-    },
-    {
-     "title": "Alanyaspor - Konyaspor maçı ne zaman, saat kaçta, hangi kanalda?",
-     "source": "Yeni Alanya",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYW1JRi1Bc1gxWmZrY2NaSEZDVjRNX1NKc3o0N3V5THBtQ3ZZYUp1eWNBcndEeXg0eWYtRElZcGJKenRRZlR5ZHFUZmZsNVJXSHQ0T052NVNGMVZYUmVNYkdtMEl0VlJtdEl1WUNNaTJJNGNSOUg0czlwVVV3Q0lxN2xwTGx2UmFnWnFyVEhESQ?oc=5",
-     "at": "2026-11-02T11:31Z",
-     "eksik": false
-    },
-    {
-     "title": "Gençlerbirliği-Alanyaspor maçı saat kaçta, hangi kanalda?",
-     "source": "Manşet Haber",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX0MtY2hRTlNaQWRxM0FvWE01dEs2bEZ2cHJ0LWFEYTJnbm56ZmZDWVpZMXVDZnJxRl9NR0V4RUxpcmVtcGVLSkh6NlZGSTAzdGhTUDN5bFJWQ2doa1gxNmwzZzktX25pdkt3aVFrejBsUFNNMllRcHhpN0NMUHVab0N0ZHRkSkZBRnRpLQ?oc=5",
-     "at": "2026-11-02T11:14Z",
-     "eksik": false
-    },
-    {
-     "title": "Gençlerbirliği-Alanyaspor Maçı Hangi Kanalda?",
-     "source": "Sabır Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96TldCNU1zZm10QmZ1OEp3WGk2dkNYRVF4RlZnbWVlTlVVOHY4alVqa2hjME5jN3NncjRkQ2VneTBBTE5wZFhiaURxTzBiWEs3UHVIbUlJelJyLUp6RXk2SEVOWm1laUpPYTFCMVB0WDNWYU1jYnZrS09WWDZ2TTQ?oc=5",
-     "at": "2026-11-02T11:11Z",
-     "eksik": false
-    }
-   ],
    "ai": {
-    "home": {
-     "eksikler": [],
-     "ozet": "Gençlerbirliği ile Alanyaspor maçı öncesinde güncel sakat veya cezalı oyunculara ilişkin resmi bir açıklama yer almamaktadır."
-    },
+    "at": "2026-11-02T13:17Z",
     "away": {
      "eksikler": [],
      "ozet": "Alanyaspor cephesinde de maça çıkamayacak veya durumu belirsiz oyuncularla ilgili doğrulanmış bir eksik raporu bulunmamaktadır."
     },
-    "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-02T13:17Z",
-    "hash": "94ad077380a0"
-   }
+    "hash": "94ad077380a0",
+    "home": {
+     "eksikler": [],
+     "ozet": "Gençlerbirliği ile Alanyaspor maçı öncesinde güncel sakat veya cezalı oyunculara ilişkin resmi bir açıklama yer almamaktadır."
+    },
+    "model": "gemini-3.5-flash-lite (aramasız)"
+   },
+   "away": [
+    {
+     "at": "2026-11-02T13:08Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQlY0Wmw5X1hybFk4NVJCR1VlbU4yT2FPOEo1ZkxFZk1zd1AxcHRtWHdUQ2xFNGhacjlxbUsydHBjNllTM3NCMXcydjllYlhabDJNOFVrQTlxNlloQ0ZVb3JBVHVjLVRMYXlfbDB2aldIbVZmZkRkMTJnZkVKYnk3QkkyX3dDWGV4VGYyRkc2by1oOWk1MzV3aUM1U2hMSVhaTVlZUjJJZU9EcGdMQjZQN01oZmdjU1Fqa2hXOQ?oc=5",
+     "source": "Milli Gazete",
+     "title": "Gençlerbirliği-Alanyaspor canlı yayın bilgileri! beIN SPORTS 1'de mi, şifresiz mi, saat kaçta?"
+    },
+    {
+     "at": "2026-11-02T11:32Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbmV1XzdYLXVwblQ5cy1FZUtvY25wRXJ1Z0hDZ25Cai1WRllpMXhWbzJ1YlZTazB0MFRyUTF1bGJPblJUNldfa3ZmTXVSRDVrdWtVUGYwdmZ0TnVCSmEzd0tvZnUxc2lzdXFCbjhEcWNWS25nRGdOV0JON2I0d2RTNWlybDdXdlhiVkVxTE1rWkJvaC1OeEF6Y3V0d1Exa0pYU3c?oc=5",
+     "source": "Alanya Postası",
+     "title": "Gençlerbirliği Alanyaspor maçı ne zaman, saat kaçta ve hangi kanalda?"
+    },
+    {
+     "at": "2026-11-02T11:31Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYW1JRi1Bc1gxWmZrY2NaSEZDVjRNX1NKc3o0N3V5THBtQ3ZZYUp1eWNBcndEeXg0eWYtRElZcGJKenRRZlR5ZHFUZmZsNVJXSHQ0T052NVNGMVZYUmVNYkdtMEl0VlJtdEl1WUNNaTJJNGNSOUg0czlwVVV3Q0lxN2xwTGx2UmFnWnFyVEhESQ?oc=5",
+     "source": "Yeni Alanya",
+     "title": "Alanyaspor - Konyaspor maçı ne zaman, saat kaçta, hangi kanalda?"
+    },
+    {
+     "at": "2026-11-02T11:14Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX0MtY2hRTlNaQWRxM0FvWE01dEs2bEZ2cHJ0LWFEYTJnbm56ZmZDWVpZMXVDZnJxRl9NR0V4RUxpcmVtcGVLSkh6NlZGSTAzdGhTUDN5bFJWQ2doa1gxNmwzZzktX25pdkt3aVFrejBsUFNNMllRcHhpN0NMUHVab0N0ZHRkSkZBRnRpLQ?oc=5",
+     "source": "Manşet Haber",
+     "title": "Gençlerbirliği-Alanyaspor maçı saat kaçta, hangi kanalda?"
+    },
+    {
+     "at": "2026-11-02T11:11Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96TldCNU1zZm10QmZ1OEp3WGk2dkNYRVF4RlZnbWVlTlVVOHY4alVqa2hjME5jN3NncjRkQ2VneTBBTE5wZFhiaURxTzBiWEs3UHVIbUlJelJyLUp6RXk2SEVOWm1laUpPYTFCMVB0WDNWYU1jYnZrS09WWDZ2TTQ?oc=5",
+     "source": "Sabır Gazetesi",
+     "title": "Gençlerbirliği-Alanyaspor Maçı Hangi Kanalda?"
+    }
+   ],
+   "fetched_at": "2026-11-02T13:17Z",
+   "home": [
+    {
+     "at": "2026-11-02T13:08Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQlY0Wmw5X1hybFk4NVJCR1VlbU4yT2FPOEo1ZkxFZk1zd1AxcHRtWHdUQ2xFNGhacjlxbUsydHBjNllTM3NCMXcydjllYlhabDJNOFVrQTlxNlloQ0ZVb3JBVHVjLVRMYXlfbDB2aldIbVZmZkRkMTJnZkVKYnk3QkkyX3dDWGV4VGYyRkc2by1oOWk1MzV3aUM1U2hMSVhaTVlZUjJJZU9EcGdMQjZQN01oZmdjU1Fqa2hXOQ?oc=5",
+     "source": "Milli Gazete",
+     "title": "Gençlerbirliği-Alanyaspor canlı yayın bilgileri! beIN SPORTS 1'de mi, şifresiz mi, saat kaçta?"
+    },
+    {
+     "at": "2026-11-02T11:32Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbmV1XzdYLXVwblQ5cy1FZUtvY25wRXJ1Z0hDZ25Cai1WRllpMXhWbzJ1YlZTazB0MFRyUTF1bGJPblJUNldfa3ZmTXVSRDVrdWtVUGYwdmZ0TnVCSmEzd0tvZnUxc2lzdXFCbjhEcWNWS25nRGdOV0JON2I0d2RTNWlybDdXdlhiVkVxTE1rWkJvaC1OeEF6Y3V0d1Exa0pYU3c?oc=5",
+     "source": "Alanya Postası",
+     "title": "Gençlerbirliği Alanyaspor maçı ne zaman, saat kaçta ve hangi kanalda?"
+    },
+    {
+     "at": "2026-11-02T11:11Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96TldCNU1zZm10QmZ1OEp3WGk2dkNYRVF4RlZnbWVlTlVVOHY4alVqa2hjME5jN3NncjRkQ2VneTBBTE5wZFhiaURxTzBiWEs3UHVIbUlJelJyLUp6RXk2SEVOWm1laUpPYTFCMVB0WDNWYU1jYnZrS09WWDZ2TTQ?oc=5",
+     "source": "Sabır Gazetesi",
+     "title": "Gençlerbirliği-Alanyaspor Maçı Hangi Kanalda?"
+    },
+    {
+     "at": "2026-11-02T11:04Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMnlsYWVreS0tbU9OUmVrTW1pR2lLR29mR0k1RWhWcllOa2p0RnV5ZjROVGFWQkNPa3BwZUdEanJHUWN3ODR0Qk9jRXY3QmNKT3d6bTlfTHNKLU9NNmRPU281MkFBaWxWR20td2FTcUhFVk5rN09wNXVaX1Q1MDg2OXBoR1JGVng4cHV2U0E3eDB3dUVhTjE3eU5FTHVhVnJWamRkYVJvdFl4aTQ?oc=5",
+     "source": "birgun.net",
+     "title": "Gençlerbirliği - Alanyaspor maçı saat kaçta, hangi kanalda? Muhtemel 11'ler"
+    },
+    {
+     "at": "2026-11-02T11:00Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb01xb3JzM0N2UGRqT19COGhCc0tsOFpCd0Y5M01XVk8yR2tULXA1bHhqV2lBb1pNYjA0aDBzdlM3dnlOanNlNGRTX1FHam5qd3RfdTdudWsxX3J2X3FrNF9UNjRkRjNGRVI4dkIzZlBDNUw2N1ZocjhVSmsxaXY3bk44bVBQRS1DSFdZemRwNUZ2TGJHbTRSY1loNEVtUjg?oc=5",
+     "source": "Canlı Gaste",
+     "title": "Gençlerbirliği - Alanyaspor Maçı Öncesi Kadrolar ve Maç Bilgileri"
+    }
+   ],
+   "kickoff": "2026-11-02T17:00Z"
   }
  },
  "coupon_types": {
@@ -17156,5 +17156,10 @@
    ]
   }
  ],
- "uyarilar": []
+ "uyarilar": [
+  {
+   "kaynak": "Gemini",
+   "mesaj": "1/1 maç analiz edilemedi"
+  }
+ ]
 }
