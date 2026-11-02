@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T19:57Z",
+ "updated_at": "2026-11-02T21:02Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
@@ -8685,7 +8685,7 @@
    "date": "2026-11-02",
    "home": "Newcastle",
    "away": "Everton",
-   "season": "2627",
+   "season": 2627,
    "kickoff": "2026-11-02T20:00Z",
    "p_h": 0.4221,
    "p_d": 0.2934,
@@ -8715,7 +8715,7 @@
    "fthg": null,
    "ftag": null,
    "ftr": null,
-   "status": "yaklasan",
+   "status": "sonuc_bekleniyor",
    "correct": null,
    "odds_pick": "H",
    "odds_correct": null,
@@ -12384,82 +12384,6 @@
    "kickoff": "2026-11-01T16:30Z"
   },
   "E0|2026-11-02|Newcastle|Everton": {
-   "fetched_at": "2026-11-02T19:57Z",
-   "kickoff": "2026-11-02T20:00Z",
-   "home": [
-    {
-     "title": "Confirmed Newcastle United team v Everton as Elanga, Osula, Hall all start",
-     "source": "Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYVl4a2FHQTZqTUU5cDdsQTJJaTAzOG5DNm9IeEZxNl9jbHV5ZHMtOHNVVE00dzFkOHV2eFhmRmVGWkhyS24xbUxpNThRZ2k3RTB5VlBiWkc2blVHYzRnb3hkVFNoX0tfSWRCUmdhYjhNZWF4RnhOdERMOTFiU3E5ZFliRVBDb3R5Wnc?oc=5",
-     "at": "2026-11-02T19:38Z",
-     "eksik": false
-    },
-    {
-     "title": "Newcastle vs Everton LIVE! Premier League match updates, news, score, stream and highlights",
-     "source": "Sky Sports",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQajVXd0JCOHV6ZjZDZHZVUDJYMklaeHZjQm82ZWF5X2hSaDM3dU5RUGtXOVJxR2wyTW1NakNscW5QVWo2UFA2cFE4WUppdmp6eC1MWFBfRUVUSVJJRlNmQ0lVQW00ejhaNE0wTnRKZUpkdU16TzJmb3JtYTRoSWlNQ0dyWl9NWGUzMS1hSExEeXZZdU03RFFoTzhJLWJpMjJ4NUgydFNIR1cxOGtYN3l4NmRfNUNhYmJXQWc3VmpyemNyYVBJazctTnVyaU9leHR2TllSM3g2eG4?oc=5",
-     "at": "2026-11-02T19:14Z",
-     "eksik": false
-    },
-    {
-     "title": "Newcastle United vs Everton LIVE streaming, TV channel, kick-off time & where to watch Premier League 2026-27",
-     "source": "Khel Now",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb1NCYzZFZDhEMXdrOFg0Uk9faXZGX1ZYSFBLSk5oVEVBaUZjd3JNMGlQSkN2TFNrZUc2UURtQ2lORlJJcG9kNlV6RmVjdGFPUFVhZ2xTQU15UzU1SHJoeWd2X0ZJc0NtYXlaU0NRVndxNVlvNDA2aW1NaGlJNnNST1FmT2lUS2tYek1uOXNtYXI1VVNfLXdHdA?oc=5",
-     "at": "2026-11-02T19:00Z",
-     "eksik": false
-    },
-    {
-     "title": "Newcastle United v Everton confirmed lineups and team news",
-     "source": "news.bet365.com",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQWxyaS04Y3A4S0xFWl9PY2RDTnRweGNiMnhjMVpKNTdIclBjU3FvVVkteDBvLXJTWkVqNUc4S1NtbVFYS043RmZ5dVlLdTdJT0dGRDU5cVJINE8wTTVnZjJDMnBoSHhHYXR0MS1DeGhoT1M4NlJpNVRSWkRhaXBrVFJvVkduR2d2dVBaT3dNS0RFRkY4NDVfMExrY0d6VkUwc3o1NEVwTzFBRGc3dWhza3VOdU1fVlE?oc=5",
-     "at": "2026-11-02T18:51Z",
-     "eksik": false
-    },
-    {
-     "title": "The official reaso Matias Fernandez-Pardo ruled out for Newcastle United vs Everton",
-     "source": "NewcastleWorld",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYUlySldKVXN3MFJuNjVoV3A5Tkk1anUyQnJnVkI2cG1ic0lCS19yb2xGUnJCTnYxazRQQ0F2bUhSZFU3MlJxY0NVcFFlSVU0Y1p5Rlc0M3Fra2xXUXZrMWRITEc4VDhQUkN5b1A4Q0JwLUh1T1EzN05wYllJeElMZ3ltcmhPbXY5WER1bm12VjdMM3BvWnYxVFdlTVFqMGhK?oc=5",
-     "at": "2026-11-02T18:48Z",
-     "eksik": true
-    }
-   ],
-   "away": [
-    {
-     "title": "Newcastle v Everton team news: Osula fit, Elanga starts",
-     "source": "Fantasy Football Scout",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOU9BZUMyLVNQOWJhVVFVWk43QS1XV2FXTGJJOGJjZy0zeUdGVDN2bWtPeXpVNjNpNDM5UTN1TjRCbGlHbFZLdjY1NnppWWE5aEN5S2lmM0xTc0k0Y3FVMHdQQnZjMGFldWZEZWl1UjBIdFNibDF2SDZzbDFVbDFmeXBlR05zMk5Ddy1VM2pXeEpUNEFjMVd4N2JiU1BKcWVMTXpGZ2Z3?oc=5",
-     "at": "2026-11-02T19:47Z",
-     "eksik": false
-    },
-    {
-     "title": "Confirmed Newcastle United team v Everton as Elanga, Osula, Hall all start",
-     "source": "Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYVl4a2FHQTZqTUU5cDdsQTJJaTAzOG5DNm9IeEZxNl9jbHV5ZHMtOHNVVE00dzFkOHV2eFhmRmVGWkhyS24xbUxpNThRZ2k3RTB5VlBiWkc2blVHYzRnb3hkVFNoX0tfSWRCUmdhYjhNZWF4RnhOdERMOTFiU3E5ZFliRVBDb3R5Wnc?oc=5",
-     "at": "2026-11-02T19:38Z",
-     "eksik": false
-    },
-    {
-     "title": "Newcastle vs Everton LIVE! Premier League match updates, news, score, stream and highlights",
-     "source": "Sky Sports",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQajVXd0JCOHV6ZjZDZHZVUDJYMklaeHZjQm82ZWF5X2hSaDM3dU5RUGtXOVJxR2wyTW1NakNscW5QVWo2UFA2cFE4WUppdmp6eC1MWFBfRUVUSVJJRlNmQ0lVQW00ejhaNE0wTnRKZUpkdU16TzJmb3JtYTRoSWlNQ0dyWl9NWGUzMS1hSExEeXZZdU03RFFoTzhJLWJpMjJ4NUgydFNIR1cxOGtYN3l4NmRfNUNhYmJXQWc3VmpyemNyYVBJazctTnVyaU9leHR2TllSM3g2eG4?oc=5",
-     "at": "2026-11-02T19:14Z",
-     "eksik": false
-    },
-    {
-     "title": "Newcastle United vs Everton LIVE streaming, TV channel, kick-off time & where to watch Premier League 2026-27",
-     "source": "Khel Now",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb1NCYzZFZDhEMXdrOFg0Uk9faXZGX1ZYSFBLSk5oVEVBaUZjd3JNMGlQSkN2TFNrZUc2UURtQ2lORlJJcG9kNlV6RmVjdGFPUFVhZ2xTQU15UzU1SHJoeWd2X0ZJc0NtYXlaU0NRVndxNVlvNDA2aW1NaGlJNnNST1FmT2lUS2tYek1uOXNtYXI1VVNfLXdHdA?oc=5",
-     "at": "2026-11-02T19:00Z",
-     "eksik": false
-    },
-    {
-     "title": "Newcastle United v Everton confirmed lineups and team news",
-     "source": "news.bet365.com",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQWxyaS04Y3A4S0xFWl9PY2RDTnRweGNiMnhjMVpKNTdIclBjU3FvVVkteDBvLXJTWkVqNUc4S1NtbVFYS043RmZ5dVlLdTdJT0dGRDU5cVJINE8wTTVnZjJDMnBoSHhHYXR0MS1DeGhoT1M4NlJpNVRSWkRhaXBrVFJvVkduR2d2dVBaT3dNS0RFRkY4NDVfMExrY0d6VkUwc3o1NEVwTzFBRGc3dWhza3VOdU1fVlE?oc=5",
-     "at": "2026-11-02T18:51Z",
-     "eksik": false
-    }
-   ],
    "ai": {
     "at": "2026-11-02T13:17Z",
     "away": {
@@ -12472,7 +12396,83 @@
      "ozet": "Newcastle United cephesinde maça saatler kala öne çıkan önemli bir eksik veya sakatlık raporu bulunmamaktadır."
     },
     "model": "gemini-3.5-flash-lite (aramasız)"
-   }
+   },
+   "away": [
+    {
+     "at": "2026-11-02T19:47Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOU9BZUMyLVNQOWJhVVFVWk43QS1XV2FXTGJJOGJjZy0zeUdGVDN2bWtPeXpVNjNpNDM5UTN1TjRCbGlHbFZLdjY1NnppWWE5aEN5S2lmM0xTc0k0Y3FVMHdQQnZjMGFldWZEZWl1UjBIdFNibDF2SDZzbDFVbDFmeXBlR05zMk5Ddy1VM2pXeEpUNEFjMVd4N2JiU1BKcWVMTXpGZ2Z3?oc=5",
+     "source": "Fantasy Football Scout",
+     "title": "Newcastle v Everton team news: Osula fit, Elanga starts"
+    },
+    {
+     "at": "2026-11-02T19:38Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYVl4a2FHQTZqTUU5cDdsQTJJaTAzOG5DNm9IeEZxNl9jbHV5ZHMtOHNVVE00dzFkOHV2eFhmRmVGWkhyS24xbUxpNThRZ2k3RTB5VlBiWkc2blVHYzRnb3hkVFNoX0tfSWRCUmdhYjhNZWF4RnhOdERMOTFiU3E5ZFliRVBDb3R5Wnc?oc=5",
+     "source": "Yahoo Sports",
+     "title": "Confirmed Newcastle United team v Everton as Elanga, Osula, Hall all start"
+    },
+    {
+     "at": "2026-11-02T19:14Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQajVXd0JCOHV6ZjZDZHZVUDJYMklaeHZjQm82ZWF5X2hSaDM3dU5RUGtXOVJxR2wyTW1NakNscW5QVWo2UFA2cFE4WUppdmp6eC1MWFBfRUVUSVJJRlNmQ0lVQW00ejhaNE0wTnRKZUpkdU16TzJmb3JtYTRoSWlNQ0dyWl9NWGUzMS1hSExEeXZZdU03RFFoTzhJLWJpMjJ4NUgydFNIR1cxOGtYN3l4NmRfNUNhYmJXQWc3VmpyemNyYVBJazctTnVyaU9leHR2TllSM3g2eG4?oc=5",
+     "source": "Sky Sports",
+     "title": "Newcastle vs Everton LIVE! Premier League match updates, news, score, stream and highlights"
+    },
+    {
+     "at": "2026-11-02T19:00Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb1NCYzZFZDhEMXdrOFg0Uk9faXZGX1ZYSFBLSk5oVEVBaUZjd3JNMGlQSkN2TFNrZUc2UURtQ2lORlJJcG9kNlV6RmVjdGFPUFVhZ2xTQU15UzU1SHJoeWd2X0ZJc0NtYXlaU0NRVndxNVlvNDA2aW1NaGlJNnNST1FmT2lUS2tYek1uOXNtYXI1VVNfLXdHdA?oc=5",
+     "source": "Khel Now",
+     "title": "Newcastle United vs Everton LIVE streaming, TV channel, kick-off time & where to watch Premier League 2026-27"
+    },
+    {
+     "at": "2026-11-02T18:51Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQWxyaS04Y3A4S0xFWl9PY2RDTnRweGNiMnhjMVpKNTdIclBjU3FvVVkteDBvLXJTWkVqNUc4S1NtbVFYS043RmZ5dVlLdTdJT0dGRDU5cVJINE8wTTVnZjJDMnBoSHhHYXR0MS1DeGhoT1M4NlJpNVRSWkRhaXBrVFJvVkduR2d2dVBaT3dNS0RFRkY4NDVfMExrY0d6VkUwc3o1NEVwTzFBRGc3dWhza3VOdU1fVlE?oc=5",
+     "source": "news.bet365.com",
+     "title": "Newcastle United v Everton confirmed lineups and team news"
+    }
+   ],
+   "fetched_at": "2026-11-02T19:57Z",
+   "home": [
+    {
+     "at": "2026-11-02T19:38Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYVl4a2FHQTZqTUU5cDdsQTJJaTAzOG5DNm9IeEZxNl9jbHV5ZHMtOHNVVE00dzFkOHV2eFhmRmVGWkhyS24xbUxpNThRZ2k3RTB5VlBiWkc2blVHYzRnb3hkVFNoX0tfSWRCUmdhYjhNZWF4RnhOdERMOTFiU3E5ZFliRVBDb3R5Wnc?oc=5",
+     "source": "Yahoo Sports",
+     "title": "Confirmed Newcastle United team v Everton as Elanga, Osula, Hall all start"
+    },
+    {
+     "at": "2026-11-02T19:14Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQajVXd0JCOHV6ZjZDZHZVUDJYMklaeHZjQm82ZWF5X2hSaDM3dU5RUGtXOVJxR2wyTW1NakNscW5QVWo2UFA2cFE4WUppdmp6eC1MWFBfRUVUSVJJRlNmQ0lVQW00ejhaNE0wTnRKZUpkdU16TzJmb3JtYTRoSWlNQ0dyWl9NWGUzMS1hSExEeXZZdU03RFFoTzhJLWJpMjJ4NUgydFNIR1cxOGtYN3l4NmRfNUNhYmJXQWc3VmpyemNyYVBJazctTnVyaU9leHR2TllSM3g2eG4?oc=5",
+     "source": "Sky Sports",
+     "title": "Newcastle vs Everton LIVE! Premier League match updates, news, score, stream and highlights"
+    },
+    {
+     "at": "2026-11-02T19:00Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb1NCYzZFZDhEMXdrOFg0Uk9faXZGX1ZYSFBLSk5oVEVBaUZjd3JNMGlQSkN2TFNrZUc2UURtQ2lORlJJcG9kNlV6RmVjdGFPUFVhZ2xTQU15UzU1SHJoeWd2X0ZJc0NtYXlaU0NRVndxNVlvNDA2aW1NaGlJNnNST1FmT2lUS2tYek1uOXNtYXI1VVNfLXdHdA?oc=5",
+     "source": "Khel Now",
+     "title": "Newcastle United vs Everton LIVE streaming, TV channel, kick-off time & where to watch Premier League 2026-27"
+    },
+    {
+     "at": "2026-11-02T18:51Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQWxyaS04Y3A4S0xFWl9PY2RDTnRweGNiMnhjMVpKNTdIclBjU3FvVVkteDBvLXJTWkVqNUc4S1NtbVFYS043RmZ5dVlLdTdJT0dGRDU5cVJINE8wTTVnZjJDMnBoSHhHYXR0MS1DeGhoT1M4NlJpNVRSWkRhaXBrVFJvVkduR2d2dVBaT3dNS0RFRkY4NDVfMExrY0d6VkUwc3o1NEVwTzFBRGc3dWhza3VOdU1fVlE?oc=5",
+     "source": "news.bet365.com",
+     "title": "Newcastle United v Everton confirmed lineups and team news"
+    },
+    {
+     "at": "2026-11-02T18:48Z",
+     "eksik": true,
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYUlySldKVXN3MFJuNjVoV3A5Tkk1anUyQnJnVkI2cG1ic0lCS19yb2xGUnJCTnYxazRQQ0F2bUhSZFU3MlJxY0NVcFFlSVU0Y1p5Rlc0M3Fra2xXUXZrMWRITEc4VDhQUkN5b1A4Q0JwLUh1T1EzN05wYllJeElMZ3ltcmhPbXY5WER1bm12VjdMM3BvWnYxVFdlTVFqMGhK?oc=5",
+     "source": "NewcastleWorld",
+     "title": "The official reaso Matias Fernandez-Pardo ruled out for Newcastle United vs Everton"
+    }
+   ],
+   "kickoff": "2026-11-02T20:00Z"
   },
   "T1|2026-10-26|Besiktas|Buyuksehyr": {
    "ai": {
@@ -17156,10 +17156,5 @@
    ]
   }
  ],
- "uyarilar": [
-  {
-   "kaynak": "Gemini",
-   "mesaj": "1/1 maç analiz edilemedi"
-  }
- ]
+ "uyarilar": []
 }
