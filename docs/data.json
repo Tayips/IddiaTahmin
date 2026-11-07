@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T22:55Z",
+ "updated_at": "2026-11-07T11:36Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
@@ -8829,7 +8829,7 @@
    "date": "2026-11-07",
    "home": "Eyupspor",
    "away": "Kocaelispor",
-   "season": "2627",
+   "season": 2627,
    "kickoff": "2026-11-07T10:30Z",
    "p_h": 0.2329,
    "p_d": 0.2671,
@@ -8859,7 +8859,7 @@
    "fthg": null,
    "ftag": null,
    "ftr": null,
-   "status": "yaklasan",
+   "status": "sonuc_bekleniyor",
    "correct": null,
    "odds_pick": "A",
    "odds_correct": null,
@@ -8879,20 +8879,20 @@
    "away": "Tottenham",
    "season": "2627",
    "kickoff": "2026-11-07T12:30Z",
-   "p_h": 0.3202,
-   "p_d": 0.298,
-   "p_a": 0.3819,
+   "p_h": 0.3145,
+   "p_d": 0.2984,
+   "p_a": 0.387,
    "pick": "A",
-   "odds_h": 2.69,
-   "odds_d": 3.33,
+   "odds_h": 2.76,
+   "odds_d": 3.35,
    "odds_a": 2.54,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.5109,
-   "p_kg": 0.5662,
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.52,
+   "p_kg": 0.5776,
    "odds_o25": 1.91,
-   "odds_u25": 1.83,
-   "odds_src": "fikstur",
+   "odds_u25": 1.89,
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": 110.0,
@@ -8913,9 +8913,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.3496,
-   "mk_d": 0.2793,
-   "mk_a": 0.3712,
+   "mk_h": 0.344,
+   "mk_d": 0.281,
+   "mk_a": 0.375,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -8927,20 +8927,20 @@
    "away": "Konyaspor",
    "season": "2627",
    "kickoff": "2026-11-07T13:00Z",
-   "p_h": 0.4093,
-   "p_d": 0.2868,
-   "p_a": 0.3039,
+   "p_h": 0.418,
+   "p_d": 0.2865,
+   "p_a": 0.2955,
    "pick": "H",
-   "odds_h": 2.25,
-   "odds_d": 3.28,
-   "odds_a": 2.96,
+   "odds_h": 2.23,
+   "odds_d": 3.32,
+   "odds_a": 3.06,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.4765,
-   "p_kg": 0.5466,
-   "odds_o25": 1.91,
-   "odds_u25": 1.81,
-   "odds_src": "fikstur",
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.5054,
+   "p_kg": 0.5744,
+   "odds_o25": 1.83,
+   "odds_u25": 1.92,
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": 34.0,
@@ -8961,9 +8961,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.4137,
-   "mk_d": 0.2771,
-   "mk_a": 0.3093,
+   "mk_h": 0.4213,
+   "mk_d": 0.2768,
+   "mk_a": 0.3019,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -8975,20 +8975,20 @@
    "away": "Hull",
    "season": "2627",
    "kickoff": "2026-11-07T15:00Z",
-   "p_h": 0.8708,
-   "p_d": 0.092,
-   "p_a": 0.0372,
+   "p_h": 0.888,
+   "p_d": 0.081,
+   "p_a": 0.031,
    "pick": "H",
-   "odds_h": 1.15,
-   "odds_d": 7.42,
-   "odds_a": 16.19,
+   "odds_h": 1.14,
+   "odds_d": 8.25,
+   "odds_a": 20.04,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.6572,
-   "p_kg": 0.385,
-   "odds_o25": 1.5,
-   "odds_u25": 2.5,
-   "odds_src": "fikstur",
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.673,
+   "p_kg": 0.3742,
+   "odds_o25": 1.48,
+   "odds_u25": 2.59,
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": 325.0,
@@ -9009,9 +9009,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.8393,
-   "mk_d": 0.1156,
-   "mk_a": 0.0451,
+   "mk_h": 0.8549,
+   "mk_d": 0.1073,
+   "mk_a": 0.0378,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -9023,20 +9023,20 @@
    "away": "Newcastle",
    "season": "2627",
    "kickoff": "2026-11-07T15:00Z",
-   "p_h": 0.4669,
-   "p_d": 0.2781,
-   "p_a": 0.255,
+   "p_h": 0.4842,
+   "p_d": 0.2765,
+   "p_a": 0.2393,
    "pick": "H",
-   "odds_h": 2.05,
-   "odds_d": 3.63,
-   "odds_a": 3.33,
+   "odds_h": 2.0,
+   "odds_d": 3.65,
+   "odds_a": 3.54,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.5929,
-   "p_kg": 0.6094,
-   "odds_o25": 1.63,
-   "odds_u25": 2.2,
-   "odds_src": "fikstur",
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.5841,
+   "p_kg": 0.6023,
+   "odds_o25": 1.66,
+   "odds_u25": 2.17,
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": 64.0,
@@ -9057,9 +9057,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.4645,
-   "mk_d": 0.2555,
-   "mk_a": 0.2799,
+   "mk_h": 0.4791,
+   "mk_d": 0.2562,
+   "mk_a": 0.2646,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -9071,20 +9071,20 @@
    "away": "Amedspor",
    "season": "2627",
    "kickoff": "2026-11-07T16:00Z",
-   "p_h": 0.7092,
-   "p_d": 0.1878,
-   "p_a": 0.103,
+   "p_h": 0.7201,
+   "p_d": 0.1819,
+   "p_a": 0.0981,
    "pick": "H",
-   "odds_h": 1.39,
-   "odds_d": 4.85,
-   "odds_a": 6.23,
+   "odds_h": 1.38,
+   "odds_d": 5.08,
+   "odds_a": 6.61,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.6581,
-   "p_kg": 0.6011,
-   "odds_o25": 1.41,
-   "odds_u25": 2.71,
-   "odds_src": "fikstur",
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.6645,
+   "p_kg": 0.5984,
+   "odds_o25": 1.4,
+   "odds_u25": 2.76,
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": 292.0,
@@ -9105,9 +9105,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.6833,
-   "mk_d": 0.1806,
-   "mk_a": 0.1361,
+   "mk_h": 0.6939,
+   "mk_d": 0.1753,
+   "mk_a": 0.1308,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -9119,20 +9119,20 @@
    "away": "Buyuksehyr",
    "season": "2627",
    "kickoff": "2026-11-07T16:00Z",
-   "p_h": 0.4784,
-   "p_d": 0.2702,
-   "p_a": 0.2514,
+   "p_h": 0.5083,
+   "p_d": 0.266,
+   "p_a": 0.2257,
    "pick": "H",
-   "odds_h": 2.01,
-   "odds_d": 3.6,
-   "odds_a": 3.23,
+   "odds_h": 1.92,
+   "odds_d": 3.64,
+   "odds_a": 3.55,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.5944,
-   "p_kg": 0.6337,
-   "odds_o25": 1.58,
-   "odds_u25": 2.26,
-   "odds_src": "fikstur",
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.5686,
+   "p_kg": 0.609,
+   "odds_o25": 1.66,
+   "odds_u25": 2.16,
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": 63.0,
@@ -9153,9 +9153,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.4664,
-   "mk_d": 0.2512,
-   "mk_a": 0.2824,
+   "mk_h": 0.4921,
+   "mk_d": 0.2506,
+   "mk_a": 0.2574,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -9167,20 +9167,20 @@
    "away": "Man City",
    "season": "2627",
    "kickoff": "2026-11-07T17:30Z",
-   "p_h": 0.2041,
-   "p_d": 0.2216,
-   "p_a": 0.5743,
+   "p_h": 0.2069,
+   "p_d": 0.2221,
+   "p_a": 0.571,
    "pick": "A",
-   "odds_h": 4.54,
-   "odds_d": 3.94,
-   "odds_a": 1.69,
+   "odds_h": 4.56,
+   "odds_d": 4.01,
+   "odds_a": 1.71,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.5949,
-   "p_kg": 0.5474,
-   "odds_o25": 1.6,
-   "odds_u25": 2.24,
-   "odds_src": "fikstur",
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.594,
+   "p_kg": 0.5453,
+   "odds_o25": 1.62,
+   "odds_u25": 2.26,
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": -189.0,
@@ -9201,9 +9201,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.2005,
-   "mk_d": 0.2335,
-   "mk_a": 0.566,
+   "mk_h": 0.2032,
+   "mk_d": 0.2329,
+   "mk_a": 0.5639,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -9215,20 +9215,20 @@
    "away": "Erzurumspor",
    "season": "2627",
    "kickoff": "2026-11-08T10:30Z",
-   "p_h": 0.5089,
-   "p_d": 0.2629,
-   "p_a": 0.2282,
+   "p_h": 0.5126,
+   "p_d": 0.2634,
+   "p_a": 0.224,
    "pick": "H",
    "odds_h": 1.91,
    "odds_d": 3.5,
-   "odds_a": 3.58,
+   "odds_a": 3.67,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.515,
-   "p_kg": 0.5498,
-   "odds_o25": 1.8,
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.5117,
+   "p_kg": 0.5499,
+   "odds_o25": 1.82,
    "odds_u25": 1.92,
-   "odds_src": "fikstur",
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": 55.0,
@@ -9249,9 +9249,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.4906,
-   "mk_d": 0.2578,
-   "mk_a": 0.2516,
+   "mk_h": 0.4931,
+   "mk_d": 0.2599,
+   "mk_a": 0.247,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -9263,20 +9263,20 @@
    "away": "Fenerbahce",
    "season": "2627",
    "kickoff": "2026-11-08T13:00Z",
-   "p_h": 0.2193,
-   "p_d": 0.2354,
-   "p_a": 0.5453,
+   "p_h": 0.2111,
+   "p_d": 0.2318,
+   "p_a": 0.557,
    "pick": "A",
-   "odds_h": 4.08,
-   "odds_d": 3.82,
-   "odds_a": 1.72,
+   "odds_h": 4.25,
+   "odds_d": 3.87,
+   "odds_a": 1.7,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.6029,
-   "p_kg": 0.6049,
-   "odds_o25": 1.58,
-   "odds_u25": 2.26,
-   "odds_src": "fikstur",
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.6098,
+   "p_kg": 0.6096,
+   "odds_o25": 1.56,
+   "odds_u25": 2.29,
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": -144.0,
@@ -9297,9 +9297,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.2182,
-   "mk_d": 0.2345,
-   "mk_a": 0.5473,
+   "mk_h": 0.2105,
+   "mk_d": 0.2331,
+   "mk_a": 0.5564,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -9311,20 +9311,20 @@
    "away": "Brentford",
    "season": "2627",
    "kickoff": "2026-11-08T14:00Z",
-   "p_h": 0.493,
-   "p_d": 0.2656,
-   "p_a": 0.2414,
+   "p_h": 0.5011,
+   "p_d": 0.2653,
+   "p_a": 0.2335,
    "pick": "H",
-   "odds_h": 1.9,
-   "odds_d": 3.82,
-   "odds_a": 3.59,
+   "odds_h": 1.89,
+   "odds_d": 3.84,
+   "odds_a": 3.74,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.608,
-   "p_kg": 0.6092,
-   "odds_o25": 1.57,
-   "odds_u25": 2.3,
-   "odds_src": "fikstur",
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.6096,
+   "p_kg": 0.6134,
+   "odds_o25": 1.58,
+   "odds_u25": 2.33,
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": 125.0,
@@ -9345,9 +9345,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.5013,
-   "mk_d": 0.2411,
-   "mk_a": 0.2576,
+   "mk_h": 0.5077,
+   "mk_d": 0.2427,
+   "mk_a": 0.2496,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -9359,20 +9359,20 @@
    "away": "Liverpool",
    "season": "2627",
    "kickoff": "2026-11-08T14:00Z",
-   "p_h": 0.1553,
-   "p_d": 0.2001,
-   "p_a": 0.6446,
+   "p_h": 0.1476,
+   "p_d": 0.195,
+   "p_a": 0.6574,
    "pick": "A",
-   "odds_h": 5.15,
-   "odds_d": 4.27,
-   "odds_a": 1.57,
+   "odds_h": 5.43,
+   "odds_d": 4.36,
+   "odds_a": 1.55,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.6379,
-   "p_kg": 0.5767,
-   "odds_o25": 1.54,
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.6347,
+   "p_kg": 0.5696,
+   "odds_o25": 1.56,
    "odds_u25": 2.38,
-   "odds_src": "fikstur",
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": -125.0,
@@ -9393,9 +9393,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.175,
-   "mk_d": 0.2143,
-   "mk_a": 0.6107,
+   "mk_h": 0.1671,
+   "mk_d": 0.2115,
+   "mk_a": 0.6214,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -9407,20 +9407,20 @@
    "away": "Bournemouth",
    "season": "2627",
    "kickoff": "2026-11-08T14:00Z",
-   "p_h": 0.2333,
-   "p_d": 0.2488,
-   "p_a": 0.5178,
+   "p_h": 0.2263,
+   "p_d": 0.2475,
+   "p_a": 0.5262,
    "pick": "A",
-   "odds_h": 3.72,
-   "odds_d": 3.69,
-   "odds_a": 1.9,
+   "odds_h": 3.86,
+   "odds_d": 3.71,
+   "odds_a": 1.89,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.5694,
-   "p_kg": 0.567,
-   "odds_o25": 1.67,
-   "odds_u25": 2.12,
-   "odds_src": "fikstur",
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.5715,
+   "p_kg": 0.5712,
+   "odds_o25": 1.68,
+   "odds_u25": 2.15,
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": -147.0,
@@ -9441,9 +9441,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.2482,
-   "mk_d": 0.2503,
-   "mk_a": 0.5015,
+   "mk_h": 0.2412,
+   "mk_d": 0.2515,
+   "mk_a": 0.5074,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -9455,20 +9455,20 @@
    "away": "Chelsea",
    "season": "2627",
    "kickoff": "2026-11-08T14:00Z",
-   "p_h": 0.241,
-   "p_d": 0.2587,
-   "p_a": 0.5004,
+   "p_h": 0.2448,
+   "p_d": 0.2603,
+   "p_a": 0.495,
    "pick": "A",
-   "odds_h": 3.68,
-   "odds_d": 3.6,
-   "odds_a": 1.93,
+   "odds_h": 3.67,
+   "odds_d": 3.63,
+   "odds_a": 1.96,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.5193,
-   "p_kg": 0.5299,
-   "odds_o25": 1.77,
-   "odds_u25": 1.97,
-   "odds_src": "fikstur",
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.5217,
+   "p_kg": 0.5335,
+   "odds_o25": 1.79,
+   "odds_u25": 2.01,
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": -59.0,
@@ -9489,9 +9489,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.2506,
-   "mk_d": 0.2565,
-   "mk_a": 0.4929,
+   "mk_h": 0.2542,
+   "mk_d": 0.2572,
+   "mk_a": 0.4886,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -9503,20 +9503,20 @@
    "away": "Trabzonspor",
    "season": "2627",
    "kickoff": "2026-11-08T15:30Z",
-   "p_h": 0.206,
-   "p_d": 0.2338,
-   "p_a": 0.5602,
+   "p_h": 0.2028,
+   "p_d": 0.2327,
+   "p_a": 0.5646,
    "pick": "A",
-   "odds_h": 4.63,
-   "odds_d": 3.86,
+   "odds_h": 4.75,
+   "odds_d": 3.9,
    "odds_a": 1.63,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.5704,
-   "p_kg": 0.5583,
-   "odds_o25": 1.66,
-   "odds_u25": 2.1,
-   "odds_src": "fikstur",
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.5674,
+   "p_kg": 0.5554,
+   "odds_o25": 1.67,
+   "odds_u25": 2.09,
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": -177.0,
@@ -9537,9 +9537,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.1897,
-   "mk_d": 0.2317,
-   "mk_a": 0.5787,
+   "mk_h": 0.1867,
+   "mk_d": 0.2315,
+   "mk_a": 0.5818,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -9551,20 +9551,20 @@
    "away": "Aston Villa",
    "season": "2627",
    "kickoff": "2026-11-08T16:30Z",
-   "p_h": 0.4502,
-   "p_d": 0.2693,
-   "p_a": 0.2805,
+   "p_h": 0.4519,
+   "p_d": 0.2704,
+   "p_a": 0.2777,
    "pick": "H",
-   "odds_h": 2.13,
-   "odds_d": 3.68,
-   "odds_a": 3.07,
+   "odds_h": 2.14,
+   "odds_d": 3.69,
+   "odds_a": 3.13,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.618,
-   "p_kg": 0.6236,
-   "odds_o25": 1.55,
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.6112,
+   "p_kg": 0.6203,
+   "odds_o25": 1.59,
    "odds_u25": 2.34,
-   "odds_src": "fikstur",
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": 35.0,
@@ -9585,9 +9585,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.4453,
-   "mk_d": 0.2508,
-   "mk_a": 0.3039,
+   "mk_h": 0.4464,
+   "mk_d": 0.2529,
+   "mk_a": 0.3007,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -9599,20 +9599,20 @@
    "away": "Genclerbirligi",
    "season": "2627",
    "kickoff": "2026-11-08T18:00Z",
-   "p_h": 0.824,
-   "p_d": 0.1201,
-   "p_a": 0.0559,
+   "p_h": 0.8362,
+   "p_d": 0.1126,
+   "p_a": 0.0512,
    "pick": "H",
-   "odds_h": 1.21,
-   "odds_d": 6.33,
-   "odds_a": 10.38,
+   "odds_h": 1.19,
+   "odds_d": 6.65,
+   "odds_a": 11.0,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-06T22:55Z",
-   "p_o25": 0.7063,
-   "p_kg": 0.5336,
-   "odds_o25": 1.36,
-   "odds_u25": 2.89,
-   "odds_src": "fikstur",
+   "predicted_at": "2026-11-07T11:36Z",
+   "p_o25": 0.7248,
+   "p_kg": 0.5385,
+   "odds_o25": 1.33,
+   "odds_u25": 3.08,
+   "odds_src": "canli",
    "data_through": "2026-11-02",
    "features": "f3-12lig",
    "f_elo": 225.0,
@@ -9633,9 +9633,9 @@
    "odds_correct": null,
    "o25_correct": null,
    "kg_correct": null,
-   "mk_h": 0.7905,
-   "mk_d": 0.1346,
-   "mk_a": 0.075,
+   "mk_h": 0.8037,
+   "mk_d": 0.1268,
+   "mk_a": 0.0695,
    "close_h": null,
    "close_d": null,
    "close_a": null
@@ -13484,407 +13484,394 @@
    "kickoff": "2026-11-06T20:00Z"
   },
   "E0|2026-11-07|Arsenal|Hull": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-07T15:00Z",
    "home": [
+    {
+     "title": "Arsenal Handed Perfect Injury Gift Before International Break",
+     "source": "Sports Illustrated",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1zZVljVERnS1VzQXUxUTI1akFWOWdlRVZlMDJLU1dUY3NBaHFJclRTaGQyRDRnRjJhUzhRZTRHQVl4aTlfamNTRUd0Q1RfcXFUMFhGdTJGNERiXzVQOExsSEVJM05KMW9xcUhhMU9WRzhqNFVLcnQzRU9GYXdwZw?oc=5",
+     "at": "2026-11-07T11:10Z",
+     "eksik": true
+    },
+    {
+     "title": "Arsenal vs. Hull City Preview: Team News, Kick-Off Time & How To Watch",
+     "source": "roundtable.io",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORHhsbDR1cXltV3FoZnp1RXVXQkowMGpOZTh2d2Y0OXp2VUJ2bFFHbWt0TDVrZE1DT2xVREZMMXNjYUJPLWRWSWFQSHB6M3VZdHVZWF9MdUZXMDFMaVZkZnpObVZKZjRVeW1xc1p4c1BaQ0s3Y1RKTF9wMGdjTS1EcEJCRURXM2RjMDEzemhkMEU4TDNXVjVWdF9hSG1yNGxTU1pRSVdvaGZ0YUJaLUd3Y1Y1dUNQa1I0cG1xOW53OGZWSldydGFiUUl5RnIwWXc?oc=5",
+     "at": "2026-11-07T10:58Z",
+     "eksik": false
+    },
+    {
+     "title": "Arsenal Starting XI vs Hull City: Confirmed Team News and Predicted Lineup",
+     "source": "Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbkNoZzNjbW93blhFeGFCSlFHVkdzY0FuRXF3VU8yRHF4QUc3Vl9VRVpRRTVmNTZEdzRIWm1HX1N2TmxicHIybjlxdFlqU2NZN3NlUnNBZEgzQjF4ZC1oTk5yX0RYd0JHclNzSVRkTnRBc0VKcTQ5MFJNN0d5d2dZanpR?oc=5",
+     "at": "2026-11-07T10:20Z",
+     "eksik": false
+    },
     {
      "title": "Arteta issues positive Saka injury update amid Arsenal return timeline",
      "source": "London Evening Standard",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdkZHZURqSTJDbllSOTE0VUhUdGczdS1lM1Q4ZmloVlpWcGtzOWRJcGlXMlpmTG4yY3hyUWJNa29BcXE4X29URERDeFV6NUs1Ymc3cjVkYzRNSTdHcld5bFA0b3o3SzVscnA2VEViMTVubkNEaHdWckRrMGkwUm1rZ2haQldUMkRZYk1Yb1RuZVFsZ0M4X3ZaWlFTVnNKQQ?oc=5",
-     "at": "2026-11-06T22:30Z",
+     "at": "2026-11-07T10:16Z",
      "eksik": true
     },
     {
-     "title": "Arteta laughs off Arsenal criticism amid Rice injury concern",
-     "source": "London Evening Standard",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPc1hieU9lbmcyWVZMQWVjbktXTFBJdzZFY0sxQmVEbW1hV1dCdWFwUmEwZnFFeW41TlllUWZzMnBvMGZaZFh0UlZOa2JWT3hkS25OREkycy1XeWpkVU9QUE9WbnpMdmRvRU9heVVTQ21vZ1pGUlBpMkoxWldUQkxjRnptMl8wYlkwY1lVNDRMR2FmUQ?oc=5",
-     "at": "2026-11-06T22:30Z",
-     "eksik": true
-    },
-    {
-     "title": "Arteta shares more detail on Saka’s injury and dismisses Declan Rice concern",
-     "source": "Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYVpudXo5Z0U3TFJ2eG9HbDBFblNmb3UtRUpjb1hEMUkyS0ZxRE1qek01QzFCcDE4VHhERW90Y1BoTEdGb2tNLVRpUFR0SVNIY25CQ2hpUE4wN0lhRGVyYkNvYnpJSEIwbS0xaEpzeUNmbG1EenlsVFJZNjJjUldacEpqYjVYdw?oc=5",
-     "at": "2026-11-06T22:30Z",
-     "eksik": true
-    },
-    {
-     "title": "Christos Tzolis reveals Arsenal teammate who helped him the most and reason behind Anfield start",
-     "source": "AOL.co.uk",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWDZSV2tkTU5nQW9fTkRNSnlVRDV4WG1WOU1RQUpBTHpWekpFbGZIdi1KYUIzajEwNE5KRUMtYlZYX3p0dUd2WmMtd3BhM2xtNWIxbjRWSzRmUFozdDZ0bEd2dUZ0a0lYcm5qdFQybkNSSVlKTWRRTV91aXlQemF1cV91aHM1bVVxRGNXeFM2NA?oc=5",
-     "at": "2026-11-06T20:00Z",
+     "title": "Mikel Arteta holds internal meeting after Christos Tzolis team news leak",
+     "source": "now.arsenal",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQlgxbXV3Z0hkSm5GcXNkNkRkOGhYYkowUnBsajJCU2sweU5fci05UURKM1VhTHd1dmtHc2h0TVgtajJRQkszazJpVXZWdHpjQmlwOWhWZV9ydlZ5UUtfdFZGcDEwWlBTV3ByVGE1WWhqQ2xxTGs1YW1BbHpaUHlsVUN0cTc4Z2llTHA4X0hzRVdrdmtxVmk5MTAzVUdHbnctSWxobGdzS251aTNkbmRBdmtR?oc=5",
+     "at": "2026-11-07T09:50Z",
      "eksik": false
-    },
-    {
-     "title": "10 players expected to miss Arsenal vs Hull City clash after Bukayo Saka injury update",
-     "source": "Football London",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcm9kdm41NmphRi1DRzA1MGgycGR1eFJsUGpuVVRMNWFtZElXd2I1SzJ2WGk0Rjl2LXNZbTAxdGdFMTlBWVl5X2hOLWFCVV9sYkMwTF9LWklYcjQ3b2o5ZHN2MXEtU2lXMDRQU3IwcmFYNVJPS3dNNzFJWnE4aXVWNXF4UDBwTzZaem01dFpYd1JEX3PSAZgBQVVfeXFMT3dzVXdlTF9HVkNTX212a05lYmExU0V2bjZrcVJDOFpRdDJXNF9CZEplSzZpN2o5aGlrOWtqWW8ydDFuay1iQ3BscG11X29raDRQUjFBZ0dNWlZ2MnNmemNwVGlsQ2ZKT0p2QkFuelNVYlhVblhxcEdJMXg0TEhpSVB3dWk2eFJDTHJXbkNTSEwzdnpSVmhTTy0?oc=5",
-     "at": "2026-11-06T19:07Z",
-     "eksik": true
     }
    ],
    "away": [
     {
-     "title": "10 players expected to miss Arsenal vs Hull City clash after Bukayo Saka injury update",
-     "source": "Football London",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcm9kdm41NmphRi1DRzA1MGgycGR1eFJsUGpuVVRMNWFtZElXd2I1SzJ2WGk0Rjl2LXNZbTAxdGdFMTlBWVl5X2hOLWFCVV9sYkMwTF9LWklYcjQ3b2o5ZHN2MXEtU2lXMDRQU3IwcmFYNVJPS3dNNzFJWnE4aXVWNXF4UDBwTzZaem01dFpYd1JEX3PSAZgBQVVfeXFMT3dzVXdlTF9HVkNTX212a05lYmExU0V2bjZrcVJDOFpRdDJXNF9CZEplSzZpN2o5aGlrOWtqWW8ydDFuay1iQ3BscG11X29raDRQUjFBZ0dNWlZ2MnNmemNwVGlsQ2ZKT0p2QkFuelNVYlhVblhxcEdJMXg0TEhpSVB3dWk2eFJDTHJXbkNTSEwzdnpSVmhTTy0?oc=5",
-     "at": "2026-11-06T19:07Z",
-     "eksik": true
-    },
-    {
-     "title": "Arsenal vs Hull City Preview: Prediction, Probable Lineups, Tactics, Team News & Key Stats",
-     "source": "TheHardTackle.com",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVzd1UXpWZHFhR2FSTkpndTZDSmpBVXBHdjc1V2dxVWllZXI0ZV84ZExOQ1UtOGsxY1Jwc19SdUhwcFowdHRTOWNNZUFvM2FlMkJfaE54dnNJVERxY1BvYjJHOGxpWDlfYjBwaXoyeHJpNnVEVV96bHFleEdDUUZNQ1ZUd251Tm9HRE9lbHdxb3dmZGNteEZ0QVdFNHhOMjQ5UjdHbU1LUVZ4RXN1TnBJWHZoRC1ZdGtJeENwdjd2S3JpTEkwRWfSAcsBQVVfeXFMUDFkZ3hfaG9IWHJzaGhya3VVcm1RaFMyUUw0UnJVQ2NJdS1IVEVLbnFtanBuc1U4UGZvbjJKMi1WejVGazRrbGdzaVVCNUxHZldHbkplVTYwc1ZXaEEzN04yak9oY18yWnZEVHMtNFFnRU5IT0dPYmQ0ZjNjYUs5QXp6TWQ3SENyWUw2Sjh5cU9ieHZyZWVpNmpTVzlpckJTWjNoSUVHTFY4SlAyYWdLZ0VzWndrc0RXWE05d3BiTFRZUzNVQnRRSkotZkk?oc=5",
-     "at": "2026-11-06T18:54Z",
+     "title": "Sutton's predictions: Arsenal v Hull City",
+     "source": "Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORjRGOU1EZm9Zd3NsZUdVTDlBOVkzTkxlRkF6UGhfaWViOVpfYnZURkpLeVFYTlI2ZHBLOU1qSkhCdnl0U2JKeVFxaERmZDJuT1Vpa3hwTUNHckF3a09sVWNacmtjZG03WXcwV3pGcEVsckhGLXVOUEY3TGs4ekMwVVZtSS1xOTdvdkNr?oc=5",
+     "at": "2026-11-07T11:02Z",
      "eksik": false
     },
     {
-     "title": "How to Watch Arsenal vs Hull City Match: Premier League TV Channels, LiveStream & Odds",
-     "source": "Telecom Asia Sport",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcUxhQUtRNWtDZzJ3ckNDNmwtbFp0M3k0R2FvS3BmNzR2T1g2M2s4NXRIaVlSdUc4WGhkM2xsMU8zYjM5TDA1dFE1OExUQ1ZoUW5ZRTN1QjU0S2lkWDFFT2RtOTl3c1dadU5VeEQ0aDlHRFpMbEF1RjdBOWI3MDAtYzNTMXJSZzAzalNuRjFkekNkZ1dfVWFIaDNXZ3RkRHM2WWxNaUFqSmdRSW9vOVVFQjVkZkdhRHFQRHZhSA?oc=5",
-     "at": "2026-11-06T17:46Z",
+     "title": "Arsenal vs. Hull City Preview: Team News, Kick-Off Time & How To Watch",
+     "source": "roundtable.io",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORHhsbDR1cXltV3FoZnp1RXVXQkowMGpOZTh2d2Y0OXp2VUJ2bFFHbWt0TDVrZE1DT2xVREZMMXNjYUJPLWRWSWFQSHB6M3VZdHVZWF9MdUZXMDFMaVZkZnpObVZKZjRVeW1xc1p4c1BaQ0s3Y1RKTF9wMGdjTS1EcEJCRURXM2RjMDEzemhkMEU4TDNXVjVWdF9hSG1yNGxTU1pRSVdvaGZ0YUJaLUd3Y1Y1dUNQa1I0cG1xOW53OGZWSldydGFiUUl5RnIwWXc?oc=5",
+     "at": "2026-11-07T10:58Z",
      "eksik": false
     },
     {
-     "title": "Arsenal injury update: Latest on Ezri Konsa, Bukayo Saka and more ahead of Hull City clash",
-     "source": "Sportskeeda",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVDF5V0hOc1g0eHVKb0xpSktUQUFrNGFLQUhMSGMtVG1SZGVPMko5dG56WkJCa3RZVEE5Y01GS05xM09ZRk5TRFBSM18zSk16N3l3T01sVVBzdlBZT2NTN0dpRlVEOGphZ2psbVdOOVhUaFVaR3lGWlVIb1hPQ2pjTFgxeDlOQjVxY29ZM1gtNFM0UEtCRGVsdEdycU9WZTVPOXVQNlZSb1NkMTh2V0xMb01SZDlXUQ?oc=5",
-     "at": "2026-11-06T17:42Z",
-     "eksik": true
+     "title": "Arsenal Starting XI vs Hull City: Confirmed Team News and Predicted Lineup",
+     "source": "Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbkNoZzNjbW93blhFeGFCSlFHVkdzY0FuRXF3VU8yRHF4QUc3Vl9VRVpRRTVmNTZEdzRIWm1HX1N2TmxicHIybjlxdFlqU2NZN3NlUnNBZEgzQjF4ZC1oTk5yX0RYd0JHclNzSVRkTnRBc0VKcTQ5MFJNN0d5d2dZanpR?oc=5",
+     "at": "2026-11-07T10:20Z",
+     "eksik": false
     },
     {
-     "title": "Arsenal vs Hull Prediction: Hull’s Winless Run Reaches Eight",
-     "source": "The False 9",
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ROUZoVldmM25CTGlqUGRqdUhzaVh2dk9GNXN1NXdLb3hDdjFoXzdwaE5LOTlRcUV3TU41Vm92VDdmZnpEZ3dFYmZtQVE5NUs0d1F2cGJldVlac19SQjZGZ2xjWnRZRHFsUl9jZ0Fn?oc=5",
-     "at": "2026-11-06T16:59Z",
+     "title": "Arsenal vs Hull City: Team News and Predicted Lineups for November 7",
+     "source": "Last Word On Sports",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS3ppQzZlZE04WWYwNmpjMkhVOHFYWFR5N0Y0dzFZdjBvazZQLUFoRXY4SHV3UVhsRjNicWFMc1c5bVpNWXY1WFZZR2o2WG1BVWJEem04RXFaVkd4Q0VjUGNfUE9mZjJjX1dBNGUwcmtDRzNBdzBSVGszUkF2enVGS251TGxINkNTbHYyX1JWRmg?oc=5",
+     "at": "2026-11-07T09:30Z",
+     "eksik": false
+    },
+    {
+     "title": "Premier League GW10 Predictions: Arsenal vs Hull City and Nottingham Forest vs Man City",
+     "source": "Last Word On Sports",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaW5pOVRfLUZrMUxDSlNEM1JVTGxLaDdhYWk0dDNSMURMV2UxempYUmt5QW8yU2tPNEVxS0xZQmhtTmRhUHNqX1o5OW42cVQxM2FhN2JFVHNGXy04YjlEcUdGRTJiNFhBeHc4bUNsSjBpd2pSVVhodW5jeDZXOUFpM1pDZE81dnhT?oc=5",
+     "at": "2026-11-07T07:00Z",
      "eksik": false
     }
    ],
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Arsenal'da Hull City maçı öncesi güncel sakat veya cezalı oyuncu bulunmamaktadır."
+     "ozet": "Arsenal'in Hull City maçı öncesinde güncel sakat veya cezalı önemli bir eksiği bulunmuyor; Bukayo Saka'nın durumu ise olumlu ilerliyor."
     },
     "away": {
      "eksikler": [],
-     "ozet": "Hull City'de bu maç öncesi rapse edilen önemli bir eksik bulunmuyor."
+     "ozet": "Hull City'de bu maç öncesi rapse yansıyan önemli bir eksik bulunmuyor."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-06T22:55Z",
-    "hash": "52142f31a3ca"
+    "at": "2026-11-07T11:36Z",
+    "hash": "fdcbfd68131d"
    }
   },
   "E0|2026-11-07|Fulham|Newcastle": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-07T15:00Z",
    "home": [
     {
-     "title": "Latest. Matthias Jaissle's team news update: Joelinton and Fernandez-Pardo latest ahead of Fulham clash",
+     "title": "Newcastle United Starting XI vs Fulham: Confirmed Team News and Predicted Lineup",
+     "source": "EPL Index",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSWJ2Ti1sS1lQcUNHREVoQnNucGNieDFValpmaEtTR2VVRF9RY0tDQ0dqdkNXRjlpVTFFcEJaTEdCRlpxSUdQcW11MmsyaHJlSVlyeW1TQ01XdHB5d05MaHp0dHkwMEpBNHVNMXFkMVh3NFF5OVcyZ0N6cmVnaU9rQ0ZlbC1RNE1yeWZ6Wkl0alFQT2dPNUJfSGN5RUJmemlqSlVlWEZNV1RwWkJVNlFFNDdR?oc=5",
+     "at": "2026-11-07T10:50Z",
+     "eksik": false
+    },
+    {
+     "title": "Fulham vs Newcastle - Predicted line-ups and match preview",
+     "source": "NUFC Blog",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObm5VajkwQUZCOEp5Q1BqdFlYUG4wVm1CVU9BelQ5d0dCM3NSMnVzSFdzNXRpUHNCVVhUa04wTlJnZ1VRbV8yVGhRS3JhUHlRRHhnM2JiUzVtbTl3TFRmUFdjRk5aazdNdzFfMU45bVNMQWVxTWxQbFFwdkRKUi0xZVNIOTBxNmoxR1dsRVpR?oc=5",
+     "at": "2026-11-07T07:47Z",
+     "eksik": false
+    },
+    {
+     "title": "Fulham vs Newcastle Prediction, Betting Tips, Team News - 7 November 2026",
+     "source": "Betfred Insights",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOODFuNmZIcEtEalNmbWhqempXaS1oNlVwUzljenNaOGx6eVZXQjQ5YzR3TEpfRFRlNjNVTlByXy12MmhDanVqb2U3aTR0aHFwbEpWOG8tLUxyZTNWMkdkZ0hMMFpBNVNOWkdKYmVpRTAyMlZSTGw1b1k5dGd2NnBnX0xwR2t3STl3elc5LWQtUjc4bUhtRTRNVkY0OG5GWlNYeE5GbVZpT1oyVmx5aTRHVGh6NG1qSnFpbngzWXRINA?oc=5",
+     "at": "2026-11-07T07:01Z",
+     "eksik": false
+    },
+    {
+     "title": "Latest. How to watch Fulham vs Newcastle United: TV details, kick-off time and team news",
      "source": "Newcastle United",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWUFDVzNqSUhxSmpHS05DVE0ycFdXd3BDT0Z4bWtrWDRGc093Y29RSDNTdzFyRVdTZXFPUUMxVmRDNnFRR015Y2FkUVVzb0d5NWsyWm81NnJtUmFuOXFadHR1NnBycDFXVDNEbjZOMlNub1lLNEM0d19PNFREQnRiQmdTSERKZ0lCdnk4TkJzbzRpT2F6X1VkYXptY2pGTHNmMGVOWnhJaXpLbi1vUFZ3VHVlalYtczBlRlZaNTVWTnNjdUplalRzQ0FGeHFfZw?oc=5",
-     "at": "2026-11-06T17:51Z",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUWROT0IteEprQ01oMHotZVVsLWxNZnE3M29XZy1WSm15TTd5cUNJUGZsb0VyMDA3Tm5Ua3ZvZUZialMtRGVDMUtQQW5NaHdHSkpNbW44c09kQXJ3TlVYS2t4cmMzcF9EZzVjVXMzS2hpUTFKaFFibndRWHRwQUs4eFc2YnZVTnJLcnV5MHExSzUwaHpVUGFDQmpGSDNHbHZyQzFVRHNXYllPMzRUQlg0c0dYRzVnT2p4VHc?oc=5",
+     "at": "2026-11-07T06:01Z",
      "eksik": false
     },
     {
-     "title": "Aston Villa injury news | Aaron Wan-Bissaka | Late fitness test",
-     "source": "Read Aston Villa",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSG92QlJVWjBkLVN4cFFudl95cGVmZ0FiYzdwOFdoNW5wVWVuRGduTGxHazhVZ1RVM2FXUnVNbU5iSnRfVVVYSFQ2T0NfZWVHdmpGOHYtN3hoMnBfcmctY2FSWng4QnlJWDFMYjFMWUdOMUJWV2dsRzBRZXBIak1Rd1ZXczV2LXhiYUJV?oc=5",
-     "at": "2026-11-06T16:15Z",
-     "eksik": true
-    },
-    {
-     "title": "Fulham vs Newcastle Predicted Lineups and Team News: Ramsey, Joelinton Out",
-     "source": "The False 9",
-     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9RSlo5MGk0cVQ3U0pCdTd4U2w4VnF6TVQzUUFGWjk1ME5BNDR5NTRoUWY5YjRCUWNhQWlkclNYeXpiM0JTVzB1ckN6N1Ftd1EwWGF5endoRUVDTFg1UWdEeE1qWFJLTzUxTVJLbFNncWc5aG5wc24yWGlybDU?oc=5",
-     "at": "2026-11-06T16:01Z",
+     "title": "Fulham v Newcastle United: Team News",
+     "source": "Vital Football",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MbzVDVmtBX2VXbHZGZEFaVU5haHFoOGJOYTZWR09WSVBaLWNtUEJRYzFFeG55OGw4OUFTNUJjZm9MeTltSERsMDJJWWh6TXVKd1hBcmY1blBQWHJ6T21Rb3lTaUJfWlRxVm5pX0NhVQ?oc=5",
+     "at": "2026-11-07T06:00Z",
      "eksik": false
-    },
-    {
-     "title": "Team News: Fulham vs. Newcastle injury, suspension list, predicted XIs",
-     "source": "Sports Mole",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdmFlLXRwZ1M3X0lhMGtXb1dfRE9sbUNmTk45T2pZSHZMUkxZM2VxVnBXSzdDR3YtaUZoQ0EtR19wYkdUZjlLRHh6T3pNQVp5bURZbDRZRWlsdkZxWmtJWE1RWXFYUVNCWHVFUVRLZzRlNzZNaUNJeS01UkRYTTdsck5NTFVyM3A3bS1sUlhsY1NmQTZzNXdHSmczaDg4WXhRekJSV080VmtIYzZIdmlNcG92dk1XMEFoeWVId2tOb2ViX3RvXzk1c3hPWndrbHgx?oc=5",
-     "at": "2026-11-06T15:00Z",
-     "eksik": true
-    },
-    {
-     "title": "7 players who could miss Fulham vs Newcastle United as Jaissle searches for solution",
-     "source": "Yahoo",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYnltT0dHZVhub1RtUG4tSjhhR1R3THBVVl9UVF9CTXhjcFgyMlFmbWVzdTdwUkJCR2RxRGVUOV9YOUtJOG1RcmtkOEpNZ1BOQmVXLTRZSGJLT2l2YlUxcGE1eF9heHhwVDYwR2g4eHluQm1USWd5UDdBUHlVOVY3SA?oc=5",
-     "at": "2026-11-06T14:28Z",
-     "eksik": true
     }
    ],
    "away": [
     {
-     "title": "Latest. Matthias Jaissle's team news update: Joelinton and Fernandez-Pardo latest ahead of Fulham clash",
-     "source": "Newcastle United",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWUFDVzNqSUhxSmpHS05DVE0ycFdXd3BDT0Z4bWtrWDRGc093Y29RSDNTdzFyRVdTZXFPUUMxVmRDNnFRR015Y2FkUVVzb0d5NWsyWm81NnJtUmFuOXFadHR1NnBycDFXVDNEbjZOMlNub1lLNEM0d19PNFREQnRiQmdTSERKZ0lCdnk4TkJzbzRpT2F6X1VkYXptY2pGTHNmMGVOWnhJaXpLbi1vUFZ3VHVlalYtczBlRlZaNTVWTnNjdUplalRzQ0FGeHFfZw?oc=5",
-     "at": "2026-11-06T17:51Z",
+     "title": "Newcastle United Starting XI vs Fulham: Confirmed Team News and Predicted Lineup",
+     "source": "Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMFN3T2VhQy1DUHo3aXMxS3FSUk9ZREg2R3d1d2NfSEM3Z2Rqcko0RG9hZXBsT0p0MnhzVVczTExUdzdkbFNTYWRpOE9Ga1didG5ZNjRITUsxdXRMclQ4eTNZdDlqeVdBUkxnOVFuaFFhWk5BVUNqR1BmWHV4RjN5dnVxWDlsU2s?oc=5",
+     "at": "2026-11-07T10:50Z",
      "eksik": false
     },
     {
-     "title": "Premier League injury, suspension list for gameweek 10: Moises Caicedo, Lisandro Martinez, Ryan Gravenberch",
-     "source": "Sports Mole",
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONURualdLUm5TX25tSVcyVl9EZ19HeVNGVWNFTGRia3ZkcG9rNlpfZU9CRG4zWDUxN1lTVWFpZWp0YlJsNjhfeVpfLVJQMGFFT0VxQVhuU0tOT0lmd1dCajNncTBQalZfSUM2SjhGdXprWW1GM3EwLTIxNnFsVHktdE5BMnZGR3hPazdDUHh4QUZtT3hoMTBSbGVsa25hbzhIZy1mWFdJUTJSUFgzRGkwNm1hRHRqMC1iMVcwSWlxcllfd0tsQkdXTUczajY5OGVPR0JwSW5KazEwNzN4?oc=5",
-     "at": "2026-11-06T17:38Z",
-     "eksik": true
-    },
-    {
-     "title": "Aston Villa injury news | Aaron Wan-Bissaka | Late fitness test",
-     "source": "Read Aston Villa",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSG92QlJVWjBkLVN4cFFudl95cGVmZ0FiYzdwOFdoNW5wVWVuRGduTGxHazhVZ1RVM2FXUnVNbU5iSnRfVVVYSFQ2T0NfZWVHdmpGOHYtN3hoMnBfcmctY2FSWng4QnlJWDFMYjFMWUdOMUJWV2dsRzBRZXBIak1Rd1ZXczV2LXhiYUJV?oc=5",
-     "at": "2026-11-06T16:15Z",
-     "eksik": true
-    },
-    {
-     "title": "Fulham vs Newcastle Predicted Lineups and Team News: Ramsey, Joelinton Out",
-     "source": "The False 9",
-     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9RSlo5MGk0cVQ3U0pCdTd4U2w4VnF6TVQzUUFGWjk1ME5BNDR5NTRoUWY5YjRCUWNhQWlkclNYeXpiM0JTVzB1ckN6N1Ftd1EwWGF5endoRUVDTFg1UWdEeE1qWFJLTzUxTVJLbFNncWc5aG5wc24yWGlybDU?oc=5",
-     "at": "2026-11-06T16:01Z",
+     "title": "Predicted Newcastle United team v Fulham with four changes today",
+     "source": "Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY2NvRENzdEphdzRtc2FvRTJWQXNlSUV0aVBOdUdReVFtV1lxM2hseGtGdE41NldBeHhKWjFmcXZNZnVWSVVNbWxvZ1VicTlGWWxRbGNHbVZkbU5wTkh2QVRiR3RYMnBUX2Iza244bXUwYXY3eUZjSWdFbUV0cHl5X0cxNnRXSnkzbkE?oc=5",
+     "at": "2026-11-07T09:11Z",
      "eksik": false
     },
     {
-     "title": "Team News: Fulham vs. Newcastle injury, suspension list, predicted XIs",
-     "source": "Sports Mole",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdmFlLXRwZ1M3X0lhMGtXb1dfRE9sbUNmTk45T2pZSHZMUkxZM2VxVnBXSzdDR3YtaUZoQ0EtR19wYkdUZjlLRHh6T3pNQVp5bURZbDRZRWlsdkZxWmtJWE1RWXFYUVNCWHVFUVRLZzRlNzZNaUNJeS01UkRYTTdsck5NTFVyM3A3bS1sUlhsY1NmQTZzNXdHSmczaDg4WXhRekJSV080VmtIYzZIdmlNcG92dk1XMEFoeWVId2tOb2ViX3RvXzk1c3hPWndrbHgx?oc=5",
-     "at": "2026-11-06T15:00Z",
+     "title": "'They know it' - NUFC £121m trio message after striker ruled out for three matches",
+     "source": "Shields Gazette",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRkJFMTVCZG5JQUhoWGNLWWJkcGl5WVl3c0NKSkJiNm56akhUa1p2bzV3NzlCdjI3OTljSEllc3JibkdtUDc2dG4wa0w4TVlFOFZwekljX05lZ2RXSEhtWVVyTjRhc21NdTZ6b1BPQ1FGcTN6T3A2ZzJyVjZzY1lMdXFoemhIdFdWdTlTcV9xYzRBV2hMUkxvU2UtZHBaVnEwM2Y1RWlxZW1PNTl6dXNaUjdUajNFQkxiWlNnTjdZZjhIVjd5MDFZWnZR?oc=5",
+     "at": "2026-11-07T09:00Z",
      "eksik": true
+    },
+    {
+     "title": "Emil Krafth asked if he is now going to repeat the Newcastle United tears 6 months later",
+     "source": "Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOOG52bXdmcHcxQWNpYlZ5SFZlV1ozU3JMM2hKLUtaeERYYkNlcDJfSnA5ZWRZQVB5YjVzVXdWY0RnZ0twdHY1ZTE1VWhNN0lHZTNXYmJ1QllGblJvaG15dW1uaWdBYVlNcEx4UjhUeDVIdEpzYlM0X0huaDJyazFiZ19R?oc=5",
+     "at": "2026-11-07T07:02Z",
+     "eksik": false
+    },
+    {
+     "title": "Fulham vs Newcastle Prediction, Betting Tips, Team News - 7 November 2026",
+     "source": "Betfred Insights",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOODFuNmZIcEtEalNmbWhqempXaS1oNlVwUzljenNaOGx6eVZXQjQ5YzR3TEpfRFRlNjNVTlByXy12MmhDanVqb2U3aTR0aHFwbEpWOG8tLUxyZTNWMkdkZ0hMMFpBNVNOWkdKYmVpRTAyMlZSTGw1b1k5dGd2NnBnX0xwR2t3STl3elc5LWQtUjc4bUhtRTRNVkY0OG5GWlNYeE5GbVZpT1oyVmx5aTRHVGh6NG1qSnFpbngzWXRINA?oc=5",
+     "at": "2026-11-07T07:01Z",
+     "eksik": false
     }
    ],
    "ai": {
     "home": {
-     "eksikler": [
-      {
-       "oyuncu": "Jacob Ramsey",
-       "neden": "sakat",
-       "onem": "ilk11"
-      }
-     ],
-     "ozet": "Fulham cephesinde Jacob Ramsey sakatlığı nedeniyle bu maçta forma giyemeyecek."
+     "eksikler": [],
+     "ozet": "Fulham takımında bu maç öncesinde öne çıkan önemli bir eksik veya sakat oyuncu bulunmamaktadır."
     },
     "away": {
-     "eksikler": [
-      {
-       "oyuncu": "Joelinton",
-       "neden": "sakat",
-       "onem": "kilit"
-      },
-      {
-       "oyuncu": "Matias Fernandez-Pardo",
-       "neden": "sakat",
-       "onem": "rotasyon"
-      }
-     ],
-     "ozet": "Newcastle United'da Joelinton ve Matias Fernandez-Pardo sakatlıkları sebebiyle kadroda yer almıyor."
+     "eksikler": [],
+     "ozet": "Newcastle United takımında maç öncesi bildirilen güncel bir eksik oyuncu yer almamaktadır."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-06T22:55Z",
-    "hash": "0becf16719c2"
+    "at": "2026-11-07T11:36Z",
+    "hash": "bf41145a621a"
    }
   },
   "E0|2026-11-07|Leeds|Tottenham": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-07T12:30Z",
    "home": [
     {
-     "title": "Roberto De Zerbi confirms four stars sidelined ahead of Leeds United match",
-     "source": "Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSVBlVkdHYWpRUThLRmgwM3Q1SjljTUpDR0JBWmNVV0NUbUlZSEFUMHRfQTFqM292X3hURzBHOC1sMTNiQ0ZVMFhlLWQ0Y01XLW9lemZmdTkwSGd4bzFPZklpUHlQNnFJOGZhck5CNlc4NnpUdUV3cU44YnZmemNfV0tJb1dVbjcxanc?oc=5",
-     "at": "2026-11-06T22:23Z",
-     "eksik": true
-    },
-    {
-     "title": "Daniel Farke will be sweating – Leeds United star’s injury risk to increase substantially: View",
-     "source": "LeedsAllOver",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY0tic2FVQkJ1SFJqaDhIYjBJcy1RbHJtUURsd2dfcHdISWVVMHdiaEpTazkySnc2RFVTZDVjdnJHcWZUS0JBU0t6U3BieEwxZ0JpVWFGOWQ3TDIxMGxWdnU2Q083Mks0WnZCZkg5TmZ4aWJzRlJJUXJnTmgyamlBSlBnOGxsREVfYUFvSUYtQ0RlZWNlLVVYUXJWMmZfNHRFbmE0MEJ0SXJUR0ZRcUtLY1BtVU53SHJpRndsODJ3?oc=5",
-     "at": "2026-11-06T21:04Z",
-     "eksik": true
-    },
-    {
-     "title": "Boost and setback for Spurs! Roberto De Zerbi confirms double return but injury concerns persist ahead of Leeds clash",
-     "source": "LiveScore",
-     "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNV2I0bElSb3N4TzJ5d3FBdUZqejRPSGE5a3p3aVF4UDQ4MHFJOFRnZXMtZzlGUUV6V0JzTkxqRVpYMlZLQS1IWG5aUHY4ME1VVGx6TVJ5RGZFT3A5cWNkQ0xlMjd6S1FnMU5iZjNhdDFpSzdVM25RT0xObXR5STJJUkhXLThIVmlGbXR2cmE2RUVMLXhIblc1My1NelhqcVFZdkt2MExnSFdvaUVxQzIzMkd0aW1lWjFJdW9OQVNzWnZmX0s3MVNXSGVVcGU4N1VjcnRPTFJjb3JHX0w4TnUycHVzSFlQMGNXTGhKTk1jSVo0LUJBeFE4eFVqMUxpRU1sVTY5cWxlYmdRcWxU?oc=5",
-     "at": "2026-11-06T21:03Z",
-     "eksik": true
-    },
-    {
-     "title": "Leeds United vs Tottenham Premier League preview, team news, score prediction",
-     "source": "Spurs Web",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWVRobllMcjFqa3dWNV8xcURkdlU2QllHT0QxUEY2M3hpek5PeDl5cndTNFcteEhZZmd4TkhZSjR3bjFFR0RaYTQ3eDdHeTJtQm1BcEJDTm9SanRDc0s5dWxMSlIwR3V0ZjMwVHBWZzdyNFdMSm1yTUVFLXdwbXlsdklnNXFVTDUzckV6eXhtaGkyMUJXZEN0UW1oQzZPUmgwQWppakI1aFNUWFFxeG9aeEpySzhYNTd3QTlkc1VTdzdoZGowY1E?oc=5",
-     "at": "2026-11-06T20:03Z",
+     "title": "Leeds United vs Tottenham Lineups | Premier League · 7 Nov 2026",
+     "source": "YSscores",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOM0RfQW1HNlRkVHZ4RzQ1WDZ2Z29HVlBLM0VFa05TZmExWDRLYkJkQkZHNTNTY1F5djFhbEVkUEMzQWx5ZDFGSFFvcFhkLWgtOFJCMHNGOWs2U3JDSzcwQ0s2UTVGWEVPNnM1WkpXVFV4QmFSUzh4THZib1p1SnQ4eVJB?oc=5",
+     "at": "2026-11-07T11:20Z",
      "eksik": false
     },
     {
-     "title": "Tottenham early team news vs Leeds as Roberto De Zerbi confirms multiple absences",
-     "source": "MOT Leeds News",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQW8xdXhyajMxZFRZYS1CM2QwNjNlbFhFN3NIaU5TcUYzNjc1c2pkTFlLemEzRi13bXJmZHVMTC03RzRlclpsUmpGNUdXbmc1S2tJWFJZYmZhSjJveEVQTFFXR0ZJSW5Cdlo3ZDVmWkp5WHpKYmw2M2ZXWW1JNkZyTlIzMllQWlRaUEJMQ3NTSUVOT2swVzVOclNweG05LXRNRzBQSEZsQTlwODdDUzFzYl93?oc=5",
-     "at": "2026-11-06T20:00Z",
+     "title": "Two changes and pair return from injury as Farke reveals XI to face Tottenham Hotspur",
+     "source": "Leeds United | Official Website - Leeds United",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc09kRlNwdEdUYzU0ZWRWY29LNThuME80VnF1elN0UW9UZEpFZHRaMjhtZjZlVEw3QVdJdnR5VjNWRWZReU1Nd3ozX2o4Mkcya1BDMUk1QUsyby0zMXRGUlJhYmdncTVlTThOMk1RZHBVbXpUamtQOGs0eUdZSFpxb2w0eWdUbWF6SC0tY2NpbmN1dGJ3cGxla2lFMzgwLW5BZnVaNWNwbzN0REZJbXNIdGJreTFVT1E0YmRiMzBB?oc=5",
+     "at": "2026-11-07T11:18Z",
+     "eksik": true
+    },
+    {
+     "title": "Leeds team news vs Spurs with double injury boost as Nmecha starts",
+     "source": "Yorkshire Evening Post",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRzhjS2RKdTlFSnpmTC04VHVUcHZmNTJKQmlkZEJOejR5aHRVbGdmWlUyZDlrYzBqWG84N00tVGQxSjliOG5felV4TldaaF9YY1Ixd0hMaERuUzNqbjBQeU9wVG5PbThqRzFDRHFlT3lzWVd5dzZqTnNxTmJiUm9FanBNMzhvVGZ2anlpUHlEeWhUTF9fUU9oTkt6TUsxWmVkb0NKaC1jWkFUbWVGSGxVSWk2dnJBZw?oc=5",
+     "at": "2026-11-07T11:18Z",
+     "eksik": true
+    },
+    {
+     "title": "Leeds United v Tottenham confirmed lineups and team news",
+     "source": "news.bet365.com",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZUxOMzJWSFhRVlBudFFrQ2JQUFdGRE1oM1pOZEZDdS1NNjlmcGxGdlBYeGJaUlA1c2VLQmVKWUI0a0JfdXdBT3R1Wm1DektvMlh4RXVSdE5ic0MwcWhXQmhBLUJMWDFHcjJ5b2lHWHd0R0lXYTlvQzRDUmdOVmNJZVFGNm1SZ3B0NERKZ2gxSldPMkhqYkE4TnRZTndwcXBsSUZySDhiRXBtaXFYRWx2dkl1LW4?oc=5",
+     "at": "2026-11-07T11:18Z",
+     "eksik": false
+    },
+    {
+     "title": "Leeds vs Tottenham LIVE! Premier League updates, news, prediction and line-ups",
+     "source": "Sky Sports",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSV9ZOW5WRTlDNEVSQ3FmOG0yMnVzLUhLcGQySllHejlNYmowaE5SRmlIdjlBa3VEd1lWWUJjWWNBZDgxTGxzOG1GVzVsZDhVUHBfc2REclE0QVFOdjVSMWNrY3piQnhVUkxrT1lvYzV1eVZXR1lpUDBGRExKcEE4cUp6RnRiN0NndDJ6aFN5WkRUWm1tVDIwWldJcF9FTWo3WVFKOGpCakFBN3ZBNlZYSUt2LUowZjA1WUJXNUtYaHNJTFdKY3I1MQ?oc=5",
+     "at": "2026-11-07T11:01Z",
      "eksik": false
     }
    ],
    "away": [
     {
-     "title": "Roberto De Zerbi hails Leeds intensity and sets Tottenham’s Elland Road aim",
-     "source": "OneFootball",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbFhGVFVXUVlTODIzb28zWHJzMVY5LTl3SmtjcG5QMG5neEh6OHZHUmZ6cThVTGlFcEMtTFVlS3Y0dTRWR1A2M3hlc3REc3NYSmotVVpWVnAyS0QycVZtQkZJbjBSU3J6N01DMk9OczlPVXpHeGRjTzkybXpvUEFmcm1MaExfdi1UQ3BaVmNSajUzX01yRXBJQkZ3UlJOWnpsb0dJU1Myank4RjlZQmE3UmR1MUFUZw?oc=5",
-     "at": "2026-11-06T22:37Z",
+     "title": "Two changes and pair return from injury as Farke reveals XI to face Tottenham Hotspur",
+     "source": "Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOUxHcHBNTDdzbS05aV96RlJSTTExSFlnOE81UjBCbDhFem5kSVRVelMzWnRVVFhubXk1eXlJZEt3TVJsbm1HNlZIZWVOYzQ2Q1l6el9fWUR5UkJYQVZMSk83VWhBZDNOVC1Ycnp3Wm9sT1RHQlJSRm1hQ0YyQ1Z5LXYzakN0Zw?oc=5",
+     "at": "2026-11-07T11:27Z",
+     "eksik": true
+    },
+    {
+     "title": "Leeds United vs Tottenham Lineups | Premier League · 7 Nov 2026",
+     "source": "YSscores",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOM0RfQW1HNlRkVHZ4RzQ1WDZ2Z29HVlBLM0VFa05TZmExWDRLYkJkQkZHNTNTY1F5djFhbEVkUEMzQWx5ZDFGSFFvcFhkLWgtOFJCMHNGOWs2U3JDSzcwQ0s2UTVGWEVPNnM1WkpXVFV4QmFSUzh4THZib1p1SnQ4eVJB?oc=5",
+     "at": "2026-11-07T11:20Z",
      "eksik": false
     },
     {
-     "title": "De Zerbi reveals Tottenham right-back conundrum in new Porro injury update",
-     "source": "London Evening Standard",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcll4VFh3aTV6dGZzUjFRblJud2N0TmtkMG9EZDdJdktIdFNhT2phMXZ5TjY1SGdxMTR4NTQ1SndQYl95US1jSmpOdXZNS1BlYzJWV29zODNpOVdsMlNMcFY4TkhOdXhic1JvY2xOVVJIbVFpRkJGWl93Q3pILUYteG5UMG5lR0ZOWUdXTnFZTHJGT3hnajJNZWd1Vnl4MEZiT1BVZFFB?oc=5",
-     "at": "2026-11-06T22:30Z",
+     "title": "Leeds team news vs Spurs with double injury boost as Nmecha starts",
+     "source": "Yorkshire Evening Post",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRzhjS2RKdTlFSnpmTC04VHVUcHZmNTJKQmlkZEJOejR5aHRVbGdmWlUyZDlrYzBqWG84N00tVGQxSjliOG5felV4TldaaF9YY1Ixd0hMaERuUzNqbjBQeU9wVG5PbThqRzFDRHFlT3lzWVd5dzZqTnNxTmJiUm9FanBNMzhvVGZ2anlpUHlEeWhUTF9fUU9oTkt6TUsxWmVkb0NKaC1jWkFUbWVGSGxVSWk2dnJBZw?oc=5",
+     "at": "2026-11-07T11:18Z",
      "eksik": true
     },
     {
-     "title": "Leeds hopes of Tottenham win hit as Farke confirms injury latest",
-     "source": "London Evening Standard",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYkNZcDMzYW1XbW8taDJTYzRVNlN2bzhLU1VxY0ZZVnVJQWNTNWZCRklNQ2J2OWhVVmxOc0xxaDJhbEM5OWZrTmdRekF4NUEtSmVtQVUwUk1BQWpHNmJ0cXFwZU14RHhhMUhqV2hMM1Q3bV9tOW9GdGh5UDVGSW44VkNuekM0a0dtaHhDbnV6ZmJna2IxNkE4Slc1bmFETTBWV0VXQ2pyMzN6ejNrVVhzdzl6V2N6cndC?oc=5",
-     "at": "2026-11-06T21:11Z",
-     "eksik": true
-    },
-    {
-     "title": "Luca Williams-Barnett is not the only teenager getting a chance in Tottenham training",
-     "source": "Spurs Web",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQandnOGdrdm5zNlVDRHhHZm5rcHFMbmtPNnhQU2lxeW8zVEhRUEUzSmJIVXNrVmxhOE1VZFkyZ3NGMlB3TTFLMzdiR1FwQVRZdlFWSUUtQ0JYU2s5OG5TVW1UcjRpUUZvTktKVlRUX0lCTHBuY0MxZFZmU0pYb0gweTZ6QmNXbUVhVmNsS0U4cXJNYXB4YzgzVkJxZ3VVbmhhbFg4d0ktZThTMFFDVlBCTWhKTmEwaTI2ZFBoUA?oc=5",
-     "at": "2026-11-06T21:00Z",
+     "title": "Leeds United v Tottenham confirmed lineups and team news",
+     "source": "news.bet365.com",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZUxOMzJWSFhRVlBudFFrQ2JQUFdGRE1oM1pOZEZDdS1NNjlmcGxGdlBYeGJaUlA1c2VLQmVKWUI0a0JfdXdBT3R1Wm1DektvMlh4RXVSdE5ic0MwcWhXQmhBLUJMWDFHcjJ5b2lHWHd0R0lXYTlvQzRDUmdOVmNJZVFGNm1SZ3B0NERKZ2gxSldPMkhqYkE4TnRZTndwcXBsSUZySDhiRXBtaXFYRWx2dkl1LW4?oc=5",
+     "at": "2026-11-07T11:18Z",
      "eksik": false
     },
     {
-     "title": "Leeds v Tottenham injury latest as Rodon nears return, Maddison and Porro available",
-     "source": "OneFootball",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaFNrcnRxRzNreGxFTnBrWUNxcFNDZTZiNURLZTJ5cV9Ld2FIOWxrSVY2RUpPWFUyM3VycVFtR1Qxd25RNm9wT2VQbjdwWWVRenpubTg5LTdpd2RuMzdNRkpkTjBaa21LSXItbkpQLXczVVktR093bHFZRGYzSW1MVksxTTJqQy1mM2JNSlE0Q3NseWdBZHpHWVVBMklCc25MNWw3U2hYbDkwSjd6YkYzR25xRGFhT0JFc0szWXNqaFQ?oc=5",
-     "at": "2026-11-06T20:41Z",
-     "eksik": true
+     "title": "Leeds v Tottenham: Confirmed team news and line-ups for early clash in Yorkshire",
+     "source": "101 Great Goals",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNc3gxaHZncjhxM25nSVJDaFNTbnd6UTNoYlhxOG1CWVVHMzQ3X0dLSElfX1o4NWVCSGVpWnRkWnA5ZXJyYjZaMTV1VmlLV2hGYUdlTEVBVjNUY1MxWWNpV1FCQWZhU2tjWlVkUHpsQlpqaWFoYWxoWjlCOGRob1dBb0kyV0pBUHQ3QXlPaEtnWm80dU1RWXhQT0VUTjd4RzNYVXYw?oc=5",
+     "at": "2026-11-07T11:18Z",
+     "eksik": false
     }
    ],
    "ai": {
     "home": {
-     "eksikler": [
-      {
-       "oyuncu": "Joe Rodon",
-       "neden": "belirsiz",
-       "onem": "ilk11"
-      }
-     ],
-     "ozet": "Leeds United'da Joe Rodon'un sakatlıktan dönüşü bekleniyor ancak maça yetişip yetişmeyeceği belirsizliğini koruyor."
+     "eksikler": [],
+     "ozet": "Leeds United teknik direktörü Daniel Farke, Tottenham maçı öncesinde sakatlıktan dönen oyuncuların kadroda yer aldığını açıkladı."
     },
     "away": {
-     "eksikler": [
-      {
-       "oyuncu": "James Maddison",
-       "neden": "belirsiz",
-       "onem": "kilit"
-      },
-      {
-       "oyuncu": "Pedro Porro",
-       "neden": "belirsiz",
-       "onem": "ilk11"
-      }
-     ],
-     "ozet": "Tottenham'da James Maddison ve Pedro Porro'nun durumları maç öncesi yapılan açıklamalara göre belirsizliğini koruyor."
+     "eksikler": [],
+     "ozet": "Tottenham Hotspur'un bu maç öncesinde eksik veya sakat oyuncusu bulunmuyor."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-06T22:55Z",
-    "hash": "d46982ff081c"
+    "at": "2026-11-07T11:36Z",
+    "hash": "25915fccebdd"
    }
   },
   "E0|2026-11-07|Nott'm Forest|Man City": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-07T17:30Z",
    "home": [
     {
-     "title": "Nottingham Forest vs Man City: Preview, team news, & tips",
-     "source": "Afrik-Foot",
-     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EWU9maGNFQkc2RDFrZ19UZ0UtNG9VNjZrYTNKaXY3eHlIM2pLVmwyUXF2enBwTUxWSWo3eThfc20zc2ZYaThrYXhtS2hqMDE0WVRnM2lWVVVMSDRmWUhpZTFram0xc2lMaHlQTU84Um5hSmU0djNPSXFB?oc=5",
-     "at": "2026-11-06T21:14Z",
+     "title": "Sutton's predictions: Nottingham Forest v Man City",
+     "source": "Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSTJ5RVJyRDV3djZ3d2FOZHZsdXlnVDZOMDFBU0hkUEJSWHk0SXNxSjNBelRObEtwUG96RHZRaGo4bnhEYzhxTE95RE5aMzlTWGlpNjgxWmpnX3pHdWF5eVpHa0JQaXk5YXl6aEEwWWgwUkFlUTJQUTNmVkgwcUNSTUJRZXkyNnRnRlJBbVhHS2dmUQ?oc=5",
+     "at": "2026-11-07T11:02Z",
      "eksik": false
     },
     {
-     "title": "Nottingham Forest vs Man City predictions: 14-1 Bet Builder tip, team news and odds",
-     "source": "Racing Post",
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQTXhjQ0NvcExhcndsM0ZHUUJTa0NIRTRET3BFYUFmdF9hLUYyUlRkVDFoLXF3OUtqT2xPNFk0NHpXTVpTdm1McWloQ2VEZlJPVGtQd2szUmJya3Q0Y1hLaktYN1RNWXJuZHF4aWdZalJIblVkekRFckxIZ3MySEQxN3NrZmtfc2QwMFZ6ZEFZTTBIUGNhYVhjakNvcHkya19Iai1oMUNNYmtta3pQcmxwdzRmbmtHQ3VXaVhBVEo4VGJndHBDQmpHTEJrZ3BUQVg4RHd2OWhlekxzYm5WWVJsaHRHRWM4MzJrNVBZTVJB?oc=5",
-     "at": "2026-11-06T17:53Z",
+     "title": "Three players to miss Man City vs Nottingham Forest after 'really tough setback'",
+     "source": "Manchester Evening News",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU2hnWjJDTzR5ZWoxYlBYMHlGQ250bjNfaWxTR2oyTVdwZGRIQ0VXNWR0Tk5yWXR5NTZfaTcxUUhvMjFndWNHOFVjeTljRFNsSWdHbTRZbkZQd2JkQ3lVTHowX1hfalB1SC12TEUzcl9MMERzLWdPUUhZYUdwTjdhZWpxSzN1cmdqM0JWeHFIbGsxalpxYkIwSXY3cGlnR0lvU3JLQmVLWmE4NknSAbABQVVfeXFMTkdVQ3JuX1lZZ05LWjFseGtBVnl3bU9KNXNnLXhqeERYNV9hdURCbDQzaHY5OVBnUW1vcXptbFpYeWFnSlNPX1U3X0FuajZwRzU5U0ZybHdDcXRHdUs0emNXN1lSWVh6TUlpeVZ3YUtmUXVSWG8tQ2hZXzdOOXM5a2tQb0x0aU1XVXhlLXNmYWtqNGVRUDN0c2IwTXNtek5ZY29tWkxOdmhJTVczZ2NiR2o?oc=5",
+     "at": "2026-11-07T09:08Z",
+     "eksik": true
+    },
+    {
+     "title": "Man City XI vs Nottm Forest: Predicted lineup and confirmed team news",
+     "source": "London Evening Standard",
+     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRGludl9fNkVPSnVhc1RsakV6T1E5SHVKVTdtY2xaZUFZQVp2b0hfalFwVkFuRVRmV0lLUElBM2xCQWVVYUQ0NzVZRGpVUjZLM0g3enhDQlBWQWpOSjhMcWYxc0V3Q3JqV3oxM3JCVDZrcHMyaENINHZ6NzBIWmozR1gwRElQNFFQOW1CUE9HNUgwSU9xc19aMnFJd1BKbGJyc3haR3hJSUwwV2tVZHJuOFFaUFJjU2k3TW85R2NxdzJzZG9lWkRPZkFiYWFmOWtpbGppNmFmNERBVnpZczRvbVhkdFdnNHNiMWd4ZjBkVzY?oc=5",
+     "at": "2026-11-07T08:45Z",
      "eksik": false
     },
     {
-     "title": "Premier League injury, suspension list for gameweek 10: Moises Caicedo, Lisandro Martinez, Ryan Gravenberch",
-     "source": "Sports Mole",
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONURualdLUm5TX25tSVcyVl9EZ19HeVNGVWNFTGRia3ZkcG9rNlpfZU9CRG4zWDUxN1lTVWFpZWp0YlJsNjhfeVpfLVJQMGFFT0VxQVhuU0tOT0lmd1dCajNncTBQalZfSUM2SjhGdXprWW1GM3EwLTIxNnFsVHktdE5BMnZGR3hPazdDUHh4QUZtT3hoMTBSbGVsa25hbzhIZy1mWFdJUTJSUFgzRGkwNm1hRHRqMC1iMVcwSWlxcllfd0tsQkdXTUczajY5OGVPR0JwSW5KazEwNzN4?oc=5",
-     "at": "2026-11-06T17:38Z",
-     "eksik": true
+     "title": "Nottingham Forest v Man City: TV channel, team news and kick-off",
+     "source": "Read Man City",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc3NGSmdrSGstc3JOZ3BXZktBY3ZkUzV3dkppY1Q4akRvaHI0ODcwMThnUUk3RXpJN3FJOVF4emNWMHZsLS1SOUJXbTZ0cXNDSTF3SXZES0Jwd2NieXlXYl9IWXBiT2JPT0dPa1cyTVFUQ0lRcU85NE11a01iLUQ0SWJqNWs2N2tIZndoblFR?oc=5",
+     "at": "2026-11-07T08:00Z",
+     "eksik": false
     },
     {
-     "title": "Team News: Nottingham Forest vs. Man City injury, suspension list, predicted XIs",
-     "source": "Sports Mole",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUWEtSl9PeF9SRnEzdVRReEJnUVUzcmxjZ29leHIzYkF5eWZGZ3p6cEtmMFhZRC05R2xsaC1aUUdYZE1WVmhDMHNfUkVOS1BmRHRRV3hhQVlnS05ucXFaQm5QR3YzZlRsWkVZRkxHNzh5VEQ0N0VrMW4zWGwwa05EdFRHOUF5MnBYakVRWUgxdjQ3dHdha09NV1hlbGNJX2JQaE5VMGNIWElHODlKbHE1SWtFenFEQV83M0xrWjY2TzhwREVUbkRQN1FpcDg0bHJ5ZEpYMFdGU3pONFhPTDZZZG42X05nZw?oc=5",
-     "at": "2026-11-06T17:30Z",
-     "eksik": true
-    },
-    {
-     "title": "Three to miss Nottingham Forest v Man City after ‘really tough’ Dominguez setback",
-     "source": "OneFootball",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNelI0R3pzb3ZUcFRRMzB2dm5SbC14R1RNLTZkUnJ2Y0tfaFR5T1VKZjk4c0x0aHNqamdTcTdXMXhILVk1ZnRzSzNkVmZ5NXBKUGxwUHhEU3E5bHRtdVVBR2FmNnhzSXA2d3BkZGNId0Nmc0d4VXd3M0hNYmlfUjB1azZRWXdOd3FYU3BVcHQ3Ri1meEczUzZEMDd4ZExUS2xtZFIzWFhiMmNZYTNkLW0temdfN0Jvb1BCQVdodA?oc=5",
-     "at": "2026-11-06T17:13Z",
-     "eksik": true
+     "title": "Nottingham Forest vs Man City: How to watch, TV channel, live stream, NOW TV, team news and score prediction",
+     "source": "Sky Sports",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZ3l5XzJWNk5yNDl1Yk44S3JOdGFYajJidk94dlFpTTBNdEpvT3hUbFRLVVk0R0w2c18tOU5qRHlNWWt1d2FELWdSTnZZSkN0emNzTzFVR1JOWm96S1Y4Z2pVQ3lQY0gza3Zpbm55Yi1RN2NMSzIzNm5MZU1UT1BUQ3V4elZFbUh0ZDdmMFNrWmFwZW5hOFUxNWJQUThuTlo5SkVRM1pFT3lPU2RGTzZwOTRDc194U0RHX3FXYmVyeGFoYzFjREtZUUhyUVo4ejNhcDlKWTJyLUxDbE5qUE5JMXUzRWxCbk0?oc=5",
+     "at": "2026-11-07T07:03Z",
+     "eksik": false
     }
    ],
    "away": [
     {
-     "title": "International snub could be a blessing in disguise for Manchester City left-back",
-     "source": "Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQXlxeWhmSnEycFhueHNMVHo0b01hMDZzVFhHekdhNXd2b19jdnp6THhXY1p6YnQ5OFM5ODk3aVNFbVE2VVdNMUhJN0VmaDQ2M0NKSVZKRng5b2VfeV82VFg0cDVxcVNxd2pIWGlzYWJnRmxMcHRhNGMyRTJRS0MzMUxSVmRoeUNpZXJtR2RsUW5adnBFT3c?oc=5",
-     "at": "2026-11-06T21:45Z",
+     "title": "Three players to miss Man City vs Nottingham Forest after 'really tough setback'",
+     "source": "Manchester Evening News",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU2hnWjJDTzR5ZWoxYlBYMHlGQ250bjNfaWxTR2oyTVdwZGRIQ0VXNWR0Tk5yWXR5NTZfaTcxUUhvMjFndWNHOFVjeTljRFNsSWdHbTRZbkZQd2JkQ3lVTHowX1hfalB1SC12TEUzcl9MMERzLWdPUUhZYUdwTjdhZWpxSzN1cmdqM0JWeHFIbGsxalpxYkIwSXY3cGlnR0lvU3JLQmVLWmE4NknSAbABQVVfeXFMTkdVQ3JuX1lZZ05LWjFseGtBVnl3bU9KNXNnLXhqeERYNV9hdURCbDQzaHY5OVBnUW1vcXptbFpYeWFnSlNPX1U3X0FuajZwRzU5U0ZybHdDcXRHdUs0emNXN1lSWVh6TUlpeVZ3YUtmUXVSWG8tQ2hZXzdOOXM5a2tQb0x0aU1XVXhlLXNmYWtqNGVRUDN0c2IwTXNtek5ZY29tWkxOdmhJTVczZ2NiR2o?oc=5",
+     "at": "2026-11-07T09:08Z",
+     "eksik": true
+    },
+    {
+     "title": "Man City XI vs Nottm Forest: Predicted lineup and confirmed team news",
+     "source": "London Evening Standard",
+     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRGludl9fNkVPSnVhc1RsakV6T1E5SHVKVTdtY2xaZUFZQVp2b0hfalFwVkFuRVRmV0lLUElBM2xCQWVVYUQ0NzVZRGpVUjZLM0g3enhDQlBWQWpOSjhMcWYxc0V3Q3JqV3oxM3JCVDZrcHMyaENINHZ6NzBIWmozR1gwRElQNFFQOW1CUE9HNUgwSU9xc19aMnFJd1BKbGJyc3haR3hJSUwwV2tVZHJuOFFaUFJjU2k3TW85R2NxdzJzZG9lWkRPZkFiYWFmOWtpbGppNmFmNERBVnpZczRvbVhkdFdnNHNiMWd4ZjBkVzY?oc=5",
+     "at": "2026-11-07T08:45Z",
      "eksik": false
     },
     {
-     "title": "Forest vs. Man City: TV channel, kick-off time (Sat Nov 7)",
-     "source": "ESPN",
-     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNcVQ0SUJqdUtKVWZtT3YyNHJydTZLRktKOGE5YWowZ0VJNldCNzdNUHh0aTFZX2tYSFFCX25UX0NzelhKYjc3aE8yWWlycEJLSHB4cHJpNGFHQnhDLWtCSGZkWXBYUmVXTDdBWEx6cTZVMVhzNlVGamQzSDgyQ0JIZWRNX1c5Zjg4V0lWWS1rU0FVangzODBOYWx4MGpyT3MzZzAzR25Pb2tHOHVKWThoZW5Oci1Ebk9OYWFFb2xjS1N6anNDMDdMNWhER2ttUVRnNXJ6eWdqMldwWktqVEhNWkcwWDFYOWJMcnRhclZJNEtnN0dSZUxYaUY5eDViQQ?oc=5",
-     "at": "2026-11-06T21:29Z",
+     "title": "Nottingham Forest v Man City: TV channel, team news and kick-off",
+     "source": "Read Man City",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc3NGSmdrSGstc3JOZ3BXZktBY3ZkUzV3dkppY1Q4akRvaHI0ODcwMThnUUk3RXpJN3FJOVF4emNWMHZsLS1SOUJXbTZ0cXNDSTF3SXZES0Jwd2NieXlXYl9IWXBiT2JPT0dPa1cyTVFUQ0lRcU85NE11a01iLUQ0SWJqNWs2N2tIZndoblFR?oc=5",
+     "at": "2026-11-07T08:00Z",
      "eksik": false
     },
     {
-     "title": "How to Watch Nottingham Forest vs Manchester City Match: Premier League TV Channels, LiveStream & Odds",
-     "source": "Telecom Asia Sport",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeDItSDJxaVZpZEZQcXNNLWg1MDRFcml4UHg1SjR2b2RMU3RXdWd3emxUVUtHakNsLVNiZ1BNeGJ2Z3M1U3pheFdJTUlLZzFGZG9La3EzOENiLUZkSWhacTlwQjVMeXBMMVlrZFNtazdHdGRnY19fX1FkSnZnS0k3eXlhLUg5Q0pZOHdBWV9jWElqd29wWmdXcXIyMEFwbFJ1ajNkZUR4S3drNzVEak1JWlphT3pvcUh2UC1YT29BV3pFdFVTZGxfZFA3bzJpT0tRd1E?oc=5",
-     "at": "2026-11-06T21:17Z",
+     "title": "Nottingham Forest vs Man City: How to watch, TV channel, live stream, NOW TV, team news and score prediction",
+     "source": "Sky Sports",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZ3l5XzJWNk5yNDl1Yk44S3JOdGFYajJidk94dlFpTTBNdEpvT3hUbFRLVVk0R0w2c18tOU5qRHlNWWt1d2FELWdSTnZZSkN0emNzTzFVR1JOWm96S1Y4Z2pVQ3lQY0gza3Zpbm55Yi1RN2NMSzIzNm5MZU1UT1BUQ3V4elZFbUh0ZDdmMFNrWmFwZW5hOFUxNWJQUThuTlo5SkVRM1pFT3lPU2RGTzZwOTRDc194U0RHX3FXYmVyeGFoYzFjREtZUUhyUVo4ejNhcDlKWTJyLUxDbE5qUE5JMXUzRWxCbk0?oc=5",
+     "at": "2026-11-07T07:03Z",
      "eksik": false
     },
     {
-     "title": "Nottingham Forest vs Man City: Preview, team news, & tips",
-     "source": "Afrik-Foot",
-     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EWU9maGNFQkc2RDFrZ19UZ0UtNG9VNjZrYTNKaXY3eHlIM2pLVmwyUXF2enBwTUxWSWo3eThfc20zc2ZYaThrYXhtS2hqMDE0WVRnM2lWVVVMSDRmWUhpZTFram0xc2lMaHlQTU84Um5hSmU0djNPSXFB?oc=5",
-     "at": "2026-11-06T21:14Z",
-     "eksik": false
-    },
-    {
-     "title": "Nottingham Forest vs Man City predictions: 14-1 Bet Builder tip, team news and odds",
-     "source": "Racing Post",
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQTXhjQ0NvcExhcndsM0ZHUUJTa0NIRTRET3BFYUFmdF9hLUYyUlRkVDFoLXF3OUtqT2xPNFk0NHpXTVpTdm1McWloQ2VEZlJPVGtQd2szUmJya3Q0Y1hLaktYN1RNWXJuZHF4aWdZalJIblVkekRFckxIZ3MySEQxN3NrZmtfc2QwMFZ6ZEFZTTBIUGNhYVhjakNvcHkya19Iai1oMUNNYmtta3pQcmxwdzRmbmtHQ3VXaVhBVEo4VGJndHBDQmpHTEJrZ3BUQVg4RHd2OWhlekxzYm5WWVJsaHRHRWM4MzJrNVBZTVJB?oc=5",
-     "at": "2026-11-06T17:53Z",
+     "title": "Nottingham Forest vs Man City Prediction, Betting Tips, Team News - 7 November 2026",
+     "source": "Betfred Insights",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVWZrS3EwbjdnLTZQS2toRDNfelktQXRzbzJEM0xmby1YcDcybGdWNG93dDRkTnF3WElaeGJBTS1JSExOWmFwSFZwYk51aE5GWENoQmgyMDRramZVRC16YkN2MHdraWs1NTVmcHA4Ni1rdlVGbHBmM3JTcFpkSzNiV1dYTE9vNFpKWElXMFFOZWpsYmw2RnZQU2VHVnhFT1BVem94b2xwT0tXN25WODRjUktuREVjaFUyUW92Y2VKN3J6ZUYzOXgzb080MnM?oc=5",
+     "at": "2026-11-07T07:01Z",
      "eksik": false
     }
    ],
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Nottingham Forest ve Manchester City maçı öncesinde güncel sakatlık ve ceza durumu resmi olarak netleşmemiştir."
+     "ozet": "Nottingham Forest cephesinde maça saatler kala resmi veya doğrulanmış önemli bir eksik bildirilmemiştir."
     },
     "away": {
      "eksikler": [],
-     "ozet": "Manchester City'nin bu maç öncesi eksik veya sakat oyuncularına dair güncel bir rapor bulunmamaktadır."
+     "ozet": "Manchester City takımında bu karşılaşma öncesi bildirilen güncel bir sakatlık veya ceza bulunmamaktadır."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-06T22:55Z",
-    "hash": "801f3af26165"
+    "at": "2026-11-07T11:36Z",
+    "hash": "d0f6ae0e7aa2"
    }
   },
   "E0|2026-11-08|Brighton|Brentford": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-08T14:00Z",
    "home": [
+    {
+     "title": "Crystal Palace vs Liverpool Preview: Team News, Form, Prediction and Where to Watch",
+     "source": "Read Crystal Palace",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZzJMODRGN0E0bXRPaUtmOFQ4eWt5TUZlYmMzOGNYaVhla251ODAyaXJQYUVaaVZ0Z2ZBbE5WcWxxTnE2WUZPSVZiaGdlQ1cyNWhsazRtLTVvV1d0VTFMT1p1dTF6c2lWelRMMzk1Mk1GT3pWVmdBWm5XYVZwZHZqbzFBb3ZPR0swY3c0M1hUQV9ITmlyUWZ3RllBRHpHeUxGWHpnag?oc=5",
+     "at": "2026-11-07T11:00Z",
+     "eksik": false
+    },
+    {
+     "title": "Brighton vs Brentford Preview: Prediction, Probable Lineups, Tactics, Team News & Key Stats",
+     "source": "TheHardTackle.com",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaDJJay1EcVZCbThqWkR1RkhtNXRmcWNWNlR2Y3l1VmhFQ3R0a25OTUtXVmR4X09lRHpZaExRcmtCRm04R1FJWTJ1eU51OWdCWDNKeTI5TWpweXVQSkV5eDdWRWxPTXlmWDBSZ3lLS1lra2g4SGI4eGFIYjJETW9CaU5wVnhrYzNQSTVTOUFiajR5Z3hmV0gzYzZtek0xc2lTV0FIc3lidlROcHhiSHNYbmZ2cUpLWE5DNEpUWjA5NlE2UXlyOFFNa0dQQlTSAdIBQVVfeXFMT3FmbEplQmJ2VFlOaC1pWHQ5Tktmb3BFdkNwNFUySGF0SUo5a2F1eTVUamh0MDBZalpQc3FZVlZVeUc5dkwtNy1WUnhINFhmalVGTUZ5WnNfSGpjRUpETERTalhlbGpvcnZOaXNieXExZm1KRU9YUlM3UEZOdDJwaUtXbUxiRC1tZ3lMT0JUZ3E0VnIzUmxMV1dYSGhmR2FtTXRTUkFXd0g2MVpOTVVBdHNpQmx6OFNlLUY1THV1blhycUcxUG5RUW1NcUVpR1BKRWdB?oc=5",
+     "at": "2026-11-07T06:35Z",
+     "eksik": false
+    },
+    {
+     "title": "Brighton vs Brentford Preview: Team News & Prediction",
+     "source": "The Stats Zone",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQT1UwNGREVjRNcXpPZGo4ZHA3UC1zYkpSaTJtdXBTcDJIMWZYZldnSnk0VzhJc0VXTWtxRTFJRXVyUG5mSVdsRG1nRUg2bVpHS0hJQmZyNklDR2kxUDJ0RmFUcGpCWUpDXy1uZ1IwMXY5VndtOE8ycHpJZFNmVTU0OEQwQmoxMS1ybzgzNFV4QQ?oc=5",
+     "at": "2026-11-07T00:12Z",
+     "eksik": false
+    },
     {
      "title": "Predicted Brighton XI vs. Brentford: Fabian Hurzeler sweating on Ferdi Kadioglu fitness",
      "source": "Sports Mole",
@@ -13897,32 +13884,32 @@
      "source": "Sports Mole",
      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNNEJnSm85MFRzY0ZjXzBSOWZUOHlvb253OWN4aENzM3BRNGwzTVVJTUtkMGlLa1d3bnRTbmFnLUhzelMzYWRyeFhkTU9wSUFrZkYtTDU5bFZ0T1NjeWp4Q2l6RENXandSMUQ2bFAxcWF2VVZrMGpDZ3ZERFFXR29peGFuZGVmbjFTN3BReGE4anZNZEI4cTNTOUxUcE9KQ3FHcGhWTDQ1eE01TjNxN1UwZFdhd2ZTREVJU2VSSTF4d2EwWkhGNFpmMTBseDVsMU5FNE1XeGViclhMRjNBb3JQd21WZl9idEROS3dROC13X1dmdE92Tkxoc0p3?oc=5",
      "at": "2026-11-06T22:39Z",
-     "eksik": false
-    },
-    {
-     "title": "Brighton vs Brentford Preview, prediction, injury news & lineups | Premier League 2026-27",
-     "source": "Khel Now",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZG9ma1d3aXdQNE5jMXlqTmpjVFNzdVhQd3ZiX3Rqa1h5X3ZDaWJJTnJiYlBROEJFVHNmSmNaWTg0blowNDg2N0hROENEa3I0eVlGX25ORWR2WGpoaGQ2T25laUlDS1hBN3lPNDZ6SEtPR3VXQmNNeUxMWGh2S0NTc3dXcDBZWHM?oc=5",
-     "at": "2026-11-06T20:04Z",
-     "eksik": true
-    },
-    {
-     "title": "Brighton vs Brentford Preview: Team News & Prediction",
-     "source": "The Stats Zone",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQT1UwNGREVjRNcXpPZGo4ZHA3UC1zYkpSaTJtdXBTcDJIMWZYZldnSnk0VzhJc0VXTWtxRTFJRXVyUG5mSVdsRG1nRUg2bVpHS0hJQmZyNklDR2kxUDJ0RmFUcGpCWUpDXy1uZ1IwMXY5VndtOE8ycHpJZFNmVTU0OEQwQmoxMS1ybzgzNFV4QQ?oc=5",
-     "at": "2026-11-06T18:12Z",
-     "eksik": false
-    },
-    {
-     "title": "Preview: Brighton & Hove Albion vs Brentford - prediction, team news, lineups",
-     "source": "Sports Mole",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYzR3eUN1SS01XzlJQ09GWVNEYkdrcDFfZS1kVHR6eGpDbWJXdXFBczJ4bm5nLXNnaHczWUd1WmFuN3RSNVBobXBjQWZKZmY2cEsxVi1ycm9CRkRGX19NTlBiYmRSZEdNaGFwWHJkNXlGbWR1UVJ1WTVSSU84UnNkSDd1TVgtY2lGc194dXhkNG9QZkstV2Z4dXRqbzhxa0VmNEZEUEJyMzRTRDdweXFseElDRVduTFlYNm5mSWxoQWc2QTZIMGJ5b3F2dExWQQ?oc=5",
-     "at": "2026-11-06T18:08Z",
      "eksik": false
     }
    ],
    "away": [
     {
+     "title": "Brighton and Hove Albion v Brentford",
+     "source": "Brentford FC",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV0pqYjYydUhlYmF4anJQNEV0blFnTy1RajhwTURvRGlDQUc4VkZQaWs4dnFLZHduNXZpY1VOV2pZYjlKc045bGdmTVBhWW9KR3dVQlhTMUYzWnluYnlXeGJHcDhKczJneUR6OWdGYVVzZEFKTVlPc2hqaHFURDhZUTktb2tKSkRsWWt2ek8zYXVzOWZxdFlGVDNNelhITkVZN3JHQkJNMA?oc=5",
+     "at": "2026-11-07T10:11Z",
+     "eksik": false
+    },
+    {
+     "title": "Brighton vs Brentford Preview: Prediction, Probable Lineups, Tactics, Team News & Key Stats",
+     "source": "TheHardTackle.com",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaDJJay1EcVZCbThqWkR1RkhtNXRmcWNWNlR2Y3l1VmhFQ3R0a25OTUtXVmR4X09lRHpZaExRcmtCRm04R1FJWTJ1eU51OWdCWDNKeTI5TWpweXVQSkV5eDdWRWxPTXlmWDBSZ3lLS1lra2g4SGI4eGFIYjJETW9CaU5wVnhrYzNQSTVTOUFiajR5Z3hmV0gzYzZtek0xc2lTV0FIc3lidlROcHhiSHNYbmZ2cUpLWE5DNEpUWjA5NlE2UXlyOFFNa0dQQlTSAdIBQVVfeXFMT3FmbEplQmJ2VFlOaC1pWHQ5Tktmb3BFdkNwNFUySGF0SUo5a2F1eTVUamh0MDBZalpQc3FZVlZVeUc5dkwtNy1WUnhINFhmalVGTUZ5WnNfSGpjRUpETERTalhlbGpvcnZOaXNieXExZm1KRU9YUlM3UEZOdDJwaUtXbUxiRC1tZ3lMT0JUZ3E0VnIzUmxMV1dYSGhmR2FtTXRTUkFXd0g2MVpOTVVBdHNpQmx6OFNlLUY1THV1blhycUcxUG5RUW1NcUVpR1BKRWdB?oc=5",
+     "at": "2026-11-07T06:35Z",
+     "eksik": false
+    },
+    {
+     "title": "Brighton vs Brentford Preview: Team News & Prediction",
+     "source": "The Stats Zone",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQT1UwNGREVjRNcXpPZGo4ZHA3UC1zYkpSaTJtdXBTcDJIMWZYZldnSnk0VzhJc0VXTWtxRTFJRXVyUG5mSVdsRG1nRUg2bVpHS0hJQmZyNklDR2kxUDJ0RmFUcGpCWUpDXy1uZ1IwMXY5VndtOE8ycHpJZFNmVTU0OEQwQmoxMS1ybzgzNFV4QQ?oc=5",
+     "at": "2026-11-07T00:12Z",
+     "eksik": false
+    },
+    {
      "title": "Predicted Brighton XI vs. Brentford: Fabian Hurzeler sweating on Ferdi Kadioglu fitness",
      "source": "Sports Mole",
      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNmlKUDV6YmpVak1fTXZ3ZHZINXN1T1lheFVVMGxjSEE1ODZyV21qSzNxVW42LXA4bHM1YU81ODU0QjRVNHpTaV9DQmFzUS1VZWNqRzFENW8yakNBNU1JaEIwNldJbk5tWGFUb1dMVEp5ZzgzS3FzZ1pVZEVSTGlUQnVIVWZhV00wSnpJdjJKUWdfSEFuQ0lxaXdWWGZkc2ZYUVNtRldBU254eVFuT1FldE9NMlcwQjRTWWg4cE1vSER0c1gwSlNPWXBuTlJERmRyR1pCa0w3SlNYb2R1S2FiMlZ4b3Y?oc=5",
@@ -13934,27 +13921,6 @@
      "source": "Sports Mole",
      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNNEJnSm85MFRzY0ZjXzBSOWZUOHlvb253OWN4aENzM3BRNGwzTVVJTUtkMGlLa1d3bnRTbmFnLUhzelMzYWRyeFhkTU9wSUFrZkYtTDU5bFZ0T1NjeWp4Q2l6RENXandSMUQ2bFAxcWF2VVZrMGpDZ3ZERFFXR29peGFuZGVmbjFTN3BReGE4anZNZEI4cTNTOUxUcE9KQ3FHcGhWTDQ1eE01TjNxN1UwZFdhd2ZTREVJU2VSSTF4d2EwWkhGNFpmMTBseDVsMU5FNE1XeGViclhMRjNBb3JQd21WZl9idEROS3dROC13X1dmdE92Tkxoc0p3?oc=5",
      "at": "2026-11-06T22:39Z",
-     "eksik": false
-    },
-    {
-     "title": "Brighton vs Brentford Preview, prediction, injury news & lineups | Premier League 2026-27",
-     "source": "Khel Now",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZG9ma1d3aXdQNE5jMXlqTmpjVFNzdVhQd3ZiX3Rqa1h5X3ZDaWJJTnJiYlBROEJFVHNmSmNaWTg0blowNDg2N0hROENEa3I0eVlGX25ORWR2WGpoaGQ2T25laUlDS1hBN3lPNDZ6SEtPR3VXQmNNeUxMWGh2S0NTc3dXcDBZWHM?oc=5",
-     "at": "2026-11-06T20:04Z",
-     "eksik": true
-    },
-    {
-     "title": "Brentford transfers, latest news, rumours and gossip: Live updates, goals and highlights",
-     "source": "Sky Sports",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQVBUZXpaSE00dWtkQTFNZ2U1QmZHRG04djlRLWNUWlQwb25vbnBkQnJfVWZOMEdXckswRDZRU2wtQi1POHk4ZUo5MDBfQVVDWWNJQ01uLV81cUpUYVA5R2dJZmRhX2VaRTFtbDNLWEthLVp4VVdodXdSNTE1MlZ5NmRSMHNZbUlRZHlxWWpQSVNnbnEzS0VRdTJBUnRaVDM3bEdGd1dEX21pSEpKZ281Vm1Hd19UTnBmU2FCUlhHVllBRHlzcmkxdllsbmZMb1RWeW50Uw?oc=5",
-     "at": "2026-11-06T18:54Z",
-     "eksik": false
-    },
-    {
-     "title": "Brighton vs Brentford Preview: Team News & Prediction",
-     "source": "The Stats Zone",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQT1UwNGREVjRNcXpPZGo4ZHA3UC1zYkpSaTJtdXBTcDJIMWZYZldnSnk0VzhJc0VXTWtxRTFJRXVyUG5mSVdsRG1nRUg2bVpHS0hJQmZyNklDR2kxUDJ0RmFUcGpCWUpDXy1uZ1IwMXY5VndtOE8ycHpJZFNmVTU0OEQwQmoxMS1ybzgzNFV4QQ?oc=5",
-     "at": "2026-11-06T18:12Z",
      "eksik": false
     }
    ],
@@ -13962,396 +13928,402 @@
     "home": {
      "eksikler": [
       {
-       "oyuncu": "Ferdi Kadıoğlu",
+       "oyuncu": "Ferdi Kadioglu",
        "neden": "belirsiz",
        "onem": "ilk11"
       }
      ],
-     "ozet": "Brighton cephesinde Ferdi Kadıoğlu'nun durumu maç öncesinde belirsizliğini koruyor ve teknik direktör Fabian Hürzeler oyuncunun form durumunu takip ediyor."
+     "ozet": "Brighton cephesinde Ferdi Kadıoğlu'nun maça yetiştirilmesi için sağlık ekibinin durumu takip ediliyor. Takım, ev sahibi avantajıyla sahaya çıkmaya hazırlanıyor."
     },
     "away": {
      "eksikler": [],
-     "ozet": "Brentford takımında bu maç öncesi öne çıkan önemli bir eksik veya sakatlık rapor edilmedi."
+     "ozet": "Brentford takımında maça çıkamayacak veya durumu belirsiz önemli bir eksik bulunmuyor. Takım ideal kadrosuyla mücadele etmeye hazırlanıyor."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-06T22:55Z",
-    "hash": "7cb78b2522dd"
+    "at": "2026-11-07T11:36Z",
+    "hash": "7070e12618a1"
    }
   },
   "E0|2026-11-08|Crystal Palace|Liverpool": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-08T14:00Z",
    "home": [
     {
-     "title": "Liverpool XI vs Crystal Palace: Confirmed team news and predicted lineup",
-     "source": "London Evening Standard",
-     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSWJZSEFJNWpzRUtQRHhoSVZwQ3lYQS0xV3U1VktlNmpMUkt3Z2xjWVVVV0w5NC1ILXdJay16UGJEanFDRmY3M3BhekkyZ0t1THZhM0RWek1Ncy1VYXI4OV9MbGZLeDZqand5MmNFeHM0LTMwNTVESWJxTjJvWFh4Q2hHRklfc0xpVWVIOG8yakZDb0pEODlQMnhuSm8xYWVGdkR6NDRZcVZWMkRaRTFSVndrVEtmNG5vZEtnZGdnNUJkd3YycEx2clNPSjRJN3JhWlY2UVQ2M2l0UHBONGhkWmNVYUd1Zms0bm5qZWxQT3o3QQ?oc=5",
-     "at": "2026-11-06T22:41Z",
-     "eksik": false
-    },
-    {
-     "title": "Preview: Crystal Palace vs Liverpool - prediction, team news, lineups",
-     "source": "Sports Mole",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNU1J1dVkzTG5hbVhFUXl1X29MRTBmeGY5RXpVY2JNUDdMOFRXLXJNZmJIQnFnWkdyQnRXdWNaZVZxNW5CMzhIYUo4X1o2QnhITG0yck9IblNvRGxjM1pnVFdEb3BJQkozMlhtOHpBMFZDR21ZWDZNVGFuZmtxZ3lVWXAwR2o0VlJmelBQaWJCOTk2RUR5Z2E1ajFxY3hUVGN1cW15RWF5V0RKNkppalRBaEJpNUxPbXdRU0NrYmVlUFJ6dHloeFFFNjJwLVNJd01CWWpxZ1dhSzV3Wjg?oc=5",
-     "at": "2026-11-06T22:19Z",
-     "eksik": false
-    },
-    {
-     "title": "Crystal Palace vs. Liverpool: TV channel, kick-off time (Sun Nov 8)",
-     "source": "ESPN",
-     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSzN4b2hiNGxBX0xKTmJ5UHRZQng3bUUyeFJKVGdoeGs2ZmZjOTVVS1MyTjBDWUQwclN6WXp6bDFYMlA1dXhPdlhqSzhiX0FSX09TZWtBMlR5OTl6d0FiMVNlcnl2MzkzQmwxWkdqdGdfQ3pxRFlhS2hHb242dVhGOW90NjdHYzg2dUZ6VXRYeFdBTThma19yTHV3VUh0NUo4SWJTcEtzbm50YUFZaHEwY0xWWDJRLWZja1ZONFJ0X3IyZm1wZ0Y4TGpXOEt3TV94YWhwU3I1UnNjTTZOWDc2cGRXZ1pmTldISTZsYVpJT0k1QQ?oc=5",
-     "at": "2026-11-06T21:29Z",
-     "eksik": false
-    },
-    {
-     "title": "Crystal Palace vs Liverpool Preview, prediction, injury news & lineups | Premier League 2026-27",
-     "source": "Khel Now",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVVVFd2VTdnlJWXBTQmo5enRtcU1FeGQ3d2FFMFM1eDZYaVA0SnVDLTE4dHQzanVmYzJ6R2pFLWtGY25LY2ZhQWhrc0lndGc0bTFVQmZ1ZnJmVGtQMFVLRThXUXBtQmw0bHpnczRhWWw3UEpiRFN2UjBTRi1CMTI0RFNtVGdWaGF0aldvZGd3bw?oc=5",
-     "at": "2026-11-06T19:28Z",
+     "title": "Crystal Palace vs Liverpool Predicted Lineups and Team News: Mateta Banned, Gravenberch Doubt",
+     "source": "The False 9",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYTFGcldHMzZvRWRJeUhoMF9IODRxSExaNEV6UTlEcnE5NXBRamI2UzY0RWdjbjM4U3hmank0MXp6c2ZXZ1lITTg1a2c3NXhHb1hNQ3lJUU90SUd1WFUzMHQ5djRlQnNKcDlNNWdab1gxTXlPSW9CSkd5bUNxSzVqS3NBOTBJREk?oc=5",
+     "at": "2026-11-07T11:02Z",
      "eksik": true
     },
     {
-     "title": "Gravenberch, Leoni, Ekitike - Liverpool injury news and return dates ahead of Crystal Palace",
-     "source": "Liverpool Echo",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQzNwVU1qUUluVzRoTDRFZFZGQkdMeWZjTzZaQ0dTdXVSZFJSRm95cGRpZUxQUUF0a0VHd185WmZITmwyYUg2TUFsRFl5SXNPYkl4aVI3V0lXX2lIZk9BRGlYc19NYlB3VUt1bVFFblFwTWFWeVRWRjJDV1JSeklUUkh4SDNFZWhXZDlsY1JyQ0E2c1hGV3l4TmNzRUdfQThBX3BGNzYxNm4zREdjdDRIVmxB0gG3AUFVX3lxTFA0NDNHZUtkRVR1N3lyUF90SU1MNEpETVNnaWhhcWlCYmV6bmhoZ1N2dTctOHoxaEFIWnJiUGJ1T1ZlTXR0azVtU1JPZ0Q3VDIzQnBNWEtGY0hqZ1JlQWI2bUNtdC05T3VNeGk2X0RBRDluMVZyNDNyTDhoQ05fLWlGWGpLYTJFNGZIU1F2Z3hjRmJSTFVmN21ZaE9MQWQ1dTNlU0ZlT29pcWk1RFRpSmlEbGlpVU1YNA?oc=5",
-     "at": "2026-11-06T18:58Z",
-     "eksik": true
+     "title": "Crystal Palace vs Liverpool Preview: Team News, Form, Prediction and Where to Watch",
+     "source": "Read Crystal Palace",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZzJMODRGN0E0bXRPaUtmOFQ4eWt5TUZlYmMzOGNYaVhla251ODAyaXJQYUVaaVZ0Z2ZBbE5WcWxxTnE2WUZPSVZiaGdlQ1cyNWhsazRtLTVvV1d0VTFMT1p1dTF6c2lWelRMMzk1Mk1GT3pWVmdBWm5XYVZwZHZqbzFBb3ZPR0swY3c0M1hUQV9ITmlyUWZ3RllBRHpHeUxGWHpnag?oc=5",
+     "at": "2026-11-07T11:00Z",
+     "eksik": false
+    },
+    {
+     "title": "Crystal Palace v Liverpool: Pre-match stat pack",
+     "source": "Liverpool FC",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUhkX3BVc0NtTTV3VmlzdjZRbzE2bURoT09tVklUTS0xSVUxVDlfVjBwRzkxMVdKZ3NzYXNlVTNqYUpzdjVpdl9RLUMxd21wOHlFbjRGSGV6SkljbDdiV2l5SHhabkpVYy1qWm9HU2xnSmN6RTVxSW84WHFuUXNtMklJN2RxQQ?oc=5",
+     "at": "2026-11-07T09:03Z",
+     "eksik": false
+    },
+    {
+     "title": "The opposition lowdown: Crystal Palace",
+     "source": "Liverpool FC",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQzFsMjhJRC1Ia0RTRExKZUNzVFUybXhvQUFvY0RudDQwNkRCeFhVcWVVMUQxR2hKcGxLOTNiNl80cHhuanVPM0VhQkdobkF6UzFvVEx5Vy16bFJtUW1ESmtwbG9iT2FhcXd0dnB4VElDenJzd1F3Y1o3OEN2TWJpcjBwRFpfT3o4Tmt2cVNR?oc=5",
+     "at": "2026-11-07T08:52Z",
+     "eksik": false
+    },
+    {
+     "title": "Crystal Palace vs Liverpool: Preview, team news, tips & H2H",
+     "source": "Afrik-Foot",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZbWlKZnFRNklBck0wR21OR3lCdzJjNFdQeUhQTkIzMU5QTU85QmVZRlZ5SGZlTVJPRUt2X0tGbkhLa2tWWlRlUTdXamZvcWlpSjNRRVZsM1BXM1VIMTZRbkFfMExYbHhCbTAySFpKN0EtUTdLN25JTHJJcUtZUQ?oc=5",
+     "at": "2026-11-07T08:42Z",
+     "eksik": false
     }
    ],
    "away": [
     {
-     "title": "Liverpool XI vs Crystal Palace: Confirmed team news and predicted lineup",
+     "title": "Crystal Palace vs Liverpool Predicted Lineups and Team News: Mateta Banned, Gravenberch Doubt",
+     "source": "The False 9",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYTFGcldHMzZvRWRJeUhoMF9IODRxSExaNEV6UTlEcnE5NXBRamI2UzY0RWdjbjM4U3hmank0MXp6c2ZXZ1lITTg1a2c3NXhHb1hNQ3lJUU90SUd1WFUzMHQ5djRlQnNKcDlNNWdab1gxTXlPSW9CSkd5bUNxSzVqS3NBOTBJREk?oc=5",
+     "at": "2026-11-07T11:02Z",
+     "eksik": true
+    },
+    {
+     "title": "Crystal Palace vs Liverpool Preview: Team News, Form, Prediction and Where to Watch",
+     "source": "Read Crystal Palace",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZzJMODRGN0E0bXRPaUtmOFQ4eWt5TUZlYmMzOGNYaVhla251ODAyaXJQYUVaaVZ0Z2ZBbE5WcWxxTnE2WUZPSVZiaGdlQ1cyNWhsazRtLTVvV1d0VTFMT1p1dTF6c2lWelRMMzk1Mk1GT3pWVmdBWm5XYVZwZHZqbzFBb3ZPR0swY3c0M1hUQV9ITmlyUWZ3RllBRHpHeUxGWHpnag?oc=5",
+     "at": "2026-11-07T11:00Z",
+     "eksik": false
+    },
+    {
+     "title": "Liverpool offer player to Saudi Pro League after horrible injury record",
+     "source": "SPORTbible",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQa0w3UjAyZ2RWSU9TNFE0UFJSeXVHb09ubkFGVW9QNkpIcW40U2ZmNWJaRFh3WUVKZ3hycU5SS1BtUVNYV1JOU2FHNVp6VEVseHozMUdZbkZZX2FEM3phVmhWMHlQVTBxdUQwbzhFVXZfQllPZ0ZkVzhrNnYxZjdRQVMyQjB4ak5IVW1qbm4tYkxnZDV2TkJ4ZlBCNnB2OW5lM1pqSmlvZjF6Zm5GRFY2dnROWnRadEhNTVdvag?oc=5",
+     "at": "2026-11-07T10:29Z",
+     "eksik": true
+    },
+    {
+     "title": "Liverpool injury update: Ekitike and Gravenberch latest return dates",
      "source": "London Evening Standard",
-     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSWJZSEFJNWpzRUtQRHhoSVZwQ3lYQS0xV3U1VktlNmpMUkt3Z2xjWVVVV0w5NC1ILXdJay16UGJEanFDRmY3M3BhekkyZ0t1THZhM0RWek1Ncy1VYXI4OV9MbGZLeDZqand5MmNFeHM0LTMwNTVESWJxTjJvWFh4Q2hHRklfc0xpVWVIOG8yakZDb0pEODlQMnhuSm8xYWVGdkR6NDRZcVZWMkRaRTFSVndrVEtmNG5vZEtnZGdnNUJkd3YycEx2clNPSjRJN3JhWlY2UVQ2M2l0UHBONGhkWmNVYUd1Zms0bm5qZWxQT3o3QQ?oc=5",
-     "at": "2026-11-06T22:41Z",
-     "eksik": false
-    },
-    {
-     "title": "Preview: Crystal Palace vs Liverpool - prediction, team news, lineups",
-     "source": "Sports Mole",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNU1J1dVkzTG5hbVhFUXl1X29MRTBmeGY5RXpVY2JNUDdMOFRXLXJNZmJIQnFnWkdyQnRXdWNaZVZxNW5CMzhIYUo4X1o2QnhITG0yck9IblNvRGxjM1pnVFdEb3BJQkozMlhtOHpBMFZDR21ZWDZNVGFuZmtxZ3lVWXAwR2o0VlJmelBQaWJCOTk2RUR5Z2E1ajFxY3hUVGN1cW15RWF5V0RKNkppalRBaEJpNUxPbXdRU0NrYmVlUFJ6dHloeFFFNjJwLVNJd01CWWpxZ1dhSzV3Wjg?oc=5",
-     "at": "2026-11-06T22:19Z",
-     "eksik": false
-    },
-    {
-     "title": "Crystal Palace vs. Liverpool: TV channel, kick-off time (Sun Nov 8)",
-     "source": "ESPN",
-     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSzN4b2hiNGxBX0xKTmJ5UHRZQng3bUUyeFJKVGdoeGs2ZmZjOTVVS1MyTjBDWUQwclN6WXp6bDFYMlA1dXhPdlhqSzhiX0FSX09TZWtBMlR5OTl6d0FiMVNlcnl2MzkzQmwxWkdqdGdfQ3pxRFlhS2hHb242dVhGOW90NjdHYzg2dUZ6VXRYeFdBTThma19yTHV3VUh0NUo4SWJTcEtzbm50YUFZaHEwY0xWWDJRLWZja1ZONFJ0X3IyZm1wZ0Y4TGpXOEt3TV94YWhwU3I1UnNjTTZOWDc2cGRXZ1pmTldISTZsYVpJT0k1QQ?oc=5",
-     "at": "2026-11-06T21:29Z",
-     "eksik": false
-    },
-    {
-     "title": "Crystal Palace vs Liverpool Preview, prediction, injury news & lineups | Premier League 2026-27",
-     "source": "Khel Now",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVVVFd2VTdnlJWXBTQmo5enRtcU1FeGQ3d2FFMFM1eDZYaVA0SnVDLTE4dHQzanVmYzJ6R2pFLWtGY25LY2ZhQWhrc0lndGc0bTFVQmZ1ZnJmVGtQMFVLRThXUXBtQmw0bHpnczRhWWw3UEpiRFN2UjBTRi1CMTI0RFNtVGdWaGF0aldvZGd3bw?oc=5",
-     "at": "2026-11-06T19:28Z",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSDJYTGktVmdSY19mMHNMem5NU19iSE5LS0QtalN3OUhBZUlaU2ttUDBmQTl6aWxKZFhXQjFycU5mYVNkZkVKUENvYXV2d1pwcXNmSDNscDhxTXYyS0RRMzk1WERBVWVRcWhqamtHQnRvY0hQMDFUSXlDQWtCYVE4YkJVdEJiNXp0cUNWVnV2S3NxaWdiUWFKY1VtNFE3R3VqNnJtZ2VLUFQ4Z2hPWXFnRkNPdVUxUnE1MFFtVVdqOFRNem5XU245WUhhUV82MEtBX0E?oc=5",
+     "at": "2026-11-07T10:06Z",
      "eksik": true
     },
     {
-     "title": "Gravenberch, Leoni, Ekitike - Liverpool injury news and return dates ahead of Crystal Palace",
-     "source": "Liverpool Echo",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQzNwVU1qUUluVzRoTDRFZFZGQkdMeWZjTzZaQ0dTdXVSZFJSRm95cGRpZUxQUUF0a0VHd185WmZITmwyYUg2TUFsRFl5SXNPYkl4aVI3V0lXX2lIZk9BRGlYc19NYlB3VUt1bVFFblFwTWFWeVRWRjJDV1JSeklUUkh4SDNFZWhXZDlsY1JyQ0E2c1hGV3l4TmNzRUdfQThBX3BGNzYxNm4zREdjdDRIVmxB0gG3AUFVX3lxTFA0NDNHZUtkRVR1N3lyUF90SU1MNEpETVNnaWhhcWlCYmV6bmhoZ1N2dTctOHoxaEFIWnJiUGJ1T1ZlTXR0azVtU1JPZ0Q3VDIzQnBNWEtGY0hqZ1JlQWI2bUNtdC05T3VNeGk2X0RBRDluMVZyNDNyTDhoQ05fLWlGWGpLYTJFNGZIU1F2Z3hjRmJSTFVmN21ZaE9MQWQ1dTNlU0ZlT29pcWk1RFRpSmlEbGlpVU1YNA?oc=5",
-     "at": "2026-11-06T18:58Z",
-     "eksik": true
+     "title": "Mikel Arteta holds internal meeting after Christos Tzolis team news leak",
+     "source": "now.arsenal",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQlgxbXV3Z0hkSm5GcXNkNkRkOGhYYkowUnBsajJCU2sweU5fci05UURKM1VhTHd1dmtHc2h0TVgtajJRQkszazJpVXZWdHpjQmlwOWhWZV9ydlZ5UUtfdFZGcDEwWlBTV3ByVGE1WWhqQ2xxTGs1YW1BbHpaUHlsVUN0cTc4Z2llTHA4X0hzRVdrdmtxVmk5MTAzVUdHbnctSWxobGdzS251aTNkbmRBdmtR?oc=5",
+     "at": "2026-11-07T09:50Z",
+     "eksik": false
     }
    ],
    "ai": {
     "home": {
-     "eksikler": [],
-     "ozet": "Crystal Palace'ın bu maç öncesinde güncel sakat veya cezalı oyuncu bilgisi bulunmamaktadır."
+     "eksikler": [
+      {
+       "oyuncu": "Jean-Philippe Mateta",
+       "neden": "cezalı",
+       "onem": "kilit"
+      }
+     ],
+     "ozet": "Crystal Palace cephesinde cezalı durumdaki Jean-Philippe Mateta bu maçta forma giyemeyecek."
     },
     "away": {
-     "eksikler": [],
-     "ozet": "Liverpool'un bu maç öncesinde güncel sakat veya cezalı oyuncu bilgisi bulunmamaktadır."
+     "eksikler": [
+      {
+       "oyuncu": "Ryan Gravenberch",
+       "neden": "belirsiz",
+       "onem": "ilk11"
+      }
+     ],
+     "ozet": "Liverpool'da Ryan Gravenberch'in durumu maç öncesi belirsizliğini koruyor."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-06T22:55Z",
-    "hash": "fa8594efdc0b"
+    "at": "2026-11-07T11:36Z",
+    "hash": "09a62ed8bc36"
    }
   },
   "E0|2026-11-08|Ipswich|Bournemouth": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-08T14:00Z",
    "home": [
     {
-     "title": "Ipswich Town vs Bournemouth prediction: teams form analysis, possible lineups on November 8, 2026",
-     "source": "RatingBet",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY2NuYXhQVFgzdG8xcFdJU3BONUlGS3pSZ3hMTU1hR2RDUmRJRmR2d2tWazBGMTk1WjlFNFh3R0ZTSnhwUUdTLVExS0Y1YzR1dGxCbGZReGUza0UwbFgzanhWS2pxYzV6OTlLTktndkVOSW1jczFscEJtWU9YSE5MWkJ1X2dtRDJfQzRfTlA5ZGJPLU43cWlzN1h5ZDA0VFFGbjg0RGVNTFF6b1hEcU90Z01GOXdXWkl6Z2ZCSy1BRjBTMnR4ZnFiVg?oc=5",
-     "at": "2026-11-06T21:24Z",
+     "title": "Ipswich Town vs Bournemouth Preview: Prediction, Probable Lineups, Tactics, Team News & Key Stats",
+     "source": "TheHardTackle.com",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTjQtZEpoYjdPUGhpcW9XWXFXQ24ycTlCNFlfMGNHSGM0Wi1QZ2NwTG91dlBDTHNjeWNlQTJmTlZxNDRveTBNdWdzQ3VSalFHNk8yMFEzWl9MRUVuNlU2LTZVRllwUmwyZnpJMlNaRDA3eUFhMzBoRV9wcHF3dWRVNWMtV3pTNUlfRHB6SWE1dzVEc2V2c19SdFVKZnRHTGU4RzU3TEUtdXhJc0Y2YXNSZ1RnZXJDS1Njbldka0kzZHQxcXMtc2lQeDB2Ym9LMlRpVnlYaNIB2gFBVV95cUxPYjNHdDJvbkc3MkpVT0t4aGRoWEVxRUVVNkpNMmVCMmFYS2tuUENXV08xRTdyMGl4UVBGQlpYTXRnWkExakZkQlZmWVlhVmh1c1pYSGQzNlhuOXpMTGExU1pZdTBmZm9KaW1OR2RudDFQQ21NR2V4RFp6U2NIS1dWVHVUU05OaHBBRHd0dGdOU3Q1TDhlUWJWdWdmMFhXeDlxbElyZVpoNENHWTV6SHdyMnpHWFFsVFRhWEpEZUR1SGxZaTJCekRCY3hTR0NJMHFHQUY3MUtDWTdGZw?oc=5",
+     "at": "2026-11-07T07:20Z",
+     "eksik": false
+    },
+    {
+     "title": "Ipswich Predicted Lineup vs Bournemouth: Emersonn Starts",
+     "source": "The False 9",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdG5ydklUakVjWFcybXRLbDJidndSSGZzbHVEcDhOWmNmbVJraXlpOVA0dzkxdnJGdm5fZ1BYMEtOZVJiU0xoeDR4ZnpiZ2NIb2p0UFZqQ3pncXlsaGJFYTVPUjNNd0xKd3hXRm9FZ0NYckNuRHlFQURpdDB1NHRmOGhJM0llOVZqZzFzODVTQng?oc=5",
+     "at": "2026-11-07T07:04Z",
+     "eksik": false
+    },
+    {
+     "title": "Ipswich v AFC Bournemouth: Team news, form and head-to-head",
+     "source": "OneFootball",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWWY2OXJGNnhVM0NzZEtMN25razlZZEh3a3p5Wmx5c3JJNXNXbGxacGNOOVRzYndFSlJJN01tLVQyUEY0cTExRl93ZFk0X0RZRkY0NUZiZUU5dFVOQVRXV3VETjFyNXNRYmhyUlB4cVJhdmloUkpMTG55VTc4MGU1Mmw4bmFSRi1wYzlRZ3JVems2UXQ1cjZqSmxqcmJKb2M?oc=5",
+     "at": "2026-11-07T01:36Z",
      "eksik": false
     },
     {
      "title": "Ipswich vs Bournemouth Preview: Team News & Prediction",
      "source": "The Stats Zone",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOd2xIalZZQU1HeElsWUMzbEVNdDlET0lBV0ZocXQtWUhKUVhfSTN4RHhWMlhKR3JzNjNYY3hMYnhYVHdKTC1GOWNhMTVFQ1pUSVV0UzJ2X19aYm9HODJWdll2YTZPMUh4ZEVmbDhzaks4WjZObjJqdm5XTldSSjNMMHpGY0tQN2hRVnJVcmtkdGg?oc=5",
-     "at": "2026-11-06T18:27Z",
+     "at": "2026-11-07T00:27Z",
      "eksik": false
     },
     {
-     "title": "Premier League injury, suspension list for gameweek 10: Moises Caicedo, Lisandro Martinez, Ryan Gravenberch",
-     "source": "Sports Mole",
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONURualdLUm5TX25tSVcyVl9EZ19HeVNGVWNFTGRia3ZkcG9rNlpfZU9CRG4zWDUxN1lTVWFpZWp0YlJsNjhfeVpfLVJQMGFFT0VxQVhuU0tOT0lmd1dCajNncTBQalZfSUM2SjhGdXprWW1GM3EwLTIxNnFsVHktdE5BMnZGR3hPazdDUHh4QUZtT3hoMTBSbGVsa25hbzhIZy1mWFdJUTJSUFgzRGkwNm1hRHRqMC1iMVcwSWlxcllfd0tsQkdXTUczajY5OGVPR0JwSW5KazEwNzN4?oc=5",
-     "at": "2026-11-06T17:38Z",
-     "eksik": true
-    },
-    {
-     "title": "Bournemouth Predicted Lineup at Ipswich: Rose Recalls Eight",
-     "source": "The False 9",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZ3pBck1wdGZZM081ZTRTVjNWMlZtdzlCcU5mdDNiSVE3X1MwVFM5c0xWVlNCT3REZnRoa2JvLUJSN3J3NjVKZTloMHdfbDJGb0xmbHEtRUFWSmc4dlY0Z2M4NVNnR0d5eURJV3l2ZHVLdmJuWDJJRTZOTGx1UVc3YzBYVi02SHdLOGJlSmJtOEZkVm1a?oc=5",
-     "at": "2026-11-06T16:16Z",
-     "eksik": false
-    },
-    {
-     "title": "Town midfielder fit to return against Cherries",
-     "source": "Suffolk News",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM29pOEF5Ui1UWWJWQkRsczVXNzJUNG45c1h3M1VyRUNpOEJFMnFlcjlxYldIVU1XVUlab0tQYnpQV0RNSEtXNm8xclpkQkw0Z1UxRklzVWNFbGg4VlBJR3pXVGI1Uld1QTBlUWhFM3dlbUhEZTh5d1VaSFRVbW1BRENvYUNkY0czVHo5dVRkdFBweVdZUXVfM01aRVNYaHpZ?oc=5",
-     "at": "2026-11-06T15:28Z",
+     "title": "Bournemouth chase eighth straight win at Ipswich",
+     "source": "Bournemouth Echo",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQY3RvRkJkMU1DX0NFYTJQWlU0WS1zd2hCSlgxRUEtN2wzS3RGTmJGYldzNG5paFktQmtISFRKY0FZY1RLWlRKcmRUZFQ3UDg0YkZVOGlSRWx0TDZGSDZJU1JwZ1BhUy1NSDBSNjZhb3ZiX1J3Rm9QaDk2bF9NRUMyYmJGdzhaNlYyU3ZHc3p1NkFZbGJfeE85M3VoNjE4TjJkSXcyZUFn?oc=5",
+     "at": "2026-11-07T00:00Z",
      "eksik": false
     }
    ],
    "away": [
     {
-     "title": "Ipswich Town vs Bournemouth prediction: teams form analysis, possible lineups on November 8, 2026",
-     "source": "RatingBet",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY2NuYXhQVFgzdG8xcFdJU3BONUlGS3pSZ3hMTU1hR2RDUmRJRmR2d2tWazBGMTk1WjlFNFh3R0ZTSnhwUUdTLVExS0Y1YzR1dGxCbGZReGUza0UwbFgzanhWS2pxYzV6OTlLTktndkVOSW1jczFscEJtWU9YSE5MWkJ1X2dtRDJfQzRfTlA5ZGJPLU43cWlzN1h5ZDA0VFFGbjg0RGVNTFF6b1hEcU90Z01GOXdXWkl6Z2ZCSy1BRjBTMnR4ZnFiVg?oc=5",
-     "at": "2026-11-06T21:24Z",
+     "title": "Ipswich Town vs Bournemouth Preview: Prediction, Probable Lineups, Tactics, Team News & Key Stats",
+     "source": "TheHardTackle.com",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTjQtZEpoYjdPUGhpcW9XWXFXQ24ycTlCNFlfMGNHSGM0Wi1QZ2NwTG91dlBDTHNjeWNlQTJmTlZxNDRveTBNdWdzQ3VSalFHNk8yMFEzWl9MRUVuNlU2LTZVRllwUmwyZnpJMlNaRDA3eUFhMzBoRV9wcHF3dWRVNWMtV3pTNUlfRHB6SWE1dzVEc2V2c19SdFVKZnRHTGU4RzU3TEUtdXhJc0Y2YXNSZ1RnZXJDS1Njbldka0kzZHQxcXMtc2lQeDB2Ym9LMlRpVnlYaNIB2gFBVV95cUxPYjNHdDJvbkc3MkpVT0t4aGRoWEVxRUVVNkpNMmVCMmFYS2tuUENXV08xRTdyMGl4UVBGQlpYTXRnWkExakZkQlZmWVlhVmh1c1pYSGQzNlhuOXpMTGExU1pZdTBmZm9KaW1OR2RudDFQQ21NR2V4RFp6U2NIS1dWVHVUU05OaHBBRHd0dGdOU3Q1TDhlUWJWdWdmMFhXeDlxbElyZVpoNENHWTV6SHdyMnpHWFFsVFRhWEpEZUR1SGxZaTJCekRCY3hTR0NJMHFHQUY3MUtDWTdGZw?oc=5",
+     "at": "2026-11-07T07:20Z",
+     "eksik": false
+    },
+    {
+     "title": "Ipswich Predicted Lineup vs Bournemouth: Emersonn Starts",
+     "source": "The False 9",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdG5ydklUakVjWFcybXRLbDJidndSSGZzbHVEcDhOWmNmbVJraXlpOVA0dzkxdnJGdm5fZ1BYMEtOZVJiU0xoeDR4ZnpiZ2NIb2p0UFZqQ3pncXlsaGJFYTVPUjNNd0xKd3hXRm9FZ0NYckNuRHlFQURpdDB1NHRmOGhJM0llOVZqZzFzODVTQng?oc=5",
+     "at": "2026-11-07T07:04Z",
+     "eksik": false
+    },
+    {
+     "title": "Ipswich v AFC Bournemouth: Team news, form and head-to-head",
+     "source": "OneFootball",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWWY2OXJGNnhVM0NzZEtMN25razlZZEh3a3p5Wmx5c3JJNXNXbGxacGNOOVRzYndFSlJJN01tLVQyUEY0cTExRl93ZFk0X0RZRkY0NUZiZUU5dFVOQVRXV3VETjFyNXNRYmhyUlB4cVJhdmloUkpMTG55VTc4MGU1Mmw4bmFSRi1wYzlRZ3JVems2UXQ1cjZqSmxqcmJKb2M?oc=5",
+     "at": "2026-11-07T01:36Z",
+     "eksik": false
+    },
+    {
+     "title": "Bournemouth to make late call on Alex Scott for Ipswich visit",
+     "source": "OneFootball",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUmJwaW9YRXUxOG1MZTZWbC1pMkNyYThIcTVmVFliVXM1YlNoZUF4UXJCYk9zM1djM09hZ2JPaXFIVUpCLUE0T1dzS2lRWHREbUluZHgwb21hOG41Tkl5bUF3UG04U0M0NDVEMEY0OUJFTnlhaS0wRzN2S2FMYVpIVjFjeTVYaFE0ZFVibUVoenFZQzExSlM2dF9YWWRkS1FkRWJpVQ?oc=5",
+     "at": "2026-11-07T01:36Z",
      "eksik": false
     },
     {
      "title": "Ipswich vs Bournemouth Preview: Team News & Prediction",
      "source": "The Stats Zone",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOd2xIalZZQU1HeElsWUMzbEVNdDlET0lBV0ZocXQtWUhKUVhfSTN4RHhWMlhKR3JzNjNYY3hMYnhYVHdKTC1GOWNhMTVFQ1pUSVV0UzJ2X19aYm9HODJWdll2YTZPMUh4ZEVmbDhzaks4WjZObjJqdm5XTldSSjNMMHpGY0tQN2hRVnJVcmtkdGg?oc=5",
-     "at": "2026-11-06T18:27Z",
-     "eksik": false
-    },
-    {
-     "title": "Bournemouth Predicted Lineup at Ipswich: Rose Recalls Eight",
-     "source": "The False 9",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZ3pBck1wdGZZM081ZTRTVjNWMlZtdzlCcU5mdDNiSVE3X1MwVFM5c0xWVlNCT3REZnRoa2JvLUJSN3J3NjVKZTloMHdfbDJGb0xmbHEtRUFWSmc4dlY0Z2M4NVNnR0d5eURJV3l2ZHVLdmJuWDJJRTZOTGx1UVc3YzBYVi02SHdLOGJlSmJtOEZkVm1a?oc=5",
-     "at": "2026-11-06T16:16Z",
-     "eksik": false
-    },
-    {
-     "title": "Scott + Araujo: Bournemouth injury latest for FPL Gameweek 10",
-     "source": "www.fantasyfootballscout.co.uk",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQTVFTjZJTzNnbHQzRzgxbHJvVnZ1ejlpWGVJMnNYX0p3WTRmYUtnc0JFWVhjRE92NWRZUmJKMnZSdW1hQVJYRnVkNWcxemNNZUNvQkN1ZHB3UjY3S3RDdTJtVTVRVUNqOE9KamYwd3pyR29ac0NjZ3lfM3hsUHI4T0RQb3BDQjkzZGJ1MTloQ0R5U1gzcjA2OEl1bElDakhUblVjb2I0VGUyZTZhdHc?oc=5",
-     "at": "2026-11-06T15:07Z",
-     "eksik": true
-    },
-    {
-     "title": "Ipswich midfielder set for return against Bournemouth",
-     "source": "Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOekVaY2Q0VUwzRlctZzJNU3JKZGE2SHdDeW1QTUFCMHA4UGprV2ZqMVZaLU43ZEUxaWhRUlFZcWhtMXozcTU5NjAtcGF0SXN1UXRJMzFlb3lKRExXN1dZNlhweDBJX2R0clQzTlVuUExVYWVUd1h4dTkzUGdKdTRRSi1rOHoxX3pET1I5akdLcw?oc=5",
-     "at": "2026-11-06T14:53Z",
+     "at": "2026-11-07T00:27Z",
      "eksik": false
     }
    ],
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "İptal edilen veya henüz detaylı resmi sakatlık raporu yayımlanmayan bu maç için Ipswich Town takımında eksik veya durumu belirsiz oyuncu bulunmamaktadır."
+     "ozet": "Ipswich Town takımında bu maç öncesinde öne çıkan önemli bir eksik veya sakatlık raporu bulunmamaktadır."
     },
     "away": {
-     "eksikler": [],
-     "ozet": "Bournemouth takımında bu maç öncesi sakat veya cezalı oyuncu rapor edilmemiştir."
+     "eksikler": [
+      {
+       "oyuncu": "Alex Scott",
+       "neden": "belirsiz",
+       "onem": "ilk11"
+      }
+     ],
+     "ozet": "Bournemouth'ta Alex Scott'ın durumu maç saatinde netleşecek olup, takımda başka büyük bir eksik rapor edilmemiştir."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-06T22:55Z",
-    "hash": "baccb4958e83"
+    "at": "2026-11-07T11:36Z",
+    "hash": "fb6ae56cfff0"
    }
   },
   "E0|2026-11-08|Man United|Aston Villa": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-08T16:30Z",
    "home": [
     {
-     "title": "Wan-Bissaka Injury Update and Return Date: Late Test, Emery Says ‘Close’",
-     "source": "The False 9",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDNNZ1VKeGtxMzBlaEVzMVdqSU8wTWVUVkVfRE5BV2JseUp6NXF4cE5YQm1sUXFhY00wUnBUaXVadnhaMWxpZ09VY1BoT1JxV0JRdUpIWmlESWxMZE9ZYzBzaEExbzhTSUtpWU1TN0Y0anRZYVdTYUZtd3EzbnlNTXBpeVY?oc=5",
-     "at": "2026-11-06T22:30Z",
+     "title": "'Will be a bit longer' - Man Utd dealt MASSIVE injury blow as Michael Carrick confirms £70m summer signing Carlos Baleba set for lengthy spell on sidelines",
+     "source": "Goal.com",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNai1Sam04cTA4SE9vT1RQUFRtaUlKMm5XZnRNdDhlRmtaTFZxTEd5RTlrU0daNm02U1VINW1YaHVOWjdWeThzc0Vudmt5YmdqeFlGTTRXU2s5a1RoMEdsV1o0ZllUVS1vU293aDhFZGlzRHgyVFZGaVhBQnN0QzZrdWI2dXlSZUl6SXVUTEstZ0tfMkk1WjJDUXIwejY?oc=5",
+     "at": "2026-11-07T09:19Z",
      "eksik": true
     },
     {
-     "title": "Shea Lacey starts, Leny Yoro moves to centre-back: predicted Man United XI vs Aston Villa",
-     "source": "Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcXIzOUFocHpkSUZWSkdYTm5XX0JGcmNaQk01bHNFSWotdUdqa3E0SXU5WjIxN2RMSHN5ZGZ6dEczTVpib3h5T1dTX25YcXVvazJGLVB0U1hjaE44Qi1uSEFaYUg5ZVBnSVBEVFBCOUp4d0k3OUNPeXpNYm53VWVmdVRR?oc=5",
-     "at": "2026-11-06T22:00Z",
+     "title": "Tottenham XI vs Leeds: Predicted lineup and confirmed team news",
+     "source": "London Evening Standard",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOd0EtX2xPWlJqbWhzWFp1bjdZUzB1NGl1TDhfeEFxbVpCaGZaRDh1R3piSTcyc3NNMW1XY2FBdHpDSkZEQ25yVXYtNnJlTEZyNkJBQU1CZnVnQ0hfcS0tNWJnTm9YU19BUTkzb3ZERWJWYkRVa2dzbVJ0ektXdUdPMkdWY2hTY3dPV29FSzhVcTFEUHN3NnVvd1NNWFFWOHVudXJITVVnaDRHQTBncGI0alF3b2ZFNHllTVFGYXBxYWlaMVB5SWoxLXRMWmg4Vks5WGhhSTlKYkczNmhPd196Qi01Z3JVaHFWcmc?oc=5",
+     "at": "2026-11-07T08:46Z",
      "eksik": false
     },
     {
-     "title": "Manchester United vs Aston Villa Preview, prediction, injury news & lineups | Premier League 2026-27",
-     "source": "Khel Now",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOblZWdmdWT29NNFZtODRIUEhaZGJsd0VoX25IWlQ4V3M2WFNKVjdpYU1LQlVDeUlteTZGRDN1OWZKbm1qWWllWUpBTnlhRHkwdF9VVy01cURNZ192MXpJa2p4WmRwN3dLbEQ5cW1rRE1FNk15UWpNSzA1eEhyNFBNX1dKc21PYURpclBZQUdaVmxWOUE4NFE?oc=5",
-     "at": "2026-11-06T19:17Z",
-     "eksik": true
+     "title": "Aston Villa team news, predicted line-up, TV details and match preview for Premier League trip to Manchester United",
+     "source": "Aston Villa Review",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX0FvZ243RVJxY3pmNW5fTjhXemJKSVBiYVJsYTZQWWVlRnJEVEJ3cklqTUpqSHlVSy02SnMzQVVSWXpOeG5aam03a0U4QldLU3VsZ3dhTTZyYU5VV3dJZ1pJdXI2UldGanVVYXdScXFUV2Fna3hxci1TNllvUG00U1J0UHRFV09MdnFZRmNwalQtSEgyd0RQNFljZlZza2VlXzF2S3pIdG5QUQ?oc=5",
+     "at": "2026-11-07T08:44Z",
+     "eksik": false
     },
     {
-     "title": "Man Utd: Baleba faces long absence following injury",
-     "source": "PM News Nigeria",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcHpvWjI0eElDOHdNZEx6YnFxNVdaOHZFaFkwWVhHRDZ4VlZyQS1USXJRUTczNmRvQTJVTGp5UFB5M3hRMURnN0dXQTlkQjVoMzRjRXhtLWhDNWNqcHJFWmJXUmhCMEVyNFlEeVNHdlpuVm5ub2NFVUZrRUlZZGR1RXVPLTVqWFhMOEhLVFN4QnBNUQ?oc=5",
-     "at": "2026-11-06T18:51Z",
-     "eksik": true
+     "title": "Manchester United vs Aston Villa preview, team news, h2h",
+     "source": "Afrik-Foot",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VZ2ItQTJjRjMtLVF3RDh1TUZNSVllOFJ1VWF1UlpMVUR6T0hzeHBPMXJYbzZTb0dncGlPeVlvLWF3SVk0UXNPTDZvWVJYdDZjMGNnTldHem94MkZWUDBtR0g3dDNFR0V3NGRlVjFrWmdub0FQR2x1Wlo1MUJVdw?oc=5",
+     "at": "2026-11-07T08:30Z",
+     "eksik": false
     },
     {
-     "title": "Manchester United vs Aston Villa predictions: 5-1 Bet Builder tip, team news and odds",
-     "source": "Racing Post",
-     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOVEdqNkY4U2FsQURXS2ZlVmpoVGw1NGJvWThtQTNKcU9SdWo4R09oTFoyd0JUY3o2TGIzX09VR01VMEFFc1BPWUo1TXd5UVFSVzRJeHAzSWRPZ25qTVMxaUR4UGpWRE9DbzZSNW5SMU9lYTV5cVM4MlR6RFF6TlR4NUhMSnk3SG9vMkZpdjNVZkxWM3VWNk5kbnRpVDhOVGE2UFJjUWdMTDg5NFNzeEpxdHp5OERDWkVYbHJDeUVZcXEtSElZbkwyaWRCYjVTbndvYXVvWU9lcVA3MFQ4cExxR0NTOEdaQUpyMGZuMU5wN1hsUQ?oc=5",
-     "at": "2026-11-06T18:49Z",
+     "title": "Tottenham Hotspur Starting XI vs Leeds United: Confirmed Team News and Predicted Lineup",
+     "source": "EPL Index",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZUVqU29yRDBzWHpxV00zNC16RWl1RExyUVlHSHdJTFM5YUhLZWlsWFEzQWtHZmc4QjNkakJVS1drbTdmbjFWcU1zNDNKektBTHNubm55cjZzdGJKZTBwMldudFJTR01HSkx6eDFlUEV6eGIxcVBIMHpZclAwSEJpZEQ1cWlRNTRrNVZCaFpXVGt4SFVkWmRtMG5VTU9IeVRoa1drWHZUcHBPOERCV05VMV92ZXdhN09RMkd5UE5B?oc=5",
+     "at": "2026-11-07T07:20Z",
      "eksik": false
     }
    ],
    "away": [
     {
-     "title": "Wan-Bissaka Injury Update and Return Date: Late Test, Emery Says ‘Close’",
-     "source": "The False 9",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDNNZ1VKeGtxMzBlaEVzMVdqSU8wTWVUVkVfRE5BV2JseUp6NXF4cE5YQm1sUXFhY00wUnBUaXVadnhaMWxpZ09VY1BoT1JxV0JRdUpIWmlESWxMZE9ZYzBzaEExbzhTSUtpWU1TN0Y0anRZYVdTYUZtd3EzbnlNTXBpeVY?oc=5",
-     "at": "2026-11-06T22:30Z",
-     "eksik": true
-    },
-    {
-     "title": "Shea Lacey starts, Leny Yoro moves to centre-back: predicted Man United XI vs Aston Villa",
-     "source": "Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcXIzOUFocHpkSUZWSkdYTm5XX0JGcmNaQk01bHNFSWotdUdqa3E0SXU5WjIxN2RMSHN5ZGZ6dEczTVpib3h5T1dTX25YcXVvazJGLVB0U1hjaE44Qi1uSEFaYUg5ZVBnSVBEVFBCOUp4d0k3OUNPeXpNYm53VWVmdVRR?oc=5",
-     "at": "2026-11-06T22:00Z",
-     "eksik": false
-    },
-    {
-     "title": "Manchester United vs Aston Villa Preview, prediction, injury news & lineups | Premier League 2026-27",
-     "source": "Khel Now",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOblZWdmdWT29NNFZtODRIUEhaZGJsd0VoX25IWlQ4V3M2WFNKVjdpYU1LQlVDeUlteTZGRDN1OWZKbm1qWWllWUpBTnlhRHkwdF9VVy01cURNZ192MXpJa2p4WmRwN3dLbEQ5cW1rRE1FNk15UWpNSzA1eEhyNFBNX1dKc21PYURpclBZQUdaVmxWOUE4NFE?oc=5",
-     "at": "2026-11-06T19:17Z",
-     "eksik": true
-    },
-    {
-     "title": "Manchester United vs Aston Villa predictions: 5-1 Bet Builder tip, team news and odds",
-     "source": "Racing Post",
-     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOVEdqNkY4U2FsQURXS2ZlVmpoVGw1NGJvWThtQTNKcU9SdWo4R09oTFoyd0JUY3o2TGIzX09VR01VMEFFc1BPWUo1TXd5UVFSVzRJeHAzSWRPZ25qTVMxaUR4UGpWRE9DbzZSNW5SMU9lYTV5cVM4MlR6RFF6TlR4NUhMSnk3SG9vMkZpdjNVZkxWM3VWNk5kbnRpVDhOVGE2UFJjUWdMTDg5NFNzeEpxdHp5OERDWkVYbHJDeUVZcXEtSElZbkwyaWRCYjVTbndvYXVvWU9lcVA3MFQ4cExxR0NTOEdaQUpyMGZuMU5wN1hsUQ?oc=5",
-     "at": "2026-11-06T18:49Z",
-     "eksik": false
-    },
-    {
-     "title": "Man United news: Lisandro Martinez should not play for the Red Devils again",
+     "title": "Man United vs. Aston Villa: How to watch, date, time, live stream and TV channel for Premier League clash",
      "source": "Sports Mole",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVXV0ZjdHa1hUWG10eHdQcmZPS1VXOHdPYnl2ZU1iOUw3RF8tVEIyR0ZHUDhPRHRid1ZRVTczQ3N5RktPbnpaa3lxOVZtREZxUFhER18xTUVONVpGNnFwOW5aRzBQVk55ckp1eVJGSnVKU2RRREk2clB3dmtDcVpSTzZ1S21jME5DYWNNVUZGcGhwU3FWVFVrVi02Vmc1UERFWHVOZjVBNWgwaVFQTXB5cmg5b1gtdlFXd0xkSjNKcE4zZUxk?oc=5",
-     "at": "2026-11-06T18:27Z",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdzJmMlJUT2ExbkRMVTRXYXE1S21XV1FvdlBBNFZxYjA5aTBHZW8yVEh1MEhZcHNWZ29lRFI5THU1elExcWJjdXlVNk80cUd2Y0FtX2ZlZGpodDZ6d3EyOFU5RFphQnhoR3RlVE9ZTGI4d25IUWh5dDliMTNQRzlZaVJ4WWdfSmNwOWNyNXdPSTZMTVlmdko3QjlvN3RreVdzWENmTjJZOHhoVGVVN2txSS1GSjhheDc1VDlQd3NNY2R2QVZCdFJOSDRxRkVoRmlFZG1acEdEc21BYXFiRHFj?oc=5",
+     "at": "2026-11-07T09:42Z",
+     "eksik": false
+    },
+    {
+     "title": "Aston Villa team news, predicted line-up, TV details and match preview for Premier League trip to Manchester United",
+     "source": "Aston Villa Review",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX0FvZ243RVJxY3pmNW5fTjhXemJKSVBiYVJsYTZQWWVlRnJEVEJ3cklqTUpqSHlVSy02SnMzQVVSWXpOeG5aam03a0U4QldLU3VsZ3dhTTZyYU5VV3dJZ1pJdXI2UldGanVVYXdScXFUV2Fna3hxci1TNllvUG00U1J0UHRFV09MdnFZRmNwalQtSEgyd0RQNFljZlZza2VlXzF2S3pIdG5QUQ?oc=5",
+     "at": "2026-11-07T08:44Z",
+     "eksik": false
+    },
+    {
+     "title": "Manchester United vs Aston Villa preview, team news, h2h",
+     "source": "Afrik-Foot",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VZ2ItQTJjRjMtLVF3RDh1TUZNSVllOFJ1VWF1UlpMVUR6T0hzeHBPMXJYbzZTb0dncGlPeVlvLWF3SVk0UXNPTDZvWVJYdDZjMGNnTldHem94MkZWUDBtR0g3dDNFR0V3NGRlVjFrWmdub0FQR2x1Wlo1MUJVdw?oc=5",
+     "at": "2026-11-07T08:30Z",
+     "eksik": false
+    },
+    {
+     "title": "10 players set to miss Man United vs Aston Villa after injury blow confirmed",
+     "source": "Manchester Evening News",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOVE0aVZ3UmN0WEl1Z3RvblRLSGpzMzlCdnNDemZuaU85Zl9CR0gzMnJMZEtONkRLLVV3S0Z0WEZNQXJEcU5rbW02NG9LQmNTNHNqLVQ3RU5jZmFFdC05dmM4S0w5YnVOdjFvVEh3REVtc29PWS1RNF9yTE00TGpxMzhUUHdfYlNRTkZfT0NNVGFlV3l5dG5EZ0E0b3djcWNMNTloOVRXejNuODNIZXfSAbMBQVVfeXFMTWQ4TGNwWjF0RXRrWjI3eWZiallMM1ZMVzRGeUlmVkY1S2VHN2RXWGZFNnY4T2FEakJsMzY0cmhkMm45d3pLMnBvTkJ4UUlxRXI1S3NNMUtLZmE0djZmSUJPMkJvb1ZyR0p3QlF6RkVRckZOMjF5OVNRRTF4c1ZtUjYwbmRIV0kzTm5FQzdBSFVPd1o3czRSUVdxbjdLN1NSOWxWVk96aHk3alBzRFZSOUlrY0U?oc=5",
+     "at": "2026-11-07T06:30Z",
+     "eksik": true
+    },
+    {
+     "title": "Aston Villa News Today: Wan-Bissaka Test, Emery Deal Talks and Barcelona Errors (7 November)",
+     "source": "The False 9",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9VN3hVZWNGYWVuOXZJdVh5R2JlSVFtRU9SQVIwM1RCZ1R2X2U5eFRyajJrR2JPOWZQX1czM2FNSVBoaTJLeEtuMUZhVzhKdVJzTl9LR2JKR1RKREpfbXZRSGJOY3hWNjk5bHNNTjY3ekpSVGpUZ2dXMzRjUm9jQQ?oc=5",
+     "at": "2026-11-07T05:51Z",
      "eksik": false
     }
    ],
    "ai": {
     "home": {
-     "eksikler": [
-      {
-       "oyuncu": "Lisandro Martinez",
-       "neden": "sakat",
-       "onem": "kilit"
-      }
-     ],
-     "ozet": "Manchester United cephesinde Lisandro Martinez'in sakatlığı nedeniyle bu maçta forma giymesi beklenmiyor."
+     "eksikler": [],
+     "ozet": ""
     },
     "away": {
      "eksikler": [],
-     "ozet": "Aston Villa takımında bu maç öncesi öne çıkan önemli bir eksik bulunmuyor."
+     "ozet": ""
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-06T22:55Z",
-    "hash": "ff24559aff8e"
+    "at": "2026-11-07T11:36Z",
+    "hash": "770d2f031378"
    }
   },
   "E0|2026-11-08|Sunderland|Chelsea": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-08T14:00Z",
    "home": [
     {
-     "title": "Chelsea XI vs Sunderland: Confirmed team news and predicted lineup",
-     "source": "London Evening Standard",
-     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNWnlKT1NXa0x3Rm95T2k4R0hrMmI2T1BFb3lUOHBkdzd0QUtOVl9vZ1BESHVWNU4xSm5sSHBxbk9Ca1BqMkRxUG5GOTJNZUhISUxLNExUb3lnbXlSM05ybkF1dGtTNmhSMlYwQk85OW9pVDh3QXVBY3lOMTlrZGhKM2hwYVNJRk5MMUpFb2s5V1JOM19xUm9LUjgyMkRCRnhZX0NEWjNoOVBLbUhLQnhjcjgxbmV2NUlsZTZqZWViNUxsXzVXUVE5d2JTM2lpc1FKQkNWVFpHT1R3VlNaaVA3VmljcGs2V0pqZ1E?oc=5",
-     "at": "2026-11-06T22:27Z",
+     "title": "Sunderland vs Chelsea: Premier League preview, predictions, team news and TV info",
+     "source": "The Pride of London",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWXp1bGdFNlMwYlhQb2diNmtZNWp1MUQyNjdzVENYdjdwTURKcnBULXppMmVEOG5jbFh6OFVTMjdtZVNCeWs5R3l3dXBnQlRibmN1a2s0QlU5NUoxdHJxZ0FUeXJiNlhmOGhSZmFmc1pvempveXFhRzl3clQ4YXZlUDdhXzVlY1RXQTBudG92R0gwcXFhcTVIQTFmN0NkaDR3Z2J6RS1wQmhTR2s?oc=5",
+     "at": "2026-11-07T11:27Z",
      "eksik": false
     },
     {
-     "title": "Moisés Caicedo doubtful for Chelsea’s game against Sunderland",
-     "source": "We Ain't Got No History",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQ1U3RTdLUWhYUVV5ODhxQTNyNm1UZjBCSDVVUlNMUGFqVjdfMTkxZW5zVzR4YnNVRk1fM3EzYjh5dUx0S2RMRkFycnRpdXFJbEF0b3hJdllFRThiNHphbFJtaUZtMVJlampKRng2TEE1NFB5bFFEWFFUNnJPZ2FrdjBxQm1haTdldTdoR25aMUlHMVRVZ0M5MVBjMTFnWFVDSS1faXFjVXlNbjNHYVpab0k2U2drZ2h0ZzhV?oc=5",
-     "at": "2026-11-06T21:58Z",
-     "eksik": true
-    },
-    {
-     "title": "Predicted Chelsea Line-Up vs Sunderland: Key Injury Return, Striker Decision Determines Estevao's Role",
-     "source": "roundtable.io",
-     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPUjhnWS05aVltVjVHYW00WUxRdjdZR3lEWWRmWVhvdzZUX3M5ZXRScER2UDdBWjF3MFRoT1hqMVpyOWozTXRUck5tTlJ2S1Z5Z0dWS29FdmtxX3JCd0liUHE5NjZ4cUY3WEExUHc1UEtHVmNaS1RJRXlJSURWZGdzU2k2c29CTXc5OUh5ZnJGbXUwQnJ0UkQxZ1N2MnR4cU9vRTlZbER0blg1YXZtOE4zV3poa3J0MFYwVWhOX3FmUjBEOHBjbF9YNXVuem80RTZUaDdEYWp0SElLY2lBUEVibUVRTTRyMDgtc1NkcXpVR1pmYzlLZEdoTFU0MVU?oc=5",
-     "at": "2026-11-06T21:11Z",
-     "eksik": true
-    },
-    {
-     "title": "Xabi Alonso confirms Joao Pedro injury latest",
-     "source": "EPL Index",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTGw1VEdSbDVoTDZJbGFrME5uaUJaankwczV3SExwU0JvX2NYWDlqanpXdlppUXNrQnd4M082SHFOWlIzR2xxSlEwOE5LWnBrZy1jNm4tVmFOa2ZUVlJ4OVZ4Q3FZNWRieEdrY0JyazREQ0hXdkhzSkdmdDNuXzNLa3NnckE?oc=5",
-     "at": "2026-11-06T19:50Z",
-     "eksik": true
-    },
-    {
-     "title": "Sunderland Predicted Lineup vs Chelsea: Seven Changes",
+     "title": "Sunderland vs Chelsea Predicted Lineups and Team News: Caicedo and Martinez Checks",
      "source": "The False 9",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVlY0Zzk2eVRaYXpWZXdPTUt0Vl81Ym9hMGV6R091RG92bTVtczV3VDR3c1hFNjVBN3F5Sk01aDdnaUZXQ3NPamRObVJ3TEFKUFo5NXZ3OGJXVTNQdzRjajloQlVqZllwUHBDdU9za0xIX1p0RF9PXzZiSWw3cUJPS0taMGc1dG9GUThrd29KeGxvdDlsR0gw?oc=5",
-     "at": "2026-11-06T19:08Z",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NVkozUDBUd1U2c0FmVWJqSkxGdVdoLW9ObG5OQ0lSZEQ1aXV2Rm52eDEyTDlST2gwTklxYzg4cTR4Z2QtZWlkeV9uMnczajRsakVESVpuTVdGTWdyb3d6SHY5a2ZXdHVEU3liZExPOVJOdV9lS05aR0diOS1NaUk?oc=5",
+     "at": "2026-11-07T11:02Z",
+     "eksik": false
+    },
+    {
+     "title": "Sunderland vs Chelsea: Three Key Battles To Watch Out For",
+     "source": "Chelsea FC Online",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOejduSXRubGQxZEkwRS1wbFh3NlNWSVV6a0ZRdmtlSUdCbGlsS3Q5dFowVGlrTVhvRTVKRHFuV1ZIZjY5cU1iU3dFRVQ3cGZzMFN0V0V3ZWdkRmJ2bWN5djM1QWdtTS1rOTV6bFQ5dl9oa1E0b1BqZlQxa01wa3EweWJhY01CcjRYLWhwSUp6bTFTeTZrcXlhLQ?oc=5",
+     "at": "2026-11-07T10:22Z",
+     "eksik": true
+    },
+    {
+     "title": "Three doubts, eight out: Sunderland and Chelsea team news explained",
+     "source": "Sunderland Echo",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd0lJSHVneUpRV2NpSHVpVUtfRTJvbmEwZ3F4NGdLWG15c2xiV2RsMTA4VXFleVFsRUtGcFJVQUFLclpyTURRU2ZTVi1NS0k4bUx2cV94aVk0SkRNc3MwMzVWMkVteGd6SU9kcWFFdGFXN0tsMkpQUzF6eUt6aG1QRTMxTDZZdHJGbEtYS09ZRkIzRy1yYl9SenRoZEotdkcyNHpBRUN6QlJ0UExBM3dxaFFidHUwQWdfcEN6VDJwWXBVNmVqMGUzRThqXzZxelU?oc=5",
+     "at": "2026-11-07T10:00Z",
+     "eksik": true
+    },
+    {
+     "title": "How should Chelsea line up away against Sunderland?",
+     "source": "Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd3J6MzI3c0VfOVU0N1pBc3ZNZUkzSTFHRDFIQ2ZEcExzV1BmNTNZRTNKNFc5NUhGNTU0dGJxSDVBVU9IQU5nQjduQjBJRU42MWVpOTVMdFB1MzVlWUtmVUtYVWFycTV6U0lMeE02cm9sLU9YY3cyTlVvdUJsaklqY3VOQWxVX1pFcU45ODdR?oc=5",
+     "at": "2026-11-07T09:29Z",
      "eksik": false
     }
    ],
    "away": [
     {
-     "title": "Chelsea XI vs Sunderland: Confirmed team news and predicted lineup",
-     "source": "London Evening Standard",
-     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNWnlKT1NXa0x3Rm95T2k4R0hrMmI2T1BFb3lUOHBkdzd0QUtOVl9vZ1BESHVWNU4xSm5sSHBxbk9Ca1BqMkRxUG5GOTJNZUhISUxLNExUb3lnbXlSM05ybkF1dGtTNmhSMlYwQk85OW9pVDh3QXVBY3lOMTlrZGhKM2hwYVNJRk5MMUpFb2s5V1JOM19xUm9LUjgyMkRCRnhZX0NEWjNoOVBLbUhLQnhjcjgxbmV2NUlsZTZqZWViNUxsXzVXUVE5d2JTM2lpc1FKQkNWVFpHT1R3VlNaaVA3VmljcGs2V0pqZ1E?oc=5",
-     "at": "2026-11-06T22:27Z",
+     "title": "Sunderland vs Chelsea: Premier League preview, predictions, team news and TV info",
+     "source": "The Pride of London",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWXp1bGdFNlMwYlhQb2diNmtZNWp1MUQyNjdzVENYdjdwTURKcnBULXppMmVEOG5jbFh6OFVTMjdtZVNCeWs5R3l3dXBnQlRibmN1a2s0QlU5NUoxdHJxZ0FUeXJiNlhmOGhSZmFmc1pvempveXFhRzl3clQ4YXZlUDdhXzVlY1RXQTBudG92R0gwcXFhcTVIQTFmN0NkaDR3Z2J6RS1wQmhTR2s?oc=5",
+     "at": "2026-11-07T11:27Z",
      "eksik": false
     },
     {
-     "title": "Xabi Alonso gives date for major injury update on missing first team stars including Joao Pedro",
-     "source": "Talk Chelsea",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQeDNoT2Q0VlA2ZklKSXFqQmFvSlJZcnduV2M5SU9mMHdRSFFyVzZzVkFHR2tvajczTEVBQnR1bDRweVpKVEJmS2M5aUEtVmdTb1JWQkZQaVhrdHkyUWNXb2FVSUdra2EzSjNyeVBhaFFsU0E4Y0NHTlF6bzdXOEpNZ09ETVdvZnNxRjZLaGRDc1IxazdRakhuZlJsQ3B1R2pFTUhHQVFSQnhfeFBGbW9tUC1LWkp2azM3NFJyUGRhOV9HOWpSSnRBaDdCcktvYWZnTlHSAdcBQVVfeXFMUHZtNG5fUFlpVEdJTXBsYmdDZmI1dGsxQVNBYldyckhiOEdreDEwSVdMWlRpZWFZZ1B5NV8xdjFxZ3lZWXJfWjdQbGhCa3h1WjUyZ0doTF9UMVhtR1E2aG1TQndIc1d1c0JwM25lWm9md3BaX2h5T0p0TDRaS2VsM01YMXNkc0N3WUNZN3pCNjU4bXZibnJiSGF6SXRvOTFWMVNCQmo2WkE5UWVIX3hOMC1FWDFnZ0EzYmludUVTZm9ENTdHWE1ZNlZaVzRfaTN2RzhHMzlIVlE?oc=5",
-     "at": "2026-11-06T22:00Z",
+     "title": "'Biggest Game Of The Season': Sunderland Defender Makes Bold Claim Chelsea Might Have To Be Wary Of",
+     "source": "roundtable.io",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdmVrZ2dGRWhoWkdaTFhpdWVFY25fY0hzdnExNVVHS2hHOXJNck9BTVM4aV93aEpSUGVuOWFJS1pOUUNxU28xVzRjM1cyRmlkTmJINndlMGhDRFFfMFZqWHV3UkxqNm1sLVY4aDV6SERpclE2Q1RMWVd0YnUxdEFmQTZfdEFHUGNNbW80VlBrZnR0aFFweGsyT2xBQkpDZ043LUY3VXhXY1FNZ052U1NhUmdON2xLVElqNDBGS2NEOW1WSDVBVlFaU09SMk1GQV93S1JiaVp5d2ZtdW10dVdaMTlmdFliUFZsZm80cnVlaEsxUQ?oc=5",
+     "at": "2026-11-07T11:25Z",
+     "eksik": false
+    },
+    {
+     "title": "Sunderland vs Chelsea Predicted Lineups and Team News: Caicedo and Martinez Checks",
+     "source": "The False 9",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NVkozUDBUd1U2c0FmVWJqSkxGdVdoLW9ObG5OQ0lSZEQ1aXV2Rm52eDEyTDlST2gwTklxYzg4cTR4Z2QtZWlkeV9uMnczajRsakVESVpuTVdGTWdyb3d6SHY5a2ZXdHVEU3liZExPOVJOdV9lS05aR0diOS1NaUk?oc=5",
+     "at": "2026-11-07T11:02Z",
+     "eksik": false
+    },
+    {
+     "title": "Three doubts, eight out: Sunderland and Chelsea team news explained",
+     "source": "Sunderland Echo",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd0lJSHVneUpRV2NpSHVpVUtfRTJvbmEwZ3F4NGdLWG15c2xiV2RsMTA4VXFleVFsRUtGcFJVQUFLclpyTURRU2ZTVi1NS0k4bUx2cV94aVk0SkRNc3MwMzVWMkVteGd6SU9kcWFFdGFXN0tsMkpQUzF6eUt6aG1QRTMxTDZZdHJGbEtYS09ZRkIzRy1yYl9SenRoZEotdkcyNHpBRUN6QlJ0UExBM3dxaFFidHUwQWdfcEN6VDJwWXBVNmVqMGUzRThqXzZxelU?oc=5",
+     "at": "2026-11-07T10:00Z",
      "eksik": true
     },
     {
-     "title": "Moisés Caicedo doubtful for Chelsea’s game against Sunderland",
+     "title": "How should Chelsea line up away against Sunderland?",
      "source": "Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjdBQjlESGZhZ3B3TWk2WkJGRDJPdThmUVIxUGtLM2xyX29HSUwyRkVqb2pvSHdLZzdITEVjM0ktdG5QM0kwMjVqdzRGYURUMUlySWpRckZnTW80VkFvSTdYN1ZFSkFEYTYyTHUyQVpUeGpjbWF5LUFtUTFSTmFvVWFSajVvRkJOU0l3?oc=5",
-     "at": "2026-11-06T21:58Z",
-     "eksik": true
-    },
-    {
-     "title": "Predicted Chelsea Line-Up vs Sunderland: Key Injury Return, Striker Decision Determines Estevao's Role",
-     "source": "Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV1ZFSDVXWUUwZHVfSG5pa3JkREZJMkxJbnQxVkNWRnJ4ZFVTUW9pRFdNeXRuMHhXczdSdlluOEtKNlJxTEJ4andTYVE2VHVqbVRHeEZzdWhiRWFpU2ZHMEdhT1VIbVBFQlB3SVVBOGROTlV4d3hKdVRxSkJEdmt6NUliR1dxNEVoeHJVVXpB?oc=5",
-     "at": "2026-11-06T20:48Z",
-     "eksik": true
-    },
-    {
-     "title": "Xabi Alonso confirms Joao Pedro injury latest",
-     "source": "EPL Index",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTGw1VEdSbDVoTDZJbGFrME5uaUJaankwczV3SExwU0JvX2NYWDlqanpXdlppUXNrQnd4M082SHFOWlIzR2xxSlEwOE5LWnBrZy1jNm4tVmFOa2ZUVlJ4OVZ4Q3FZNWRieEdrY0JyazREQ0hXdkhzSkdmdDNuXzNLa3NnckE?oc=5",
-     "at": "2026-11-06T19:50Z",
-     "eksik": true
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd3J6MzI3c0VfOVU0N1pBc3ZNZUkzSTFHRDFIQ2ZEcExzV1BmNTNZRTNKNFc5NUhGNTU0dGJxSDVBVU9IQU5nQjduQjBJRU42MWVpOTVMdFB1MzVlWUtmVUtYVWFycTV6U0lMeE02cm9sLU9YY3cyTlVvdUJsaklqY3VOQWxVX1pFcU45ODdR?oc=5",
+     "at": "2026-11-07T09:29Z",
+     "eksik": false
     }
    ],
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Sunderland takımında Chelsea maçı öncesi öne çıkan önemli bir eksik bulunmuyor."
+     "ozet": "Maç tarihindeki güncel sakatlık ve ceza durumu için güvenilir kaynaklarda yeterli ve doğrulanmış resmi takım haberi bulunmamaktadır."
     },
     "away": {
-     "eksikler": [
-      {
-       "oyuncu": "Moisés Caicedo",
-       "neden": "belirsiz",
-       "onem": "kilit"
-      }
-     ],
-     "ozet": "Chelsea'de Moisés Caicedo'nun Sunderland maçı öncesi durumu belirsizliğini koruyor."
+     "eksikler": [],
+     "ozet": "Maç tarihindeki güncel sakatlık ve ceza durumu için güvenilir kaynaklarda yeterli ve doğrulanmış resmi takım haberi bulunmamaktadır."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-06T22:55Z",
-    "hash": "8df6b9dfc7ea"
+    "at": "2026-11-07T11:36Z",
+    "hash": "2a77283e76d1"
    }
   },
   "T1|2026-10-26|Besiktas|Buyuksehyr": {
@@ -15555,171 +15527,171 @@
    "kickoff": "2026-11-06T17:00Z"
   },
   "T1|2026-11-07|Eyupspor|Kocaelispor": {
-   "fetched_at": "2026-11-06T22:55Z",
-   "kickoff": "2026-11-07T10:30Z",
-   "home": [
-    {
-     "title": "Eyüpspor’u kolay sanma, milli arada moralsiz kalma -",
-     "source": "Özgür Kocaeli",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOWJCZDhiM3BOTFBqdVB4a0hTV05yNXlGQU9tS2FQNE1DOFllVlE3dklSZlVTVzhyTXNoNlBXdjFWUWZYOWhKWDBsZFZlY1pncjFSMzhkUjlnMVh2UGlmdDNYYmxuR2VJb3ZKRmRXdVJFX0RWVUVNdGE4c2hSZHFhM091YUpWeW00QnpzYXFYQmtCc1prMjFxUVE0MkJyQTFn?oc=5",
-     "at": "2026-11-06T17:10Z",
-     "eksik": false
-    },
-    {
-     "title": "25 yıl sonra gelen büyük sevinç, haklı gurur",
-     "source": "Özgür Kocaeli",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdGQzRnlLX2dTaWJlMkdQaURuUlhkazVYLVpLdXhTTllUdFFONFNHNHZ1SGdweGJwcUVVTTQ4M1lpRGVlLVczWTFpWFd0QVNLYktJSDctYTNTbXFKY1ladGh0RU93MlByclF2QllDclEzN1czaVFRQnRMQ2kzVmQyLWczVndkaXM4RWRib2VKNTNVcHlpY1JpYVhLdWJOcUg5MzZmaUR6MDgxMllkY2RfTmp3OA?oc=5",
-     "at": "2026-11-06T15:00Z",
-     "eksik": false
-    },
-    {
-     "title": "Kocaelispor'da 3 futbolcu eski takımına rakip olacak",
-     "source": "Nokta Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb1dwWFV6dDhPUEU4d2VMTmI4U282REJPS0JDOEJvQ2lvT3Z1VEVRUTg3RThvX25YbFlNMFF2U1ZoLVktcnYySGFaSlB5aTlIS2pOWGZ2VGNzNFdKb2pDTW9mMXlJNHhIYnI1SGRDR0h2emdSbWlBV2M3b3FSd2tuN0h0OTlnQWRrNm9yd005TjllUXo4cUdGV01lMFdjNDlUbkFaYTRpclVUNmZtcE5ZYTZwOA?oc=5",
-     "at": "2026-11-06T11:19Z",
-     "eksik": false
-    },
-    {
-     "title": "Amedspor'a Galatasaray maçı öncesi şok! TFF resmi siteden kararı ilan etti",
-     "source": "Bursa Hakimiyet",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQVFtRUQyZExSZlVlMGpkU3lxVzNNVEg4YWdNR0FmUHlTSWFkeEV5MlZQODhBQjNESUZHNEdqVkJOUXJtNy0tWC0zUGU3Mk5iQWFLMFBBejhNeXMwZmR1d1BBRFplZUpTeEZDbG85R2Nvemx2aW5KMmV3RjdMMkZoM2hBUUlRQlA4NnJ3UUt1SGNreEJDQkwzZWhabEMxODg0TjB4RWdXLVFYYS15QklqWUVHejlWR0dONTFtLWxySkdudw?oc=5",
-     "at": "2026-11-06T10:20Z",
-     "eksik": false
-    },
-    {
-     "title": "Amedspor'un Golcüsü Samuel Ballet, Galatasaray maçı öncesi cezalı duruma mı düştü?",
-     "source": "İşçi Haber",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSkx4U1ZnTzdiUkVmeC1LQUlhLTNJZ2Nna09ncENJcHloX0hYSGNuV1NxM0hHdjR1ZjRFNEhnQnJVaWFKbXktbk1DR1NCTkdYakJpcld1dHFPMUxKZzhiUzRtRlNULTFEV2N3alhBdHAzaElhbVdKOEU4aVp5WkhmZ2pvRHNXenE4WWVCQjRKQWdTQnFrZlVoYmZVQlB2NTRuRlBMWkZiaUJhUHpSTHRzVTFDOUlQclZz?oc=5",
-     "at": "2026-11-06T09:09Z",
-     "eksik": true
-    }
-   ],
-   "away": [
-    {
-     "title": "Kaleci Serhat Öztaşdelen'in aday kadro sevinci",
-     "source": "https://aktuelbursa.com/",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRUFJRX2EyMzAyMi1ZLWI5ODRvb1pUODV0VUpVd0pSR1FObDF5QzlJTjZ4em9uNDRBa2pyeTJhTG1BMlpYa0VqTFRaSXlJUzJveFNjcXc4bVRjSzlkUkxkVXh6ejMwY2RFZUNjU0VLQlR4ZHlYajJUNGdLR1BOeEk?oc=5",
-     "at": "2026-11-06T19:17Z",
-     "eksik": false
-    },
-    {
-     "title": "Sergen Yalçın, Serhat Öztaşdelen'li Milli Takım seçkisini açıkladı",
-     "source": "BBC",
-     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zNjFJUzh1Q3VzWkdpX1lneUkwTzNlS0t2cndjSW9nMkhoVkxlejVZZjNDMW5OX181N0djeDVqSGs4VDJUaWtkWndUVV80TzVIVTFrUmtUbHBOZGs5SHfSAWNBVV95cUxOMHc2dHBGVlRRXzh0OExBR1lJX1JHVlhkTzJ3QnI1RV9CbDVzZVRhdGlxTVVfSVZLSU1mdUE3R1lOTmZhOHpWYWNMQzlKM2dSR3RqR0kzM3VjbXJLOGZKc0o0NEE?oc=5",
-     "at": "2026-11-06T18:41Z",
-     "eksik": false
-    },
-    {
-     "title": "Kocaelispor’dan milli davet alan Serhat Öztaşdelen’e tebrik",
-     "source": "Canlı Gaste",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUnpBSU1acVdQYW9Rb0c4X19wM1R1YndjOFk1YnJQSGtnblR4b002ZjdKcWZxblZrVG5jWWJLcF9XcVdONW9QdXJwdGhSQ2RfQjVUMDJaMHlXRHV6V2w4ZTl4VTNmaFp1SHRfREpya0FaT3VVTWdJbFhFUF9Ub1FDRGxyWlgtd3NEQWZLbGduWUlnQzhyRk9XV3J3?oc=5",
-     "at": "2026-11-06T13:33Z",
-     "eksik": false
-    },
-    {
-     "title": "A Milli Takım'da sürpriz isim! Sergen Yalçın açıkladı, genç kaleci kendinden geçti: Sevinci gündem oldu",
-     "source": "tv100 Haber",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUy0tN1VMak83cm5xQlRHNUdMUmM4TzVmUk40Ylp4bU40dk5hclUzdjN1dE03MElKakMtZk5NX3Y1ZnVkTGtXM09weUREU1o3ZUNySHYzSlR2RWpWS2RIQXNzc3dPeDFtZnJWcWtoRnc2TUxhQmRGb1RQZV9Mcm9QSGFwS0UxS01KX2pqMmgxS1RoajBlbHRlcFZjSUZmOUhkVlFTNVFhS2l4MVhGQVI3ZG1IcmNJcHBNUWxZRVNxdFp2YkVsWkxXN3o0ZGxpajg?oc=5",
-     "at": "2026-11-06T13:10Z",
-     "eksik": false
-    },
-    {
-     "title": "Kocaelispor Serhat Öztaşdelen'in ilk kez milli davet aldığını öğrendiği anları paylaştı",
-     "source": "Yeniçağ Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSVhEOUpWWFNGNWh3RXp5bmJ4QlVYLU9WWGxOcEoyX2l3ZFZXRE5nRW9ERjlBaXJlRlh1eEZhazhKbFVxN2w3QkZ0OTZaMWFJX3paY2Q2Smtwb3ZvcDQyc0wxTGFqSVE4SVZzVE9oSmkxUEVtcFQ5eWdOY0NETWNFV2pOTktMUU8tT2U5OXhjcWVGbUNpX1FCTm90SVFRQmdqcUc0Q1VRYmw5aUxTeVdYVWxVaGw0X0oxWWlVbmFaVUpVT3E5VFZiVWdLVQ?oc=5",
-     "at": "2026-11-06T13:07Z",
-     "eksik": false
-    }
-   ],
    "ai": {
-    "home": {
-     "eksikler": [],
-     "ozet": "Eyüpspor'da bu maç öncesinde forma giyemeyecek veya durumu belirsiz önemli bir eksik bulunmuyor."
-    },
+    "at": "2026-11-06T22:55Z",
     "away": {
      "eksikler": [],
      "ozet": "Kocaelispor'da bu karşılaşma öncesi sakat veya cezalı oyuncu rapor edilmedi."
     },
-    "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-06T22:55Z",
-    "hash": "50ea4ca4632c"
-   }
+    "hash": "50ea4ca4632c",
+    "home": {
+     "eksikler": [],
+     "ozet": "Eyüpspor'da bu maç öncesinde forma giyemeyecek veya durumu belirsiz önemli bir eksik bulunmuyor."
+    },
+    "model": "gemini-3.5-flash-lite (aramasız)"
+   },
+   "away": [
+    {
+     "at": "2026-11-06T19:17Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRUFJRX2EyMzAyMi1ZLWI5ODRvb1pUODV0VUpVd0pSR1FObDF5QzlJTjZ4em9uNDRBa2pyeTJhTG1BMlpYa0VqTFRaSXlJUzJveFNjcXc4bVRjSzlkUkxkVXh6ejMwY2RFZUNjU0VLQlR4ZHlYajJUNGdLR1BOeEk?oc=5",
+     "source": "https://aktuelbursa.com/",
+     "title": "Kaleci Serhat Öztaşdelen'in aday kadro sevinci"
+    },
+    {
+     "at": "2026-11-06T18:41Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zNjFJUzh1Q3VzWkdpX1lneUkwTzNlS0t2cndjSW9nMkhoVkxlejVZZjNDMW5OX181N0djeDVqSGs4VDJUaWtkWndUVV80TzVIVTFrUmtUbHBOZGs5SHfSAWNBVV95cUxOMHc2dHBGVlRRXzh0OExBR1lJX1JHVlhkTzJ3QnI1RV9CbDVzZVRhdGlxTVVfSVZLSU1mdUE3R1lOTmZhOHpWYWNMQzlKM2dSR3RqR0kzM3VjbXJLOGZKc0o0NEE?oc=5",
+     "source": "BBC",
+     "title": "Sergen Yalçın, Serhat Öztaşdelen'li Milli Takım seçkisini açıkladı"
+    },
+    {
+     "at": "2026-11-06T13:33Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUnpBSU1acVdQYW9Rb0c4X19wM1R1YndjOFk1YnJQSGtnblR4b002ZjdKcWZxblZrVG5jWWJLcF9XcVdONW9QdXJwdGhSQ2RfQjVUMDJaMHlXRHV6V2w4ZTl4VTNmaFp1SHRfREpya0FaT3VVTWdJbFhFUF9Ub1FDRGxyWlgtd3NEQWZLbGduWUlnQzhyRk9XV3J3?oc=5",
+     "source": "Canlı Gaste",
+     "title": "Kocaelispor’dan milli davet alan Serhat Öztaşdelen’e tebrik"
+    },
+    {
+     "at": "2026-11-06T13:10Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUy0tN1VMak83cm5xQlRHNUdMUmM4TzVmUk40Ylp4bU40dk5hclUzdjN1dE03MElKakMtZk5NX3Y1ZnVkTGtXM09weUREU1o3ZUNySHYzSlR2RWpWS2RIQXNzc3dPeDFtZnJWcWtoRnc2TUxhQmRGb1RQZV9Mcm9QSGFwS0UxS01KX2pqMmgxS1RoajBlbHRlcFZjSUZmOUhkVlFTNVFhS2l4MVhGQVI3ZG1IcmNJcHBNUWxZRVNxdFp2YkVsWkxXN3o0ZGxpajg?oc=5",
+     "source": "tv100 Haber",
+     "title": "A Milli Takım'da sürpriz isim! Sergen Yalçın açıkladı, genç kaleci kendinden geçti: Sevinci gündem oldu"
+    },
+    {
+     "at": "2026-11-06T13:07Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSVhEOUpWWFNGNWh3RXp5bmJ4QlVYLU9WWGxOcEoyX2l3ZFZXRE5nRW9ERjlBaXJlRlh1eEZhazhKbFVxN2w3QkZ0OTZaMWFJX3paY2Q2Smtwb3ZvcDQyc0wxTGFqSVE4SVZzVE9oSmkxUEVtcFQ5eWdOY0NETWNFV2pOTktMUU8tT2U5OXhjcWVGbUNpX1FCTm90SVFRQmdqcUc0Q1VRYmw5aUxTeVdYVWxVaGw0X0oxWWlVbmFaVUpVT3E5VFZiVWdLVQ?oc=5",
+     "source": "Yeniçağ Gazetesi",
+     "title": "Kocaelispor Serhat Öztaşdelen'in ilk kez milli davet aldığını öğrendiği anları paylaştı"
+    }
+   ],
+   "fetched_at": "2026-11-06T22:55Z",
+   "home": [
+    {
+     "at": "2026-11-06T17:10Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOWJCZDhiM3BOTFBqdVB4a0hTV05yNXlGQU9tS2FQNE1DOFllVlE3dklSZlVTVzhyTXNoNlBXdjFWUWZYOWhKWDBsZFZlY1pncjFSMzhkUjlnMVh2UGlmdDNYYmxuR2VJb3ZKRmRXdVJFX0RWVUVNdGE4c2hSZHFhM091YUpWeW00QnpzYXFYQmtCc1prMjFxUVE0MkJyQTFn?oc=5",
+     "source": "Özgür Kocaeli",
+     "title": "Eyüpspor’u kolay sanma, milli arada moralsiz kalma -"
+    },
+    {
+     "at": "2026-11-06T15:00Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdGQzRnlLX2dTaWJlMkdQaURuUlhkazVYLVpLdXhTTllUdFFONFNHNHZ1SGdweGJwcUVVTTQ4M1lpRGVlLVczWTFpWFd0QVNLYktJSDctYTNTbXFKY1ladGh0RU93MlByclF2QllDclEzN1czaVFRQnRMQ2kzVmQyLWczVndkaXM4RWRib2VKNTNVcHlpY1JpYVhLdWJOcUg5MzZmaUR6MDgxMllkY2RfTmp3OA?oc=5",
+     "source": "Özgür Kocaeli",
+     "title": "25 yıl sonra gelen büyük sevinç, haklı gurur"
+    },
+    {
+     "at": "2026-11-06T11:19Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb1dwWFV6dDhPUEU4d2VMTmI4U282REJPS0JDOEJvQ2lvT3Z1VEVRUTg3RThvX25YbFlNMFF2U1ZoLVktcnYySGFaSlB5aTlIS2pOWGZ2VGNzNFdKb2pDTW9mMXlJNHhIYnI1SGRDR0h2emdSbWlBV2M3b3FSd2tuN0h0OTlnQWRrNm9yd005TjllUXo4cUdGV01lMFdjNDlUbkFaYTRpclVUNmZtcE5ZYTZwOA?oc=5",
+     "source": "Nokta Gazetesi",
+     "title": "Kocaelispor'da 3 futbolcu eski takımına rakip olacak"
+    },
+    {
+     "at": "2026-11-06T10:20Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQVFtRUQyZExSZlVlMGpkU3lxVzNNVEg4YWdNR0FmUHlTSWFkeEV5MlZQODhBQjNESUZHNEdqVkJOUXJtNy0tWC0zUGU3Mk5iQWFLMFBBejhNeXMwZmR1d1BBRFplZUpTeEZDbG85R2Nvemx2aW5KMmV3RjdMMkZoM2hBUUlRQlA4NnJ3UUt1SGNreEJDQkwzZWhabEMxODg0TjB4RWdXLVFYYS15QklqWUVHejlWR0dONTFtLWxySkdudw?oc=5",
+     "source": "Bursa Hakimiyet",
+     "title": "Amedspor'a Galatasaray maçı öncesi şok! TFF resmi siteden kararı ilan etti"
+    },
+    {
+     "at": "2026-11-06T09:09Z",
+     "eksik": true,
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSkx4U1ZnTzdiUkVmeC1LQUlhLTNJZ2Nna09ncENJcHloX0hYSGNuV1NxM0hHdjR1ZjRFNEhnQnJVaWFKbXktbk1DR1NCTkdYakJpcld1dHFPMUxKZzhiUzRtRlNULTFEV2N3alhBdHAzaElhbVdKOEU4aVp5WkhmZ2pvRHNXenE4WWVCQjRKQWdTQnFrZlVoYmZVQlB2NTRuRlBMWkZiaUJhUHpSTHRzVTFDOUlQclZz?oc=5",
+     "source": "İşçi Haber",
+     "title": "Amedspor'un Golcüsü Samuel Ballet, Galatasaray maçı öncesi cezalı duruma mı düştü?"
+    }
+   ],
+   "kickoff": "2026-11-07T10:30Z"
   },
   "T1|2026-11-07|Galatasaray|Amedspor": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-07T16:00Z",
    "home": [
     {
-     "title": "Galatasaray'da Victor Osimhen Neden Ameliyat Olacak? Ne Kadar Kadroda Yok?",
-     "source": "www.medyahaber.com",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRFNvN1p0RGE5OHRPTW5jZ0pQVEVwZkJfZlZXNW1haG9Yc2dJcjU0YWhPcTllOHZMTVQyVEF0MzkzT0xGeUJKbFgzVmk1U2Y4ay1pSWhtTWZGYnVDSVRBZnN5UjUxQ2pha1dkLU5hMnFKWEZRVXMxNHlTN05xLW5MeDVlUS1OUURGdno4VjdRc3NtTTA1eUpR?oc=5",
-     "at": "2026-11-06T22:20Z",
+     "title": "Victor Osimhen, sol dizindeki sakatlık nedeniyle ameliyat edildi.",
+     "source": "Dürüst Haber",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOWF5TzFKazhIZkVVejVTUWMySEhGYzJWS05zOXhhcmYtRWoyOXI3MVVXU3c1SnJyQ2lDV2tGTldqbl9sM1B4cFA3aEpHNmxGaW1tNnRxVTE4R3Fza3FEQTNCQWxoMWhheFhoV0NYZnNSSEdrQ1dPdWdPcUJpTlotREh4SDlRdDVuejBmQ3lTTUx0SFFNWVI1RVp2ZG93ZG8?oc=5",
+     "at": "2026-11-07T11:24Z",
      "eksik": true
     },
     {
-     "title": "Galatasaray'dan Osimhen için sakatlık açıklaması: 'Operasyon geçirecek!'",
-     "source": "Güven Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR3RYLUw2SW9zSm9yUUM1T1RuSkFERUwzcTdzcjl3R2JCNzQ1WldaN1Z2N255NGx2WUFfd0dDS01aV3FXalFMUVlEd0hLbHhUOTRHbmVFVk9DZFpWcnpfSXR0OWN3WWZlSkxFckNMR3dlMnhGVERQOFk4ajJOZWg5dUpqYlJCeG5FZWo1LU1uckFISmwtX2hBaTd0cEd2YWlKTlYyME81TkRKREJLalE?oc=5",
-     "at": "2026-11-06T21:53Z",
+     "title": "Galatasaray ile Amedspor liderlik için karşılaşacak: Muhtemel ilk 11'ler",
+     "source": "birgun.net",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbXBkUThQUnMybDA0RFBDcUgyb203WkY5MG1GaUNsM25iWm1YTjlOUkVKZld1Q1lhWUxYMEJ3Y09jU3k1cVFwYTlialZOdGtIMWpIVjlGcTB1bVR1N1ZxV04tWEF0MUh0empfd3ByZy10aVVzT2dQMV8zSGZIamFNTDRxNVVNcU0ya3VidjdDSGFJU1NoUWJRNHRzY284UU81S3lTaTBSQ1dhYTg?oc=5",
+     "at": "2026-11-07T10:59Z",
+     "eksik": false
+    },
+    {
+     "title": "Galatasaray'da Victor Osimhen ameliyat edildi: Kulüpten sağlık durumuna ilişkin açıklama",
+     "source": "Aydınlık",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMDBienEzc2lPS3pFbUd0a2hLYUJucnh1QVVRWlVqN3lsdUxMSU95QVY3eGJ4bVh1UUZhd0kyMmhVSFZRS3VxWnVZMkRWaVpDMVk1QzZBVWVLMjFJNWxtc2E1ZllxOU9YOVFDLVpkTlRCUG8zY1BYNFktZEdMYWxFY0FrcFhNR2FTUG5DSWQ3ejJXRWwx?oc=5",
+     "at": "2026-11-07T10:51Z",
      "eksik": true
     },
     {
-     "title": "Galatasaray - Amedspor maçı saat kaçta, hangi kanalda? Osimhen oynayacak mı?",
-     "source": "İnternet Haber",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaXJ6djJEY1BhbFZrMEdTdVdEWkFCYlZvamVxelc2VzJRaEVpR1V1YWtiUXp5VGJzTGN5YVBZaFA1UTdsamxoYktyb0Y3akFKYklHUHpXVUstRmNCWkxDZVRuVlRrdVc4YnJ5RTk4YWlndVBNQTF1NjVqdkM5RllLM3F5bGFBZC0xV1JFM2lPd1ZxRTA4MU1wOWtLaDI1UHR6ZTRvZ2wzRGVNVVRZemgxMVJ1ZUw?oc=5",
-     "at": "2026-11-06T21:21Z",
+     "title": "Galatasaray ile Amed SK Maçı: Yayın Bilgileri ve Kadro Detayları",
+     "source": "Haber S Balıkesir",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTUdyXzh1eEJBUkNuN21aZ2JGbnZkcGdENjUtWFlvbWNDMFk1Y3lQSGJ4c0JwcEFpWVBCY1JVbXNjZDdiX21lRTg2ZlJJczR0Wmh6TzEtOEJ0RnY4Skl0bGtXLVJSVm8yblVRTXY3dVFjNk54LWpSU2l2YnkxeVRvZWswWjJjeU9GTk94LWlHc3RtSXFhRnR0T3JGdU1zaHc3c2tGTw?oc=5",
+     "at": "2026-11-07T10:21Z",
      "eksik": false
     },
     {
-     "title": "Bu 11'i Sporx'te kurdum. Sen de kur hangi kadro daha iyi tartışalım :)",
-     "source": "Sporx.com",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BVUpkWUtmbXJuYTZzVWFDSVhyOTBYZ2pOc1hWVFg1WFBtZUlHc1M2SkpvUDRoOExoenR6NUk3RFQyNUk1dFVUN1JVU1FTZ3kyVmRybi1Hbi0tcG9lZDBaQVFfUGNQOEdSdDNmbVdPalNZcFZxUkJBb09tXzNHdVU?oc=5",
-     "at": "2026-11-06T20:41Z",
-     "eksik": false
-    },
-    {
-     "title": "Galatasaray Amedspor muhtemel 11! GS Amed maç kadrosu ilk 11’de kimler olacak?",
-     "source": "TGRT Haber",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxVlpVQkZEeDBQeGFtUTQ0NnoyV3ptNHpRSTZTbVlpVl9zeHJ0UTk1aVk5LVNuRFNWbTdNejFxSHAzOF8xblA3cHdzZklEVnVEZU84dkItZ243TXhFeVZ0cnBjbjItbHJuUUZTUE90SkFZclUwRmc?oc=5",
-     "at": "2026-11-06T20:10Z",
+     "title": "Galatasaray ve Amedspor'un Oynayacağı Maçta Muhtemel İlk 11 Belli Oldu!",
+     "source": "Şırnak Haber 73",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV0JCQUdoTThXQkRuaW5SemM2eXM2cVBsMlFyckpRRnpjQ2V4clg4Z0RfVXJ1bE5xVnNGalJvM3dzclUxYmlXdTFDOG1LcnFlb0hwYmNFZnJhUHJwVmpWY3hjUXdvMm1QMGthQ1JJRFlwRWp6UHMtdkZSTDlUcEdSZlA5VTRDMmNzYjd1eTFxTGt3UVVReF8xOUJ1R0h6ZGtzWHZ3aXg2dHg0QdIBugFBVV95cUxPUTRIYUtHU0l4am5na01ma3ZTZTJIMW9KcENaVFNNUUdRMVRHNUl3MGh1UlJTbGJYV3p1V2NyalVHc1lPRWMxU0IxRl9ESTNaa3JCbmMtUUFIMWh4RnhSNkoxcUlLR1NxV01oVXZYNFZfaVB4VEZRaE5ZQnp4X2M0ODUxNlJQZ3htOW1aNkxFVG15QU1EQjdiemdrYjR2aE9PQzhoZGpSaUMzYURFU2FaTW5zYk1heUlvcFE?oc=5",
+     "at": "2026-11-07T10:14Z",
      "eksik": false
     }
    ],
    "away": [
     {
-     "title": "Galatasaray - Amedspor maçı saat kaçta, hangi kanalda? Osimhen oynayacak mı?",
-     "source": "İnternet Haber",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaXJ6djJEY1BhbFZrMEdTdVdEWkFCYlZvamVxelc2VzJRaEVpR1V1YWtiUXp5VGJzTGN5YVBZaFA1UTdsamxoYktyb0Y3akFKYklHUHpXVUstRmNCWkxDZVRuVlRrdVc4YnJ5RTk4YWlndVBNQTF1NjVqdkM5RllLM3F5bGFBZC0xV1JFM2lPd1ZxRTA4MU1wOWtLaDI1UHR6ZTRvZ2wzRGVNVVRZemgxMVJ1ZUw?oc=5",
-     "at": "2026-11-06T21:21Z",
+     "title": "Galatasaray ile Amedspor liderlik için karşılaşacak: Muhtemel ilk 11'ler",
+     "source": "birgun.net",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbXBkUThQUnMybDA0RFBDcUgyb203WkY5MG1GaUNsM25iWm1YTjlOUkVKZld1Q1lhWUxYMEJ3Y09jU3k1cVFwYTlialZOdGtIMWpIVjlGcTB1bVR1N1ZxV04tWEF0MUh0empfd3ByZy10aVVzT2dQMV8zSGZIamFNTDRxNVVNcU0ya3VidjdDSGFJU1NoUWJRNHRzY284UU81S3lTaTBSQ1dhYTg?oc=5",
+     "at": "2026-11-07T10:59Z",
      "eksik": false
     },
     {
-     "title": "Galatasarayspor – Amedspor Maçının İlk 11’leri",
-     "source": "Güneydoğu Güncel",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYXdWV2dmbVdtMnRRRFVxRzBycjB2aVE2TDVvX0lhcWVoZ05iTFBLeTdSeTdaM1FJVXpSQVJ1enJwbzBocEd0VkdGR1lxUGt0eUVLUGZCYjZXeFNVeVFkQ1RJMmRDTjBFQVZXZ2d3Znp5WjZEb3o0QnIxTUliZWVadDlLRHcwYWhKLWNz?oc=5",
-     "at": "2026-11-06T20:56Z",
+     "title": "Galatasaray ve Amedspor'un Oynayacağı Maçta Muhtemel İlk 11 Belli Oldu!",
+     "source": "Şırnak Haber 73",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV0JCQUdoTThXQkRuaW5SemM2eXM2cVBsMlFyckpRRnpjQ2V4clg4Z0RfVXJ1bE5xVnNGalJvM3dzclUxYmlXdTFDOG1LcnFlb0hwYmNFZnJhUHJwVmpWY3hjUXdvMm1QMGthQ1JJRFlwRWp6UHMtdkZSTDlUcEdSZlA5VTRDMmNzYjd1eTFxTGt3UVVReF8xOUJ1R0h6ZGtzWHZ3aXg2dHg0QdIBugFBVV95cUxPUTRIYUtHU0l4am5na01ma3ZTZTJIMW9KcENaVFNNUUdRMVRHNUl3MGh1UlJTbGJYV3p1V2NyalVHc1lPRWMxU0IxRl9ESTNaa3JCbmMtUUFIMWh4RnhSNkoxcUlLR1NxV01oVXZYNFZfaVB4VEZRaE5ZQnp4X2M0ODUxNlJQZ3htOW1aNkxFVG15QU1EQjdiemdrYjR2aE9PQzhoZGpSaUMzYURFU2FaTW5zYk1heUlvcFE?oc=5",
+     "at": "2026-11-07T10:14Z",
      "eksik": false
     },
     {
-     "title": "Galatasaray Amedspor muhtemel 11! GS Amed maç kadrosu ilk 11’de kimler olacak?",
-     "source": "TGRT Haber",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxVlpVQkZEeDBQeGFtUTQ0NnoyV3ptNHpRSTZTbVlpVl9zeHJ0UTk1aVk5LVNuRFNWbTdNejFxSHAzOF8xblA3cHdzZklEVnVEZU84dkItZ243TXhFeVZ0cnBjbjItbHJuUUZTUE90SkFZclUwRmc?oc=5",
-     "at": "2026-11-06T20:10Z",
-     "eksik": false
-    },
-    {
-     "title": "Amedspor kadro",
-     "source": "Sporx.com",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yNXdjWGhtZW85U1cydW9oaEw4MUdidGR0dU1XMUlzM2tPOWdLRHdCZ1BNN3NFRmVGclVZSlAtV0RiZEstOHU3YXUtdTQ3VVFoWVpzU3AyZmdXSnJQbmpfRHZuTUxSTzEx?oc=5",
-     "at": "2026-11-06T19:28Z",
-     "eksik": false
-    },
-    {
-     "title": "Osimhen'den Galatasaray'a sakatlık şoku! Amedspor maçında oynayacak mı?",
-     "source": "Doğruhaber",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbzBvd1dybmpvRmxjbUp2X0dZc0sxYUVMTVlVRUxIb21hcTBYQWtSa1dhbjhvbVhyUWt5Y3ZKZUZiYTM2SFhyVENqYVhibjJ4U3lOdFVnS2V3cEQwQ1h0QkRFZlM0c05tc3ZfMEdNQ3BrVXFuRUs1RGp3VlBtWVNRN3l3ck9lUmdpMWFTVTF2Z21jYjM1NEZrQg?oc=5",
-     "at": "2026-11-06T16:50Z",
+     "title": "Galatasaray-Amedspor maçında muhtemel 11'ler, sakat ve cezalı futbolcular belli oldu",
+     "source": "Alanya Postası",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVHBIcmZOWGRzV2huNjlydERqX1ZzZFBpLWVselU0cWJBX2piS3BCVjZJcGhIU0cwQndHaExjY2phdXBoendYVEFpRURiZUttajZ2czBndmJfMHNSeEhDSmJsc0ZEZjJXcEtENzdydGxwanB2SUdqeG01aHdiUDVObldsWDlLZDNfSm1JNFVIcFJIM24xZHMxMGsyUHhyTzJOM2hGLWtTbm54WGZyenM2dHNLQmwtQQ?oc=5",
+     "at": "2026-11-07T09:23Z",
      "eksik": true
+    },
+    {
+     "title": "Galatasaray'da 2 Zorunlu Değişiklik! Osimhen ve Abdülkerim",
+     "source": "Gazete Merhaba",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUlJXOUVseXA4UDlnRmw5eDNLMkdSZzY0V05pSW9hVFIwU09yVFRTMGtTeFhlb0lMX2hFQ3pSMzJ2blowaHh3Q2hOSUduTHhvdnI2UEk2VWYySEJaN0JrMmQ5VnVSaUtudWUzWHc2NGs0Mk52clBjY2JDcTdURG1RUzlCQnY3eTZEalR4b3otR1dhWjdoT3pDQ0tyQUFFS3FMTWl3Y1F0NHlTOWtkeFBPZm5RcGU4SERZdnJsbkY2Y3hTZkllUjhmaA?oc=5",
+     "at": "2026-11-07T09:00Z",
+     "eksik": false
+    },
+    {
+     "title": "Galatasaray Amedspor muhtemel kadrolar belli oldu",
+     "source": "Afyon Haber",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTnhySjBTcG9aS2VvSl9xa1lCRDg4MWFUOWZtcmFMc2UxbUJlV19vQVpBNXllci02MENkSTIxanN2eUpfSThicFBZWC1SRHB3cEFNa3lHZXBoVmYzN0RYWjlGbDRwSjAyZlhibUJ1el9Hc0UtQnpUVkxsaFc0c2l1d2Zn?oc=5",
+     "at": "2026-11-07T08:51Z",
+     "eksik": false
     }
    ],
    "ai": {
@@ -15729,60 +15701,79 @@
        "oyuncu": "Victor Osimhen",
        "neden": "sakat",
        "onem": "kilit"
+      },
+      {
+       "oyuncu": "Abdülkerim Bardakcı",
+       "neden": "sakat",
+       "onem": "ilk11"
       }
      ],
-     "ozet": "Galatasaray'da sakatlığı nedeniyle operasyon geçirecek olan Victor Osimhen bu maçta forma giyemeyecektir."
+     "ozet": "Galatasaray'da sol dizinden ameliyat edilen golcü Victor Osimhen ile Abdülkerim Bardakcı bu zorlu mücadelede forma giyemeyecek."
     },
     "away": {
      "eksikler": [],
-     "ozet": "Amedspor'un bu maç öncesinde bildirilen önemli bir eksik oyuncusu bulunmamaktadır."
+     "ozet": "Amedspor cephesinde maç öncesi bildirilen önemli bir eksik bulunmuyor."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-06T22:55Z",
-    "hash": "0b99a0f01674"
+    "at": "2026-11-07T11:36Z",
+    "hash": "b46a6066aa61"
    }
   },
   "T1|2026-11-07|Goztep|Buyuksehyr": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-07T16:00Z",
    "home": [
+    {
+     "title": "Göztepe seriyi sürdürmek istiyor! Göztepe - Başakşehir maçı ne zaman, saat kaçta ve hangi kanalda?",
+     "source": "Ege Telgraf",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYzFZQU5TeXdjeDlBdGN0WlNPM21FZ1VfU25Vd0RaMXJjbHgyRVdBMXNfSjZvMGZfV1BfeW5lNWFiV1NBdTI4cnlCTVM5LWZYLWhPZWdwR0Foai1rVWkzeGhObVZMaE9ydmFXLTFTcUFRS3Q2M0lTeGV0UUpSSlZrSkZxekRhczlqX2plQUZJdnhBeXdncmQwMXpmN29xQkpZbVk2UXJLWHUtanhSS0xzQ0YtQjVOWU0?oc=5",
+     "at": "2026-11-07T07:42Z",
+     "eksik": false
+    },
+    {
+     "title": "Göztepe - Başakşehir maçı ne zaman, saat kaçta, hangi kanalda? Muhtemel 11'ler ve eksik oyuncular belli oldu!",
+     "source": "Yeni Asır",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOU092R0gwWVpnUkcwdmpRRnZZVUtkN25CajREanpjbXNsWUF3SUYyeHprN2hNTmI1RUZKcE8wVUZjd2VYMmhQdHhyN3YxTzlzOEFaa3BjRjJRZHFYRms2aWN2WTVrZlE3SkdIZVFIZnRrUjBRbWtPNmlXSDRvbXFhR2paUUNoYl9iYXk2RmFVM3ZPSGZNUDJ2dFpYcDNjY2hWWGVLTW5fc0tlQ3NHTUlqbWp0X2dMVkVVdWo2QkI5VXNnZVpUdlNGRE1ldUFIbkwySy1tcXN6OTdTa2RLcGpv?oc=5",
+     "at": "2026-11-07T06:52Z",
+     "eksik": false
+    },
+    {
+     "title": "Arda Okan Kurtulan kimdir? Göztepeli oyuncu milli takım kadrosuna neden giremedi?",
+     "source": "https://www.gazeteburdur.com.tr/",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNV9xc1Y4ODIzZXdsQXlfRWRiUlJtb0htVnBBYi01MndZREd2dTlEbWUweF9oZWs2UDJnX1NBeXJhVG5CeVdwenUyZ3A5elNzdzE4cFJJbDlLUEJyQVFwdUtkbUNZYW4xNWJGNmo2VEpGU1BCMVFPZlYwYmNyN0FSOXEzSE5mNzhYdkVGOUhrU2dqNFE5QTdIbXRjMXlqREFtUzJYYzV1cnJaQkE5aUpiUi1hM0NFelBV?oc=5",
+     "at": "2026-11-07T06:21Z",
+     "eksik": false
+    },
+    {
+     "title": "Sergen Yalçın’dan A Milli Takım’da ilk kadro!",
+     "source": "İlkses Gazetesi",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSXMxSG55N1dIMFl2NTVVRGUxQkJkVXJqYmxRZDRCUzRnRklLZTN6UWJmWWVDRG1aZHBHN3JMZV8tVUVkOURHSFFLOG8yTF9iZHFpSkk0Q19kcXlkVUU2enp6dzNnLUZPS3lsaElKRE9KLXFYaHRQekl0Mjh5NHFsb1poLU_SAYoBQVVfeXFMTnRFRDJzdGRZblFFTk1QdU5OVUNucGNNQTlhamhzdDN1V3RmeGNzOThPNC1MbHp4U1FLNnBNT0piSnRZWVAxaVd3cEtmemwzUjNVVGpVQU9xakY3U2ZRYmRtT0ZtRm9nM3dqLXJGZ2g5M09BelpvY0NUSlcyQWVHQUxTSWlFaThPSkhB?oc=5",
+     "at": "2026-11-06T12:22Z",
+     "eksik": false
+    },
     {
      "title": "İstanbul Başakşehir, Süper Lig’de yarın Göztepe’ye konuk olacak",
      "source": "https://www.ensondakika.com.tr/",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLVdtZ0NlbmhpNjFWVmQ5UEZHQjRMOE5FbnpfY285QjlfbFhURzNGcGVBUUlVVlZybGpzbGZTUllEWjRYcmhYakN0TlNfam44VGd2SHRvRjB1RmdVZzNqb3ZBLVlocFNTZ1hhTXlUSERKaGJSOWQ5Qm9pUGJmSTR4X043VnlXaDdMWmlMS0FHelpIVjdTVzdrWDkyUVk0MHhQeGx3?oc=5",
      "at": "2026-11-06T07:46Z",
      "eksik": false
-    },
-    {
-     "title": "CANLI ANLATIM | Celtic - Beşiktaş maçı: Kadro, diziliş, istatistik... (Avrupa Ligi)",
-     "source": "https://www.ensondakika.com.tr/",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSU84aHBOQzZKSHlOR2F0SWxZbGM0YTlfSzJzcm53NW5MSUdhR20xLWRtX1BNRnkwT0VSamJPNFU0UzU2eTQ2NE5Wc1BzWjBOWW9JVHVyc1BaU1ZBSm5waEljNEFrRjZJRV9qekhLOFhsM09NOURBUVdiUWlqOWhQb0stY0Jrc0plSnAyWmJyVVhteEtVTFFoZy15QkplM3MydG5CaEJ4UUpBLUYtMWVF?oc=5",
-     "at": "2026-11-05T19:50Z",
-     "eksik": false
-    },
-    {
-     "title": "Göztepe, Başakşehir maçının hazırlıklarını sürdürdü",
-     "source": "Canlı Gaste",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUktCQXlXUi1DX0cyMlNyTmNWY0l4ajdzODU3S2R2TEJKOGd5WF9sb0Zka3hqeVI3aVNkcmNQdHhoUTRJOWtpZGN6SUxyLVdiUk1IeGVGSGpMWG56YU5HLUY1Z2lvdkdXT1EtNC1rMjlTNDNaRXJ3SWZnSTR4NkdTUExCaVJHaHNkV08yLXF3?oc=5",
-     "at": "2026-11-05T17:40Z",
-     "eksik": false
-    },
-    {
-     "title": "Göztepe, Başakşehir maçı hazırlıklarını sürdürdü",
-     "source": "Canlı Gaste",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcTRnSWxRdkpiM2s3MUhyR3FqTnhGT0VrZU5WUlpXdDZLVTRwWFpBSUdGOW1sUTVYMlo1UHZXWTJ0dldZUFFUVmFZNE1FT0pndEdfRXFBb3VaWFNudVhlTzh0bmhMaEE4Z2toT1pkY1ByRkplanBkSUtaY2xRRVFWRzY2UjRhem14aUE?oc=5",
-     "at": "2026-11-05T17:40Z",
-     "eksik": false
-    },
-    {
-     "title": "Göztepe’de Başakşehir maçı hazırlıkları sürüyor",
-     "source": "https://www.ensondakika.com.tr/",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTlBqQ01QMnpDMnFDSk9fN09GLW05dWxPcHh1UzhnWXJ6WmUwS3F2TEVtQ2tjOW9DRkVfRExnVmRYc3o4ZkM2SUVOcGNCMjJiMWJjTFk4aVpjT2dNZm40aGZFMmJrT0pqVmNVRkUySUFxNVRIMFQ2SFo2YXlocUtOdW9ZRkV4WlRBdGd2SmI0QQ?oc=5",
-     "at": "2026-11-05T17:40Z",
-     "eksik": false
     }
    ],
    "away": [
+    {
+     "title": "Göztepe seriyi sürdürmek istiyor! Göztepe - Başakşehir maçı ne zaman, saat kaçta ve hangi kanalda?",
+     "source": "Ege Telgraf",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYzFZQU5TeXdjeDlBdGN0WlNPM21FZ1VfU25Vd0RaMXJjbHgyRVdBMXNfSjZvMGZfV1BfeW5lNWFiV1NBdTI4cnlCTVM5LWZYLWhPZWdwR0Foai1rVWkzeGhObVZMaE9ydmFXLTFTcUFRS3Q2M0lTeGV0UUpSSlZrSkZxekRhczlqX2plQUZJdnhBeXdncmQwMXpmN29xQkpZbVk2UXJLWHUtanhSS0xzQ0YtQjVOWU0?oc=5",
+     "at": "2026-11-07T07:42Z",
+     "eksik": false
+    },
+    {
+     "title": "Göztepe - Başakşehir maçı ne zaman, saat kaçta, hangi kanalda? Muhtemel 11'ler ve eksik oyuncular belli oldu!",
+     "source": "Yeni Asır",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOU092R0gwWVpnUkcwdmpRRnZZVUtkN25CajREanpjbXNsWUF3SUYyeHprN2hNTmI1RUZKcE8wVUZjd2VYMmhQdHhyN3YxTzlzOEFaa3BjRjJRZHFYRms2aWN2WTVrZlE3SkdIZVFIZnRrUjBRbWtPNmlXSDRvbXFhR2paUUNoYl9iYXk2RmFVM3ZPSGZNUDJ2dFpYcDNjY2hWWGVLTW5fc0tlQ3NHTUlqbWp0X2dMVkVVdWo2QkI5VXNnZVpUdlNGRE1ldUFIbkwySy1tcXN6OTdTa2RLcGpv?oc=5",
+     "at": "2026-11-07T06:52Z",
+     "eksik": false
+    },
     {
      "title": "Son Dakika! Başakşehir’de TEM Otoyolu’nda devrilen tırın çekilmesiyle trafik normale döndü (GÜNCELLEME)",
      "source": "https://www.ensondakika.com.tr/",
@@ -15803,40 +15794,33 @@
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVmhUYVR1VHlUMFRfSmIwc3ZKb1RlZF9GUWVRVTdvTEJPT213eUVBS1ZUMHZHRjVaSjNyXzV0MG9za0sxZHJoa1d3SFdocEtHSXBNX3FDZGFwNnI1dU1HQU5xN1R2Sk1pRTVXbXU4bEg1Ty1FR2QwZnYyRVRSRFRRWkVqUFotazFlZ3NQdDlJbExmYldBWWZ1ZE9JdnduYXNGcGh4dGxvRGhVdm9kdFlLMDVjSQ?oc=5",
      "at": "2026-11-06T07:15Z",
      "eksik": false
-    },
-    {
-     "title": "Edirne değil Başakşehir: TEM’de devrilen tır trafiği kilitledi",
-     "source": "Canlı Gaste",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZngxdktGeDdmWUhYdjVwbl9IbXE1Tml5TTY2UTRXNkVDZ3A2Vm5DU0kwRU1pcUhjQTFTUG1wSVdxcUJjMXVHeGxzOEZYQmFxSkZIUzhzdTlfcUFVVGNLalZtSk9UOVNxbXZpWnJ6NzNtZDB6ei14eTd1MklQSnlyY3ZjMlg5dFFadlhRaHl4VUJGVVVRN0pxbC1zWWE?oc=5",
-     "at": "2026-11-06T07:15Z",
-     "eksik": false
-    },
-    {
-     "title": "Başakşehir’de TEM Otoyolu’nda devrilen tır nedeniyle 3 şerit trafiğe kapatıldı",
-     "source": "https://www.ensondakika.com.tr/",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZkExSklMVzJuaTNUX21kRno4THZQNEM0d19KZGlHbDV1MnNydUlpdFpja25OM3pIdHlmajRsQnhzeFVVUTUwRVU3TUxuUGNocE5La0xuNm00bnRiZzhWX3c2U2tMWkw2akJ1T0FrM1oxS2wyN184WllRTVM5Rk5zekpPNEJ3OG9UZFNxQ3p1M0hudEhRU09jbVh5QXNPaTVpVkcwY2NIV1ZRNVhNaVVicU5WUTJPWERG?oc=5",
-     "at": "2026-11-06T07:15Z",
-     "eksik": false
     }
    ],
    "ai": {
-    "at": "2026-11-06T20:59Z",
-    "away": {
-     "eksikler": [],
-     "ozet": "Başakşehir'in bu maç öncesinde kadrosunda eksik veya sakat oyuncu bulunmamaktadır."
-    },
-    "hash": "3fb84d66c7a1",
     "home": {
      "eksikler": [],
-     "ozet": "Göztepe'nin bu maç öncesinde kadrosunda eksik veya sakat oyuncu bulunmamaktadır."
+     "ozet": "Göztepe - Başakşehir maçı öncesinde iki takımın kadrolarındaki güncel eksik oyunculara dair net ve resmi bir sakatlık/ceza bilgisi son kaynaklarda yer almamaktadır."
     },
-    "model": "gemini-3.5-flash-lite (aramasız)"
+    "away": {
+     "eksikler": [],
+     "ozet": ""
+    },
+    "model": "gemini-3.5-flash-lite (aramasız)",
+    "at": "2026-11-07T11:36Z",
+    "hash": "ab7a7fc59013"
    }
   },
   "T1|2026-11-07|Samsunspor|Konyaspor": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-07T13:00Z",
    "home": [
+    {
+     "title": "Samsunspor'da Konyaspor karşısında tek hedef galibiyet! İşte muhtemel 11...",
+     "source": "Gazete Gerçek",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQXzdZcHRPSFU2dmtzbDJxRWprUHV2UVU3Q1FkeFlHbW9LVkN3Y3hLb1FYbVlzMHhSVFlJM1ZPRHBTZmU2Nm5WejdKWEhPQU5oSml5RjNWRWo4dnNBanc5VHc1SW1oT3hRVDFNaFJmTTBYX1JubS0xckk3a21LN1hPM082ODhwOWhheUcyQmZlNVJzR1JqWlVyT2xubURaNlU1T2huWXdzTlJ2aV81UkE?oc=5",
+     "at": "2026-11-07T06:46Z",
+     "eksik": false
+    },
     {
      "title": "Samsunspor- Konyaspor maçı muhtemel 11'leri",
      "source": "Gazete Arena",
@@ -15859,21 +15843,35 @@
      "eksik": true
     },
     {
-     "title": "Samsunspor, Konyaspor maçı hazırlıklarını tamamladı",
-     "source": "https://www.ensondakika.com.tr/",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdXpKRlFnMGVIdmFfdDFRZ2k5REF2SHdqRDliUVM0SlRhRE1LeWtHNGNqbTNXazBNdlZjRm9jVzJvNXhFUEx2d2xsUmFYT1BvRzJ5Z1pJRlEtRWVwaFdVUkNVWWZnUEx1bmRjYjJWZ0FMc0g2RUcwTENJVlNNMTlBczdaWXJQckZsNEItNlJSWW1mYTA?oc=5",
-     "at": "2026-11-06T15:06Z",
-     "eksik": false
-    },
-    {
-     "title": "Samsunspor'da çıkış arayışı! Gözler Nenad Bjelica'da",
-     "source": "Samsun Haber",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPS2NvRnk5MF9jUXVFbkUzWDJuUVBiWW5aYnJ0WGRTa25JR0pfRFJqZEdPRW9kX0gxNEJGRU1pOG9FcEVvazlPbjJkdC1YTmlTSHJpYU8zMjVVdC04T2hlcFc1c1JXeVI2djE4TFRJRm9CaHBEak5IdnppOUp5bi1Ya05QOA?oc=5",
-     "at": "2026-11-06T11:20Z",
+     "title": "Samsunspor’da Tarihi Çöküş!",
+     "source": "Akasyam.com",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rTGdNRUU4bXMzZVNFZlNYbE1nLWtRUWZkaVBsSmhBSTBhY2hMRUJWbGZ3TTdIQlp1V3FrNU5QWmNjMEdNSUNiSEVkNVdFcURlNGxNV1hOUTBJOUNpenctd193TFY3MXBmQy1sQ09n0gFuQVVfeXFMT2tMZ01FRThtczNlU0VmU1hsTWcta1FRZmRpUGxKaEFJMGFjaExFQlZsZndNN0hCWnVXcWs1TlBaY2MwR01JQ2JIRWQ1V0VxRGU0bE1XWE5RMEk5Q2l6dy13X3dMVjcxcGZDLWxDT2c?oc=5",
+     "at": "2026-11-06T13:48Z",
      "eksik": false
     }
    ],
    "away": [
+    {
+     "title": "Konyaspor maçı MUHTEMEL 11'İ BELLİ OLDU",
+     "source": "Samsun Haber",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAtSG81R2J0VFdWMDkyM2RrbWQwZmF0aGlXamYtR091dThES0k5QUc2NmVkYk8tbVhvYUV3OTI4UTU4V21Ick00RzhhckhHaWN3aFdPeS0tNVg1cnZvUFdKTmVwckczbXBDNWlaWEpRbEhQWlN1TzNj?oc=5",
+     "at": "2026-11-07T09:19Z",
+     "eksik": false
+    },
+    {
+     "title": "Samsunspor'da Konyaspor karşısında tek hedef galibiyet! İşte muhtemel 11...",
+     "source": "Gazete Gerçek",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQXzdZcHRPSFU2dmtzbDJxRWprUHV2UVU3Q1FkeFlHbW9LVkN3Y3hLb1FYbVlzMHhSVFlJM1ZPRHBTZmU2Nm5WejdKWEhPQU5oSml5RjNWRWo4dnNBanc5VHc1SW1oT3hRVDFNaFJmTTBYX1JubS0xckk3a21LN1hPM082ODhwOWhheUcyQmZlNVJzR1JqWlVyT2xubURaNlU1T2huWXdzTlJ2aV81UkE?oc=5",
+     "at": "2026-11-07T06:46Z",
+     "eksik": false
+    },
+    {
+     "title": "Konyaspor, Samsun'da kritik randevuda! Güldürün Yüzümüzü",
+     "source": "Anadolu'da Bugün",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMlVsR0gxak10Nl90Xzd1ZmE2ZFdrTjEwOXhINFhmZU02WFhMeGpZcS1FdmNIc09pOUZ2UmJxb1kxbTV3MDJ0WUVqSGRJemQxcWJIMFNacVdtYXZfbFVJRVlUaEJUdW5RVkxoY2o0YnJtTkh2VHltWEtLOTlIYW81aXhNZGtYRkk4bTk4WkhIM3ExZDR0Z1haWjZkb2VSRVcySHJUd0pOWQ?oc=5",
+     "at": "2026-11-06T21:06Z",
+     "eksik": false
+    },
     {
      "title": "Samsunspor- Konyaspor maçı muhtemel 11'leri",
      "source": "Gazete Arena",
@@ -15882,62 +15880,56 @@
      "eksik": false
     },
     {
-     "title": "Samsunspor, Konyaspor maçı hazırlıklarını tamamladı",
-     "source": "https://www.ensondakika.com.tr/",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdXpKRlFnMGVIdmFfdDFRZ2k5REF2SHdqRDliUVM0SlRhRE1LeWtHNGNqbTNXazBNdlZjRm9jVzJvNXhFUEx2d2xsUmFYT1BvRzJ5Z1pJRlEtRWVwaFdVUkNVWWZnUEx1bmRjYjJWZ0FMc0g2RUcwTENJVlNNMTlBczdaWXJQckZsNEItNlJSWW1mYTA?oc=5",
-     "at": "2026-11-06T15:06Z",
-     "eksik": false
-    },
-    {
-     "title": "Konyaspor'da Adil Demirbağ'ın tedavisinde yeni adım",
-     "source": "Anadolu'da Bugün",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdDNMbWpxUDRkbHVZT1pBVTdVZVh2WmEzTGhBM2NPd1BrNzcwUzVrVW9UWm1uNVZUWmRzNkVaVEkyMGc4VGVpVzRMdTJZSlNScEdmV3cwdzhXdGxuZTc1SE0zdWFDUmxrZVVjSXlCR0gxSmFuU3RwYWwwVUNXNi05eklXcEEwczRoR2xhQnFzMkZwUXgyT3VhUlJXd3hDV1R2bkE?oc=5",
-     "at": "2026-11-06T10:51Z",
-     "eksik": false
-    },
-    {
-     "title": "Samsunspor Konyaspor Karşısında Mağlubiyet Serisini Durdurmak İçin Sahaya Çıkıyor",
-     "source": "kayseri gürhaber",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYVg2aG1mVlNjajJaSERacEx5SDdnQUNWcEdPc295ZjAxTml2amhUOXY5c3RucGlHelVFSGpqSjVSelFDN1gzYTdpZko5enNDUVZIOGJYbWN3SlM1TjQ0ZU1fdXpuZUl3LUE2SzlKWVBWUkJOcFFiY2xEbU9HdWhDc0l6VVlGY2o1aEFHb0N5a1F6V0dGUV9xc1J5STh2dkdxbWhsaExZRlBwZEZDczJhZXQwcEZJRDgwN2JPZ3NGc3VYWjRO0gHEAUFVX3lxTE1hWDZobWZWU2NqMlpIRFpwTHlIN2dBQ1ZwR09zb3lmMDFOaXZqaFQ5djlzdG5waUd6VUVIampKNVJ6UUM3WDNhN2lmSjl6c0NRVkg4YlhtY3dKUzVONDRlTV91em5lSXctQTZLOUpZUFZSQk5wUWJjbERtT0d1aENzSXpVWUZjajVoQUdvQ3lrUXpXR0ZRX3FzUnlJOHZ2R3FtaGxoTFlGUHBkRkNzMmFldDBwRklEODA3Yk9nc0ZzdVhaNE4?oc=5",
-     "at": "2026-11-06T08:23Z",
-     "eksik": false
-    },
-    {
-     "title": "Samsunspor - Konyaspor maçı canlı izleme ve yayın saati, beIN SPORTS 1 frekansı ne? TOD'da var mı? Şifresiz yayınlanacak",
-     "source": "Milli Gazete",
-     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeDZJa1NXcjV3dS1ERXBmUm05NkQ2aGZZWmFlWWJVOGNKSkRHczB3YjcxSjBranRyT1M0QVpvLVlaaE9xYUxNYVlMZ0szdk00NmtiOHNRbFdGOFB2RkxTQUpnc0VwYmRnbC1EN2ZVTWZ6NGMzNWo1VHF1VE9WeDVEUjBrRWFUNWRLVmxRa3BqMHgzWGtKMEJRSUFRbmZhd0thUGtXOF9sTnlPVF9aOE03RkNyenNZTk5zWGNua0hWTVI3YUdzNnhfUlBKRmJQTDJiUEQtc1NMY2pabGhtNFE?oc=5",
-     "at": "2026-11-06T06:03Z",
+     "title": "Konyaspor, Samsun'da siftah peşinde! hedef ilk deplasman zaferini kazanmak",
+     "source": "Konya Hakimiyet Gazetesi",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSlFIR1Bkamw3N0RmVHNBOFVoSzJrQlhTWEZVdmZ5Y0VNUlp0UlRxdEx0cmN4RnNmb0pJbWVFOGd4dzZjQnRTMlkyWmxVNmhQVFE5eUJUNm80cjdvS0x6Q1lBT19FREJmZW1RWnRZMW93ZUMtTW1UeUgzbHhKVk16eEFPWWM3V3VFakpBWlpTcFJobnZhQVBXam5KNVQ5T0pNTGFzVDJrNHN6Zw?oc=5",
+     "at": "2026-11-06T14:13Z",
      "eksik": false
     }
    ],
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Samsunspor'da Konyaspor maçı öncesinde resmi olarak açıklanan önemli bir eksik veya sakat oyuncu bulunmamaktadır."
+     "ozet": "Samsunspor'da Konyaspor maçı öncesinde bildirilen önemli bir eksik bulunmamaktadır."
     },
     "away": {
-     "eksikler": [
-      {
-       "oyuncu": "Adil Demirbağ",
-       "neden": "belirsiz",
-       "onem": "ilk11"
-      }
-     ],
-     "ozet": "Konyaspor'da Adil Demirbağ'ın tedavisine devam edilmekte olup, maçta forma giyip giymeyeceği belirsizliğini korumaktadır."
+     "eksikler": [],
+     "ozet": "Konyaspor'da bu maç öncesinde bildirilen eksik oyuncu yer almıyor."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-06T22:55Z",
-    "hash": "d87045b715e4"
+    "at": "2026-11-07T11:36Z",
+    "hash": "0480c4d15c46"
    }
   },
   "T1|2026-11-08|Alanyaspor|Trabzonspor": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-08T15:30Z",
    "home": [
     {
+     "title": "Trabzonspor'da Alanyaspor Maçı Öncesi İlginç Sarı Kart Hesabı: 3 Futbolcu İçin Kritik Senaryo!",
+     "source": "Taka Gazete",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTzNpNzFzdm0zM2VjUVVEVEhiRUpvVlVfdFNQdW9kZFQzTGVUUm5heUkwSkN1bGphXzBxTEFwZzBHMmhXNWVjOHlQTURocGQ5dWZFemdsUGk2S3dkbVY3Z3RZdXI5YWxpWk01aTRIM1JTeGs5TUtrb1VGb1BUVVByR3NPQnNMc0tTV0s5SU16MGQ2bjI3VVBVNS1kLU1XUXM0dk9obGZHaEpOM2tlNi13RzlldHFVMXhSOFpnS2pn?oc=5",
+     "at": "2026-11-07T10:35Z",
+     "eksik": false
+    },
+    {
+     "title": "Eyüp’ü hafife alma, sonra yanma!",
+     "source": "Özgür Kocaeli",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXU3ME9BNGx4OUxoZ2VXczZTTG43VUVwNDhJZnBxQ1A5VE82LVRna0J4ZEZvczJfV0NFWlV4Um9Ya3RMZE5ySndGTUdRNGRibjBia1F5bGxad3lSZFhCcWRBaWJraWM4dnRHQ1p3SThYVDYwMFp4TnlLUjJOZVBGeUJHRVY1MjZ4RFlnUW5mZkxjMzlFNk42V2lPVDc0Nk9BRWc?oc=5",
+     "at": "2026-11-07T08:16Z",
+     "eksik": false
+    },
+    {
+     "title": "Trabzonspor Alanya deplasmanında",
+     "source": "Nefes Gazetesi",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qZDZLaDdoMDd1MGRLX2ZUUEI5OFh4UHh1V3Q3WG5ISUlZUF8zMU5CSTFPUFZVcUFrQllaMDNackREWkNPUGRGazBYeFdwVFNVWk92WDlBR3ZzZExzQTVBdXJXMEQxOG96SEhOXzYyZHNtZw?oc=5",
+     "at": "2026-11-07T08:09Z",
+     "eksik": false
+    },
+    {
      "title": "Trabzonspor’da Jabol-Folcarelli Sakatlandı! Alanyaspor Maçında Yok",
      "source": "Günebakış Gazetesi Trabzon",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUGgySTBUaEZrWEphMWFDMUx2NVZSYVpTaDJKSkxtR0JDRzBULUw3VnlvQVpVVmphMExCMENXSGx6VEtIYTlIczl0azktN05GOVdnb2s5dU1Rc3A4ajhfZVhXdjg2dzFQSWg2czctUXNJNmVZYkktMXZkdlgzTU1ZS3RXeHVtaUpVZ2wzelJUdERNV3hjOEk2aVRKaThLN1NVZnAxcdIBqgFBVV95cUxNeUkzck5fQklFWFlCZnZfYWw3SDlQNURDcl9YMVV3RHJsc2M5OFU1alVjZW1PV1pJcmdMeVNIcHVsVEI3ODA4VkJfNldGenF5OW1VVjE5ZnZiOXBMM1MzZVpFbkZ0X3JpbkplMGhQQWxjRTVCbjY0eEdFYnhqVnN4T0hub3phbjJoQjUtSy1SelJPSjBCTDloWmFTTnhWSzJyM3JVS2tTRjlPZw?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeUkzck5fQklFWFlCZnZfYWw3SDlQNURDcl9YMVV3RHJsc2M5OFU1alVjZW1PV1pJcmdMeVNIcHVsVEI3ODA4VkJfNldGenF5OW1VVjE5ZnZiOXBMM1MzZVpFbkZ0X3JpbkplMGhQQWxjRTVCbjY0eEdFYnhqVnN4T0hub3phbjJoQjUtSy1SelJPSjBCTDloWmFTTnhWSzJyM3JVS2tTRjlPZ9IBqgFBVV95cUxNeUkzck5fQklFWFlCZnZfYWw3SDlQNURDcl9YMVV3RHJsc2M5OFU1alVjZW1PV1pJcmdMeVNIcHVsVEI3ODA4VkJfNldGenF5OW1VVjE5ZnZiOXBMM1MzZVpFbkZ0X3JpbkplMGhQQWxjRTVCbjY0eEdFYnhqVnN4T0hub3phbjJoQjUtSy1SelJPSjBCTDloWmFTTnhWSzJyM3JVS2tTRjlPZw?oc=5",
      "at": "2026-11-06T20:36Z",
      "eksik": true
     },
@@ -15946,57 +15938,15 @@
      "source": "Futboo.com",
      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBhRklLSWdNM3Y5MWxELXlXRDExVmQ1WWFaemZPRjdNYWNPczBESEtNVWk1ME1YZlljRmJ3dHA4QWZ6dTBVS05aaW9Xc1NKSmZRVExNc2xwMHRfRGFIS0tLRHdNU3djUzZiak02RGJQR1M5SmYt0gGCAUFVX3lxTFBOZXd0STRyYmFHbFRFam94NFlIMTZISGpSUkJrc3hRdVpYS29ERjN6N2lwaXotdjBqMGVPRXNwSnJpSV90MEhWS2g1eTBOYWJPU1l2dVBGSjItX2dVSEdYWjVjMnJ1YWRrZzNIM3JEUlBLOHpiRDRNY1NZRWIwZmdUbGc?oc=5",
      "at": "2026-11-06T17:48Z",
-     "eksik": false
-    },
-    {
-     "title": "Alanyaspor - Trabzonspor Maç Tahmini │ Trendyol Süper Lig",
-     "source": "Futboo.com",
-     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1maDBvZHRheFZ1V0t3TUxmdHFlc2IxZkRPckZhZEwwa090ejVxS1BaWjBDUWZMWUNPWmdBQXI3YWFndjZHMnYtZTNYdEdKMl9XUzl0OHVadVVmSEVCMW16cDUxNEZENjROMllXdFJzTWhJZ9IBf0FVX3lxTE5LQ0tlWk0yZzFOUTlyYmxhOVBrNnFtaGhjUWpGaWtUeV82ZzctS0I3WUVRRkM0UHpOdmF3YUJ4Y1R2enVrTVRSWTZSaUpVYTZZbnF2YktXYXBaNW9qSG9CVkFZcmlIY1RKc3pFZlZIc0YzVG1BanJCRmU4amZfLTA?oc=5",
-     "at": "2026-11-06T17:34Z",
-     "eksik": false
-    },
-    {
-     "title": "Alanyaspor-Trabzonspor maçı öncesi son durum ve eksikler",
-     "source": "Yeni Alanya",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOU0R1RGhVMkVjNWZTTjM3bTdGeU9CV0VISFI1WHlhVlFXeGV1SndkZDV3SzdvMWcwNTA4aDJ3cWx5WEtCMHcyZVpYbFpSc3lNRUc1TU9RMHNiLXZRQkxlc3FzRzdadVhYbzRWd3V1V0pQLVFLckllMkE1MVFJLXp0R1FzZlVSYlBqSjBZ?oc=5",
-     "at": "2026-11-06T15:46Z",
-     "eksik": false
-    },
-    {
-     "title": "Trabzonspor, Alanyaspor maçı hazırlıklarına başladı",
-     "source": "https://www.ensondakika.com.tr/",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSG9DQ2JsNE53UHlZTGhJRVdIUHk3UVpRNlhEREpNVTN0clpSOG5Ra1hoZmJWQWJOT0ZXVFEyNGNKVGREMGJtMWctcjgwRDlaZXRFWDNHbHJNYVJkWllNbTdVdWszSndXWVpJMjVVMVF6X1pLT2ZXLWxNbGItLWtNT3pYSEk0MDhMcFljUEo2UHRqVzQ?oc=5",
-     "at": "2026-11-06T15:07Z",
      "eksik": false
     }
    ],
    "away": [
     {
-     "title": "Trabzonspor’da Jabol-Folcarelli Sakatlandı! Alanyaspor Maçında Yok",
-     "source": "Günebakış Gazetesi Trabzon",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUGgySTBUaEZrWEphMWFDMUx2NVZSYVpTaDJKSkxtR0JDRzBULUw3VnlvQVpVVmphMExCMENXSGx6VEtIYTlIczl0azktN05GOVdnb2s5dU1Rc3A4ajhfZVhXdjg2dzFQSWg2czctUXNJNmVZYkktMXZkdlgzTU1ZS3RXeHVtaUpVZ2wzelJUdERNV3hjOEk2aVRKaThLN1NVZnAxcdIBqgFBVV95cUxNeUkzck5fQklFWFlCZnZfYWw3SDlQNURDcl9YMVV3RHJsc2M5OFU1alVjZW1PV1pJcmdMeVNIcHVsVEI3ODA4VkJfNldGenF5OW1VVjE5ZnZiOXBMM1MzZVpFbkZ0X3JpbkplMGhQQWxjRTVCbjY0eEdFYnhqVnN4T0hub3phbjJoQjUtSy1SelJPSjBCTDloWmFTTnhWSzJyM3JVS2tTRjlPZw?oc=5",
-     "at": "2026-11-06T20:36Z",
-     "eksik": true
-    },
-    {
-     "title": "Alanyaspor - Trabzonspor Hangi Kanalda? Maç Saati ve Yayın Bilgisi",
-     "source": "Futboo.com",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBhRklLSWdNM3Y5MWxELXlXRDExVmQ1WWFaemZPRjdNYWNPczBESEtNVWk1ME1YZlljRmJ3dHA4QWZ6dTBVS05aaW9Xc1NKSmZRVExNc2xwMHRfRGFIS0tLRHdNU3djUzZiak02RGJQR1M5SmYt0gGCAUFVX3lxTFBOZXd0STRyYmFHbFRFam94NFlIMTZISGpSUkJrc3hRdVpYS29ERjN6N2lwaXotdjBqMGVPRXNwSnJpSV90MEhWS2g1eTBOYWJPU1l2dVBGSjItX2dVSEdYWjVjMnJ1YWRrZzNIM3JEUlBLOHpiRDRNY1NZRWIwZmdUbGc?oc=5",
-     "at": "2026-11-06T17:48Z",
-     "eksik": false
-    },
-    {
      "title": "Alanyaspor - Trabzonspor Maç Tahmini │ Trendyol Süper Lig",
      "source": "Futboo.com",
      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1maDBvZHRheFZ1V0t3TUxmdHFlc2IxZkRPckZhZEwwa090ejVxS1BaWjBDUWZMWUNPWmdBQXI3YWFndjZHMnYtZTNYdEdKMl9XUzl0OHVadVVmSEVCMW16cDUxNEZENjROMllXdFJzTWhJZ9IBf0FVX3lxTE5LQ0tlWk0yZzFOUTlyYmxhOVBrNnFtaGhjUWpGaWtUeV82ZzctS0I3WUVRRkM0UHpOdmF3YUJ4Y1R2enVrTVRSWTZSaUpVYTZZbnF2YktXYXBaNW9qSG9CVkFZcmlIY1RKc3pFZlZIc0YzVG1BanJCRmU4amZfLTA?oc=5",
      "at": "2026-11-06T17:34Z",
-     "eksik": false
-    },
-    {
-     "title": "Trabzonspor, Alanyaspor maçı hazırlıklarına başladı",
-     "source": "https://www.ensondakika.com.tr/",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSG9DQ2JsNE53UHlZTGhJRVdIUHk3UVpRNlhEREpNVTN0clpSOG5Ra1hoZmJWQWJOT0ZXVFEyNGNKVGREMGJtMWctcjgwRDlaZXRFWDNHbHJNYVJkWllNbTdVdWszSndXWVpJMjVVMVF6X1pLT2ZXLWxNbGItLWtNT3pYSEk0MDhMcFljUEo2UHRqVzQ?oc=5",
-     "at": "2026-11-06T15:07Z",
      "eksik": false
     },
     {
@@ -16005,12 +15955,33 @@
      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBJWnZJZlpjcDhXTzNyeUJJcVJJSkFNcElDLTlHLXFrX3JET1B4TXozcTdlQk9FaXo5U1FWbVQ2aTZZQnBRQ1pxWjYxNXA4S3dIM01jR0EwUGdnSHVwbkxUQU92WE1NLXA5dFlKRm5ydDgyM1RwLXRCb0g2MA?oc=5",
      "at": "2026-11-06T04:06Z",
      "eksik": false
+    },
+    {
+     "title": "Trabzonspor-Freiburg maçı kaç kaç bitti? İşte Trabzonspor-Freiburg maç sonucu",
+     "source": "Milliyet",
+     "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPdWlSbWdCNi1tMGxMWWl2czdHX250aElQRi05Q2w4TkNSYXZBVGNDckdYd2h5ckVuVllaWHVVNUJmaWYzM3ZDNnFTX0IwOF9TdHBoNW1lS2lqNS12RDFtcTlBYzZwa3FhTlBXcGdfNHhNNlRjekVPcXJTOGhYeUQwd1c3cS04OTRDOEpPT2loUkFtd0tnOXBMZ3BSenZuRmViNXZ5a0dFOG1XZzdxSFNWd3JWUmt6VERTcXpwTTZvRnNoMkpaYkVXQmFJWXJudVpFQ0JlV0t0ekx4cXFoc3BDeHg0VWRnNFRfUzhCQ04tQ3JsaldxX1FnZVptUklVcGtWTU53cA?oc=5",
+     "at": "2026-11-05T20:14Z",
+     "eksik": false
+    },
+    {
+     "title": "Trabzonspor - Freiburg maç özeti",
+     "source": "Genç Gazete",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6TUtTSlVteksyZ0gyb2xPTG5JWUxKYklkTHExSE81LTZXMkNfN05SSGRIbV9Cc0VOa1JMYVVQUmowYjZBazd3OWNuUHM4bWdjX0ZBQW5YYl9rSmxpSWx5NGw3WDRDYnpr?oc=5",
+     "at": "2026-11-05T19:35Z",
+     "eksik": false
+    },
+    {
+     "title": "Trabzonspor'da Thomas Reis'ten Freiburg maçının ilk 11'inde 3 değişiklik!",
+     "source": "Sabah",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQejNIVEpCMHlscVBra3FPYUVzeXA2SU4tYlRIMWstWGN0Q1FPNS00YU1UV2ZjTmh1WmxBZ1Z5ZDlHMnZocFY4Z05LNWtnWjZFdnFZMF9SR0tySEFEcS1mOHFiQk9BRnQ1QVpxRlhBcXQ5Nm1fTFNtVWFfMkxHVkJITDNPTXZjWWFSd3lyUnMyMW5mZjM0a3FWb0oxZ3FHUVA0NEN5ZDIwdXk2eTBqY0Q5TVdIY0lYa0h50gG7AUFVX3lxTE1WeUJZOWdkRWpDREF2Y21JbzJxaXlMdTF2NGUwb1lxTTN5YnQ5eDJJT2FfbVp6TW5LZTJfVWg5cnkzcVpHSVlSTUFnMzBNODZwdS0xZWVQR2RZdmZvZHdrNHY2Uzc3WFlDek93N0lrU0o3TFNYTTZtUlRmZGwxUUpMVng1OXZWX3hEczlYaGFiMURSMlJrUDFUOGh0c1NLYW1nQ3JucllaUUZXNU9sLUoydXZsRzhOamtjaEE?oc=5",
+     "at": "2026-11-05T18:05Z",
+     "eksik": false
     }
    ],
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Alanyaspor'da maç öncesi resmi ve net olarak açıklanan önemli bir eksik bulunmamaktadır."
+     "ozet": "Alanyaspor'da maç öncesi rapor edilen önemli bir eksik bulunmuyor."
     },
     "away": {
      "eksikler": [
@@ -16020,24 +15991,17 @@
        "onem": "ilk11"
       }
      ],
-     "ozet": "Trabzonspor'da Jabol-Folcarelli yaşadığı sakatlık nedeniyle Alanyaspor maçında forma giyemeyecektir."
+     "ozet": "Trabzonspor'da sakatlığı bulunan Jabol-Folcarelli Alanyaspor maçında forma giyemeyecek."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-06T22:55Z",
-    "hash": "5b31723718de"
+    "at": "2026-11-07T11:36Z",
+    "hash": "3202659b1f8a"
    }
   },
   "T1|2026-11-08|Besiktas|Genclerbirligi": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-08T18:00Z",
    "home": [
-    {
-     "title": "Celtic - Beşiktaş maçı canlı izle | Celtic - Beşiktaş maçı canlı anlatım",
-     "source": "Genç Gazete",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRmtmaEtSa0RnVk12dDM3MlljQ1g3emk5TTdoaVhMWDJNaWhXMkFPX0NOWU5jdTJmMFZGUUE1cDVjWGExcTdQcjFsTmZaSUluT1FqNTBqYlBZVG9kRE95NEE0cUtUT1ZuQ2g4azEtc3lBbnE3MXl3VnVYV2JtdmZFRlBwVGRSX3RlM3NMZHZ4ek9FY3NIcnlORg?oc=5",
-     "at": "2026-11-06T01:06Z",
-     "eksik": false
-    },
     {
      "title": "Celtic–Beşiktaş maçında ilk 11’ler açıklandı! Saat kaçta, hangi kanalda?",
      "source": "Haber Gündemim",
@@ -16050,6 +16014,13 @@
      "source": "Haber Gündemim",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOY1RoS24zWV9VMGw4ZzY0T2lCZm1RZ2pXcWtrc2NvaFRYdHJzVHFhaFlVZjRSMWhrVFFCLTVVZXF0cE1WNi12T0QydzQ1RHdUVEw0VXV3TlBvMDNvQXFoY0RuSE9WdHk4aHZfeU02TnIyc0VkYk13Z29mcGdLTTk5QVlrcW92NjZBRG01NlN2bUdkMHFRLVhrVkFIaHhfM0ZmRk1ubA?oc=5",
      "at": "2026-11-05T22:33Z",
+     "eksik": false
+    },
+    {
+     "title": "Celtic - Beşiktaş maç özeti",
+     "source": "Genç Gazete",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE93VHRHaTRSbENJTU50TWhCZHRoM1NEVkpfSExvYk96QTBKVGZNMVd1cXVYX1BGMFJOMl9sVS1TYWozVWczMDBudXJiaUgteGFnd2s2Z083dlVKNXBON3k5Z25B?oc=5",
+     "at": "2026-11-05T21:53Z",
      "eksik": false
     },
     {
@@ -16069,235 +16040,235 @@
    ],
    "away": [
     {
-     "title": "Beşiktaş - Gençlerbirliği Maç Tahmini │ Trendyol Süper Lig",
-     "source": "Futboo.com",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOVdTSmM0TTVzbDJ6WE16Z0hhRl9LZXFra2IxUU5BOVdFMlVoTkR1OE9oSG1NSThLSmpvbS1mSzVXb1FsX0NZeFFVRFBldWxFVnZNNVpZcnkwUEFmNFh5bFJqZ3RGdDFhWkQ1WVdkMWV2MXg5SmwxY3lVTXgtWUo4dNIBgAFBVV95cUxNOVdTSmM0TTVzbDJ6WE16Z0hhRl9LZXFra2IxUU5BOVdFMlVoTkR1OE9oSG1NSThLSmpvbS1mSzVXb1FsX0NZeFFVRFBldWxFVnZNNVpZcnkwUEFmNFh5bFJqZ3RGdDFhWkQ1WVdkMWV2MXg5SmwxY3lVTXgtWUo4dA?oc=5",
-     "at": "2026-11-06T18:02Z",
+     "title": "Beşiktaş Gençlerbirliği'ni ağırlıyor. Hedef 6'da 6",
+     "source": "Nefes Gazetesi",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcm11c1V1ZXUxX1h4TVlDVV9GTnJYRzJzdmNLeXNUUUs2YzdtaXV5RV85RVRLM0l2NWQzSEdnenNCWkRtNk40SzlJVjNIN1M3Y05oSkFJSWk1czl4aWg5dERxTE5MTTh2SWF0clNHVkl3SHlCU2c3NWRidEdBQTNwdnRGZzh2UQ?oc=5",
+     "at": "2026-11-07T08:00Z",
      "eksik": false
     },
     {
-     "title": "Alanyaspor - Trabzonspor Maç Tahmini │ Trendyol Süper Lig",
-     "source": "Futboo.com",
-     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1maDBvZHRheFZ1V0t3TUxmdHFlc2IxZkRPckZhZEwwa090ejVxS1BaWjBDUWZMWUNPWmdBQXI3YWFndjZHMnYtZTNYdEdKMl9XUzl0OHVadVVmSEVCMW16cDUxNEZENjROMllXdFJzTWhJZ9IBf0FVX3lxTE5LQ0tlWk0yZzFOUTlyYmxhOVBrNnFtaGhjUWpGaWtUeV82ZzctS0I3WUVRRkM0UHpOdmF3YUJ4Y1R2enVrTVRSWTZSaUpVYTZZbnF2YktXYXBaNW9qSG9CVkFZcmlIY1RKc3pFZlZIc0YzVG1BanJCRmU4amZfLTA?oc=5",
-     "at": "2026-11-06T17:34Z",
+     "title": "Galatasaray'da Victor Osimhen şoku, sakatlık için operasyon geçirecek! Osimhen kaç hafta yok?",
+     "source": "Haber Global",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZ2tEWEJUVlZma0d2Tm54c2Z2cl8xV2Nrc3lyMERwSlgtdlNqTFhYV0Q4dDZsT3l3dllxT1dKdW5uMS1PdTN3OXliekd4TDBaXzhZMXdRNmY3NVBhQVNOYk5ZdVpKQTJGSG9mWFR0UUIwenNHcHVQM3FiRlZ4SzFaY1BYSXRJeVZ1WHJfZ1MxMHp1MnAtM01kUFlqc1VxQ24xNmtaUTFQMktqYWpLUUxJTlY1ekszMTVOSkVzLWlsTlFzSjg?oc=5",
+     "at": "2026-11-07T07:36Z",
+     "eksik": true
+    },
+    {
+     "title": "Beşiktaş milli araya moralli girmek istiyor: Dolmabahçe'de rakip Gençlerbirliği",
+     "source": "Yeni Birlik",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWjl5ZHhZN2dESWpKTmJsRklVRG9ySGhPci1KOXd1SVg5cHlPRjhIdVVvYTJuV2FoVXZYaUh5T3pGYjhFU2c2MzVhM1V6RE4ybVpRRVJvdWlwRlNXYUsxZUoyVlVKXzRfbDFHQWxJVUhUVXNCY2FXVG1VY3h0bFpRT1luXzNRcEM0dXJPeXRjX2Z6UUpkT3hPdXV4d0ZXazdweElpanZsZ1laazJnd19aZjJwRmdQeHc1bDQ4?oc=5",
+     "at": "2026-11-07T07:24Z",
      "eksik": false
     },
     {
-     "title": "Galatasaray'da Metehan Baltacı İçin Ayrılık İddiası! İlk Teklif Geldi - Kütahya Haber - Son Dakika Kütahya'dan Haberler",
-     "source": "Dumlupınar Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZkFpUDVkYmdkRnpfRE1kbC1JUUdrdi1WUl93WGVtTEpJZkN3S1kzVFJoQWNDUDJvVUtEV3hpRVUwU2lGdlNTQzhMWkx6WXVoYnIxVmtIU1JCRDFtMkphSUR6ZGVfelp0ZEhGaUVQTzVOZm56bWtEWWo4RVhLNWlQRlBNX05NNV9Db1FtV29fTy1aRmVURDBpQm9zVlFoWFk?oc=5",
-     "at": "2026-11-06T10:10Z",
+     "title": "Beşiktaş, Gençlerbirliği Maçına Hazırlanıyor",
+     "source": "www.superlighaberler.com",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRHJxcmJaTjRFU0h5NFkyaVJPX21pMERVV1RJdzBwUVI1QlNkUWFHcTViVHBHdWdSdWhoTlhwUlRQYjgzSE1BaV84SWROZHp0bU5uN0U3QUJpVHFZTTdNNG5qb3QzcVNNQjNNcGNOZnVxWlg3N1M4UHEtVkNhbnAyTk40QndldVJZUnVIV3k2THYxNFVjcGtj?oc=5",
+     "at": "2026-11-07T06:53Z",
      "eksik": false
     },
     {
-     "title": "Metehan Baltacı için Galatasaray’a sözlü teklif: Gençlerbirliği bonservisini istiyor",
-     "source": "24 Saat Gazetesi Ankara",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPLUw4aDRzdjBkdVhmT19LWVpTUk5nQkx0Q1FlaWxlNXgzT19RQ25abElZVWhGSVpzbnFxY0U4MFVkdEZHUGJITTJIM2FKaVpPTHV5VFpiZ01XWHdhQzBqN285TkxEYWFWOVViSGFRLV9zSTlESDdjX1V2M3BpbFQ3Ni1yUGxQbnFjMHJlZ3pZNW9JWFBBZ2dxVU1Fc095d0podG5SWFp3VlN5ZG5KZHhlejQtOA?oc=5",
-     "at": "2026-11-06T10:08Z",
-     "eksik": false
-    },
-    {
-     "title": "Kıbrıscıkspor U15'ten Muhteşem Geri Dönüş! 14 Dakikada 3 Gol, 3 Puan",
-     "source": "Bolu Takip",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUmlkU3VpWDZBX3BkQU9GbXVfakJreXJOM1VfNkE0M3dyaFBrSzlpdmhVWUx4OThIbkw0YjBTYW9CMVE1M2hPcHVwZUJoNW1zUGxrYzlJTTFSc09HU3JfdXdqNUVIWFFZMlFsdENSalhHN1dMVFNHRVRBRUlrR18zbGRwc1J4U2ZVV0VPc2tsZEEwSVl2b1E?oc=5",
-     "at": "2026-11-06T07:51Z",
+     "title": "Beşiktaş-Gençlerbirliği maçı ne zaman, saat kaçta? Kartal evinde 6’da 6 peşinde",
+     "source": "Türkgün",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWWJxbFRYRF9sNzBhWnpXVnYyQ1gyLWxLTEVSeHJTRW8zVzFlY3NyOEVtRXNrTWptYnlLdHQ1X0s2NnhrNlpsbmpYRmdVaURwVWNFY0xwSUdSYVZYSU1jdFhlUFBRaGdHY09sM3lqSXA1czNKSzZ0dGNsVEpxMW91OUhEdThHSXBVTmoteGdMVjRDWndFRHg4OFEyVV9yRl94RC13QW9mdjN2WXU5b1lBODZ2Sk8?oc=5",
+     "at": "2026-11-07T06:41Z",
      "eksik": false
     }
    ],
    "ai": {
-    "at": "2026-11-06T20:59Z",
-    "away": {
-     "eksikler": [],
-     "ozet": "Gençlerbirliği'nin Beşiktaş maçı öncesi eksik veya sakat oyuncularına dair güncel bir bilgi bulunmamaktadır."
-    },
-    "hash": "8a48dbf4a0d0",
     "home": {
      "eksikler": [],
-     "ozet": "Beşiktaş'ın Gençlerbirliği ile oynayacağı Süper Lig maçı için henüz güncel sakat veya cezalı oyuncu raporu açıklanmamıştır."
+     "ozet": "Beşiktaş'ın Gençlerbirliği maçı öncesinde güncel sakat veya cezalı oyuncularına dair doğrulanmış resmi bir eksik raporu bulunmamaktadır."
     },
-    "model": "gemini-3.5-flash-lite (aramasız)"
+    "away": {
+     "eksikler": [],
+     "ozet": "Gençlerbirliği takımında bu maç öncesi bildirilen önemli bir eksik bulunmamaktadır."
+    },
+    "model": "gemini-3.5-flash-lite (aramasız)",
+    "at": "2026-11-07T11:36Z",
+    "hash": "79d039de3e0d"
    }
   },
   "T1|2026-11-08|Corum|Fenerbahce": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-08T13:00Z",
    "home": [
     {
-     "title": "Fenerbahçe'de Çorum FK maçı ilk 11'i şekilleniyor! Emre Belözoğlu kararını verdi",
-     "source": "Güven Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUFMtM2xZUjdHZmtFcGw5Y2oyRlJEc1BUc2hNUDJtdUdWLUE4MnlFcmhvU3hrN195WE15VTZ3Y2xXdnFHVTY1M29zbnhuMlk5OVd4c2dJWFQ4MnlrM1h1MEg5cDJURUhNVDVycmRkU1l2WHcybnU4TWxIREM2MjZZbk1INEdfTU9IWWdSZjVJenJhYzB4WVIxMjhYU29jNWlTbTdEb0dHWUdHNDhjNXYxdTZfc0pYdWF6aEdlcg?oc=5",
-     "at": "2026-11-06T21:53Z",
+     "title": "Fenerbahçe'de Çorum fk maçı öncesi kamp kadrosu belli",
+     "source": "İşçi Haber",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTEViWjVFbzhmZzhjWjJnNFh0LWQwN2JaalNxREF4RElqM1ktN0NtaTR1bTNld2dUVjZwZi1ZTTFOd3pUbTZNVXBvNGJJRlF2TUhrWUV5TGVMY3owQTNBMDNGd3VoZXlpM1BQSDg0aTgwQUlPekNfNmZGZlU1ZmI2SVQtTG9fMXBCRnVZa2w0T29XU0E?oc=5",
+     "at": "2026-11-07T11:30Z",
      "eksik": false
     },
     {
-     "title": "Fenerbahçe'de Emre Belözoğlu'nun Çorum FK maçı ilk 11'i şekilleniyor",
-     "source": "Haber.com",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN3RGLW5ENjJzVjY3ZWNCeTNhZHZMM0I0TDdMUGRuZTliNVpIbHAyanJnWm1wOFVQcFhwU3g4MlNoZ09fU1NZOFJ6dHV3Qlc2WjZESk1KTEl2ZXB4WHItR3BTQWNtbmZrRmIzVU9QUmtFVl9rSjNJczVSR1BETVlrLUU5ZS0teS1CVDc5NWJNOXNLVWZxRkVJV2l4dE5JSFJFdzRV?oc=5",
-     "at": "2026-11-06T18:36Z",
+     "title": "Fenerbahçe Çorum deplasmanına 3 eksikle gidiyor",
+     "source": "Nefes Gazetesi",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY2t0a1NQYUhER1pkMmlmc1Vsek9qMXJpYlZKR2ZDYXowTmZaUUtoT3JUZVo1aDlxLUE4eUQ1ZFVTQjhUWXBlSVE5WU9rT0VHUHdIaHdKd083ZVJSaDJxdHZjNnpqR09qRy1IQ2swb2x3Tl95R2FLNUVhRG1RNHpnRzR5ZE9oUQ?oc=5",
+     "at": "2026-11-07T11:29Z",
      "eksik": false
     },
     {
-     "title": "Çorum FK - Fenerbahçe Hangi Kanalda? Maç Saati ve Yayın Bilgisi",
-     "source": "Futboo.com",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpTjdHeVdRcFhuXy1vU0dlZzdhbUVrRk5PSGFROXVmRmh1OXN6dTlZTjJsRGU5SkdyNUoxR1FyaXhxVG9fNDhUNFZzUHRNUEVwUTBnT0hXRm14dDRNN0NqM0VXM0JvTGQ5aTlzY21kaHk2Qzl3czE2My1QUWw2UdIBfkFVX3lxTFBpTjdHeVdRcFhuXy1vU0dlZzdhbUVrRk5PSGFROXVmRmh1OXN6dTlZTjJsRGU5SkdyNUoxR1FyaXhxVG9fNDhUNFZzUHRNUEVwUTBnT0hXRm14dDRNN0NqM0VXM0JvTGQ5aTlzY21kaHk2Qzl3czE2My1QUWw2UQ?oc=5",
-     "at": "2026-11-06T16:39Z",
+     "title": "Fenerbahçe'nin Çorum FK maçı kamp kadrosu açıklandı: Hangi yıldızlar kadroda yok?",
+     "source": "Yayla Haber",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaldoUF9FcFRjdVV6UzFyTndfa1h5S2pPQzNwWEFGbExTb2ZkTGlQUFhSR1FlU1BRRWdaMS1OdVB2N2o1Rklhbk51bE9vMGFRdDFWczhDYndBb2xaSE5hR1VMVHpIamYtQ2pySW5rV2FCcVZNQVZDYzRVd1pibDNYckQ4eXVNb3ZfZUpadzRZVnEzRXoyeFI1Y1Jzd3d2TS1pR05Pc3EyTlRxY05l?oc=5",
+     "at": "2026-11-07T11:18Z",
+     "eksik": true
+    },
+    {
+     "title": "Fenerbahçe’nin Çorum FK maçı kamp kadrosu açıklandı: Üç eksik",
+     "source": "Türkgün",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTVozMnptVXJ1cjQ1SlFqeE5LdWhock5DWlF4S25BT3pSbHBFNFE4ejNDd0VvcFQybHdHYkZ1MXhqU0tnZ0Y3eHlVUERhUk1HellZZDBMa0RfNVFyQ1BHZ2V4bk9EOXRuVS1hcEJHS2VLZFZtMTJ4M0V3eE9KQWs4Zldtc2hJSHNyQnVkQ2xPeUdycjgtaEdUdnJNOE95Zw?oc=5",
+     "at": "2026-11-07T11:01Z",
      "eksik": false
     },
     {
-     "title": "Çorum FK - Fenerbahçe Maç Tahmini │ Trendyol Süper Lig",
-     "source": "Futboo.com",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5faHhhT1VwT21pcEthVWllOVF3aElDRDBDV0xEME9pOEdzLWpZYktrR2MwMHZCWTlFTmdpdnpIOWp0YjJpc09VNVVZdmdoQzNMSTV0SnFVZU1BaENPVUIxeWtVMTdTYXpWVGhzMmFla0RlWHB3dlk2anRzQdIBe0FVX3lxTE5faHhhT1VwT21pcEthVWllOVF3aElDRDBDV0xEME9pOEdzLWpZYktrR2MwMHZCWTlFTmdpdnpIOWp0YjJpc09VNVVZdmdoQzNMSTV0SnFVZU1BaENPVUIxeWtVMTdTYXpWVGhzMmFla0RlWHB3dlk2anRzQQ?oc=5",
-     "at": "2026-11-06T16:30Z",
-     "eksik": false
-    },
-    {
-     "title": "Arnavutluk Milli Futbol Takımı Finlandiya-Belarus maçlarına 27 kişilik kadro açıkladı",
-     "source": "Son Dakika",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWm1GUUY1TDFrVVVtZkRoSG92MklFOFJ0Q1BhR01qdkJpbEVlQ3UzNUdLdHZ3UjFicFZ6aUJUUEtWVWRhNHh2U0RqazRES19pdjVPUFpiaEVfYjNEZW5sdGlXeFhQcHlfZlV6Sy0yVmxKbmlmNzZHWTZtN2h2RWEzOVAxS2lzNFdhVDhSUFF1aVpxbTlCLVVpWmhwekXSAZwBQVVfeXFMT1ptRlFGNUwxa1VVbWZEaEhvdjJJRThSdENQYUdNanZCaWxFZUN1MzVHS3R2d1IxYnBWemlCVFBLVlVkYTR4dlNEams0REtfaXY1T1BaYmhFX2IzRGVubHRpV3hYUHB5X2ZVekstMlZsSm5pZjc2R1k2bTdodkVhMzlQMUtpczRXYVQ4UlBRdWlacW05Qi1VaVpocHpF?oc=5",
-     "at": "2026-11-06T13:28Z",
+     "title": "Fenerbahçe'nin Çorum FK maçı kadrosu açıklandı",
+     "source": "Ensonhaber",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb01mLU1uNkkyMURwWTRYcVhoUEltRXJCc1daRG5TMllsUVNPRExDZFVpejlOMU83WUQ2bjBGajA0SkdCMWdXZnNhdFhvaWFrSkoyN29QWV9YbTRqSVRBMDJqM0lLMkNOM0daeXF3dXRjeEgwQldFU1RPYi03ZFRKWk5nUF9uSEFN?oc=5",
+     "at": "2026-11-07T10:47Z",
      "eksik": false
     }
    ],
    "away": [
     {
+     "title": "Fenerbahçe'nin Çorum FK maçı kamp kadrosu açıklandı: Hangi yıldızlar kadroda yok?",
+     "source": "Yayla Haber",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaldoUF9FcFRjdVV6UzFyTndfa1h5S2pPQzNwWEFGbExTb2ZkTGlQUFhSR1FlU1BRRWdaMS1OdVB2N2o1Rklhbk51bE9vMGFRdDFWczhDYndBb2xaSE5hR1VMVHpIamYtQ2pySW5rV2FCcVZNQVZDYzRVd1pibDNYckQ4eXVNb3ZfZUpadzRZVnEzRXoyeFI1Y1Jzd3d2TS1pR05Pc3EyTlRxY05l?oc=5",
+     "at": "2026-11-07T11:18Z",
+     "eksik": true
+    },
+    {
+     "title": "Fenerbahçe İlk 11",
+     "source": "Sporx.com",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0wRVZpM095MmxCWmJnUEJRbk5xYU9JeTdBc0R3U3Z2NkItY1RIbzlENEJQRTVDd0hZZFp4RjBFcExGVGFKTFluR3hEc2VGZ3RDdTRFUVpFM2ZDZ0NZSm9OWUxjdThpaGVab3JJ?oc=5",
+     "at": "2026-11-07T10:59Z",
+     "eksik": false
+    },
+    {
+     "title": "Fenerbahçe’de Lukaku’ya Milli Müjde, Mert Müldür’den Kadro Tepkisi",
+     "source": "Bölge Gündemi",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRW9INHhLamp3QVY2SUFnUkNzb3VtdnltSVA2STFaMVVmNDJlMTFDMk5vT0VOd0hZbDh2dVZLN250bWR1NFpkNzBaZXhXSzVhRUc0R2x6NUN3WEdYeXBhMFZvZ3ozdVpNNWs1TGVGaXoydV9pQWlHT0xfd2VlYjBnV2M5bGl1dnRXbVZPOWJ1dDA4NzZyTmlfUktiWUgxSEt3Yk1XQUxfVVVZVGJjZXhFYk1reUdYV2puLWRV?oc=5",
+     "at": "2026-11-07T06:53Z",
+     "eksik": false
+    },
+    {
+     "title": "Fenerbahçe'de Emre Belözoğlu ile kadro değişiklikleri başladı",
+     "source": "www.superlighaberler.com",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd1ktMlpiSnZJMEc0d1FzbEZsYkpOUTZWMmpIM25ZX3dLNGpNcWotUW1Qc3R5c0o3NkVBMHc4d2FIRUpBWng3NjByV2MxaXdrbEpoSlNQS3Q4NEhYMkpaQUJZblFuVWhpOUhjRWVoVEpFOUIzd1NfOXdVV0dnYk5fc3pTOTFabWRpQmR5MXZZSVpEQnFHb2kweFFpYkk5dDRxM2RpU09lN2pKenQxSjVTVA?oc=5",
+     "at": "2026-11-07T06:47Z",
+     "eksik": false
+    },
+    {
      "title": "Fenerbahçe'de Çorum FK maçı ilk 11'i şekilleniyor! Emre Belözoğlu kararını verdi",
      "source": "Güven Gazetesi",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUFMtM2xZUjdHZmtFcGw5Y2oyRlJEc1BUc2hNUDJtdUdWLUE4MnlFcmhvU3hrN195WE15VTZ3Y2xXdnFHVTY1M29zbnhuMlk5OVd4c2dJWFQ4MnlrM1h1MEg5cDJURUhNVDVycmRkU1l2WHcybnU4TWxIREM2MjZZbk1INEdfTU9IWWdSZjVJenJhYzB4WVIxMjhYU29jNWlTbTdEb0dHWUdHNDhjNXYxdTZfc0pYdWF6aEdlcg?oc=5",
      "at": "2026-11-06T21:53Z",
-     "eksik": false
-    },
-    {
-     "title": "Fenerbahçe'de Emre Belözoğlu'nun Çorum FK maçı ilk 11'i şekilleniyor",
-     "source": "Haber.com",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN3RGLW5ENjJzVjY3ZWNCeTNhZHZMM0I0TDdMUGRuZTliNVpIbHAyanJnWm1wOFVQcFhwU3g4MlNoZ09fU1NZOFJ6dHV3Qlc2WjZESk1KTEl2ZXB4WHItR3BTQWNtbmZrRmIzVU9QUmtFVl9rSjNJczVSR1BETVlrLUU5ZS0teS1CVDc5NWJNOXNLVWZxRkVJV2l4dE5JSFJFdzRV?oc=5",
-     "at": "2026-11-06T18:36Z",
-     "eksik": false
-    },
-    {
-     "title": "Çorum FK - Fenerbahçe Hangi Kanalda? Maç Saati ve Yayın Bilgisi",
-     "source": "Futboo.com",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9FVFBmdlVfQUpMSzNGR3NMY2tlOVFCNHEwdmFQeWp3RW9OVm9qbFdaZ25GTm9jNjlpQ2x3UjBPMVFKVEF1RjFvYUJuMkNGa3MtSnhKZEVJYm8wM2dGdUZ3N1VEQVBLNVlLamx3WlR2TGfSAX5BVV95cUxQaU43R3lXUXBYbl8tb1NHZWc3YW1Fa0ZOT0hhUTl1ZkZodTlzenU5WU4ybERlOUpHcjVKMUdRcml4cVRvXzQ4VDRWc1B0TVBFcFEwZ09IV0ZteHQ0TTdDajNFVzNCb0xkOWk5c2NtZGh5NkM5d3MxNjMtUFFsNlE?oc=5",
-     "at": "2026-11-06T16:39Z",
-     "eksik": false
-    },
-    {
-     "title": "Fenerbahçe'den Kerem haricinde 1 yıldız daha kadro dışı kaldı! Sergen Yalçın'dan o isimde sürpriz karar",
-     "source": "tv100 Haber",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRWYyWk5ZcDFsdEhYN0xubGdHbnYwc2l6dnd1STBRZFFoT0ZMbVZkVmhzdkN5dGotdXIxdzJjR3g3UXVWNjhTTDR6eW1NUC1SdlpNZ3Z6RVdGaFB6MURxQ0x0VjJLYktrYW5PZU0tTF9fanl3VnJRVTZMbzdHNGxBU0xfczJvVlJwUmRtN2YyY3pLZTlxMDljSHpwSTlQY3V4c3IxM1F6a3pMQlNZcUFPTUZDWnRWbFdHVVNySUZaZXJONF9VcU1va2JjZVFwek9E?oc=5",
-     "at": "2026-11-06T11:51Z",
-     "eksik": true
-    },
-    {
-     "title": "Haftanın ilk 11'i açıklandı: Avrupa'da haftanın en iyileri arasına girdiler! Fenerbahçe ve Galatasaray'a gurur",
-     "source": "Medyatava",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRjB6VnMyOXlOdnhXT0JJa3dIVE0zWnZhaVZDMUxhUncwS0xGb3BodDlpSjhjTTBHY2hSOEJHWHVMYlhtYThPOWowZG5zTnRSTWpOekJOMzBmYWdiMzBOaTQyZ3huS24xbm14OUR2M2xJTTQ5ZHBCNU11eWJIMkdKY0FubGUwcUFkRjB4Q1QtSlJWX3ZLUkxJdHFKVmdRS3Q3NllHSFhWQ1REM2YwcUJxSFhPNDVPRE01SDR4WGR5amJMWElad3hHVXRHNUVBTHczTkVRaEJqMElWeUlHVU9n?oc=5",
-     "at": "2026-11-05T16:41Z",
      "eksik": false
     }
    ],
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Çorum FK takımında bu maç öncesinde bildirilen önemli bir sakat veya cezalı oyuncu bulunmuyor."
+     "ozet": "Ev sahibi ekip Çorum'un bu maç öncesinde bildirilen önemli bir eksik veya sakatlık durumu bulunmamaktadır."
     },
     "away": {
      "eksikler": [],
-     "ozet": "Fenerbahçe'de karşılaşma öncesi eksik veya sakat oyuncuya dair güncel bir rapor yer almıyor."
+     "ozet": "Fenerbahçe'nin Çorum FK maçı kamp kadrosu açıklandı ancak güncel güvenilir kaynaklarda doğrudan sakat veya eksik oyunculara dair net ve resmi bir detay yer almamaktadır."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-06T22:55Z",
-    "hash": "a6ea63d9310b"
+    "at": "2026-11-07T11:36Z",
+    "hash": "a91ed78e45db"
    }
   },
   "T1|2026-11-08|Rizespor|Erzurumspor": {
-   "fetched_at": "2026-11-06T22:55Z",
+   "fetched_at": "2026-11-07T11:36Z",
    "kickoff": "2026-11-08T10:30Z",
    "home": [
     {
-     "title": "Çorum FK - Fenerbahçe Maç Tahmini │ Trendyol Süper Lig",
-     "source": "Futboo.com",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5faHhhT1VwT21pcEthVWllOVF3aElDRDBDV0xEME9pOEdzLWpZYktrR2MwMHZCWTlFTmdpdnpIOWp0YjJpc09VNVVZdmdoQzNMSTV0SnFVZU1BaENPVUIxeWtVMTdTYXpWVGhzMmFla0RlWHB3dlk2anRzQdIBe0FVX3lxTE5faHhhT1VwT21pcEthVWllOVF3aElDRDBDV0xEME9pOEdzLWpZYktrR2MwMHZCWTlFTmdpdnpIOWp0YjJpc09VNVVZdmdoQzNMSTV0SnFVZU1BaENPVUIxeWtVMTdTYXpWVGhzMmFla0RlWHB3dlk2anRzQQ?oc=5",
-     "at": "2026-11-06T16:30Z",
+     "title": "Eyüpspor: 0 - Kocaelispor: 2",
+     "source": "Ses Kocaeli Gazetesi",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53RVQxYzdXZS1JbnlVdGE1RWktT1RLS1lUSWtXaEkwMUFRT1k0SFpqeDdZaXJsOGRXbHhxZ1R5V0h0U0hRajMybVdud3NHVnR0cDJzMF9rRk9scGJWVWM2SnVIcldTbW50eElSMERKNzNiNnQ40gF6QVVfeXFMUFFzdDQ1eTUyVlhfa0p6TEJUX1VzYTF2WWdHSlV2RGtPYUVFajNEZXdDeXRUTnhuVlp4RWNsb3dRN09zT1U5alc0aXY3MkxhS3JpbHZkNC0wODZwMFNZemxXU2puMUdvLXI5LVU2Rmd2LTJWSUlYd2FSMUE?oc=5",
+     "at": "2026-11-07T11:04Z",
      "eksik": false
     },
     {
-     "title": "Arnavutluk Milli Futbol Takımı Finlandiya-Belarus maçlarına 27 kişilik kadro açıkladı",
-     "source": "Son Dakika",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMGxrMmEySnlaSlMwLU1zM0ZESHdmamE3LXplZmhLOUlqbW9DQlpNb3Bfc2NVWHVwN2tRVzVlVDRhVGhadGtyYUlaQnF3ay1lUXNIWWdaYkRuVUR1MThZQ0pyNjNEazRlSS1tejAyMFJwTm9oRDRyczhGbV9NQjVxZmNXTDcyc1p6OW1MMmhYdHNfWU1mc0tZRzZyOURxZ9IBnAFBVV95cUxPWm1GUUY1TDFrVVVtZkRoSG92MklFOFJ0Q1BhR01qdkJpbEVlQ3UzNUdLdHZ3UjFicFZ6aUJUUEtWVWRhNHh2U0RqazRES19pdjVPUFpiaEVfYjNEZW5sdGlXeFhQcHlfZlV6Sy0yVmxKbmlmNzZHWTZtN2h2RWEzOVAxS2lzNFdhVDhSUFF1aVpxbTlCLVVpWmhwekU?oc=5",
-     "at": "2026-11-06T13:28Z",
+     "title": "Selçuk İnan kararını verdi, ilk 11 belli oldu",
+     "source": "Kocaeli Gazetesi",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcEJDR3dPczZPTk42ZnJfd3BjVjlYd0dwSko5M0kzWlpkTTU4dTI0ZXNIY3R4blNjN1c0NW40Q3BJMHd4U3puYjBsMXFrWjNzdzloYmhuSG9OdUZLcXAzbUhnNnZweExqTVpRcVRJVkQyaXV0aHZCRTc2em5hWjlqa1psY0NLSzY4V2pFWkhHSmNWdlRVUTVrb25SdDltWlnSAZ8BQVVfeXFMUHBCQ0d3T3M2T05ONmZyX3dwY1Y5WHdHcEpKOTNJM1paZE01OHUyNGVzSGN0eG5TYzdXNDVuNENwSTB3eFN6bmIwbDFxa1ozc3c5aGJobkhvTnVGS3FwM21IZzZ2cHhMak1aUXFUSVZEMml1dGh2QkU3NnpuYVo5amtabGNDS0s2OFdqRVpIR0pjVnZUVVE1a29uUnQ5bVpZ?oc=5",
+     "at": "2026-11-07T09:42Z",
      "eksik": false
     },
     {
-     "title": "Sergen Yalçın'dan Milli Takım'da 10 değişiklik! Kerem Aktürkoğlu kadroda yok",
-     "source": "HABER RİZE",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOU1dnb0pEbWVPeDZTejdsOE52b29zM3VpNEptNWhhU293dlNZUVh5UzQ3RGp4OFFKNm5aVzl5QUptSHhqTEVNeU9WbERSSkhuQWpCVEFPRWhJTFlXRDFuYjdRT3I5X2FfS0l5RUMtWlZiRE5xVk1DeFgzSU1CLWlxS3NSMm51bWZOc3A3cDFKUTJ6MGN2MzlGR0xWZ3U5Ti1XSUc2OVdJM2wyZWtkSWwtVE1qVG1tdw?oc=5",
-     "at": "2026-11-06T12:38Z",
-     "eksik": true
-    },
-    {
-     "title": "Rizespor - Erzurumspor Maç Tahmini │ Trendyol Süper Lig",
-     "source": "Futboo.com",
-     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE12NW50WG9BZnh0RUFpN3Etc2ctenRpMjdsRUtMOXQzSGZFWDBSU1NrckRPY3JFLUtCT3Q5ZkVxMVhYcnRMdmFIdnJ2T0Y2ekJma1g0TnZyODdoT2t3LXY2REpZMkpOMXFSdzhDMW5OcnRjc00xQld5Yi14V0LSAXxBVV95cUxNdjVudFhvQWZ4dEVBaTdxLXNnLXp0aTI3bEVLTDl0M0hmRVgwUlNTa3JET2NyRS1LQk90OWZFcTFYWHJ0THZhSHZydk9GNnpCZmtYNE52cjg3aE9rdy12NkRKWTJKTjFxUnc4QzFuTnJ0Y3NNMUJXeWIteFdC?oc=5",
-     "at": "2026-11-06T12:35Z",
+     "title": "Kocaelispor’un ilk 11’i belli oldu!",
+     "source": "Ses Kocaeli Gazetesi",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55RkhHcWI5a2hybzktYWwwdWktNG9OblBvTVBWem9Na2tpOEdaa0VrQ2dxcXdnOEt0UVJGZk02Zk1LM3Z4ZU5KVmNTYkVwOGljN0pmd2lpNEMzYnVLT0FuT3RUeVpzRWhWdzVfT0pFUS02SWJrX0FHbTJ0MFVTNUXSAYQBQVVfeXFMTjRZRW90WGtCay1QSTFkNVgwUEJZUDJSem1SdUY4YUlpZTREXzEyaWI2ZEdoNUZwZnMtU2h5RG0tMks4SWJsMWlySFc3c19mb05BR0pGTW1lUGVwRkhJX2c1ekU1eWt2MmQ3cXBTWURCbUVERzFIWHBPUWRIMjlPbWxqX2dX?oc=5",
+     "at": "2026-11-07T09:35Z",
      "eksik": false
     },
     {
-     "title": "“Rizespor’da Şeytanın Bacağını Kırma Maçı”",
-     "source": "Rizedeyiz",
-     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zT05hN1FCdk55R1pzUmpvTlNPTVlfNDh6enh4anl6NW5nTFZ6THpoZVk2aXRpcHdLRWJYTGxyUk5DdWJTWmQ5am1qM2RJWjdySy1CVS1ackVhakY2Wm9Bb2NsUkx4dG5ZTUhmQmZMSTZBQm8?oc=5",
-     "at": "2026-11-06T11:15Z",
+     "title": "İlk 11’de tek değişiklik -",
+     "source": "Özgür Kocaeli",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iN09UYkx0WFpCd1Y1SlZybVQxVDRkS291WlR1SVZTZkU0aGoxUW1HR0dBbVlnLVBBbjh2bU5IeGZHeWRWRmpEUE5OSkFlQmZ5NGR1R05xM0dweWFuMm14ZVBJVmozRXh1UVNHVmFGeWF0V1B1VGNOZHd5c0JiUzQ?oc=5",
+     "at": "2026-11-07T09:32Z",
+     "eksik": false
+    },
+    {
+     "title": "Kocaelispor ilk 11'i belli oldu",
+     "source": "Demokrat Kocaeli",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1kTS1hS250LVFTN0FCcXF4VWVUTE1maHY4U0VRVmxmcHJYRnZoSGM3THQ2MG0wTDRHT1dMeHU5RFVmUFRBMHJKbVY3V2xLdmIwRGVUYjlURjRqRk9oeDhaUnVENUQ0Tzd2ejc4QVBwaWk1dlFiOEF6RExGZ0FTZ9IBgwFBVV95cUxOYllPdHBudkxtY2pOUlZaTXRRYVlDLVRaS241Zmo1NTI1Q2RlQWJFQzhmOU9MLVBoRDlqaW9PMHRyTEhOUmhJYVVSd2pRRndPN1IzUFJDQXNJQnFKQTlsNzNvU3J4WW1SNkhRZzhyU1FjY0hsMEtOT3hyZVc2ZjI3aXRmUQ?oc=5",
+     "at": "2026-11-07T09:27Z",
      "eksik": false
     }
    ],
    "away": [
     {
-     "title": "Çorum FK - Fenerbahçe Maç Tahmini │ Trendyol Süper Lig",
-     "source": "Futboo.com",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5faHhhT1VwT21pcEthVWllOVF3aElDRDBDV0xEME9pOEdzLWpZYktrR2MwMHZCWTlFTmdpdnpIOWp0YjJpc09VNVVZdmdoQzNMSTV0SnFVZU1BaENPVUIxeWtVMTdTYXpWVGhzMmFla0RlWHB3dlk2anRzQdIBe0FVX3lxTE5faHhhT1VwT21pcEthVWllOVF3aElDRDBDV0xEME9pOEdzLWpZYktrR2MwMHZCWTlFTmdpdnpIOWp0YjJpc09VNVVZdmdoQzNMSTV0SnFVZU1BaENPVUIxeWtVMTdTYXpWVGhzMmFla0RlWHB3dlk2anRzQQ?oc=5",
-     "at": "2026-11-06T16:30Z",
+     "title": "Çaykur Rizespor – Erzurumspor FK Maçı Ne Zaman, Saat Kaçta?",
+     "source": "HABER RİZE",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc2JYbll4V1VydHB4U255N1otZG5DdjVGREtzZkg3THY1OG1xMkRFcnQ4dkdmbFFydURyZmkzU0VWV1haVGVmOHBMV005VVlOamNFWjBrYzFOaHZZcWlMMWhQXzVlY01lWUNwTml5LU9wVmlvc1JvRTExRDhaejg3ZHI1SHJuZnBORTV4ZzFZbERiZ3RwQ0JVbzlhSzJfQW8xelp5TF85MFI5QWpN?oc=5",
+     "at": "2026-11-07T09:32Z",
      "eksik": false
     },
     {
-     "title": "Rizespor - Erzurumspor Maç Tahmini │ Trendyol Süper Lig",
-     "source": "Futboo.com",
-     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE12NW50WG9BZnh0RUFpN3Etc2ctenRpMjdsRUtMOXQzSGZFWDBSU1NrckRPY3JFLUtCT3Q5ZkVxMVhYcnRMdmFIdnJ2T0Y2ekJma1g0TnZyODdoT2t3LXY2REpZMkpOMXFSdzhDMW5OcnRjc00xQld5Yi14V0LSAXxBVV95cUxNdjVudFhvQWZ4dEVBaTdxLXNnLXp0aTI3bEVLTDl0M0hmRVgwUlNTa3JET2NyRS1LQk90OWZFcTFYWHJ0THZhSHZydk9GNnpCZmtYNE52cjg3aE9rdy12NkRKWTJKTjFxUnc4QzFuTnJ0Y3NNMUJXeWIteFdC?oc=5",
-     "at": "2026-11-06T12:35Z",
-     "eksik": false
-    },
-    {
-     "title": "“Rizespor’da Şeytanın Bacağını Kırma Maçı”",
+     "title": "Rizespor-Erzurumspor Arasındaki Dikkat Çeken Yaş Farkı",
      "source": "Rizedeyiz",
-     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zT05hN1FCdk55R1pzUmpvTlNPTVlfNDh6enh4anl6NW5nTFZ6THpoZVk2aXRpcHdLRWJYTGxyUk5DdWJTWmQ5am1qM2RJWjdySy1CVS1ackVhakY2Wm9Bb2NsUkx4dG5ZTUhmQmZMSTZBQm8?oc=5",
-     "at": "2026-11-06T11:15Z",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ2k5UTNiZURrTXBrdm9JVHNoaE1ta1M0anVmcHBIaUpvRGVQNGxFQTYzNk1hYi13dTdJbmIyNnhxdU9BQzhxcC1sSDVlOUI0OF93bm5LZklUdXdBbGtOeWw1RnZqeE9ua3dsX2NMNGs4Z3ZSMTJEYWdFbHB0bHNHS1R6RQ?oc=5",
+     "at": "2026-11-07T07:55Z",
      "eksik": false
     },
     {
-     "title": "Rizespor'da Sakatlık ve Kart Kabusu! Erzurumspor Karşısında Kimler Oynamayacak?",
-     "source": "Taka Gazete",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNclB1eFNxS05paTh1RjFtR1YydGFmSDVXVzZWUm05bWtPREtqRXh4MWZtZVF5eDUwTUQ4RlVVVEJJNjU0SEhoNkQ2YWVtclRHR0NPb2ZUbzZveW9CUUJRYmwtX2JyT2kxUkNPQi1fc1c2ejdhd2VzSlE4eGNoMVNBOFFocXp1UFdtdFAyRFFscWxYZEswamNid016V1h0eXJDbHl4Y1hWa1prUQ?oc=5",
-     "at": "2026-11-06T10:58Z",
-     "eksik": true
+     "title": "Çaykur Rizespor, Erzurumspor Maçında Sahaya Hangi 11 İle Çıkacak",
+     "source": "Rizedeyiz",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNT3BLb0QtOElHM05Gd3Zxc3BVNFFIMGVVb2hXMzFRN2RMNWVkQW9hbE9jeVF1aWdPakNfMjJQWEF1ZzAtSFVRU040NVIwQmZWM25JSDQ2dlRiT29nYXhUMVNMeTdnSWkxU0hXWnJfWUJJYlJXc0NrQk1CLW80a0NrRVZ5bUVtY24zMlRHSW96cGcwVDg?oc=5",
+     "at": "2026-11-07T06:55Z",
+     "eksik": false
     },
     {
-     "title": "Süper Lig'de sakat ve cezalı futbolcu listesi",
-     "source": "T24",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMXpZdVNEOFhseWJtRHVnLUlMTWhRM19BUDRtV25yTkdacXNqclZ6N0VlLVZZeGs0MUs0RmZUVGotdkl6N2REM0hnXzZsWXAtWm9hamxWc3RIeFJReEJUOXVwNU9keU5KdHhwRmk3ZHowSDZpVm85QXl3dmVweTlKM2pB?oc=5",
-     "at": "2026-11-06T02:13Z",
-     "eksik": true
+     "title": "Rize'de fire çok!",
+     "source": "Erzurum Pusula Gazetesi",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3eFRFM2x0RG54WVdqbmdDRjRIbTI0RjVyd3dwRDhDS0ZwY0Q4ak9JOFRsbnlkbmhPYzFtM3U2ZXZvV0NTdkhzWURsMXBIVWw5d0V3V29YVDBmYTE1b1BiSkhsTQ?oc=5",
+     "at": "2026-11-07T04:46Z",
+     "eksik": false
+    },
+    {
+     "title": "Büyükşehir Belediye Erzurumspor'da yeni sezon hazırlıkları",
+     "source": "Haber 7",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU2FiV3VYMG9WdzlxOUExTjZhbHplcG11dFlFUHdNRTh4ZDl0MXZoV3p2Qnltc1ctXy1LM1FGZWZkLWVoT0lDdWx1QTdaYkFlNTVpbFNhczlRLXY3MW9EV1B5MGhIVlpCclBlRFhGcUx4Sm05OGF1dnB6STNlNGN2S3JrOWxtMkI5QThDVV90VzNnYjl6ZGlVOXJTNm1ndw?oc=5",
+     "at": "2026-11-06T20:58Z",
+     "eksik": false
     }
    ],
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Maç gününe iki gün kala Rizespor ve Erzurumspor'un sakat veya cezalı oyuncularına dair güncel ve doğrulanmış resmi bir eksik listesi bulunmamaktadır."
+     "ozet": ""
     },
     "away": {
      "eksikler": [],
-     "ozet": "Erzurumspor cephesinde de bu maça yönelik bildirilen eksik veya sakat oyuncu bilgisine ulaşılamadı."
+     "ozet": ""
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-06T22:55Z",
-    "hash": "af84dbd2977b"
+    "at": "2026-11-07T11:36Z",
+    "hash": "70cef0d6f6cf"
    }
   }
  },
@@ -16342,13 +16313,13 @@
  },
  "coupons": [
   {
-   "id": "dusuk-202611062255",
+   "id": "dusuk-202611071136",
    "type": "dusuk",
-   "created_at": "2026-11-06T22:55Z",
+   "created_at": "2026-11-07T11:36Z",
    "status": "bekliyor",
    "backfill": false,
    "odds": 1.1,
-   "prob": 0.8154,
+   "prob": 0.8293,
    "legs": [
     {
      "league": "E0",
@@ -16357,7 +16328,7 @@
      "kickoff": "2026-11-07T15:00Z",
      "selection": "1X",
      "market": "CS",
-     "prob": 0.9628,
+     "prob": 0.969,
      "odds": 1.0,
      "result": "bekliyor"
     },
@@ -16368,8 +16339,8 @@
      "kickoff": "2026-11-07T16:00Z",
      "selection": "1X",
      "market": "CS",
-     "prob": 0.897,
-     "odds": 1.08,
+     "prob": 0.902,
+     "odds": 1.09,
      "result": "bekliyor"
     },
     {
@@ -16379,8 +16350,8 @@
      "kickoff": "2026-11-08T18:00Z",
      "selection": "1X",
      "market": "CS",
-     "prob": 0.9441,
-     "odds": 1.02,
+     "prob": 0.9488,
+     "odds": 1.01,
      "result": "bekliyor"
     }
    ]
@@ -17761,13 +17732,13 @@
    ]
   },
   {
-   "id": "orta-202611062255",
+   "id": "orta-202611071136",
    "type": "orta",
-   "created_at": "2026-11-06T22:55Z",
+   "created_at": "2026-11-07T11:36Z",
    "status": "bekliyor",
    "backfill": false,
-   "odds": 1.93,
-   "prob": 0.5089,
+   "odds": 1.87,
+   "prob": 0.5347,
    "legs": [
     {
      "league": "E0",
@@ -17776,8 +17747,8 @@
      "kickoff": "2026-11-07T15:00Z",
      "selection": "1",
      "market": "1X2",
-     "prob": 0.8708,
-     "odds": 1.15,
+     "prob": 0.888,
+     "odds": 1.14,
      "result": "bekliyor"
     },
     {
@@ -17787,8 +17758,8 @@
      "kickoff": "2026-11-07T16:00Z",
      "selection": "1",
      "market": "1X2",
-     "prob": 0.7092,
-     "odds": 1.39,
+     "prob": 0.7201,
+     "odds": 1.38,
      "result": "bekliyor"
     },
     {
@@ -17798,8 +17769,8 @@
      "kickoff": "2026-11-08T18:00Z",
      "selection": "1",
      "market": "1X2",
-     "prob": 0.824,
-     "odds": 1.21,
+     "prob": 0.8362,
+     "odds": 1.19,
      "result": "bekliyor"
     }
    ]
@@ -18564,13 +18535,13 @@
    ]
   },
   {
-   "id": "riskli-202611062255",
+   "id": "riskli-202611071136",
    "type": "riskli",
-   "created_at": "2026-11-06T22:55Z",
+   "created_at": "2026-11-07T11:36Z",
    "status": "bekliyor",
    "backfill": false,
-   "odds": 13.38,
-   "prob": 0.0674,
+   "odds": 13.24,
+   "prob": 0.0713,
    "legs": [
     {
      "league": "E0",
@@ -18579,8 +18550,19 @@
      "kickoff": "2026-11-07T12:30Z",
      "selection": "Üst 2.5",
      "market": "OU",
-     "prob": 0.5109,
+     "prob": 0.52,
      "odds": 1.91,
+     "result": "bekliyor"
+    },
+    {
+     "league": "T1",
+     "home": "Goztep",
+     "away": "Buyuksehyr",
+     "kickoff": "2026-11-07T16:00Z",
+     "selection": "1",
+     "market": "1X2",
+     "prob": 0.5083,
+     "odds": 1.92,
      "result": "bekliyor"
     },
     {
@@ -18590,7 +18572,7 @@
      "kickoff": "2026-11-08T10:30Z",
      "selection": "1",
      "market": "1X2",
-     "prob": 0.5089,
+     "prob": 0.5126,
      "odds": 1.91,
      "result": "bekliyor"
     },
@@ -18601,19 +18583,8 @@
      "kickoff": "2026-11-08T14:00Z",
      "selection": "2",
      "market": "1X2",
-     "prob": 0.5178,
-     "odds": 1.9,
-     "result": "bekliyor"
-    },
-    {
-     "league": "E0",
-     "home": "Sunderland",
-     "away": "Chelsea",
-     "kickoff": "2026-11-08T14:00Z",
-     "selection": "2",
-     "market": "1X2",
-     "prob": 0.5004,
-     "odds": 1.93,
+     "prob": 0.5262,
+     "odds": 1.89,
      "result": "bekliyor"
     }
    ]
