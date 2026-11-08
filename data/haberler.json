@@ -3511,91 +3511,91 @@
  },
  "T1|2026-11-08|Besiktas|Genclerbirligi": {
   "ai": {
-   "at": "2026-11-08T16:29Z",
+   "at": "2026-11-08T17:22Z",
    "away": {
     "eksikler": [],
-    "ozet": "Gençlerbirliği'nde bu maç öncesi öne çıkan sakat veya cezalı oyuncu rapor edilmemiştir."
+    "ozet": "Gençlerbirliği'nde bu karşılaşma öncesinde rapore edilen eksik oyuncu bulunmuyor."
    },
-   "hash": "d734fcb2c234",
+   "hash": "1c6f0068b9da",
    "home": {
     "eksikler": [],
-    "ozet": "Beşiktaş'ta bu maç öncesinde resmi olarak bildirilen önemli bir eksik bulunmamaktadır."
+    "ozet": "Beşiktaş'ta Gençlerbirliği maçı öncesinde bildirilen önemli bir eksik veya sakatlık bulunmamaktadır."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
    {
-    "at": "2026-11-08T16:14Z",
+    "at": "2026-11-08T17:10Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTlUtMWktV29sVk1lekZnbVFwRllPNFQ5TXpsWTU0NVJVOWluQ2tVRm43cVdGYWRXOFRHTzhpd3pjekNJT0UxZ1RJNGRrcmxGVFRzNGZuRTI5R2pPVlVYREc2YllUQkxBSEgzRU40ZEhBUzNBWHo4R0VDYVRfTW0zc185Yzd5RDdnanNpWWtGREsxNG9BVy1MOW5pSQ?oc=5",
-    "source": "Haber Gündemim",
-    "title": "Beşiktaş Gençlerbirliği muhtemel 11'ler ve yayın bilgileri"
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVW9iZHFPem1qOXNtN0FMU1RhWW0tVFMxNmRISjJQazFjNWpVVUwwS0J4MzdwTWJFcXpiSUhvODF0VDlPYWtXMjZzSGxMNXMtWFp4WG9vSnZsd0wzNC1ycFBkR3ZKQlZYbHFickNXR1M5SEstQ3R3N2VsT1NZeU1PekdxYzFRSGc?oc=5",
+    "source": "İnternet Haber",
+    "title": "Beşiktaş - Gençlerbirliği / Canlı anlatım"
    },
    {
-    "at": "2026-11-08T15:34Z",
+    "at": "2026-11-08T17:06Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU3lLM1J6R2V2N2UwZjJZV0p3MHlmMUlKVVBvLTRqMDloaEZVNkpTT1k4VGJxVzd0VkFwWGFOOGgwSVdHS25pYWJlRzE2UXNhemVabmk3bWFzU0l6RTBJdDM4cDV5Sk1RbUNGVnU3TVg0eHZWdG5TUXdiTFpLT2ZrU2dIWTFrZkZlZTdpRUhYOExBTHdJN1BXb2NxMmZ5NVJDUXdfWEF3ZXlrZ1AxdmI5STJCS19EcjFjRWt1Vzh4ZUhiMUdTY1hPNA?oc=5",
-    "source": "Güneydoğu Ekspres",
-    "title": "Beşiktaş Gençlerbirliği maçı saat kaçta, hangi kanalda? 8 Kasım Süper Lig maçı canlı yayın bilgisi"
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYkptNG1Id2VlelJjd0hhaTJlUVZFemVlaWt1eEk5Z2trM1NpMXRjZ3g0SlZ6ZVBVSnZSMW9kWlR4dEJDSFpIX1JyemVpM1IwYXJELXdTbTcwVUVhTkp4dk9la1dwakZsR0FMc0ZnU1JwTVcwR0ZVTHZjaHJDUnR3T0NUaVBHRmNsazBQSTZkelVPaG9OLUEyaTl30gGYAUFVX3lxTE91Y1JSOGxUT0VKNk1kMThXbDRMRVM0dkVzRENrQXE0S0VqbEVnOURNY0Y0b2RFNEF2T0MxNEJLRF9zNEIzdlgwcWk3RE1NR3NUbTVZaUxCcUtRcnAtZlo0eng5ZUUwN1d0RGVkVFo4bTZWckZLaTMzMWpnVllDTjk4MVdJejlrelRNNHVvYndwRnRZZ19UOG13?oc=5",
+    "source": "Son Dakika",
+    "title": "Beşiktaş-Gençlerbirliği maçında ilk 11'ler belli oldu"
    },
    {
-    "at": "2026-11-08T15:32Z",
+    "at": "2026-11-08T16:59Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTHltdEVtYjlMOTNNMzRTSlJ4cnBJSjZhNlpGUjhJcmdYU3g5WFdVM2RyNmdFYmlhQTlnYXZiZ213cjFWbmRBR2hCMVA5QnlNbEFFWGF6MGplSnBLU1lhcGlpb0lnTk1KcTQxVVhUelpROEF6Mi1Wc2J3UGtQRmtsSFNjcGZLWDFLRE5ScTNJb3hrT0laRWxpQnY3YkhXM1hJa3JBcWdKTUVGN1J4cTg3a0VrRFYyTnBMdk05eQ?oc=5",
-    "source": "kayserihaber.com",
-    "title": "Beşiktaş Gençlerbirliği maçı saat kaçta, hangi kanalda, şifresiz mi? Maç nereden nasıl izlenir"
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVWJHU1FsOThpNjdwTmI5aHRlY2JZNXpQZVpvMUp4dTB5dExOMVJKMGxneWJoRWNVc2J2aGR2OHZnN25MTnYxYlMxTnIyeFRxaHFSZGlwSmFZeWxNcUNDODhucXk2Mjc5VUFNMFFYdWFrUVlPdjFzc2xybVJNSXZVb1dVOEdITVg4akFqWVpMdHV2OXQxaUdONDdB?oc=5",
+    "source": "Dünya Gazetesi",
+    "title": "Beşiktaş-Gençlerbirliği maçının ilk 11'leri belli oldu"
    },
    {
-    "at": "2026-11-08T14:14Z",
+    "at": "2026-11-08T16:58Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN0dmNzljOGxmWnNXMWlsdGtfUFBveFZHWk1pUDVCRVhEeXB5dUc5bjk5WE9hNE9TV25nUEllYTZOOHI3LUxnRFo5c0o1Wk92NUZzXzdScWFna0xhVkZybjJHNjF6dTU0ZFlhbTFuc1BPLWF6MmNkeGx4RnBqOEp4VFFsR2UyTGtTTHdpc1Q0Q0doS1NHTHJjVWVVZzdOMklfY2ZWZ2dBX2k?oc=5",
-    "source": "Malatya Söz",
-    "title": "Beşiktaş – Gençlerbirliği Maçı İçin Geri Sayım! İşte Saat, Kanal ve Muhtemel 11’ler"
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONi0zNkU3elNIbjhCTGwyS1BmbzNwSHoxdmltN0FYN1lFRDdFOFpRTnhBa2V3SGZXOGtfNWMzT1RvN0JGSXQ5dk40anV5Q2dwdWpsOXlFTEVZdnF0OEY1bjNUSnBKRzBXNGNndFFUWkhMY0xUWnhGU3NwcUxkMDcxZVlVS2ZVVW16clpCOWdoU3pzTzBmYjdrNg?oc=5",
+    "source": "Ekonomim",
+    "title": "Beşiktaş'ın Gençlerbirliği maçı ilk 11'i belli oldu: Italiano'dan dikkat çeken karar"
    },
    {
-    "at": "2026-11-08T11:29Z",
+    "at": "2026-11-08T16:58Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPX2gyRWhmTVdMekhsOGFLaGg0Rzh5OG9ERTdNNTB6UnZPdk41UTQxUUtLQXN6dVBHT0VPQ09RejZsb1dTZmdTRFVBTWdOMFF0Tkk2TDJyd1g3dDJvM1BwbEU0Zmk0M2NmMGdLWTdsZDRSSzh6N19qVkdjR2JfWFN1dW43eFJrNHZ0QmF1TldiSU1KQjZCc3hqQ0hCdm5OeW90MHN6TnM0bGJjSVE2ZjUtUFJ4bmtKRy1rYm8xSm9KNjNiLTZuR0EyWEp5Rkl0NWVhZTJScVhaTW5sanA0UXpwblA2ZlB1VnI3aGN6a1phMm9VVHhFWXBiUw?oc=5",
-    "source": "Habertürk",
-    "title": "CANLI İZLE | Beşiktaş – Gençlerbirliği maçı ne zaman, saat kaçta, hangi kanalda? İşte Beşiktaş – Gençlerbirliği muhtemel 11’ler"
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcFoyd3BNX1B0RFN3RVdWVzU1ejFVcWttRHA2ZmlDSDVnR0ZHM240R0s1UlZOTlQzYklSWVplQlFtSm5hVXVCOTZGdFJYbkd5b1g5aEVsYVlBMHFKLXNlU29ueFhlTUZWd09HREhtQkZoQ1pjSXBGNEhVNGVQS2stQ0VuT1pkNEE?oc=5",
+    "source": "Manşet Haber",
+    "title": "Beşiktaş-Gençlerbirliği maçında ilk 11'ler açıklandı!"
    }
   ],
-  "fetched_at": "2026-11-08T16:29Z",
+  "fetched_at": "2026-11-08T17:22Z",
   "home": [
    {
-    "at": "2026-11-08T15:32Z",
+    "at": "2026-11-08T17:06Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTHltdEVtYjlMOTNNMzRTSlJ4cnBJSjZhNlpGUjhJcmdYU3g5WFdVM2RyNmdFYmlhQTlnYXZiZ213cjFWbmRBR2hCMVA5QnlNbEFFWGF6MGplSnBLU1lhcGlpb0lnTk1KcTQxVVhUelpROEF6Mi1Wc2J3UGtQRmtsSFNjcGZLWDFLRE5ScTNJb3hrT0laRWxpQnY3YkhXM1hJa3JBcWdKTUVGN1J4cTg3a0VrRFYyTnBMdk05eQ?oc=5",
-    "source": "kayserihaber.com",
-    "title": "Beşiktaş Gençlerbirliği maçı saat kaçta, hangi kanalda, şifresiz mi? Maç nereden nasıl izlenir"
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYkptNG1Id2VlelJjd0hhaTJlUVZFemVlaWt1eEk5Z2trM1NpMXRjZ3g0SlZ6ZVBVSnZSMW9kWlR4dEJDSFpIX1JyemVpM1IwYXJELXdTbTcwVUVhTkp4dk9la1dwakZsR0FMc0ZnU1JwTVcwR0ZVTHZjaHJDUnR3T0NUaVBHRmNsazBQSTZkelVPaG9OLUEyaTl30gGYAUFVX3lxTE91Y1JSOGxUT0VKNk1kMThXbDRMRVM0dkVzRENrQXE0S0VqbEVnOURNY0Y0b2RFNEF2T0MxNEJLRF9zNEIzdlgwcWk3RE1NR3NUbTVZaUxCcUtRcnAtZlo0eng5ZUUwN1d0RGVkVFo4bTZWckZLaTMzMWpnVllDTjk4MVdJejlrelRNNHVvYndwRnRZZ19UOG13?oc=5",
+    "source": "Son Dakika",
+    "title": "Beşiktaş-Gençlerbirliği maçında ilk 11'ler belli oldu"
    },
    {
-    "at": "2026-11-08T13:27Z",
+    "at": "2026-11-08T16:59Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcjI4cGVpTF8wZGlBcTJfMjdYRDlFRU5vVFU1aDhwX3R6WDJOLTJ4WFoxSzNUSzZxUklYZzFwS25FS0xKZlI5T3BTRWVUUThwVW9KUTdXYlUtYmRqc2tKSnRrOTdTSFdyd0lKTGVTQXpKTEpvN1RvbTA1bEYxTThjWF9oNGJoRUZ4S3lOM1dfV2pKcGh5SjJaLXZXU2VQVjdsMTg2ZVFoR01oNFhEcXc?oc=5",
-    "source": "Haberhergün",
-    "title": "Beşiktaş'ta Italiano faturası: Kadro uyumsuzluğu mu, yönetim hatası mı?"
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVWJHU1FsOThpNjdwTmI5aHRlY2JZNXpQZVpvMUp4dTB5dExOMVJKMGxneWJoRWNVc2J2aGR2OHZnN25MTnYxYlMxTnIyeFRxaHFSZGlwSmFZeWxNcUNDODhucXk2Mjc5VUFNMFFYdWFrUVlPdjFzc2xybVJNSXZVb1dVOEdITVg4akFqWVpMdHV2OXQxaUdONDdB?oc=5",
+    "source": "Dünya Gazetesi",
+    "title": "Beşiktaş-Gençlerbirliği maçının ilk 11'leri belli oldu"
    },
    {
-    "at": "2026-11-08T11:02Z",
+    "at": "2026-11-08T16:58Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tV0NabDNxSmZDa0FuMEFhcUtlbENFQVdHTURpdmxKXzdKaXNzSXV5dFlkVGFIUWRkSmlsRTloc1hpZWR6R2s1NENsekFwdTRkeVE?oc=5",
-    "source": "Instagram",
-    "title": "Beşiktaş'ın Gençlerbirliği maçı muhtemel ilk 11'i... #BJKvGB #duhuliye #haber1903"
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONi0zNkU3elNIbjhCTGwyS1BmbzNwSHoxdmltN0FYN1lFRDdFOFpRTnhBa2V3SGZXOGtfNWMzT1RvN0JGSXQ5dk40anV5Q2dwdWpsOXlFTEVZdnF0OEY1bjNUSnBKRzBXNGNndFFUWkhMY0xUWnhGU3NwcUxkMDcxZVlVS2ZVVW16clpCOWdoU3pzTzBmYjdrNg?oc=5",
+    "source": "Ekonomim",
+    "title": "Beşiktaş'ın Gençlerbirliği maçı ilk 11'i belli oldu: Italiano'dan dikkat çeken karar"
    },
    {
-    "at": "2026-11-08T09:20Z",
+    "at": "2026-11-08T16:58Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ1N6UFpmM2EwcEwyOEdmaFJWUlNTcFozd2FpUzV4Qk02U0dQTmZvMUdyNHVxZ3hubWd1emVncUJ1dG11SkhYS2x1MlJ4U1E4TnRlaUdIdWNialRxZjJVTElSSkFyT2hvTVJUUHk4S0RmNmI0RWlCelpYYVhWWlFmYXVGSkNqMDROblk1MjdCNndxYzcya1Q1TjV2TFdIYzIxWlV1TjRqVQ?oc=5",
-    "source": "Haber Sunum",
-    "title": "Beşiktaş - Gençlerbirliği karşılaşmasında muhtemel ilk 11'ler belli oldu"
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcFoyd3BNX1B0RFN3RVdWVzU1ejFVcWttRHA2ZmlDSDVnR0ZHM240R0s1UlZOTlQzYklSWVplQlFtSm5hVXVCOTZGdFJYbkd5b1g5aEVsYVlBMHFKLXNlU29ueFhlTUZWd09HREhtQkZoQ1pjSXBGNEhVNGVQS2stQ0VuT1pkNEE?oc=5",
+    "source": "Manşet Haber",
+    "title": "Beşiktaş-Gençlerbirliği maçında ilk 11'ler açıklandı!"
    },
    {
-    "at": "2026-11-08T04:07Z",
+    "at": "2026-11-08T16:57Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRmFEay1tTjJ3bWtUb0ZZRXBXWDNHR1VLOUV0emozcmZyVW9rb1F3ZFYwMW1mSkRrYV9qSy1rRnZYQXJhcTA4Wjg4Zk10SExTMXBKTFY1WlBMR2ZWMThpZG9qeWR5UlkxX1RxV21wZ243Z29JTEpZakY2emE2cVY2TmlNSC00WEloN1hQazF2UTVuVGFLSFJndFVjSVVUQnBodlUwT1FKT21WeEJNSDNza01sSE9mZ1dDaGxIellUU2ZYS09XZ0lPTzFJdDBQZmhN0gHTAUFVX3lxTFA1Sm1xYWlGUzlHaXlXSmdTMFMyUnY1Rm02cHNvank5TEw1LXo0STJ4SEFhazJmSFRHMWpVRVBINGhXMGZUSzFQYm9UdFgwaUd5M21LbTZzXzlQc09NY2xGSWtTUXphN2laT2psMUE4UWx2M29FZ3RQS2xvS3liWXhSazRqUWg4T1cybmY5NEZiYnYtZlo0NzRZNXMyZ1dmeFo3c29lUGk0RWsycTZPXzBRQUhpdDdGczVVSVIyVkhzdHF4S0Q0ZjZQMGRQakNJM3hlNTA?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTm5jclExcGg0bXQ0REhQWHVfUldpY2QxOTJCcno0VlUtZngtZUxnejlpdmY0clg2TThac1hmZndMLXlTRnVHZkY1RzVBcjM2VzN4dDdSSkEtY1Z3emRMNnlwRnVYUFpnWkhlWHlLT3NOc1RVdWphVGd0RmVCTzhqRl9veXVYd2ZoaGp5a01lSXIxMHlIb2RIbVBibloxbEdlUjYwYw?oc=5",
     "source": "Sabah",
-    "title": "Vincenzo Italiano’dan ilk 11’de rotasyon! Beşiktaş – Gençlerbirliği maçı saat kaçta, hangi kanalda?"
+    "title": "SON DAKİKA! Beşiktaş - Gençlerbirliği | İlk 11'ler açıklandı..."
    }
   ],
   "kickoff": "2026-11-08T18:00Z"
