@@ -1657,91 +1657,97 @@
  },
  "E0|2026-11-08|Man United|Aston Villa": {
   "ai": {
-   "at": "2026-11-08T11:48Z",
+   "at": "2026-11-08T16:29Z",
    "away": {
     "eksikler": [],
-    "ozet": "Aston Villa'nın bu maç öncesi sakat veya cezalı oyuncularına dair güncel ve doğrulanmış bir eksik raporu yer almamaktadır."
+    "ozet": "Aston Villa cephesinde maçı kaçıran önemli bir eksik bildirilmedi."
    },
-   "hash": "5c76eeab2029",
+   "hash": "80548d7ecd1e",
    "home": {
-    "eksikler": [],
-    "ozet": "Manchester United'ın Aston Villa maçı öncesi güncel kadro durumu ve sakat oyuncularına dair son günlerde güvenilir kaynaklarda doğrulanmış resmi bir eksik listesi bulunmamaktadır."
+    "eksikler": [
+     {
+      "neden": "sakat",
+      "onem": "ilk11",
+      "oyuncu": "Alejandro Garnacho"
+     }
+    ],
+    "ozet": "Manchester United'da Alejandro Garnacho sakatlığı nedeniyle bu maçta forma giyemiyor."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
    {
-    "at": "2026-11-08T11:11Z",
+    "at": "2026-11-08T16:29Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYW9xeld6bDJkNy1TNXhBQ2ZJZUNBWmp6WnhyNFJXQ3YzZjU5YVlUQ2Rac3hwTkJSQnBOVm5MMFpZOWRLbzZPVGJPZDhOaVlab091OWl0NXQ1WEFNX25udDZFZDZQSm5jZGQtMlktSkNqNkRlYzdraW9rZVI4Y3pLQm9WSkE2SGpwbXc?oc=5",
-    "source": "Football365",
-    "title": "Man Utd v Aston Villa: Prediction, team news, lineups and odds"
+    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNa3EyamZZMEVVQ25JckVZV0YweXJsY3RuNHdxVndxUTgzV01sRDdLb3N3RUllVmphSmU1UUZEZWJobkp4aG9Yc29UM2lmRVNmZjhzdUpXMm1weVRtc2U0RjFDWUl0eFV2YXNYdjFhZ2xoTWlWalM4Z3AyOEswQWlCaUlvSldNZFp4azA3S2Vvc2pNaF92ZVhDbDB1cmpwV21TYUJIU09ra1ZldmNPa0s2V0ROQ0RKVjh0MWpCRkM0RUJwSGE5THV2NnpIWl9KWHF6cm53aFZsbUYxRlNydDhISzRpMHJMSUpValFEeW42dlVWTEJu?oc=5",
+    "source": "Sky Sports",
+    "title": "Man Utd vs Aston Villa LIVE! Premier League score updates, news, prediction, line-ups and how to watch or stream"
    },
    {
-    "at": "2026-11-08T11:11Z",
+    "at": "2026-11-08T16:20Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNWhnWmRlYWRDSFJYSFlmVnlHSFFDR2lHT2xhTk5LeXZXVzZ3dnpzQ1dTeHFweWlZdHFYdS1uQ2hOWWVjQVNjUExFaDBkLTdITW9LUXVlNW1WYWJvd09qVTF0THhNUnBmTHZOMG95LWFYT2tDd2Y2NFpqcW5MdzRIR0NCUUQ?oc=5",
-    "source": "Yahoo Sports",
-    "title": "Sutton's predictions: Man Utd v Aston Villa"
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOenBKR0IxdWhGMEF1elBFWWFiYjRXR2h2bTBJNmxkdTR0ZldhN1RwaF9WMVBNU1ZGdWFXRF9ydE9sQ3E3SXZ4UjBGUTM4SjAyMnd3WVZOUVpPRFFnNUZyMVV4akVUd3VTU0JFYl9CbjhqejVCT1EyLUlOVTNPY3U5WXZDeDFmZVZRTVlULTZLdC0zRlQxaHBSSGNJZk9YS2c?oc=5",
+    "source": "Fantasy Football Scout",
+    "title": "Man Utd v Aston Villa team news: Tielemans starts"
    },
    {
-    "at": "2026-11-08T11:05Z",
+    "at": "2026-11-08T15:46Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWXdXNEFZOGttcGNHUkFDblRGMEFaWXlSa0pXWUVrYTNRdHpVSHltQ3VuOU05dkVaekpVOUFKMkdUMmQzYk5Td1k1akdxSnJ1cXBHVEh3YzBCbG5WZXZNSnhkYTF2TVEyZmk3RFBFRjgwWUdsN0JIU3RzNVdaS012WUFVY0p6bUpnejZfV2dWTEpjOVFoSjgzYXNYZGFpWV8wcnNBZzd1YWR0YWxBcnNMUQ?oc=5",
-    "source": "TVC News",
-    "title": "Manchester United vs Aston Villa: Red Devils Seek Premier League Revival at Old Trafford"
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ra3p2ZkdMOTB2Z21JRU1LSzJON2diazhSWHNpMDd5V1l3TFY3dDVPQkZEdTBZOVhDRnEwQkl2anpCRWllTFNXOGJfYWs0YXN5X3lR?oc=5",
+    "source": "شبكة تواصل الإخبارية",
+    "title": "Two changes to Manchester United’s XI against Aston Villa — Man United Vs Aston Villa"
    },
    {
-    "at": "2026-11-08T11:01Z",
+    "at": "2026-11-08T15:42Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSmRnTHBBOGg5Q0hGZ205bEtMNVZWUUFuV3lDN3o4RmxjZTdDY3MtZlVBUnFHZjY4V1B3ZEJJU2pPX2xIQ1VPYUJmU3Bod1pmSHJucWZBM0U1ZS02NHl0SHlRdDNJX1NVWTBRUTRXMExndnNNRXJoelg3RTk2MW5kQTY5RnMwOHIxOWxuWlNmaTZhUjBITFZFOWZsZnBPSnY5dmk40gGoAUFVX3lxTE1qNzdQZDExck01MW9IaVhsRUNoLXBhZUJKNm5Ea3JQLV83Z0MwQkpIVklRakYtcHV5elgxcnI2Q2szWVd2bG5FOXBOZ2k5dGVNWXRkbW9KVGFEdlg2aWJQNnFiejFxd2pKOGNGTUVOMTFoSFNIWEZIOTNxRnNuemlUVFJNUzNvNldGTkIxcWt1RUNxT1ZNYUhLMVNMY24wamNvRm5qWmtqaQ?oc=5",
-    "source": "Birmingham Live",
-    "title": "Michael Carrick makes huge Man Utd admission ahead of Aston Villa clash"
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQ1U5eHFkQTZFaU5lS0tIVy1tZjJkYXdDaVFIRVNkS2NJd3IwakNEdVM3Z2pNSnE5THd1bTRDcjlsWWlqcWNUYVd4RHFIdkRtMmtabENES1A4aEU4UW0yZGNHTTRMYWxBeVJJZlBKUWdCUjRtWFFESmZVNm5zblNrYTlRNDVlcWoxem9mdXFNUHR2dC1PQWVIU3dMUUlFYnhkUHNaZjR0MGY4Uk5ENzI0M2gzMFhvYXF5X1VDUnRFTUc3QWt5ei1OTG9KdzNHU2RhSEh2WTA3MjRtb05mbHpKREt4Zlo?oc=5",
+    "source": "Yardbarker",
+    "title": "Manchester United vs. Aston Villa Lineups and Confirmed Team News for Premier League Match"
    },
    {
-    "at": "2026-11-08T10:56Z",
+    "at": "2026-11-08T15:34Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSlMtNlJiSURkUWpOaXFHamNHQVRWVXd4N3JVQUxyNzVONmI0VmNla29nR3l5ajFNaVF0QWFLQWZrTkJfQ2JqcGgwSmtGaTRmNGFaa190blFiRlc1RWVNWjlwYWQ0ZWFrVHpHWWN0UFlJVkQ1S2JPbU01T01zT0VsV0wweDZvRVVlUnZJMXZ3ZFJLRU5UZXYxRlB4WVJNUnRKTVBsOTlFV3J0a3Yzdzk1WExmVjBMenFJTzJj?oc=5",
-    "source": "Morocco World News",
-    "title": "Atletico Madrid vs Barcelona: LaLiga Preview, Team News and How to Watch"
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdHRPVHR6cFZPTVJuTUdzVlhtM29FWnhObndScFRIY2drejY0SDJtekVuNnlaM0l4NkwzUXB6QmEzUDQwR0dWVEtLbTRxZ3N6RFNmaHVvYzRyUEVOTnRwZGpQcHI4c2dkaGtiSmFTM1lqeTU5ek1wQ1hCNGdBbHduUHpZOGtRWlZGYkZSbUVNYmZCWlpyTk9vTU1jUDZQUlVXb3lvYlRWNlQ5TVdRcW1wOFFLNEVadmZoUk1uSF9SWWV0UTQ?oc=5",
+    "source": "Foot-Africa.com",
+    "title": "Man United vs Aston Villa: Jackson and Mbeumo start as official lineups are announced"
    }
   ],
-  "fetched_at": "2026-11-08T11:48Z",
+  "fetched_at": "2026-11-08T16:29Z",
   "home": [
    {
-    "at": "2026-11-08T11:11Z",
+    "at": "2026-11-08T16:23Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYW9xeld6bDJkNy1TNXhBQ2ZJZUNBWmp6WnhyNFJXQ3YzZjU5YVlUQ2Rac3hwTkJSQnBOVm5MMFpZOWRLbzZPVGJPZDhOaVlab091OWl0NXQ1WEFNX25udDZFZDZQSm5jZGQtMlktSkNqNkRlYzdraW9rZVI4Y3pLQm9WSkE2SGpwbXc?oc=5",
-    "source": "Football365",
-    "title": "Man Utd v Aston Villa: Prediction, team news, lineups and odds"
-   },
-   {
-    "at": "2026-11-08T10:08Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdl9lOGptVDBzakphYXNHc2p4TlBkcVl2dEh3emxqaG1uNF8wT2Z0aTlLVnB6WGJ3T1hoVEpXeXVtV0NvQWM3MDI4ZUFSSm5oZmE5aXBFTkU1YV9JYk1EbFNma292SDI2Sl8ySjRVcWZ4WEtSZEFTVk1oR2M0YjNkMUk0RGRwR29KbjN5ZS1oUkdneHBXMFdOeGRTS1hpT1c4TDlLcWlEejNTenBYdXJ5ZzZpaTFXRl9IaHfSAb8BQVVfeXFMTm5xbWt1OEIwUEd5X2RiZ1RqM3JmVWlBWWFMMFh1TXJ3dVZKdmNSMkxlZFNfLVdIX1E3Nl9rX2tzQklYLXQ0cnJqV3pqbV9nU2M2WjhKM3lKZ1pYdTJMd2lldjJzX0VnYlZ2dVpWcnY1SEwydnU0cFhSelFORHNhMHpqTHdlaDA2MG52LXRGYmtiZnRyR21ITnMyUWlSdWx2X3p6V0xyb1JUTXVoa25TVWltRW8zZjRUdXFieEt2OEE?oc=5",
-    "source": "TheHardTackle.com",
-    "title": "Rayan Ait-Nouri poised to push for Manchester City exit in January"
-   },
-   {
-    "at": "2026-11-08T09:33Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPODZIRTBJSDUzRXNWWHdtYTNtRUFUdVFXSVNfUjRNWmF4VUx5cXJaamQwR1pxaW1EYklQMjdOUTU3QUVRYjM3ZzJ3dG1IOW5WdmJtYjR5c1lsVEtFaWVITnhvRjdOc3lZU25fa29ZTE1hblpsNmQycHR6RWY3c2MxWFE1a196ajdGMkJidw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTVBTbGhLb2p6QVZpOVJqbHFidmhKZXhDZ05hZU5mRGdDSmJmZGs1d21wVGg1Njh4blVnNXU2anpMaEpzOVhZcExBVFZhQ0JXY2VHUzV5VEE3V21vVGtqMk1VT3FmMlhsRHVlNXFIV3BLbF84Tk9MT1JGcTJkVjNlX1BheTdJcW8z?oc=5",
     "source": "Yahoo Sports",
-    "title": "Premier League GW10 Predictions, Inc Chelsea, Manchester United and Liverpool"
+    "title": "Manchester United vs Aston Villa: Live stream, Time & How to watch"
    },
    {
-    "at": "2026-11-08T08:37Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORGtOOFdhclVTWnYtMXhGR0dqX1VldDQ5dkhfeTR0RzNoaW94VFFlZWlES29NWVg1bHBnR1RKSFdONWwwcHhjSHZ1ZTlQQUl0T0hieWpVLTVZd3o4Z0NaaHdsZVlpa3NNbVV3enJoXzB0UkJsQ3c0TWlmN3BlcXNIMTh1VUF5djhRWEozV2Jn0gGTAUFVX3lxTE9vT3V2OF9nc01ISlNBV0lBc3lXZFM4eFotcEp0YWV4bDhjaUpGWkV5eUxmUG1ucHMyc25uX2o5d3otUThCZTlKQ1ZBSjZtbmhTMk84YkFVMVA3NHZfamVtSm5MMk9RSXo0QlJVUWdHUldVVVlGSWgzTGloeXZGSHhQVXVhSVUwMG5nejhoQVdQVjRnZw?oc=5",
-    "source": "Liverpool.com",
-    "title": "How to watch Man Utd vs Aston Villa in US and UK — TV channel, live stream, team news"
+    "at": "2026-11-08T15:47Z",
+    "eksik": true,
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQajF5dUhfMnN6eFhhTjdsRWgwbDEtbm94eGNucThoOW5WOF9IYjRYb191NWpzR3ZFN3JibjJ6RHNfVFYtbnNSVDZ6ZlNzaW1uSmxxN0djX0FvOE1wbmlBbFNWM0FoaGxGbE9TNmdoaDdyOXdrQXZuRFZGZ1lyX3lUTGZkV3ZrZDBDVGNCSzZ1M0Ezd2pJT3JBZkZla3ZvYjA?oc=5",
+    "source": "SSBCrack",
+    "title": "Team news: Tielemans starts for Aston Villa; Garnacho missing for Man Utd"
    },
    {
-    "at": "2026-11-08T06:59Z",
+    "at": "2026-11-08T15:46Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPd2VManVWUldEWWRURWQyV0czVFV2WFBrNUxxV0ZHZk1kZk1PUmRIRmluWFMwM0p6NHc3WmpYdjFrWFRXdzV5c2VHN0xONWtoeGhtTzkzdEpqZzVrZHdIWlJVX3p2RTNxWWd6OHJ5TGxFd1FFbllvdDU1cElyMFRKSW5hd0dUMTFUUDk1RGxkSkRxTFNwWksxVzFUWU9RaTQ1d3dVS1hiT0xoZjY2SU1BRDB2YXYzSTJTYU9IamMtb2hJSWY2ci1N?oc=5",
-    "source": "SportPesa Blog",
-    "title": "Man United vs Aston Villa prediction: Premier League preview, team news, lineups, odds & h2h"
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ra3p2ZkdMOTB2Z21JRU1LSzJON2diazhSWHNpMDd5V1l3TFY3dDVPQkZEdTBZOVhDRnEwQkl2anpCRWllTFNXOGJfYWs0YXN5X3lR?oc=5",
+    "source": "شبكة تواصل الإخبارية",
+    "title": "Two changes to Manchester United’s XI against Aston Villa — Man United Vs Aston Villa"
+   },
+   {
+    "at": "2026-11-08T15:34Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdHRPVHR6cFZPTVJuTUdzVlhtM29FWnhObndScFRIY2drejY0SDJtekVuNnlaM0l4NkwzUXB6QmEzUDQwR0dWVEtLbTRxZ3N6RFNmaHVvYzRyUEVOTnRwZGpQcHI4c2dkaGtiSmFTM1lqeTU5ek1wQ1hCNGdBbHduUHpZOGtRWlZGYkZSbUVNYmZCWlpyTk9vTU1jUDZQUlVXb3lvYlRWNlQ5TVdRcW1wOFFLNEVadmZoUk1uSF9SWWV0UTQ?oc=5",
+    "source": "Foot-Africa.com",
+    "title": "Man United vs Aston Villa: Jackson and Mbeumo start as official lineups are announced"
+   },
+   {
+    "at": "2026-11-08T15:30Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOXzFFQUFGZzdtdGNXaXFvTTh6VnFZMU5ybUJLYmNFc0R3a2N3NnBNeEFzTXd1bTFuSTNQNDBoSnMwOXVIVl9VZUpEbWgtdFEtQ1NjWkFxWG9HWWFtVHk1MnlQZEVTX2JLTl8wbWt0QlRFZWVwWW9yVkMyMUxZQkpwMnd5amdsZk9yTGRqcG5RLXNxcHUwelZJNDNsMGtPeVNhZE4yN0VJaWpjUGRCQ0JvbEFhSUNaRm9zMTdJVlYyV0pqMDRFWk1XNGNNR2VKM05udkhHbFdCX0JfYW8?oc=5",
+    "source": "101 Great Goals",
+    "title": "Manchester United v Aston Villa: Confirmed line-ups as Carrick seeks second win in a week"
    }
   ],
   "kickoff": "2026-11-08T16:30Z"
@@ -3505,57 +3511,71 @@
  },
  "T1|2026-11-08|Besiktas|Genclerbirligi": {
   "ai": {
-   "at": "2026-11-08T11:48Z",
+   "at": "2026-11-08T16:29Z",
    "away": {
     "eksikler": [],
-    "ozet": "Gençlerbirliği cephesinde bu maç öncesi eksik veya sakat oyunculara dair doğrulanmış güncel bir rapor yer almıyor."
+    "ozet": "Gençlerbirliği'nde bu maç öncesi öne çıkan sakat veya cezalı oyuncu rapor edilmemiştir."
    },
-   "hash": "ad22bb2e39cb",
+   "hash": "d734fcb2c234",
    "home": {
     "eksikler": [],
-    "ozet": "Beşiktaş'ta Gençlerbirliği maçı öncesinde rapore edilen önemli bir sakat veya cezalı oyuncu bulunmuyor."
+    "ozet": "Beşiktaş'ta bu maç öncesinde resmi olarak bildirilen önemli bir eksik bulunmamaktadır."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
+   {
+    "at": "2026-11-08T16:14Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTlUtMWktV29sVk1lekZnbVFwRllPNFQ5TXpsWTU0NVJVOWluQ2tVRm43cVdGYWRXOFRHTzhpd3pjekNJT0UxZ1RJNGRrcmxGVFRzNGZuRTI5R2pPVlVYREc2YllUQkxBSEgzRU40ZEhBUzNBWHo4R0VDYVRfTW0zc185Yzd5RDdnanNpWWtGREsxNG9BVy1MOW5pSQ?oc=5",
+    "source": "Haber Gündemim",
+    "title": "Beşiktaş Gençlerbirliği muhtemel 11'ler ve yayın bilgileri"
+   },
+   {
+    "at": "2026-11-08T15:34Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU3lLM1J6R2V2N2UwZjJZV0p3MHlmMUlKVVBvLTRqMDloaEZVNkpTT1k4VGJxVzd0VkFwWGFOOGgwSVdHS25pYWJlRzE2UXNhemVabmk3bWFzU0l6RTBJdDM4cDV5Sk1RbUNGVnU3TVg0eHZWdG5TUXdiTFpLT2ZrU2dIWTFrZkZlZTdpRUhYOExBTHdJN1BXb2NxMmZ5NVJDUXdfWEF3ZXlrZ1AxdmI5STJCS19EcjFjRWt1Vzh4ZUhiMUdTY1hPNA?oc=5",
+    "source": "Güneydoğu Ekspres",
+    "title": "Beşiktaş Gençlerbirliği maçı saat kaçta, hangi kanalda? 8 Kasım Süper Lig maçı canlı yayın bilgisi"
+   },
+   {
+    "at": "2026-11-08T15:32Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTHltdEVtYjlMOTNNMzRTSlJ4cnBJSjZhNlpGUjhJcmdYU3g5WFdVM2RyNmdFYmlhQTlnYXZiZ213cjFWbmRBR2hCMVA5QnlNbEFFWGF6MGplSnBLU1lhcGlpb0lnTk1KcTQxVVhUelpROEF6Mi1Wc2J3UGtQRmtsSFNjcGZLWDFLRE5ScTNJb3hrT0laRWxpQnY3YkhXM1hJa3JBcWdKTUVGN1J4cTg3a0VrRFYyTnBMdk05eQ?oc=5",
+    "source": "kayserihaber.com",
+    "title": "Beşiktaş Gençlerbirliği maçı saat kaçta, hangi kanalda, şifresiz mi? Maç nereden nasıl izlenir"
+   },
+   {
+    "at": "2026-11-08T14:14Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN0dmNzljOGxmWnNXMWlsdGtfUFBveFZHWk1pUDVCRVhEeXB5dUc5bjk5WE9hNE9TV25nUEllYTZOOHI3LUxnRFo5c0o1Wk92NUZzXzdScWFna0xhVkZybjJHNjF6dTU0ZFlhbTFuc1BPLWF6MmNkeGx4RnBqOEp4VFFsR2UyTGtTTHdpc1Q0Q0doS1NHTHJjVWVVZzdOMklfY2ZWZ2dBX2k?oc=5",
+    "source": "Malatya Söz",
+    "title": "Beşiktaş – Gençlerbirliği Maçı İçin Geri Sayım! İşte Saat, Kanal ve Muhtemel 11’ler"
+   },
    {
     "at": "2026-11-08T11:29Z",
     "eksik": false,
     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPX2gyRWhmTVdMekhsOGFLaGg0Rzh5OG9ERTdNNTB6UnZPdk41UTQxUUtLQXN6dVBHT0VPQ09RejZsb1dTZmdTRFVBTWdOMFF0Tkk2TDJyd1g3dDJvM1BwbEU0Zmk0M2NmMGdLWTdsZDRSSzh6N19qVkdjR2JfWFN1dW43eFJrNHZ0QmF1TldiSU1KQjZCc3hqQ0hCdm5OeW90MHN6TnM0bGJjSVE2ZjUtUFJ4bmtKRy1rYm8xSm9KNjNiLTZuR0EyWEp5Rkl0NWVhZTJScVhaTW5sanA0UXpwblA2ZlB1VnI3aGN6a1phMm9VVHhFWXBiUw?oc=5",
     "source": "Habertürk",
     "title": "CANLI İZLE | Beşiktaş – Gençlerbirliği maçı ne zaman, saat kaçta, hangi kanalda? İşte Beşiktaş – Gençlerbirliği muhtemel 11’ler"
-   },
-   {
-    "at": "2026-11-08T11:22Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQTJxNFNzaUJkaHpzdVhXOUlLWDR5UEViODJEZTRhb082X3o1OXFwSW45bDFDenVSYjFWOEJYaFU0UXdmcmhTSkdudTRJVFpZMHRhZEticU9EZzRZdWlnRnlKZGlCd2RMSVBNU1czeUEwSkRBMkNrMVhoT1hfUnJ5bEZaaDl6UEx6UFBQZXFXdnlqcGxEbC05QVR2N09xb3ZoeENQTDFwV29JbW45?oc=5",
-    "source": "tv100 Haber",
-    "title": "Vincenzo Italiano'dan Agbadou kararı! Gençlerbirliği maçında sürpriz tercih"
-   },
-   {
-    "at": "2026-11-08T11:02Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tV0NabDNxSmZDa0FuMEFhcUtlbENFQVdHTURpdmxKXzdKaXNzSXV5dFlkVGFIUWRkSmlsRTloc1hpZWR6R2s1NENsekFwdTRkeVE?oc=5",
-    "source": "Instagram",
-    "title": "Beşiktaş'ın Gençlerbirliği maçı muhtemel ilk 11'i... #BJKvGB #duhuliye #haber1903"
-   },
-   {
-    "at": "2026-11-08T10:29Z",
-    "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZWV1Nm5HWUZjdUhPSWktWFBzMkNXckE3UkRTX2wzZlFYNGdRc2hFTU0tNC1BTFFkZ1dVc21rUjRtT2xzc1ZIQmtSb2Y0RGxwbnQ4X1lsQnlPbzJ2ZjhVcFJISUc2OEpLU0VLQXpXTUJWTzJwU2hMc0t6V1RzaHFzUWVIWm5ENW12ODRzRVdLYjA3WV9IbkRaU2ZibEFUa3YyelEyemVuQ1RrdTFiVHJrRGNfb1FQS093TEVNT1FPYzBKQQ?oc=5",
-    "source": "Gazete Kritik",
-    "title": "Galatasaray'da Rafael Leao'nun Sakatlığı: Sağ Üst Arka Adalesinde Kanama Tespit Edildi"
-   },
-   {
-    "at": "2026-11-08T09:37Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeFpaTmMyWGhVcTZBMzI5cmlGbEdlVkoyT0J5ZlU2QUlTM3ZxSHoyeHE1MnpVbG9XNmhtSmVpcEhFbEhodGpVal90LW94T0lJanVUazZWb0QwRGtWRlZhREJOYlJDd0QtX3VLZENLVkQxaFJRUm02aHZVbE9XMS1udENISXdfZXJuRTdnbWNUNWswREpRRDNmZ0VLOTA4VERqMFJYUEZSVEUxdDBTVGJEX0QyVHJ4cUkxRkU5aDdzNHNNZw?oc=5",
-    "source": "Afyon Ana Haber",
-    "title": "Beşiktaş - Gençlerbirliği maçı saat kaçta, hangi kanalda? Muhtemel 11'ler belli oldu!"
    }
   ],
-  "fetched_at": "2026-11-08T11:48Z",
+  "fetched_at": "2026-11-08T16:29Z",
   "home": [
+   {
+    "at": "2026-11-08T15:32Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTHltdEVtYjlMOTNNMzRTSlJ4cnBJSjZhNlpGUjhJcmdYU3g5WFdVM2RyNmdFYmlhQTlnYXZiZ213cjFWbmRBR2hCMVA5QnlNbEFFWGF6MGplSnBLU1lhcGlpb0lnTk1KcTQxVVhUelpROEF6Mi1Wc2J3UGtQRmtsSFNjcGZLWDFLRE5ScTNJb3hrT0laRWxpQnY3YkhXM1hJa3JBcWdKTUVGN1J4cTg3a0VrRFYyTnBMdk05eQ?oc=5",
+    "source": "kayserihaber.com",
+    "title": "Beşiktaş Gençlerbirliği maçı saat kaçta, hangi kanalda, şifresiz mi? Maç nereden nasıl izlenir"
+   },
+   {
+    "at": "2026-11-08T13:27Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcjI4cGVpTF8wZGlBcTJfMjdYRDlFRU5vVFU1aDhwX3R6WDJOLTJ4WFoxSzNUSzZxUklYZzFwS25FS0xKZlI5T3BTRWVUUThwVW9KUTdXYlUtYmRqc2tKSnRrOTdTSFdyd0lKTGVTQXpKTEpvN1RvbTA1bEYxTThjWF9oNGJoRUZ4S3lOM1dfV2pKcGh5SjJaLXZXU2VQVjdsMTg2ZVFoR01oNFhEcXc?oc=5",
+    "source": "Haberhergün",
+    "title": "Beşiktaş'ta Italiano faturası: Kadro uyumsuzluğu mu, yönetim hatası mı?"
+   },
    {
     "at": "2026-11-08T11:02Z",
     "eksik": false,
@@ -3573,23 +3593,9 @@
    {
     "at": "2026-11-08T04:07Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNUptcWFpRlM5R2l5V0pnUzBTMlJ2NUZtNnBzb2p5OUxMNS16NEkyeEhBYWsyZkhURzFqVUVQSDRoVzBmVEsxUGJvVHRYMGlHeTNtS202c185UHNPTWNsRklrU1F6YTdpWk9qbDFBOFFsdjNvRWd0UEtsb0t5Yll4Ums0alFoOE9XMm5mOTRGYmJ2LWZaNDc0WTVzMmdXZnhaN3NvZVBpNEVrMnE2T18wUUFIaXQ3RnM1VUlSMlZIc3RxeEtENGY2UDBkUGpDSTN4ZTUw0gHTAUFVX3lxTFA1Sm1xYWlGUzlHaXlXSmdTMFMyUnY1Rm02cHNvank5TEw1LXo0STJ4SEFhazJmSFRHMWpVRVBINGhXMGZUSzFQYm9UdFgwaUd5M21LbTZzXzlQc09NY2xGSWtTUXphN2laT2psMUE4UWx2M29FZ3RQS2xvS3liWXhSazRqUWg4T1cybmY5NEZiYnYtZlo0NzRZNXMyZ1dmeFo3c29lUGk0RWsycTZPXzBRQUhpdDdGczVVSVIyVkhzdHF4S0Q0ZjZQMGRQakNJM3hlNTA?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRmFEay1tTjJ3bWtUb0ZZRXBXWDNHR1VLOUV0emozcmZyVW9rb1F3ZFYwMW1mSkRrYV9qSy1rRnZYQXJhcTA4Wjg4Zk10SExTMXBKTFY1WlBMR2ZWMThpZG9qeWR5UlkxX1RxV21wZ243Z29JTEpZakY2emE2cVY2TmlNSC00WEloN1hQazF2UTVuVGFLSFJndFVjSVVUQnBodlUwT1FKT21WeEJNSDNza01sSE9mZ1dDaGxIellUU2ZYS09XZ0lPTzFJdDBQZmhN0gHTAUFVX3lxTFA1Sm1xYWlGUzlHaXlXSmdTMFMyUnY1Rm02cHNvank5TEw1LXo0STJ4SEFhazJmSFRHMWpVRVBINGhXMGZUSzFQYm9UdFgwaUd5M21LbTZzXzlQc09NY2xGSWtTUXphN2laT2psMUE4UWx2M29FZ3RQS2xvS3liWXhSazRqUWg4T1cybmY5NEZiYnYtZlo0NzRZNXMyZ1dmeFo3c29lUGk0RWsycTZPXzBRQUhpdDdGczVVSVIyVkhzdHF4S0Q0ZjZQMGRQakNJM3hlNTA?oc=5",
     "source": "Sabah",
     "title": "Vincenzo Italiano’dan ilk 11’de rotasyon! Beşiktaş – Gençlerbirliği maçı saat kaçta, hangi kanalda?"
-   },
-   {
-    "at": "2026-11-07T12:26Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVlVNQTh0SzBMNVEzX1FQbUdlOVRnQVlJaTdOYTVhMHhSNWhjaXdueG5VNnVYTWZrRC04amdCWVVZRXd4bGFLdTJMWFYyOUFBTDhRWjlwdi1vTEpTUExaNHZoa25QRVVBNXBBcFRRa21kNjcxVWNtZUY0QkRTT0lDaDdsMVlSN3dZa1FwcExpNA?oc=5",
-    "source": "İşçi Haber",
-    "title": "Beşiktaş'ta Orkun Kökçü gelişmesi: İlk 11'e dönüyor"
-   },
-   {
-    "at": "2026-11-06T01:06Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRmtmaEtSa0RnVk12dDM3MlljQ1g3emk5TTdoaVhMWDJNaWhXMkFPX0NOWU5jdTJmMFZGUUE1cDVjWGExcTdQcjFsTmZaSUluT1FqNTBqYlBZVG9kRE95NEE0cUtUT1ZuQ2g4azEtc3lBbnE3MXl3VnVYV2JtdmZFRlBwVGRSX3RlM3NMZHZ4ek9FY3NIcnlORg?oc=5",
-    "source": "Genç Gazete",
-    "title": "Celtic - Beşiktaş maçı canlı izle | Celtic - Beşiktaş maçı canlı anlatım"
    }
   ],
   "kickoff": "2026-11-08T18:00Z"
