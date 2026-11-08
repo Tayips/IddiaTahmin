@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:22Z",
+ "updated_at": "2026-11-08T19:52Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
@@ -11,22 +11,22 @@
  },
  "stats": {
   "genel": {
-   "n": 189,
+   "n": 190,
    "correct": 92,
-   "accuracy": 0.4868,
-   "rps": 0.2176,
-   "brier": 0.607,
-   "log_loss": 1.0151,
-   "odds_accuracy": 0.5238
+   "accuracy": 0.4842,
+   "rps": 0.2172,
+   "brier": 0.6083,
+   "log_loss": 1.0169,
+   "odds_accuracy": 0.5211
   },
   "canli": {
-   "n": 38,
+   "n": 39,
    "correct": 22,
-   "accuracy": 0.5789,
-   "rps": 0.2045,
-   "brier": 0.5606,
-   "log_loss": 0.9497,
-   "odds_accuracy": 0.5526
+   "accuracy": 0.5641,
+   "rps": 0.2032,
+   "brier": 0.5681,
+   "log_loss": 0.9602,
+   "odds_accuracy": 0.5385
   },
   "lig": {
    "T1": {
@@ -39,23 +39,23 @@
     "odds_accuracy": 0.5556
    },
    "E0": {
-    "n": 99,
+    "n": 100,
     "correct": 49,
-    "accuracy": 0.4949,
-    "rps": 0.2115,
-    "brier": 0.6123,
-    "log_loss": 1.0216,
-    "odds_accuracy": 0.4949
+    "accuracy": 0.49,
+    "rps": 0.2109,
+    "brier": 0.6148,
+    "log_loss": 1.025,
+    "odds_accuracy": 0.49
    }
   },
   "son_30_gun": {
-   "n": 84,
+   "n": 85,
    "correct": 48,
-   "accuracy": 0.5714,
-   "rps": 0.2072,
-   "brier": 0.5644,
-   "log_loss": 0.9551,
-   "odds_accuracy": 0.5952
+   "accuracy": 0.5647,
+   "rps": 0.2065,
+   "brier": 0.5678,
+   "log_loss": 0.9598,
+   "odds_accuracy": 0.5882
   },
   "guven": {
    "50%+": {
@@ -9576,15 +9576,15 @@
    "f_a_sot": 3.82,
    "f_h_rest": 8.0,
    "f_a_rest": 8.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 4.0,
+   "ftag": 4.0,
+   "ftr": "D",
+   "status": "bitti",
+   "correct": 0.0,
    "odds_pick": "H",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 0.0,
+   "o25_correct": 1.0,
+   "kg_correct": 1.0,
    "mk_h": 0.4834,
    "mk_d": 0.2351,
    "mk_a": 0.2815,
@@ -9597,7 +9597,7 @@
    "date": "2026-11-08",
    "home": "Besiktas",
    "away": "Genclerbirligi",
-   "season": "2627",
+   "season": 2627,
    "kickoff": "2026-11-08T18:00Z",
    "p_h": 0.8645,
    "p_d": 0.0954,
@@ -9627,7 +9627,7 @@
    "fthg": null,
    "ftag": null,
    "ftr": null,
-   "status": "yaklasan",
+   "status": "sonuc_bekleniyor",
    "correct": null,
    "odds_pick": "H",
    "odds_correct": null,
@@ -15975,95 +15975,95 @@
    "kickoff": "2026-11-08T15:30Z"
   },
   "T1|2026-11-08|Besiktas|Genclerbirligi": {
-   "fetched_at": "2026-11-08T17:22Z",
-   "kickoff": "2026-11-08T18:00Z",
-   "home": [
-    {
-     "title": "Beşiktaş-Gençlerbirliği maçında ilk 11'ler belli oldu",
-     "source": "Son Dakika",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYkptNG1Id2VlelJjd0hhaTJlUVZFemVlaWt1eEk5Z2trM1NpMXRjZ3g0SlZ6ZVBVSnZSMW9kWlR4dEJDSFpIX1JyemVpM1IwYXJELXdTbTcwVUVhTkp4dk9la1dwakZsR0FMc0ZnU1JwTVcwR0ZVTHZjaHJDUnR3T0NUaVBHRmNsazBQSTZkelVPaG9OLUEyaTl30gGYAUFVX3lxTE91Y1JSOGxUT0VKNk1kMThXbDRMRVM0dkVzRENrQXE0S0VqbEVnOURNY0Y0b2RFNEF2T0MxNEJLRF9zNEIzdlgwcWk3RE1NR3NUbTVZaUxCcUtRcnAtZlo0eng5ZUUwN1d0RGVkVFo4bTZWckZLaTMzMWpnVllDTjk4MVdJejlrelRNNHVvYndwRnRZZ19UOG13?oc=5",
-     "at": "2026-11-08T17:06Z",
-     "eksik": false
-    },
-    {
-     "title": "Beşiktaş-Gençlerbirliği maçının ilk 11'leri belli oldu",
-     "source": "Dünya Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVWJHU1FsOThpNjdwTmI5aHRlY2JZNXpQZVpvMUp4dTB5dExOMVJKMGxneWJoRWNVc2J2aGR2OHZnN25MTnYxYlMxTnIyeFRxaHFSZGlwSmFZeWxNcUNDODhucXk2Mjc5VUFNMFFYdWFrUVlPdjFzc2xybVJNSXZVb1dVOEdITVg4akFqWVpMdHV2OXQxaUdONDdB?oc=5",
-     "at": "2026-11-08T16:59Z",
-     "eksik": false
-    },
-    {
-     "title": "Beşiktaş'ın Gençlerbirliği maçı ilk 11'i belli oldu: Italiano'dan dikkat çeken karar",
-     "source": "Ekonomim",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONi0zNkU3elNIbjhCTGwyS1BmbzNwSHoxdmltN0FYN1lFRDdFOFpRTnhBa2V3SGZXOGtfNWMzT1RvN0JGSXQ5dk40anV5Q2dwdWpsOXlFTEVZdnF0OEY1bjNUSnBKRzBXNGNndFFUWkhMY0xUWnhGU3NwcUxkMDcxZVlVS2ZVVW16clpCOWdoU3pzTzBmYjdrNg?oc=5",
-     "at": "2026-11-08T16:58Z",
-     "eksik": false
-    },
-    {
-     "title": "Beşiktaş-Gençlerbirliği maçında ilk 11'ler açıklandı!",
-     "source": "Manşet Haber",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcFoyd3BNX1B0RFN3RVdWVzU1ejFVcWttRHA2ZmlDSDVnR0ZHM240R0s1UlZOTlQzYklSWVplQlFtSm5hVXVCOTZGdFJYbkd5b1g5aEVsYVlBMHFKLXNlU29ueFhlTUZWd09HREhtQkZoQ1pjSXBGNEhVNGVQS2stQ0VuT1pkNEE?oc=5",
-     "at": "2026-11-08T16:58Z",
-     "eksik": false
-    },
-    {
-     "title": "SON DAKİKA! Beşiktaş - Gençlerbirliği | İlk 11'ler açıklandı...",
-     "source": "Sabah",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTm5jclExcGg0bXQ0REhQWHVfUldpY2QxOTJCcno0VlUtZngtZUxnejlpdmY0clg2TThac1hmZndMLXlTRnVHZkY1RzVBcjM2VzN4dDdSSkEtY1Z3emRMNnlwRnVYUFpnWkhlWHlLT3NOc1RVdWphVGd0RmVCTzhqRl9veXVYd2ZoaGp5a01lSXIxMHlIb2RIbVBibloxbEdlUjYwYw?oc=5",
-     "at": "2026-11-08T16:57Z",
-     "eksik": false
-    }
-   ],
-   "away": [
-    {
-     "title": "Beşiktaş - Gençlerbirliği / Canlı anlatım",
-     "source": "İnternet Haber",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVW9iZHFPem1qOXNtN0FMU1RhWW0tVFMxNmRISjJQazFjNWpVVUwwS0J4MzdwTWJFcXpiSUhvODF0VDlPYWtXMjZzSGxMNXMtWFp4WG9vSnZsd0wzNC1ycFBkR3ZKQlZYbHFickNXR1M5SEstQ3R3N2VsT1NZeU1PekdxYzFRSGc?oc=5",
-     "at": "2026-11-08T17:10Z",
-     "eksik": false
-    },
-    {
-     "title": "Beşiktaş-Gençlerbirliği maçında ilk 11'ler belli oldu",
-     "source": "Son Dakika",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYkptNG1Id2VlelJjd0hhaTJlUVZFemVlaWt1eEk5Z2trM1NpMXRjZ3g0SlZ6ZVBVSnZSMW9kWlR4dEJDSFpIX1JyemVpM1IwYXJELXdTbTcwVUVhTkp4dk9la1dwakZsR0FMc0ZnU1JwTVcwR0ZVTHZjaHJDUnR3T0NUaVBHRmNsazBQSTZkelVPaG9OLUEyaTl30gGYAUFVX3lxTE91Y1JSOGxUT0VKNk1kMThXbDRMRVM0dkVzRENrQXE0S0VqbEVnOURNY0Y0b2RFNEF2T0MxNEJLRF9zNEIzdlgwcWk3RE1NR3NUbTVZaUxCcUtRcnAtZlo0eng5ZUUwN1d0RGVkVFo4bTZWckZLaTMzMWpnVllDTjk4MVdJejlrelRNNHVvYndwRnRZZ19UOG13?oc=5",
-     "at": "2026-11-08T17:06Z",
-     "eksik": false
-    },
-    {
-     "title": "Beşiktaş-Gençlerbirliği maçının ilk 11'leri belli oldu",
-     "source": "Dünya Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVWJHU1FsOThpNjdwTmI5aHRlY2JZNXpQZVpvMUp4dTB5dExOMVJKMGxneWJoRWNVc2J2aGR2OHZnN25MTnYxYlMxTnIyeFRxaHFSZGlwSmFZeWxNcUNDODhucXk2Mjc5VUFNMFFYdWFrUVlPdjFzc2xybVJNSXZVb1dVOEdITVg4akFqWVpMdHV2OXQxaUdONDdB?oc=5",
-     "at": "2026-11-08T16:59Z",
-     "eksik": false
-    },
-    {
-     "title": "Beşiktaş'ın Gençlerbirliği maçı ilk 11'i belli oldu: Italiano'dan dikkat çeken karar",
-     "source": "Ekonomim",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONi0zNkU3elNIbjhCTGwyS1BmbzNwSHoxdmltN0FYN1lFRDdFOFpRTnhBa2V3SGZXOGtfNWMzT1RvN0JGSXQ5dk40anV5Q2dwdWpsOXlFTEVZdnF0OEY1bjNUSnBKRzBXNGNndFFUWkhMY0xUWnhGU3NwcUxkMDcxZVlVS2ZVVW16clpCOWdoU3pzTzBmYjdrNg?oc=5",
-     "at": "2026-11-08T16:58Z",
-     "eksik": false
-    },
-    {
-     "title": "Beşiktaş-Gençlerbirliği maçında ilk 11'ler açıklandı!",
-     "source": "Manşet Haber",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcFoyd3BNX1B0RFN3RVdWVzU1ejFVcWttRHA2ZmlDSDVnR0ZHM240R0s1UlZOTlQzYklSWVplQlFtSm5hVXVCOTZGdFJYbkd5b1g5aEVsYVlBMHFKLXNlU29ueFhlTUZWd09HREhtQkZoQ1pjSXBGNEhVNGVQS2stQ0VuT1pkNEE?oc=5",
-     "at": "2026-11-08T16:58Z",
-     "eksik": false
-    }
-   ],
    "ai": {
-    "home": {
-     "eksikler": [],
-     "ozet": "Beşiktaş'ta Gençlerbirliği maçı öncesinde bildirilen önemli bir eksik veya sakatlık bulunmamaktadır."
-    },
+    "at": "2026-11-08T17:22Z",
     "away": {
      "eksikler": [],
      "ozet": "Gençlerbirliği'nde bu karşılaşma öncesinde rapore edilen eksik oyuncu bulunmuyor."
     },
-    "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-08T17:22Z",
-    "hash": "1c6f0068b9da"
-   }
+    "hash": "1c6f0068b9da",
+    "home": {
+     "eksikler": [],
+     "ozet": "Beşiktaş'ta Gençlerbirliği maçı öncesinde bildirilen önemli bir eksik veya sakatlık bulunmamaktadır."
+    },
+    "model": "gemini-3.5-flash-lite (aramasız)"
+   },
+   "away": [
+    {
+     "at": "2026-11-08T17:10Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVW9iZHFPem1qOXNtN0FMU1RhWW0tVFMxNmRISjJQazFjNWpVVUwwS0J4MzdwTWJFcXpiSUhvODF0VDlPYWtXMjZzSGxMNXMtWFp4WG9vSnZsd0wzNC1ycFBkR3ZKQlZYbHFickNXR1M5SEstQ3R3N2VsT1NZeU1PekdxYzFRSGc?oc=5",
+     "source": "İnternet Haber",
+     "title": "Beşiktaş - Gençlerbirliği / Canlı anlatım"
+    },
+    {
+     "at": "2026-11-08T17:06Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYkptNG1Id2VlelJjd0hhaTJlUVZFemVlaWt1eEk5Z2trM1NpMXRjZ3g0SlZ6ZVBVSnZSMW9kWlR4dEJDSFpIX1JyemVpM1IwYXJELXdTbTcwVUVhTkp4dk9la1dwakZsR0FMc0ZnU1JwTVcwR0ZVTHZjaHJDUnR3T0NUaVBHRmNsazBQSTZkelVPaG9OLUEyaTl30gGYAUFVX3lxTE91Y1JSOGxUT0VKNk1kMThXbDRMRVM0dkVzRENrQXE0S0VqbEVnOURNY0Y0b2RFNEF2T0MxNEJLRF9zNEIzdlgwcWk3RE1NR3NUbTVZaUxCcUtRcnAtZlo0eng5ZUUwN1d0RGVkVFo4bTZWckZLaTMzMWpnVllDTjk4MVdJejlrelRNNHVvYndwRnRZZ19UOG13?oc=5",
+     "source": "Son Dakika",
+     "title": "Beşiktaş-Gençlerbirliği maçında ilk 11'ler belli oldu"
+    },
+    {
+     "at": "2026-11-08T16:59Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVWJHU1FsOThpNjdwTmI5aHRlY2JZNXpQZVpvMUp4dTB5dExOMVJKMGxneWJoRWNVc2J2aGR2OHZnN25MTnYxYlMxTnIyeFRxaHFSZGlwSmFZeWxNcUNDODhucXk2Mjc5VUFNMFFYdWFrUVlPdjFzc2xybVJNSXZVb1dVOEdITVg4akFqWVpMdHV2OXQxaUdONDdB?oc=5",
+     "source": "Dünya Gazetesi",
+     "title": "Beşiktaş-Gençlerbirliği maçının ilk 11'leri belli oldu"
+    },
+    {
+     "at": "2026-11-08T16:58Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONi0zNkU3elNIbjhCTGwyS1BmbzNwSHoxdmltN0FYN1lFRDdFOFpRTnhBa2V3SGZXOGtfNWMzT1RvN0JGSXQ5dk40anV5Q2dwdWpsOXlFTEVZdnF0OEY1bjNUSnBKRzBXNGNndFFUWkhMY0xUWnhGU3NwcUxkMDcxZVlVS2ZVVW16clpCOWdoU3pzTzBmYjdrNg?oc=5",
+     "source": "Ekonomim",
+     "title": "Beşiktaş'ın Gençlerbirliği maçı ilk 11'i belli oldu: Italiano'dan dikkat çeken karar"
+    },
+    {
+     "at": "2026-11-08T16:58Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcFoyd3BNX1B0RFN3RVdWVzU1ejFVcWttRHA2ZmlDSDVnR0ZHM240R0s1UlZOTlQzYklSWVplQlFtSm5hVXVCOTZGdFJYbkd5b1g5aEVsYVlBMHFKLXNlU29ueFhlTUZWd09HREhtQkZoQ1pjSXBGNEhVNGVQS2stQ0VuT1pkNEE?oc=5",
+     "source": "Manşet Haber",
+     "title": "Beşiktaş-Gençlerbirliği maçında ilk 11'ler açıklandı!"
+    }
+   ],
+   "fetched_at": "2026-11-08T17:22Z",
+   "home": [
+    {
+     "at": "2026-11-08T17:06Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYkptNG1Id2VlelJjd0hhaTJlUVZFemVlaWt1eEk5Z2trM1NpMXRjZ3g0SlZ6ZVBVSnZSMW9kWlR4dEJDSFpIX1JyemVpM1IwYXJELXdTbTcwVUVhTkp4dk9la1dwakZsR0FMc0ZnU1JwTVcwR0ZVTHZjaHJDUnR3T0NUaVBHRmNsazBQSTZkelVPaG9OLUEyaTl30gGYAUFVX3lxTE91Y1JSOGxUT0VKNk1kMThXbDRMRVM0dkVzRENrQXE0S0VqbEVnOURNY0Y0b2RFNEF2T0MxNEJLRF9zNEIzdlgwcWk3RE1NR3NUbTVZaUxCcUtRcnAtZlo0eng5ZUUwN1d0RGVkVFo4bTZWckZLaTMzMWpnVllDTjk4MVdJejlrelRNNHVvYndwRnRZZ19UOG13?oc=5",
+     "source": "Son Dakika",
+     "title": "Beşiktaş-Gençlerbirliği maçında ilk 11'ler belli oldu"
+    },
+    {
+     "at": "2026-11-08T16:59Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVWJHU1FsOThpNjdwTmI5aHRlY2JZNXpQZVpvMUp4dTB5dExOMVJKMGxneWJoRWNVc2J2aGR2OHZnN25MTnYxYlMxTnIyeFRxaHFSZGlwSmFZeWxNcUNDODhucXk2Mjc5VUFNMFFYdWFrUVlPdjFzc2xybVJNSXZVb1dVOEdITVg4akFqWVpMdHV2OXQxaUdONDdB?oc=5",
+     "source": "Dünya Gazetesi",
+     "title": "Beşiktaş-Gençlerbirliği maçının ilk 11'leri belli oldu"
+    },
+    {
+     "at": "2026-11-08T16:58Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONi0zNkU3elNIbjhCTGwyS1BmbzNwSHoxdmltN0FYN1lFRDdFOFpRTnhBa2V3SGZXOGtfNWMzT1RvN0JGSXQ5dk40anV5Q2dwdWpsOXlFTEVZdnF0OEY1bjNUSnBKRzBXNGNndFFUWkhMY0xUWnhGU3NwcUxkMDcxZVlVS2ZVVW16clpCOWdoU3pzTzBmYjdrNg?oc=5",
+     "source": "Ekonomim",
+     "title": "Beşiktaş'ın Gençlerbirliği maçı ilk 11'i belli oldu: Italiano'dan dikkat çeken karar"
+    },
+    {
+     "at": "2026-11-08T16:58Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcFoyd3BNX1B0RFN3RVdWVzU1ejFVcWttRHA2ZmlDSDVnR0ZHM240R0s1UlZOTlQzYklSWVplQlFtSm5hVXVCOTZGdFJYbkd5b1g5aEVsYVlBMHFKLXNlU29ueFhlTUZWd09HREhtQkZoQ1pjSXBGNEhVNGVQS2stQ0VuT1pkNEE?oc=5",
+     "source": "Manşet Haber",
+     "title": "Beşiktaş-Gençlerbirliği maçında ilk 11'ler açıklandı!"
+    },
+    {
+     "at": "2026-11-08T16:57Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTm5jclExcGg0bXQ0REhQWHVfUldpY2QxOTJCcno0VlUtZngtZUxnejlpdmY0clg2TThac1hmZndMLXlTRnVHZkY1RzVBcjM2VzN4dDdSSkEtY1Z3emRMNnlwRnVYUFpnWkhlWHlLT3NOc1RVdWphVGd0RmVCTzhqRl9veXVYd2ZoaGp5a01lSXIxMHlIb2RIbVBibloxbEdlUjYwYw?oc=5",
+     "source": "Sabah",
+     "title": "SON DAKİKA! Beşiktaş - Gençlerbirliği | İlk 11'ler açıklandı..."
+    }
+   ],
+   "kickoff": "2026-11-08T18:00Z"
   },
   "T1|2026-11-08|Corum|Fenerbahce": {
    "ai": {
@@ -16306,7 +16306,7 @@
      "market": "CS",
      "prob": 0.748,
      "odds": 1.32,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "T1",
@@ -17846,7 +17846,7 @@
      "market": "OU",
      "prob": 0.6704,
      "odds": 1.45,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "T1",
@@ -17890,7 +17890,7 @@
      "market": "OU",
      "prob": 0.6366,
      "odds": 1.52,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "T1",
@@ -18759,7 +18759,7 @@
      "market": "1X2",
      "prob": 0.4511,
      "odds": 2.15,
-     "result": "bekliyor"
+     "result": "kaybetti"
     }
    ]
   },
@@ -18814,7 +18814,7 @@
      "market": "1X2",
      "prob": 0.4502,
      "odds": 2.13,
-     "result": "bekliyor"
+     "result": "kaybetti"
     }
    ]
   },
