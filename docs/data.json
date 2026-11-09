@@ -1,42 +1,42 @@
 {
- "updated_at": "2026-11-08T21:53Z",
+ "updated_at": "2026-11-09T13:43Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
   "E0": "Premier Lig"
  },
  "data_through": {
-  "E0": "2026-11-02",
-  "T1": "2026-11-02"
+  "E0": "2026-11-08",
+  "T1": "2026-11-08"
  },
  "stats": {
   "genel": {
-   "n": 190,
-   "correct": 92,
-   "accuracy": 0.4842,
-   "rps": 0.2172,
-   "brier": 0.6083,
-   "log_loss": 1.0169,
-   "odds_accuracy": 0.5211
+   "n": 199,
+   "correct": 99,
+   "accuracy": 0.4975,
+   "rps": 0.215,
+   "brier": 0.5986,
+   "log_loss": 1.0032,
+   "odds_accuracy": 0.5327
   },
   "canli": {
-   "n": 39,
-   "correct": 22,
-   "accuracy": 0.5641,
-   "rps": 0.2032,
-   "brier": 0.5681,
-   "log_loss": 0.9602,
-   "odds_accuracy": 0.5385
+   "n": 48,
+   "correct": 29,
+   "accuracy": 0.6042,
+   "rps": 0.1967,
+   "brier": 0.5356,
+   "log_loss": 0.9141,
+   "odds_accuracy": 0.5833
   },
   "lig": {
    "T1": {
-    "n": 90,
-    "correct": 43,
-    "accuracy": 0.4778,
-    "rps": 0.2242,
-    "brier": 0.6011,
-    "log_loss": 1.008,
-    "odds_accuracy": 0.5556
+    "n": 99,
+    "correct": 50,
+    "accuracy": 0.5051,
+    "rps": 0.2191,
+    "brier": 0.5823,
+    "log_loss": 0.9813,
+    "odds_accuracy": 0.5758
    },
    "E0": {
     "n": 100,
@@ -49,41 +49,41 @@
    }
   },
   "son_30_gun": {
-   "n": 85,
-   "correct": 48,
-   "accuracy": 0.5647,
-   "rps": 0.2065,
-   "brier": 0.5678,
-   "log_loss": 0.9598,
-   "odds_accuracy": 0.5882
+   "n": 84,
+   "correct": 50,
+   "accuracy": 0.5952,
+   "rps": 0.2048,
+   "brier": 0.5408,
+   "log_loss": 0.9229,
+   "odds_accuracy": 0.619
   },
   "guven": {
    "50%+": {
-    "n": 79,
-    "correct": 48,
-    "accuracy": 0.6076,
-    "rps": 0.1867,
-    "brier": 0.5241,
-    "log_loss": 0.899,
-    "odds_accuracy": 0.6076
+    "n": 85,
+    "correct": 53,
+    "accuracy": 0.6235,
+    "rps": 0.1834,
+    "brier": 0.5102,
+    "log_loss": 0.8793,
+    "odds_accuracy": 0.6235
    },
    "60%+": {
-    "n": 38,
-    "correct": 29,
-    "accuracy": 0.7632,
-    "rps": 0.1415,
-    "brier": 0.384,
-    "log_loss": 0.6995,
-    "odds_accuracy": 0.7632
+    "n": 40,
+    "correct": 31,
+    "accuracy": 0.775,
+    "rps": 0.1357,
+    "brier": 0.3686,
+    "log_loss": 0.6764,
+    "odds_accuracy": 0.775
    },
    "70%+": {
-    "n": 14,
-    "correct": 13,
-    "accuracy": 0.9286,
-    "rps": 0.0519,
-    "brier": 0.1778,
-    "log_loss": 0.3878,
-    "odds_accuracy": 0.9286
+    "n": 16,
+    "correct": 15,
+    "accuracy": 0.9375,
+    "rps": 0.0488,
+    "brier": 0.165,
+    "log_loss": 0.3689,
+    "odds_accuracy": 0.9375
    }
   }
  },
@@ -120,8 +120,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 2.0,
+   "fthg": 2,
+   "ftag": 2,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -168,8 +168,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 1.0,
+   "fthg": 1,
+   "ftag": 1,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -216,8 +216,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 1.0,
+   "fthg": 2,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -264,8 +264,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 1.0,
+   "fthg": 1,
+   "ftag": 1,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -312,8 +312,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -360,8 +360,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 3.0,
-   "ftag": 0.0,
+   "fthg": 3,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -408,8 +408,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 0.0,
+   "fthg": 1,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -456,8 +456,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -504,8 +504,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 3.0,
-   "ftag": 3.0,
+   "fthg": 3,
+   "ftag": 3,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -552,8 +552,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 3.0,
-   "ftag": 0.0,
+   "fthg": 3,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -600,8 +600,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 4.0,
+   "fthg": 0,
+   "ftag": 4,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -648,8 +648,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 3.0,
-   "ftag": 0.0,
+   "fthg": 3,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -696,8 +696,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -744,8 +744,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -792,8 +792,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 1.0,
+   "fthg": 2,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -840,8 +840,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -888,8 +888,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -936,8 +936,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 4.0,
-   "ftag": 2.0,
+   "fthg": 4,
+   "ftag": 2,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -984,8 +984,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 2.0,
+   "fthg": 0,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -1032,8 +1032,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 4.0,
-   "ftag": 0.0,
+   "fthg": 4,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -1080,8 +1080,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 1.0,
+   "fthg": 2,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -1128,8 +1128,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 2.0,
+   "fthg": 2,
+   "ftag": 2,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -1176,8 +1176,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 0.0,
+   "fthg": 1,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -1224,8 +1224,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -1272,8 +1272,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -1320,8 +1320,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 1.0,
+   "fthg": 2,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -1368,8 +1368,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 3.0,
+   "fthg": 2,
+   "ftag": 3,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -1416,8 +1416,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -1464,8 +1464,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 4.0,
+   "fthg": 1,
+   "ftag": 4,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -1512,8 +1512,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 1.0,
+   "fthg": 1,
+   "ftag": 1,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -1560,8 +1560,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 1.0,
+   "fthg": 1,
+   "ftag": 1,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -1608,8 +1608,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -1656,8 +1656,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 2.0,
+   "fthg": 2,
+   "ftag": 2,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -1704,8 +1704,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 2.0,
+   "fthg": 0,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -1752,8 +1752,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 3.0,
-   "ftag": 2.0,
+   "fthg": 3,
+   "ftag": 2,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -1800,8 +1800,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 2.0,
+   "fthg": 1,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -1848,8 +1848,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 2.0,
+   "fthg": 1,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -1896,8 +1896,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 4.0,
-   "ftag": 3.0,
+   "fthg": 4,
+   "ftag": 3,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -1944,8 +1944,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 1.0,
+   "fthg": 1,
+   "ftag": 1,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -1992,8 +1992,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 5.0,
-   "ftag": 2.0,
+   "fthg": 5,
+   "ftag": 2,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -2040,8 +2040,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 0.0,
+   "fthg": 1,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -2088,8 +2088,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 1.0,
+   "fthg": 1,
+   "ftag": 1,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -2136,8 +2136,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 1.0,
+   "fthg": 2,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -2184,8 +2184,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 2.0,
+   "fthg": 0,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -2232,8 +2232,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -2280,8 +2280,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 1.0,
+   "fthg": 2,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -2328,8 +2328,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 6.0,
-   "ftag": 2.0,
+   "fthg": 6,
+   "ftag": 2,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -2376,8 +2376,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 2.0,
+   "fthg": 0,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -2424,8 +2424,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 3.0,
+   "fthg": 2,
+   "ftag": 3,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -2472,8 +2472,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 1.0,
+   "fthg": 1,
+   "ftag": 1,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -2520,8 +2520,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 1.0,
+   "fthg": 1,
+   "ftag": 1,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -2568,8 +2568,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 3.0,
+   "fthg": 2,
+   "ftag": 3,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -2616,8 +2616,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 0.0,
+   "fthg": 0,
+   "ftag": 0,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -2664,8 +2664,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 0.0,
+   "fthg": 1,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -2712,8 +2712,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 2.0,
+   "fthg": 2,
+   "ftag": 2,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -2760,8 +2760,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 0.0,
+   "fthg": 0,
+   "ftag": 0,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -2808,8 +2808,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 0.0,
+   "fthg": 1,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -2856,8 +2856,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 2.0,
+   "fthg": 1,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -2904,8 +2904,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 1.0,
+   "fthg": 2,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -2952,8 +2952,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 2.0,
+   "fthg": 2,
+   "ftag": 2,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -3000,8 +3000,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 3.0,
-   "ftag": 0.0,
+   "fthg": 3,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -3048,8 +3048,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 2.0,
+   "fthg": 2,
+   "ftag": 2,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -3096,8 +3096,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 0.0,
+   "fthg": 1,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -3144,8 +3144,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 5.0,
-   "ftag": 0.0,
+   "fthg": 5,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -3192,8 +3192,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 4.0,
+   "fthg": 2,
+   "ftag": 4,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -3240,8 +3240,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -3288,8 +3288,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 3.0,
-   "ftag": 0.0,
+   "fthg": 3,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -3336,8 +3336,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 2.0,
+   "fthg": 1,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -3384,8 +3384,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 2.0,
+   "fthg": 2,
+   "ftag": 2,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -3432,8 +3432,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 2.0,
+   "fthg": 2,
+   "ftag": 2,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -3480,8 +3480,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 3.0,
+   "fthg": 2,
+   "ftag": 3,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -3528,8 +3528,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 0.0,
+   "fthg": 0,
+   "ftag": 0,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -3576,8 +3576,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 2.0,
+   "fthg": 0,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -3624,8 +3624,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 0.0,
+   "fthg": 0,
+   "ftag": 0,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -3672,8 +3672,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 2.0,
+   "fthg": 2,
+   "ftag": 2,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -3720,8 +3720,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 2.0,
+   "fthg": 0,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -3768,8 +3768,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 0.0,
+   "fthg": 1,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -3816,8 +3816,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 5.0,
+   "fthg": 1,
+   "ftag": 5,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -3864,8 +3864,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 5.0,
+   "fthg": 0,
+   "ftag": 5,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -3912,8 +3912,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -3960,8 +3960,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 5.0,
-   "ftag": 0.0,
+   "fthg": 5,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -4008,8 +4008,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 0.0,
+   "fthg": 1,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -4056,8 +4056,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 2.0,
+   "fthg": 1,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -4104,8 +4104,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 4.0,
-   "ftag": 1.0,
+   "fthg": 4,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -4152,8 +4152,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 0.0,
+   "fthg": 0,
+   "ftag": 0,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -4200,8 +4200,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 3.0,
-   "ftag": 0.0,
+   "fthg": 3,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -4248,8 +4248,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 0.0,
+   "fthg": 0,
+   "ftag": 0,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -4296,8 +4296,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 3.0,
-   "ftag": 0.0,
+   "fthg": 3,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -4344,8 +4344,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 0.0,
+   "fthg": 1,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -4392,8 +4392,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 1.0,
+   "fthg": 2,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -4440,8 +4440,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -4488,8 +4488,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 3.0,
+   "fthg": 2,
+   "ftag": 3,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -4536,8 +4536,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 4.0,
-   "ftag": 0.0,
+   "fthg": 4,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -4584,8 +4584,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 2.0,
+   "fthg": 1,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -4632,8 +4632,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -4680,8 +4680,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 4.0,
-   "ftag": 0.0,
+   "fthg": 4,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -4728,8 +4728,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -4776,8 +4776,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 1.0,
+   "fthg": 1,
+   "ftag": 1,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -4824,8 +4824,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 0.0,
+   "fthg": 0,
+   "ftag": 0,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -4872,8 +4872,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 5.0,
-   "ftag": 3.0,
+   "fthg": 5,
+   "ftag": 3,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -4920,8 +4920,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 3.0,
-   "ftag": 2.0,
+   "fthg": 3,
+   "ftag": 2,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -4968,8 +4968,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 0.0,
+   "fthg": 1,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -5016,8 +5016,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 8.0,
-   "ftag": 0.0,
+   "fthg": 8,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -5064,8 +5064,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 2.0,
+   "fthg": 2,
+   "ftag": 2,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -5112,8 +5112,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 3.0,
-   "ftag": 1.0,
+   "fthg": 3,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -5160,8 +5160,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 1.0,
+   "fthg": 2,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -5208,8 +5208,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 2.0,
+   "fthg": 2,
+   "ftag": 2,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -5256,8 +5256,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 5.0,
-   "ftag": 1.0,
+   "fthg": 5,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -5304,8 +5304,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 1.0,
+   "fthg": 2,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -5352,8 +5352,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 1.0,
+   "fthg": 1,
+   "ftag": 1,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -5400,8 +5400,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 2.0,
+   "fthg": 0,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -5448,8 +5448,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 0.0,
+   "fthg": 0,
+   "ftag": 0,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -5496,8 +5496,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 2.0,
+   "fthg": 2,
+   "ftag": 2,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -5544,8 +5544,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 3.0,
+   "fthg": 0,
+   "ftag": 3,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -5592,8 +5592,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 3.0,
+   "fthg": 0,
+   "ftag": 3,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -5640,8 +5640,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 3.0,
-   "ftag": 1.0,
+   "fthg": 3,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -5688,8 +5688,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 2.0,
+   "fthg": 2,
+   "ftag": 2,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -5736,8 +5736,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 3.0,
+   "fthg": 0,
+   "ftag": 3,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -5784,8 +5784,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 1.0,
+   "fthg": 2,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -5832,8 +5832,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 3.0,
+   "fthg": 0,
+   "ftag": 3,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -5880,8 +5880,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 0.0,
+   "fthg": 0,
+   "ftag": 0,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -5928,8 +5928,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 4.0,
-   "ftag": 1.0,
+   "fthg": 4,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -5976,8 +5976,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 4.0,
+   "fthg": 0,
+   "ftag": 4,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -6024,8 +6024,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 1.0,
+   "fthg": 2,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -6072,8 +6072,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 2.0,
+   "fthg": 1,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -6120,8 +6120,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 2.0,
+   "fthg": 0,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -6168,8 +6168,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 0.0,
+   "fthg": 1,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -6216,8 +6216,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 3.0,
-   "ftag": 2.0,
+   "fthg": 3,
+   "ftag": 2,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -6264,8 +6264,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -6312,8 +6312,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 0.0,
+   "fthg": 1,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -6360,8 +6360,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -6408,8 +6408,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 3.0,
-   "ftag": 0.0,
+   "fthg": 3,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -6456,8 +6456,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -6504,8 +6504,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -6552,8 +6552,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 5.0,
-   "ftag": 0.0,
+   "fthg": 5,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -6600,8 +6600,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 1.0,
+   "fthg": 1,
+   "ftag": 1,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -6648,8 +6648,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -6696,8 +6696,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 1.0,
+   "fthg": 2,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -6744,8 +6744,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 4.0,
-   "ftag": 1.0,
+   "fthg": 4,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -6792,8 +6792,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 2.0,
+   "fthg": 1,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -6840,8 +6840,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 3.0,
-   "ftag": 1.0,
+   "fthg": 3,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -6888,8 +6888,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -6936,8 +6936,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 2.0,
+   "fthg": 1,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -6984,8 +6984,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 1.0,
+   "fthg": 1,
+   "ftag": 1,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -7032,8 +7032,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -7080,8 +7080,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 1.0,
+   "fthg": 2,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -7128,8 +7128,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 3.0,
+   "fthg": 1,
+   "ftag": 3,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -7176,8 +7176,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -7224,8 +7224,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -7272,8 +7272,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 2.0,
+   "fthg": 1,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -7320,8 +7320,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 2.0,
+   "fthg": 0,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -7368,8 +7368,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -7416,8 +7416,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 2.0,
+   "fthg": 0,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -7464,8 +7464,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 1.0,
-   "ftag": 1.0,
+   "fthg": 1,
+   "ftag": 1,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -7512,8 +7512,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -7560,8 +7560,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 3.0,
+   "fthg": 0,
+   "ftag": 3,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -7608,8 +7608,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -7656,8 +7656,8 @@
    "f_a_sot": null,
    "f_h_rest": null,
    "f_a_rest": null,
-   "fthg": 0.0,
-   "ftag": 0.0,
+   "fthg": 0,
+   "ftag": 0,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -7704,8 +7704,8 @@
    "f_a_sot": 4.48,
    "f_h_rest": 7.0,
    "f_a_rest": 8.0,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -7752,8 +7752,8 @@
    "f_a_sot": 5.97,
    "f_h_rest": 10.0,
    "f_a_rest": 7.0,
-   "fthg": 3.0,
-   "ftag": 4.0,
+   "fthg": 3,
+   "ftag": 4,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -7800,8 +7800,8 @@
    "f_a_sot": 6.8,
    "f_h_rest": 9.0,
    "f_a_rest": 9.0,
-   "fthg": 2.0,
-   "ftag": 1.0,
+   "fthg": 2,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -7848,8 +7848,8 @@
    "f_a_sot": 6.7,
    "f_h_rest": 5.0,
    "f_a_rest": 4.0,
-   "fthg": 0.0,
-   "ftag": 4.0,
+   "fthg": 0,
+   "ftag": 4,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -7896,8 +7896,8 @@
    "f_a_sot": 5.29,
    "f_h_rest": 7.0,
    "f_a_rest": 6.0,
-   "fthg": 1.0,
-   "ftag": 3.0,
+   "fthg": 1,
+   "ftag": 3,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -7944,8 +7944,8 @@
    "f_a_sot": 5.13,
    "f_h_rest": 7.0,
    "f_a_rest": 6.0,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -7992,8 +7992,8 @@
    "f_a_sot": 4.76,
    "f_h_rest": 8.0,
    "f_a_rest": 5.0,
-   "fthg": 0.0,
-   "ftag": 0.0,
+   "fthg": 0,
+   "ftag": 0,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -8040,8 +8040,8 @@
    "f_a_sot": 4.04,
    "f_h_rest": 6.0,
    "f_a_rest": 6.0,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -8088,8 +8088,8 @@
    "f_a_sot": 4.13,
    "f_h_rest": 6.0,
    "f_a_rest": 8.0,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -8136,8 +8136,8 @@
    "f_a_sot": 3.68,
    "f_h_rest": 7.0,
    "f_a_rest": 6.0,
-   "fthg": 3.0,
-   "ftag": 1.0,
+   "fthg": 3,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -8184,8 +8184,8 @@
    "f_a_sot": 3.78,
    "f_h_rest": 6.0,
    "f_a_rest": 8.0,
-   "fthg": 2.0,
-   "ftag": 2.0,
+   "fthg": 2,
+   "ftag": 2,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -8232,8 +8232,8 @@
    "f_a_sot": 5.11,
    "f_h_rest": 7.0,
    "f_a_rest": 6.0,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -8280,8 +8280,8 @@
    "f_a_sot": 5.45,
    "f_h_rest": 5.0,
    "f_a_rest": 6.0,
-   "fthg": 1.0,
-   "ftag": 2.0,
+   "fthg": 1,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -8328,8 +8328,8 @@
    "f_a_sot": 3.73,
    "f_h_rest": 7.0,
    "f_a_rest": 6.0,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -8376,8 +8376,8 @@
    "f_a_sot": 4.2,
    "f_h_rest": 7.0,
    "f_a_rest": 7.0,
-   "fthg": 1.0,
-   "ftag": 1.0,
+   "fthg": 1,
+   "ftag": 1,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -8424,8 +8424,8 @@
    "f_a_sot": 3.74,
    "f_h_rest": 8.0,
    "f_a_rest": 8.0,
-   "fthg": 5.0,
-   "ftag": 1.0,
+   "fthg": 5,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -8472,8 +8472,8 @@
    "f_a_sot": 3.91,
    "f_h_rest": 6.0,
    "f_a_rest": 8.0,
-   "fthg": 5.0,
-   "ftag": 2.0,
+   "fthg": 5,
+   "ftag": 2,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -8520,8 +8520,8 @@
    "f_a_sot": 4.0,
    "f_h_rest": 6.0,
    "f_a_rest": 8.0,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -8568,8 +8568,8 @@
    "f_a_sot": 6.38,
    "f_h_rest": 8.0,
    "f_a_rest": 6.0,
-   "fthg": 2.0,
-   "ftag": 2.0,
+   "fthg": 2,
+   "ftag": 2,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -8616,8 +8616,8 @@
    "f_a_sot": 4.45,
    "f_h_rest": 7.0,
    "f_a_rest": 8.0,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -8664,8 +8664,8 @@
    "f_a_sot": 4.01,
    "f_h_rest": 8.0,
    "f_a_rest": 10.0,
-   "fthg": 5.0,
-   "ftag": 0.0,
+   "fthg": 5,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -8712,8 +8712,8 @@
    "f_a_sot": 4.56,
    "f_h_rest": 8.0,
    "f_a_rest": 9.0,
-   "fthg": 0.0,
-   "ftag": 1.0,
+   "fthg": 0,
+   "ftag": 1,
    "ftr": "A",
    "status": "bitti",
    "correct": 0.0,
@@ -8760,21 +8760,21 @@
    "f_a_sot": 4.02,
    "f_h_rest": 5.0,
    "f_a_rest": 5.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 0,
+   "ftag": 2,
+   "ftr": "A",
+   "status": "bitti",
+   "correct": 0.0,
    "odds_pick": "H",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 0.0,
+   "o25_correct": 0.0,
+   "kg_correct": 0.0,
    "mk_h": 0.3721,
    "mk_d": 0.2723,
    "mk_a": 0.3556,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 2.3,
+   "close_d": 3.54,
+   "close_a": 2.73
   },
   {
    "league": "E0",
@@ -8808,8 +8808,8 @@
    "f_a_sot": 3.26,
    "f_h_rest": 4.0,
    "f_a_rest": 6.0,
-   "fthg": 3.0,
-   "ftag": 1.0,
+   "fthg": 3,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -8820,9 +8820,9 @@
    "mk_h": 0.5881,
    "mk_d": 0.2312,
    "mk_a": 0.1807,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.66,
+   "close_d": 4.01,
+   "close_a": 4.83
   },
   {
    "league": "T1",
@@ -8856,21 +8856,21 @@
    "f_a_sot": 3.6,
    "f_h_rest": 6.0,
    "f_a_rest": 7.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 0,
+   "ftag": 2,
+   "ftr": "A",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "A",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 1.0,
+   "kg_correct": 1.0,
    "mk_h": 0.2363,
    "mk_d": 0.2769,
    "mk_a": 0.4868,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 3.91,
+   "close_d": 3.24,
+   "close_a": 1.92
   },
   {
    "league": "E0",
@@ -8904,8 +8904,8 @@
    "f_a_sot": 4.62,
    "f_h_rest": 7.0,
    "f_a_rest": 7.0,
-   "fthg": 1.0,
-   "ftag": 0.0,
+   "fthg": 1,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -8916,9 +8916,9 @@
    "mk_h": 0.344,
    "mk_d": 0.281,
    "mk_a": 0.375,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 2.75,
+   "close_d": 3.33,
+   "close_a": 2.5
   },
   {
    "league": "T1",
@@ -8952,21 +8952,21 @@
    "f_a_sot": 3.48,
    "f_h_rest": 6.0,
    "f_a_rest": 8.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 1,
+   "ftag": 0,
+   "ftr": "H",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "H",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 0.0,
+   "kg_correct": 0.0,
    "mk_h": 0.4213,
    "mk_d": 0.2768,
    "mk_a": 0.3019,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 2.36,
+   "close_d": 3.32,
+   "close_a": 2.79
   },
   {
    "league": "E0",
@@ -9000,8 +9000,8 @@
    "f_a_sot": 3.07,
    "f_h_rest": 6.0,
    "f_a_rest": 7.0,
-   "fthg": 1.0,
-   "ftag": 0.0,
+   "fthg": 1,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -9012,9 +9012,9 @@
    "mk_h": 0.8549,
    "mk_d": 0.1073,
    "mk_a": 0.0378,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.14,
+   "close_d": 8.0,
+   "close_a": 17.72
   },
   {
    "league": "E0",
@@ -9048,8 +9048,8 @@
    "f_a_sot": 3.64,
    "f_h_rest": 7.0,
    "f_a_rest": 5.0,
-   "fthg": 1.0,
-   "ftag": 1.0,
+   "fthg": 1,
+   "ftag": 1,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -9060,9 +9060,9 @@
    "mk_h": 0.4791,
    "mk_d": 0.2562,
    "mk_a": 0.2646,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.94,
+   "close_d": 3.81,
+   "close_a": 3.56
   },
   {
    "league": "T1",
@@ -9096,21 +9096,21 @@
    "f_a_sot": 5.53,
    "f_h_rest": 8.0,
    "f_a_rest": 6.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 4,
+   "ftag": 3,
+   "ftr": "H",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "H",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 1.0,
+   "kg_correct": 1.0,
    "mk_h": 0.6939,
    "mk_d": 0.1753,
    "mk_a": 0.1308,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.41,
+   "close_d": 4.8,
+   "close_a": 6.1
   },
   {
    "league": "T1",
@@ -9144,21 +9144,21 @@
    "f_a_sot": 5.04,
    "f_h_rest": 7.0,
    "f_a_rest": 6.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 1,
+   "ftag": 2,
+   "ftr": "A",
+   "status": "bitti",
+   "correct": 0.0,
    "odds_pick": "H",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 0.0,
+   "o25_correct": 1.0,
+   "kg_correct": 1.0,
    "mk_h": 0.4921,
    "mk_d": 0.2506,
    "mk_a": 0.2574,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.96,
+   "close_d": 3.54,
+   "close_a": 3.46
   },
   {
    "league": "E0",
@@ -9192,8 +9192,8 @@
    "f_a_sot": 5.58,
    "f_h_rest": 7.0,
    "f_a_rest": 7.0,
-   "fthg": 3.0,
-   "ftag": 1.0,
+   "fthg": 3,
+   "ftag": 1,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -9204,9 +9204,9 @@
    "mk_h": 0.1835,
    "mk_d": 0.2241,
    "mk_a": 0.5924,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 5.02,
+   "close_d": 4.1,
+   "close_a": 1.62
   },
   {
    "league": "T1",
@@ -9240,21 +9240,21 @@
    "f_a_sot": 3.32,
    "f_h_rest": 8.0,
    "f_a_rest": 8.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 2,
+   "ftag": 1,
+   "ftr": "H",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "H",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 1.0,
+   "kg_correct": 1.0,
    "mk_h": 0.4906,
    "mk_d": 0.2578,
    "mk_a": 0.2516,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.83,
+   "close_d": 3.5,
+   "close_a": 3.98
   },
   {
    "league": "T1",
@@ -9288,21 +9288,21 @@
    "f_a_sot": 6.34,
    "f_h_rest": 8.0,
    "f_a_rest": 8.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 0,
+   "ftag": 5,
+   "ftr": "A",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "A",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 1.0,
+   "kg_correct": 0.0,
    "mk_h": 0.1964,
    "mk_d": 0.2277,
    "mk_a": 0.576,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 3.41,
+   "close_d": 3.68,
+   "close_a": 1.93
   },
   {
    "league": "E0",
@@ -9336,8 +9336,8 @@
    "f_a_sot": 3.65,
    "f_h_rest": 8.0,
    "f_a_rest": 8.0,
-   "fthg": 2.0,
-   "ftag": 0.0,
+   "fthg": 2,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 1.0,
@@ -9348,9 +9348,9 @@
    "mk_h": 0.5193,
    "mk_d": 0.2397,
    "mk_a": 0.241,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.8,
+   "close_d": 3.85,
+   "close_a": 4.09
   },
   {
    "league": "E0",
@@ -9384,8 +9384,8 @@
    "f_a_sot": 4.33,
    "f_h_rest": 8.0,
    "f_a_rest": 7.0,
-   "fthg": 1.0,
-   "ftag": 3.0,
+   "fthg": 1,
+   "ftag": 3,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -9396,9 +9396,9 @@
    "mk_h": 0.1676,
    "mk_d": 0.2092,
    "mk_a": 0.6231,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 5.43,
+   "close_d": 4.52,
+   "close_a": 1.52
   },
   {
    "league": "E0",
@@ -9432,8 +9432,8 @@
    "f_a_sot": 4.72,
    "f_h_rest": 8.0,
    "f_a_rest": 8.0,
-   "fthg": 1.0,
-   "ftag": 2.0,
+   "fthg": 1,
+   "ftag": 2,
    "ftr": "A",
    "status": "bitti",
    "correct": 1.0,
@@ -9444,9 +9444,9 @@
    "mk_h": 0.2454,
    "mk_d": 0.2509,
    "mk_a": 0.5038,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 3.43,
+   "close_d": 3.72,
+   "close_a": 1.99
   },
   {
    "league": "E0",
@@ -9480,8 +9480,8 @@
    "f_a_sot": 5.16,
    "f_h_rest": 8.0,
    "f_a_rest": 8.0,
-   "fthg": 1.0,
-   "ftag": 0.0,
+   "fthg": 1,
+   "ftag": 0,
    "ftr": "H",
    "status": "bitti",
    "correct": 0.0,
@@ -9492,9 +9492,9 @@
    "mk_h": 0.2372,
    "mk_d": 0.2492,
    "mk_a": 0.5136,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 3.0,
+   "close_d": 3.43,
+   "close_a": 2.27
   },
   {
    "league": "T1",
@@ -9528,21 +9528,21 @@
    "f_a_sot": 6.08,
    "f_h_rest": 6.0,
    "f_a_rest": 7.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 0,
+   "ftag": 2,
+   "ftr": "A",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "A",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 0.0,
+   "kg_correct": 0.0,
    "mk_h": 0.1737,
    "mk_d": 0.2277,
    "mk_a": 0.5985,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 5.19,
+   "close_d": 4.07,
+   "close_a": 1.55
   },
   {
    "league": "E0",
@@ -9576,8 +9576,8 @@
    "f_a_sot": 3.82,
    "f_h_rest": 8.0,
    "f_a_rest": 8.0,
-   "fthg": 4.0,
-   "ftag": 4.0,
+   "fthg": 4,
+   "ftag": 4,
    "ftr": "D",
    "status": "bitti",
    "correct": 0.0,
@@ -9588,9 +9588,9 @@
    "mk_h": 0.4834,
    "mk_d": 0.2351,
    "mk_a": 0.2815,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.97,
+   "close_d": 3.95,
+   "close_a": 3.31
   },
   {
    "league": "T1",
@@ -9624,26 +9624,34 @@
    "f_a_sot": 4.04,
    "f_h_rest": 7.0,
    "f_a_rest": 6.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 3,
+   "ftag": 0,
+   "ftr": "H",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "H",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 1.0,
+   "kg_correct": 0.0,
    "mk_h": 0.831,
    "mk_d": 0.1136,
    "mk_a": 0.0554,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.14,
+   "close_d": 7.56,
+   "close_a": 13.63
   }
  ],
  "teams": {
   "E0|Arsenal": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Hull",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-11-01",
      "opp": "Liverpool",
@@ -9683,22 +9691,14 @@
      "gf": 0,
      "ga": 3,
      "res": "M"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Sunderland",
-     "venue": "A",
-     "gf": 2,
-     "ga": 0,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 4,
-    "g": 4,
+    "p": 5,
+    "g": 5,
     "b": 0,
     "m": 0,
-    "gf": 9,
+    "gf": 10,
     "ga": 2
    },
    "dis": {
@@ -9713,6 +9713,14 @@
   "E0|Aston Villa": {
    "son": [
     {
+     "date": "2026-11-08",
+     "opp": "Man United",
+     "venue": "A",
+     "gf": 4,
+     "ga": 4,
+     "res": "B"
+    },
+    {
      "date": "2026-10-31",
      "opp": "Fulham",
      "venue": "H",
@@ -9751,14 +9759,6 @@
      "gf": 3,
      "ga": 2,
      "res": "G"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Nott'm Forest",
-     "venue": "H",
-     "gf": 1,
-     "ga": 2,
-     "res": "M"
     }
    ],
    "ic": {
@@ -9770,16 +9770,24 @@
     "ga": 7
    },
    "dis": {
-    "p": 4,
+    "p": 5,
     "g": 2,
-    "b": 1,
+    "b": 2,
     "m": 1,
-    "gf": 4,
-    "ga": 6
+    "gf": 8,
+    "ga": 10
    }
   },
   "E0|Bournemouth": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Ipswich",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "G"
+    },
     {
      "date": "2026-10-31",
      "opp": "Leeds",
@@ -9819,14 +9827,6 @@
      "gf": 0,
      "ga": 1,
      "res": "M"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Brentford",
-     "venue": "H",
-     "gf": 2,
-     "ga": 2,
-     "res": "B"
     }
    ],
    "ic": {
@@ -9838,16 +9838,24 @@
     "ga": 4
    },
    "dis": {
-    "p": 4,
-    "g": 1,
+    "p": 5,
+    "g": 2,
     "b": 1,
     "m": 2,
-    "gf": 7,
-    "ga": 9
+    "gf": 9,
+    "ga": 10
    }
   },
   "E0|Brentford": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Brighton",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "M"
+    },
     {
      "date": "2026-10-31",
      "opp": "Nott'm Forest",
@@ -9887,14 +9895,6 @@
      "gf": 3,
      "ga": 0,
      "res": "G"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Bournemouth",
-     "venue": "A",
-     "gf": 2,
-     "ga": 2,
-     "res": "B"
     }
    ],
    "ic": {
@@ -9906,16 +9906,24 @@
     "ga": 3
    },
    "dis": {
-    "p": 4,
+    "p": 5,
     "g": 0,
     "b": 4,
-    "m": 0,
+    "m": 1,
     "gf": 6,
-    "ga": 6
+    "ga": 8
    }
   },
   "E0|Brighton": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Brentford",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-10-31",
      "opp": "Man City",
@@ -9955,22 +9963,14 @@
      "gf": 3,
      "ga": 0,
      "res": "G"
-    },
-    {
-     "date": "2026-09-13",
-     "opp": "Coventry",
-     "venue": "A",
-     "gf": 5,
-     "ga": 0,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 4,
-    "g": 3,
+    "p": 5,
+    "g": 4,
     "b": 1,
     "m": 0,
-    "gf": 13,
+    "gf": 15,
     "ga": 1
    },
    "dis": {
@@ -9984,6 +9984,14 @@
   },
   "E0|Chelsea": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Sunderland",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "M"
+    },
     {
      "date": "2026-10-31",
      "opp": "Man United",
@@ -10023,14 +10031,6 @@
      "gf": 0,
      "ga": 3,
      "res": "M"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Hull",
-     "venue": "H",
-     "gf": 2,
-     "ga": 2,
-     "res": "B"
     }
    ],
    "ic": {
@@ -10042,16 +10042,24 @@
     "ga": 8
    },
    "dis": {
-    "p": 4,
+    "p": 5,
     "g": 2,
     "b": 0,
-    "m": 2,
+    "m": 3,
     "gf": 6,
-    "ga": 7
+    "ga": 8
    }
   },
   "E0|Coventry": {
    "son": [
+    {
+     "date": "2026-11-06",
+     "opp": "Everton",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "M"
+    },
     {
      "date": "2026-10-31",
      "opp": "Sunderland",
@@ -10091,14 +10099,6 @@
      "gf": 1,
      "ga": 0,
      "res": "G"
-    },
-    {
-     "date": "2026-09-13",
-     "opp": "Brighton",
-     "venue": "H",
-     "gf": 0,
-     "ga": 5,
-     "res": "M"
     }
    ],
    "ic": {
@@ -10110,16 +10110,24 @@
     "ga": 9
    },
    "dis": {
-    "p": 4,
+    "p": 5,
     "g": 1,
     "b": 0,
-    "m": 3,
-    "gf": 2,
-    "ga": 7
+    "m": 4,
+    "gf": 3,
+    "ga": 10
    }
   },
   "E0|Crystal Palace": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Liverpool",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "M"
+    },
     {
      "date": "2026-10-31",
      "opp": "Tottenham",
@@ -10159,23 +10167,15 @@
      "gf": 0,
      "ga": 0,
      "res": "B"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Ipswich",
-     "venue": "H",
-     "gf": 2,
-     "ga": 3,
-     "res": "M"
     }
    ],
    "ic": {
-    "p": 4,
+    "p": 5,
     "g": 1,
     "b": 0,
-    "m": 3,
-    "gf": 6,
-    "ga": 10
+    "m": 4,
+    "gf": 7,
+    "ga": 13
    },
    "dis": {
     "p": 5,
@@ -10188,6 +10188,14 @@
   },
   "E0|Everton": {
    "son": [
+    {
+     "date": "2026-11-06",
+     "opp": "Coventry",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "G"
+    },
     {
      "date": "2026-11-02",
      "opp": "Newcastle",
@@ -10227,23 +10235,15 @@
      "gf": 1,
      "ga": 0,
      "res": "G"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Tottenham",
-     "venue": "A",
-     "gf": 0,
-     "ga": 0,
-     "res": "B"
     }
    ],
    "ic": {
-    "p": 4,
-    "g": 2,
+    "p": 5,
+    "g": 3,
     "b": 1,
     "m": 1,
-    "gf": 5,
-    "ga": 4
+    "gf": 8,
+    "ga": 5
    },
    "dis": {
     "p": 5,
@@ -10256,6 +10256,14 @@
   },
   "E0|Fulham": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Newcastle",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "B"
+    },
     {
      "date": "2026-10-31",
      "opp": "Aston Villa",
@@ -10295,23 +10303,15 @@
      "gf": 1,
      "ga": 1,
      "res": "B"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Liverpool",
-     "venue": "A",
-     "gf": 0,
-     "ga": 0,
-     "res": "B"
     }
    ],
    "ic": {
-    "p": 4,
+    "p": 5,
     "g": 1,
-    "b": 1,
+    "b": 2,
     "m": 2,
-    "gf": 6,
-    "ga": 7
+    "gf": 7,
+    "ga": 8
    },
    "dis": {
     "p": 5,
@@ -10324,6 +10324,14 @@
   },
   "E0|Hull": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Arsenal",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "M"
+    },
     {
      "date": "2026-10-31",
      "opp": "Ipswich",
@@ -10363,14 +10371,6 @@
      "gf": 1,
      "ga": 2,
      "res": "M"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Chelsea",
-     "venue": "A",
-     "gf": 2,
-     "ga": 2,
-     "res": "B"
     }
    ],
    "ic": {
@@ -10382,16 +10382,24 @@
     "ga": 5
    },
    "dis": {
-    "p": 4,
+    "p": 5,
     "g": 1,
     "b": 1,
-    "m": 2,
+    "m": 3,
     "gf": 4,
-    "ga": 5
+    "ga": 6
    }
   },
   "E0|Ipswich": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Bournemouth",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "M"
+    },
     {
      "date": "2026-10-31",
      "opp": "Hull",
@@ -10431,23 +10439,15 @@
      "gf": 0,
      "ga": 1,
      "res": "M"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Crystal Palace",
-     "venue": "A",
-     "gf": 3,
-     "ga": 2,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 4,
+    "p": 5,
     "g": 2,
     "b": 1,
-    "m": 1,
-    "gf": 5,
-    "ga": 5
+    "m": 2,
+    "gf": 6,
+    "ga": 7
    },
    "dis": {
     "p": 5,
@@ -10460,6 +10460,14 @@
   },
   "E0|Leeds": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Tottenham",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-10-31",
      "opp": "Bournemouth",
@@ -10499,22 +10507,14 @@
      "gf": 0,
      "ga": 0,
      "res": "B"
-    },
-    {
-     "date": "2026-09-14",
-     "opp": "Newcastle",
-     "venue": "H",
-     "gf": 4,
-     "ga": 1,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 4,
-    "g": 1,
+    "p": 5,
+    "g": 2,
     "b": 3,
     "m": 0,
-    "gf": 6,
+    "gf": 7,
     "ga": 3
    },
    "dis": {
@@ -10528,6 +10528,14 @@
   },
   "E0|Liverpool": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Crystal Palace",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "G"
+    },
     {
      "date": "2026-11-01",
      "opp": "Arsenal",
@@ -10567,14 +10575,6 @@
      "gf": 1,
      "ga": 0,
      "res": "G"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Fulham",
-     "venue": "H",
-     "gf": 0,
-     "ga": 0,
-     "res": "B"
     }
    ],
    "ic": {
@@ -10586,16 +10586,24 @@
     "ga": 6
    },
    "dis": {
-    "p": 4,
-    "g": 3,
+    "p": 5,
+    "g": 4,
     "b": 1,
     "m": 0,
-    "gf": 7,
-    "ga": 3
+    "gf": 10,
+    "ga": 4
    }
   },
   "E0|Man City": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Nott'm Forest",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "M"
+    },
     {
      "date": "2026-10-31",
      "opp": "Brighton",
@@ -10635,14 +10643,6 @@
      "gf": 5,
      "ga": 3,
      "res": "G"
-    },
-    {
-     "date": "2026-09-13",
-     "opp": "Man United",
-     "venue": "A",
-     "gf": 1,
-     "ga": 0,
-     "res": "G"
     }
    ],
    "ic": {
@@ -10654,16 +10654,24 @@
     "ga": 7
    },
    "dis": {
-    "p": 4,
+    "p": 5,
     "g": 3,
     "b": 0,
-    "m": 1,
-    "gf": 9,
-    "ga": 3
+    "m": 2,
+    "gf": 10,
+    "ga": 6
    }
   },
   "E0|Man United": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Aston Villa",
+     "venue": "H",
+     "gf": 4,
+     "ga": 4,
+     "res": "B"
+    },
     {
      "date": "2026-10-31",
      "opp": "Chelsea",
@@ -10703,23 +10711,15 @@
      "gf": 1,
      "ga": 1,
      "res": "B"
-    },
-    {
-     "date": "2026-09-13",
-     "opp": "Man City",
-     "venue": "H",
-     "gf": 0,
-     "ga": 1,
-     "res": "M"
     }
    ],
    "ic": {
-    "p": 4,
+    "p": 5,
     "g": 1,
-    "b": 1,
+    "b": 2,
     "m": 2,
-    "gf": 6,
-    "ga": 7
+    "gf": 10,
+    "ga": 11
    },
    "dis": {
     "p": 5,
@@ -10732,6 +10732,14 @@
   },
   "E0|Newcastle": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Fulham",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "B"
+    },
     {
      "date": "2026-11-02",
      "opp": "Everton",
@@ -10771,14 +10779,6 @@
      "gf": 2,
      "ga": 1,
      "res": "G"
-    },
-    {
-     "date": "2026-09-14",
-     "opp": "Leeds",
-     "venue": "A",
-     "gf": 1,
-     "ga": 4,
-     "res": "M"
     }
    ],
    "ic": {
@@ -10790,16 +10790,24 @@
     "ga": 7
    },
    "dis": {
-    "p": 4,
+    "p": 5,
     "g": 2,
-    "b": 0,
+    "b": 1,
     "m": 2,
-    "gf": 6,
-    "ga": 8
+    "gf": 7,
+    "ga": 9
    }
   },
   "E0|Nott'm Forest": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Man City",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "G"
+    },
     {
      "date": "2026-10-31",
      "opp": "Brentford",
@@ -10839,23 +10847,15 @@
      "gf": 0,
      "ga": 1,
      "res": "M"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Aston Villa",
-     "venue": "A",
-     "gf": 2,
-     "ga": 1,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 4,
-    "g": 0,
+    "p": 5,
+    "g": 1,
     "b": 1,
     "m": 3,
-    "gf": 0,
-    "ga": 3
+    "gf": 3,
+    "ga": 4
    },
    "dis": {
     "p": 5,
@@ -10868,6 +10868,14 @@
   },
   "E0|Sunderland": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Chelsea",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-10-31",
      "opp": "Coventry",
@@ -10907,22 +10915,14 @@
      "gf": 3,
      "ga": 5,
      "res": "M"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Arsenal",
-     "venue": "H",
-     "gf": 0,
-     "ga": 2,
-     "res": "M"
     }
    ],
    "ic": {
-    "p": 4,
-    "g": 1,
+    "p": 5,
+    "g": 2,
     "b": 1,
     "m": 2,
-    "gf": 1,
+    "gf": 2,
     "ga": 4
    },
    "dis": {
@@ -10936,6 +10936,14 @@
   },
   "E0|Tottenham": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Leeds",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "M"
+    },
     {
      "date": "2026-10-31",
      "opp": "Crystal Palace",
@@ -10975,14 +10983,6 @@
      "gf": 2,
      "ga": 3,
      "res": "M"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Everton",
-     "venue": "H",
-     "gf": 0,
-     "ga": 0,
-     "res": "B"
     }
    ],
    "ic": {
@@ -10994,16 +10994,24 @@
     "ga": 6
    },
    "dis": {
-    "p": 4,
+    "p": 5,
     "g": 1,
     "b": 2,
-    "m": 1,
+    "m": 2,
     "gf": 3,
-    "ga": 4
+    "ga": 5
    }
   },
   "T1|Alanyaspor": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Trabzonspor",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "M"
+    },
     {
      "date": "2026-11-02",
      "opp": "Genclerbirligi",
@@ -11043,23 +11051,15 @@
      "gf": 2,
      "ga": 1,
      "res": "G"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Goztep",
-     "venue": "H",
-     "gf": 2,
-     "ga": 2,
-     "res": "B"
     }
    ],
    "ic": {
-    "p": 4,
+    "p": 5,
     "g": 1,
     "b": 2,
-    "m": 1,
+    "m": 2,
     "gf": 4,
-    "ga": 4
+    "ga": 6
    },
    "dis": {
     "p": 6,
@@ -11072,6 +11072,14 @@
   },
   "T1|Amedspor": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Galatasaray",
+     "venue": "A",
+     "gf": 3,
+     "ga": 4,
+     "res": "M"
+    },
     {
      "date": "2026-11-01",
      "opp": "Eyupspor",
@@ -11111,14 +11119,6 @@
      "gf": 3,
      "ga": 2,
      "res": "G"
-    },
-    {
-     "date": "2026-09-13",
-     "opp": "Buyuksehyr",
-     "venue": "H",
-     "gf": 5,
-     "ga": 0,
-     "res": "G"
     }
    ],
    "ic": {
@@ -11130,16 +11130,24 @@
     "ga": 4
    },
    "dis": {
-    "p": 4,
+    "p": 5,
     "g": 1,
     "b": 2,
-    "m": 1,
-    "gf": 6,
-    "ga": 7
+    "m": 2,
+    "gf": 9,
+    "ga": 11
    }
   },
   "T1|Besiktas": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Genclerbirligi",
+     "venue": "H",
+     "gf": 3,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-11-01",
      "opp": "Kasimpasa",
@@ -11179,22 +11187,14 @@
      "gf": 2,
      "ga": 3,
      "res": "M"
-    },
-    {
-     "date": "2026-09-11",
-     "opp": "Erzurumspor",
-     "venue": "H",
-     "gf": 3,
-     "ga": 0,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 5,
-    "g": 5,
+    "p": 6,
+    "g": 6,
     "b": 0,
     "m": 0,
-    "gf": 14,
+    "gf": 17,
     "ga": 3
    },
    "dis": {
@@ -11208,6 +11208,14 @@
   },
   "T1|Buyuksehyr": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Goztep",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "G"
+    },
     {
      "date": "2026-11-01",
      "opp": "Samsunspor",
@@ -11247,14 +11255,6 @@
      "gf": 4,
      "ga": 0,
      "res": "G"
-    },
-    {
-     "date": "2026-09-13",
-     "opp": "Amedspor",
-     "venue": "A",
-     "gf": 0,
-     "ga": 5,
-     "res": "M"
     }
    ],
    "ic": {
@@ -11266,16 +11266,24 @@
     "ga": 7
    },
    "dis": {
-    "p": 4,
-    "g": 0,
+    "p": 5,
+    "g": 1,
     "b": 1,
     "m": 3,
-    "gf": 1,
-    "ga": 9
+    "gf": 3,
+    "ga": 10
    }
   },
   "T1|Corum": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Fenerbahce",
+     "venue": "H",
+     "gf": 0,
+     "ga": 5,
+     "res": "M"
+    },
     {
      "date": "2026-10-31",
      "opp": "Erzurumspor",
@@ -11315,23 +11323,15 @@
      "gf": 1,
      "ga": 2,
      "res": "M"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Samsunspor",
-     "venue": "A",
-     "gf": 5,
-     "ga": 1,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 4,
+    "p": 5,
     "g": 2,
     "b": 0,
-    "m": 2,
+    "m": 3,
     "gf": 6,
-    "ga": 4
+    "ga": 9
    },
    "dis": {
     "p": 6,
@@ -11344,6 +11344,14 @@
   },
   "T1|Erzurumspor": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Rizespor",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "M"
+    },
     {
      "date": "2026-10-31",
      "opp": "Corum",
@@ -11383,14 +11391,6 @@
      "gf": 1,
      "ga": 0,
      "res": "G"
-    },
-    {
-     "date": "2026-09-11",
-     "opp": "Besiktas",
-     "venue": "A",
-     "gf": 0,
-     "ga": 3,
-     "res": "M"
     }
    ],
    "ic": {
@@ -11402,16 +11402,24 @@
     "ga": 7
    },
    "dis": {
-    "p": 5,
+    "p": 6,
     "g": 1,
     "b": 2,
-    "m": 2,
-    "gf": 4,
-    "ga": 8
+    "m": 3,
+    "gf": 5,
+    "ga": 10
    }
   },
   "T1|Eyupspor": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Kocaelispor",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "M"
+    },
     {
      "date": "2026-11-01",
      "opp": "Amedspor",
@@ -11451,23 +11459,15 @@
      "gf": 0,
      "ga": 8,
      "res": "M"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Rizespor",
-     "venue": "H",
-     "gf": 0,
-     "ga": 2,
-     "res": "M"
     }
    ],
    "ic": {
-    "p": 5,
+    "p": 6,
     "g": 1,
     "b": 0,
-    "m": 4,
+    "m": 5,
     "gf": 2,
-    "ga": 9
+    "ga": 11
    },
    "dis": {
     "p": 5,
@@ -11480,6 +11480,14 @@
   },
   "T1|Fenerbahce": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Corum",
+     "venue": "A",
+     "gf": 5,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-10-31",
      "opp": "Goztep",
@@ -11519,14 +11527,6 @@
      "gf": 8,
      "ga": 0,
      "res": "G"
-    },
-    {
-     "date": "2026-09-14",
-     "opp": "Gaziantep",
-     "venue": "A",
-     "gf": 0,
-     "ga": 0,
-     "res": "B"
     }
    ],
    "ic": {
@@ -11538,16 +11538,24 @@
     "ga": 6
    },
    "dis": {
-    "p": 5,
-    "g": 2,
+    "p": 6,
+    "g": 3,
     "b": 1,
     "m": 2,
-    "gf": 7,
+    "gf": 12,
     "ga": 4
    }
   },
   "T1|Galatasaray": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Amedspor",
+     "venue": "H",
+     "gf": 4,
+     "ga": 3,
+     "res": "G"
+    },
     {
      "date": "2026-10-30",
      "opp": "Konyaspor",
@@ -11587,23 +11595,15 @@
      "gf": 0,
      "ga": 4,
      "res": "M"
-    },
-    {
-     "date": "2026-09-13",
-     "opp": "Kocaelispor",
-     "venue": "H",
-     "gf": 1,
-     "ga": 0,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 5,
-    "g": 4,
+    "p": 6,
+    "g": 5,
     "b": 1,
     "m": 0,
-    "gf": 11,
-    "ga": 6
+    "gf": 15,
+    "ga": 9
    },
    "dis": {
     "p": 5,
@@ -11616,6 +11616,14 @@
   },
   "T1|Gaziantep": {
    "son": [
+    {
+     "date": "2026-11-06",
+     "opp": "Kasimpasa",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "M"
+    },
     {
      "date": "2026-11-01",
      "opp": "Trabzonspor",
@@ -11655,23 +11663,15 @@
      "gf": 0,
      "ga": 2,
      "res": "M"
-    },
-    {
-     "date": "2026-09-14",
-     "opp": "Fenerbahce",
-     "venue": "H",
-     "gf": 0,
-     "ga": 0,
-     "res": "B"
     }
    ],
    "ic": {
-    "p": 5,
+    "p": 6,
     "g": 0,
     "b": 2,
-    "m": 3,
+    "m": 4,
     "gf": 3,
-    "ga": 9
+    "ga": 11
    },
    "dis": {
     "p": 5,
@@ -11684,6 +11684,14 @@
   },
   "T1|Genclerbirligi": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Besiktas",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "M"
+    },
     {
      "date": "2026-11-02",
      "opp": "Alanyaspor",
@@ -11723,14 +11731,6 @@
      "gf": 0,
      "ga": 4,
      "res": "M"
-    },
-    {
-     "date": "2026-09-13",
-     "opp": "Kasimpasa",
-     "venue": "H",
-     "gf": 1,
-     "ga": 2,
-     "res": "M"
     }
    ],
    "ic": {
@@ -11742,16 +11742,24 @@
     "ga": 7
    },
    "dis": {
-    "p": 4,
+    "p": 5,
     "g": 1,
     "b": 0,
-    "m": 3,
+    "m": 4,
     "gf": 1,
-    "ga": 11
+    "ga": 14
    }
   },
   "T1|Goztep": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Buyuksehyr",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "M"
+    },
     {
      "date": "2026-10-31",
      "opp": "Fenerbahce",
@@ -11791,23 +11799,15 @@
      "gf": 2,
      "ga": 2,
      "res": "B"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Alanyaspor",
-     "venue": "A",
-     "gf": 2,
-     "ga": 2,
-     "res": "B"
     }
    ],
    "ic": {
-    "p": 4,
+    "p": 5,
     "g": 1,
     "b": 1,
-    "m": 2,
-    "gf": 6,
-    "ga": 7
+    "m": 3,
+    "gf": 7,
+    "ga": 9
    },
    "dis": {
     "p": 6,
@@ -11820,6 +11820,14 @@
   },
   "T1|Kasimpasa": {
    "son": [
+    {
+     "date": "2026-11-06",
+     "opp": "Gaziantep",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-11-01",
      "opp": "Besiktas",
@@ -11859,14 +11867,6 @@
      "gf": 0,
      "ga": 0,
      "res": "B"
-    },
-    {
-     "date": "2026-09-13",
-     "opp": "Genclerbirligi",
-     "venue": "A",
-     "gf": 2,
-     "ga": 1,
-     "res": "G"
     }
    ],
    "ic": {
@@ -11878,16 +11878,24 @@
     "ga": 6
    },
    "dis": {
-    "p": 5,
-    "g": 3,
+    "p": 6,
+    "g": 4,
     "b": 1,
     "m": 1,
-    "gf": 6,
+    "gf": 8,
     "ga": 5
    }
   },
   "T1|Kocaelispor": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Eyupspor",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-10-31",
      "opp": "Rizespor",
@@ -11927,14 +11935,6 @@
      "gf": 2,
      "ga": 0,
      "res": "G"
-    },
-    {
-     "date": "2026-09-13",
-     "opp": "Galatasaray",
-     "venue": "A",
-     "gf": 0,
-     "ga": 1,
-     "res": "M"
     }
    ],
    "ic": {
@@ -11946,16 +11946,24 @@
     "ga": 2
    },
    "dis": {
-    "p": 5,
-    "g": 2,
+    "p": 6,
+    "g": 3,
     "b": 0,
     "m": 3,
-    "gf": 5,
+    "gf": 7,
     "ga": 7
    }
   },
   "T1|Konyaspor": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Samsunspor",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "M"
+    },
     {
      "date": "2026-10-30",
      "opp": "Galatasaray",
@@ -11995,14 +12003,6 @@
      "gf": 0,
      "ga": 0,
      "res": "B"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Trabzonspor",
-     "venue": "H",
-     "gf": 1,
-     "ga": 0,
-     "res": "G"
     }
    ],
    "ic": {
@@ -12014,16 +12014,24 @@
     "ga": 7
    },
    "dis": {
-    "p": 4,
+    "p": 5,
     "g": 0,
     "b": 1,
-    "m": 3,
+    "m": 4,
     "gf": 2,
-    "ga": 6
+    "ga": 7
    }
   },
   "T1|Rizespor": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Erzurumspor",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "G"
+    },
     {
      "date": "2026-10-31",
      "opp": "Kocaelispor",
@@ -12063,23 +12071,15 @@
      "gf": 2,
      "ga": 2,
      "res": "B"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Eyupspor",
-     "venue": "A",
-     "gf": 2,
-     "ga": 0,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 4,
-    "g": 0,
+    "p": 5,
+    "g": 1,
     "b": 0,
     "m": 4,
-    "gf": 3,
-    "ga": 10
+    "gf": 5,
+    "ga": 11
    },
    "dis": {
     "p": 6,
@@ -12092,6 +12092,14 @@
   },
   "T1|Samsunspor": {
    "son": [
+    {
+     "date": "2026-11-07",
+     "opp": "Konyaspor",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-11-01",
      "opp": "Buyuksehyr",
@@ -12131,22 +12139,14 @@
      "gf": 0,
      "ga": 1,
      "res": "M"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Corum",
-     "venue": "H",
-     "gf": 1,
-     "ga": 5,
-     "res": "M"
     }
    ],
    "ic": {
-    "p": 5,
-    "g": 0,
+    "p": 6,
+    "g": 1,
     "b": 1,
     "m": 4,
-    "gf": 5,
+    "gf": 6,
     "ga": 15
    },
    "dis": {
@@ -12160,6 +12160,14 @@
   },
   "T1|Trabzonspor": {
    "son": [
+    {
+     "date": "2026-11-08",
+     "opp": "Alanyaspor",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-11-01",
      "opp": "Gaziantep",
@@ -12199,14 +12207,6 @@
      "gf": 4,
      "ga": 0,
      "res": "G"
-    },
-    {
-     "date": "2026-09-12",
-     "opp": "Konyaspor",
-     "venue": "A",
-     "gf": 0,
-     "ga": 1,
-     "res": "M"
     }
    ],
    "ic": {
@@ -12218,11 +12218,11 @@
     "ga": 1
    },
    "dis": {
-    "p": 5,
-    "g": 2,
+    "p": 6,
+    "g": 3,
     "b": 1,
     "m": 2,
-    "gf": 9,
+    "gf": 11,
     "ga": 7
    }
   }
@@ -16255,14 +16255,14 @@
  },
  "coupon_stats": {
   "dusuk": {
-   "n": 6,
-   "won": 4,
-   "net": -0.31
+   "n": 9,
+   "won": 7,
+   "net": 0.44
   },
   "orta": {
-   "n": 4,
-   "won": 1,
-   "net": -0.94
+   "n": 7,
+   "won": 4,
+   "net": 2.25
   },
   "riskli": {
    "n": 9,
@@ -16292,7 +16292,7 @@
    "id": "dusuk-202611081629",
    "type": "dusuk",
    "created_at": "2026-11-08T16:29Z",
-   "status": "bekliyor",
+   "status": "kazandi",
    "backfill": false,
    "odds": 1.33,
    "prob": 0.7152,
@@ -16317,7 +16317,7 @@
      "market": "CS",
      "prob": 0.9562,
      "odds": 1.01,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -16325,7 +16325,7 @@
    "id": "dusuk-202611081148",
    "type": "dusuk",
    "created_at": "2026-11-08T11:48Z",
-   "status": "bekliyor",
+   "status": "kazandi",
    "backfill": false,
    "odds": 1.32,
    "prob": 0.6586,
@@ -16350,7 +16350,7 @@
      "market": "CS",
      "prob": 0.8115,
      "odds": 1.14,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "T1",
@@ -16361,7 +16361,7 @@
      "market": "CS",
      "prob": 0.9526,
      "odds": 1.01,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -16405,7 +16405,7 @@
      "market": "CS",
      "prob": 0.9441,
      "odds": 1.02,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -16413,7 +16413,7 @@
    "id": "dusuk-202611071136",
    "type": "dusuk",
    "created_at": "2026-11-07T11:36Z",
-   "status": "bekliyor",
+   "status": "kazandi",
    "backfill": false,
    "odds": 1.1,
    "prob": 0.8293,
@@ -16438,7 +16438,7 @@
      "market": "CS",
      "prob": 0.902,
      "odds": 1.09,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "T1",
@@ -16449,7 +16449,7 @@
      "market": "CS",
      "prob": 0.9488,
      "odds": 1.01,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -17832,7 +17832,7 @@
    "id": "orta-202611081629",
    "type": "orta",
    "created_at": "2026-11-08T16:29Z",
-   "status": "bekliyor",
+   "status": "kazandi",
    "backfill": false,
    "odds": 1.7,
    "prob": 0.5735,
@@ -17857,7 +17857,7 @@
      "market": "1X2",
      "prob": 0.8554,
      "odds": 1.17,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -17865,7 +17865,7 @@
    "id": "orta-202611081148",
    "type": "orta",
    "created_at": "2026-11-08T11:48Z",
-   "status": "bekliyor",
+   "status": "kazandi",
    "backfill": false,
    "odds": 2.62,
    "prob": 0.366,
@@ -17901,7 +17901,7 @@
      "market": "1X2",
      "prob": 0.8464,
      "odds": 1.18,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -17909,7 +17909,7 @@
    "id": "orta-202611071136",
    "type": "orta",
    "created_at": "2026-11-07T11:36Z",
-   "status": "bekliyor",
+   "status": "kazandi",
    "backfill": false,
    "odds": 1.87,
    "prob": 0.5347,
@@ -17934,7 +17934,7 @@
      "market": "1X2",
      "prob": 0.7201,
      "odds": 1.38,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "T1",
@@ -17945,7 +17945,7 @@
      "market": "1X2",
      "prob": 0.8362,
      "odds": 1.19,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -18781,7 +18781,7 @@
      "market": "1X2",
      "prob": 0.5089,
      "odds": 1.91,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "E0",
@@ -18847,7 +18847,7 @@
      "market": "1X2",
      "prob": 0.5083,
      "odds": 1.92,
-     "result": "bekliyor"
+     "result": "kaybetti"
     },
     {
      "league": "T1",
@@ -18858,7 +18858,7 @@
      "market": "1X2",
      "prob": 0.5126,
      "odds": 1.91,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "E0",
@@ -18891,7 +18891,7 @@
      "market": "1X2",
      "prob": 0.4,
      "odds": 2.51,
-     "result": "bekliyor"
+     "result": "kaybetti"
     },
     {
      "league": "E0",
@@ -18913,7 +18913,7 @@
      "market": "1X2",
      "prob": 0.5136,
      "odds": 1.9,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "E0",
