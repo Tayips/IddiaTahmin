@@ -2670,19 +2670,51 @@
  },
  "E0|2026-11-23|Brentford|Everton": {
   "ai": {
-   "at": "2026-11-22T18:50Z",
+   "at": "2026-11-22T21:09Z",
    "away": {
     "eksikler": [],
-    "ozet": "Everton cephesinde bu maç öncesi resmi olarak bildirilen önemli bir eksik yer almıyor."
+    "ozet": "Everton cephesinde maç öncesi rapor edilen önemli bir eksik bulunmuyor."
    },
-   "hash": "8950049f9843",
+   "hash": "a32b63112ca9",
    "home": {
-    "eksikler": [],
-    "ozet": "Brentford takımında maça çıkamayacak veya durumu belirsiz önemli bir eksik bulunmuyor."
+    "eksikler": [
+     {
+      "neden": "sakat",
+      "onem": "ilk11",
+      "oyuncu": "Nathan Collins"
+     },
+     {
+      "neden": "sakat",
+      "onem": "ilk11",
+      "oyuncu": "Aaron Hickey"
+     }
+    ],
+    "ozet": "Brentford takımında savunma hattından Nathan Collins ve Aaron Hickey sakatlıkları nedeniyle bu maçta forma giyemeyecek."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
   "away": [
+   {
+    "at": "2026-11-22T20:14Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BOFQxU2JqZ3ZxeXdWS1dMNC1IeWdwU1ctZjVKS1BOaTBBVzk4NElSMWZFT1VWVGhCOGRMS1JuSmVlU244MTQ2dmN5dFpwckh4MWJ6UDk5dTk5R3NsM3RWbzlMeERCVGF6V21EVGdKRlJjR3Ay?oc=5",
+    "source": "Dave.Sport",
+    "title": "Nathan Collins faces 2 weeks out as Brentford lose Aaron Hickey"
+   },
+   {
+    "at": "2026-11-22T20:00Z",
+    "eksik": true,
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeTFNUGRDZ0FJcTR3SUxKWjFjU24tcTY0NnNUSWhaSGdoWWlOUXVQNjRtZEhmZlZDci1YZWxacHBteHp5RGl0blNaNFF1UkpaNHF4ZmY1Vi1CRVp5RVZjOTBLTzBFT01DZjkwNXFWMThUMklnLTRuX3hJSmZUTkFfZDZ4Qy1SODdmZVAteGk2emRxYm5XUW00OW0xSnpNUmxVWXRpa2RLVkZsUHQzNGxBTk9reDFZVU9RVG5ZVEtDVU1CTUpxVmdMaklzMUdkRmpRNEg4NjF3?oc=5",
+    "source": "Sports Mole",
+    "title": "Team News: Brentford vs. Everton injury, suspension list, predicted XIs"
+   },
+   {
+    "at": "2026-11-22T18:22Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE82cmYwMmtpT2RXTEx6Vkowb2hBa3ZQNlc2NW5sVFE1QUI2cWIzbzVRNHFBU3lObFNlTURZQ0gwV2k4T09MbndZNXhXTkNrVDZTSzEtc0k1ZFNaQkJQUDJ4R3oyazB0Zw?oc=5",
+    "source": "BBC",
+    "title": "Premier League LIVE: Brentford vs Everton - build-up, team news, stats & head-to-head"
+   },
    {
     "at": "2026-11-22T16:20Z",
     "eksik": false,
@@ -2696,31 +2728,31 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPblhJenZVRFkwZE1pN0Z4WldxM3RIaDVaT2h3ODM0SkFaeDd2NGVBVC1XUnZubFJrdnpoMk5fcUlvbjJNdE5RSldVem1PWlFJc2VIbkdtSGd4aERiY3VoYUd0WjZJZnB3bDFIRzhzUzF0eVh5cHpjM3diUjZVSnpSS3lycHQ?oc=5",
     "source": "TEAMtalk",
     "title": "Grealish Prem transfer battle emerges as two clubs ruled out after Everton spell"
-   },
-   {
-    "at": "2026-11-22T13:31Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPblppM29rVGtDcFJpMFg1MnFLNHJxZ1dhSTJTb29sOVg3dTlqQzZYejVOelQ2LUdKcEdsZE90c0Z1VE54QTBLdmpyN2tNUHBSSllHTDRPWi1XQk4zTndoZVVydHpUVlo5X2FaRDFuTk1pZ1RMT01uZjZka2tPY21kQkZUWTk?oc=5",
-    "source": "Yahoo Sports",
-    "title": "Brentford v Everton: Key stats and talking points"
-   },
-   {
-    "at": "2026-11-22T13:20Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOEw3bUNSTEJtbllVWHFPdk1WT25SVDJLMFVybnhsa0Jrd3M2WXVPWjhMM0dyM2NQM1FGN0FwS1c4R0RsaVJHOHVCWllNdGNJZUtnSTJkMmxoNURNSW5INm01ZWEtZlQzb0ZuamM5SERGcy1mU1lGSkJaa2ZRNkhHT1lJVTNtem8?oc=5",
-    "source": "Yahoo Sports",
-    "title": "Sources: Jack Grealish keen to join Premier League rival if Everton deal collapses"
-   },
-   {
-    "at": "2026-11-22T12:58Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ1FhQk8xYS01a1ZYSlMtZFNQUkdWeFJWVDBhc3NOcjRDZFppS3owSmRjdW1EQmFvMFprY3lfQlVwMFlJOU9iTENRY3ZScGxLaFFJY3U2Y1ZGQmVmOTUzZ1J1M09vS21xb0hvbkhXZGhheGpLbThPSnFtTGNBVnpsVDJ2ajhORTRWOVBrX0ttWDh5aDVoOWtnWWFudXVkT3ZaWEo2Umo4MkxTU3PSAbABQVVfeXFMT1VNU213NmJqRHd1TWZGYWxSb2Z1cUxmTXJiaEZUN2djdGgtYWJ1LXV6ZFpvLTRJY09aM01zX3FkSVU1NWJBMXpIaXlnQWkxd1dPclZHYlB1bWF1c0JGdXdLR3U2ME8xZ2o4Q20xaTIyaVdBZmkzaXVDSmV4RFpvUXBnLTQ3cWVKUmQwM0NXQXJpT2htMTBqTlZWcGwteWRpY1FfYmFRWXBlX1ZsNlVFTnQ?oc=5",
-    "source": "Liverpool Echo",
-    "title": "Everton handed new Christian Norgaard transfer verdict after David Moyes apology"
    }
   ],
-  "fetched_at": "2026-11-22T18:50Z",
+  "fetched_at": "2026-11-22T21:09Z",
   "home": [
+   {
+    "at": "2026-11-22T20:14Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BOFQxU2JqZ3ZxeXdWS1dMNC1IeWdwU1ctZjVKS1BOaTBBVzk4NElSMWZFT1VWVGhCOGRMS1JuSmVlU244MTQ2dmN5dFpwckh4MWJ6UDk5dTk5R3NsM3RWbzlMeERCVGF6V21EVGdKRlJjR3Ay?oc=5",
+    "source": "Dave.Sport",
+    "title": "Nathan Collins faces 2 weeks out as Brentford lose Aaron Hickey"
+   },
+   {
+    "at": "2026-11-22T20:00Z",
+    "eksik": true,
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeTFNUGRDZ0FJcTR3SUxKWjFjU24tcTY0NnNUSWhaSGdoWWlOUXVQNjRtZEhmZlZDci1YZWxacHBteHp5RGl0blNaNFF1UkpaNHF4ZmY1Vi1CRVp5RVZjOTBLTzBFT01DZjkwNXFWMThUMklnLTRuX3hJSmZUTkFfZDZ4Qy1SODdmZVAteGk2emRxYm5XUW00OW0xSnpNUmxVWXRpa2RLVkZsUHQzNGxBTk9reDFZVU9RVG5ZVEtDVU1CTUpxVmdMaklzMUdkRmpRNEg4NjF3?oc=5",
+    "source": "Sports Mole",
+    "title": "Team News: Brentford vs. Everton injury, suspension list, predicted XIs"
+   },
+   {
+    "at": "2026-11-22T18:22Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE82cmYwMmtpT2RXTEx6Vkowb2hBa3ZQNlc2NW5sVFE1QUI2cWIzbzVRNHFBU3lObFNlTURZQ0gwV2k4T09MbndZNXhXTkNrVDZTSzEtc0k1ZFNaQkJQUDJ4R3oyazB0Zw?oc=5",
+    "source": "BBC",
+    "title": "Premier League LIVE: Brentford vs Everton - build-up, team news, stats & head-to-head"
+   },
    {
     "at": "2026-11-22T17:46Z",
     "eksik": false,
@@ -2734,27 +2766,6 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOU1yR09LUUJSdEY0VjR2NmFfaVJFdEw2aElvOERjcU5lSjNVVWdxeUx1TjFMdm1uZjV2TmJUVGZqdWswYjBOeWxKLVZEZ01tanpNb1B4dnE3bFUwZDl1MmUzNHNDaTNzcVJ2NWV6ejdETDdfcTk0dDdRUkNHVnRkYnRGRlB6Z1FWZG5Ldkw3UHUxUVFCbXBtUjlOalgzRGJ2OGdiSGJCVVViYVBvTVVNZXRQeEFCdVNhQnU3a1dySENmRnpJLWFkNnpzUzZNLTg?oc=5",
     "source": "roundtable.io",
     "title": "Antoni Milambo Scores For Brentford Under 21s as Injury Return Nears"
-   },
-   {
-    "at": "2026-11-22T16:20Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX1E0SWlDX0UyQW0wRmJXWVVyaHF1b2MxdXE4c2pTdUpsT3pFbHRmSG9Xc2E4OGFHWjlqOC0wdVpRaFNhZEpqa1VxR0p2OWxPOVZNNHYxUGpWU3dHTXN6TTRJYUYxVHJWc3ZGV0hmMFphNkZTZVRNakF5RE0ycFhWVkw1U1NlYWc2bS0tTVNya2pWbXE1eWpZb0x0cXlWWWZkQUNydmhqMThOX3Btcm1QN2NKOGh4SFo3cDl3ckVPVzF3QQ?oc=5",
-    "source": "Mozzart Sport Kenya",
-    "title": "BETTING GUIDE: Brentford vs Everton, match preview, team news and prediction"
-   },
-   {
-    "at": "2026-11-22T13:31Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPblppM29rVGtDcFJpMFg1MnFLNHJxZ1dhSTJTb29sOVg3dTlqQzZYejVOelQ2LUdKcEdsZE90c0Z1VE54QTBLdmpyN2tNUHBSSllHTDRPWi1XQk4zTndoZVVydHpUVlo5X2FaRDFuTk1pZ1RMT01uZjZka2tPY21kQkZUWTk?oc=5",
-    "source": "Yahoo Sports",
-    "title": "Brentford v Everton: Key stats and talking points"
-   },
-   {
-    "at": "2026-11-22T12:30Z",
-    "eksik": true,
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPU3ZpVWRKZzBld2xFNkJzdmZzQ0I5NTIwQlVRblI1MFB3a0dvUHJsRGg4YmJ2QXhTdzdRRG9jWVNUWm1JVHlVcmxqWlQ1VC1mbmhVMFhKRWVOWkpqblB3cFVjZktOOGlhQk5iWHVuVjN5QlRQZ3BKUUlERDV1Nl82N1RLdkRkQQ?oc=5",
-    "source": "Yahoo Sports",
-    "title": "Brentford vs Everton team news latest as Jack Grealish ready but five to miss out"
    }
   ],
   "kickoff": "2026-11-23T20:00Z"
@@ -5434,15 +5445,15 @@
  },
  "T1|2026-11-23|Buyuksehyr|Corum": {
   "ai": {
-   "at": "2026-11-22T18:50Z",
+   "at": "2026-11-22T21:09Z",
    "away": {
     "eksikler": [],
-    "ozet": "Çorum FK'nin bu karşılaşma öncesi eksik veya sakat oyuncularıyla ilgili basına yansıyan güncel bir bilgi yer almamaktadır."
+    "ozet": "Çorum FK'nin Başakşehir maçı öncesinde güncel sakat veya cezalı oyuncu bilgisi bulunmamaktadır."
    },
-   "hash": "8a28da078ead",
+   "hash": "149aa84d774e",
    "home": {
     "eksikler": [],
-    "ozet": "Başakşehir'in Çorum FK maçı öncesinde sakat veya cezalı oyuncularına dair son günlerde güncel ve güvenilir bir resmi açıklama bulunmamaktadır."
+    "ozet": "Başakşehir'in Çorum FK maçı öncesinde güncel sakat veya cezalı oyuncu bilgisi bulunmamaktadır."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
@@ -5462,13 +5473,6 @@
     "title": "Başakşehir ile Çorum FK Maçı Ne Zaman Gerçekleşecek ve Hangi Kanalda Yayınlanacak?"
    },
    {
-    "at": "2026-11-22T12:50Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNjZWbllyTVJQVVNVYkR0N2xGM3h6VzI5XzdXWXI1YlpfWTBudzZ3cHd1WFhxTEkzZWM5c1dnSmdVZ3NmT2dza0Y4R25Pa2xGVjBDdG5qbWZzcUhGb0NIekttSWY5V1ZsM3BiTkpxQkF2SHM3VHZobHRWSnBOSDdIUWlZOGF6QUFyOWxMZmJxRUp2aWs0cGtOMjZqS3hyWG9SY3YxZU1mTUFCamNfMWZCTE5BbGRYUnJUZjJQZ3J2TnlLZw?oc=5",
-    "source": "Canlı Gaste",
-    "title": "CANLI | Konyaspor - Beşiktaş maçı kadro, diziliş, H2H canlı anlatım ve canlı skor - 22 Kasım 2026"
-   },
-   {
     "at": "2026-11-22T08:16Z",
     "eksik": false,
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMENodVpiQ2JBc3VUQnBOUjl6dDVlUFl4bnNFTUV3Z2ZiOUVOb3lTNFBMNDBneWo1OFNRdkxiS2Y0S21SZXVZdzhndU1mN3h5eW9LbmlTMnVuUEE3M1hGT3F6MWxKNlpYd3FUT2o3Tm5uUGtDVllEUnVQblBGVlh2X2hWaEVMNzcyQ0V6dERJRVlaX0E?oc=5",
@@ -5481,9 +5485,16 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdnQtZU9fQlpsdlk0bnNlYVZSbTA1cEMyUmdNZ2FoM090R0p6QjZUdDVYTVlFY2dPZzJHREdUV19zdEhueU5XWVJNQkxhVEVqbTQybTJVNy1TRDRzei04V2dEcmljNS1Xd0F1VzQzLW16dXA5QmFfQ0VsYWdaby10UWVZOXdrMFBCejc2UUg0Q2w2SWVhZmR6azB3TXYzRjNyYm9xVA?oc=5",
     "source": "BirGün Gazetesi",
     "title": "Başakşehir, Çorum FK karşısında üst üste üçüncü galibiyetini arıyor"
+   },
+   {
+    "at": "2026-11-22T05:04Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRnFFREYzeGlPSVRSWFpHZkRiWk55TmxNZzZNejN6N3EySkNrRjBFZ3VyM3NLSDdWZlgxTUQySGlWbXNJNlFKSjRvVUlVR1JPdDJOZ1RpVGRfUFk2dWY4X0VtajFKNVdNcndublBXZXFWMlBlZGI5TlJYMmN0TERWX0wzUmZBWFlSUHBKWlBrcy1ybnZvb2hENEtud0oyWFNLUnc?oc=5",
+    "source": "https://www.ensondakika.com.tr/",
+    "title": "Başakşehir, Süper Lig 12. haftada Arca Çorum FK’yi konuk edecek"
    }
   ],
-  "fetched_at": "2026-11-22T18:50Z",
+  "fetched_at": "2026-11-22T21:09Z",
   "home": [
    {
     "at": "2026-11-22T14:08Z",
@@ -5493,11 +5504,11 @@
     "title": "Başakşehir ile Çorum FK Maçı Ne Zaman Gerçekleşecek ve Hangi Kanalda Yayınlanacak?"
    },
    {
-    "at": "2026-11-22T12:50Z",
+    "at": "2026-11-22T08:32Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNjZWbllyTVJQVVNVYkR0N2xGM3h6VzI5XzdXWXI1YlpfWTBudzZ3cHd1WFhxTEkzZWM5c1dnSmdVZ3NmT2dza0Y4R25Pa2xGVjBDdG5qbWZzcUhGb0NIekttSWY5V1ZsM3BiTkpxQkF2SHM3VHZobHRWSnBOSDdIUWlZOGF6QUFyOWxMZmJxRUp2aWs0cGtOMjZqS3hyWG9SY3YxZU1mTUFCamNfMWZCTE5BbGRYUnJUZjJQZ3J2TnlLZw?oc=5",
-    "source": "Canlı Gaste",
-    "title": "CANLI | Konyaspor - Beşiktaş maçı kadro, diziliş, H2H canlı anlatım ve canlı skor - 22 Kasım 2026"
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSnZ4Q2U4TmZXQVhzYzdGaE02bFlKRUdWSF9HR1FVME5UdVVvUDQ1aTFJYmkyUFBfNktHN0ZxQVYtMHBNZXBMQWhMbmhQaWI4QWpNQ3ZvUnVZMWlwXzlTSXVYNW5zTm1jR0ZMSS1uOXdyUlR6bUVlNkF3TjMzSE50eE5JVU5IaTF1SzIyTDdPQ1RkYXRkeVE?oc=5",
+    "source": "https://www.ensondakika.com.tr/",
+    "title": "Çorum FK, yarın deplasmanda Başakşehir’e konuk olacak"
    },
    {
     "at": "2026-11-22T07:18Z",
@@ -5514,11 +5525,11 @@
     "title": "Başakşehir, Çorum FK karşısında üst üste üçüncü galibiyetini arıyor"
    },
    {
-    "at": "2026-11-22T05:04Z",
+    "at": "2026-11-22T06:06Z",
     "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRnFFREYzeGlPSVRSWFpHZkRiWk55TmxNZzZNejN6N3EySkNrRjBFZ3VyM3NLSDdWZlgxTUQySGlWbXNJNlFKSjRvVUlVR1JPdDJOZ1RpVGRfUFk2dWY4X0VtajFKNVdNcndublBXZXFWMlBlZGI5TlJYMmN0TERWX0wzUmZBWFlSUHBKWlBrcy1ybnZvb2hENEtud0oyWFNLUnc?oc=5",
-    "source": "https://www.ensondakika.com.tr/",
-    "title": "Başakşehir, Süper Lig 12. haftada Arca Çorum FK’yi konuk edecek"
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNLU9aVlpNX0JwZTBZWU9RNTBxbHhnRVppNmFPbEJ4RVR1RE9zVlk4VThWWG5mN1Q3aXduZVU4c25lMXB1NmNTZ1Q5bHpmeTRlZU1mZG5Yb0VvOHZkbU8tem5nRE9MSnlEME9pTTVKSnlZVGdudEd6V3JfcHB0bEFQMzE2bkpzdGRabFNZX2pwdDc5alhxUy03M3hiN3Ewb3hf?oc=5",
+    "source": "Yeniçağ Gazetesi",
+    "title": "İstanbul Başakşehir, yarın Arca Çorum FK'yi konuk edecek"
    }
   ],
   "kickoff": "2026-11-23T17:00Z"
