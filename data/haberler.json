@@ -2670,12 +2670,12 @@
  },
  "E0|2026-11-23|Brentford|Everton": {
   "ai": {
-   "at": "2026-11-22T17:34Z",
+   "at": "2026-11-22T18:50Z",
    "away": {
     "eksikler": [],
-    "ozet": "Everton takımında bu maç öncesi bildirilen önemli bir eksik oyuncu yer almıyor."
+    "ozet": "Everton cephesinde bu maç öncesi resmi olarak bildirilen önemli bir eksik yer almıyor."
    },
-   "hash": "1d28baefbf7c",
+   "hash": "8950049f9843",
    "home": {
     "eksikler": [],
     "ozet": "Brentford takımında maça çıkamayacak veya durumu belirsiz önemli bir eksik bulunmuyor."
@@ -2719,8 +2719,15 @@
     "title": "Everton handed new Christian Norgaard transfer verdict after David Moyes apology"
    }
   ],
-  "fetched_at": "2026-11-22T17:34Z",
+  "fetched_at": "2026-11-22T18:50Z",
   "home": [
+   {
+    "at": "2026-11-22T17:46Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVVlLbmtBa0JQcFNVdkVQLUc0SFFPcHRmQi1SaWhFY0lXQ2cxYTFnTExEbVRzWGFjTkxsOEhiY3YzcS1LNDc5aEJtdGRQNUpoTldZQjFOZFpuTlkySmttd0RZamZVeXE5cUtVelkwdUMtYVdjQmQ0eXAyY2xhMGlzQTgxWjVxX0I5RkgwU1hmNGw?oc=5",
+    "source": "The False 9",
+    "title": "Yoro Red Card: Ban Rules Him Out of Man Utd vs Brentford"
+   },
    {
     "at": "2026-11-22T16:30Z",
     "eksik": true,
@@ -2748,13 +2755,6 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPU3ZpVWRKZzBld2xFNkJzdmZzQ0I5NTIwQlVRblI1MFB3a0dvUHJsRGg4YmJ2QXhTdzdRRG9jWVNUWm1JVHlVcmxqWlQ1VC1mbmhVMFhKRWVOWkpqblB3cFVjZktOOGlhQk5iWHVuVjN5QlRQZ3BKUUlERDV1Nl82N1RLdkRkQQ?oc=5",
     "source": "Yahoo Sports",
     "title": "Brentford vs Everton team news latest as Jack Grealish ready but five to miss out"
-   },
-   {
-    "at": "2026-11-22T11:43Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU2tjTkVqM2EySnI3Z0ZLUExoQXdTNjJMTEMzSEJqSWlEV29JejNPZTBIQ3ZybnhTY2p6WGRUeDl4OHRaOG5Ub2FHSWwtcUlYR2JZMGplaUU3WnRYcFF6dGZRU19NeWd2TGFScE5nRUdzVDRuZDVuY0VwQ2ZUWkFpQUFSMXM5dE9L?oc=5",
-    "source": "Football365",
-    "title": "Brentford vs Everton prediction: Thiago Barry to score again as team news confirmed"
    }
   ],
   "kickoff": "2026-11-23T20:00Z"
@@ -5434,15 +5434,15 @@
  },
  "T1|2026-11-23|Buyuksehyr|Corum": {
   "ai": {
-   "at": "2026-11-22T17:34Z",
+   "at": "2026-11-22T18:50Z",
    "away": {
     "eksikler": [],
-    "ozet": "Çorum FK'nın bu karşılaşma öncesinde sakat veya cezalı oyuncularına dair güncel bir bilgi yer almamaktadır."
+    "ozet": "Çorum FK'nin bu karşılaşma öncesi eksik veya sakat oyuncularıyla ilgili basına yansıyan güncel bir bilgi yer almamaktadır."
    },
-   "hash": "2c464e3a55ab",
+   "hash": "8a28da078ead",
    "home": {
     "eksikler": [],
-    "ozet": "Başakşehir ile Çorum FK arasında oynanacak bu maç öncesinde takımlardaki sakat veya cezalı oyuncularla ilgili güncel ve resmi bir eksik raporu bulunmamaktadır."
+    "ozet": "Başakşehir'in Çorum FK maçı öncesinde sakat veya cezalı oyuncularına dair son günlerde güncel ve güvenilir bir resmi açıklama bulunmamaktadır."
    },
    "model": "gemini-3.5-flash-lite (aramasız)"
   },
@@ -5462,6 +5462,13 @@
     "title": "Başakşehir ile Çorum FK Maçı Ne Zaman Gerçekleşecek ve Hangi Kanalda Yayınlanacak?"
    },
    {
+    "at": "2026-11-22T12:50Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNjZWbllyTVJQVVNVYkR0N2xGM3h6VzI5XzdXWXI1YlpfWTBudzZ3cHd1WFhxTEkzZWM5c1dnSmdVZ3NmT2dza0Y4R25Pa2xGVjBDdG5qbWZzcUhGb0NIekttSWY5V1ZsM3BiTkpxQkF2SHM3VHZobHRWSnBOSDdIUWlZOGF6QUFyOWxMZmJxRUp2aWs0cGtOMjZqS3hyWG9SY3YxZU1mTUFCamNfMWZCTE5BbGRYUnJUZjJQZ3J2TnlLZw?oc=5",
+    "source": "Canlı Gaste",
+    "title": "CANLI | Konyaspor - Beşiktaş maçı kadro, diziliş, H2H canlı anlatım ve canlı skor - 22 Kasım 2026"
+   },
+   {
     "at": "2026-11-22T08:16Z",
     "eksik": false,
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMENodVpiQ2JBc3VUQnBOUjl6dDVlUFl4bnNFTUV3Z2ZiOUVOb3lTNFBMNDBneWo1OFNRdkxiS2Y0S21SZXVZdzhndU1mN3h5eW9LbmlTMnVuUEE3M1hGT3F6MWxKNlpYd3FUT2o3Tm5uUGtDVllEUnVQblBGVlh2X2hWaEVMNzcyQ0V6dERJRVlaX0E?oc=5",
@@ -5474,16 +5481,9 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdnQtZU9fQlpsdlk0bnNlYVZSbTA1cEMyUmdNZ2FoM090R0p6QjZUdDVYTVlFY2dPZzJHREdUV19zdEhueU5XWVJNQkxhVEVqbTQybTJVNy1TRDRzei04V2dEcmljNS1Xd0F1VzQzLW16dXA5QmFfQ0VsYWdaby10UWVZOXdrMFBCejc2UUg0Q2w2SWVhZmR6azB3TXYzRjNyYm9xVA?oc=5",
     "source": "BirGün Gazetesi",
     "title": "Başakşehir, Çorum FK karşısında üst üste üçüncü galibiyetini arıyor"
-   },
-   {
-    "at": "2026-11-22T05:04Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRnFFREYzeGlPSVRSWFpHZkRiWk55TmxNZzZNejN6N3EySkNrRjBFZ3VyM3NLSDdWZlgxTUQySGlWbXNJNlFKSjRvVUlVR1JPdDJOZ1RpVGRfUFk2dWY4X0VtajFKNVdNcndublBXZXFWMlBlZGI5TlJYMmN0TERWX0wzUmZBWFlSUHBKWlBrcy1ybnZvb2hENEtud0oyWFNLUnc?oc=5",
-    "source": "https://www.ensondakika.com.tr/",
-    "title": "Başakşehir, Süper Lig 12. haftada Arca Çorum FK’yi konuk edecek"
    }
   ],
-  "fetched_at": "2026-11-22T17:34Z",
+  "fetched_at": "2026-11-22T18:50Z",
   "home": [
    {
     "at": "2026-11-22T14:08Z",
@@ -5491,6 +5491,13 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZEFrS3p5MVlLTjI3SGMzSHBFeXpDaXpCSmt1dDNxeGluWXJsa1FxNkRtTXZGQXJ0VE9ZWmREb0hSdkdpZlk0N1ZjQXpnSnU3aXF4YVJ1QlBrMFA4ZmEzcmhLMEx1NkNmRHpFRzg1MTNkeE1IeTcwN1lhNzJWME4yMV9fSDlqb2dpYkxxTUYwQVVZYmpTcnFuZmxkRTlnTG5qb3A0eUJXZXNGanZiQ2ZDYUduckdpVWpUc3Vr?oc=5",
     "source": "İşçi Haber",
     "title": "Başakşehir ile Çorum FK Maçı Ne Zaman Gerçekleşecek ve Hangi Kanalda Yayınlanacak?"
+   },
+   {
+    "at": "2026-11-22T12:50Z",
+    "eksik": false,
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNjZWbllyTVJQVVNVYkR0N2xGM3h6VzI5XzdXWXI1YlpfWTBudzZ3cHd1WFhxTEkzZWM5c1dnSmdVZ3NmT2dza0Y4R25Pa2xGVjBDdG5qbWZzcUhGb0NIekttSWY5V1ZsM3BiTkpxQkF2SHM3VHZobHRWSnBOSDdIUWlZOGF6QUFyOWxMZmJxRUp2aWs0cGtOMjZqS3hyWG9SY3YxZU1mTUFCamNfMWZCTE5BbGRYUnJUZjJQZ3J2TnlLZw?oc=5",
+    "source": "Canlı Gaste",
+    "title": "CANLI | Konyaspor - Beşiktaş maçı kadro, diziliş, H2H canlı anlatım ve canlı skor - 22 Kasım 2026"
    },
    {
     "at": "2026-11-22T07:18Z",
@@ -5512,13 +5519,6 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRnFFREYzeGlPSVRSWFpHZkRiWk55TmxNZzZNejN6N3EySkNrRjBFZ3VyM3NLSDdWZlgxTUQySGlWbXNJNlFKSjRvVUlVR1JPdDJOZ1RpVGRfUFk2dWY4X0VtajFKNVdNcndublBXZXFWMlBlZGI5TlJYMmN0TERWX0wzUmZBWFlSUHBKWlBrcy1ybnZvb2hENEtud0oyWFNLUnc?oc=5",
     "source": "https://www.ensondakika.com.tr/",
     "title": "Başakşehir, Süper Lig 12. haftada Arca Çorum FK’yi konuk edecek"
-   },
-   {
-    "at": "2026-11-21T19:56Z",
-    "eksik": false,
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQkRvbmJoWXZ3cWY5TG1Zejlkc3ZFekdsSEFPVDBqS1ZFcUxrS3dpRmlDRy1fWnNOSGFZbW4wYXlqRjc2WE1sUXNHQmVUZUZhbUs3REhjcWdJZlJxMkF0UUxLSUl6b0hjTkpwOUwwU2FHdVNNYV9yM1hqZW5waUVSMUtaZDhGcFhKUnpHb1ZiZ0NheEluVjRXOTRaZ0NvRUdpeDRzVlZMU3A?oc=5",
-    "source": "https://www.ensondakika.com.tr/",
-    "title": "Başakşehir’de vale cipi restorana sürdü"
    }
   ],
   "kickoff": "2026-11-23T17:00Z"

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22T17:34Z",
+ "updated_at": "2026-11-22T18:50Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
@@ -11,22 +11,22 @@
  },
  "stats": {
   "genel": {
-   "n": 207,
-   "correct": 101,
-   "accuracy": 0.4879,
-   "rps": 0.2173,
-   "brier": 0.6071,
-   "log_loss": 1.0148,
-   "odds_accuracy": 0.5266
+   "n": 208,
+   "correct": 102,
+   "accuracy": 0.4904,
+   "rps": 0.2168,
+   "brier": 0.6058,
+   "log_loss": 1.0129,
+   "odds_accuracy": 0.5288
   },
   "canli": {
-   "n": 56,
-   "correct": 31,
-   "accuracy": 0.5536,
-   "rps": 0.2076,
-   "brier": 0.5761,
-   "log_loss": 0.9695,
-   "odds_accuracy": 0.5536
+   "n": 57,
+   "correct": 32,
+   "accuracy": 0.5614,
+   "rps": 0.2062,
+   "brier": 0.5716,
+   "log_loss": 0.9633,
+   "odds_accuracy": 0.5614
   },
   "lig": {
    "T1": {
@@ -39,33 +39,33 @@
     "odds_accuracy": 0.5758
    },
    "E0": {
-    "n": 108,
-    "correct": 51,
-    "accuracy": 0.4722,
-    "rps": 0.2155,
-    "brier": 0.6299,
-    "log_loss": 1.0455,
-    "odds_accuracy": 0.4815
+    "n": 109,
+    "correct": 52,
+    "accuracy": 0.4771,
+    "rps": 0.2147,
+    "brier": 0.627,
+    "log_loss": 1.0415,
+    "odds_accuracy": 0.4862
    }
   },
   "son_30_gun": {
-   "n": 64,
-   "correct": 34,
-   "accuracy": 0.5312,
-   "rps": 0.2161,
-   "brier": 0.5884,
-   "log_loss": 0.9882,
-   "odds_accuracy": 0.5469
+   "n": 65,
+   "correct": 35,
+   "accuracy": 0.5385,
+   "rps": 0.2147,
+   "brier": 0.5843,
+   "log_loss": 0.9825,
+   "odds_accuracy": 0.5538
   },
   "guven": {
    "50%+": {
-    "n": 90,
-    "correct": 54,
-    "accuracy": 0.6,
-    "rps": 0.1882,
-    "brier": 0.5333,
-    "log_loss": 0.9107,
-    "odds_accuracy": 0.6
+    "n": 91,
+    "correct": 55,
+    "accuracy": 0.6044,
+    "rps": 0.1875,
+    "brier": 0.531,
+    "log_loss": 0.9075,
+    "odds_accuracy": 0.6044
    },
    "60%+": {
     "n": 44,
@@ -10440,15 +10440,15 @@
    "f_a_sot": 5.54,
    "f_h_rest": 14.0,
    "f_a_rest": 14.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 4.0,
+   "ftag": 0.0,
+   "ftr": "H",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "H",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 1.0,
+   "kg_correct": 0.0,
    "mk_h": 0.5582,
    "mk_d": 0.2248,
    "mk_a": 0.217,
@@ -10471,7 +10471,7 @@
    "odds_d": 3.69,
    "odds_a": 3.58,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-22T17:34Z",
+   "predicted_at": "2026-11-22T18:50Z",
    "p_o25": 0.6015,
    "p_kg": 0.6292,
    "odds_o25": 1.55,
@@ -10519,7 +10519,7 @@
    "odds_d": 3.51,
    "odds_a": 3.26,
    "model": "form-piyasa-v2",
-   "predicted_at": "2026-11-22T17:34Z",
+   "predicted_at": "2026-11-22T18:50Z",
    "p_o25": 0.5693,
    "p_kg": 0.6046,
    "odds_o25": 1.71,
@@ -16046,9 +16046,16 @@
    "kickoff": "2026-11-22T16:30Z"
   },
   "E0|2026-11-23|Brentford|Everton": {
-   "fetched_at": "2026-11-22T17:34Z",
+   "fetched_at": "2026-11-22T18:50Z",
    "kickoff": "2026-11-23T20:00Z",
    "home": [
+    {
+     "title": "Yoro Red Card: Ban Rules Him Out of Man Utd vs Brentford",
+     "source": "The False 9",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVVlLbmtBa0JQcFNVdkVQLUc0SFFPcHRmQi1SaWhFY0lXQ2cxYTFnTExEbVRzWGFjTkxsOEhiY3YzcS1LNDc5aEJtdGRQNUpoTldZQjFOZFpuTlkySmttd0RZamZVeXE5cUtVelkwdUMtYVdjQmQ0eXAyY2xhMGlzQTgxWjVxX0I5RkgwU1hmNGw?oc=5",
+     "at": "2026-11-22T17:46Z",
+     "eksik": false
+    },
     {
      "title": "Antoni Milambo Scores For Brentford Under 21s as Injury Return Nears",
      "source": "roundtable.io",
@@ -16076,13 +16083,6 @@
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPU3ZpVWRKZzBld2xFNkJzdmZzQ0I5NTIwQlVRblI1MFB3a0dvUHJsRGg4YmJ2QXhTdzdRRG9jWVNUWm1JVHlVcmxqWlQ1VC1mbmhVMFhKRWVOWkpqblB3cFVjZktOOGlhQk5iWHVuVjN5QlRQZ3BKUUlERDV1Nl82N1RLdkRkQQ?oc=5",
      "at": "2026-11-22T12:30Z",
      "eksik": true
-    },
-    {
-     "title": "Brentford vs Everton prediction: Thiago Barry to score again as team news confirmed",
-     "source": "Football365",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU2tjTkVqM2EySnI3Z0ZLUExoQXdTNjJMTEMzSEJqSWlEV29JejNPZTBIQ3ZybnhTY2p6WGRUeDl4OHRaOG5Ub2FHSWwtcUlYR2JZMGplaUU3WnRYcFF6dGZRU19NeWd2TGFScE5nRUdzVDRuZDVuY0VwQ2ZUWkFpQUFSMXM5dE9L?oc=5",
-     "at": "2026-11-22T11:43Z",
-     "eksik": false
     }
    ],
    "away": [
@@ -16129,11 +16129,11 @@
     },
     "away": {
      "eksikler": [],
-     "ozet": "Everton takımında bu maç öncesi bildirilen önemli bir eksik oyuncu yer almıyor."
+     "ozet": "Everton cephesinde bu maç öncesi resmi olarak bildirilen önemli bir eksik yer almıyor."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-22T17:34Z",
-    "hash": "1d28baefbf7c"
+    "at": "2026-11-22T18:50Z",
+    "hash": "8950049f9843"
    }
   },
   "T1|2026-10-26|Besiktas|Buyuksehyr": {
@@ -18810,7 +18810,7 @@
    "kickoff": "2026-11-22T16:00Z"
   },
   "T1|2026-11-23|Buyuksehyr|Corum": {
-   "fetched_at": "2026-11-22T17:34Z",
+   "fetched_at": "2026-11-22T18:50Z",
    "kickoff": "2026-11-23T17:00Z",
    "home": [
     {
@@ -18818,6 +18818,13 @@
      "source": "İşçi Haber",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZEFrS3p5MVlLTjI3SGMzSHBFeXpDaXpCSmt1dDNxeGluWXJsa1FxNkRtTXZGQXJ0VE9ZWmREb0hSdkdpZlk0N1ZjQXpnSnU3aXF4YVJ1QlBrMFA4ZmEzcmhLMEx1NkNmRHpFRzg1MTNkeE1IeTcwN1lhNzJWME4yMV9fSDlqb2dpYkxxTUYwQVVZYmpTcnFuZmxkRTlnTG5qb3A0eUJXZXNGanZiQ2ZDYUduckdpVWpUc3Vr?oc=5",
      "at": "2026-11-22T14:08Z",
+     "eksik": false
+    },
+    {
+     "title": "CANLI | Konyaspor - Beşiktaş maçı kadro, diziliş, H2H canlı anlatım ve canlı skor - 22 Kasım 2026",
+     "source": "Canlı Gaste",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNjZWbllyTVJQVVNVYkR0N2xGM3h6VzI5XzdXWXI1YlpfWTBudzZ3cHd1WFhxTEkzZWM5c1dnSmdVZ3NmT2dza0Y4R25Pa2xGVjBDdG5qbWZzcUhGb0NIekttSWY5V1ZsM3BiTkpxQkF2SHM3VHZobHRWSnBOSDdIUWlZOGF6QUFyOWxMZmJxRUp2aWs0cGtOMjZqS3hyWG9SY3YxZU1mTUFCamNfMWZCTE5BbGRYUnJUZjJQZ3J2TnlLZw?oc=5",
+     "at": "2026-11-22T12:50Z",
      "eksik": false
     },
     {
@@ -18840,13 +18847,6 @@
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRnFFREYzeGlPSVRSWFpHZkRiWk55TmxNZzZNejN6N3EySkNrRjBFZ3VyM3NLSDdWZlgxTUQySGlWbXNJNlFKSjRvVUlVR1JPdDJOZ1RpVGRfUFk2dWY4X0VtajFKNVdNcndublBXZXFWMlBlZGI5TlJYMmN0TERWX0wzUmZBWFlSUHBKWlBrcy1ybnZvb2hENEtud0oyWFNLUnc?oc=5",
      "at": "2026-11-22T05:04Z",
      "eksik": false
-    },
-    {
-     "title": "Başakşehir’de vale cipi restorana sürdü",
-     "source": "https://www.ensondakika.com.tr/",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQkRvbmJoWXZ3cWY5TG1Zejlkc3ZFekdsSEFPVDBqS1ZFcUxrS3dpRmlDRy1fWnNOSGFZbW4wYXlqRjc2WE1sUXNHQmVUZUZhbUs3REhjcWdJZlJxMkF0UUxLSUl6b0hjTkpwOUwwU2FHdVNNYV9yM1hqZW5waUVSMUtaZDhGcFhKUnpHb1ZiZ0NheEluVjRXOTRaZ0NvRUdpeDRzVlZMU3A?oc=5",
-     "at": "2026-11-21T19:56Z",
-     "eksik": false
     }
    ],
    "away": [
@@ -18865,6 +18865,13 @@
      "eksik": false
     },
     {
+     "title": "CANLI | Konyaspor - Beşiktaş maçı kadro, diziliş, H2H canlı anlatım ve canlı skor - 22 Kasım 2026",
+     "source": "Canlı Gaste",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNjZWbllyTVJQVVNVYkR0N2xGM3h6VzI5XzdXWXI1YlpfWTBudzZ3cHd1WFhxTEkzZWM5c1dnSmdVZ3NmT2dza0Y4R25Pa2xGVjBDdG5qbWZzcUhGb0NIekttSWY5V1ZsM3BiTkpxQkF2SHM3VHZobHRWSnBOSDdIUWlZOGF6QUFyOWxMZmJxRUp2aWs0cGtOMjZqS3hyWG9SY3YxZU1mTUFCamNfMWZCTE5BbGRYUnJUZjJQZ3J2TnlLZw?oc=5",
+     "at": "2026-11-22T12:50Z",
+     "eksik": false
+    },
+    {
      "title": "Bodrum FK – Vanspor maçı ne zaman, saat kaçta, hangi kanalda?",
      "source": "Van Haber Gazetesi",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMENodVpiQ2JBc3VUQnBOUjl6dDVlUFl4bnNFTUV3Z2ZiOUVOb3lTNFBMNDBneWo1OFNRdkxiS2Y0S21SZXVZdzhndU1mN3h5eW9LbmlTMnVuUEE3M1hGT3F6MWxKNlpYd3FUT2o3Tm5uUGtDVllEUnVQblBGVlh2X2hWaEVMNzcyQ0V6dERJRVlaX0E?oc=5",
@@ -18877,27 +18884,20 @@
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdnQtZU9fQlpsdlk0bnNlYVZSbTA1cEMyUmdNZ2FoM090R0p6QjZUdDVYTVlFY2dPZzJHREdUV19zdEhueU5XWVJNQkxhVEVqbTQybTJVNy1TRDRzei04V2dEcmljNS1Xd0F1VzQzLW16dXA5QmFfQ0VsYWdaby10UWVZOXdrMFBCejc2UUg0Q2w2SWVhZmR6azB3TXYzRjNyYm9xVA?oc=5",
      "at": "2026-11-22T06:33Z",
      "eksik": false
-    },
-    {
-     "title": "Başakşehir, Süper Lig 12. haftada Arca Çorum FK’yi konuk edecek",
-     "source": "https://www.ensondakika.com.tr/",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRnFFREYzeGlPSVRSWFpHZkRiWk55TmxNZzZNejN6N3EySkNrRjBFZ3VyM3NLSDdWZlgxTUQySGlWbXNJNlFKSjRvVUlVR1JPdDJOZ1RpVGRfUFk2dWY4X0VtajFKNVdNcndublBXZXFWMlBlZGI5TlJYMmN0TERWX0wzUmZBWFlSUHBKWlBrcy1ybnZvb2hENEtud0oyWFNLUnc?oc=5",
-     "at": "2026-11-22T05:04Z",
-     "eksik": false
     }
    ],
    "ai": {
     "home": {
      "eksikler": [],
-     "ozet": "Başakşehir ile Çorum FK arasında oynanacak bu maç öncesinde takımlardaki sakat veya cezalı oyuncularla ilgili güncel ve resmi bir eksik raporu bulunmamaktadır."
+     "ozet": "Başakşehir'in Çorum FK maçı öncesinde sakat veya cezalı oyuncularına dair son günlerde güncel ve güvenilir bir resmi açıklama bulunmamaktadır."
     },
     "away": {
      "eksikler": [],
-     "ozet": "Çorum FK'nın bu karşılaşma öncesinde sakat veya cezalı oyuncularına dair güncel bir bilgi yer almamaktadır."
+     "ozet": "Çorum FK'nin bu karşılaşma öncesi eksik veya sakat oyuncularıyla ilgili basına yansıyan güncel bir bilgi yer almamaktadır."
     },
     "model": "gemini-3.5-flash-lite (aramasız)",
-    "at": "2026-11-22T17:34Z",
-    "hash": "2c464e3a55ab"
+    "at": "2026-11-22T18:50Z",
+    "hash": "8a28da078ead"
    }
   }
  },
@@ -18942,9 +18942,9 @@
  },
  "coupons": [
   {
-   "id": "dusuk-202611221734",
+   "id": "dusuk-202611221850",
    "type": "dusuk",
-   "created_at": "2026-11-22T17:34Z",
+   "created_at": "2026-11-22T18:50Z",
    "status": "bekliyor",
    "backfill": false,
    "odds": 1.57,
@@ -19014,7 +19014,7 @@
      "market": "CS",
      "prob": 0.789,
      "odds": 1.22,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -20774,7 +20774,7 @@
      "market": "OU",
      "prob": 0.6502,
      "odds": 1.5,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -21747,9 +21747,9 @@
    ]
   },
   {
-   "id": "riskli-202611221734",
+   "id": "riskli-202611221850",
    "type": "riskli",
-   "created_at": "2026-11-22T17:34Z",
+   "created_at": "2026-11-22T18:50Z",
    "status": "bekliyor",
    "backfill": false,
    "odds": 3.92,
