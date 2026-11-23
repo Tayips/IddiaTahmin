@@ -1,42 +1,42 @@
 {
- "updated_at": "2026-11-23T15:47Z",
+ "updated_at": "2026-11-23T21:52Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
   "E0": "Premier Lig"
  },
  "data_through": {
-  "E0": "2026-11-08",
-  "T1": "2026-11-08"
+  "E0": "2026-11-22",
+  "T1": "2026-11-22"
  },
  "stats": {
   "genel": {
-   "n": 208,
-   "correct": 102,
-   "accuracy": 0.4904,
-   "rps": 0.2168,
-   "brier": 0.6058,
-   "log_loss": 1.0129,
-   "odds_accuracy": 0.5288
+   "n": 216,
+   "correct": 108,
+   "accuracy": 0.5,
+   "rps": 0.2155,
+   "brier": 0.6012,
+   "log_loss": 1.0059,
+   "odds_accuracy": 0.537
   },
   "canli": {
-   "n": 57,
-   "correct": 32,
-   "accuracy": 0.5614,
-   "rps": 0.2062,
-   "brier": 0.5716,
-   "log_loss": 0.9633,
-   "odds_accuracy": 0.5614
+   "n": 65,
+   "correct": 38,
+   "accuracy": 0.5846,
+   "rps": 0.2031,
+   "brier": 0.5607,
+   "log_loss": 0.9463,
+   "odds_accuracy": 0.5846
   },
   "lig": {
    "T1": {
-    "n": 99,
-    "correct": 50,
-    "accuracy": 0.5051,
-    "rps": 0.2191,
-    "brier": 0.5823,
-    "log_loss": 0.9813,
-    "odds_accuracy": 0.5758
+    "n": 107,
+    "correct": 56,
+    "accuracy": 0.5234,
+    "rps": 0.2163,
+    "brier": 0.5749,
+    "log_loss": 0.9696,
+    "odds_accuracy": 0.5888
    },
    "E0": {
     "n": 109,
@@ -49,41 +49,41 @@
    }
   },
   "son_30_gun": {
-   "n": 59,
-   "correct": 32,
-   "accuracy": 0.5424,
-   "rps": 0.2136,
-   "brier": 0.5831,
-   "log_loss": 0.9805,
-   "odds_accuracy": 0.5593
+   "n": 65,
+   "correct": 38,
+   "accuracy": 0.5846,
+   "rps": 0.2031,
+   "brier": 0.5607,
+   "log_loss": 0.9463,
+   "odds_accuracy": 0.5846
   },
   "guven": {
    "50%+": {
-    "n": 91,
-    "correct": 55,
-    "accuracy": 0.6044,
-    "rps": 0.1875,
-    "brier": 0.531,
-    "log_loss": 0.9075,
-    "odds_accuracy": 0.6044
+    "n": 96,
+    "correct": 58,
+    "accuracy": 0.6042,
+    "rps": 0.1858,
+    "brier": 0.527,
+    "log_loss": 0.9007,
+    "odds_accuracy": 0.6042
    },
    "60%+": {
-    "n": 44,
-    "correct": 32,
-    "accuracy": 0.7273,
-    "rps": 0.1503,
-    "brier": 0.4207,
-    "log_loss": 0.7486,
-    "odds_accuracy": 0.7273
+    "n": 47,
+    "correct": 35,
+    "accuracy": 0.7447,
+    "rps": 0.1433,
+    "brier": 0.4004,
+    "log_loss": 0.7187,
+    "odds_accuracy": 0.7447
    },
    "70%+": {
-    "n": 16,
-    "correct": 15,
-    "accuracy": 0.9375,
-    "rps": 0.0488,
-    "brier": 0.165,
-    "log_loss": 0.3689,
-    "odds_accuracy": 0.9375
+    "n": 18,
+    "correct": 17,
+    "accuracy": 0.9444,
+    "rps": 0.045,
+    "brier": 0.1513,
+    "log_loss": 0.3471,
+    "odds_accuracy": 0.9444
    }
   }
  },
@@ -9672,21 +9672,21 @@
    "f_a_sot": 4.2,
    "f_h_rest": 13.0,
    "f_a_rest": 14.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 1.0,
+   "ftag": 0.0,
+   "ftr": "H",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "H",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 0.0,
+   "kg_correct": 0.0,
    "mk_h": 0.4118,
    "mk_d": 0.2624,
    "mk_a": 0.3258,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 2.32,
+   "close_d": 3.52,
+   "close_a": 2.69
   },
   {
    "league": "E0",
@@ -9732,9 +9732,9 @@
    "mk_h": 0.7026,
    "mk_d": 0.1759,
    "mk_a": 0.1215,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.36,
+   "close_d": 5.3,
+   "close_a": 7.4
   },
   {
    "league": "T1",
@@ -9768,21 +9768,21 @@
    "f_a_sot": 4.83,
    "f_h_rest": 14.0,
    "f_a_rest": 13.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 0.0,
+   "ftag": 2.0,
+   "ftr": "A",
+   "status": "bitti",
+   "correct": 0.0,
    "odds_pick": "H",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 0.0,
+   "o25_correct": 0.0,
+   "kg_correct": 0.0,
    "mk_h": 0.5621,
    "mk_d": 0.2289,
    "mk_a": 0.209,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.82,
+   "close_d": 3.78,
+   "close_a": 3.67
   },
   {
    "league": "T1",
@@ -9816,21 +9816,21 @@
    "f_a_sot": 3.82,
    "f_h_rest": 14.0,
    "f_a_rest": 14.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 2.0,
+   "ftag": 1.0,
+   "ftr": "H",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "H",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 1.0,
+   "kg_correct": 1.0,
    "mk_h": 0.7839,
    "mk_d": 0.1342,
    "mk_a": 0.0819,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.28,
+   "close_d": 5.64,
+   "close_a": 7.79
   },
   {
    "league": "E0",
@@ -9876,9 +9876,9 @@
    "mk_h": 0.5568,
    "mk_d": 0.2441,
    "mk_a": 0.1991,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.7,
+   "close_d": 3.91,
+   "close_a": 4.6
   },
   {
    "league": "E0",
@@ -9924,9 +9924,9 @@
    "mk_h": 0.5031,
    "mk_d": 0.2684,
    "mk_a": 0.2284,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 2.04,
+   "close_d": 3.37,
+   "close_a": 3.61
   },
   {
    "league": "E0",
@@ -9972,9 +9972,9 @@
    "mk_h": 0.4795,
    "mk_d": 0.2697,
    "mk_a": 0.2508,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.95,
+   "close_d": 3.6,
+   "close_a": 3.71
   },
   {
    "league": "E0",
@@ -10020,9 +10020,9 @@
    "mk_h": 0.376,
    "mk_d": 0.2751,
    "mk_a": 0.3489,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 2.47,
+   "close_d": 3.48,
+   "close_a": 2.72
   },
   {
    "league": "E0",
@@ -10068,9 +10068,9 @@
    "mk_h": 0.6463,
    "mk_d": 0.2019,
    "mk_a": 0.1518,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.47,
+   "close_d": 4.67,
+   "close_a": 6.0
   },
   {
    "league": "T1",
@@ -10104,21 +10104,21 @@
    "f_a_sot": 6.3,
    "f_h_rest": 14.0,
    "f_a_rest": 13.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 2.0,
+   "ftag": 2.0,
+   "ftr": "D",
+   "status": "bitti",
+   "correct": 0.0,
    "odds_pick": "A",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 0.0,
+   "o25_correct": 1.0,
+   "kg_correct": 1.0,
    "mk_h": 0.1774,
    "mk_d": 0.2271,
    "mk_a": 0.5955,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 4.95,
+   "close_d": 4.03,
+   "close_a": 1.58
   },
   {
    "league": "E0",
@@ -10164,9 +10164,9 @@
    "mk_h": 0.1492,
    "mk_d": 0.2147,
    "mk_a": 0.6361,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 6.0,
+   "close_d": 4.38,
+   "close_a": 1.51
   },
   {
    "league": "T1",
@@ -10200,21 +10200,21 @@
    "f_a_sot": 5.35,
    "f_h_rest": 14.0,
    "f_a_rest": 14.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 0.0,
+   "ftag": 1.0,
+   "ftr": "A",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "A",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 1.0,
+   "kg_correct": 0.0,
    "mk_h": 0.3283,
    "mk_d": 0.2799,
    "mk_a": 0.3918,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 2.61,
+   "close_d": 3.1,
+   "close_a": 2.63
   },
   {
    "league": "T1",
@@ -10248,21 +10248,21 @@
    "f_a_sot": 3.69,
    "f_h_rest": 14.0,
    "f_a_rest": 14.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 2.0,
+   "ftag": 1.0,
+   "ftr": "H",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "H",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 1.0,
+   "kg_correct": 1.0,
    "mk_h": 0.4801,
    "mk_d": 0.2652,
    "mk_a": 0.2547,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.82,
+   "close_d": 3.49,
+   "close_a": 3.99
   },
   {
    "league": "T1",
@@ -10296,21 +10296,21 @@
    "f_a_sot": 6.55,
    "f_h_rest": 14.0,
    "f_a_rest": 14.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 2.0,
+   "ftag": 4.0,
+   "ftr": "A",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "A",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 1.0,
+   "kg_correct": 1.0,
    "mk_h": 0.1805,
    "mk_d": 0.2297,
    "mk_a": 0.5899,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 5.39,
+   "close_d": 4.04,
+   "close_a": 1.53
   },
   {
    "league": "E0",
@@ -10356,9 +10356,9 @@
    "mk_h": 0.1401,
    "mk_d": 0.2103,
    "mk_a": 0.6496,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 6.31,
+   "close_d": 4.47,
+   "close_a": 1.48
   },
   {
    "league": "T1",
@@ -10392,21 +10392,21 @@
    "f_a_sot": 3.49,
    "f_h_rest": 14.0,
    "f_a_rest": 14.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 1.0,
+   "ftag": 0.0,
+   "ftr": "H",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "H",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 0.0,
+   "kg_correct": 1.0,
    "mk_h": 0.8752,
    "mk_d": 0.0886,
    "mk_a": 0.0363,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.07,
+   "close_d": 10.48,
+   "close_a": 20.28
   },
   {
    "league": "E0",
@@ -10452,16 +10452,16 @@
    "mk_h": 0.5582,
    "mk_d": 0.2248,
    "mk_a": 0.217,
-   "close_h": null,
-   "close_d": null,
-   "close_a": null
+   "close_h": 1.76,
+   "close_d": 4.12,
+   "close_a": 4.01
   },
   {
    "league": "T1",
    "date": "2026-11-23",
    "home": "Buyuksehyr",
    "away": "Corum",
-   "season": "2627",
+   "season": 2627,
    "kickoff": "2026-11-23T17:00Z",
    "p_h": 0.4795,
    "p_d": 0.264,
@@ -10491,7 +10491,7 @@
    "fthg": null,
    "ftag": null,
    "ftr": null,
-   "status": "yaklasan",
+   "status": "sonuc_bekleniyor",
    "correct": null,
    "odds_pick": "H",
    "odds_correct": null,
@@ -10509,7 +10509,7 @@
    "date": "2026-11-23",
    "home": "Brentford",
    "away": "Everton",
-   "season": "2627",
+   "season": 2627,
    "kickoff": "2026-11-23T20:00Z",
    "p_h": 0.374,
    "p_d": 0.303,
@@ -10539,7 +10539,7 @@
    "fthg": null,
    "ftag": null,
    "ftr": null,
-   "status": "yaklasan",
+   "status": "sonuc_bekleniyor",
    "correct": null,
    "odds_pick": "H",
    "odds_correct": null,
@@ -10556,6 +10556,14 @@
  "teams": {
   "E0|Arsenal": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Newcastle",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "B"
+    },
     {
      "date": "2026-11-07",
      "opp": "Hull",
@@ -10595,14 +10603,6 @@
      "gf": 2,
      "ga": 1,
      "res": "G"
-    },
-    {
-     "date": "2026-09-19",
-     "opp": "Brighton",
-     "venue": "A",
-     "gf": 0,
-     "ga": 3,
-     "res": "M"
     }
    ],
    "ic": {
@@ -10614,16 +10614,24 @@
     "ga": 2
    },
    "dis": {
-    "p": 5,
+    "p": 6,
     "g": 4,
-    "b": 0,
+    "b": 1,
     "m": 1,
-    "gf": 5,
-    "ga": 3
+    "gf": 7,
+    "ga": 5
    }
   },
   "E0|Aston Villa": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Sunderland",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "B"
+    },
     {
      "date": "2026-11-08",
      "opp": "Man United",
@@ -10663,20 +10671,12 @@
      "gf": 2,
      "ga": 2,
      "res": "B"
-    },
-    {
-     "date": "2026-09-19",
-     "opp": "Tottenham",
-     "venue": "A",
-     "gf": 3,
-     "ga": 2,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 5,
+    "p": 6,
     "g": 1,
-    "b": 2,
+    "b": 3,
     "m": 2,
     "gf": 6,
     "ga": 7
@@ -10692,6 +10692,14 @@
   },
   "E0|Bournemouth": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Nott'm Forest",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-11-08",
      "opp": "Ipswich",
@@ -10731,22 +10739,14 @@
      "gf": 1,
      "ga": 5,
      "res": "M"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Liverpool",
-     "venue": "H",
-     "gf": 0,
-     "ga": 1,
-     "res": "M"
     }
    ],
    "ic": {
-    "p": 5,
-    "g": 2,
+    "p": 6,
+    "g": 3,
     "b": 2,
     "m": 1,
-    "gf": 7,
+    "gf": 9,
     "ga": 4
    },
    "dis": {
@@ -10829,6 +10829,14 @@
   "E0|Brighton": {
    "son": [
     {
+     "date": "2026-11-22",
+     "opp": "Hull",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "M"
+    },
+    {
      "date": "2026-11-08",
      "opp": "Brentford",
      "venue": "H",
@@ -10867,14 +10875,6 @@
      "gf": 2,
      "ga": 0,
      "res": "G"
-    },
-    {
-     "date": "2026-09-19",
-     "opp": "Arsenal",
-     "venue": "H",
-     "gf": 3,
-     "ga": 0,
-     "res": "G"
     }
    ],
    "ic": {
@@ -10886,16 +10886,24 @@
     "ga": 1
    },
    "dis": {
-    "p": 5,
+    "p": 6,
     "g": 3,
     "b": 0,
-    "m": 2,
+    "m": 3,
     "gf": 11,
-    "ga": 6
+    "ga": 8
    }
   },
   "E0|Chelsea": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Leeds",
+     "venue": "H",
+     "gf": 1,
+     "ga": 4,
+     "res": "M"
+    },
     {
      "date": "2026-11-08",
      "opp": "Sunderland",
@@ -10935,23 +10943,15 @@
      "gf": 5,
      "ga": 1,
      "res": "G"
-    },
-    {
-     "date": "2026-09-18",
-     "opp": "Brentford",
-     "venue": "A",
-     "gf": 0,
-     "ga": 3,
-     "res": "M"
     }
    ],
    "ic": {
-    "p": 5,
+    "p": 6,
     "g": 3,
     "b": 1,
-    "m": 1,
-    "gf": 13,
-    "ga": 8
+    "m": 2,
+    "gf": 14,
+    "ga": 12
    },
    "dis": {
     "p": 5,
@@ -10964,6 +10964,14 @@
   },
   "E0|Coventry": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Crystal Palace",
+     "venue": "H",
+     "gf": 3,
+     "ga": 2,
+     "res": "G"
+    },
     {
      "date": "2026-11-06",
      "opp": "Everton",
@@ -11003,23 +11011,15 @@
      "gf": 4,
      "ga": 1,
      "res": "G"
-    },
-    {
-     "date": "2026-09-19",
-     "opp": "Nott'm Forest",
-     "venue": "A",
-     "gf": 1,
-     "ga": 0,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 5,
-    "g": 2,
+    "p": 6,
+    "g": 3,
     "b": 0,
     "m": 3,
-    "gf": 7,
-    "ga": 9
+    "gf": 10,
+    "ga": 11
    },
    "dis": {
     "p": 5,
@@ -11032,6 +11032,14 @@
   },
   "E0|Crystal Palace": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Coventry",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "M"
+    },
     {
      "date": "2026-11-08",
      "opp": "Liverpool",
@@ -11071,14 +11079,6 @@
      "gf": 3,
      "ga": 1,
      "res": "G"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Leeds",
-     "venue": "A",
-     "gf": 0,
-     "ga": 0,
-     "res": "B"
     }
    ],
    "ic": {
@@ -11090,12 +11090,12 @@
     "ga": 13
    },
    "dis": {
-    "p": 5,
+    "p": 6,
     "g": 1,
     "b": 1,
-    "m": 3,
-    "gf": 3,
-    "ga": 11
+    "m": 4,
+    "gf": 5,
+    "ga": 14
    }
   },
   "E0|Everton": {
@@ -11169,6 +11169,14 @@
   "E0|Fulham": {
    "son": [
     {
+     "date": "2026-11-21",
+     "opp": "Man City",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "B"
+    },
+    {
      "date": "2026-11-07",
      "opp": "Newcastle",
      "venue": "H",
@@ -11207,14 +11215,6 @@
      "gf": 1,
      "ga": 2,
      "res": "M"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Man United",
-     "venue": "H",
-     "gf": 1,
-     "ga": 1,
-     "res": "B"
     }
    ],
    "ic": {
@@ -11226,16 +11226,24 @@
     "ga": 8
    },
    "dis": {
-    "p": 5,
+    "p": 6,
     "g": 1,
-    "b": 2,
+    "b": 3,
     "m": 2,
-    "gf": 3,
-    "ga": 4
+    "gf": 4,
+    "ga": 5
    }
   },
   "E0|Hull": {
    "son": [
+    {
+     "date": "2026-11-22",
+     "opp": "Brighton",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-11-07",
      "opp": "Arsenal",
@@ -11275,22 +11283,14 @@
      "gf": 2,
      "ga": 2,
      "res": "B"
-    },
-    {
-     "date": "2026-09-19",
-     "opp": "Newcastle",
-     "venue": "A",
-     "gf": 1,
-     "ga": 2,
-     "res": "M"
     }
    ],
    "ic": {
-    "p": 5,
-    "g": 1,
+    "p": 6,
+    "g": 2,
     "b": 4,
     "m": 0,
-    "gf": 7,
+    "gf": 9,
     "ga": 5
    },
    "dis": {
@@ -11304,6 +11304,14 @@
   },
   "E0|Ipswich": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Tottenham",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "M"
+    },
     {
      "date": "2026-11-08",
      "opp": "Bournemouth",
@@ -11343,14 +11351,6 @@
      "gf": 2,
      "ga": 1,
      "res": "G"
-    },
-    {
-     "date": "2026-09-19",
-     "opp": "Everton",
-     "venue": "A",
-     "gf": 0,
-     "ga": 1,
-     "res": "M"
     }
    ],
    "ic": {
@@ -11362,16 +11362,24 @@
     "ga": 7
    },
    "dis": {
-    "p": 5,
+    "p": 6,
     "g": 1,
     "b": 1,
-    "m": 3,
+    "m": 4,
     "gf": 9,
-    "ga": 13
+    "ga": 15
    }
   },
   "E0|Leeds": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Chelsea",
+     "venue": "A",
+     "gf": 4,
+     "ga": 1,
+     "res": "G"
+    },
     {
      "date": "2026-11-07",
      "opp": "Tottenham",
@@ -11411,14 +11419,6 @@
      "gf": 1,
      "ga": 2,
      "res": "M"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Crystal Palace",
-     "venue": "H",
-     "gf": 0,
-     "ga": 0,
-     "res": "B"
     }
    ],
    "ic": {
@@ -11430,16 +11430,24 @@
     "ga": 3
    },
    "dis": {
-    "p": 5,
-    "g": 1,
+    "p": 6,
+    "g": 2,
     "b": 2,
     "m": 2,
-    "gf": 3,
-    "ga": 5
+    "gf": 7,
+    "ga": 6
    }
   },
   "E0|Liverpool": {
    "son": [
+    {
+     "date": "2026-11-22",
+     "opp": "Man United",
+     "venue": "H",
+     "gf": 4,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-11-08",
      "opp": "Crystal Palace",
@@ -11479,22 +11487,14 @@
      "gf": 0,
      "ga": 3,
      "res": "M"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Bournemouth",
-     "venue": "A",
-     "gf": 1,
-     "ga": 0,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 5,
-    "g": 1,
+    "p": 6,
+    "g": 2,
     "b": 2,
     "m": 2,
-    "gf": 4,
+    "gf": 8,
     "ga": 6
    },
    "dis": {
@@ -11508,6 +11508,14 @@
   },
   "E0|Man City": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Fulham",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "B"
+    },
     {
      "date": "2026-11-07",
      "opp": "Nott'm Forest",
@@ -11547,23 +11555,15 @@
      "gf": 3,
      "ga": 0,
      "res": "G"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Sunderland",
-     "venue": "H",
-     "gf": 5,
-     "ga": 3,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 5,
+    "p": 6,
     "g": 4,
-    "b": 0,
+    "b": 1,
     "m": 1,
-    "gf": 11,
-    "ga": 7
+    "gf": 12,
+    "ga": 8
    },
    "dis": {
     "p": 5,
@@ -11576,6 +11576,14 @@
   },
   "E0|Man United": {
    "son": [
+    {
+     "date": "2026-11-22",
+     "opp": "Liverpool",
+     "venue": "A",
+     "gf": 0,
+     "ga": 4,
+     "res": "M"
+    },
     {
      "date": "2026-11-08",
      "opp": "Aston Villa",
@@ -11615,14 +11623,6 @@
      "gf": 1,
      "ga": 1,
      "res": "B"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Fulham",
-     "venue": "A",
-     "gf": 1,
-     "ga": 1,
-     "res": "B"
     }
    ],
    "ic": {
@@ -11634,16 +11634,24 @@
     "ga": 11
    },
    "dis": {
-    "p": 5,
+    "p": 6,
     "g": 0,
     "b": 3,
-    "m": 2,
+    "m": 3,
     "gf": 4,
-    "ga": 8
+    "ga": 12
    }
   },
   "E0|Newcastle": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Arsenal",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "B"
+    },
     {
      "date": "2026-11-07",
      "opp": "Fulham",
@@ -11683,23 +11691,15 @@
      "gf": 1,
      "ga": 4,
      "res": "M"
-    },
-    {
-     "date": "2026-09-19",
-     "opp": "Hull",
-     "venue": "H",
-     "gf": 2,
-     "ga": 1,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 5,
+    "p": 6,
     "g": 1,
-    "b": 2,
+    "b": 3,
     "m": 2,
-    "gf": 6,
-    "ga": 7
+    "gf": 8,
+    "ga": 9
    },
    "dis": {
     "p": 5,
@@ -11712,6 +11712,14 @@
   },
   "E0|Nott'm Forest": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Bournemouth",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "M"
+    },
     {
      "date": "2026-11-07",
      "opp": "Man City",
@@ -11751,14 +11759,6 @@
      "gf": 1,
      "ga": 3,
      "res": "M"
-    },
-    {
-     "date": "2026-09-19",
-     "opp": "Coventry",
-     "venue": "H",
-     "gf": 0,
-     "ga": 1,
-     "res": "M"
     }
    ],
    "ic": {
@@ -11770,16 +11770,24 @@
     "ga": 4
    },
    "dis": {
-    "p": 5,
+    "p": 6,
     "g": 1,
     "b": 2,
-    "m": 2,
+    "m": 3,
     "gf": 6,
-    "ga": 9
+    "ga": 11
    }
   },
   "E0|Sunderland": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Aston Villa",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "B"
+    },
     {
      "date": "2026-11-08",
      "opp": "Chelsea",
@@ -11819,14 +11827,6 @@
      "gf": 0,
      "ga": 2,
      "res": "M"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Man City",
-     "venue": "A",
-     "gf": 3,
-     "ga": 5,
-     "res": "M"
     }
    ],
    "ic": {
@@ -11838,9 +11838,9 @@
     "ga": 4
    },
    "dis": {
-    "p": 5,
+    "p": 6,
     "g": 0,
-    "b": 1,
+    "b": 2,
     "m": 4,
     "gf": 6,
     "ga": 13
@@ -11848,6 +11848,14 @@
   },
   "E0|Tottenham": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Ipswich",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-11-07",
      "opp": "Leeds",
@@ -11887,22 +11895,14 @@
      "gf": 1,
      "ga": 1,
      "res": "B"
-    },
-    {
-     "date": "2026-09-19",
-     "opp": "Aston Villa",
-     "venue": "H",
-     "gf": 2,
-     "ga": 3,
-     "res": "M"
     }
    ],
    "ic": {
-    "p": 5,
-    "g": 2,
+    "p": 6,
+    "g": 3,
     "b": 1,
     "m": 2,
-    "gf": 7,
+    "gf": 9,
     "ga": 6
    },
    "dis": {
@@ -11916,6 +11916,14 @@
   },
   "T1|Alanyaspor": {
    "son": [
+    {
+     "date": "2026-11-22",
+     "opp": "Kasimpasa",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "M"
+    },
     {
      "date": "2026-11-08",
      "opp": "Trabzonspor",
@@ -11955,14 +11963,6 @@
      "gf": 0,
      "ga": 0,
      "res": "B"
-    },
-    {
-     "date": "2026-09-19",
-     "opp": "Corum",
-     "venue": "A",
-     "gf": 2,
-     "ga": 1,
-     "res": "G"
     }
    ],
    "ic": {
@@ -11974,16 +11974,24 @@
     "ga": 6
    },
    "dis": {
-    "p": 6,
+    "p": 7,
     "g": 2,
     "b": 1,
-    "m": 3,
-    "gf": 5,
-    "ga": 12
+    "m": 4,
+    "gf": 6,
+    "ga": 14
    }
   },
   "T1|Amedspor": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Rizespor",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "M"
+    },
     {
      "date": "2026-11-07",
      "opp": "Galatasaray",
@@ -12023,23 +12031,15 @@
      "gf": 2,
      "ga": 2,
      "res": "B"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Besiktas",
-     "venue": "H",
-     "gf": 3,
-     "ga": 2,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 6,
+    "p": 7,
     "g": 6,
     "b": 0,
-    "m": 0,
+    "m": 1,
     "gf": 19,
-    "ga": 4
+    "ga": 6
    },
    "dis": {
     "p": 5,
@@ -12052,6 +12052,14 @@
   },
   "T1|Besiktas": {
    "son": [
+    {
+     "date": "2026-11-22",
+     "opp": "Konyaspor",
+     "venue": "A",
+     "gf": 4,
+     "ga": 2,
+     "res": "G"
+    },
     {
      "date": "2026-11-08",
      "opp": "Genclerbirligi",
@@ -12091,14 +12099,6 @@
      "gf": 2,
      "ga": 1,
      "res": "G"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Amedspor",
-     "venue": "A",
-     "gf": 2,
-     "ga": 3,
-     "res": "M"
     }
    ],
    "ic": {
@@ -12110,12 +12110,12 @@
     "ga": 3
    },
    "dis": {
-    "p": 5,
-    "g": 1,
+    "p": 6,
+    "g": 2,
     "b": 1,
     "m": 3,
-    "gf": 6,
-    "ga": 9
+    "gf": 10,
+    "ga": 11
    }
   },
   "T1|Buyuksehyr": {
@@ -12257,6 +12257,14 @@
   "T1|Erzurumspor": {
    "son": [
     {
+     "date": "2026-11-22",
+     "opp": "Goztep",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "M"
+    },
+    {
      "date": "2026-11-08",
      "opp": "Rizespor",
      "venue": "A",
@@ -12295,23 +12303,15 @@
      "gf": 0,
      "ga": 0,
      "res": "B"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Samsunspor",
-     "venue": "H",
-     "gf": 1,
-     "ga": 0,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 5,
+    "p": 6,
     "g": 3,
     "b": 0,
-    "m": 2,
+    "m": 3,
     "gf": 5,
-    "ga": 7
+    "ga": 8
    },
    "dis": {
     "p": 6,
@@ -12324,6 +12324,14 @@
   },
   "T1|Eyupspor": {
    "son": [
+    {
+     "date": "2026-11-22",
+     "opp": "Trabzonspor",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "M"
+    },
     {
      "date": "2026-11-07",
      "opp": "Kocaelispor",
@@ -12363,14 +12371,6 @@
      "gf": 0,
      "ga": 4,
      "res": "M"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Fenerbahce",
-     "venue": "A",
-     "gf": 0,
-     "ga": 8,
-     "res": "M"
     }
    ],
    "ic": {
@@ -12382,16 +12382,24 @@
     "ga": 11
    },
    "dis": {
-    "p": 5,
+    "p": 6,
     "g": 0,
     "b": 0,
-    "m": 5,
+    "m": 6,
     "gf": 1,
-    "ga": 19
+    "ga": 20
    }
   },
   "T1|Fenerbahce": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Kocaelispor",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "B"
+    },
     {
      "date": "2026-11-08",
      "opp": "Corum",
@@ -12431,14 +12439,6 @@
      "gf": 3,
      "ga": 0,
      "res": "G"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Eyupspor",
-     "venue": "H",
-     "gf": 8,
-     "ga": 0,
-     "res": "G"
     }
    ],
    "ic": {
@@ -12450,16 +12450,24 @@
     "ga": 6
    },
    "dis": {
-    "p": 6,
+    "p": 7,
     "g": 3,
-    "b": 1,
+    "b": 2,
     "m": 2,
-    "gf": 12,
-    "ga": 4
+    "gf": 14,
+    "ga": 6
    }
   },
   "T1|Galatasaray": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Samsunspor",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "G"
+    },
     {
      "date": "2026-11-07",
      "opp": "Amedspor",
@@ -12499,23 +12507,15 @@
      "gf": 3,
      "ga": 1,
      "res": "G"
-    },
-    {
-     "date": "2026-09-19",
-     "opp": "Trabzonspor",
-     "venue": "A",
-     "gf": 0,
-     "ga": 4,
-     "res": "M"
     }
    ],
    "ic": {
-    "p": 6,
-    "g": 5,
+    "p": 7,
+    "g": 6,
     "b": 1,
     "m": 0,
-    "gf": 15,
-    "ga": 9
+    "gf": 17,
+    "ga": 10
    },
    "dis": {
     "p": 5,
@@ -12528,6 +12528,14 @@
   },
   "T1|Gaziantep": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Genclerbirligi",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "M"
+    },
     {
      "date": "2026-11-06",
      "opp": "Kasimpasa",
@@ -12567,14 +12575,6 @@
      "gf": 0,
      "ga": 3,
      "res": "M"
-    },
-    {
-     "date": "2026-09-19",
-     "opp": "Kocaelispor",
-     "venue": "A",
-     "gf": 0,
-     "ga": 2,
-     "res": "M"
     }
    ],
    "ic": {
@@ -12586,16 +12586,24 @@
     "ga": 11
    },
    "dis": {
-    "p": 5,
+    "p": 6,
     "g": 2,
     "b": 0,
-    "m": 3,
+    "m": 4,
     "gf": 6,
-    "ga": 8
+    "ga": 9
    }
   },
   "T1|Genclerbirligi": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Gaziantep",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-11-08",
      "opp": "Besiktas",
@@ -12635,22 +12643,14 @@
      "gf": 2,
      "ga": 2,
      "res": "B"
-    },
-    {
-     "date": "2026-09-19",
-     "opp": "Buyuksehyr",
-     "venue": "A",
-     "gf": 0,
-     "ga": 4,
-     "res": "M"
     }
    ],
    "ic": {
-    "p": 6,
-    "g": 2,
+    "p": 7,
+    "g": 3,
     "b": 2,
     "m": 2,
-    "gf": 11,
+    "gf": 12,
     "ga": 7
    },
    "dis": {
@@ -12664,6 +12664,14 @@
   },
   "T1|Goztep": {
    "son": [
+    {
+     "date": "2026-11-22",
+     "opp": "Erzurumspor",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-11-07",
      "opp": "Buyuksehyr",
@@ -12703,14 +12711,6 @@
      "gf": 4,
      "ga": 0,
      "res": "G"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Rizespor",
-     "venue": "H",
-     "gf": 2,
-     "ga": 2,
-     "res": "B"
     }
    ],
    "ic": {
@@ -12722,16 +12722,24 @@
     "ga": 9
    },
    "dis": {
-    "p": 6,
-    "g": 3,
+    "p": 7,
+    "g": 4,
     "b": 2,
     "m": 1,
-    "gf": 15,
+    "gf": 16,
     "ga": 10
    }
   },
   "T1|Kasimpasa": {
    "son": [
+    {
+     "date": "2026-11-22",
+     "opp": "Alanyaspor",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "G"
+    },
     {
      "date": "2026-11-06",
      "opp": "Gaziantep",
@@ -12771,23 +12779,15 @@
      "gf": 1,
      "ga": 3,
      "res": "M"
-    },
-    {
-     "date": "2026-09-18",
-     "opp": "Konyaspor",
-     "venue": "H",
-     "gf": 0,
-     "ga": 0,
-     "res": "B"
     }
    ],
    "ic": {
-    "p": 5,
-    "g": 1,
+    "p": 6,
+    "g": 2,
     "b": 4,
     "m": 0,
-    "gf": 9,
-    "ga": 6
+    "gf": 11,
+    "ga": 7
    },
    "dis": {
     "p": 6,
@@ -12800,6 +12800,14 @@
   },
   "T1|Kocaelispor": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Fenerbahce",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "B"
+    },
     {
      "date": "2026-11-07",
      "opp": "Eyupspor",
@@ -12839,23 +12847,15 @@
      "gf": 1,
      "ga": 2,
      "res": "M"
-    },
-    {
-     "date": "2026-09-19",
-     "opp": "Gaziantep",
-     "venue": "H",
-     "gf": 2,
-     "ga": 0,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 5,
+    "p": 6,
     "g": 3,
-    "b": 1,
+    "b": 2,
     "m": 1,
-    "gf": 6,
-    "ga": 2
+    "gf": 8,
+    "ga": 4
    },
    "dis": {
     "p": 6,
@@ -12868,6 +12868,14 @@
   },
   "T1|Konyaspor": {
    "son": [
+    {
+     "date": "2026-11-22",
+     "opp": "Besiktas",
+     "venue": "H",
+     "gf": 2,
+     "ga": 4,
+     "res": "M"
+    },
     {
      "date": "2026-11-07",
      "opp": "Samsunspor",
@@ -12907,23 +12915,15 @@
      "gf": 0,
      "ga": 0,
      "res": "B"
-    },
-    {
-     "date": "2026-09-18",
-     "opp": "Kasimpasa",
-     "venue": "A",
-     "gf": 0,
-     "ga": 0,
-     "res": "B"
     }
    ],
    "ic": {
-    "p": 6,
+    "p": 7,
     "g": 2,
     "b": 1,
-    "m": 3,
-    "gf": 4,
-    "ga": 7
+    "m": 4,
+    "gf": 6,
+    "ga": 11
    },
    "dis": {
     "p": 5,
@@ -12936,6 +12936,14 @@
   },
   "T1|Rizespor": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Amedspor",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-11-08",
      "opp": "Erzurumspor",
@@ -12975,14 +12983,6 @@
      "gf": 0,
      "ga": 3,
      "res": "M"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Goztep",
-     "venue": "A",
-     "gf": 2,
-     "ga": 2,
-     "res": "B"
     }
    ],
    "ic": {
@@ -12994,16 +12994,24 @@
     "ga": 11
    },
    "dis": {
-    "p": 6,
-    "g": 3,
+    "p": 7,
+    "g": 4,
     "b": 2,
     "m": 1,
-    "gf": 8,
+    "gf": 10,
     "ga": 5
    }
   },
   "T1|Samsunspor": {
    "son": [
+    {
+     "date": "2026-11-21",
+     "opp": "Galatasaray",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "M"
+    },
     {
      "date": "2026-11-07",
      "opp": "Konyaspor",
@@ -13043,14 +13051,6 @@
      "gf": 0,
      "ga": 3,
      "res": "M"
-    },
-    {
-     "date": "2026-09-20",
-     "opp": "Erzurumspor",
-     "venue": "A",
-     "gf": 0,
-     "ga": 1,
-     "res": "M"
     }
    ],
    "ic": {
@@ -13062,16 +13062,24 @@
     "ga": 15
    },
    "dis": {
-    "p": 5,
+    "p": 6,
     "g": 1,
     "b": 0,
-    "m": 4,
-    "gf": 5,
-    "ga": 11
+    "m": 5,
+    "gf": 6,
+    "ga": 13
    }
   },
   "T1|Trabzonspor": {
    "son": [
+    {
+     "date": "2026-11-22",
+     "opp": "Eyupspor",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "G"
+    },
     {
      "date": "2026-11-08",
      "opp": "Alanyaspor",
@@ -13111,22 +13119,14 @@
      "gf": 3,
      "ga": 0,
      "res": "G"
-    },
-    {
-     "date": "2026-09-19",
-     "opp": "Galatasaray",
-     "venue": "H",
-     "gf": 4,
-     "ga": 0,
-     "res": "G"
     }
    ],
    "ic": {
-    "p": 5,
-    "g": 5,
+    "p": 6,
+    "g": 6,
     "b": 0,
     "m": 0,
-    "gf": 15,
+    "gf": 16,
     "ga": 1
    },
    "dis": {
@@ -16046,82 +16046,6 @@
    "kickoff": "2026-11-22T16:30Z"
   },
   "E0|2026-11-23|Brentford|Everton": {
-   "fetched_at": "2026-11-23T15:47Z",
-   "kickoff": "2026-11-23T20:00Z",
-   "home": [
-    {
-     "title": "Brentford vs Everton prediction: Thiago Barry to score again as team news confirmed",
-     "source": "Football365",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU2tjTkVqM2EySnI3Z0ZLUExoQXdTNjJMTEMzSEJqSWlEV29JejNPZTBIQ3ZybnhTY2p6WGRUeDl4OHRaOG5Ub2FHSWwtcUlYR2JZMGplaUU3WnRYcFF6dGZRU19NeWd2TGFScE5nRUdzVDRuZDVuY0VwQ2ZUWkFpQUFSMXM5dE9L?oc=5",
-     "at": "2026-11-23T15:22Z",
-     "eksik": false
-    },
-    {
-     "title": "Brentford v Everton - match preview, kick-off time and more",
-     "source": "Brentford FC",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQjNHRVFDcWRmZzNpajZkVWFWZnhZbjcxZXFfak1hZ0JBXzV0dTNSV0t1dUZwWUhQSkN1Rlk0T3RfcmY0SlFTTjFCRGNWQm1Nak03aU9QdUZoNUY1M0lCQ2FSQTcxc0RjUWJkdkFTOWxOcG9jRXRCb19lTzc2VlIzOEVXR3BPQ1REbUFmMXBhNGtwUmc1WlFsVExPZ3I?oc=5",
-     "at": "2026-11-23T14:50Z",
-     "eksik": false
-    },
-    {
-     "title": "Brentford v Everton",
-     "source": "Brentford FC",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYTY5WUF0Z2JkUUpGNmp3dUpWOVZRVG9SY1pQd0dFMTA3MU5zX2ZWSmRVT2tmN0E5dWQ4MHRhemh4UHNXcC1RNDBwTGNuMjZlVjA5eVhyM2FqdHNySThHYlhPQ1dFUzlaZHd1MEFqWDdGdXRDeTJNMGZzLUFmT2VQNWhkZVpqc2l1NkZVdmNWeUk?oc=5",
-     "at": "2026-11-23T13:04Z",
-     "eksik": false
-    },
-    {
-     "title": "Brentford vs Everton: Lineups, Prediction, Betting Tips & Odds",
-     "source": "WhoScored.com",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdmtObDRaZTBYYzhlQklMLWN6ZVVaM1dvUFBRakwwY1EwTGc0amhIWWJuZzNCRWRkMjAyaFI1RjdfRVFlUS1hX3Z3OTcwSzhLcXdLc05uWEZjNXVCMUF3WEtZaG9IeE1DTkg1czA4cjdGTndKd2RDMkFpTFJ2ZUNGQ1l2Z0JDaG8wLWlFcnBVU2d3RkpaR3dfUUZMUkU1bWs2SVhXMGpsOWh0c3hsTDc3ZUtiRG1GLWdkbDQ2VnFB?oc=5",
-     "at": "2026-11-23T12:05Z",
-     "eksik": false
-    },
-    {
-     "title": "Everton vs Brentford – Match preview and team news",
-     "source": "ToffeeWeb",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVU4xSkE0MF80WDVzemxKT0hfbVNZeXRqdFJONDdsZ2ozLXJPR1NsMjZzb0FNTjVLZHFrelBuUXZ4cE9hdHZDLVg3ZnFHN1JrRkhIenZBc2lEcWZuaHFpbm1hNGFIcTd4Rllrak1EUEZ5d0tsRE5fSWo0YVhKc2VhQ2x2ZEJldDY4b0dLN3lfNWxPbENhNlV3dA?oc=5",
-     "at": "2026-11-23T09:25Z",
-     "eksik": false
-    }
-   ],
-   "away": [
-    {
-     "title": "Brentford vs Everton prediction: Thiago Barry to score again as team news confirmed",
-     "source": "Football365",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU2tjTkVqM2EySnI3Z0ZLUExoQXdTNjJMTEMzSEJqSWlEV29JejNPZTBIQ3ZybnhTY2p6WGRUeDl4OHRaOG5Ub2FHSWwtcUlYR2JZMGplaUU3WnRYcFF6dGZRU19NeWd2TGFScE5nRUdzVDRuZDVuY0VwQ2ZUWkFpQUFSMXM5dE9L?oc=5",
-     "at": "2026-11-23T15:22Z",
-     "eksik": false
-    },
-    {
-     "title": "Brentford v Everton - match preview, kick-off time and more",
-     "source": "Brentford FC",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQjNHRVFDcWRmZzNpajZkVWFWZnhZbjcxZXFfak1hZ0JBXzV0dTNSV0t1dUZwWUhQSkN1Rlk0T3RfcmY0SlFTTjFCRGNWQm1Nak03aU9QdUZoNUY1M0lCQ2FSQTcxc0RjUWJkdkFTOWxOcG9jRXRCb19lTzc2VlIzOEVXR3BPQ1REbUFmMXBhNGtwUmc1WlFsVExPZ3I?oc=5",
-     "at": "2026-11-23T14:50Z",
-     "eksik": false
-    },
-    {
-     "title": "Brentford v Everton",
-     "source": "Brentford FC",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYTY5WUF0Z2JkUUpGNmp3dUpWOVZRVG9SY1pQd0dFMTA3MU5zX2ZWSmRVT2tmN0E5dWQ4MHRhemh4UHNXcC1RNDBwTGNuMjZlVjA5eVhyM2FqdHNySThHYlhPQ1dFUzlaZHd1MEFqWDdGdXRDeTJNMGZzLUFmT2VQNWhkZVpqc2l1NkZVdmNWeUk?oc=5",
-     "at": "2026-11-23T13:04Z",
-     "eksik": false
-    },
-    {
-     "title": "Brentford vs Everton: Lineups, Prediction, Betting Tips & Odds",
-     "source": "WhoScored.com",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdmtObDRaZTBYYzhlQklMLWN6ZVVaM1dvUFBRakwwY1EwTGc0amhIWWJuZzNCRWRkMjAyaFI1RjdfRVFlUS1hX3Z3OTcwSzhLcXdLc05uWEZjNXVCMUF3WEtZaG9IeE1DTkg1czA4cjdGTndKd2RDMkFpTFJ2ZUNGQ1l2Z0JDaG8wLWlFcnBVU2d3RkpaR3dfUUZMUkU1bWs2SVhXMGpsOWh0c3hsTDc3ZUtiRG1GLWdkbDQ2VnFB?oc=5",
-     "at": "2026-11-23T12:05Z",
-     "eksik": false
-    },
-    {
-     "title": "Brentford Vs Everton Betting Preview, Prediction, H2H Record, Latest Odds & Best Bets",
-     "source": "BetVictor",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTms3b3hlWTNyc3F3TVZZUEVOcDFXb0NHakM2cU9lekxmakdPZE1FelAyUkphTkhxQ0hrOGcxWnZnTUxFb2JnWFVTak1yUzUtbll0dE0tWTJheDBaMS1EVVhpSHVFYWRWYTdJcTFBd0VjanBmQkF5T01Da0tWZHpQNGl4TGZaS1hoVDB6WnFsNF9IMEJs?oc=5",
-     "at": "2026-11-23T10:07Z",
-     "eksik": false
-    }
-   ],
    "ai": {
     "at": "2026-11-22T23:28Z",
     "away": {
@@ -16145,7 +16069,83 @@
      "ozet": "Brentford'da Nathan Collins sakatlığı nedeniyle yaklaşık 2 hafta sahalardan uzak kalacak; ayrıca Aaron Hickey de forma giyemeyecek."
     },
     "model": "gemini-3.5-flash-lite (aramasız)"
-   }
+   },
+   "away": [
+    {
+     "at": "2026-11-23T15:22Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU2tjTkVqM2EySnI3Z0ZLUExoQXdTNjJMTEMzSEJqSWlEV29JejNPZTBIQ3ZybnhTY2p6WGRUeDl4OHRaOG5Ub2FHSWwtcUlYR2JZMGplaUU3WnRYcFF6dGZRU19NeWd2TGFScE5nRUdzVDRuZDVuY0VwQ2ZUWkFpQUFSMXM5dE9L?oc=5",
+     "source": "Football365",
+     "title": "Brentford vs Everton prediction: Thiago Barry to score again as team news confirmed"
+    },
+    {
+     "at": "2026-11-23T14:50Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQjNHRVFDcWRmZzNpajZkVWFWZnhZbjcxZXFfak1hZ0JBXzV0dTNSV0t1dUZwWUhQSkN1Rlk0T3RfcmY0SlFTTjFCRGNWQm1Nak03aU9QdUZoNUY1M0lCQ2FSQTcxc0RjUWJkdkFTOWxOcG9jRXRCb19lTzc2VlIzOEVXR3BPQ1REbUFmMXBhNGtwUmc1WlFsVExPZ3I?oc=5",
+     "source": "Brentford FC",
+     "title": "Brentford v Everton - match preview, kick-off time and more"
+    },
+    {
+     "at": "2026-11-23T13:04Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYTY5WUF0Z2JkUUpGNmp3dUpWOVZRVG9SY1pQd0dFMTA3MU5zX2ZWSmRVT2tmN0E5dWQ4MHRhemh4UHNXcC1RNDBwTGNuMjZlVjA5eVhyM2FqdHNySThHYlhPQ1dFUzlaZHd1MEFqWDdGdXRDeTJNMGZzLUFmT2VQNWhkZVpqc2l1NkZVdmNWeUk?oc=5",
+     "source": "Brentford FC",
+     "title": "Brentford v Everton"
+    },
+    {
+     "at": "2026-11-23T12:05Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdmtObDRaZTBYYzhlQklMLWN6ZVVaM1dvUFBRakwwY1EwTGc0amhIWWJuZzNCRWRkMjAyaFI1RjdfRVFlUS1hX3Z3OTcwSzhLcXdLc05uWEZjNXVCMUF3WEtZaG9IeE1DTkg1czA4cjdGTndKd2RDMkFpTFJ2ZUNGQ1l2Z0JDaG8wLWlFcnBVU2d3RkpaR3dfUUZMUkU1bWs2SVhXMGpsOWh0c3hsTDc3ZUtiRG1GLWdkbDQ2VnFB?oc=5",
+     "source": "WhoScored.com",
+     "title": "Brentford vs Everton: Lineups, Prediction, Betting Tips & Odds"
+    },
+    {
+     "at": "2026-11-23T10:07Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTms3b3hlWTNyc3F3TVZZUEVOcDFXb0NHakM2cU9lekxmakdPZE1FelAyUkphTkhxQ0hrOGcxWnZnTUxFb2JnWFVTak1yUzUtbll0dE0tWTJheDBaMS1EVVhpSHVFYWRWYTdJcTFBd0VjanBmQkF5T01Da0tWZHpQNGl4TGZaS1hoVDB6WnFsNF9IMEJs?oc=5",
+     "source": "BetVictor",
+     "title": "Brentford Vs Everton Betting Preview, Prediction, H2H Record, Latest Odds & Best Bets"
+    }
+   ],
+   "fetched_at": "2026-11-23T15:47Z",
+   "home": [
+    {
+     "at": "2026-11-23T15:22Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU2tjTkVqM2EySnI3Z0ZLUExoQXdTNjJMTEMzSEJqSWlEV29JejNPZTBIQ3ZybnhTY2p6WGRUeDl4OHRaOG5Ub2FHSWwtcUlYR2JZMGplaUU3WnRYcFF6dGZRU19NeWd2TGFScE5nRUdzVDRuZDVuY0VwQ2ZUWkFpQUFSMXM5dE9L?oc=5",
+     "source": "Football365",
+     "title": "Brentford vs Everton prediction: Thiago Barry to score again as team news confirmed"
+    },
+    {
+     "at": "2026-11-23T14:50Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQjNHRVFDcWRmZzNpajZkVWFWZnhZbjcxZXFfak1hZ0JBXzV0dTNSV0t1dUZwWUhQSkN1Rlk0T3RfcmY0SlFTTjFCRGNWQm1Nak03aU9QdUZoNUY1M0lCQ2FSQTcxc0RjUWJkdkFTOWxOcG9jRXRCb19lTzc2VlIzOEVXR3BPQ1REbUFmMXBhNGtwUmc1WlFsVExPZ3I?oc=5",
+     "source": "Brentford FC",
+     "title": "Brentford v Everton - match preview, kick-off time and more"
+    },
+    {
+     "at": "2026-11-23T13:04Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYTY5WUF0Z2JkUUpGNmp3dUpWOVZRVG9SY1pQd0dFMTA3MU5zX2ZWSmRVT2tmN0E5dWQ4MHRhemh4UHNXcC1RNDBwTGNuMjZlVjA5eVhyM2FqdHNySThHYlhPQ1dFUzlaZHd1MEFqWDdGdXRDeTJNMGZzLUFmT2VQNWhkZVpqc2l1NkZVdmNWeUk?oc=5",
+     "source": "Brentford FC",
+     "title": "Brentford v Everton"
+    },
+    {
+     "at": "2026-11-23T12:05Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdmtObDRaZTBYYzhlQklMLWN6ZVVaM1dvUFBRakwwY1EwTGc0amhIWWJuZzNCRWRkMjAyaFI1RjdfRVFlUS1hX3Z3OTcwSzhLcXdLc05uWEZjNXVCMUF3WEtZaG9IeE1DTkg1czA4cjdGTndKd2RDMkFpTFJ2ZUNGQ1l2Z0JDaG8wLWlFcnBVU2d3RkpaR3dfUUZMUkU1bWs2SVhXMGpsOWh0c3hsTDc3ZUtiRG1GLWdkbDQ2VnFB?oc=5",
+     "source": "WhoScored.com",
+     "title": "Brentford vs Everton: Lineups, Prediction, Betting Tips & Odds"
+    },
+    {
+     "at": "2026-11-23T09:25Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVU4xSkE0MF80WDVzemxKT0hfbVNZeXRqdFJONDdsZ2ozLXJPR1NsMjZzb0FNTjVLZHFrelBuUXZ4cE9hdHZDLVg3ZnFHN1JrRkhIenZBc2lEcWZuaHFpbm1hNGFIcTd4Rllrak1EUEZ5d0tsRE5fSWo0YVhKc2VhQ2x2ZEJldDY4b0dLN3lfNWxPbENhNlV3dA?oc=5",
+     "source": "ToffeeWeb",
+     "title": "Everton vs Brentford – Match preview and team news"
+    }
+   ],
+   "kickoff": "2026-11-23T20:00Z"
   },
   "T1|2026-10-26|Besiktas|Buyuksehyr": {
    "ai": {
@@ -18821,82 +18821,6 @@
    "kickoff": "2026-11-22T16:00Z"
   },
   "T1|2026-11-23|Buyuksehyr|Corum": {
-   "fetched_at": "2026-11-23T15:47Z",
-   "kickoff": "2026-11-23T17:00Z",
-   "home": [
-    {
-     "title": "Başakşehir maçı öncesi Çorum FK'da sakatlık şoku! 3 futbolcu yok",
-     "source": "Çorum Hakimiyet",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQM3dGbWN0UEZXQ0ZRUzNfZGZQTUJFWFVWWTM2aGxvMlRiLUxIelg5YlpfcHh6Q0htTVZBLVJPV0NXb292RjIyc1UtUFFSV3U5Z1VRdVo5ZVZlMDdJa2MzNVVJd3AzNXJDemJHaTZuazZvMHJ6bFd5ZGYyVUxzLW1WSTRQQ0diN2VKV0U5a3plWjNPc0RUSV9LaA?oc=5",
-     "at": "2026-11-23T14:24Z",
-     "eksik": true
-    },
-    {
-     "title": "Başakşehir - Çorum FK maçı ne zaman, saat kaçta, hangi kanalda? Muhtemel 11'ler",
-     "source": "BirGün Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORmtqZVpXRng1UTVOUlhrVlNPVDR0R1VZZi1fWktnem05QUozM0Y4dXpKSHlSMmY1OVoyWUozVEFmX2I5c3RVV1l5YkNVTUFyV0tSRlZ1cllQdzZDNFU4T1J0OHM1MW1jZmFNSWhMSk9QaGxvWUZ1YUV4LWJGYi1Nd1BNM1d1VmVncXgtcU9WWmtST01Wd21GRkVFMnRMU2UwbFkzcXhkaTlWZmlQMzBn?oc=5",
-     "at": "2026-11-23T13:10Z",
-     "eksik": false
-    },
-    {
-     "title": "Başakşehir-Arca Çorum FK maçı saat kaçta, hangi kanalda, muhtemel 11'ler",
-     "source": "Yayla Haber",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORzRnT2VJd2Rhc1Brd1U2YnBWUXVKRmRVZEZPV3RwTVBiYTcxMktfU3RTSzA0M3RMU3M4TENSNV9KaWtYQVE0cFB6NlJ4QUlVYUcxT1RvbFFqXzdmUTBrNEpCRTFHall2UE04NEJNNWs4VmlnMGVxZmdYSkZkcWFPaUZSZW9CTUFSdjY3LTV2MjQtYms1UW9YbzNSOXYtN0ww?oc=5",
-     "at": "2026-11-23T12:12Z",
-     "eksik": false
-    },
-    {
-     "title": "İstanbul Başakşehir - Çorum FK Maçı Öncesi Kadrolar ve Maç Bilgileri",
-     "source": "Canlı Gaste",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbG53Y05yZUZ4NnowQlZMOXNtUktGODFEVDU4YldjbVFfVl9adG5aTGdkYllIXzdqLVM5b2JHYUctWGx1QzV3dzJTaXpVakp3bzlrWGtpTGJoRDBRdmtNNzFzUWk3MHdBaUhubWRRVm5oRVk2ajBfSXgtNm9ubjl1UUhKd2o0R0pjVEdva0E1bkhCNzBmbm94Nm1wRnZvWmV2Ym1F?oc=5",
-     "at": "2026-11-23T11:00Z",
-     "eksik": false
-    },
-    {
-     "title": "Başakşehir - Çorum FK maçı canlı izleme bilgileri",
-     "source": "Urfa Değişim",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaWFMMmxuTkQ2bjR3MDFLOG5yYnhpQVJtRVhhR3B1MXdrWFZzU2tqZ25rS3BuWXZVNUx5cFFpUmU2SmtpYVYySUs4Z0JMeDR1UnhMOFJOVVJ0V29zVDluR3ZoZHlwVEtqNmlncmR4eHNPekhPX3dfQ1JTTVRtaTliQmt3ZGs3UDJSenNURThn?oc=5",
-     "at": "2026-11-23T10:47Z",
-     "eksik": false
-    }
-   ],
-   "away": [
-    {
-     "title": "Başakşehir FK maçında forma giyemeyecekler",
-     "source": "Yayla Haber",
-     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4yQWRNR1BlMVEycjdET0l1aWg5NjV1a05wa3M3ZlFod3ZiZVFwX1NaVmRONnFQcy11NXNhX0VmQ3ZINXBQVHNUTE5oYUdNWl94Yl9URlhabHBOOXVkbG5NM05ieU55SlVMd1BQd1l1MGwzTlRvZjd4LWZxWS0?oc=5",
-     "at": "2026-11-23T15:05Z",
-     "eksik": true
-    },
-    {
-     "title": "Çorum FK’da 3 futbolcu Başakşehir maçında yok",
-     "source": "Hey Haber",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObGNmQlBMekZ0c0tTUW04R0Q5VkhwQlVSdDl0Ul9ubk1TZ3ZlT3lmLXVtU2tsSzItSTVDNTJNX0JTUXRYYkdkVHJVcXBYTElSWHk0WUc1Q1NoYkotXzF6N0ZrUlpVWnJacUJEMi1QSVo2R2U2b05HbmhrMG5iZTQ4di1QSkd0T3E3?oc=5",
-     "at": "2026-11-23T14:29Z",
-     "eksik": false
-    },
-    {
-     "title": "Başakşehir maçı öncesi Çorum FK'da sakatlık şoku! 3 futbolcu yok",
-     "source": "Çorum Hakimiyet",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQM3dGbWN0UEZXQ0ZRUzNfZGZQTUJFWFVWWTM2aGxvMlRiLUxIelg5YlpfcHh6Q0htTVZBLVJPV0NXb292RjIyc1UtUFFSV3U5Z1VRdVo5ZVZlMDdJa2MzNVVJd3AzNXJDemJHaTZuazZvMHJ6bFd5ZGYyVUxzLW1WSTRQQ0diN2VKV0U5a3plWjNPc0RUSV9LaA?oc=5",
-     "at": "2026-11-23T14:24Z",
-     "eksik": true
-    },
-    {
-     "title": "Arca Çorum FK den açıklama 3 isim kadroda yok",
-     "source": "beinsports.com.tr",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeDU1TURQb2tVWVNLLUxDcmlhc2xQZWN6T0JYRGlYYUVhOEdORXA3UVNvM0p3aXd2REJLci0tbFNSSi00ajhZMld4SFJac0U2MlJnd2U3YlFwYUpySTJYU0xXYmJYNE9abWl6QkNGS1BFQ1JBZHI3NTl6MUlvdXVnUS14QWVHS2lBbEHSAYoBQVVfeXFMTXg1NU1EUG9rVVlTSy1MQ3JpYXNsUGVjek9CWERpWGFFYThHTkVwN1FTbzNKd2l3dkRCS3ItLWxTUkotNGo4WTJXeEhSWnNFNjJSZ3dlN2JRcGFKckkyWFNMV2JiWDRPWm1pekJDRktQRUNSQWRyNzU5ejFJb3V1Z1EteEFlR0tpQWxB?oc=5",
-     "at": "2026-11-23T14:12Z",
-     "eksik": true
-    },
-    {
-     "title": "Başakşehir - Çorum FK maçı ne zaman, saat kaçta, hangi kanalda? Muhtemel 11'ler",
-     "source": "BirGün Gazetesi",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORmtqZVpXRng1UTVOUlhrVlNPVDR0R1VZZi1fWktnem05QUozM0Y4dXpKSHlSMmY1OVoyWUozVEFmX2I5c3RVV1l5YkNVTUFyV0tSRlZ1cllQdzZDNFU4T1J0OHM1MW1jZmFNSWhMSk9QaGxvWUZ1YUV4LWJGYi1Nd1BNM1d1VmVncXgtcU9WWmtST01Wd21GRkVFMnRMU2UwbFkzcXhkaTlWZmlQMzBn?oc=5",
-     "at": "2026-11-23T13:10Z",
-     "eksik": false
-    }
-   ],
    "ai": {
     "at": "2026-11-22T23:28Z",
     "away": {
@@ -18909,7 +18833,83 @@
      "ozet": "Maç günü öncesinde Başakşehir takımında bildirilen resmi veya güncel sakat/cezalı oyuncu bilgisi bulunmamaktadır."
     },
     "model": "gemini-3.5-flash-lite (aramasız)"
-   }
+   },
+   "away": [
+    {
+     "at": "2026-11-23T15:05Z",
+     "eksik": true,
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4yQWRNR1BlMVEycjdET0l1aWg5NjV1a05wa3M3ZlFod3ZiZVFwX1NaVmRONnFQcy11NXNhX0VmQ3ZINXBQVHNUTE5oYUdNWl94Yl9URlhabHBOOXVkbG5NM05ieU55SlVMd1BQd1l1MGwzTlRvZjd4LWZxWS0?oc=5",
+     "source": "Yayla Haber",
+     "title": "Başakşehir FK maçında forma giyemeyecekler"
+    },
+    {
+     "at": "2026-11-23T14:29Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObGNmQlBMekZ0c0tTUW04R0Q5VkhwQlVSdDl0Ul9ubk1TZ3ZlT3lmLXVtU2tsSzItSTVDNTJNX0JTUXRYYkdkVHJVcXBYTElSWHk0WUc1Q1NoYkotXzF6N0ZrUlpVWnJacUJEMi1QSVo2R2U2b05HbmhrMG5iZTQ4di1QSkd0T3E3?oc=5",
+     "source": "Hey Haber",
+     "title": "Çorum FK’da 3 futbolcu Başakşehir maçında yok"
+    },
+    {
+     "at": "2026-11-23T14:24Z",
+     "eksik": true,
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQM3dGbWN0UEZXQ0ZRUzNfZGZQTUJFWFVWWTM2aGxvMlRiLUxIelg5YlpfcHh6Q0htTVZBLVJPV0NXb292RjIyc1UtUFFSV3U5Z1VRdVo5ZVZlMDdJa2MzNVVJd3AzNXJDemJHaTZuazZvMHJ6bFd5ZGYyVUxzLW1WSTRQQ0diN2VKV0U5a3plWjNPc0RUSV9LaA?oc=5",
+     "source": "Çorum Hakimiyet",
+     "title": "Başakşehir maçı öncesi Çorum FK'da sakatlık şoku! 3 futbolcu yok"
+    },
+    {
+     "at": "2026-11-23T14:12Z",
+     "eksik": true,
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeDU1TURQb2tVWVNLLUxDcmlhc2xQZWN6T0JYRGlYYUVhOEdORXA3UVNvM0p3aXd2REJLci0tbFNSSi00ajhZMld4SFJac0U2MlJnd2U3YlFwYUpySTJYU0xXYmJYNE9abWl6QkNGS1BFQ1JBZHI3NTl6MUlvdXVnUS14QWVHS2lBbEHSAYoBQVVfeXFMTXg1NU1EUG9rVVlTSy1MQ3JpYXNsUGVjek9CWERpWGFFYThHTkVwN1FTbzNKd2l3dkRCS3ItLWxTUkotNGo4WTJXeEhSWnNFNjJSZ3dlN2JRcGFKckkyWFNMV2JiWDRPWm1pekJDRktQRUNSQWRyNzU5ejFJb3V1Z1EteEFlR0tpQWxB?oc=5",
+     "source": "beinsports.com.tr",
+     "title": "Arca Çorum FK den açıklama 3 isim kadroda yok"
+    },
+    {
+     "at": "2026-11-23T13:10Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORmtqZVpXRng1UTVOUlhrVlNPVDR0R1VZZi1fWktnem05QUozM0Y4dXpKSHlSMmY1OVoyWUozVEFmX2I5c3RVV1l5YkNVTUFyV0tSRlZ1cllQdzZDNFU4T1J0OHM1MW1jZmFNSWhMSk9QaGxvWUZ1YUV4LWJGYi1Nd1BNM1d1VmVncXgtcU9WWmtST01Wd21GRkVFMnRMU2UwbFkzcXhkaTlWZmlQMzBn?oc=5",
+     "source": "BirGün Gazetesi",
+     "title": "Başakşehir - Çorum FK maçı ne zaman, saat kaçta, hangi kanalda? Muhtemel 11'ler"
+    }
+   ],
+   "fetched_at": "2026-11-23T15:47Z",
+   "home": [
+    {
+     "at": "2026-11-23T14:24Z",
+     "eksik": true,
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQM3dGbWN0UEZXQ0ZRUzNfZGZQTUJFWFVWWTM2aGxvMlRiLUxIelg5YlpfcHh6Q0htTVZBLVJPV0NXb292RjIyc1UtUFFSV3U5Z1VRdVo5ZVZlMDdJa2MzNVVJd3AzNXJDemJHaTZuazZvMHJ6bFd5ZGYyVUxzLW1WSTRQQ0diN2VKV0U5a3plWjNPc0RUSV9LaA?oc=5",
+     "source": "Çorum Hakimiyet",
+     "title": "Başakşehir maçı öncesi Çorum FK'da sakatlık şoku! 3 futbolcu yok"
+    },
+    {
+     "at": "2026-11-23T13:10Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORmtqZVpXRng1UTVOUlhrVlNPVDR0R1VZZi1fWktnem05QUozM0Y4dXpKSHlSMmY1OVoyWUozVEFmX2I5c3RVV1l5YkNVTUFyV0tSRlZ1cllQdzZDNFU4T1J0OHM1MW1jZmFNSWhMSk9QaGxvWUZ1YUV4LWJGYi1Nd1BNM1d1VmVncXgtcU9WWmtST01Wd21GRkVFMnRMU2UwbFkzcXhkaTlWZmlQMzBn?oc=5",
+     "source": "BirGün Gazetesi",
+     "title": "Başakşehir - Çorum FK maçı ne zaman, saat kaçta, hangi kanalda? Muhtemel 11'ler"
+    },
+    {
+     "at": "2026-11-23T12:12Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORzRnT2VJd2Rhc1Brd1U2YnBWUXVKRmRVZEZPV3RwTVBiYTcxMktfU3RTSzA0M3RMU3M4TENSNV9KaWtYQVE0cFB6NlJ4QUlVYUcxT1RvbFFqXzdmUTBrNEpCRTFHall2UE04NEJNNWs4VmlnMGVxZmdYSkZkcWFPaUZSZW9CTUFSdjY3LTV2MjQtYms1UW9YbzNSOXYtN0ww?oc=5",
+     "source": "Yayla Haber",
+     "title": "Başakşehir-Arca Çorum FK maçı saat kaçta, hangi kanalda, muhtemel 11'ler"
+    },
+    {
+     "at": "2026-11-23T11:00Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbG53Y05yZUZ4NnowQlZMOXNtUktGODFEVDU4YldjbVFfVl9adG5aTGdkYllIXzdqLVM5b2JHYUctWGx1QzV3dzJTaXpVakp3bzlrWGtpTGJoRDBRdmtNNzFzUWk3MHdBaUhubWRRVm5oRVk2ajBfSXgtNm9ubjl1UUhKd2o0R0pjVEdva0E1bkhCNzBmbm94Nm1wRnZvWmV2Ym1F?oc=5",
+     "source": "Canlı Gaste",
+     "title": "İstanbul Başakşehir - Çorum FK Maçı Öncesi Kadrolar ve Maç Bilgileri"
+    },
+    {
+     "at": "2026-11-23T10:47Z",
+     "eksik": false,
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaWFMMmxuTkQ2bjR3MDFLOG5yYnhpQVJtRVhhR3B1MXdrWFZzU2tqZ25rS3BuWXZVNUx5cFFpUmU2SmtpYVYySUs4Z0JMeDR1UnhMOFJOVVJ0V29zVDluR3ZoZHlwVEtqNmlncmR4eHNPekhPX3dfQ1JTTVRtaTliQmt3ZGs3UDJSenNURThn?oc=5",
+     "source": "Urfa Değişim",
+     "title": "Başakşehir - Çorum FK maçı canlı izleme bilgileri"
+    }
+   ],
+   "kickoff": "2026-11-23T17:00Z"
   }
  },
  "coupon_types": {
@@ -18919,9 +18919,9 @@
  },
  "coupon_stats": {
   "dusuk": {
-   "n": 13,
-   "won": 7,
-   "net": -3.56
+   "n": 14,
+   "won": 8,
+   "net": -3.47
   },
   "orta": {
    "n": 10,
@@ -19014,7 +19014,7 @@
      "market": "CS",
      "prob": 0.9649,
      "odds": 0.98,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "E0",
@@ -19047,7 +19047,7 @@
      "market": "CS",
      "prob": 0.8276,
      "odds": 1.13,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "E0",
@@ -19069,7 +19069,7 @@
      "market": "CS",
      "prob": 0.9477,
      "odds": 0.99,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -19113,7 +19113,7 @@
      "market": "CS",
      "prob": 0.9477,
      "odds": 0.99,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -19157,7 +19157,7 @@
      "market": "CS",
      "prob": 0.9587,
      "odds": 0.98,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -19165,7 +19165,7 @@
    "id": "dusuk-202611202352",
    "type": "dusuk",
    "created_at": "2026-11-20T23:52Z",
-   "status": "bekliyor",
+   "status": "kazandi",
    "backfill": false,
    "odds": 1.09,
    "prob": 0.772,
@@ -19190,7 +19190,7 @@
      "market": "CS",
      "prob": 0.9254,
      "odds": 1.02,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "T1",
@@ -19201,7 +19201,7 @@
      "market": "CS",
      "prob": 0.9477,
      "odds": 0.99,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -20774,7 +20774,7 @@
      "market": "1X2",
      "prob": 0.8898,
      "odds": 1.1,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "E0",
@@ -20829,7 +20829,7 @@
      "market": "1X2",
      "prob": 0.8487,
      "odds": 1.14,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -20851,7 +20851,7 @@
      "market": "1X2",
      "prob": 0.7962,
      "odds": 1.22,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "E0",
@@ -20873,7 +20873,7 @@
      "market": "1X2",
      "prob": 0.8487,
      "odds": 1.14,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -21808,7 +21808,7 @@
      "market": "1X2",
      "prob": 0.3935,
      "odds": 2.37,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "T1",
@@ -21819,7 +21819,7 @@
      "market": "OU",
      "prob": 0.5174,
      "odds": 1.84,
-     "result": "bekliyor"
+     "result": "kazandi"
     },
     {
      "league": "T1",
@@ -21896,7 +21896,7 @@
      "market": "OU",
      "prob": 0.5004,
      "odds": 1.91,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -23518,10 +23518,5 @@
    ]
   }
  ],
- "uyarilar": [
-  {
-   "kaynak": "Gemini",
-   "mesaj": "2/2 maç analiz edilemedi"
-  }
- ]
+ "uyarilar": []
 }
