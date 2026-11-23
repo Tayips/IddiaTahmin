@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23T21:52Z",
+ "updated_at": "2026-11-23T23:02Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
@@ -11,22 +11,22 @@
  },
  "stats": {
   "genel": {
-   "n": 216,
-   "correct": 108,
-   "accuracy": 0.5,
-   "rps": 0.2155,
+   "n": 217,
+   "correct": 109,
+   "accuracy": 0.5023,
+   "rps": 0.2157,
    "brier": 0.6012,
-   "log_loss": 1.0059,
-   "odds_accuracy": 0.537
+   "log_loss": 1.0058,
+   "odds_accuracy": 0.5392
   },
   "canli": {
-   "n": 65,
-   "correct": 38,
-   "accuracy": 0.5846,
-   "rps": 0.2031,
-   "brier": 0.5607,
-   "log_loss": 0.9463,
-   "odds_accuracy": 0.5846
+   "n": 66,
+   "correct": 39,
+   "accuracy": 0.5909,
+   "rps": 0.2038,
+   "brier": 0.5611,
+   "log_loss": 0.9468,
+   "odds_accuracy": 0.5909
   },
   "lig": {
    "T1": {
@@ -39,23 +39,23 @@
     "odds_accuracy": 0.5888
    },
    "E0": {
-    "n": 109,
-    "correct": 52,
-    "accuracy": 0.4771,
-    "rps": 0.2147,
-    "brier": 0.627,
-    "log_loss": 1.0415,
-    "odds_accuracy": 0.4862
+    "n": 110,
+    "correct": 53,
+    "accuracy": 0.4818,
+    "rps": 0.215,
+    "brier": 0.6267,
+    "log_loss": 1.041,
+    "odds_accuracy": 0.4909
    }
   },
   "son_30_gun": {
-   "n": 65,
-   "correct": 38,
-   "accuracy": 0.5846,
-   "rps": 0.2031,
-   "brier": 0.5607,
-   "log_loss": 0.9463,
-   "odds_accuracy": 0.5846
+   "n": 66,
+   "correct": 39,
+   "accuracy": 0.5909,
+   "rps": 0.2038,
+   "brier": 0.5611,
+   "log_loss": 0.9468,
+   "odds_accuracy": 0.5909
   },
   "guven": {
    "50%+": {
@@ -10536,15 +10536,15 @@
    "f_a_sot": 4.87,
    "f_h_rest": 14.0,
    "f_a_rest": 14.0,
-   "fthg": null,
-   "ftag": null,
-   "ftr": null,
-   "status": "sonuc_bekleniyor",
-   "correct": null,
+   "fthg": 4.0,
+   "ftag": 0.0,
+   "ftr": "H",
+   "status": "bitti",
+   "correct": 1.0,
    "odds_pick": "H",
-   "odds_correct": null,
-   "o25_correct": null,
-   "kg_correct": null,
+   "odds_correct": 1.0,
+   "o25_correct": 1.0,
+   "kg_correct": 0.0,
    "mk_h": 0.4184,
    "mk_d": 0.2759,
    "mk_a": 0.3057,
@@ -18981,7 +18981,7 @@
      "market": "CS",
      "prob": 0.697,
      "odds": 1.32,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -21786,7 +21786,7 @@
      "market": "OU",
      "prob": 0.5328,
      "odds": 1.85,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
@@ -21841,7 +21841,7 @@
      "market": "1X2",
      "prob": 0.4062,
      "odds": 2.12,
-     "result": "bekliyor"
+     "result": "kazandi"
     }
    ]
   },
