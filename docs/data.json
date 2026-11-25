@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-25T15:23Z",
+ "updated_at": "2026-11-25T19:43Z",
  "model": "form-piyasa-v2",
  "leagues": {
   "T1": "Süper Lig",
@@ -49,13 +49,13 @@
    }
   },
   "son_30_gun": {
-   "n": 60,
-   "correct": 36,
-   "accuracy": 0.6,
-   "rps": 0.203,
-   "brier": 0.5506,
-   "log_loss": 0.9324,
-   "odds_accuracy": 0.6
+   "n": 57,
+   "correct": 33,
+   "accuracy": 0.5789,
+   "rps": 0.2079,
+   "brier": 0.5653,
+   "log_loss": 0.9529,
+   "odds_accuracy": 0.5789
   },
   "guven": {
    "50%+": {
